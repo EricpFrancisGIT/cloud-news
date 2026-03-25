@@ -1,0 +1,20 @@
+{
+  "name": "cloud-news",
+  "version": "1.0.0",
+  "description": "AWS Cloud News Dashboard — real-time updates from official AWS sources",
+  "scripts": {
+    "update-news": "node scripts/fetch-news.js"
+  },
+  "keywords": [
+    "aws",
+    "cloud",
+    "news",
+    "rss",
+    "dashboard"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cloud-news": "file:",
+    "rss-parser": "^3.13.0"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "lastUpdated": "2026-03-25T00:02:47.040Z",
+  "items": [
+    {
+      "title": "How Generali Malaysia optimizes operations with Amazon EKS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-generali-malaysia-optimizes-operations-with-amazon-eks/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-03-23T22:51:02.000Z",
+      "snippet": "In this post, we look at how Generali is using Amazon EKS Auto Mode and its integration with other AWS services to enhance performance while reducing operational overhead, optimizing costs, and enhancing security."
+    },
+    {
+      "title": "IAM policy types: How and when to use them",
+      "link": "https://aws.amazon.com/blogs/security/iam-policy-types-how-and-when-to-use-them/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-03-23T20:13:44.000Z",
+      "snippet": "June 3, 2022: Original publication date of this post. This post has been updated to add the additional IAM policy types: Resource control policies. You manage access in AWS by creating policies and attaching them to AWS Identity and Access Management (IAM)…"
+    },
+    {
+      "title": "AWS Weekly Roundup: NVIDIA Nemotron 3 Super on Amazon Bedrock, Nova Forge SDK, Amazon Corretto 26, and more (March 23, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-nvidia-nemotron-3-super-on-amazon-bedrock-nova-forge-sdk-amazon-corretto-26-and-more-march-23-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-03-23T16:40:41.000Z",
+      "snippet": "Hello! I’m Daniel Abib, and this is my first AWS Weekly Roundup. I’m a Senior Specialist Solutions Architect at AWS, focused on the generative AI and Amazon Bedrock. With over 28 years of experience in solution architecture, software development, and cloud…"
+    },
+    {
+      "title": "AWS HealthImaging is now available in Europe (London)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-europe-london/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-23T07:00:00.000Z",
+      "snippet": "AWS HealthImaging is now available in the AWS Europe (London) Region. AWS HealthImaging is a HIPAA-eligible service that empowers healthcare providers, life sciences organizations, and their software partners to store, analyze, and share medical images at…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Runtime adds WebRTC support for real-time bidirectional streaming",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-20T21:54:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Runtime now supports WebRTC for real-time bidirectional streaming between clients and agents, adding to the existing WebSocket protocol support. With WebRTC, developers can build voice agents for browser and mobile applications that…"
+    },
+    {
+      "title": "Amazon EKS announces 99.99% Service Level Agreement and new 8XL scaling tier for Provisioned Control Plane clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-eks-announces-sla-8xl-scaling-tier/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-20T20:48:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a 99.99% Service Level Agreement (SLA) for clusters running on Provisioned Control Plane, up from the 99.95% SLA offered on standard control plane. Amazon EKS is also introducing the 8XL scaling tier,…"
+    },
+    {
+      "title": "AWS Neuron announces support for Dynamic Resource Allocation with Amazon EKS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/neuron-eks-dra-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-20T18:38:00.000Z",
+      "snippet": "AWS announces the Neuron Dynamic Resource Allocation (DRA) driver for Amazon Elastic Kubernetes Service (EKS), bringing Kubernetes-native hardware-aware scheduling to AWS Trainium-based instances. The Neuron DRA driver publishes rich device attributes…"
+    },
+    {
+      "title": "Amazon Polly expands Generative TTS engine with 10 new voices, 2 new regions, and Bidirectional Streaming API",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-polly-expands-TTS-new-voices-and-bidirectional-streaming/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-20T16:10:00.000Z",
+      "snippet": "Today, we are excited to announce the general availability of 10 new highly expressive Amazon Polly Generative voices across 8 locales: Tiffany (American English), Brian (British English), Aria (New Zealand English), Jasmine (Singapore English), Florian…"
+    },
+    {
+      "title": "AWS DataSync now supports AWS Secrets Manager for all location types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-datasync-secrets-manager/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-20T10:00:00.000Z",
+      "snippet": "AWS DataSync now supports AWS Secrets Manager for credential management across all location types, including Hadoop Distributed File System (HDFS), Amazon FSx for Windows File Server, and Amazon FSx for NetApp ONTAP. Previously, Secrets Manager integration…"
+    },
+    {
+      "title": "AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-ap-nz/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-20T05:00:00.000Z",
+      "snippet": "AWS Firewall Manager announces that it is now available in AWS Asia Pacific (New Zealand) Region. AWS Firewall Manager helps cloud security administrators and site reliability engineers protect applications while reducing the operational overhead of manually…"
+    },
+    {
+      "title": "AWS MCP Server (Preview) now with enhanced monitoring and semantic search capability",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-mcp-server-preview-enhanced-monitoring/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-19T23:36:00.000Z",
+      "snippet": "Today, AWS announces that the AWS MCP Server (preview) now publishes operational metrics to Amazon CloudWatch and introduces scalable Agent SOPs discovery using semantic similarity. Agent SOPs are pre-built, tested workflows that guide AI assistants through…"
+    },
+    {
+      "title": "Amazon EC2 Fleet now supports interruptible Capacity Reservations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-fleet-interruptible-capacity-reservations/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-19T20:30:00.000Z",
+      "snippet": "Amazon EC2 Fleet now supports interruptible Capacity Reservations. EC2 Fleet allows you to launch instances across multiple instance types and Availability Zones. Starting today, you can specify interruptible Capacity Reservation IDs across your Launch…"
+    },
+    {
+      "title": "AWS adds support for NIXL with EFA to accelerate LLM inference at scale",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-support-nixl-with-efa/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-19T18:00:00.000Z",
+      "snippet": "AWS announces support for NVIDIA Inference Xfer Library (NIXL) with Elastic Fabric Adapter (EFA) to accelerate disaggregated large language model (LLM) inference on Amazon EC2. This integration enhances disaggregated inference serving through three key…"
+    },
+    {
+      "title": "Amazon Redshift supports federated permissions with IAM Identity Center in multiple AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/redshift-federated-permissions-idc-mrr/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-19T17:13:00.000Z",
+      "snippet": "Amazon Redshift federated permissions are now supported with AWS IAM Identity Center (IdC) in multiple AWS Regions. You can extend IdC from your primary AWS Region to additional Regions for improved performance through proximity to users and reliability. In…"
+    },
+    {
+      "title": "Amazon EC2 C8gn instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8gn-instances-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-19T17:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Region Asia Pacific (Jakarta, Hyderabad, Tokyo), South America (Sao Paulo), and Europe (Zurich). The…"
+    },
+    {
+      "title": "AWS Lambda now supports Availability Zone metadata",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-availability-zone-metadata/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-19T16:36:00.000Z",
+      "snippet": "AWS Lambda now provides Availability Zone (AZ) metadata through a new metadata endpoint in the Lambda execution environment. With this capability, developers can determine the AZ ID (e.g., use1-az1) of the AZ their Lambda function is running in, enabling them…"
+    },
+    {
+      "title": "AWS Direct Connect announces new location in Sydney, Australia",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-sydney-sy5/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-19T16:00:00.000Z",
+      "snippet": "Today, AWS announced the opening of a new AWS Direct Connect location at Equinix SY5 in Sydney, Australia. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and AWS Local Zones from…"
+    },
+    {
+      "title": "20 years in the AWS Cloud – how time flies!",
+      "link": "https://aws.amazon.com/blogs/aws/20-years-in-the-aws-cloud-how-time-flies/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-03-19T13:35:54.000Z",
+      "snippet": "Celebrating twenty years of innovation in ML and AI technology at AWS. Countless developers—myself included—have embraced cloud computing and actively used its capabilities to accomplish what was previously impossible."
+    },
+    {
+      "title": "Amazon RDS Custom for SQL Server adds ability to view and schedule new operating system updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-custom-sql-server-operating-system-updates/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-19T07:00:00.000Z",
+      "snippet": "Amazon RDS Custom for SQL Server now provides customers with ability to view and schedule new operating system (OS) updates for RDS provided engine versions (RPEV). With RPEV, RDS Custom provides a SQL Server version pre-installed on an Amazon Machine Image…"
+    },
+    {
+      "title": "Minimax M2.5 and GLM 5 models now available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-minimax-glm/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-18T21:07:00.000Z",
+      "snippet": "Amazon Bedrock expands model selection for customers by adding support for GLM 5 and Minimax M2.5. GLM 5 is a frontier‑class, general‑purpose large language model optimized for complex systems engineering and long‑horizon agentic tasks. It builds on the GLM…"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7i-6TB instances now available in Asia Pacific (Malaysia)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-high-memory-u7i-6tb-asia-pacific/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-18T19:00:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge) are now available in AWS Asia Pacific (Malaysia). U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel Xeon Scalable Processors (Sapphire…"
+    },
+    {
+      "title": "AI-powered event response for Amazon EKS",
+      "link": "https://aws.amazon.com/blogs/architecture/ai-powered-event-response-for-amazon-eks/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-03-18T18:23:37.000Z",
+      "snippet": "In this post, you'll learn how AWS DevOps Agent integrates with your existing observability stack to provide intelligent, automated responses to system events."
+    },
+    {
+      "title": "NVIDIA Nemotron 3 Super now available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-nemotron-3-super/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-18T18:00:00.000Z",
+      "snippet": "Amazon Bedrock now supports NVIDIA Nemotron 3 Super, an open hybrid Mixture-of-Experts (MoE) model designed for complex multi-agent applications. Built for agentic workloads, Nemotron 3 Super delivers fast, and cost-efficient inference enabling AI agents to…"
+    },
+    {
+      "title": "Amazon ECR now supports pull through cache for Chainguard",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecr-pull-through-cache-chainguard/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-18T18:00:00.000Z",
+      "snippet": "Amazon Elastic Container Registry (Amazon ECR) pull through cache now supports Chainguard’s registry as an upstream source. With today’s release, customers now benefit from the security and availability of Amazon ECR for private Chainguard images. As…"
+    },
+    {
+      "title": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (New Zealand) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-access-grants-new-zealand/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-18T17:17:00.000Z",
+      "snippet": "You can now create Amazon S3 Access Grants in the AWS Asia Pacific (New Zealand) Region. Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in S3. This helps…"
+    },
+    {
+      "title": "Amazon EC2 M6in and M6idn instances are now available in Europe (London) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m6in-m6idn-instances-london/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-18T16:39:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances are available in AWS London Region. These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors and built on the AWS Nitro…"
+    },
+    {
+      "title": "Our First 2026 AWS Heroes Cohort Is Here!",
+      "link": "https://aws.amazon.com/blogs/aws/our-first-2026-heroes-cohort-is-here/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-03-18T16:26:15.000Z",
+      "snippet": "We’re thrilled to celebrate three exceptional developer community leaders as AWS Heroes. These individuals represent the heart of what makes the AWS community so vibrant. In addition to sharing technical knowledge, they build connections, forge genuine human…"
+    },
+    {
+      "title": "Amazon EC2 C8a instances now available in the Asia Pacific (Tokyo) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-asia-pacific-tokyo-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-18T16:00:00.000Z",
+      "snippet": "Starting today, the compute-optimized Amazon EC2 C8a instances are available in the Asia Pacific (Tokyo) region. C8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, delivering up to 30%…"
+    },
+    {
+      "title": "Amazon threat intelligence teams identify Interlock ransomware campaign targeting enterprise firewalls",
+      "link": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-teams-identify-interlock-ransomware-campaign-targeting-enterprise-firewalls/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-03-18T15:57:45.000Z",
+      "snippet": "Amazon threat intelligence has identified an active Interlock ransomware campaign exploiting CVE-2026-20131, a critical vulnerability in Cisco Secure Firewall Management Center (FMC) Software that could allow an unauthenticated, remote attacker to execute…"
+    },
+    {
+      "title": "Amazon Inspector expands agentless EC2 scanning and introduces Windows KB-based findings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-inspector-agentless-ec2-scanning-windows/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-18T15:44:00.000Z",
+      "snippet": "Amazon Inspector now offers expanded agentless EC2 scanning with enhanced detection coverage, including new support for Windows operating system vulnerability scanning without requiring an agent. Security teams and IT administrators can now detect…"
+    }
+  ]
+}

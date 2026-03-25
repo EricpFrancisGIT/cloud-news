@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Real-time AWS cloud news aggregated from official AWS RSS feeds including What's New, News Blog, Architecture Blog, and Security Blog.">
+  <meta name="theme-color" content="#0f1419">
+  <title>AWS Cloud News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       Sticky shell — header + filter bar scroll together
+       ═══════════════════════════════════════════════════════ -->
+  <div class="sticky-shell">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-inner">
+        <!-- Brand -->
+        <div class="brand">
+          <!-- AWS-style cloud icon -->
+          <svg class="brand-icon" viewBox="0 0 80 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#ffb340"/>
+                <stop offset="100%" stop-color="#ff8800"/>
+              </linearGradient>
+            </defs>
+            <!-- Cloud body -->
+            <path d="M62 32a13 13 0 0 0-1.4-26 12.9 12.9 0 0 0-5.3 1.13A20 20 0 0 0 14 20a13 13 0 0 0 2 25.8L62 46V32z"
+                  fill="url(#cg)"/>
+            <!-- AWS smile / arrow underline -->
+            <path d="M24 49 Q40 58 56 49" stroke="#0a0e14" stroke-width="3.5"
+                  stroke-linecap="round" fill="none"/>
+            <path d="M53 46.5 L56 49 L53 51.5" stroke="#0a0e14" stroke-width="3.5"
+                  stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+
+          <div class="brand-text">
+            <h1 class="brand-title">AWS Cloud News</h1>
+            <p class="brand-subtitle">Real-time Updates from Official Sources</p>
+          </div>
+        </div>
+
+        <!-- Right controls -->
+        <div class="header-right">
+          <div class="live-badge" aria-label="Live feed">
+            <span class="live-dot" aria-hidden="true"></span>
+            <span class="live-label">Live</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Filter bar -->
+    <nav class="filter-bar" aria-label="Filter news by source">
+      <div class="container">
+        <div class="filter-tabs" role="tablist">
+
+          <button class="tab active" data-source="all" role="tab" aria-selected="true">
+            <!-- Globe icon -->
+            <svg class="tab-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.068-.1.5.213.14.406.272.587.395.704.472 1.297.868.913 1.405-.373.527-1.908.953-2.62.534-.932-.552-.706-1.949 0-2.5.206-.162.422-.295.63-.424.297-.183.578-.356.77-.576.38-.434.287-1.046.2-1.632C6.973 2.553 6.327.5 5.5.5c-.47 0-.98.17-1.461.326z"/>
+            </svg>
+            All
+            <span class="tab-count" id="cnt-all">—</span>
+          </button>
+
+          <button class="tab" data-source="AWS What's New" role="tab" aria-selected="false">
+            <!-- Lightning bolt -->
+            <svg class="tab-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z"/>
+            </svg>
+            What's New
+            <span class="tab-count" id="cnt-whats-new">—</span>
+          </button>
+
+          <button class="tab" data-source="AWS News Blog" role="tab" aria-selected="false">
+            <!-- Document -->
+            <svg class="tab-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/>
+              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+            </svg>
+            News Blog
+            <span class="tab-count" id="cnt-news-blog">—</span>
+          </button>
+
+          <button class="tab" data-source="AWS Architecture Blog" role="tab" aria-selected="false">
+            <!-- Bar chart / architecture -->
+            <svg class="tab-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            Architecture
+            <span class="tab-count" id="cnt-architecture">—</span>
+          </button>
+
+          <button class="tab" data-source="AWS Security Blog" role="tab" aria-selected="false">
+            <!-- Shield -->
+            <svg class="tab-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524z"/>
+            </svg>
+            Security
+            <span class="tab-count" id="cnt-security">—</span>
+          </button>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- /sticky-shell -->
+
+  <!-- ═══════════════════════════════════════════════════════
+       Main content
+       ═══════════════════════════════════════════════════════ -->
+  <main class="main" id="main">
+    <div class="container">
+      <div id="news-grid" class="news-grid" role="feed" aria-label="News articles" aria-busy="true">
+        <!-- Skeleton cards injected by JS -->
+      </div>
+    </div>
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════
+       Footer
+       ═══════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <!-- Clock icon -->
+        <svg class="footer-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+        </svg>
+        Last updated: <time id="last-updated">—</time>
+      </div>
+      <div class="footer-right">
+        Data from official
+        <a href="https://aws.amazon.com/blogs/" target="_blank" rel="noopener noreferrer">
+          AWS RSS feeds
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════
+       JavaScript
+       ═══════════════════════════════════════════════════════ -->
+  <script>
+  (() => {
+    'use strict';
+
+    /* ── Source configuration ──────────────────────────────── */
+    const SOURCES = {
+      "AWS What's New": {
+        bg: '#ff9900', fg: '#0a0e14',
+        accent: 'var(--orange)',
+        label: "What's New",
+        countId: 'cnt-whats-new',
+      },
+      'AWS News Blog': {
+        bg: '#147EFB', fg: '#ffffff',
+        accent: 'var(--blue)',
+        label: 'News Blog',
+        countId: 'cnt-news-blog',
+      },
+      'AWS Architecture Blog': {
+        bg: '#00cba9', fg: '#0a0e14',
+        accent: 'var(--teal)',
+        label: 'Architecture',
+        countId: 'cnt-architecture',
+      },
+      'AWS Security Blog': {
+        bg: '#ff5c7c', fg: '#ffffff',
+        accent: 'var(--rose)',
+        label: 'Security',
+        countId: 'cnt-security',
+      },
+    };
+
+    /* ── State ─────────────────────────────────────────────── */
+    let allItems = [];
+    let currentSource = 'all';
+
+    /* ── Helpers ───────────────────────────────────────────── */
+    function escHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function relativeTime(dateStr) {
+      if (!dateStr) return '';
+      const d = new Date(dateStr);
+      if (isNaN(d)) return '';
+      const diff = Date.now() - d.getTime();
+      const s = Math.floor(diff / 1000);
+      const m = Math.floor(s / 60);
+      const h = Math.floor(m / 60);
+      const days = Math.floor(h / 24);
+      const weeks = Math.floor(days / 7);
+      const months = Math.floor(days / 30);
+      if (s < 60)    return 'Just now';
+      if (m < 60)    return `${m}m ago`;
+      if (h < 24)    return `${h}h ago`;
+      if (days === 1) return 'Yesterday';
+      if (days < 7)  return `${days}d ago`;
+      if (weeks < 5) return `${weeks}w ago`;
+      if (months < 12) return `${months}mo ago`;
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function fullDate(dateStr) {
+      if (!dateStr) return '';
+      const d = new Date(dateStr);
+      return isNaN(d) ? '' : d.toLocaleString('en-US', {
+        month: 'long', day: 'numeric', year: 'numeric',
+        hour: '2-digit', minute: '2-digit',
+      });
+    }
+
+    /* ── Skeleton screens ──────────────────────────────────── */
+    function renderSkeletons(n = 9) {
+      const grid = document.getElementById('news-grid');
+      grid.innerHTML = Array.from({ length: n }, () => `
+        <article class="card skeleton-card" aria-hidden="true">
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="skeleton sk-badge"></span>
+              <span class="skeleton sk-date"></span>
+            </div>
+            <span class="skeleton sk-line w-full" style="margin-top:12px"></span>
+            <span class="skeleton sk-line w-75"   style="margin-top:8px"></span>
+            <span class="skeleton sk-line w-full"  style="margin-top:16px"></span>
+            <span class="skeleton sk-line w-90"   style="margin-top:8px"></span>
+            <span class="skeleton sk-line w-60"   style="margin-top:8px"></span>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    /* ── Render cards ──────────────────────────────────────── */
+    function renderCards(items) {
+      const grid = document.getElementById('news-grid');
+      grid.setAttribute('aria-busy', 'false');
+
+      if (!items.length) {
+        grid.innerHTML = `
+          <div class="state-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/>
+            </svg>
+            <h3>No articles found</h3>
+            <p>Try selecting a different category</p>
+          </div>`;
+        return;
+      }
+
+      const frag = document.createDocumentFragment();
+
+      items.forEach((item, i) => {
+        const cfg = SOURCES[item.source] || { bg: '#8b949e', fg: '#fff', accent: '#8b949e', label: item.source };
+        const delay = Math.min(i * 0.045, 0.55);
+        const rel = relativeTime(item.pubDate);
+        const full = fullDate(item.pubDate);
+        const snippet = item.snippet ? escHtml(item.snippet) : '';
+        const title = escHtml(item.title || 'Untitled');
+
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.style.cssText = `--delay:${delay}s; --card-accent:${cfg.accent}`;
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('role', 'article');
+        card.setAttribute('aria-label', item.title || 'News article');
+
+        card.innerHTML = `
+          <div class="card-inner">
+            <div class="card-header">
+              <span class="source-badge" style="--b-bg:${cfg.bg};--b-fg:${cfg.fg}">
+                ${escHtml(cfg.label)}
+              </span>
+              <time class="card-date" datetime="${escHtml(item.pubDate || '')}"
+                    title="${escHtml(full)}">${rel}</time>
+            </div>
+            <h2 class="card-title">${title}</h2>
+            ${snippet ? `<p class="card-snippet">${snippet}</p>` : ''}
+            <div class="card-footer">
+              <span class="card-link-hint">
+                Open article
+                <svg class="ext-icon" viewBox="0 0 16 16" fill="none"
+                     stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V9M9 1h6v6M8.5 7.5 15 1"/>
+                </svg>
+              </span>
+            </div>
+          </div>`;
+
+        const open = () => {
+          if (item.link) window.open(item.link, '_blank', 'noopener,noreferrer');
+        };
+        card.addEventListener('click', open);
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+        });
+
+        frag.appendChild(card);
+      });
+
+      grid.innerHTML = '';
+      grid.appendChild(frag);
+    }
+
+    /* ── Update tab counts ─────────────────────────────────── */
+    function updateCounts(items) {
+      const counts = {};
+      items.forEach((i) => { counts[i.source] = (counts[i.source] || 0) + 1; });
+
+      document.getElementById('cnt-all').textContent = items.length;
+      Object.entries(SOURCES).forEach(([src, cfg]) => {
+        const el = document.getElementById(cfg.countId);
+        if (el) el.textContent = counts[src] || 0;
+      });
+    }
+
+    /* ── Filter ────────────────────────────────────────────── */
+    function filtered(source) {
+      return source === 'all' ? allItems : allItems.filter((i) => i.source === source);
+    }
+
+    /* ── Tab interaction ───────────────────────────────────── */
+    function activateTab(source) {
+      document.querySelectorAll('.tab').forEach((t) => {
+        const active = t.dataset.source === source;
+        t.classList.toggle('active', active);
+        t.setAttribute('aria-selected', active);
+      });
+    }
+
+    document.querySelectorAll('.tab').forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const src = tab.dataset.source;
+        if (src === currentSource) return;
+        currentSource = src;
+        activateTab(src);
+
+        const grid = document.getElementById('news-grid');
+        grid.style.opacity = '0';
+        grid.style.transform = 'translateY(10px)';
+
+        setTimeout(() => {
+          renderCards(filtered(src));
+          grid.style.opacity = '1';
+          grid.style.transform = 'translateY(0)';
+        }, 160);
+      });
+    });
+
+    /* ── Bootstrap ─────────────────────────────────────────── */
+    async function init() {
+      renderSkeletons(9);
+
+      try {
+        const res = await fetch('./news.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+
+        allItems = Array.isArray(data.items) ? data.items : [];
+
+        // Last-updated timestamp
+        if (data.lastUpdated) {
+          const el = document.getElementById('last-updated');
+          el.textContent = new Date(data.lastUpdated).toLocaleString('en-US', {
+            month: 'short', day: 'numeric', year: 'numeric',
+            hour: '2-digit', minute: '2-digit',
+          });
+          el.setAttribute('datetime', data.lastUpdated);
+        }
+
+        updateCounts(allItems);
+        renderCards(filtered(currentSource));
+
+      } catch (err) {
+        console.error('Failed to load news.json:', err);
+        document.getElementById('news-grid').innerHTML = `
+          <div class="state-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0zm-9 3.75h.008v.008H12v-.008z"/>
+            </svg>
+            <h3>Unable to load news</h3>
+            <p>Run <code>npm run update-news</code> to generate data, then refresh the page.</p>
+          </div>`;
+      }
+    }
+
+    init();
+  })();
+  </script>
+</body>
+</html>
