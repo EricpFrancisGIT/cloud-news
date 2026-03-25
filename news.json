@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-03-25T12:37:08.873Z",
+  "lastUpdated": "2026-03-25T18:42:18.221Z",
   "items": [
+    {
+      "title": "Amazon EC2 I7ie instances now available in additional AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-i7ie-instances-additional-aws-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T15:24:00.000Z",
+      "snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hong Kong), Asia Pacific (Seoul), Asia Pacific (Melbourne), Asia Pacific (Thailand), Europe (Zurich), Europe (Milan) and Mexico (Central) regions. Designed for…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports continuous provisioning for Slurm-orchestrated clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-hyperpod-continuous-provisioning/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T04:30:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now extends continuous provisioning support to clusters using the Slurm orchestrator, enabling greater flexibility and efficiency for enterprise customers running large-scale AI/ML training workloads. AI/ML customers running…"
+    },
+    {
+      "title": "LTS upgrade testing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/01/example-post/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-24T19:03:00.000Z",
+      "snippet": "Actively testing the LTS upgrade in production right now"
+    },
+    {
+      "title": "Amazon Timestream for InfluxDB is now available in the Mexico (Central), Japan (Osaka), and Brazil (Sao Paulo) AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-influxdb-mexico-osaka-sao-paulo/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-24T17:44:00.000Z",
+      "snippet": "You can now use Amazon Timestream for InfluxDB in the Mexico (Central), Japan (Osaka), and Brazil (Sao Paulo) AWS regions. Timestream for InfluxDB makes it easy for application developers and DevOps teams to run fully managed InfluxDB databases on AWS for…"
+    },
     {
       "title": "How Generali Malaysia optimizes operations with Amazon EKS",
       "link": "https://aws.amazon.com/blogs/architecture/how-generali-malaysia-optimizes-operations-with-amazon-eks/",
@@ -84,6 +112,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-19T20:30:00.000Z",
       "snippet": "Amazon EC2 Fleet now supports interruptible Capacity Reservations. EC2 Fleet allows you to launch instances across multiple instance types and Availability Zones. Starting today, you can specify interruptible Capacity Reservation IDs across your Launch…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore adds support for Chrome policies and custom root CA",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-browser-policies-root-ca/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-19T18:12:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore now enables customers to configure Chrome Enterprise policies for AgentCore Browser and specify custom root Certificate Authority (CA) certificates for both AgentCore Browser and Code Interpreter. These enhancements help ensure…"
     },
     {
       "title": "AWS adds support for NIXL with EFA to accelerate LLM inference at scale",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-18T17:17:00.000Z",
       "snippet": "You can now create Amazon S3 Access Grants in the AWS Asia Pacific (New Zealand) Region. Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in S3. This helps…"
-    },
-    {
-      "title": "Amazon EC2 M6in and M6idn instances are now available in Europe (London) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m6in-m6idn-instances-london/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-18T16:39:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances are available in AWS London Region. These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors and built on the AWS Nitro…"
-    },
-    {
-      "title": "Our First 2026 AWS Heroes Cohort Is Here!",
-      "link": "https://aws.amazon.com/blogs/aws/our-first-2026-heroes-cohort-is-here/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-03-18T16:26:15.000Z",
-      "snippet": "We’re thrilled to celebrate three exceptional developer community leaders as AWS Heroes. These individuals represent the heart of what makes the AWS community so vibrant. In addition to sharing technical knowledge, they build connections, forge genuine human…"
-    },
-    {
-      "title": "Amazon EC2 C8a instances now available in the Asia Pacific (Tokyo) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-asia-pacific-tokyo-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-18T16:00:00.000Z",
-      "snippet": "Starting today, the compute-optimized Amazon EC2 C8a instances are available in the Asia Pacific (Tokyo) region. C8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, delivering up to 30%…"
-    },
-    {
-      "title": "Amazon threat intelligence teams identify Interlock ransomware campaign targeting enterprise firewalls",
-      "link": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-teams-identify-interlock-ransomware-campaign-targeting-enterprise-firewalls/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-03-18T15:57:45.000Z",
-      "snippet": "Amazon threat intelligence has identified an active Interlock ransomware campaign exploiting CVE-2026-20131, a critical vulnerability in Cisco Secure Firewall Management Center (FMC) Software that could allow an unauthenticated, remote attacker to execute…"
-    },
-    {
-      "title": "Amazon Inspector expands agentless EC2 scanning and introduces Windows KB-based findings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-inspector-agentless-ec2-scanning-windows/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-18T15:44:00.000Z",
-      "snippet": "Amazon Inspector now offers expanded agentless EC2 scanning with enhanced detection coverage, including new support for Windows operating system vulnerability scanning without requiring an agent. Security teams and IT administrators can now detect…"
     }
   ]
 }
