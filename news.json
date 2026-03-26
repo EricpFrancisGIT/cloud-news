@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T00:47:20.876Z",
+  "lastUpdated": "2026-03-26T06:52:24.767Z",
   "items": [
     {
       "title": "AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region",
@@ -58,6 +58,13 @@
       "snippet": "Amazon Route 53 Profiles now supports granular AWS Identity and Access Management (IAM) permissions, allowing you to control which users can manage specific resource types and VPC associations within your Profiles. With this launch, you can create IAM…"
     },
     {
+      "title": "Amazon Quick Now Available in the AWS Tokyo Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-tokyo-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T17:02:00.000Z",
+      "snippet": "Amazon Quick is now available in the AWS Asia Pacific (Tokyo) region (ap-northeast-1). This launch allows customers in Japan to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty. Amazon Quick provides…"
+    },
+    {
       "title": "Amazon Aurora PostgreSQL now available with the AWS Free Tier",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-aurora-postgresql-aws-free-tier/",
       "source": "AWS What's New",
@@ -70,6 +77,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-25T17:00:00.000Z",
       "snippet": "Amazon Aurora PostgreSQL now offers a new experience to create a cluster with express configuration, enabling you to create and query an Aurora serverless database in seconds. With pre-configured settings, the new experience accelerates initial setup and…"
+    },
+    {
+      "title": "Amazon Quick Now Available in the AWS Frankfurt Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-frankfurt-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T16:56:00.000Z",
+      "snippet": "Amazon Quick is now available in the AWS Europe (Frankfurt) region (eu-central-1). This launch allows customers in Germany to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty. Amazon Quick provides…"
+    },
+    {
+      "title": "Amazon Quick Now Available in the AWS London Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-london-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T16:47:00.000Z",
+      "snippet": "Amazon Quick is now available in the AWS Europe (London) region (eu-west-2). This launch allows customers in the United Kingdom to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty. Amazon Quick provides…"
     },
     {
       "title": "Amazon SageMaker AI now supports serverless reinforcement fine-tuning for 12 additional models",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-19T23:36:00.000Z",
       "snippet": "Today, AWS announces that the AWS MCP Server (preview) now publishes operational metrics to Amazon CloudWatch and introduces scalable Agent SOPs discovery using semantic similarity. Agent SOPs are pre-built, tested workflows that guide AI assistants through…"
-    },
-    {
-      "title": "Amazon EC2 Fleet now supports interruptible Capacity Reservations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-fleet-interruptible-capacity-reservations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-19T20:30:00.000Z",
-      "snippet": "Amazon EC2 Fleet now supports interruptible Capacity Reservations. EC2 Fleet allows you to launch instances across multiple instance types and Availability Zones. Starting today, you can specify interruptible Capacity Reservation IDs across your Launch…"
-    },
-    {
-      "title": "AWS adds support for NIXL with EFA to accelerate LLM inference at scale",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-support-nixl-with-efa/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-19T18:00:00.000Z",
-      "snippet": "AWS announces support for NVIDIA Inference Xfer Library (NIXL) with Elastic Fabric Adapter (EFA) to accelerate disaggregated large language model (LLM) inference on Amazon EC2. This integration enhances disaggregated inference serving through three key…"
-    },
-    {
-      "title": "Amazon Redshift supports federated permissions with IAM Identity Center in multiple AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/redshift-federated-permissions-idc-mrr/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-19T17:13:00.000Z",
-      "snippet": "Amazon Redshift federated permissions are now supported with AWS IAM Identity Center (IdC) in multiple AWS Regions. You can extend IdC from your primary AWS Region to additional Regions for improved performance through proximity to users and reliability. In…"
     }
   ]
 }
