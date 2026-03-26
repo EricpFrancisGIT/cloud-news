@@ -1,12 +1,103 @@
 {
-  "lastUpdated": "2026-03-25T18:42:18.221Z",
+  "lastUpdated": "2026-03-26T00:47:20.876Z",
   "items": [
+    {
+      "title": "AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-ap-nz/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T21:00:00.000Z",
+      "snippet": "AWS Firewall Manager announces that it is now available in AWS Asia Pacific (New Zealand) Region. AWS Firewall Manager helps cloud security administrators and site reliability engineers protect applications while reducing the operational overhead of manually…"
+    },
+    {
+      "title": "Accelerate AI-assisted development with Agent Plugin for AWS Serverless",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agent-plugin-aws-serverless/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T21:00:00.000Z",
+      "snippet": "AWS announces the Agent Plugin for AWS Serverless, enabling developers to easily build, deploy, troubleshoot, and manage serverless applications using AI coding assistants like Kiro, Claude Code, and Cursor. Agent plugins extend AI coding assistants with…"
+    },
+    {
+      "title": "Announcing Amazon Aurora PostgreSQL serverless database creation in seconds",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-aurora-postgresql-serverless-database-creation-in-seconds/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-03-25T20:37:11.000Z",
+      "snippet": "AWS introduces a new express configuration for Amazon Aurora PostgreSQL, a streamlined database creation experience with preconfigured defaults designed to help you get started in seconds. With Aurora PostgreSQL, start building quickly from the RDS Console or…"
+    },
+    {
+      "title": "AWS Batch now provides AMI status and supports AWS Health Planned Lifecycle Events",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-ami-status-aws-health/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T20:32:00.000Z",
+      "snippet": "AWS Batch now provides enhanced visibility into your compute environments with two new capabilities that help you maintain operational best practices. When you describe a compute environment, you can now see the status of your Batch-provided default Amazon…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio launches support for remote connection from Cursor IDE",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-cursor-ide/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T20:21:00.000Z",
+      "snippet": "Today, AWS announces remote connection from Cursor IDE to Amazon SageMaker Unified Studio via the AWS Toolkit extension. This new capability allows data scientists, ML engineers, and developers to leverage their Cursor setup - including its AI-powered code…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore adds support for Chrome policies and custom root CA",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-browser-policies-root-ca/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T20:10:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore now enables customers to configure Chrome Enterprise policies for AgentCore Browser and specify custom root Certificate Authority (CA) certificates for both AgentCore Browser and Code Interpreter. These enhancements help ensure…"
+    },
+    {
+      "title": "AWS Batch now supports quota management and preemption for SageMaker Training jobs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-quota-management-preemption-sagemaker/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T18:40:00.000Z",
+      "snippet": "AWS Batch now supports quota management with job preemption for SageMaker Training jobs, enabling you to efficiently allocate and share compute resources across your teams and projects. If you're using GPU capacity in SageMaker Training jobs, you can now…"
+    },
+    {
+      "title": "Amazon Route 53 Profiles now supports granular IAM permissions for resource and VPC associations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-profiles-granular-iam/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T18:34:00.000Z",
+      "snippet": "Amazon Route 53 Profiles now supports granular AWS Identity and Access Management (IAM) permissions, allowing you to control which users can manage specific resource types and VPC associations within your Profiles. With this launch, you can create IAM…"
+    },
+    {
+      "title": "Amazon Aurora PostgreSQL now available with the AWS Free Tier",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-aurora-postgresql-aws-free-tier/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T17:00:00.000Z",
+      "snippet": "Amazon Aurora PostgreSQL is now available on the AWS Free Tier, which offers new customers $100 in AWS credits upon sign-up and the ability to earn an additional $100 in credits by using services including Amazon RDS. With a Free Plan account, you can create…"
+    },
+    {
+      "title": "Amazon Aurora PostgreSQL now supports creating and connecting to a database in seconds",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-aurora-postgresql-database/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T17:00:00.000Z",
+      "snippet": "Amazon Aurora PostgreSQL now offers a new experience to create a cluster with express configuration, enabling you to create and query an Aurora serverless database in seconds. With pre-configured settings, the new experience accelerates initial setup and…"
+    },
+    {
+      "title": "Amazon SageMaker AI now supports serverless reinforcement fine-tuning for 12 additional models",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-ai-serverless-additional-models/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T16:25:00.000Z",
+      "snippet": "Amazon SageMaker AI now supports serverless model customization and reinforcement fine-tuning for 12 additional open-weight models, enabling you to fine-tune and evaluate them without provisioning or managing infrastructure. The newly supported models are:…"
+    },
     {
       "title": "Amazon EC2 I7ie instances now available in additional AWS regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-i7ie-instances-additional-aws-regions/",
       "source": "AWS What's New",
       "pubDate": "2026-03-25T15:24:00.000Z",
       "snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hong Kong), Asia Pacific (Seoul), Asia Pacific (Melbourne), Asia Pacific (Thailand), Europe (Zurich), Europe (Milan) and Mexico (Central) regions. Designed for…"
+    },
+    {
+      "title": "AWS Backup expands support for Amazon DocumentDB to 12 Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-amazon-documentdb-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T10:00:00.000Z",
+      "snippet": "AWS Backup now supports Amazon DocumentDB in 12 additional AWS Regions: Asia Pacific (Malaysia, Thailand, Osaka, Hong Kong, Jakarta, Melbourne), Europe (Stockholm, Spain, Zurich), Africa (Cape Town), Israel (Tel Aviv), and Mexico (Central). This expansion…"
+    },
+    {
+      "title": "AWS Transfer Family AS2 now supports receipts of MDNs asynchronously",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-transfer-family-as2-mdns/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T10:00:00.000Z",
+      "snippet": "AWS Transfer Family now supports receiving Message Disposition Notifications (MDNs) asynchronously for messages sent to trading partners over Applicability Statement 2 (AS2). This enables you to migrate your AS2 workflows to Transfer Family while maintaining…"
     },
     {
       "title": "Amazon SageMaker HyperPod now supports continuous provisioning for Slurm-orchestrated clusters",
@@ -16,11 +107,11 @@
       "snippet": "Amazon SageMaker HyperPod now extends continuous provisioning support to clusters using the Slurm orchestrator, enabling greater flexibility and efficiency for enterprise customers running large-scale AI/ML training workloads. AI/ML customers running…"
     },
     {
-      "title": "LTS upgrade testing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/01/example-post/",
+      "title": "Amazon Bedrock AgentCore Runtime now supports managed session storage for persistent agent filesystem state (preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/bedrock-agentcore-runtime-session-storage/",
       "source": "AWS What's New",
-      "pubDate": "2026-03-24T19:03:00.000Z",
-      "snippet": "Actively testing the LTS upgrade in production right now"
+      "pubDate": "2026-03-25T01:30:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Runtime now offers managed session storage in public preview, enabling agents to persist their filesystem state across stop and resume cycles. Modern agents write code, install packages, generate artifacts, and manage state through…"
     },
     {
       "title": "Amazon Timestream for InfluxDB is now available in the Mexico (Central), Japan (Osaka), and Brazil (Sao Paulo) AWS regions",
@@ -58,6 +149,13 @@
       "snippet": "AWS HealthImaging is now available in the AWS Europe (London) Region. AWS HealthImaging is a HIPAA-eligible service that empowers healthcare providers, life sciences organizations, and their software partners to store, analyze, and share medical images at…"
     },
     {
+      "title": "AWS Neuron announces support for Dynamic Resource Allocation with Amazon EKS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/neuron-eks-dra-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-20T22:53:00.000Z",
+      "snippet": "AWS announces the Neuron Dynamic Resource Allocation (DRA) driver for Amazon Elastic Kubernetes Service (EKS), bringing Kubernetes-native hardware-aware scheduling to AWS Trainium-based instances. The Neuron DRA driver publishes rich device attributes…"
+    },
+    {
       "title": "Amazon Bedrock AgentCore Runtime adds WebRTC support for real-time bidirectional streaming",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc/",
       "source": "AWS What's New",
@@ -70,13 +168,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-20T20:48:00.000Z",
       "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a 99.99% Service Level Agreement (SLA) for clusters running on Provisioned Control Plane, up from the 99.95% SLA offered on standard control plane. Amazon EKS is also introducing the 8XL scaling tier,…"
-    },
-    {
-      "title": "AWS Neuron announces support for Dynamic Resource Allocation with Amazon EKS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/neuron-eks-dra-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-20T18:38:00.000Z",
-      "snippet": "AWS announces the Neuron Dynamic Resource Allocation (DRA) driver for Amazon Elastic Kubernetes Service (EKS), bringing Kubernetes-native hardware-aware scheduling to AWS Trainium-based instances. The Neuron DRA driver publishes rich device attributes…"
     },
     {
       "title": "Amazon Polly expands Generative TTS engine with 10 new voices, 2 new regions, and Bidirectional Streaming API",
@@ -93,13 +184,6 @@
       "snippet": "AWS DataSync now supports AWS Secrets Manager for credential management across all location types, including Hadoop Distributed File System (HDFS), Amazon FSx for Windows File Server, and Amazon FSx for NetApp ONTAP. Previously, Secrets Manager integration…"
     },
     {
-      "title": "AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-ap-nz/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-20T05:00:00.000Z",
-      "snippet": "AWS Firewall Manager announces that it is now available in AWS Asia Pacific (New Zealand) Region. AWS Firewall Manager helps cloud security administrators and site reliability engineers protect applications while reducing the operational overhead of manually…"
-    },
-    {
       "title": "AWS MCP Server (Preview) now with enhanced monitoring and semantic search capability",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-mcp-server-preview-enhanced-monitoring/",
       "source": "AWS What's New",
@@ -114,13 +198,6 @@
       "snippet": "Amazon EC2 Fleet now supports interruptible Capacity Reservations. EC2 Fleet allows you to launch instances across multiple instance types and Availability Zones. Starting today, you can specify interruptible Capacity Reservation IDs across your Launch…"
     },
     {
-      "title": "Amazon Bedrock AgentCore adds support for Chrome policies and custom root CA",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-browser-policies-root-ca/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-19T18:12:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore now enables customers to configure Chrome Enterprise policies for AgentCore Browser and specify custom root Certificate Authority (CA) certificates for both AgentCore Browser and Code Interpreter. These enhancements help ensure…"
-    },
-    {
       "title": "AWS adds support for NIXL with EFA to accelerate LLM inference at scale",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-support-nixl-with-efa/",
       "source": "AWS What's New",
@@ -133,83 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-19T17:13:00.000Z",
       "snippet": "Amazon Redshift federated permissions are now supported with AWS IAM Identity Center (IdC) in multiple AWS Regions. You can extend IdC from your primary AWS Region to additional Regions for improved performance through proximity to users and reliability. In…"
-    },
-    {
-      "title": "Amazon EC2 C8gn instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8gn-instances-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-19T17:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Region Asia Pacific (Jakarta, Hyderabad, Tokyo), South America (Sao Paulo), and Europe (Zurich). The…"
-    },
-    {
-      "title": "AWS Lambda now supports Availability Zone metadata",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-availability-zone-metadata/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-19T16:36:00.000Z",
-      "snippet": "AWS Lambda now provides Availability Zone (AZ) metadata through a new metadata endpoint in the Lambda execution environment. With this capability, developers can determine the AZ ID (e.g., use1-az1) of the AZ their Lambda function is running in, enabling them…"
-    },
-    {
-      "title": "AWS Direct Connect announces new location in Sydney, Australia",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-sydney-sy5/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-19T16:00:00.000Z",
-      "snippet": "Today, AWS announced the opening of a new AWS Direct Connect location at Equinix SY5 in Sydney, Australia. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and AWS Local Zones from…"
-    },
-    {
-      "title": "20 years in the AWS Cloud – how time flies!",
-      "link": "https://aws.amazon.com/blogs/aws/20-years-in-the-aws-cloud-how-time-flies/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-03-19T13:35:54.000Z",
-      "snippet": "Celebrating twenty years of innovation in ML and AI technology at AWS. Countless developers—myself included—have embraced cloud computing and actively used its capabilities to accomplish what was previously impossible."
-    },
-    {
-      "title": "Amazon RDS Custom for SQL Server adds ability to view and schedule new operating system updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-custom-sql-server-operating-system-updates/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-19T07:00:00.000Z",
-      "snippet": "Amazon RDS Custom for SQL Server now provides customers with ability to view and schedule new operating system (OS) updates for RDS provided engine versions (RPEV). With RPEV, RDS Custom provides a SQL Server version pre-installed on an Amazon Machine Image…"
-    },
-    {
-      "title": "Minimax M2.5 and GLM 5 models now available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-minimax-glm/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-18T21:07:00.000Z",
-      "snippet": "Amazon Bedrock expands model selection for customers by adding support for GLM 5 and Minimax M2.5. GLM 5 is a frontier‑class, general‑purpose large language model optimized for complex systems engineering and long‑horizon agentic tasks. It builds on the GLM…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i-6TB instances now available in Asia Pacific (Malaysia)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-high-memory-u7i-6tb-asia-pacific/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-18T19:00:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge) are now available in AWS Asia Pacific (Malaysia). U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel Xeon Scalable Processors (Sapphire…"
-    },
-    {
-      "title": "AI-powered event response for Amazon EKS",
-      "link": "https://aws.amazon.com/blogs/architecture/ai-powered-event-response-for-amazon-eks/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-03-18T18:23:37.000Z",
-      "snippet": "In this post, you'll learn how AWS DevOps Agent integrates with your existing observability stack to provide intelligent, automated responses to system events."
-    },
-    {
-      "title": "NVIDIA Nemotron 3 Super now available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-nemotron-3-super/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-18T18:00:00.000Z",
-      "snippet": "Amazon Bedrock now supports NVIDIA Nemotron 3 Super, an open hybrid Mixture-of-Experts (MoE) model designed for complex multi-agent applications. Built for agentic workloads, Nemotron 3 Super delivers fast, and cost-efficient inference enabling AI agents to…"
-    },
-    {
-      "title": "Amazon ECR now supports pull through cache for Chainguard",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecr-pull-through-cache-chainguard/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-18T18:00:00.000Z",
-      "snippet": "Amazon Elastic Container Registry (Amazon ECR) pull through cache now supports Chainguard’s registry as an upstream source. With today’s release, customers now benefit from the security and availability of Amazon ECR for private Chainguard images. As…"
-    },
-    {
-      "title": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (New Zealand) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-access-grants-new-zealand/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-18T17:17:00.000Z",
-      "snippet": "You can now create Amazon S3 Access Grants in the AWS Asia Pacific (New Zealand) Region. Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in S3. This helps…"
     }
   ]
 }
