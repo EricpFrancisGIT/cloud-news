@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-03-26T12:57:34.118Z",
+  "lastUpdated": "2026-03-26T19:02:39.325Z",
   "items": [
+    {
+      "title": "Architecting for agentic AI development on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/architecting-for-agentic-ai-development-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-03-26T17:29:57.000Z",
+      "snippet": "In this post, we demonstrate how to architect AWS systems that enable AI agents to iterate rapidly through design patterns for both system architecture and code base structure. We first examine the architectural problems that limit agentic development today.…"
+    },
     {
       "title": "AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-ap-nz/",
@@ -121,6 +128,13 @@
       "snippet": "AWS Transfer Family now supports receiving Message Disposition Notifications (MDNs) asynchronously for messages sent to trading partners over Applicability Statement 2 (AS2). This enables you to migrate your AS2 workflows to Transfer Family while maintaining…"
     },
     {
+      "title": "AWS ParallelCluster 3.15 with support for P6-B300 and Slurm 25.11",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-parallelcluster-p6-b300-slurm/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-25T07:00:00.000Z",
+      "snippet": "AWS ParallelCluster 3.15 is now generally available. This release adds support for P6-B300 instance types and upgrades Slurm to version 25.11 with expedited job requeue. With P6-B300 support, you can run demanding AI/ML and high-performance computing…"
+    },
+    {
       "title": "Amazon SageMaker HyperPod now supports continuous provisioning for Slurm-orchestrated clusters",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-hyperpod-continuous-provisioning/",
       "source": "AWS What's New",
@@ -140,6 +154,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-24T17:44:00.000Z",
       "snippet": "You can now use Amazon Timestream for InfluxDB in the Mexico (Central), Japan (Osaka), and Brazil (Sao Paulo) AWS regions. Timestream for InfluxDB makes it easy for application developers and DevOps teams to run fully managed InfluxDB databases on AWS for…"
+    },
+    {
+      "title": "AWS HealthOmics introduces batch run operations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthomics-introduces-batch-run/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-24T04:17:00.000Z",
+      "snippet": "AWS HealthOmics announces batch run submission, allowing customers to submit up to 100,000 runs of any given workflow in a single request. With this launch, customers can now submit large-scale genomics experiments with thousands of samples without the…"
     },
     {
       "title": "How Generali Malaysia optimizes operations with Amazon EKS",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-20T20:48:00.000Z",
       "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a 99.99% Service Level Agreement (SLA) for clusters running on Provisioned Control Plane, up from the 99.95% SLA offered on standard control plane. Amazon EKS is also introducing the 8XL scaling tier,…"
-    },
-    {
-      "title": "Amazon Polly expands Generative TTS engine with 10 new voices, 2 new regions, and Bidirectional Streaming API",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-polly-expands-TTS-new-voices-and-bidirectional-streaming/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-20T16:10:00.000Z",
-      "snippet": "Today, we are excited to announce the general availability of 10 new highly expressive Amazon Polly Generative voices across 8 locales: Tiffany (American English), Brian (British English), Aria (New Zealand English), Jasmine (Singapore English), Florian…"
-    },
-    {
-      "title": "AWS DataSync now supports AWS Secrets Manager for all location types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-datasync-secrets-manager/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-20T10:00:00.000Z",
-      "snippet": "AWS DataSync now supports AWS Secrets Manager for credential management across all location types, including Hadoop Distributed File System (HDFS), Amazon FSx for Windows File Server, and Amazon FSx for NetApp ONTAP. Previously, Secrets Manager integration…"
-    },
-    {
-      "title": "AWS MCP Server (Preview) now with enhanced monitoring and semantic search capability",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-mcp-server-preview-enhanced-monitoring/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-19T23:36:00.000Z",
-      "snippet": "Today, AWS announces that the AWS MCP Server (preview) now publishes operational metrics to Amazon CloudWatch and introduces scalable Agent SOPs discovery using semantic similarity. Agent SOPs are pre-built, tested workflows that guide AI assistants through…"
     }
   ]
 }
