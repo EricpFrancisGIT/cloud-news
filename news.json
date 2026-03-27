@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-03-27T07:12:46.901Z",
+  "lastUpdated": "2026-03-27T13:17:57.998Z",
   "items": [
+    {
+      "title": "AWS HealthImaging announces study-level fine-grained access control",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-study-level-access-control/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-27T07:00:00.000Z",
+      "snippet": "AWS HealthImaging now supports fine-grained access control, enabling organizations to securely manage access to medical imaging data at the DICOM study and series levels. Medical imaging workflows are typically organized around DICOM studies, which are stored…"
+    },
     {
       "title": "Amazon EC2 High Memory U7i instances now available in Europe (Milan)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-u7i-europe-milan/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-25T15:24:00.000Z",
       "snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hong Kong), Asia Pacific (Seoul), Asia Pacific (Melbourne), Asia Pacific (Thailand), Europe (Zurich), Europe (Milan) and Mexico (Central) regions. Designed for…"
-    },
-    {
-      "title": "AWS Backup expands support for Amazon DocumentDB to 12 Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-amazon-documentdb-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T10:00:00.000Z",
-      "snippet": "AWS Backup now supports Amazon DocumentDB in 12 additional AWS Regions: Asia Pacific (Malaysia, Thailand, Osaka, Hong Kong, Jakarta, Melbourne), Europe (Stockholm, Spain, Zurich), Africa (Cape Town), Israel (Tel Aviv), and Mexico (Central). This expansion…"
     }
   ]
 }
