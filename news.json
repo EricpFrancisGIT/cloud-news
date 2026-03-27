@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-03-27T01:07:42.097Z",
+  "lastUpdated": "2026-03-27T07:12:46.901Z",
   "items": [
+    {
+      "title": "Amazon EC2 High Memory U7i instances now available in Europe (Milan)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-u7i-europe-milan/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T22:30:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) and U7i-12TB instances (u7i-12tb.224xlarge) are now available in AWS Europe (Milan). U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel Xeon Scalable…"
+    },
     {
       "title": "Preparing for agentic AI: A financial services approach",
       "link": "https://aws.amazon.com/blogs/security/preparing-for-agentic-ai-a-financial-services-approach/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-25T10:00:00.000Z",
       "snippet": "AWS Backup now supports Amazon DocumentDB in 12 additional AWS Regions: Asia Pacific (Malaysia, Thailand, Osaka, Hong Kong, Jakarta, Melbourne), Europe (Stockholm, Spain, Zurich), Africa (Cape Town), Israel (Tel Aviv), and Mexico (Central). This expansion…"
-    },
-    {
-      "title": "AWS Transfer Family AS2 now supports receipts of MDNs asynchronously",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-transfer-family-as2-mdns/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T10:00:00.000Z",
-      "snippet": "AWS Transfer Family now supports receiving Message Disposition Notifications (MDNs) asynchronously for messages sent to trading partners over Applicability Statement 2 (AS2). This enables you to migrate your AS2 workflows to Transfer Family while maintaining…"
     }
   ]
 }
