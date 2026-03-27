@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-03-27T13:17:57.998Z",
+  "lastUpdated": "2026-03-27T19:22:56.543Z",
   "items": [
+    {
+      "title": "AWS Lambda supports up to 32 GB of memory and 16 vCPUs for Lambda Managed Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-32-gb-memory-16-vcpus/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-27T16:00:00.000Z",
+      "snippet": "AWS Lambda now supports up to 32 GB of memory and 16 vCPUs for functions running on Lambda Managed Instances, enabling customers to run compute-intensive workloads such as large-scale data processing, media transcoding, and scientific simulations without…"
+    },
+    {
+      "title": "AWS Management Console now supports settings to control service and Region visibility",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/account-customizations-console/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-27T15:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of Visible services and Visible Regions account settings in the AWS Management Console. These settings allow you to customize which services and regions appear in the Management Console for authorized users in…"
+    },
     {
       "title": "AWS HealthImaging announces study-level fine-grained access control",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-study-level-access-control/",
@@ -21,6 +35,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-03-26T22:00:45.000Z",
       "snippet": "Deploying agentic AI in financial services requires additional security controls that address AI-specific risks. This post walks you through comprehensive observability and fine-grained access controls—two critical capabilities for maintaining explainability…"
+    },
+    {
+      "title": "AWS Step Functions adds 28 new service integrations, including Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-step-functions-sdk-integrations/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T22:00:00.000Z",
+      "snippet": "AWS Step Functions expands its AWS SDK integrations with 28 additional services and over 1,100 new API actions across new and existing AWS services, including Amazon Bedrock AgentCore and Amazon S3 Vectors. This expansion enables you to orchestrate a broader…"
     },
     {
       "title": "Customize your AWS Management Console experience with visual settings including account color, region and service visibility",
@@ -44,11 +65,32 @@
       "snippet": "Starting today, customers can deploy their Graviton-based and GPU-accelerated workloads on Amazon Elastic Container Service (Amazon ECS) Managed Instances in a Federal Information Processing Standard (FIPS) compliant mode in the AWS GovCloud (US) Regions.…"
     },
     {
+      "title": "Research and Engineering Studio on AWS 2026.03 is now available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/res-2026-03-is-now-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T18:52:00.000Z",
+      "snippet": "Today we're announcing Research and Engineering Studio (RES) on AWS 2026.03, which introduces new administrator controls, expanded filesystem support, and session management improvements. Research and Engineering Studio on AWS (RES) is an open source,…"
+    },
+    {
+      "title": "AWS Parallel Computing Service supports slurmdbd and cgroups settings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-pcs-manages-slurmdbd-cgroups-settings/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T18:29:00.000Z",
+      "snippet": "AWS Parallel Computing Service (AWS PCS) now supports additional Slurm configuration settings for slurmdbd and cgroups, enabling you to fine-tune accounting behavior and resource isolation directly through the AWS PCS console, CLI, or SDK. This feature helps…"
+    },
+    {
       "title": "Architecting for agentic AI development on AWS",
       "link": "https://aws.amazon.com/blogs/architecture/architecting-for-agentic-ai-development-on-aws/",
       "source": "AWS Architecture Blog",
       "pubDate": "2026-03-26T17:29:57.000Z",
       "snippet": "In this post, we demonstrate how to architect AWS systems that enable AI agents to iterate rapidly through design patterns for both system architecture and code base structure. We first examine the architectural problems that limit agentic development today.…"
+    },
+    {
+      "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-i8ge-available-new-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T17:00:00.000Z",
+      "snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in Europe (Stockholm), Asia Pacific (Mumbai), Asia Pacific (Malaysia), Asia Pacific (Singapore), and Asia Pacific (Sydney) AWS regions. I8ge instances are powered by AWS…"
     },
     {
       "title": "Aurora DSQL launches connector that simplifies building Ruby applications",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-25T17:02:00.000Z",
       "snippet": "Amazon Quick is now available in the AWS Asia Pacific (Tokyo) region (ap-northeast-1). This launch allows customers in Japan to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty. Amazon Quick provides…"
-    },
-    {
-      "title": "Amazon Aurora PostgreSQL now available with the AWS Free Tier",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-aurora-postgresql-aws-free-tier/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T17:00:00.000Z",
-      "snippet": "Amazon Aurora PostgreSQL is now available on the AWS Free Tier, which offers new customers $100 in AWS credits upon sign-up and the ability to earn an additional $100 in credits by using services including Amazon RDS. With a Free Plan account, you can create…"
-    },
-    {
-      "title": "Amazon Aurora PostgreSQL now supports creating and connecting to a database in seconds",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-aurora-postgresql-database/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T17:00:00.000Z",
-      "snippet": "Amazon Aurora PostgreSQL now offers a new experience to create a cluster with express configuration, enabling you to create and query an Aurora serverless database in seconds. With pre-configured settings, the new experience accelerates initial setup and…"
-    },
-    {
-      "title": "Amazon Quick Now Available in the AWS Frankfurt Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-frankfurt-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T16:56:00.000Z",
-      "snippet": "Amazon Quick is now available in the AWS Europe (Frankfurt) region (eu-central-1). This launch allows customers in Germany to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty. Amazon Quick provides…"
-    },
-    {
-      "title": "Amazon Quick Now Available in the AWS London Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-london-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T16:47:00.000Z",
-      "snippet": "Amazon Quick is now available in the AWS Europe (London) region (eu-west-2). This launch allows customers in the United Kingdom to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty. Amazon Quick provides…"
-    },
-    {
-      "title": "Amazon SageMaker AI now supports serverless reinforcement fine-tuning for 12 additional models",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-ai-serverless-additional-models/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T16:25:00.000Z",
-      "snippet": "Amazon SageMaker AI now supports serverless model customization and reinforcement fine-tuning for 12 additional open-weight models, enabling you to fine-tune and evaluate them without provisioning or managing infrastructure. The newly supported models are:…"
-    },
-    {
-      "title": "Amazon EC2 I7ie instances now available in additional AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-i7ie-instances-additional-aws-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T15:24:00.000Z",
-      "snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hong Kong), Asia Pacific (Seoul), Asia Pacific (Melbourne), Asia Pacific (Thailand), Europe (Zurich), Europe (Milan) and Mexico (Central) regions. Designed for…"
     }
   ]
 }
