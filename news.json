@@ -1,12 +1,96 @@
 {
-  "lastUpdated": "2026-03-26T19:02:39.325Z",
+  "lastUpdated": "2026-03-27T01:07:42.097Z",
   "items": [
+    {
+      "title": "Preparing for agentic AI: A financial services approach",
+      "link": "https://aws.amazon.com/blogs/security/preparing-for-agentic-ai-a-financial-services-approach/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-03-26T22:00:45.000Z",
+      "snippet": "Deploying agentic AI in financial services requires additional security controls that address AI-specific risks. This post walks you through comprehensive observability and fine-grained access controls—two critical capabilities for maintaining explainability…"
+    },
+    {
+      "title": "Customize your AWS Management Console experience with visual settings including account color, region and service visibility",
+      "link": "https://aws.amazon.com/blogs/aws/customize-your-aws-management-console-experience-with-visual-settings-including-account-color-region-and-service-visibility/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-03-26T21:34:19.000Z",
+      "snippet": "AWS introduces visual customization capability in AWS Management Console that enables selective display of relevant AWS Regions and services for your team members. By hiding unused Regions and services, you can reduce cognitive load and eliminate unnecessary…"
+    },
+    {
+      "title": "Amazon SageMaker Studio launches support for Kiro and Cursor IDEs as remote IDEs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-studio-kiro-cursor/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T19:53:00.000Z",
+      "snippet": "Today, AWS announces the ability to remotely connect from Kiro and Cursor IDEs to Amazon SageMaker Studio. This new capability allows data scientists, ML engineers, and developers to leverage their Kiro and Cursor setup - including its spec-driven…"
+    },
+    {
+      "title": "Amazon ECS Managed Instances now supports FIPS-certified workloads on Graviton and GPU accelerated instances in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-supports-fips-graviron-gpu/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T19:40:00.000Z",
+      "snippet": "Starting today, customers can deploy their Graviton-based and GPU-accelerated workloads on Amazon Elastic Container Service (Amazon ECS) Managed Instances in a Federal Information Processing Standard (FIPS) compliant mode in the AWS GovCloud (US) Regions.…"
+    },
     {
       "title": "Architecting for agentic AI development on AWS",
       "link": "https://aws.amazon.com/blogs/architecture/architecting-for-agentic-ai-development-on-aws/",
       "source": "AWS Architecture Blog",
       "pubDate": "2026-03-26T17:29:57.000Z",
       "snippet": "In this post, we demonstrate how to architect AWS systems that enable AI agents to iterate rapidly through design patterns for both system architecture and code base structure. We first examine the architectural problems that limit agentic development today.…"
+    },
+    {
+      "title": "Aurora DSQL launches connector that simplifies building Ruby applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-connector-for-ruby/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T17:00:00.000Z",
+      "snippet": "Today we are announcing the release of the Aurora DSQL Connector for Ruby (pg gem) that makes it easy to build Ruby applications on Aurora DSQL. The Ruby Connector streamlines authentication and eliminates security risks associated with traditional…"
+    },
+    {
+      "title": "AWS Lambda increases the file descriptor limit to 4,096 for functions running on Lambda Managed Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-Lambda-file-descriptors-increase-4096/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T16:15:00.000Z",
+      "snippet": "AWS Lambda increases the file descriptor limit from 1,024 to 4,096, a 4x increase, for functions running on Lambda Managed Instances (LMI). This capability enables customers to run I/O intensive workloads such as high-concurrency web services, and file-heavy…"
+    },
+    {
+      "title": "AWS AppConfig adds enhanced targeting during feature flag rollout",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/appconfig-enhanced-targeting-feature-flag-rollout/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T16:00:00.000Z",
+      "snippet": "AWS AppConfig enhances its deployment capabilities with new controls that allow customers to target feature flag and configuration data values to specific segments or individual users during the lifecycle of a gradual roll-out. One of AWS AppConfig’s key…"
+    },
+    {
+      "title": "The AWS Advanced JDBC Wrapper now supports automatic query caching with Valkey",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-jdbc-caching-with-valkey/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T15:57:00.000Z",
+      "snippet": "The AWS Advanced JDBC Wrapper now supports automatically caching JDBC queries with Valkey, including Amazon ElastiCache for Valkey caches. Previously, developers who needed to cache JDBC query result sets had to manually write code to store and retrieve data…"
+    },
+    {
+      "title": "Amazon EC2 R8gd instances are now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8gd-aws-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T15:39:00.000Z",
+      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in US West (N. California), Asia Pacific (Seoul, Hong Kong, Jakarta), Africa (Cape Town), and Canada West (Calgary) AWS…"
+    },
+    {
+      "title": "Amazon EC2 M8a instances now available in AWS Europe (Ireland) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8a-instances-europe-ireland-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T15:00:12.000Z",
+      "snippet": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Europe (Ireland) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher…"
+    },
+    {
+      "title": "Amazon EC2 M8a instances now available in AWS GovCloud (US-West) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8a-instances-govcloud-us-west-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T15:00:00.000Z",
+      "snippet": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS GovCloud (US-West) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher…"
+    },
+    {
+      "title": "AWS Storage Gateway Terraform modules now support Amazon Linux 2023",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/storage-gateway-terraform-al2023/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T10:00:00.000Z",
+      "snippet": "AWS Storage Gateway Terraform modules now enable Amazon Linux 2023-based deployments, delivering improved security, reliability, and operational simplicity for Infrastructure as Code (IaC) provisioning. The updated modules support all gateway types including…"
     },
     {
       "title": "AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region",
@@ -126,90 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-25T10:00:00.000Z",
       "snippet": "AWS Transfer Family now supports receiving Message Disposition Notifications (MDNs) asynchronously for messages sent to trading partners over Applicability Statement 2 (AS2). This enables you to migrate your AS2 workflows to Transfer Family while maintaining…"
-    },
-    {
-      "title": "AWS ParallelCluster 3.15 with support for P6-B300 and Slurm 25.11",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-parallelcluster-p6-b300-slurm/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T07:00:00.000Z",
-      "snippet": "AWS ParallelCluster 3.15 is now generally available. This release adds support for P6-B300 instance types and upgrades Slurm to version 25.11 with expedited job requeue. With P6-B300 support, you can run demanding AI/ML and high-performance computing…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports continuous provisioning for Slurm-orchestrated clusters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-hyperpod-continuous-provisioning/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T04:30:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now extends continuous provisioning support to clusters using the Slurm orchestrator, enabling greater flexibility and efficiency for enterprise customers running large-scale AI/ML training workloads. AI/ML customers running…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Runtime now supports managed session storage for persistent agent filesystem state (preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/bedrock-agentcore-runtime-session-storage/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T01:30:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Runtime now offers managed session storage in public preview, enabling agents to persist their filesystem state across stop and resume cycles. Modern agents write code, install packages, generate artifacts, and manage state through…"
-    },
-    {
-      "title": "Amazon Timestream for InfluxDB is now available in the Mexico (Central), Japan (Osaka), and Brazil (Sao Paulo) AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-influxdb-mexico-osaka-sao-paulo/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-24T17:44:00.000Z",
-      "snippet": "You can now use Amazon Timestream for InfluxDB in the Mexico (Central), Japan (Osaka), and Brazil (Sao Paulo) AWS regions. Timestream for InfluxDB makes it easy for application developers and DevOps teams to run fully managed InfluxDB databases on AWS for…"
-    },
-    {
-      "title": "AWS HealthOmics introduces batch run operations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthomics-introduces-batch-run/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-24T04:17:00.000Z",
-      "snippet": "AWS HealthOmics announces batch run submission, allowing customers to submit up to 100,000 runs of any given workflow in a single request. With this launch, customers can now submit large-scale genomics experiments with thousands of samples without the…"
-    },
-    {
-      "title": "How Generali Malaysia optimizes operations with Amazon EKS",
-      "link": "https://aws.amazon.com/blogs/architecture/how-generali-malaysia-optimizes-operations-with-amazon-eks/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-03-23T22:51:02.000Z",
-      "snippet": "In this post, we look at how Generali is using Amazon EKS Auto Mode and its integration with other AWS services to enhance performance while reducing operational overhead, optimizing costs, and enhancing security."
-    },
-    {
-      "title": "IAM policy types: How and when to use them",
-      "link": "https://aws.amazon.com/blogs/security/iam-policy-types-how-and-when-to-use-them/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-03-23T20:13:44.000Z",
-      "snippet": "June 3, 2022: Original publication date of this post. This post has been updated to add the additional IAM policy types: Resource control policies. You manage access in AWS by creating policies and attaching them to AWS Identity and Access Management (IAM)…"
-    },
-    {
-      "title": "AWS Weekly Roundup: NVIDIA Nemotron 3 Super on Amazon Bedrock, Nova Forge SDK, Amazon Corretto 26, and more (March 23, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-nvidia-nemotron-3-super-on-amazon-bedrock-nova-forge-sdk-amazon-corretto-26-and-more-march-23-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-03-23T16:40:41.000Z",
-      "snippet": "Hello! I’m Daniel Abib, and this is my first AWS Weekly Roundup. I’m a Senior Specialist Solutions Architect at AWS, focused on the generative AI and Amazon Bedrock. With over 28 years of experience in solution architecture, software development, and cloud…"
-    },
-    {
-      "title": "AWS HealthImaging is now available in Europe (London)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-europe-london/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-23T07:00:00.000Z",
-      "snippet": "AWS HealthImaging is now available in the AWS Europe (London) Region. AWS HealthImaging is a HIPAA-eligible service that empowers healthcare providers, life sciences organizations, and their software partners to store, analyze, and share medical images at…"
-    },
-    {
-      "title": "AWS Neuron announces support for Dynamic Resource Allocation with Amazon EKS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/neuron-eks-dra-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-20T22:53:00.000Z",
-      "snippet": "AWS announces the Neuron Dynamic Resource Allocation (DRA) driver for Amazon Elastic Kubernetes Service (EKS), bringing Kubernetes-native hardware-aware scheduling to AWS Trainium-based instances. The Neuron DRA driver publishes rich device attributes…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Runtime adds WebRTC support for real-time bidirectional streaming",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-20T21:54:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Runtime now supports WebRTC for real-time bidirectional streaming between clients and agents, adding to the existing WebSocket protocol support. With WebRTC, developers can build voice agents for browser and mobile applications that…"
-    },
-    {
-      "title": "Amazon EKS announces 99.99% Service Level Agreement and new 8XL scaling tier for Provisioned Control Plane clusters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-eks-announces-sla-8xl-scaling-tier/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-20T20:48:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a 99.99% Service Level Agreement (SLA) for clusters running on Provisioned Control Plane, up from the 99.95% SLA offered on standard control plane. Amazon EKS is also introducing the 8XL scaling tier,…"
     }
   ]
 }
