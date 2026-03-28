@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-03-27T19:22:56.543Z",
+  "lastUpdated": "2026-03-28T01:28:03.349Z",
   "items": [
+    {
+      "title": "Amazon Timestream for InfluxDB Now Supports Advanced Metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-advanced-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-27T22:48:00.000Z",
+      "snippet": "Amazon Timestream for InfluxDB now offers Advanced Metrics, providing comprehensive visibility into your database performance and health. This new capability automatically publishes detailed operational metrics from your Timestream for InfluxDB 2 instances…"
+    },
+    {
+      "title": "Amazon CloudWatch Logs now supports data protection, OpenSearch PPL and OpenSearch SQL for the Infrequent Access ingestion class",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-infrequent-access-log-class/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-27T20:00:00.000Z",
+      "snippet": "Amazon CloudWatch Logs now supports expanded analytics and data protection capabilities for the Infrequent Access (Logs IA) ingestion class, including support for data protection, OpenSearch’s Piped Processing Language (PPL) and OpenSearch SQL. These…"
+    },
     {
       "title": "AWS Lambda supports up to 32 GB of memory and 16 vCPUs for Lambda Managed Instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-32-gb-memory-16-vcpus/",
@@ -14,6 +28,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-27T15:00:00.000Z",
       "snippet": "Today, AWS announces the general availability of Visible services and Visible Regions account settings in the AWS Management Console. These settings allow you to customize which services and regions appear in the Management Console for authorized users in…"
+    },
+    {
+      "title": "Amazon GameLift Servers expands instance support with next-generation EC2 instance families",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-expands-instance-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-27T09:00:00.000Z",
+      "snippet": "Amazon GameLift Servers now supports Amazon EC2 5th through 8th generation instances, offering enhanced price-performance, efficiency, and flexibility for game server hosting. This update allows developers to leverage the latest advancements in EC2 compute,…"
     },
     {
       "title": "AWS HealthImaging announces study-level fine-grained access control",
@@ -49,6 +70,13 @@
       "source": "AWS News Blog",
       "pubDate": "2026-03-26T21:34:19.000Z",
       "snippet": "AWS introduces visual customization capability in AWS Management Console that enables selective display of relevant AWS Regions and services for your team members. By hiding unused Regions and services, you can reduce cognitive load and eliminate unnecessary…"
+    },
+    {
+      "title": "Palmyra Vision 7B from Writer now available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/palmyra-vision-7b-writer-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-26T20:38:00.000Z",
+      "snippet": "Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models from leading AI companies via a single API. Starting today, customers can use Palmyra Vision 7B from Writer on Amazon Bedrock to build generative AI…"
     },
     {
       "title": "Amazon SageMaker Studio launches support for Kiro and Cursor IDEs as remote IDEs",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-25T20:21:00.000Z",
       "snippet": "Today, AWS announces remote connection from Cursor IDE to Amazon SageMaker Unified Studio via the AWS Toolkit extension. This new capability allows data scientists, ML engineers, and developers to leverage their Cursor setup - including its AI-powered code…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore adds support for Chrome policies and custom root CA",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-browser-policies-root-ca/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T20:10:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore now enables customers to configure Chrome Enterprise policies for AgentCore Browser and specify custom root Certificate Authority (CA) certificates for both AgentCore Browser and Code Interpreter. These enhancements help ensure…"
-    },
-    {
-      "title": "AWS Batch now supports quota management and preemption for SageMaker Training jobs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-quota-management-preemption-sagemaker/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T18:40:00.000Z",
-      "snippet": "AWS Batch now supports quota management with job preemption for SageMaker Training jobs, enabling you to efficiently allocate and share compute resources across your teams and projects. If you're using GPU capacity in SageMaker Training jobs, you can now…"
-    },
-    {
-      "title": "Amazon Route 53 Profiles now supports granular IAM permissions for resource and VPC associations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-profiles-granular-iam/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T18:34:00.000Z",
-      "snippet": "Amazon Route 53 Profiles now supports granular AWS Identity and Access Management (IAM) permissions, allowing you to control which users can manage specific resource types and VPC associations within your Profiles. With this launch, you can create IAM…"
-    },
-    {
-      "title": "Amazon Quick Now Available in the AWS Tokyo Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-tokyo-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-25T17:02:00.000Z",
-      "snippet": "Amazon Quick is now available in the AWS Asia Pacific (Tokyo) region (ap-northeast-1). This launch allows customers in Japan to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty. Amazon Quick provides…"
     }
   ]
 }
