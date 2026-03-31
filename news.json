@@ -1,6 +1,111 @@
 {
-  "lastUpdated": "2026-03-31T14:39:15.428Z",
+  "lastUpdated": "2026-03-31T20:44:22.536Z",
   "items": [
+    {
+      "title": "New compliance guide available: ISO/IEC 27001:2022 on AWS",
+      "link": "https://aws.amazon.com/blogs/security/new-compliance-guide-available-iso-iec-270012022-on-aws-compliance-guide/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-03-31T20:36:56.000Z",
+      "snippet": "We’re excited to announce the release of our latest compliance guide, ISO/IEC 27001:2022 on AWS, which provides practical guidance for organizations designing and operating an Information Security Management System (ISMS) using AWS services. As organizations…"
+    },
+    {
+      "title": "Announcing the AWS Sustainability console: Programmatic access, configurable CSV reports, and Scope 1–3 reporting in one place",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-the-aws-sustainability-console-programmatic-access-configurable-csv-reports-and-scope-1-3-reporting-in-one-place/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-03-31T19:04:00.000Z",
+      "snippet": "AWS announces the Sustainability console, a new standalone service that consolidates carbon emissions reporting and resources, giving sustainability teams independent access to Scope 1, 2, and 3 emissions data without requiring billing permissions."
+    },
+    {
+      "title": "AWS Deadline Cloud now supports new fleet scaling configurations for render farms",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/deadline-cloud-fleet-scaling/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T18:29:00.000Z",
+      "snippet": "Today, AWS Deadline Cloud introduces three powerful new fleet scaling options that give you greater flexibility in managing your render farm capacity and performance: worker idle duration, standby worker count, and scale out rate. AWS Deadline Cloud is a…"
+    },
+    {
+      "title": "Streamlining access to powerful disaster recovery capabilities of AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/streamlining-access-to-powerful-disaster-recovery-capabilities-of-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-03-31T18:00:38.000Z",
+      "snippet": "In this blog post, we take a building blocks approach. Starting with the tools like AWS Backup to protect your data, we then add protection for Amazon Elastic Compute Cloud (Amazon EC2) compute using AWS Elastic Disaster Recovery (AWS DRS). Finally, we show…"
+    },
+    {
+      "title": "Aurora DSQL launches new connectors that simplify building .NET and Rust applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-rust-npgsql-connectors/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T17:34:00.000Z",
+      "snippet": "Today we are announcing the release of Aurora DSQL connectors for .NET (Npgsql) and Rust (SQLx) that make it easy to build .NET and Rust applications on Aurora DSQL. The connectors streamline authentication and eliminate security risks associated with…"
+    },
+    {
+      "title": "AWS Service Availability Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T17:00:00.000Z",
+      "snippet": "We’re announcing availability changes to the following AWS services and features. Services moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting April 30, 2026. Customers already using these services and…"
+    },
+    {
+      "title": "Amazon ECS Managed Instances now supports Amazon EC2 instance store",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-local-storage/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T16:30:00.000Z",
+      "snippet": "Amazon ECS Managed Instances now supports Amazon EC2 instance store volumes as a data volume option for container workloads. You can now leverage instance store volumes on your ECS container instances instead of provisioning an Amazon EBS data volume,…"
+    },
+    {
+      "title": "AWS Security Agent on-demand penetration testing now generally available",
+      "link": "https://aws.amazon.com/blogs/security/aws-security-agent-on-demand-penetration-testing-now-generally-available/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-03-31T16:13:55.000Z",
+      "snippet": "AWS Security Agent on-demand penetration testing is now generally available, enabling you to run comprehensive security tests across all your applications, not only your most critical ones. This milestone transforms penetration testing from a periodic…"
+    },
+    {
+      "title": "AWS DevOps Agent is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-devops-agent-generally-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T15:11:00.000Z",
+      "snippet": "Now generally available, AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performance, and handles on-demand SRE tasks across AWS, multicloud, and on-prem…"
+    },
+    {
+      "title": "AWS Security Agent on-demand penetration testing is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-agent-ondemand-penetration/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T14:00:00.000Z",
+      "snippet": "Today, AWS announced the general availability of AWS Security Agent for on-demand penetration testing in six AWS Regions. AWS Security Agent delivers autonomous penetration testing that operates 24/7 at a fraction of the cost than manual penetration tests.…"
+    },
+    {
+      "title": "AWS Private CA now publishes utilization metrics to Amazon CloudWatch",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-private-ca-publishes-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T13:00:00.000Z",
+      "snippet": "AWS Private Certificate Authority (AWS Private CA) now publishes certificate authority (CA) utilization metrics to Amazon CloudWatch, providing visibility into your CA usage. AWS Private CA enforces service quota limits on the number of certificates a CA can…"
+    },
+    {
+      "title": "Amazon CloudWatch Logs introduces lookup query command",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-lookup-query-command/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T10:00:00.000Z",
+      "snippet": "Amazon CloudWatch Logs Insights now supports a new lookup command that enables customers to enrich log query results with data from reference tables. Developers, DevOps engineers, and SREs working with complex distributed systems often encounter logs…"
+    },
+    {
+      "title": "AWS Transform custom announces general availability of automated codebase analysis",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/transform-custom-new-codebase-analysis/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T08:00:00.000Z",
+      "snippet": "AWS Transform custom announces the general availability of the comprehensive codebase analysis transformation. This up-front analysis reduces documentation maintenance burden and preserves critical institutional knowledge. This enables you to better…"
+    },
+    {
+      "title": "AWS Transform custom introduces new AWS-managed transformations to modernize code at scale",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/transform-custom-new-transformations/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T08:00:00.000Z",
+      "snippet": "AWS Transform custom now offers seven new AWS-managed transformations to help you modernize code at scale. These transformations address common modernization scenarios across multiple languages and frameworks. Generally available transformations includes…"
+    },
+    {
+      "title": "Announcing Amazon RDS for Oracle on AWS Outposts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-oracle-aws-outposts/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T08:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle is now available on AWS Outposts. AWS Outposts is a fully managed service that extends AWS infrastructure, AWS services, APIs, and tools to virtually any data center, co-location space, or on-premises…"
+    },
     {
       "title": "Amazon CloudWatch now supports multi-account and region log centralization based on data source",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-centralization-datasource/",
@@ -79,6 +184,13 @@
       "snippet": "Amazon Timestream for InfluxDB now offers Advanced Metrics, providing comprehensive visibility into your database performance and health. This new capability automatically publishes detailed operational metrics from your Timestream for InfluxDB 2 instances…"
     },
     {
+      "title": "Amazon Connect now supports tag-based access control for quick responses",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2006/03/amazon-connect-tag-based-access/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-27T20:25:00.000Z",
+      "snippet": "Amazon Connect now applies tag-based access controls (TBAC) to routing profile assignments in quick responses. Previously, quick responses configured by administrators with tag-based access controls were available to all agents, regardless of routing profile…"
+    },
+    {
       "title": "Amazon CloudWatch Logs now supports data protection, OpenSearch PPL and OpenSearch SQL for the Infrequent Access ingestion class",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-infrequent-access-log-class/",
       "source": "AWS What's New",
@@ -98,118 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-27T15:00:00.000Z",
       "snippet": "Today, AWS announces the general availability of Visible services and Visible Regions account settings in the AWS Management Console. These settings allow you to customize which services and regions appear in the Management Console for authorized users in…"
-    },
-    {
-      "title": "Amazon GameLift Servers expands instance support with next-generation EC2 instance families",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-expands-instance-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-27T09:00:00.000Z",
-      "snippet": "Amazon GameLift Servers now supports Amazon EC2 5th through 8th generation instances, offering enhanced price-performance, efficiency, and flexibility for game server hosting. This update allows developers to leverage the latest advancements in EC2 compute,…"
-    },
-    {
-      "title": "AWS HealthImaging announces study-level fine-grained access control",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-study-level-access-control/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-27T07:00:00.000Z",
-      "snippet": "AWS HealthImaging now supports fine-grained access control, enabling organizations to securely manage access to medical imaging data at the DICOM study and series levels. Medical imaging workflows are typically organized around DICOM studies, which are stored…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i instances now available in Europe (Milan)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-u7i-europe-milan/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T22:30:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) and U7i-12TB instances (u7i-12tb.224xlarge) are now available in AWS Europe (Milan). U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel Xeon Scalable…"
-    },
-    {
-      "title": "Preparing for agentic AI: A financial services approach",
-      "link": "https://aws.amazon.com/blogs/security/preparing-for-agentic-ai-a-financial-services-approach/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-03-26T22:00:45.000Z",
-      "snippet": "Deploying agentic AI in financial services requires additional security controls that address AI-specific risks. This post walks you through comprehensive observability and fine-grained access controls—two critical capabilities for maintaining explainability…"
-    },
-    {
-      "title": "AWS Step Functions adds 28 new service integrations, including Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-step-functions-sdk-integrations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T22:00:00.000Z",
-      "snippet": "AWS Step Functions expands its AWS SDK integrations with 28 additional services and over 1,100 new API actions across new and existing AWS services, including Amazon Bedrock AgentCore and Amazon S3 Vectors. This expansion enables you to orchestrate a broader…"
-    },
-    {
-      "title": "Customize your AWS Management Console experience with visual settings including account color, region and service visibility",
-      "link": "https://aws.amazon.com/blogs/aws/customize-your-aws-management-console-experience-with-visual-settings-including-account-color-region-and-service-visibility/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-03-26T21:34:19.000Z",
-      "snippet": "AWS introduces visual customization capability in AWS Management Console that enables selective display of relevant AWS Regions and services for your team members. By hiding unused Regions and services, you can reduce cognitive load and eliminate unnecessary…"
-    },
-    {
-      "title": "Palmyra Vision 7B from Writer now available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/palmyra-vision-7b-writer-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T20:38:00.000Z",
-      "snippet": "Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models from leading AI companies via a single API. Starting today, customers can use Palmyra Vision 7B from Writer on Amazon Bedrock to build generative AI…"
-    },
-    {
-      "title": "Amazon SageMaker Studio launches support for Kiro and Cursor IDEs as remote IDEs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-studio-kiro-cursor/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T19:53:00.000Z",
-      "snippet": "Today, AWS announces the ability to remotely connect from Kiro and Cursor IDEs to Amazon SageMaker Studio. This new capability allows data scientists, ML engineers, and developers to leverage their Kiro and Cursor setup - including its spec-driven…"
-    },
-    {
-      "title": "Amazon ECS Managed Instances now supports FIPS-certified workloads on Graviton and GPU accelerated instances in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-supports-fips-graviron-gpu/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T19:40:00.000Z",
-      "snippet": "Starting today, customers can deploy their Graviton-based and GPU-accelerated workloads on Amazon Elastic Container Service (Amazon ECS) Managed Instances in a Federal Information Processing Standard (FIPS) compliant mode in the AWS GovCloud (US) Regions.…"
-    },
-    {
-      "title": "Research and Engineering Studio on AWS 2026.03 is now available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/res-2026-03-is-now-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T18:52:00.000Z",
-      "snippet": "Today we're announcing Research and Engineering Studio (RES) on AWS 2026.03, which introduces new administrator controls, expanded filesystem support, and session management improvements. Research and Engineering Studio on AWS (RES) is an open source,…"
-    },
-    {
-      "title": "AWS Parallel Computing Service supports slurmdbd and cgroups settings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-pcs-manages-slurmdbd-cgroups-settings/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T18:29:00.000Z",
-      "snippet": "AWS Parallel Computing Service (AWS PCS) now supports additional Slurm configuration settings for slurmdbd and cgroups, enabling you to fine-tune accounting behavior and resource isolation directly through the AWS PCS console, CLI, or SDK. This feature helps…"
-    },
-    {
-      "title": "Architecting for agentic AI development on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/architecting-for-agentic-ai-development-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-03-26T17:29:57.000Z",
-      "snippet": "In this post, we demonstrate how to architect AWS systems that enable AI agents to iterate rapidly through design patterns for both system architecture and code base structure. We first examine the architectural problems that limit agentic development today.…"
-    },
-    {
-      "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-i8ge-available-new-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T17:00:00.000Z",
-      "snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in Europe (Stockholm), Asia Pacific (Mumbai), Asia Pacific (Malaysia), Asia Pacific (Singapore), and Asia Pacific (Sydney) AWS regions. I8ge instances are powered by AWS…"
-    },
-    {
-      "title": "Aurora DSQL launches connector that simplifies building Ruby applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-connector-for-ruby/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T17:00:00.000Z",
-      "snippet": "Today we are announcing the release of the Aurora DSQL Connector for Ruby (pg gem) that makes it easy to build Ruby applications on Aurora DSQL. The Ruby Connector streamlines authentication and eliminates security risks associated with traditional…"
-    },
-    {
-      "title": "AWS Lambda increases the file descriptor limit to 4,096 for functions running on Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-Lambda-file-descriptors-increase-4096/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T16:15:00.000Z",
-      "snippet": "AWS Lambda increases the file descriptor limit from 1,024 to 4,096, a 4x increase, for functions running on Lambda Managed Instances (LMI). This capability enables customers to run I/O intensive workloads such as high-concurrency web services, and file-heavy…"
-    },
-    {
-      "title": "AWS AppConfig adds enhanced targeting during feature flag rollout",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/appconfig-enhanced-targeting-feature-flag-rollout/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-26T16:00:00.000Z",
-      "snippet": "AWS AppConfig enhances its deployment capabilities with new controls that allow customers to target feature flag and configuration data values to specific segments or individual users during the lifecycle of a gradual roll-out. One of AWS AppConfig’s key…"
     }
   ]
 }
