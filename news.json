@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T02:49:24.598Z",
+  "lastUpdated": "2026-04-01T08:54:28.790Z",
   "items": [
     {
       "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
@@ -14,6 +14,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-31T22:00:00.000Z",
       "snippet": "AWS launches the AWS Sustainability console, a free, standalone service that shows customers their environmental impact associated with their AWS usage. Expanding on the features from the Customer Carbon Footprint Tool (CCFT) in the AWS Billing console, this…"
+    },
+    {
+      "title": "Amazon OpenSearch Service introduces agentic AI for log analytics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/opensearch-agentic-ai-log-analytics-observability/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T21:17:00.000Z",
+      "snippet": "Amazon OpenSearch Service now offers agentic AI capabilities that enable engineering and support teams to analyze log data through an agentic conversational interface. These agentic AI features help simplify log querying and accelerate incident investigations…"
     },
     {
       "title": "AWS IAM Identity Center is now available in AWS European Sovereign Cloud (Germany) Region",
@@ -191,13 +198,6 @@
       "snippet": "AWS Transform custom announces the general availability of the comprehensive codebase analysis transformation. This up-front analysis reduces documentation maintenance burden and preserves critical institutional knowledge. This enables you to better…"
     },
     {
-      "title": "Announcing Amazon RDS for Oracle on AWS Outposts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-oracle-aws-outposts/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T08:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle is now available on AWS Outposts. AWS Outposts is a fully managed service that extends AWS infrastructure, AWS services, APIs, and tools to virtually any data center, co-location space, or on-premises…"
-    },
-    {
       "title": "AWS Transform custom introduces new AWS-managed transformations to modernize code at scale",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/transform-custom-new-transformations/",
       "source": "AWS What's New",
@@ -205,11 +205,11 @@
       "snippet": "AWS Transform custom now offers seven new AWS-managed transformations to help you modernize code at scale. These transformations address common modernization scenarios across multiple languages and frameworks. Generally available transformations includes…"
     },
     {
-      "title": "Amazon RDS for Db2 is now available in Asia Pacific (New Zealand)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-db2-available-Aisa-Pacific-New-Zealand/",
+      "title": "Announcing Amazon RDS for Oracle on AWS Outposts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-oracle-aws-outposts/",
       "source": "AWS What's New",
-      "pubDate": "2026-03-31T07:27:00.000Z",
-      "snippet": "Amazon RDS for Db2 is now available in the Asia Pacific (New Zealand) AWS Region. Amazon RDS for Db2 makes it easy to set up, operate, and scale Db2 databases in the cloud. Customers can deploy a Db2 database in minutes with automatically configured…"
+      "pubDate": "2026-03-31T08:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle is now available on AWS Outposts. AWS Outposts is a fully managed service that extends AWS infrastructure, AWS services, APIs, and tools to virtually any data center, co-location space, or on-premises…"
     }
   ]
 }
