@@ -1,12 +1,47 @@
 {
-  "lastUpdated": "2026-03-31T20:44:22.536Z",
+  "lastUpdated": "2026-04-01T02:49:24.598Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-securityhub-findings/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T23:00:00.000Z",
+      "snippet": "Amazon CloudWatch now supports ingesting AWS Security Hub CSPM findings, enabling customers to centrally analyze and monitor security findings directly in CloudWatch Logs. Security Hub CSPM findings are supported in AWS Security Finding Format (ASFF) and Open…"
+    },
+    {
+      "title": "AWS launches Sustainability console for carbon emissions tracking",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-launches-sustainability-console/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T22:00:00.000Z",
+      "snippet": "AWS launches the AWS Sustainability console, a free, standalone service that shows customers their environmental impact associated with their AWS usage. Expanding on the features from the Customer Carbon Footprint Tool (CCFT) in the AWS Billing console, this…"
+    },
+    {
+      "title": "AWS IAM Identity Center is now available in AWS European Sovereign Cloud (Germany) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-iam-identity-center-european-sovereign-cloud-germany-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T21:00:00.000Z",
+      "snippet": "You can now deploy AWS IAM Identity Center in the AWS European Sovereign Cloud (Germany) Region. The AWS European Sovereign Cloud is a new independent cloud for Europe entirely located within the European Union (EU), designed to help customers meet their…"
+    },
     {
       "title": "New compliance guide available: ISO/IEC 27001:2022 on AWS",
       "link": "https://aws.amazon.com/blogs/security/new-compliance-guide-available-iso-iec-270012022-on-aws-compliance-guide/",
       "source": "AWS Security Blog",
       "pubDate": "2026-03-31T20:36:56.000Z",
       "snippet": "We’re excited to announce the release of our latest compliance guide, ISO/IEC 27001:2022 on AWS, which provides practical guidance for organizations designing and operating an Information Security Management System (ISMS) using AWS services. As organizations…"
+    },
+    {
+      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.2",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-managed-service-flink-2-2/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T20:00:00.000Z",
+      "snippet": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.2. This is a major upgrade that brings runtime improvements such as Java 17 support, RocksDB 8.10.0 for better I/O performance, and serialization enhancements. Additionally, Dataset…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio adds Observability for AWS Glue jobs via CloudWatch metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T19:30:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio adds Observability for jobs, it now displays Amazon CloudWatch metrics for AWS Glue jobs directly alongside job logs in a single, unified interface. This enhancement adds observability to SageMaker Unified Studio, enabling data…"
     },
     {
       "title": "Announcing the AWS Sustainability console: Programmatic access, configurable CSV reports, and Scope 1–3 reporting in one place",
@@ -16,11 +51,25 @@
       "snippet": "AWS announces the Sustainability console, a new standalone service that consolidates carbon emissions reporting and resources, giving sustainability teams independent access to Scope 1, 2, and 3 emissions data without requiring billing permissions."
     },
     {
+      "title": "AWS Organizations now provides organization paths in API responses",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-organizations-paths-api-responses/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T18:59:00.000Z",
+      "snippet": "AWS Organizations now returns the complete organizational path for accounts and organizational units (OUs) directly in API responses, eliminating the need for multiple API calls to traverse organizational hierarchies. Previously, understanding where accounts…"
+    },
+    {
       "title": "AWS Deadline Cloud now supports new fleet scaling configurations for render farms",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/deadline-cloud-fleet-scaling/",
       "source": "AWS What's New",
       "pubDate": "2026-03-31T18:29:00.000Z",
       "snippet": "Today, AWS Deadline Cloud introduces three powerful new fleet scaling options that give you greater flexibility in managing your render farm capacity and performance: worker idle duration, standby worker count, and scale out rate. AWS Deadline Cloud is a…"
+    },
+    {
+      "title": "AWS Marketplace sellers can now self-serve refunds and agreement cancellations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-marketplace-seller-self-service-refund-cancel/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T18:28:00.000Z",
+      "snippet": "AWS Marketplace now offers sellers a streamlined self-service process for refunds and agreement cancellations, reducing the time and effort required to process these requests. This new capability eliminates the need to file support tickets, and gives both…"
     },
     {
       "title": "Streamlining access to powerful disaster recovery capabilities of AWS",
@@ -35,6 +84,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-31T17:34:00.000Z",
       "snippet": "Today we are announcing the release of Aurora DSQL connectors for .NET (Npgsql) and Rust (SQLx) that make it easy to build .NET and Rust applications on Aurora DSQL. The connectors streamline authentication and eliminate security risks associated with…"
+    },
+    {
+      "title": "Amazon S3 Vectors expands to 17 additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-vectors-expands-17-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T17:28:00.000Z",
+      "snippet": "Amazon S3 Vectors is now available in 17 additional AWS Regions: Africa (Cape Town), Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New Zealand), Asia Pacific…"
+    },
+    {
+      "title": "AWS announces End User Messaging Notify",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-end-user-messaging-notify/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T17:24:00.000Z",
+      "snippet": "Businesses want to send one-time passcodes (OTPs) because they are often the easiest and fastest way for customers to verify who they are. However, businesses are often surprised when it takes weeks or months to get phone numbers, complete carrier…"
     },
     {
       "title": "AWS Service Availability Updates",
@@ -58,11 +121,32 @@
       "snippet": "AWS Security Agent on-demand penetration testing is now generally available, enabling you to run comprehensive security tests across all your applications, not only your most critical ones. This milestone transforms penetration testing from a periodic…"
     },
     {
+      "title": "Amazon Bedrock AgentCore Evaluations is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T16:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Evaluations is now generally available, providing automated quality assessment for AI agents. Evaluations enables developers to monitor agent quality through continuous evaluation of production traffic, validate changes through…"
+    },
+    {
+      "title": "AWS End User Messaging now supports RCS for Business",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/rcs-business-messaging/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T15:57:00.000Z",
+      "snippet": "Today, AWS End User Messaging announces support for Rich Communication Services (RCS) for Business. Traditional SMS arrives from a generic phone number that customers may not recognize, making it harder for businesses to build trust. RCS solves this by…"
+    },
+    {
       "title": "AWS DevOps Agent is now generally available",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-devops-agent-generally-available/",
       "source": "AWS What's New",
       "pubDate": "2026-03-31T15:11:00.000Z",
       "snippet": "Now generally available, AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performance, and handles on-demand SRE tasks across AWS, multicloud, and on-prem…"
+    },
+    {
+      "title": "Amazon Connect now expands testing and simulation capabilities to chats",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-expands-simulation-chat/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T15:00:00.000Z",
+      "snippet": "Amazon Connect now allows you to test and simulate chat experiences in just a few clicks, making it easy to validate self-service chat interactions, customer service workflows, and their outcomes. For each test, you can configure the test parameters including…"
     },
     {
       "title": "AWS Security Agent on-demand penetration testing is now generally available",
@@ -79,11 +163,25 @@
       "snippet": "AWS Private Certificate Authority (AWS Private CA) now publishes certificate authority (CA) utilization metrics to Amazon CloudWatch, providing visibility into your CA usage. AWS Private CA enforces service quota limits on the number of certificates a CA can…"
     },
     {
+      "title": "Amazon Location Service now supports GrabMaps with enhanced APIs for Southeast Asia",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-location-service-grabmaps/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T12:00:00.000Z",
+      "snippet": "Amazon Location Service now supports GrabMaps with simplified APIs that eliminate upfront resource creation, making it faster to build maps, places, and routing applications with high-quality Southeast Asian data. GrabMaps provides detailed, region-specific…"
+    },
+    {
       "title": "Amazon CloudWatch Logs introduces lookup query command",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-lookup-query-command/",
       "source": "AWS What's New",
       "pubDate": "2026-03-31T10:00:00.000Z",
       "snippet": "Amazon CloudWatch Logs Insights now supports a new lookup command that enables customers to enrich log query results with data from reference tables. Developers, DevOps engineers, and SREs working with complex distributed systems often encounter logs…"
+    },
+    {
+      "title": "AWS Backup expands support for Amazon Redshift Serverless to seven Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-redshift-serverless-seven-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-03-31T10:00:00.000Z",
+      "snippet": "AWS Backup support for Amazon Redshift Serverless is now available in seven additional AWS Regions: Asia Pacific (Osaka, Hyderabad, Taipei, Kuala Lumpur, Auckland), Europe (Milan), and Africa (Cape Town). This expansion brings policy-based data protection and…"
     },
     {
       "title": "AWS Transform custom announces general availability of automated codebase analysis",
@@ -93,13 +191,6 @@
       "snippet": "AWS Transform custom announces the general availability of the comprehensive codebase analysis transformation. This up-front analysis reduces documentation maintenance burden and preserves critical institutional knowledge. This enables you to better…"
     },
     {
-      "title": "AWS Transform custom introduces new AWS-managed transformations to modernize code at scale",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/transform-custom-new-transformations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T08:00:00.000Z",
-      "snippet": "AWS Transform custom now offers seven new AWS-managed transformations to help you modernize code at scale. These transformations address common modernization scenarios across multiple languages and frameworks. Generally available transformations includes…"
-    },
-    {
       "title": "Announcing Amazon RDS for Oracle on AWS Outposts",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-oracle-aws-outposts/",
       "source": "AWS What's New",
@@ -107,109 +198,18 @@
       "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle is now available on AWS Outposts. AWS Outposts is a fully managed service that extends AWS infrastructure, AWS services, APIs, and tools to virtually any data center, co-location space, or on-premises…"
     },
     {
-      "title": "Amazon CloudWatch now supports multi-account and region log centralization based on data source",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-centralization-datasource/",
+      "title": "AWS Transform custom introduces new AWS-managed transformations to modernize code at scale",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/transform-custom-new-transformations/",
       "source": "AWS What's New",
-      "pubDate": "2026-03-30T23:00:00.000Z",
-      "snippet": "Amazon CloudWatch centralization now supports centralizing logs based on data source name and type. CloudWatch allows customers to copy log data from multiple AWS accounts and regions into a single destination account using centralization rules. With today's…"
+      "pubDate": "2026-03-31T08:00:00.000Z",
+      "snippet": "AWS Transform custom now offers seven new AWS-managed transformations to help you modernize code at scale. These transformations address common modernization scenarios across multiple languages and frameworks. Generally available transformations includes…"
     },
     {
-      "title": "AWS Security Hub is now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-hub-govcloud-us-regions/",
+      "title": "Amazon RDS for Db2 is now available in Asia Pacific (New Zealand)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-db2-available-Aisa-Pacific-New-Zealand/",
       "source": "AWS What's New",
-      "pubDate": "2026-03-30T22:40:00.000Z",
-      "snippet": "AWS Security Hub is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Security Hub is a unified cloud security solution that prioritizes critical security issues and helps you respond at scale, reduce security risks, and improve…"
-    },
-    {
-      "title": "AWS HealthOmics introduces VPC-connected workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthomics-vpc-connected-workflows/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-30T21:58:00.000Z",
-      "snippet": "AWS HealthOmics announces VPC-connected workflows, giving customers the ability to run bioinformatics pipelines that access AWS resources across regions and public internet resources through a customer’s Virtual Private Cloud (VPC). With this launch, life…"
-    },
-    {
-      "title": "AWS Elemental MediaTailor now available in Europe (London)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-elemental-mediatailor-london-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-30T20:00:00.000Z",
-      "snippet": "AWS Elemental MediaTailor is now available in the Europe (London) AWS Region. MediaTailor is a personalized ad insertion and channel assembly service that enables video providers to serve targeted ads in live and on-demand video streams using server-side ad…"
-    },
-    {
-      "title": "Amazon Athena launches Capacity Reservations in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-athena-adding-cap-reservation-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-30T19:30:00.000Z",
-      "snippet": "Amazon Athena now offers Capacity Reservations in additional commercial AWS Regions. Capacity Reservations give you dedicated serverless capacity for your most important workloads. When you use Capacity Reservations, your queries run in isolation from other…"
-    },
-    {
-      "title": "AWS Weekly Roundup: AWS AI/ML Scholars program, Agent Plugin for AWS Serverless, and more (March 30, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-ai-ml-scholars-program-agent-plugin-for-aws-serverless-and-more-march-30-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-03-30T16:11:28.000Z",
-      "snippet": "Last week, what excited me most was the launch of the 2026 AWS AI & ML Scholars program by Swami Sivasubramanian, VP of AWS Agentic AI, to provide free AI education to up to 100,000 learners worldwide. The program has two phases: a Challenge phase where…"
-    },
-    {
-      "title": "How Aigen transformed agricultural robotics for sustainable farming with Amazon SageMaker AI",
-      "link": "https://aws.amazon.com/blogs/architecture/how-aigen-transformed-agricultural-robotics-for-sustainable-farming-with-amazon-sagemaker-ai/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-03-30T15:36:36.000Z",
-      "snippet": "In this post, you will learn how Aigen modernized its machine learning (ML) pipeline with Amazon SageMaker AI to overcome industry-wide agricultural robotics challenges and scale sustainable farming. This post focuses on the strategies and architecture…"
-    },
-    {
-      "title": "Access Cluster Insights through the Amazon OpenSearch Service Console and Amazon EventBridge events",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/access-cluster-insights-opensearch/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-30T14:51:00.000Z",
-      "snippet": "Amazon OpenSearch Service extends access to Cluster Insights through the AWS Management Console, in addition to the existing OpenSearch UI Dashboards. This launch makes it easier to review performance and resilience recommendations and make necessary…"
-    },
-    {
-      "title": "Amazon SageMaker Data Agent is now available in the Amazon SageMaker Unified Studio Query Editor",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-data-agent-query-editor/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-30T09:30:00.000Z",
-      "snippet": "Amazon SageMaker Data Agent is now available in the Query Editor in Amazon SageMaker Unified Studio, extending beyond notebook experience. With Data Agent in Query Editor, you can generate SQL queries from natural language, debug failed queries, and explore…"
-    },
-    {
-      "title": "AWS Direct Connect adds CloudWatch metrics for BGP monitoring",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-cloudwatch-bgp-monitoring/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-30T07:00:00.000Z",
-      "snippet": "AWS Direct Connect now publishes three new Amazon CloudWatch metrics for virtual interfaces (VIFs) that provide visibility into Border Gateway Protocol (BGP) session health and route counts. Network engineers and operations teams managing hybrid cloud…"
-    },
-    {
-      "title": "Amazon Timestream for InfluxDB Now Supports Advanced Metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-advanced-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-27T22:48:00.000Z",
-      "snippet": "Amazon Timestream for InfluxDB now offers Advanced Metrics, providing comprehensive visibility into your database performance and health. This new capability automatically publishes detailed operational metrics from your Timestream for InfluxDB 2 instances…"
-    },
-    {
-      "title": "Amazon Connect now supports tag-based access control for quick responses",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2006/03/amazon-connect-tag-based-access/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-27T20:25:00.000Z",
-      "snippet": "Amazon Connect now applies tag-based access controls (TBAC) to routing profile assignments in quick responses. Previously, quick responses configured by administrators with tag-based access controls were available to all agents, regardless of routing profile…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs now supports data protection, OpenSearch PPL and OpenSearch SQL for the Infrequent Access ingestion class",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-infrequent-access-log-class/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-27T20:00:00.000Z",
-      "snippet": "Amazon CloudWatch Logs now supports expanded analytics and data protection capabilities for the Infrequent Access (Logs IA) ingestion class, including support for data protection, OpenSearch’s Piped Processing Language (PPL) and OpenSearch SQL. These…"
-    },
-    {
-      "title": "AWS Lambda supports up to 32 GB of memory and 16 vCPUs for Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-32-gb-memory-16-vcpus/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-27T16:00:00.000Z",
-      "snippet": "AWS Lambda now supports up to 32 GB of memory and 16 vCPUs for functions running on Lambda Managed Instances, enabling customers to run compute-intensive workloads such as large-scale data processing, media transcoding, and scientific simulations without…"
-    },
-    {
-      "title": "AWS Management Console now supports settings to control service and Region visibility",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/account-customizations-console/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-27T15:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of Visible services and Visible Regions account settings in the AWS Management Console. These settings allow you to customize which services and regions appear in the Management Console for authorized users in…"
+      "pubDate": "2026-03-31T07:27:00.000Z",
+      "snippet": "Amazon RDS for Db2 is now available in the Asia Pacific (New Zealand) AWS Region. Amazon RDS for Db2 makes it easy to set up, operate, and scale Db2 databases in the cloud. Customers can deploy a Db2 database in minutes with automatically configured…"
     }
   ]
 }
