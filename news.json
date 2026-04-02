@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-04-02T15:14:54.211Z",
+  "lastUpdated": "2026-04-02T21:19:58.857Z",
   "items": [
+    {
+      "title": "Four security principles for agentic AI systems",
+      "link": "https://aws.amazon.com/blogs/security/four-security-principles-for-agentic-ai-systems/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-02T20:45:09.000Z",
+      "snippet": "Agentic AI represents a qualitative shift in how software operates. Traditional software executes deterministic instructions. Generative AI responds to human prompts with output that humans review and use at their discretion. Agentic AI differs from both.…"
+    },
+    {
+      "title": "Amazon CloudWatch expands auto-enablement to Amazon CloudFront logs and 3 additional resource types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cloudfront-enablement/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-02T17:00:00.000Z",
+      "snippet": "Amazon CloudWatch now supports automatic enablement of Amazon CloudFront Standard access logs, AWS Security Hub CSPM finding logs, and Amazon Bedrock AgentCore memory and gateway logs and traces to CloudWatch Logs. Customers can set up enablement rules that…"
+    },
+    {
+      "title": "AWS Direct Connect announces 100G expansion in Auckland, New Zealand",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-direct-connect-100g-auckland/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-02T16:00:00.000Z",
+      "snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Datacom Orbit DH6 data center near Auckland, New Zealand. You can now establish private, direct network access to all public AWS Regions…"
+    },
+    {
+      "title": "Amazon CloudWatch now supports OpenTelemetry metrics in public preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-opentelemetry-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-02T15:00:00.000Z",
+      "snippet": "Amazon CloudWatch now supports native OpenTelemetry (OTel) metrics in public preview, enabling you to send metrics directly using the OpenTelemetry Protocol (OTLP) without custom conversion logic or additional tooling. You can now combine your custom…"
+    },
     {
       "title": "Announcing managed daemon support for Amazon ECS Managed Instances",
       "link": "https://aws.amazon.com/blogs/aws/announcing-managed-daemon-support-for-amazon-ecs-managed-instances/",
@@ -65,18 +93,18 @@
       "snippet": "Amazon Bedrock is a fully managed service that provides access to a wide selection of high-performing foundation models from leading AI companies through a single API. Today, Amazon Bedrock expands structured outputs support to AWS GovCloud (US) Regions.…"
     },
     {
-      "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T07:00:00.000Z",
-      "snippet": "Today, Oracle Database@AWS (ODB@AWS) announced high performance networking that provides customers consistent sub-millisecond roundtrip latency from their AWS applications to the database. Many applications such as payment processing, securities trading, and…"
-    },
-    {
       "title": "AWS Managed Microsoft AD adds Multi-Region replication for Opt-In regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/multi-region-opt-in-aws-microsoft-ad/",
       "source": "AWS What's New",
       "pubDate": "2026-04-01T07:00:00.000Z",
       "snippet": "AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, now supports Multi-Region replication in AWS Opt-In regions. This expands the existing Multi-Region replication capability to additional AWS regions, eliminating the…"
+    },
+    {
+      "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-01T07:00:00.000Z",
+      "snippet": "Today, Oracle Database@AWS (ODB@AWS) announced high performance networking that provides customers consistent sub-millisecond roundtrip latency from their AWS applications to the database. Many applications such as payment processing, securities trading, and…"
     },
     {
       "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-31T17:24:00.000Z",
       "snippet": "Businesses want to send one-time passcodes (OTPs) because they are often the easiest and fastest way for customers to verify who they are. However, businesses are often surprised when it takes weeks or months to get phone numbers, complete carrier…"
-    },
-    {
-      "title": "AWS Service Availability Updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T17:00:00.000Z",
-      "snippet": "We’re announcing availability changes to the following AWS services and features. Services moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting April 30, 2026. Customers already using these services and…"
-    },
-    {
-      "title": "Amazon ECS Managed Instances now supports Amazon EC2 instance store",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-local-storage/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T16:30:00.000Z",
-      "snippet": "Amazon ECS Managed Instances now supports Amazon EC2 instance store volumes as a data volume option for container workloads. You can now leverage instance store volumes on your ECS container instances instead of provisioning an Amazon EBS data volume,…"
-    },
-    {
-      "title": "AWS Security Agent on-demand penetration testing now generally available",
-      "link": "https://aws.amazon.com/blogs/security/aws-security-agent-on-demand-penetration-testing-now-generally-available/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-03-31T16:13:55.000Z",
-      "snippet": "AWS Security Agent on-demand penetration testing is now generally available, enabling you to run comprehensive security tests across all your applications, not only your most critical ones. This milestone transforms penetration testing from a periodic…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Evaluations is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T16:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Evaluations is now generally available, providing automated quality assessment for AI agents. Evaluations enables developers to monitor agent quality through continuous evaluation of production traffic, validate changes through…"
     }
   ]
 }
