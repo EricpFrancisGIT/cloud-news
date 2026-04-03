@@ -1,12 +1,40 @@
 {
-  "lastUpdated": "2026-04-02T21:19:58.857Z",
+  "lastUpdated": "2026-04-03T03:25:03.719Z",
   "items": [
+    {
+      "title": "Amazon ElastiCache Serverless now supports IPv6 and dual stack connectivity",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-elasticache-serverless-ipv6-dual-stack/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-02T21:00:00.000Z",
+      "snippet": "Amazon ElastiCache Serverless now supports IPv6 and dual stack connectivity, expanding beyond the IPv4 connectivity that was previously available. This gives you greater flexibility in how your applications connect to your Serverless caches. When creating an…"
+    },
     {
       "title": "Four security principles for agentic AI systems",
       "link": "https://aws.amazon.com/blogs/security/four-security-principles-for-agentic-ai-systems/",
       "source": "AWS Security Blog",
       "pubDate": "2026-04-02T20:45:09.000Z",
       "snippet": "Agentic AI represents a qualitative shift in how software operates. Traditional software executes deterministic instructions. Generative AI responds to human prompts with output that humans review and use at their discretion. Agentic AI differs from both.…"
+    },
+    {
+      "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-otel-container-insights-eks/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-02T20:41:00.000Z",
+      "snippet": "Amazon CloudWatch introduces Container Insights with OpenTelemetry metrics for Amazon EKS, available in public preview. Building on the existing Container Insights experience, this capability provides deeper visibility into EKS clusters by collecting more…"
+    },
+    {
+      "title": "AWS Deadline Cloud now supports configurable job scheduling modes for queues",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-job-scheduling/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-02T20:11:00.000Z",
+      "snippet": "Today, AWS Deadline Cloud announces support for configurable job scheduling modes, giving you control over how workers are distributed across jobs in a queue. AWS Deadline Cloud is a fully managed service that simplifies render management for…"
+    },
+    {
+      "title": "Announcing compute-optimized instance bundles for Amazon Lightsail",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lightsail-compute-optimized-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-02T20:03:00.000Z",
+      "snippet": "Amazon Lightsail now offers compute-optimized instance bundles with up to 72 vCPUs. The new instance bundles are available in 7 sizes with both IPv6-only and dual-stack networking types. All Lightsail blueprints are supported with compute-optimized instance…"
     },
     {
       "title": "Amazon CloudWatch expands auto-enablement to Amazon CloudFront logs and 3 additional resource types",
@@ -28,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-02T15:00:00.000Z",
       "snippet": "Amazon CloudWatch now supports native OpenTelemetry (OTel) metrics in public preview, enabling you to send metrics directly using the OpenTelemetry Protocol (OTLP) without custom conversion logic or additional tooling. You can now combine your custom…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications improves multi-session fleet management",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-applications-drain-mode/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-02T15:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Applications now enables instances in multi-session fleets to stop accepting new user sessions, while allowing existing sessions to continue uninterrupted. This capability, known as drain mode, ensures seamless operations during maintenance,…"
     },
     {
       "title": "Announcing managed daemon support for Amazon ECS Managed Instances",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-31T18:29:00.000Z",
       "snippet": "Today, AWS Deadline Cloud introduces three powerful new fleet scaling options that give you greater flexibility in managing your render farm capacity and performance: worker idle duration, standby worker count, and scale out rate. AWS Deadline Cloud is a…"
-    },
-    {
-      "title": "AWS Marketplace sellers can now self-serve refunds and agreement cancellations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-marketplace-seller-self-service-refund-cancel/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T18:28:00.000Z",
-      "snippet": "AWS Marketplace now offers sellers a streamlined self-service process for refunds and agreement cancellations, reducing the time and effort required to process these requests. This new capability eliminates the need to file support tickets, and gives both…"
-    },
-    {
-      "title": "Streamlining access to powerful disaster recovery capabilities of AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/streamlining-access-to-powerful-disaster-recovery-capabilities-of-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-03-31T18:00:38.000Z",
-      "snippet": "In this blog post, we take a building blocks approach. Starting with the tools like AWS Backup to protect your data, we then add protection for Amazon Elastic Compute Cloud (Amazon EC2) compute using AWS Elastic Disaster Recovery (AWS DRS). Finally, we show…"
-    },
-    {
-      "title": "Aurora DSQL launches new connectors that simplify building .NET and Rust applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-rust-npgsql-connectors/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T17:34:00.000Z",
-      "snippet": "Today we are announcing the release of Aurora DSQL connectors for .NET (Npgsql) and Rust (SQLx) that make it easy to build .NET and Rust applications on Aurora DSQL. The connectors streamline authentication and eliminate security risks associated with…"
-    },
-    {
-      "title": "Amazon S3 Vectors expands to 17 additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-vectors-expands-17-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T17:28:00.000Z",
-      "snippet": "Amazon S3 Vectors is now available in 17 additional AWS Regions: Africa (Cape Town), Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New Zealand), Asia Pacific…"
-    },
-    {
-      "title": "AWS announces End User Messaging Notify",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-end-user-messaging-notify/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T17:24:00.000Z",
-      "snippet": "Businesses want to send one-time passcodes (OTPs) because they are often the easiest and fastest way for customers to verify who they are. However, businesses are often surprised when it takes weeks or months to get phone numbers, complete carrier…"
     }
   ]
 }
