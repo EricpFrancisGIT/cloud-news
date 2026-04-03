@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-04-03T15:30:17.779Z",
+  "lastUpdated": "2026-04-03T21:35:25.595Z",
   "items": [
+    {
+      "title": "Amazon Bedrock Guardrails supports cross-account safeguards with centralized control and management",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-bedrock-guardrails-supports-cross-account-safeguards-with-centralized-control-and-management/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-04-03T20:36:40.000Z",
+      "snippet": "Organizational safeguards are now generally available in Amazon Bedrock Guardrails, enabling centralized enforcement and management of safety controls across multiple AWS accounts within an AWS Organization."
+    },
+    {
+      "title": "Amazon SageMaker Data Agent introduces charting capabilities and support for materialized views",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sgmkr-dataagent-chart-mv/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-03T20:30:00.000Z",
+      "snippet": "Amazon SageMaker Data Agent now supports interactive charting, SQL analytics on Snowflake data sources, and materialized view management in Amazon SageMaker Unified Studio notebooks. Data Agent now provides a complete analytics workflow that goes beyond code…"
+    },
+    {
+      "title": "Amazon Bedrock Guardrails announces general availability of cross-account safeguards",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-guardrails-cross-account-safeguards/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-03T19:15:00.000Z",
+      "snippet": "Amazon Bedrock Guardrails now enables centralized enforcement of safety controls across all AWS accounts within an organization through cross-account safeguards. Amazon Bedrock Guardrails offers configurable safeguards that help block up to 88% of harmful…"
+    },
+    {
+      "title": "Partner Revenue Measurement now supports User Agent string for certain AWS services",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/partner-revenue-measurement-user-agent-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-03T18:55:00.000Z",
+      "snippet": "Today, AWS announces the general availability of Partner Revenue Measurement User Agent string — a new capability that enables AWS Partners to measure AWS service consumption driven by their solutions using AWS APIs and SDKs. Partner Revenue Measurement…"
+    },
+    {
+      "title": "Partner Revenue Measurement now supports AWS Marketplace Metering for certain AWS Marketplace products",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/partner-revenue-supports-mp-metering/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-03T18:55:00.000Z",
+      "snippet": "Today, AWS announces the launch of Partner Revenue Measurement integration with AWS Marketplace Metering for Amazon Machine Image (AMI) and Machine Learning (ML) products listed in AWS Marketplace. Partner Revenue Measurement allows Partners to better…"
+    },
+    {
+      "title": "AWS Secrets Manager console now supports custom input for AWS KMS keys",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-console-custom-kms-key-input/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-03T18:00:00.000Z",
+      "snippet": "AWS Secrets Manager console now allows you to specify a custom customer managed AWS Key Management Service (KMS) key when creating secrets. You can now provide a KMS key Amazon Resource Name (ARN) directly in the console, in addition to selecting from the…"
+    },
+    {
+      "title": "How AWS KMS and AWS Encryption SDK overcome symmetric encryption bounds",
+      "link": "https://aws.amazon.com/blogs/security/how-aws-kms-and-aws-encryption-sdk-overcome-symmetric-encryption-bounds/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-03T15:44:48.000Z",
+      "snippet": "If you run high-scale applications that encrypt large volumes of data, you might be concerned about tracking encryption limits and rotating keys. This post explains how AWS Key Management Service (AWS KMS) and the AWS Encryption SDK handle Advanced Encryption…"
+    },
     {
       "title": "Amazon CloudWatch introduces PromQL querying with Query Studio Preview",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-query-studio-preview/",
@@ -135,18 +184,18 @@
       "snippet": "Amazon Bedrock is a fully managed service that provides access to a wide selection of high-performing foundation models from leading AI companies through a single API. Today, Amazon Bedrock expands structured outputs support to AWS GovCloud (US) Regions.…"
     },
     {
-      "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T07:00:00.000Z",
-      "snippet": "Today, Oracle Database@AWS (ODB@AWS) announced high performance networking that provides customers consistent sub-millisecond roundtrip latency from their AWS applications to the database. Many applications such as payment processing, securities trading, and…"
-    },
-    {
       "title": "AWS Managed Microsoft AD adds Multi-Region replication for Opt-In regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/multi-region-opt-in-aws-microsoft-ad/",
       "source": "AWS What's New",
       "pubDate": "2026-04-01T07:00:00.000Z",
       "snippet": "AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, now supports Multi-Region replication in AWS Opt-In regions. This expands the existing Multi-Region replication capability to additional AWS regions, eliminating the…"
+    },
+    {
+      "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-01T07:00:00.000Z",
+      "snippet": "Today, Oracle Database@AWS (ODB@AWS) announced high performance networking that provides customers consistent sub-millisecond roundtrip latency from their AWS applications to the database. Many applications such as payment processing, securities trading, and…"
     },
     {
       "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-31T22:00:00.000Z",
       "snippet": "AWS launches the AWS Sustainability console, a free, standalone service that shows customers their environmental impact associated with their AWS usage. Expanding on the features from the Customer Carbon Footprint Tool (CCFT) in the AWS Billing console, this…"
-    },
-    {
-      "title": "Amazon OpenSearch Service introduces agentic AI for log analytics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/opensearch-agentic-ai-log-analytics-observability/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T21:17:00.000Z",
-      "snippet": "Amazon OpenSearch Service now offers agentic AI capabilities that enable engineering and support teams to analyze log data through an agentic conversational interface. These agentic AI features help simplify log querying and accelerate incident investigations…"
-    },
-    {
-      "title": "AWS IAM Identity Center is now available in AWS European Sovereign Cloud (Germany) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-iam-identity-center-european-sovereign-cloud-germany-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T21:00:00.000Z",
-      "snippet": "You can now deploy AWS IAM Identity Center in the AWS European Sovereign Cloud (Germany) Region. The AWS European Sovereign Cloud is a new independent cloud for Europe entirely located within the European Union (EU), designed to help customers meet their…"
-    },
-    {
-      "title": "New compliance guide available: ISO/IEC 27001:2022 on AWS",
-      "link": "https://aws.amazon.com/blogs/security/new-compliance-guide-available-iso-iec-270012022-on-aws-compliance-guide/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-03-31T20:36:56.000Z",
-      "snippet": "We’re excited to announce the release of our latest compliance guide, ISO/IEC 27001:2022 on AWS, which provides practical guidance for organizations designing and operating an Information Security Management System (ISMS) using AWS services. As organizations…"
-    },
-    {
-      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.2",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-managed-service-flink-2-2/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T20:00:00.000Z",
-      "snippet": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.2. This is a major upgrade that brings runtime improvements such as Java 17 support, RocksDB 8.10.0 for better I/O performance, and serialization enhancements. Additionally, Dataset…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio adds Observability for AWS Glue jobs via CloudWatch metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T19:30:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio adds Observability for jobs, it now displays Amazon CloudWatch metrics for AWS Glue jobs directly alongside job logs in a single, unified interface. This enhancement adds observability to SageMaker Unified Studio, enabling data…"
-    },
-    {
-      "title": "Announcing the AWS Sustainability console: Programmatic access, configurable CSV reports, and Scope 1–3 reporting in one place",
-      "link": "https://aws.amazon.com/blogs/aws/announcing-the-aws-sustainability-console-programmatic-access-configurable-csv-reports-and-scope-1-3-reporting-in-one-place/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-03-31T19:04:00.000Z",
-      "snippet": "AWS announces the Sustainability console, a new standalone service that consolidates carbon emissions reporting and resources, giving sustainability teams independent access to Scope 1, 2, and 3 emissions data without requiring billing permissions."
-    },
-    {
-      "title": "AWS Organizations now provides organization paths in API responses",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-organizations-paths-api-responses/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T18:59:00.000Z",
-      "snippet": "AWS Organizations now returns the complete organizational path for accounts and organizational units (OUs) directly in API responses, eliminating the need for multiple API calls to traverse organizational hierarchies. Previously, understanding where accounts…"
     }
   ]
 }
