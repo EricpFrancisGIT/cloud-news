@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-03T09:30:10.384Z",
+  "lastUpdated": "2026-04-03T15:30:17.779Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch introduces PromQL querying with Query Studio Preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-query-studio-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-03T07:00:00.000Z",
+      "snippet": "Amazon CloudWatch announces Query Studio in public preview, a unified query and visualization experience that brings native PromQL querying to CloudWatch for the first time. Query Studio combines PromQL and CloudWatch Metric Insights in a single interface,…"
+    },
     {
       "title": "Amazon ElastiCache Serverless now supports IPv6 and dual stack connectivity",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-elasticache-serverless-ipv6-dual-stack/",
@@ -128,18 +135,18 @@
       "snippet": "Amazon Bedrock is a fully managed service that provides access to a wide selection of high-performing foundation models from leading AI companies through a single API. Today, Amazon Bedrock expands structured outputs support to AWS GovCloud (US) Regions.…"
     },
     {
-      "title": "AWS Managed Microsoft AD adds Multi-Region replication for Opt-In regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/multi-region-opt-in-aws-microsoft-ad/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T07:00:00.000Z",
-      "snippet": "AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, now supports Multi-Region replication in AWS Opt-In regions. This expands the existing Multi-Region replication capability to additional AWS regions, eliminating the…"
-    },
-    {
       "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
       "source": "AWS What's New",
       "pubDate": "2026-04-01T07:00:00.000Z",
       "snippet": "Today, Oracle Database@AWS (ODB@AWS) announced high performance networking that provides customers consistent sub-millisecond roundtrip latency from their AWS applications to the database. Many applications such as payment processing, securities trading, and…"
+    },
+    {
+      "title": "AWS Managed Microsoft AD adds Multi-Region replication for Opt-In regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/multi-region-opt-in-aws-microsoft-ad/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-01T07:00:00.000Z",
+      "snippet": "AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, now supports Multi-Region replication in AWS Opt-In regions. This expands the existing Multi-Region replication capability to additional AWS regions, eliminating the…"
     },
     {
       "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-03-31T18:59:00.000Z",
       "snippet": "AWS Organizations now returns the complete organizational path for accounts and organizational units (OUs) directly in API responses, eliminating the need for multiple API calls to traverse organizational hierarchies. Previously, understanding where accounts…"
-    },
-    {
-      "title": "AWS Deadline Cloud now supports new fleet scaling configurations for render farms",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/deadline-cloud-fleet-scaling/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T18:29:00.000Z",
-      "snippet": "Today, AWS Deadline Cloud introduces three powerful new fleet scaling options that give you greater flexibility in managing your render farm capacity and performance: worker idle duration, standby worker count, and scale out rate. AWS Deadline Cloud is a…"
     }
   ]
 }
