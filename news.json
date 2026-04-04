@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-04-03T21:35:25.595Z",
+  "lastUpdated": "2026-04-04T03:40:30.714Z",
   "items": [
+    {
+      "title": "Apache Spark troubleshooting and upgrade agents now available as Kiro powers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-spark-troubleshooting-upgrade-kiro-power/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-03T21:49:00.000Z",
+      "snippet": "The Apache Spark troubleshooting agent and upgrade agent for Amazon EMR are now available as Kiro powers, bringing one-click access to AI-assisted Spark operations directly in Kiro. With these powers, data engineers can reduce troubleshooting time from hours…"
+    },
+    {
+      "title": "AWS Glue Schema Registry is now available in three more AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-gsr-3-more-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-03T21:04:00.000Z",
+      "snippet": "You can now use the AWS Glue Schema Registry, a serverless and free feature of AWS Glue, in the Asia Pacific (Jakarta), Europe (Spain), and Europe (Zurich) regions to validate and control the evolution of streaming data using registered Apache Avro, JSON, and…"
+    },
     {
       "title": "Amazon Bedrock Guardrails supports cross-account safeguards with centralized control and management",
       "link": "https://aws.amazon.com/blogs/aws/amazon-bedrock-guardrails-supports-cross-account-safeguards-with-centralized-control-and-management/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-01T07:00:00.000Z",
       "snippet": "Today, Oracle Database@AWS (ODB@AWS) announced high performance networking that provides customers consistent sub-millisecond roundtrip latency from their AWS applications to the database. Many applications such as payment processing, securities trading, and…"
-    },
-    {
-      "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-securityhub-findings/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T23:00:00.000Z",
-      "snippet": "Amazon CloudWatch now supports ingesting AWS Security Hub CSPM findings, enabling customers to centrally analyze and monitor security findings directly in CloudWatch Logs. Security Hub CSPM findings are supported in AWS Security Finding Format (ASFF) and Open…"
-    },
-    {
-      "title": "AWS launches Sustainability console for carbon emissions tracking",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-launches-sustainability-console/",
-      "source": "AWS What's New",
-      "pubDate": "2026-03-31T22:00:00.000Z",
-      "snippet": "AWS launches the AWS Sustainability console, a free, standalone service that shows customers their environmental impact associated with their AWS usage. Expanding on the features from the Customer Carbon Footprint Tool (CCFT) in the AWS Billing console, this…"
     }
   ]
 }
