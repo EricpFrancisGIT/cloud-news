@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-04T15:50:38.537Z",
+  "lastUpdated": "2026-04-04T21:55:46.457Z",
   "items": [
+    {
+      "title": "Introducing the Landing Zone Accelerator on AWS Universal Configuration and LZA Compliance Workbook",
+      "link": "https://aws.amazon.com/blogs/security/introducing-the-landing-zone-accelerator-on-aws-universal-configuration-and-lza-compliance-workbook/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-04T21:35:00.000Z",
+      "snippet": "November 20, 2025: Date this information was first published. We’re pleased to announce the availability of the latest sample security baseline from Landing Zone Accelerator on AWS (LZA)—the Universal Configuration. Developed from years of field experience…"
+    },
     {
       "title": "Apache Spark troubleshooting and upgrade agents now available as Kiro powers",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-spark-troubleshooting-upgrade-kiro-power/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-01T07:00:00.000Z",
       "snippet": "AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, now supports Multi-Region replication in AWS Opt-In regions. This expands the existing Multi-Region replication capability to additional AWS regions, eliminating the…"
-    },
-    {
-      "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T07:00:00.000Z",
-      "snippet": "Today, Oracle Database@AWS (ODB@AWS) announced high performance networking that provides customers consistent sub-millisecond roundtrip latency from their AWS applications to the database. Many applications such as payment processing, securities trading, and…"
     }
   ]
 }
