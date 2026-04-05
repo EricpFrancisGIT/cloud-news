@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T04:00:54.950Z",
+  "lastUpdated": "2026-04-05T10:05:54.527Z",
   "items": [
     {
       "title": "Introducing the Landing Zone Accelerator on AWS Universal Configuration and LZA Compliance Workbook",
@@ -205,11 +205,11 @@
       "snippet": "Amazon Bedrock is a fully managed service that provides access to a wide selection of high-performing foundation models from leading AI companies through a single API. Today, Amazon Bedrock expands structured outputs support to AWS GovCloud (US) Regions.…"
     },
     {
-      "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
+      "title": "AWS Managed Microsoft AD adds Multi-Region replication for Opt-In regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/multi-region-opt-in-aws-microsoft-ad/",
       "source": "AWS What's New",
       "pubDate": "2026-04-01T07:00:00.000Z",
-      "snippet": "Today, Oracle Database@AWS (ODB@AWS) announced high performance networking that provides customers consistent sub-millisecond roundtrip latency from their AWS applications to the database. Many applications such as payment processing, securities trading, and…"
+      "snippet": "AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, now supports Multi-Region replication in AWS Opt-In regions. This expands the existing Multi-Region replication capability to additional AWS regions, eliminating the…"
     }
   ]
 }
