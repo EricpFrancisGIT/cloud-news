@@ -1,6 +1,62 @@
 {
-  "lastUpdated": "2026-04-06T16:31:19.294Z",
+  "lastUpdated": "2026-04-06T22:31:32.346Z",
   "items": [
+    {
+      "title": "Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod",
+      "link": "https://aws.amazon.com/blogs/architecture/unlock-efficient-model-deployment-simplified-inference-operator-setup-on-amazon-sagemaker-hyperpod/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-04-06T21:14:13.000Z",
+      "snippet": "In this post, we walk through the new installation experience, demonstrate three deployment methods (console, CLI, and Terraform), and show how features like multi-instance-type deployment and native node affinity give you fine-grained control over inference…"
+    },
+    {
+      "title": "Amazon Verified Permissions now supports policy store aliases and named policies and policy templates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-verified-permissions-policy-store/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-06T18:00:00.000Z",
+      "snippet": "Today, AWS announces support for policy store aliases and named policies and policy templates in Amazon Verified Permissions, simplifying multi-tenant deployments and day-to-day policy management. Amazon Verified Permissions is a fine-grained authorization…"
+    },
+    {
+      "title": "Amazon WorkSpaces Personal now supports unique DNS names for PrivateLink",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-privatelink/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-06T17:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Personal now provides unique, publicly resolvable Domain Name System (DNS) names for each AWS PrivateLink Virtual Private Cloud (VPC) endpoint, enabling enterprise customers to deploy WorkSpaces across multiple AWS VPCs and accounts without…"
+    },
+    {
+      "title": "AWS Weekly Roundup: AWS DevOps Agent & Security Agent GA, Product Lifecycle updates, and more (April 6, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-devops-agent-security-agent-ga-product-lifecycle-updates-and-more-april-6-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-04-06T16:51:00.000Z",
+      "snippet": "Last week, I visited AWS Hong Kong User Group with my team. Hong Kong has a small but strong community, and their energy and passion are high. They recently started a new AI user group, and we hope more people will join. I was able to strengthen my bond with…"
+    },
+    {
+      "title": "Amazon FSx for OpenZFS is now available in the AWS Asia Pacific (Melbourne) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-melbourne-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-06T16:00:00.000Z",
+      "snippet": "Customers can now create Amazon FSx for OpenZFS file systems in the AWS Asia Pacific (Melbourne) Region, providing fully managed shared file storage built on the OpenZFS file system. Amazon FSx makes it easier and more cost effective to launch, run, and scale…"
+    },
+    {
+      "title": "AWS announces general availability of Smithy-Java client framework",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/smithy-java-client-framework/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-06T16:00:00.000Z",
+      "snippet": "AWS today announced the general availability of Smithy-Java, an open-source Java framework for generating type-safe clients and standalone classes from Smithy models. Smithy-Java addresses one of the most consistently requested capabilities from enterprise…"
+    },
+    {
+      "title": "Amazon S3 starts rolling out new security best practice to new and existing buckets by default",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-default-bucket-security-setting/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-06T13:00:00.000Z",
+      "snippet": "As announced on November 19, 2025, Amazon S3 is now deploying a new default bucket security setting which will automatically disable server-side encryption with customer-provided keys (SSE-C) for all new general purpose buckets. For existing buckets in AWS…"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports Oracle Management Agent version 24.1.0.0.v1 for Oracle Enterprise Manager Cloud Control 24aiR1",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-oracle-supports-oracle-management-agent-version-for-oracle-enterprise-manager=cloud-control/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-06T07:50:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Management Agent (OMA) version 24.1.0.0.v1 for Oracle Enterprise Manager (OEM) Cloud Control 24ai Release 1. OEM 24ai offers web-based tools to monitor and manage your Oracle…"
+    },
     {
       "title": "Introducing the Landing Zone Accelerator on AWS Universal Configuration and LZA Compliance Workbook",
       "link": "https://aws.amazon.com/blogs/security/introducing-the-landing-zone-accelerator-on-aws-universal-configuration-and-lza-compliance-workbook/",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-01T21:13:00.000Z",
       "snippet": "Amazon Simple Email Service (SES) Mail Manager now offers enhancements to email security and processing while simplifying email infrastructure migrations. These enhancements include optional TLS and certificate-based authentication (mTLS) support in Ingress…"
-    },
-    {
-      "title": "Amazon ECS announces Managed Daemons for ECS Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-managed-daemons/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T21:00:00.000Z",
-      "snippet": "Amazon ECS announces Managed Daemons for ECS Managed Instances, enabling organizations to centrally deploy and manage software agents such as security, observability, and networking across their container infrastructure independent of application deployments.…"
-    },
-    {
-      "title": "Amazon SageMaker Data Agent now supports geo-specific inference for Japan and Australia",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sage-maker-da-infr-jp-au/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T20:30:00.000Z",
-      "snippet": "Amazon SageMaker Data Agent now supports cross-region inference profiles for Japan and Australia through Amazon Bedrock. With this update, inference requests from Data Agent in the Asia Pacific (Tokyo) and Asia Pacific (Sydney) regions are processed within…"
-    },
-    {
-      "title": "Automate safety monitoring with computer vision and generative AI",
-      "link": "https://aws.amazon.com/blogs/architecture/automate-safety-monitoring-with-computer-vision-and-generative-ai/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-04-01T18:59:02.000Z",
-      "snippet": "This post describes a solution that uses fixed camera networks to monitor operational environments in near real-time, detecting potential safety hazards while capturing object floor projections and their relationships to floor markings. While we illustrate…"
-    },
-    {
-      "title": "AWS VPC Encryption Controls now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-vpc-encryption-controls/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T18:20:00.000Z",
-      "snippet": "AWS launches VPC Encryption Controls in AWS GovCloud (US) Regions to make it easy to audit and enforce encryption in transit within and across Amazon Virtual Private Clouds (VPC), and demonstrate compliance with encryption standards. You can turn it on your…"
-    },
-    {
-      "title": "Amazon CloudFront now supports SHA-256 for signed URLs and signed cookies",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudfront-sha-256-signed-urls/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T17:38:00.000Z",
-      "snippet": "Amazon CloudFront now supports SHA-256 as a hash algorithm for creating signed URLs and signed cookies. SHA-256 provides an improved security posture with stronger collision detection and alignment with modern cryptographic standards, giving you stronger…"
-    },
-    {
-      "title": "Amazon RDS for Oracle now supports cross-account snapshot sharing with additional storage volumes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/rds-oracle-cross-account-snapshot-sharing-additional-storage-volume/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T15:00:00.000Z",
-      "snippet": "Amazon RDS for Oracle now supports cross-account snapshot sharing for database instances with additional storage volumes. Additional storage volumes allow customers to scale database storage up to 256 TiB by adding up to three storage volumes, each with up to…"
-    },
-    {
-      "title": "Amazon Bedrock now supports structured outputs to AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-structured-outputs-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T10:00:00.000Z",
-      "snippet": "Amazon Bedrock is a fully managed service that provides access to a wide selection of high-performing foundation models from leading AI companies through a single API. Today, Amazon Bedrock expands structured outputs support to AWS GovCloud (US) Regions.…"
-    },
-    {
-      "title": "AWS Managed Microsoft AD adds Multi-Region replication for Opt-In regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/multi-region-opt-in-aws-microsoft-ad/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T07:00:00.000Z",
-      "snippet": "AWS Directory Service for Microsoft Active Directory, also known as AWS Managed Microsoft AD, now supports Multi-Region replication in AWS Opt-In regions. This expands the existing Multi-Region replication capability to additional AWS regions, eliminating the…"
     }
   ]
 }
