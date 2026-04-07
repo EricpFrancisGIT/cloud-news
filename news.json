@@ -1,12 +1,82 @@
 {
-  "lastUpdated": "2026-04-07T16:46:47.349Z",
+  "lastUpdated": "2026-04-07T22:51:49.487Z",
   "items": [
     {
-      "title": "AWS Cost Explorer launches Natural Language Query capabilities powered by Amazon Q",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/AWS-Cost-Explorer-Natural-Language-Query/",
+      "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/",
       "source": "AWS What's New",
-      "pubDate": "2026-04-07T02:50:00.000Z",
+      "pubDate": "2026-04-07T21:00:00.000Z",
+      "snippet": "AWS Lambda response streaming is now available in all commercial AWS Regions, bringing full regional parity for this capability. Customers in newly supported Regions can use the InvokeWithResponseStream API to progressively stream response payloads back to…"
+    },
+    {
+      "title": "Launching S3 Files, making S3 buckets accessible as file systems",
+      "link": "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s3-buckets-accessible-as-file-systems/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-04-07T19:18:32.000Z",
+      "snippet": "Amazon S3 Files makes S3 buckets accessible as high-performance file systems on AWS compute resources, eliminating the tradeoff between object storage benefits and interactive file capabilities while enabling seamless data sharing with ~1ms latencies."
+    },
+    {
+      "title": "AWS Cost Explorer launches Natural Language Query capabilities powered by Amazon Q",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-explorer-natural-language-query/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T18:30:00.000Z",
       "snippet": "AWS Cost Explorer now brings Amazon Q Developer's generative AI capabilities directly into your cost analysis workflows. You can now use natural language queries to ask Amazon Q questions about your AWS cost and usage data. In addition to providing answers to…"
+    },
+    {
+      "title": "Building AI defenses at scale: Before the threats emerge",
+      "link": "https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-07T18:02:00.000Z",
+      "snippet": "At AWS, we’ve spent decades developing processes and tools that enable us to defend millions of customers simultaneously, wherever they operate around the world. Every day, our security and threat intelligence teams are doing work with AI and automation that…"
+    },
+    {
+      "title": "Amazon Lightsail is now available in the Asia Pacific (Malaysia) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-lightsail-malaysia/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T17:30:00.000Z",
+      "snippet": "Starting today, Amazon Lightsail is available in the Asia Pacific (Malaysia) Region. This expansion brings the power and simplicity of Lightsail to customers in Malaysia and surrounding regions. With this launch, customers in Malaysia and nearby countries can…"
+    },
+    {
+      "title": "Amazon Bedrock now offers Claude Mythos Preview (Gated Research Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-claude-mythos/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T17:00:00.000Z",
+      "snippet": "Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos Preview in gated research preview as part of Project Glasswing. Claude Mythos Preview is Anthropic's most advanced AI model to date,…"
+    },
+    {
+      "title": "Amazon SageMaker adds serverless workflows to Identity Center domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-serverless-workflows/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T17:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports Serverless Workflows in Identity Center domains. With this launch, customers using Identity Center domains can orchestrate data processing tasks with Apache Airflow (powered by Managed Workflows for Apache Airflow)…"
+    },
+    {
+      "title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T14:15:00.000Z",
+      "snippet": "S3 Files delivers a shared file system that connects any AWS compute resource directly with your data in Amazon S3. With S3 Files, Amazon S3 is the first and only cloud object store that provides fully-featured, high-performance file system access to your…"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports M8i and R8i instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-oracle-8th-gen-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T14:00:00.000Z",
+      "snippet": "Amazon RDS for Oracle now supports M8i and R8i instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The…"
+    },
+    {
+      "title": "AWS Transfer Family now supports IPv6 for connectors and web apps",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-ipv6-connectors-web-apps/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T07:00:00.000Z",
+      "snippet": "AWS Transfer Family announces Internet Protocol version 6 (IPv6) support for SFTP connectors, AS2 connectors, and Transfer Family web apps. This enhancement enables your connectors to reach remote servers and trading partners over IPv6 and allows end users to…"
+    },
+    {
+      "title": "AWS Certificate Manager now supports native certificate search",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-certificate-manager-search/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T04:01:00.000Z",
+      "snippet": "AWS Certificate Manager (ACM) now provides a search bar in the console that customers can use to find certificates using one or more certificate parameters such as domain name, certificate ARN, and/or certificate validity. For example, ACM users who manages…"
     },
     {
       "title": "Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod",
@@ -140,76 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-03T18:00:00.000Z",
       "snippet": "AWS Secrets Manager console now allows you to specify a custom customer managed AWS Key Management Service (KMS) key when creating secrets. You can now provide a KMS key Amazon Resource Name (ARN) directly in the console, in addition to selecting from the…"
-    },
-    {
-      "title": "How AWS KMS and AWS Encryption SDK overcome symmetric encryption bounds",
-      "link": "https://aws.amazon.com/blogs/security/how-aws-kms-and-aws-encryption-sdk-overcome-symmetric-encryption-bounds/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-04-03T15:44:48.000Z",
-      "snippet": "If you run high-scale applications that encrypt large volumes of data, you might be concerned about tracking encryption limits and rotating keys. This post explains how AWS Key Management Service (AWS KMS) and the AWS Encryption SDK handle Advanced Encryption…"
-    },
-    {
-      "title": "Amazon Quick Enables Sparklines for Inline Trend Visualization in Tables",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sparklines-tables/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-03T15:00:00.000Z",
-      "snippet": "Quick Sight in Amazon Quick now supports sparklines, enabling authors to embed compact, inline trend visualizations directly within table cells. Sparklines allow users to display line or area charts inside individual table columns, providing at-a-glance trend…"
-    },
-    {
-      "title": "Amazon CloudWatch introduces PromQL querying with Query Studio Preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-query-studio-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-03T07:00:00.000Z",
-      "snippet": "Amazon CloudWatch announces Query Studio in public preview, a unified query and visualization experience that brings native PromQL querying to CloudWatch for the first time. Query Studio combines PromQL and CloudWatch Metric Insights in a single interface,…"
-    },
-    {
-      "title": "Amazon ElastiCache Serverless now supports IPv6 and dual stack connectivity",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-elasticache-serverless-ipv6-dual-stack/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-02T21:00:00.000Z",
-      "snippet": "Amazon ElastiCache Serverless now supports IPv6 and dual stack connectivity, expanding beyond the IPv4 connectivity that was previously available. This gives you greater flexibility in how your applications connect to your Serverless caches. When creating an…"
-    },
-    {
-      "title": "Four security principles for agentic AI systems",
-      "link": "https://aws.amazon.com/blogs/security/four-security-principles-for-agentic-ai-systems/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-04-02T20:45:09.000Z",
-      "snippet": "Agentic AI represents a qualitative shift in how software operates. Traditional software executes deterministic instructions. Generative AI responds to human prompts with output that humans review and use at their discretion. Agentic AI differs from both.…"
-    },
-    {
-      "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-otel-container-insights-eks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-02T20:41:00.000Z",
-      "snippet": "Amazon CloudWatch introduces Container Insights with OpenTelemetry metrics for Amazon EKS, available in public preview. Building on the existing Container Insights experience, this capability provides deeper visibility into EKS clusters by collecting more…"
-    },
-    {
-      "title": "AWS Deadline Cloud now supports configurable job scheduling modes for queues",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-job-scheduling/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-02T20:11:00.000Z",
-      "snippet": "Today, AWS Deadline Cloud announces support for configurable job scheduling modes, giving you control over how workers are distributed across jobs in a queue. AWS Deadline Cloud is a fully managed service that simplifies render management for…"
-    },
-    {
-      "title": "Announcing compute-optimized instance bundles for Amazon Lightsail",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lightsail-compute-optimized-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-02T20:03:00.000Z",
-      "snippet": "Amazon Lightsail now offers compute-optimized instance bundles with up to 72 vCPUs. The new instance bundles are available in 7 sizes with both IPv6-only and dual-stack networking types. All Lightsail blueprints are supported with compute-optimized instance…"
-    },
-    {
-      "title": "Amazon CloudWatch expands auto-enablement to Amazon CloudFront logs and 3 additional resource types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cloudfront-enablement/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-02T17:00:00.000Z",
-      "snippet": "Amazon CloudWatch now supports automatic enablement of Amazon CloudFront Standard access logs, AWS Security Hub CSPM finding logs, and Amazon Bedrock AgentCore memory and gateway logs and traces to CloudWatch Logs. Customers can set up enablement rules that…"
-    },
-    {
-      "title": "AWS Direct Connect announces 100G expansion in Auckland, New Zealand",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-direct-connect-100g-auckland/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-02T16:00:00.000Z",
-      "snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Datacom Orbit DH6 data center near Auckland, New Zealand. You can now establish private, direct network access to all public AWS Regions…"
     }
   ]
 }
