@@ -1,12 +1,26 @@
 {
-  "lastUpdated": "2026-04-06T22:31:32.346Z",
+  "lastUpdated": "2026-04-07T04:36:33.984Z",
   "items": [
+    {
+      "title": "AWS Cost Explorer launches Natural Language Query capabilities powered by Amazon Q",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/AWS-Cost-Explorer-Natural-Language-Query/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T02:50:00.000Z",
+      "snippet": "AWS Cost Explorer now brings Amazon Q Developer's generative AI capabilities directly into your cost analysis workflows. You can now use natural language queries to ask Amazon Q questions about your AWS cost and usage data. In addition to providing answers to…"
+    },
     {
       "title": "Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod",
       "link": "https://aws.amazon.com/blogs/architecture/unlock-efficient-model-deployment-simplified-inference-operator-setup-on-amazon-sagemaker-hyperpod/",
       "source": "AWS Architecture Blog",
       "pubDate": "2026-04-06T21:14:13.000Z",
       "snippet": "In this post, we walk through the new installation experience, demonstrate three deployment methods (console, CLI, and Terraform), and show how features like multi-instance-type deployment and native node affinity give you fine-grained control over inference…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio adds notebook import/export and developer acceleration features",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-unified-studio/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-06T19:42:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio notebooks now support import/export capabilities, enabling migration from JupyterLab and other notebook platforms. This release also introduces developer acceleration features including cell reordering, keyboard shortcuts, cell…"
     },
     {
       "title": "Amazon Verified Permissions now supports policy store aliases and named policies and policy templates",
@@ -42,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-06T16:00:00.000Z",
       "snippet": "AWS today announced the general availability of Smithy-Java, an open-source Java framework for generating type-safe clients and standalone classes from Smithy models. Smithy-Java addresses one of the most consistently requested capabilities from enterprise…"
+    },
+    {
+      "title": "AWS IoT Greengrass component SDK for C, C++, and Rust applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/iot-greengrass-component-sdk/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-06T15:00:00.000Z",
+      "snippet": "We're excited to announce the launch of a new Greengrass component SDK for AWS IoT Greengrass applications. This new SDK addresses the challenge of deploying sophisticated applications on edge devices with limited resources, enabling industries such as…"
     },
     {
       "title": "Amazon S3 starts rolling out new security best practice to new and existing buckets by default",
@@ -128,6 +149,13 @@
       "snippet": "If you run high-scale applications that encrypt large volumes of data, you might be concerned about tracking encryption limits and rotating keys. This post explains how AWS Key Management Service (AWS KMS) and the AWS Encryption SDK handle Advanced Encryption…"
     },
     {
+      "title": "Amazon Quick Enables Sparklines for Inline Trend Visualization in Tables",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sparklines-tables/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-03T15:00:00.000Z",
+      "snippet": "Quick Sight in Amazon Quick now supports sparklines, enabling authors to embed compact, inline trend visualizations directly within table cells. Sparklines allow users to display line or area charts inside individual table columns, providing at-a-glance trend…"
+    },
+    {
       "title": "Amazon CloudWatch introduces PromQL querying with Query Studio Preview",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-query-studio-preview/",
       "source": "AWS What's New",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-02T16:00:00.000Z",
       "snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Datacom Orbit DH6 data center near Auckland, New Zealand. You can now establish private, direct network access to all public AWS Regions…"
-    },
-    {
-      "title": "Amazon CloudWatch now supports OpenTelemetry metrics in public preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-opentelemetry-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-02T15:00:00.000Z",
-      "snippet": "Amazon CloudWatch now supports native OpenTelemetry (OTel) metrics in public preview, enabling you to send metrics directly using the OpenTelemetry Protocol (OTLP) without custom conversion logic or additional tooling. You can now combine your custom…"
-    },
-    {
-      "title": "Amazon WorkSpaces Applications improves multi-session fleet management",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-applications-drain-mode/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-02T15:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now enables instances in multi-session fleets to stop accepting new user sessions, while allowing existing sessions to continue uninterrupted. This capability, known as drain mode, ensures seamless operations during maintenance,…"
-    },
-    {
-      "title": "Announcing managed daemon support for Amazon ECS Managed Instances",
-      "link": "https://aws.amazon.com/blogs/aws/announcing-managed-daemon-support-for-amazon-ecs-managed-instances/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-04-01T23:31:24.000Z",
-      "snippet": "Amazon ECS Managed Daemons gives platform engineers independent control over monitoring, logging, and tracing agents without application team coordination, ensuring consistent daemon deployment and comprehensive host-level observability at scale."
-    },
-    {
-      "title": "Amazon SES Mail Manager adds new features for enhanced security and email processing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ses-mail-manager-introduces-new-features/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-01T21:13:00.000Z",
-      "snippet": "Amazon Simple Email Service (SES) Mail Manager now offers enhancements to email security and processing while simplifying email infrastructure migrations. These enhancements include optional TLS and certificate-based authentication (mTLS) support in Ingress…"
     }
   ]
 }
