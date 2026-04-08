@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-04-08T17:07:09.418Z",
+  "lastUpdated": "2026-04-08T23:12:16.829Z",
   "items": [
+    {
+      "title": "Build a multi-tenant configuration system with tagged storage patterns",
+      "link": "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-04-08T20:00:04.000Z",
+      "snippet": "In this post, we demonstrate how you can build a scalable, multi-tenant configuration service using the tagged storage pattern, an architectural approach that uses key prefixes (like tenant_config_ or param_config_) to automatically route configuration…"
+    },
+    {
+      "title": "SageMaker HyperPod now supports gang scheduling for distributed training workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-gang-scheduling/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-08T19:26:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod task governance now supports gang scheduling, which ensures all pods required for a distributed training job are ready before training begins. Administrators can configure gang scheduling to prevent wasted compute from partial job…"
+    },
+    {
+      "title": "Amazon IVS Real-Time Streaming now supports redundant ingest",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ivs-real-time-streaming-redundant-ingest/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-08T19:25:00.000Z",
+      "snippet": "Amazon Interactive Video Service (Amazon IVS) Real-Time Streaming now supports redundant ingest, helping protect your live streams against source encoder failures and first-mile network issues. With redundant ingest, you can stream from two encoders…"
+    },
+    {
+      "title": "Amazon EKS managed node groups now support EC2 Auto Scaling warm pools",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-managed-node-groups-ec2-warm-pools/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-08T19:00:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) managed node groups now support Auto Scaling warm pools, enabling you to maintain pre-initialized EC2 instances ready for rapid scale-out. This reduces node provisioning latency for applications with burst…"
+    },
+    {
+      "title": "A framework for securely collecting forensic artifacts into S3 buckets",
+      "link": "https://aws.amazon.com/blogs/security/a-framework-for-securely-collecting-forensic-artifacts-into-s3-buckets/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-08T18:19:00.000Z",
+      "snippet": "When customers experience a security incident, they need to acquire forensic artifacts to identify root cause, extract indicators of compromise (IoCs), and validate remediation efforts. NIST 800-86, Guide to Integrating Forensic Techniques into Incident…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Browser adds OS-level interaction capabilities",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-browser-os-actions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-08T17:03:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Browser now supports OS-level interaction capabilities, enabling automation of browser workflows that require direct operating system control beyond Chrome DevTools Protocol (CDP) capabilities. This enhancement addresses automation…"
+    },
+    {
+      "title": "Amazon WorkSpaces Advisor now available for AI-powered troubleshooting",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/workspaces-advisor-ai-troubleshooting/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-08T17:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Advisor is a new AI-powered tool that helps administrators quickly troubleshoot and resolve issues with Amazon WorkSpaces Personal. Using generative AI capabilities, it analyzes WorkSpace configurations, identifies problems, and provides…"
+    },
+    {
+      "title": "Amazon OpenSearch Service now supports Graviton4 based i8ge instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/4/amazon-opensearch-service-supports-i8ge/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-08T16:30:24.000Z",
+      "snippet": "Amazon OpenSearch Service now supports i8ge instances, which is the latest generation of storage optimized instances offering the best performance for storage-intensive workloads. Powered by AWS Graviton4 processors, I8ge instances deliver up to 60% better…"
+    },
+    {
+      "title": "Oracle Database@AWS is now available in twelve AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-available-twelve-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-08T07:00:00.000Z",
+      "snippet": "Oracle Database@AWS is now generally available in five additional AWS Regions: EU-West-1 (Dublin), EU-West-2 (London), AP-South-1 (Mumbai), AP-South-2 (Hyderabad), and AP-Northeast-2 (Seoul). Oracle Database@AWS enables customers to access Oracle Cloud…"
+    },
     {
       "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-06T15:00:00.000Z",
       "snippet": "We're excited to announce the launch of a new Greengrass component SDK for AWS IoT Greengrass applications. This new SDK addresses the challenge of deploying sophisticated applications on edge devices with limited resources, enabling industries such as…"
-    },
-    {
-      "title": "Amazon S3 starts rolling out new security best practice to new and existing buckets by default",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-default-bucket-security-setting/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-06T13:00:00.000Z",
-      "snippet": "As announced on November 19, 2025, Amazon S3 is now deploying a new default bucket security setting which will automatically disable server-side encryption with customer-provided keys (SSE-C) for all new general purpose buckets. For existing buckets in AWS…"
-    },
-    {
-      "title": "Amazon RDS for Oracle now supports Oracle Management Agent version 24.1.0.0.v1 for Oracle Enterprise Manager Cloud Control 24aiR1",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-oracle-supports-oracle-management-agent-version-for-oracle-enterprise-manager=cloud-control/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-06T07:50:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Management Agent (OMA) version 24.1.0.0.v1 for Oracle Enterprise Manager (OEM) Cloud Control 24ai Release 1. OEM 24ai offers web-based tools to monitor and manage your Oracle…"
-    },
-    {
-      "title": "Introducing the Landing Zone Accelerator on AWS Universal Configuration and LZA Compliance Workbook",
-      "link": "https://aws.amazon.com/blogs/security/introducing-the-landing-zone-accelerator-on-aws-universal-configuration-and-lza-compliance-workbook/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-04-04T21:35:00.000Z",
-      "snippet": "November 20, 2025: Date this information was first published. We’re pleased to announce the availability of the latest sample security baseline from Landing Zone Accelerator on AWS (LZA)—the Universal Configuration. Developed from years of field experience…"
-    },
-    {
-      "title": "Apache Spark troubleshooting and upgrade agents now available as Kiro powers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-spark-troubleshooting-upgrade-kiro-power/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-03T21:49:00.000Z",
-      "snippet": "The Apache Spark troubleshooting agent and upgrade agent for Amazon EMR are now available as Kiro powers, bringing one-click access to AI-assisted Spark operations directly in Kiro. With these powers, data engineers can reduce troubleshooting time from hours…"
-    },
-    {
-      "title": "AWS Glue Schema Registry is now available in three more AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-gsr-3-more-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-03T21:04:00.000Z",
-      "snippet": "You can now use the AWS Glue Schema Registry, a serverless and free feature of AWS Glue, in the Asia Pacific (Jakarta), Europe (Spain), and Europe (Zurich) regions to validate and control the evolution of streaming data using registered Apache Avro, JSON, and…"
-    },
-    {
-      "title": "Amazon Bedrock Guardrails supports cross-account safeguards with centralized control and management",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-bedrock-guardrails-supports-cross-account-safeguards-with-centralized-control-and-management/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-04-03T20:36:40.000Z",
-      "snippet": "Organizational safeguards are now generally available in Amazon Bedrock Guardrails, enabling centralized enforcement and management of safety controls across multiple AWS accounts within an AWS Organization."
-    },
-    {
-      "title": "Amazon SageMaker Data Agent introduces charting capabilities and support for materialized views",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sgmkr-dataagent-chart-mv/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-03T20:30:00.000Z",
-      "snippet": "Amazon SageMaker Data Agent now supports interactive charting, SQL analytics on Snowflake data sources, and materialized view management in Amazon SageMaker Unified Studio notebooks. Data Agent now provides a complete analytics workflow that goes beyond code…"
-    },
-    {
-      "title": "Amazon Bedrock Guardrails announces general availability of cross-account safeguards",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-guardrails-cross-account-safeguards/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-03T19:15:00.000Z",
-      "snippet": "Amazon Bedrock Guardrails now enables centralized enforcement of safety controls across all AWS accounts within an organization through cross-account safeguards. Amazon Bedrock Guardrails offers configurable safeguards that help block up to 88% of harmful…"
-    },
-    {
-      "title": "Partner Revenue Measurement now supports User Agent string for certain AWS services",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/partner-revenue-measurement-user-agent-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-03T18:55:00.000Z",
-      "snippet": "Today, AWS announces the general availability of Partner Revenue Measurement User Agent string — a new capability that enables AWS Partners to measure AWS service consumption driven by their solutions using AWS APIs and SDKs. Partner Revenue Measurement…"
     }
   ]
 }
