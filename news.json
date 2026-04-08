@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T22:51:49.487Z",
+  "lastUpdated": "2026-04-08T04:56:58.058Z",
   "items": [
     {
       "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
@@ -65,11 +65,25 @@
       "snippet": "Amazon RDS for Oracle now supports M8i and R8i instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The…"
     },
     {
+      "title": "Amazon Braket adds support for Rigetti's 108-qubit Cepheus QPU",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-braket-rigetti-cepheus/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T09:00:00.000Z",
+      "snippet": "Amazon Braket, the quantum computing service from AWS, now offers access to Rigetti's Cepheus-1-108Q device, the first 100+ qubit superconducting quantum processing unit (QPU) available on Amazon Braket. Cepheus-1-108Q uses Rigetti's modular multi-chip…"
+    },
+    {
       "title": "AWS Transfer Family now supports IPv6 for connectors and web apps",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-ipv6-connectors-web-apps/",
       "source": "AWS What's New",
       "pubDate": "2026-04-07T07:00:00.000Z",
       "snippet": "AWS Transfer Family announces Internet Protocol version 6 (IPv6) support for SFTP connectors, AS2 connectors, and Transfer Family web apps. This enhancement enables your connectors to reach remote servers and trading partners over IPv6 and allows end users to…"
+    },
+    {
+      "title": "Amazon Aurora now supports PostgreSQL 17.9, 16.13, 15.17, and 14.22",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-aurora-postgresql-17-9-16-13-15-17-14-22/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-07T07:00:00.000Z",
+      "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 17.9, 16.13, 15.17, and 14.22 that includes bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to address…"
     },
     {
       "title": "AWS Certificate Manager now supports native certificate search",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-03T18:55:00.000Z",
       "snippet": "Today, AWS announces the general availability of Partner Revenue Measurement User Agent string — a new capability that enables AWS Partners to measure AWS service consumption driven by their solutions using AWS APIs and SDKs. Partner Revenue Measurement…"
-    },
-    {
-      "title": "Partner Revenue Measurement now supports AWS Marketplace Metering for certain AWS Marketplace products",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/partner-revenue-supports-mp-metering/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-03T18:55:00.000Z",
-      "snippet": "Today, AWS announces the launch of Partner Revenue Measurement integration with AWS Marketplace Metering for Amazon Machine Image (AMI) and Machine Learning (ML) products listed in AWS Marketplace. Partner Revenue Measurement allows Partners to better…"
-    },
-    {
-      "title": "AWS Secrets Manager console now supports custom input for AWS KMS keys",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-console-custom-kms-key-input/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-03T18:00:00.000Z",
-      "snippet": "AWS Secrets Manager console now allows you to specify a custom customer managed AWS Key Management Service (KMS) key when creating secrets. You can now provide a KMS key Amazon Resource Name (ARN) directly in the console, in addition to selecting from the…"
     }
   ]
 }
