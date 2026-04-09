@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-04-09T17:22:29.917Z",
+  "lastUpdated": "2026-04-09T23:27:31.972Z",
   "items": [
+    {
+      "title": "Amazon Bedrock now supports cost allocation by IAM user and role",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-iam-cost-allocation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T21:50:00.000Z",
+      "snippet": "Amazon Bedrock now supports cost allocation by IAM principal, such as IAM users and IAM roles, in AWS Cost and Usage Report 2.0 (CUR 2.0) and Cost Explorer. This enables customers to understand and attribute Bedrock model inference costs across users, teams,…"
+    },
+    {
+      "title": "Amazon OpenSearch Service supports Managed Prometheus and agent tracing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/opensearch-managed-prometheus-agent-tracing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T20:00:00.000Z",
+      "snippet": "Amazon OpenSearch Service now provides a unified observability experience that brings together metrics, logs, traces, and AI agent tracing in a single interface. This release introduces native integration with Amazon Managed Service for Prometheus and…"
+    },
+    {
+      "title": "Amazon S3 Lifecycle pauses actions on objects that are unable to replicate",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-lifecycle-pauses-actions-on-objects/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T17:33:00.000Z",
+      "snippet": "Amazon S3 Lifecycle now prevents expiration and transition actions on objects that failed replication, helping you to coordinate replication configuration or permissions changes with actions defined in your lifecycle rules. Incorrect permissions or…"
+    },
+    {
+      "title": "Amazon RDS Blue/Green Deployments now supports Amazon RDS Proxy",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/rds-proxy-blue-green/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T17:00:00.000Z",
+      "snippet": "Amazon RDS Blue/Green Deployments now supports Amazon RDS Proxy, enabling faster application recovery during switchover by eliminating DNS propagation delays. Blue/Green Deployments create a fully managed staging environment (Green) that allows you to deploy…"
+    },
+    {
+      "title": "AWS Marketplace announces the Discovery API for programmatic access to catalog data",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-discovery-api/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T16:00:00.000Z",
+      "snippet": "Today, AWS Marketplace announces the Discovery API, giving you programmatic access to product and pricing information across the AWS Marketplace catalog — including SaaS, AI agents and tools, AMI, containers, and machine learning models. With the Discovery…"
+    },
+    {
+      "title": "AWS Agent Registry for centralized agent discovery and governance is now available in Preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-agent-registry-in-agentcore-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T16:00:00.000Z",
+      "snippet": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now in preview — a private, governed catalog and discovery layer for agents, tools, skills, MCP servers, and custom resources within the organization. It gives teams complete visibility into…"
+    },
+    {
+      "title": "Amazon OpenSearch Serverless now supports Zstandard (zstd) codec for index compression",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-zstandard-index-compression/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T15:00:00.000Z",
+      "snippet": "Amazon OpenSearch Serverless now supports Zstandard codecs for index storage, giving customers greater control over the trade-off between storage costs and query performance. With this launch, customers can configure Zstandard compression to achieve up to 32%…"
+    },
     {
       "title": "Amazon EC2 Capacity Manager now supports tag-based dimensions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-07T04:01:00.000Z",
       "snippet": "AWS Certificate Manager (ACM) now provides a search bar in the console that customers can use to find certificates using one or more certificate parameters such as domain name, certificate ARN, and/or certificate validity. For example, ACM users who manages…"
-    },
-    {
-      "title": "Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod",
-      "link": "https://aws.amazon.com/blogs/architecture/unlock-efficient-model-deployment-simplified-inference-operator-setup-on-amazon-sagemaker-hyperpod/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-04-06T21:14:13.000Z",
-      "snippet": "In this post, we walk through the new installation experience, demonstrate three deployment methods (console, CLI, and Terraform), and show how features like multi-instance-type deployment and native node affinity give you fine-grained control over inference…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio adds notebook import/export and developer acceleration features",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-unified-studio/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-06T19:42:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio notebooks now support import/export capabilities, enabling migration from JupyterLab and other notebook platforms. This release also introduces developer acceleration features including cell reordering, keyboard shortcuts, cell…"
-    },
-    {
-      "title": "Amazon Verified Permissions now supports policy store aliases and named policies and policy templates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-verified-permissions-policy-store/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-06T18:00:00.000Z",
-      "snippet": "Today, AWS announces support for policy store aliases and named policies and policy templates in Amazon Verified Permissions, simplifying multi-tenant deployments and day-to-day policy management. Amazon Verified Permissions is a fine-grained authorization…"
-    },
-    {
-      "title": "Amazon WorkSpaces Personal now supports unique DNS names for PrivateLink",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-privatelink/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-06T17:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Personal now provides unique, publicly resolvable Domain Name System (DNS) names for each AWS PrivateLink Virtual Private Cloud (VPC) endpoint, enabling enterprise customers to deploy WorkSpaces across multiple AWS VPCs and accounts without…"
-    },
-    {
-      "title": "AWS Weekly Roundup: AWS DevOps Agent & Security Agent GA, Product Lifecycle updates, and more (April 6, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-devops-agent-security-agent-ga-product-lifecycle-updates-and-more-april-6-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-04-06T16:51:00.000Z",
-      "snippet": "Last week, I visited AWS Hong Kong User Group with my team. Hong Kong has a small but strong community, and their energy and passion are high. They recently started a new AI user group, and we hope more people will join. I was able to strengthen my bond with…"
-    },
-    {
-      "title": "Amazon FSx for OpenZFS is now available in the AWS Asia Pacific (Melbourne) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-melbourne-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-06T16:00:00.000Z",
-      "snippet": "Customers can now create Amazon FSx for OpenZFS file systems in the AWS Asia Pacific (Melbourne) Region, providing fully managed shared file storage built on the OpenZFS file system. Amazon FSx makes it easier and more cost effective to launch, run, and scale…"
-    },
-    {
-      "title": "AWS announces general availability of Smithy-Java client framework",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/smithy-java-client-framework/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-06T16:00:00.000Z",
-      "snippet": "AWS today announced the general availability of Smithy-Java, an open-source Java framework for generating type-safe clients and standalone classes from Smithy models. Smithy-Java addresses one of the most consistently requested capabilities from enterprise…"
     }
   ]
 }
