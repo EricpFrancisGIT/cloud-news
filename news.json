@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-09T11:22:18.613Z",
+  "lastUpdated": "2026-04-09T17:22:29.917Z",
   "items": [
+    {
+      "title": "Amazon EC2 Capacity Manager now supports tag-based dimensions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T07:00:00.000Z",
+      "snippet": "Starting today, Amazon EC2 Capacity Manager supports tag-based dimensions, enabling you to use tags from your EC2 resources to group and filter capacity metrics. EC2 Capacity Manager helps you monitor and optimize capacity usage across On-Demand Instances,…"
+    },
     {
       "title": "Build a multi-tenant configuration system with tagged storage patterns",
       "link": "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/",
@@ -90,7 +97,7 @@
       "link": "https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/",
       "source": "AWS Security Blog",
       "pubDate": "2026-04-07T18:02:00.000Z",
-      "snippet": "At AWS, we’ve spent decades developing processes and tools that enable us to defend millions of customers simultaneously, wherever they operate around the world. Every day, our security and threat intelligence teams are doing work with AI and automation that…"
+      "snippet": "At AWS, we’ve spent decades developing processes and tools that enable us to defend millions of customers simultaneously, wherever they operate around the world. AI has been an extremely helpful addition to the automation our security and threat intelligence…"
     },
     {
       "title": "Amazon Lightsail is now available in the Asia Pacific (Malaysia) Region",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-06T16:00:00.000Z",
       "snippet": "AWS today announced the general availability of Smithy-Java, an open-source Java framework for generating type-safe clients and standalone classes from Smithy models. Smithy-Java addresses one of the most consistently requested capabilities from enterprise…"
-    },
-    {
-      "title": "AWS IoT Greengrass component SDK for C, C++, and Rust applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/iot-greengrass-component-sdk/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-06T15:00:00.000Z",
-      "snippet": "We're excited to announce the launch of a new Greengrass component SDK for AWS IoT Greengrass applications. This new SDK addresses the challenge of deploying sophisticated applications on edge devices with limited resources, enabling industries such as…"
     }
   ]
 }
