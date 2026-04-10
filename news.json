@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-10T11:37:41.176Z",
+  "lastUpdated": "2026-04-10T17:42:48.785Z",
   "items": [
+    {
+      "title": "AWS Billing and Cost Management Dashboards Now Supports Scheduled Email Delivery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-billing-and-cost-management-dashboards-scheduled-email-delivery/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-10T15:00:00.000Z",
+      "snippet": "AWS Billing and Cost Management Dashboards now support scheduled email delivery for your reports. You can now automate report distribution on flexible recurring schedules, eliminating manual compilation work and ensuring financial insights reach…"
+    },
     {
       "title": "Amazon Timestream for InfluxDB Now Supports Customer-Defined Maintenance Windows",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/timestream-influxdb-maintenance-windows/",
@@ -58,11 +65,25 @@
       "snippet": "Amazon OpenSearch Serverless now supports Zstandard codecs for index storage, giving customers greater control over the trade-off between storage costs and query performance. With this launch, customers can configure Zstandard compression to achieve up to 32%…"
     },
     {
+      "title": "AWS Private CA now supports customer managed permissions for cross-account sharing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-private-ca-customer-managed-permissions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T13:00:00.000Z",
+      "snippet": "AWS Private Certificate Authority (AWS Private CA) now supports customer managed permissions in AWS Resource Access Manager (AWS RAM). AWS Private CA lets you share certificate authorities (CAs) across accounts using AWS RAM so you can centralize your PKI…"
+    },
+    {
       "title": "Amazon EC2 Capacity Manager now supports tag-based dimensions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
       "source": "AWS What's New",
       "pubDate": "2026-04-09T07:00:00.000Z",
       "snippet": "Starting today, Amazon EC2 Capacity Manager supports tag-based dimensions, enabling you to use tags from your EC2 resources to group and filter capacity metrics. EC2 Capacity Manager helps you monitor and optimize capacity usage across On-Demand Instances,…"
+    },
+    {
+      "title": "Amazon Route 53 Resolver endpoints now support DNS delegation for private hosted zones in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/route-53-resolver-endpoints/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-08T22:39:00.000Z",
+      "snippet": "Starting today, domain name system (DNS) delegation for private hosted zone subdomains can be used with Route 53 inbound and outbound Resolver endpoints in AWS GovCloud (US) Regions. This allows you to delegate the authority for a subdomain from your…"
     },
     {
       "title": "Build a multi-tenant configuration system with tagged storage patterns",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-07T14:00:00.000Z",
       "snippet": "Amazon RDS for Oracle now supports M8i and R8i instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The…"
-    },
-    {
-      "title": "Amazon Braket adds support for Rigetti's 108-qubit Cepheus QPU",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-braket-rigetti-cepheus/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-07T09:00:00.000Z",
-      "snippet": "Amazon Braket, the quantum computing service from AWS, now offers access to Rigetti's Cepheus-1-108Q device, the first 100+ qubit superconducting quantum processing unit (QPU) available on Amazon Braket. Cepheus-1-108Q uses Rigetti's modular multi-chip…"
-    },
-    {
-      "title": "AWS Transfer Family now supports IPv6 for connectors and web apps",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-ipv6-connectors-web-apps/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-07T07:00:00.000Z",
-      "snippet": "AWS Transfer Family announces Internet Protocol version 6 (IPv6) support for SFTP connectors, AS2 connectors, and Transfer Family web apps. This enhancement enables your connectors to reach remote servers and trading partners over IPv6 and allows end users to…"
-    },
-    {
-      "title": "Amazon Aurora now supports PostgreSQL 17.9, 16.13, 15.17, and 14.22",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-aurora-postgresql-17-9-16-13-15-17-14-22/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-07T07:00:00.000Z",
-      "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 17.9, 16.13, 15.17, and 14.22 that includes bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to address…"
     }
   ]
 }
