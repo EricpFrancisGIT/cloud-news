@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-09T23:27:31.972Z",
+  "lastUpdated": "2026-04-10T05:32:36.907Z",
   "items": [
+    {
+      "title": "Amazon Timestream for InfluxDB Now Supports Customer-Defined Maintenance Windows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/timestream-influxdb-maintenance-windows/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-09T21:57:00.000Z",
+      "snippet": "Amazon Timestream for InfluxDB now supports customer-defined maintenance windows, giving you control over when routine maintenance is performed on your InfluxDB databases. This feature is available for both InfluxDB 2 instances and InfluxDB 3 clusters across…"
+    },
     {
       "title": "Amazon Bedrock now supports cost allocation by IAM user and role",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-iam-cost-allocation/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-07T07:00:00.000Z",
       "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 17.9, 16.13, 15.17, and 14.22 that includes bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to address…"
-    },
-    {
-      "title": "AWS Certificate Manager now supports native certificate search",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-certificate-manager-search/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-07T04:01:00.000Z",
-      "snippet": "AWS Certificate Manager (ACM) now provides a search bar in the console that customers can use to find certificates using one or more certificate parameters such as domain name, certificate ARN, and/or certificate validity. For example, ACM users who manages…"
     }
   ]
 }
