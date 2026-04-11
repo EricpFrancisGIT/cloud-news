@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-10T23:47:51.874Z",
+  "lastUpdated": "2026-04-11T05:52:57.781Z",
   "items": [
+    {
+      "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-10T23:54:00.000Z",
+      "snippet": "Amazon Web Services (AWS) is announcing the general availability of Amazon EC2 X8i instances, next-generation memory optimized instances powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest…"
+    },
     {
       "title": "Amazon CloudWatch pipelines now supports drop and conditional processing",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-conditional/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-07T21:00:00.000Z",
       "snippet": "AWS Lambda response streaming is now available in all commercial AWS Regions, bringing full regional parity for this capability. Customers in newly supported Regions can use the InvokeWithResponseStream API to progressively stream response payloads back to…"
-    },
-    {
-      "title": "Launching S3 Files, making S3 buckets accessible as file systems",
-      "link": "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s3-buckets-accessible-as-file-systems/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-04-07T19:18:32.000Z",
-      "snippet": "Amazon S3 Files makes S3 buckets accessible as high-performance file systems on AWS compute resources, eliminating the tradeoff between object storage benefits and interactive file capabilities while enabling seamless data sharing with ~1ms latencies."
     }
   ]
 }
