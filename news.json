@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-04-13T12:28:56.653Z",
+  "lastUpdated": "2026-04-13T18:33:54.887Z",
   "items": [
+    {
+      "title": "AWS Weekly Roundup: Claude Mythos Preview in Amazon Bedrock, AWS Agent Registry, and more (April 13, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-mythos-preview-in-amazon-bedrock-aws-agent-registry-and-more-april-13-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-04-13T16:16:20.000Z",
+      "snippet": "In my last Week in Review post, I mentioned how much time I’ve been spending on AI-Driven Development Lifecycle (AI-DLC) workshops with customers this year. A common theme in those sessions is the need for better cost visibility. Teams are moving fast with…"
+    },
+    {
+      "title": "AWS IoT is now available in Israel (Tel Aviv) and Europe (Milan) AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-israel-tel-aviv-europe-milan/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-13T16:10:00.000Z",
+      "snippet": "AWS IoT Core and AWS IoT Device Management services are now available in the Israel (Tel Aviv) and Europe (Milan) AWS Regions. With this expansion, organizations operating in these regions can better serve their local customers and unlock multiple benefits,…"
+    },
     {
       "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-08T16:30:24.000Z",
       "snippet": "Amazon OpenSearch Service now supports i8ge instances, which is the latest generation of storage optimized instances offering the best performance for storage-intensive workloads. Powered by AWS Graviton4 processors, I8ge instances deliver up to 60% better…"
-    },
-    {
-      "title": "Oracle Database@AWS is now available in twelve AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-available-twelve-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-08T07:00:00.000Z",
-      "snippet": "Oracle Database@AWS is now generally available in five additional AWS Regions: EU-West-1 (Dublin), EU-West-2 (London), AP-South-1 (Mumbai), AP-South-2 (Hyderabad), and AP-Northeast-2 (Seoul). Oracle Database@AWS enables customers to access Oracle Cloud…"
-    },
-    {
-      "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-07T21:00:00.000Z",
-      "snippet": "AWS Lambda response streaming is now available in all commercial AWS Regions, bringing full regional parity for this capability. Customers in newly supported Regions can use the InvokeWithResponseStream API to progressively stream response payloads back to…"
     }
   ]
 }
