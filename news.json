@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T00:39:03.859Z",
+  "lastUpdated": "2026-04-14T06:44:08.316Z",
   "items": [
     {
       "title": "Amazon OpenSearch Serverless now supports Derived Source for storage optimization",
@@ -7,6 +7,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-13T20:55:00.000Z",
       "snippet": "Amazon OpenSearch Serverless introduces support for Derived Source, a new feature that can help reduce the amount of storage required for your OpenSearch Service collections. With derived source support, you can skip storing source fields and dynamically…"
+    },
+    {
+      "title": "Amazon Redshift introduces key performance optimization for Top-K queries",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-topk-optimization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-13T18:58:00.000Z",
+      "snippet": "Amazon Redshift further optimizes the processing of top-k queries (queries with ORDER BY and LIMIT clauses) by intelligently skipping irrelevant data blocks to return results faster, dramatically reducing the amount of data processed. This optimization…"
     },
     {
       "title": "Aurora DSQL launches connector that simplifies building PHP applications",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-08T22:39:00.000Z",
       "snippet": "Starting today, domain name system (DNS) delegation for private hosted zone subdomains can be used with Route 53 inbound and outbound Resolver endpoints in AWS GovCloud (US) Regions. This allows you to delegate the authority for a subdomain from your…"
-    },
-    {
-      "title": "Build a multi-tenant configuration system with tagged storage patterns",
-      "link": "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-04-08T20:00:04.000Z",
-      "snippet": "In this post, we demonstrate how you can build a scalable, multi-tenant configuration service using the tagged storage pattern, an architectural approach that uses key prefixes (like tenant_config_ or param_config_) to automatically route configuration…"
     }
   ]
 }
