@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-04-14T12:49:12.149Z",
+  "lastUpdated": "2026-04-14T18:54:18.075Z",
   "items": [
+    {
+      "title": "Amazon EC2 C8gn, M8gn, and R8gn instances now support higher Amazon EBS-optimized performance",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8gn-m8gn-r8gn-ebs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-14T14:01:00.000Z",
+      "snippet": "Today, AWS announces increased Amazon Elastic Block Store (Amazon EBS) performance for Amazon EC2 C8gn, M8gn, and R8gn instances in 48xlarge and metal-48xl sizes. EC2 C8gn, M8gn, and R8gn instances are network optimized instances powered by AWS Graviton4…"
+    },
+    {
+      "title": "NVIDIA Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models now available on Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/nemotron3super-120b-qwen3.5-9b-qwen3.5-27b-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-13T23:40:00.000Z",
+      "snippet": "NVIDIA’s Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning agentic…"
+    },
     {
       "title": "Amazon OpenSearch Serverless now supports Derived Source for storage optimization",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-derived-source/",
@@ -14,6 +28,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-13T18:58:00.000Z",
       "snippet": "Amazon Redshift further optimizes the processing of top-k queries (queries with ORDER BY and LIMIT clauses) by intelligently skipping irrelevant data blocks to return results faster, dramatically reducing the amount of data processed. This optimization…"
+    },
+    {
+      "title": "Amazon Quick now supports document-level access controls for Google Drive knowledge bases",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-document-level-access-controls-google-drive/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-13T18:35:00.000Z",
+      "snippet": "Amazon Quick now supports document-level access controls (ACLs) for Google Drive knowledge bases, enabling organizations to maintain native Google Drive permissions when indexing content. Quick combines ACL replication for efficient pre-retrieval filtering…"
     },
     {
       "title": "Aurora DSQL launches connector that simplifies building PHP applications",
@@ -107,6 +128,13 @@
       "snippet": "Amazon FSx for NetApp ONTAP second-generation file systems are now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Hyderabad), South America (Sao Paulo), and AWS GovCloud (US-West). Amazon FSx makes it easier and more cost effective to…"
     },
     {
+      "title": "Amazon Quick now supports document-level access controls for ACL support for S3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-document-level-access-controls-acl-s3/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-10T15:11:00.000Z",
+      "snippet": "Amazon Quick now supports document-level access control lists (ACLs) for Amazon S3 knowledge bases, enabling you to manage granular permissions for documents stored in S3. With this feature, you can control which users and groups can access specific documents…"
+    },
+    {
       "title": "AWS Billing and Cost Management Dashboards Now Supports Scheduled Email Delivery",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-billing-and-cost-management-dashboards-scheduled-email-delivery/",
       "source": "AWS What's New",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-09T16:00:00.000Z",
       "snippet": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now in preview — a private, governed catalog and discovery layer for agents, tools, skills, MCP servers, and custom resources within the organization. It gives teams complete visibility into…"
-    },
-    {
-      "title": "Amazon OpenSearch Serverless now supports Zstandard (zstd) codec for index compression",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-zstandard-index-compression/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-09T15:00:00.000Z",
-      "snippet": "Amazon OpenSearch Serverless now supports Zstandard codecs for index storage, giving customers greater control over the trade-off between storage costs and query performance. With this launch, customers can configure Zstandard compression to achieve up to 32%…"
-    },
-    {
-      "title": "AWS Private CA now supports customer managed permissions for cross-account sharing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-private-ca-customer-managed-permissions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-09T13:00:00.000Z",
-      "snippet": "AWS Private Certificate Authority (AWS Private CA) now supports customer managed permissions in AWS Resource Access Manager (AWS RAM). AWS Private CA lets you share certificate authorities (CAs) across accounts using AWS RAM so you can centralize your PKI…"
-    },
-    {
-      "title": "Amazon EC2 Capacity Manager now supports tag-based dimensions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-09T07:00:00.000Z",
-      "snippet": "Starting today, Amazon EC2 Capacity Manager supports tag-based dimensions, enabling you to use tags from your EC2 resources to group and filter capacity metrics. EC2 Capacity Manager helps you monitor and optimize capacity usage across On-Demand Instances,…"
-    },
-    {
-      "title": "Amazon Route 53 Resolver endpoints now support DNS delegation for private hosted zones in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/route-53-resolver-endpoints/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-08T22:39:00.000Z",
-      "snippet": "Starting today, domain name system (DNS) delegation for private hosted zone subdomains can be used with Route 53 inbound and outbound Resolver endpoints in AWS GovCloud (US) Regions. This allows you to delegate the authority for a subdomain from your…"
     }
   ]
 }
