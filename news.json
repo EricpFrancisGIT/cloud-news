@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-15T13:04:33.545Z",
+  "lastUpdated": "2026-04-15T19:09:39.226Z",
   "items": [
+    {
+      "title": "Amazon Quick Introduces Sheet Tooltips for Rich, Contextual Data Exploration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sheet-tooltips/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-15T15:00:00.000Z",
+      "snippet": "Quick Sight in Amazon Quick now supports sheet tooltips, enabling authors to surface rich, contextual detail when viewers hover over data points — without disrupting their analysis flow. Sheet tooltips allow authors to create dedicated tooltip sheets…"
+    },
     {
       "title": "AWS Interconnect is now generally available, with a new option to simplify last-mile connectivity",
       "link": "https://aws.amazon.com/blogs/aws/aws-interconnect-is-now-generally-available-with-a-new-option-to-simplify-last-mile-connectivity/",
@@ -35,6 +42,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-14T18:31:00.000Z",
       "snippet": "AWS Secrets Manager now supports hybrid post-quantum key exchange using ML-KEM (Module-Lattice-based Key-Encapsulation Mechanism) to secure TLS connections for retrieving and managing secrets. This protection is automatically enabled in Secrets Manager Agent…"
+    },
+    {
+      "title": "AWS announces general availability of AWS Interconnect - multicloud",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-14T15:00:00.000Z",
+      "snippet": "AWS announces general availability (GA) of AWS Interconnect - multicloud, providing simple, resilient, high-speed private connections to other cloud service providers (CSPs). With GA comes Google Cloud as the first launch partner, with Microsoft Azure and…"
     },
     {
       "title": "Amazon EC2 C8gn, M8gn, and R8gn instances now support higher Amazon EBS-optimized performance",
@@ -135,13 +149,6 @@
       "snippet": "AWS launches AWS Interconnect - last mile, a fully managed connectivity offering that allows customers to connect their branch offices, data centers, and remote locations to AWS with just a few clicks, eliminating the friction and complexity of network setup.…"
     },
     {
-      "title": "AWS announces general availability of AWS Interconnect - multicloud",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-13T15:00:00.000Z",
-      "snippet": "AWS announces general availability (GA) of AWS Interconnect - multicloud, providing simple, resilient, high-speed private connections to other cloud service providers (CSPs). With GA comes Google Cloud as the first launch partner, with Microsoft Azure coming…"
-    },
-    {
       "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
       "source": "AWS What's New",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-10T10:00:00.000Z",
       "snippet": "AWS Backup is expanding support for Amazon FSx for Windows File Server, Amazon FSx for OpenZFS, and Amazon FSx for Lustre with two regional enhancements. First, AWS Backup now supports backup and restore of these FSx file systems in 5 additional AWS Regions:…"
-    },
-    {
-      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-supports-latest-cu-gdr-updates-microsoft-sq-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T07:34:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR…"
     }
   ]
 }
