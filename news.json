@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-15T19:09:39.226Z",
+  "lastUpdated": "2026-04-16T01:14:43.325Z",
   "items": [
+    {
+      "title": "AWS Payment Cryptography now available in South America (São Paulo)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-15T20:34:00.000Z",
+      "snippet": "AWS Payment Cryptography has expanded its global presence with availability in South America (São Paulo). This expansion enables customers with latency-sensitive payment applications to build, deploy or migrate into additional AWS Regions without depending on…"
+    },
     {
       "title": "Amazon Quick Introduces Sheet Tooltips for Rich, Contextual Data Exploration",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sheet-tooltips/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-10T12:00:00.000Z",
       "snippet": "AWS RTB Fabric now supports health checks for real-time bidding workloads that use EC2 Auto Scaling groups (AGS). Health checks in AWS RTB Fabric continuously monitors and automatically routes traffic to healthy instances with configurable settings in RTB…"
-    },
-    {
-      "title": "AWS Backup extends Amazon FSx support to 5 additional AWS Regions and expands cross-Region and cross-account copy to 14 AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-extends-fsx-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T10:00:00.000Z",
-      "snippet": "AWS Backup is expanding support for Amazon FSx for Windows File Server, Amazon FSx for OpenZFS, and Amazon FSx for Lustre with two regional enhancements. First, AWS Backup now supports backup and restore of these FSx file systems in 5 additional AWS Regions:…"
     }
   ]
 }
