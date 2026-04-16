@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-04-16T13:24:52.574Z",
+  "lastUpdated": "2026-04-16T19:29:55.840Z",
   "items": [
+    {
+      "title": "Introducing Anthropic’s Claude Opus 4.7 model in Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-04-16T14:49:33.000Z",
+      "snippet": "AWS launches Claude Opus 4.7 in Amazon Bedrock, Anthropic's most intelligent Opus model for advancing performance across coding, long-running agents, and professional work. Claude Opus 4.7 is powered by Amazon Bedrock's next generation inference engine,…"
+    },
+    {
+      "title": "Claude Opus 4.7 is now available in Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/claude-opus-4.7-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-16T12:00:00.000Z",
+      "snippet": "Amazon Bedrock, the platform for building AI applications and agents at production scale, now offers Claude Opus 4.7-- Anthropic's most capable Opus model to date -- delivering meaningful improvements across agentic coding, professional work, and long-running…"
+    },
     {
       "title": "AWS Payment Cryptography now available in South America (São Paulo)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-10T15:11:00.000Z",
       "snippet": "Amazon Quick now supports document-level access control lists (ACLs) for Amazon S3 knowledge bases, enabling you to manage granular permissions for documents stored in S3. With this feature, you can control which users and groups can access specific documents…"
-    },
-    {
-      "title": "AWS Billing and Cost Management Dashboards Now Supports Scheduled Email Delivery",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-billing-and-cost-management-dashboards-scheduled-email-delivery/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T15:00:00.000Z",
-      "snippet": "AWS Billing and Cost Management Dashboards now support scheduled email delivery for your reports. You can now automate report distribution on flexible recurring schedules, eliminating manual compilation work and ensuring financial insights reach…"
-    },
-    {
-      "title": "AWS RTB Fabric supports health checks for real-time bidding workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-rtb-fabric-health-checks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T12:00:00.000Z",
-      "snippet": "AWS RTB Fabric now supports health checks for real-time bidding workloads that use EC2 Auto Scaling groups (AGS). Health checks in AWS RTB Fabric continuously monitors and automatically routes traffic to healthy instances with configurable settings in RTB…"
     }
   ]
 }
