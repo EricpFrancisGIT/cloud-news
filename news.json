@@ -1,12 +1,54 @@
 {
-  "lastUpdated": "2026-04-16T19:29:55.840Z",
+  "lastUpdated": "2026-04-17T01:34:59.365Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-16T20:00:00.000Z",
+      "snippet": "Amazon CloudWatch now supports auditing telemetry configuration and enabling telemetry from AWS services such as Amazon EC2, Amazon VPC, and AWS CloudTrail across multiple AWS Regions from a single region. Customers can enable the telemetry auditing feature…"
+    },
+    {
+      "title": "AWS Elastic Disaster Recovery is now available in the AWS European Sovereign Cloud",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/drs-thf/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-16T19:00:00.000Z",
+      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) is now available in the AWS European Sovereign Cloud, enabling organizations with data sovereignty requirements to protect their mission-critical workloads with disaster recovery on AWS. AWS DRS minimizes downtime and…"
+    },
+    {
+      "title": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in two additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-available-two-new-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-16T17:38:00.000Z",
+      "snippet": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in US East (Ohio) and Asia Pacific (Malaysia) AWS Regions. You can now provision WorkSpaces closer to your users, helping to provide in-country data residency and a more responsive…"
+    },
+    {
+      "title": "Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-lustre-persistent-2-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-16T16:30:00.000Z",
+      "snippet": "You can now create Amazon FSx for Lustre Persistent-2 file systems in four additional AWS Regions: Asia Pacific (Hyderabad, Jakarta), Europe (Zurich), and South America (São Paulo). Amazon FSx for Lustre Persistent-2 file systems are built on AWS Graviton…"
+    },
+    {
+      "title": "Introducing Amazon EC2 C8in and C8ib instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8in-c8ib-instances-ga/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-16T15:00:00.000Z",
+      "snippet": "AWS is announcing the general availability of Amazon EC2 C8in and C8ib instances powered by custom, sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature the latest sixth generation AWS Nitro cards. C8in and C8ib…"
+    },
     {
       "title": "Introducing Anthropic’s Claude Opus 4.7 model in Amazon Bedrock",
       "link": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/",
       "source": "AWS News Blog",
       "pubDate": "2026-04-16T14:49:33.000Z",
       "snippet": "AWS launches Claude Opus 4.7 in Amazon Bedrock, Anthropic's most intelligent Opus model for advancing performance across coding, long-running agents, and professional work. Claude Opus 4.7 is powered by Amazon Bedrock's next generation inference engine,…"
+    },
+    {
+      "title": "Amazon Quick now supports multi-account sign-in within the same browser",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-multi-account-sign-in/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-16T12:00:00.000Z",
+      "snippet": "Today, AWS announces multi-session support for Amazon Quick, which enables customers to access up to five Amazon Quick accounts simultaneously within the same browser. The feature also includes the Amazon Quick account name in all URLs, enabling users to…"
     },
     {
       "title": "Claude Opus 4.7 is now available in Amazon Bedrock",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-13T15:00:00.000Z",
       "snippet": "AWS launches AWS Interconnect - last mile, a fully managed connectivity offering that allows customers to connect their branch offices, data centers, and remote locations to AWS with just a few clicks, eliminating the friction and complexity of network setup.…"
-    },
-    {
-      "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T23:54:00.000Z",
-      "snippet": "Amazon Web Services (AWS) is announcing the general availability of Amazon EC2 X8i instances, next-generation memory optimized instances powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest…"
-    },
-    {
-      "title": "Amazon CloudWatch pipelines now supports drop and conditional processing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-conditional/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T20:53:00.000Z",
-      "snippet": "Amazon CloudWatch pipelines now supports conditional processing and a new drop events processor, giving you more control over how your log data is transformed. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes log data to…"
-    },
-    {
-      "title": "AWS Deadline Cloud supports monitor creation in multiple regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-monitor-creation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T16:44:00.000Z",
-      "snippet": "Today, AWS Deadline Cloud announces support for creating monitors in multiple AWS Regions without additional configuration of your IAM Identity Center instance. AWS Deadline Cloud is a fully managed service that helps creative teams manage and scale their…"
-    },
-    {
-      "title": "Amazon CloudWatch pipelines introduces new compliance and governance capabilities",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-pipelines-compliance-governance/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T16:12:00.000Z",
-      "snippet": "Amazon CloudWatch pipelines now includes new compliance and governance capabilities to help you maintain data integrity and control access when processing logs. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes log data to…"
-    },
-    {
-      "title": "Second-generation Amazon FSx for NetApp ONTAP is now available in four additional AWS commercial and AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/second-gen-amazon-fsx-ontap-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T16:00:00.000Z",
-      "snippet": "Amazon FSx for NetApp ONTAP second-generation file systems are now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Hyderabad), South America (Sao Paulo), and AWS GovCloud (US-West). Amazon FSx makes it easier and more cost effective to…"
-    },
-    {
-      "title": "Amazon Quick now supports document-level access controls for ACL support for S3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-document-level-access-controls-acl-s3/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-10T15:11:00.000Z",
-      "snippet": "Amazon Quick now supports document-level access control lists (ACLs) for Amazon S3 knowledge bases, enabling you to manage granular permissions for documents stored in S3. With this feature, you can control which users and groups can access specific documents…"
     }
   ]
 }
