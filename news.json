@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-04-17T19:50:18.153Z",
+  "lastUpdated": "2026-04-18T01:55:24.278Z",
   "items": [
+    {
+      "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-high-memory-u7i-asia-pacific/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-17T20:30:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) and U7i-12TB instances (u7i-12tb.224xlarge) are now available in AWS Asia Pacific (Singapore) region. U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports flexible instance groups",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-flexible-instance-groups/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-17T20:03:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports flexible instance groups, enabling customers to specify multiple instance types and multiple subnets within a single instance group. Customers running training and inference workloads on HyperPod often need to span…"
+    },
+    {
+      "title": "Amazon ECR Pull Through Cache Now Supports Referrer Discovery and Sync",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecr-pull-through-cache-referrers/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-17T18:29:00.000Z",
+      "snippet": "Amazon Elastic Container Registry (Amazon ECR) now automatically discovers and syncs OCI referrers, such as image signatures, SBOMs, and attestations, from upstream registries into your Amazon ECR private repositories with its pull through cache feature.…"
+    },
     {
       "title": "AWS Deadline Cloud announces AI-powered troubleshooting assistant for render jobs",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-ai-troubleshooting/",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-13T18:35:00.000Z",
       "snippet": "Amazon Quick now supports document-level access controls (ACLs) for Google Drive knowledge bases, enabling organizations to maintain native Google Drive permissions when indexing content. Quick combines ACL replication for efficient pre-retrieval filtering…"
-    },
-    {
-      "title": "Aurora DSQL launches connector that simplifies building PHP applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-dsql-connector-for-php/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-13T17:47:00.000Z",
-      "snippet": "Today we are announcing the release of the Aurora DSQL Connector for PHP (PDO_PGSQL) that makes it easy to build PHP applications on Aurora DSQL. The PHP Connector streamlines authentication and eliminates security risks associated with traditional…"
-    },
-    {
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-West) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-m8i-flex-govcloud-us-west/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-13T17:00:00.000Z",
-      "snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-West) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs Insights now supports saved queries with parameters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-logs-insights-query-params/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-13T17:00:00.000Z",
-      "snippet": "Amazon CloudWatch Logs Insights saved queries now support parameters, allowing you to pass values to reusable query templates with placeholders. This eliminates the need to maintain multiple copies of nearly identical queries that differ only in specific…"
     }
   ]
 }
