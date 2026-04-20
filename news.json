@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-04-20T14:41:08.560Z",
+  "lastUpdated": "2026-04-20T20:46:13.995Z",
   "items": [
+    {
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place upgrade from version 5.0 to 8.0",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-mongodb-in-place-version-upgrade-5-0-to-8-0/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T18:00:00.000Z",
+      "snippet": "Amazon DocumentDB (with MongoDB compatibility) supports in-place major version upgrade (MVU) from version 5.0 to 8.0. You can upgrade with just a few clicks in the AWS Management Console or via the AWS SDK or AWS CLI — no new clusters, no endpoint changes,…"
+    },
+    {
+      "title": "Amazon EKS enhances cluster governance with new IAM condition keys",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-iam-condition-keys/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T17:48:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (EKS) now supports seven additional IAM condition keys for cluster creation and configuration APIs, enhancing the governance controls available through IAM policies and Service Control Policies (SCPs). Organizations managing…"
+    },
+    {
+      "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-04-20T15:53:21.000Z",
+      "snippet": "Claude Opus 4.7 arrives in Amazon Bedrock with improved agentic coding and a 1M token context window. AWS Interconnect reaches general availability with multicloud private connectivity and a new last-mile option. Plus, post-quantum TLS for Secrets Manager,…"
+    },
+    {
+      "title": "How to clone an AWS CloudHSM cluster across Regions",
+      "link": "https://aws.amazon.com/blogs/security/how-to-clone-an-aws-cloudhsm-cluster-across-regions-2/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-20T15:15:47.000Z",
+      "snippet": "Important: As of January 1, 2025, Client SDK 3 tools (CMU and KMU) are no longer supported. This guide has been updated to use Client SDK 5 commands exclusively. Ensure you’re using the latest Client SDK 5 version (5.17 or later) for the most recent features…"
+    },
+    {
+      "title": "Amazon S3 Express One Zone now supports S3 Inventory",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T13:00:00.000Z",
+      "snippet": "Amazon S3 Express One Zone, a high-performance S3 storage class for latency-sensitive applications, now supports S3 Inventory. S3 Inventory provides a scheduled alternative to S3's synchronous List API. You can configure S3 Inventory to generate reports on a…"
+    },
+    {
+      "title": "AWS Managed Microsoft AD is now available on Windows functional level 2016",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-2016-functional-level/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T07:00:00.000Z",
+      "snippet": "Starting today, all AWS Directory Service for Microsoft AD (AWS Managed Microsoft AD) directories run on Windows functional level 2016. The upgrade to Windows functional level 2016 has been applied automatically to all existing AWS Managed Microsoft AD…"
+    },
     {
       "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-high-memory-u7i-asia-pacific/",
@@ -35,6 +77,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-04-17T16:30:57.000Z",
       "snippet": "Security logs capture essential security-related activities, such as user sign-ins, file access, network traffic, and application usage. These logs are important for monitoring, detecting, and responding to potential security events. The Open Cybersecurity…"
+    },
+    {
+      "title": "Amazon Connect flow modules now work across all flow types and within other modules",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-flow-modules-enhancements/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-17T15:04:00.000Z",
+      "snippet": "Amazon Connect now supports the use of flow modules across all Connect flows, allowing you to reuse common logic and functionality beyond inbound customer experiences. Flow modules organize repeatable logic and create common reusable functions across the…"
     },
     {
       "title": "Amazon Managed Grafana now supports creating Grafana 12.4 workspaces",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-14T21:00:00.000Z",
       "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS GovCloud (US-East) Region. P6-B300 instances provide 8x NVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps…"
-    },
-    {
-      "title": "AWS Transform is now available in Kiro and VS Code",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-kiro-vscode/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-14T19:15:00.000Z",
-      "snippet": "AWS Transform is now available through two additional developer tools — including Kiro and VS Code. AWS Transform is an agentic migration and modernization factory designed to compress enterprise transformation timelines from years to months — handling…"
-    },
-    {
-      "title": "AWS Secrets Manager now supports hybrid post-quantum TLS to protect secrets from quantum threats",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-14T18:31:00.000Z",
-      "snippet": "AWS Secrets Manager now supports hybrid post-quantum key exchange using ML-KEM (Module-Lattice-based Key-Encapsulation Mechanism) to secure TLS connections for retrieving and managing secrets. This protection is automatically enabled in Secrets Manager Agent…"
-    },
-    {
-      "title": "AWS announces general availability of AWS Interconnect - multicloud",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-14T15:00:00.000Z",
-      "snippet": "AWS announces general availability (GA) of AWS Interconnect - multicloud, providing simple, resilient, high-speed private connections to other cloud service providers (CSPs). With GA comes Google Cloud as the first launch partner, with Microsoft Azure and…"
-    },
-    {
-      "title": "Amazon EC2 C8gn, M8gn, and R8gn instances now support higher Amazon EBS-optimized performance",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8gn-m8gn-r8gn-ebs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-14T14:01:00.000Z",
-      "snippet": "Today, AWS announces increased Amazon Elastic Block Store (Amazon EBS) performance for Amazon EC2 C8gn, M8gn, and R8gn instances in 48xlarge and metal-48xl sizes. EC2 C8gn, M8gn, and R8gn instances are network optimized instances powered by AWS Graviton4…"
-    },
-    {
-      "title": "NVIDIA Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/nemotron3super-120b-qwen3.5-9b-qwen3.5-27b-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-13T23:40:00.000Z",
-      "snippet": "NVIDIA’s Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning agentic…"
-    },
-    {
-      "title": "Amazon OpenSearch Serverless now supports Derived Source for storage optimization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-derived-source/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-13T20:55:00.000Z",
-      "snippet": "Amazon OpenSearch Serverless introduces support for Derived Source, a new feature that can help reduce the amount of storage required for your OpenSearch Service collections. With derived source support, you can skip storing source fields and dynamically…"
-    },
-    {
-      "title": "Amazon Redshift introduces key performance optimization for Top-K queries",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-topk-optimization/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-13T18:58:00.000Z",
-      "snippet": "Amazon Redshift further optimizes the processing of top-k queries (queries with ORDER BY and LIMIT clauses) by intelligently skipping irrelevant data blocks to return results faster, dramatically reducing the amount of data processed. This optimization…"
     }
   ]
 }
