@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T08:36:02.741Z",
+  "lastUpdated": "2026-04-20T14:41:08.560Z",
   "items": [
     {
       "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
@@ -42,6 +42,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-17T15:00:00.000Z",
       "snippet": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 12.4. This release includes features that were launched as a part of open source Grafana versions 11.0 to 12.4, including Drilldown apps, scenes powered dashboards, variables in…"
+    },
+    {
+      "title": "AWS Clean Rooms now supports configurable Spark properties for PySpark",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-clean-rooms-configurable-properties-pyspark/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-17T12:00:00.000Z",
+      "snippet": "AWS Clean Rooms now supports configurable Spark properties for PySpark jobs, offering customers the ability to optimize their workloads based on their performance and scale requirements. With this launch, customers can customize Spark settings such as memory…"
     },
     {
       "title": "SageMaker JumpStart now offers optimized deployments for foundation models",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-13T18:58:00.000Z",
       "snippet": "Amazon Redshift further optimizes the processing of top-k queries (queries with ORDER BY and LIMIT clauses) by intelligently skipping irrelevant data blocks to return results faster, dramatically reducing the amount of data processed. This optimization…"
-    },
-    {
-      "title": "Amazon Quick now supports document-level access controls for Google Drive knowledge bases",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-document-level-access-controls-google-drive/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-13T18:35:00.000Z",
-      "snippet": "Amazon Quick now supports document-level access controls (ACLs) for Google Drive knowledge bases, enabling organizations to maintain native Google Drive permissions when indexing content. Quick combines ACL replication for efficient pre-retrieval filtering…"
     }
   ]
 }
