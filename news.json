@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-21T02:51:20.958Z",
+  "lastUpdated": "2026-04-21T08:56:25.243Z",
   "items": [
+    {
+      "title": "Amazon Connect Outbound Campaigns now supports contact priority ordering",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-priority-dialing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T02:03:00.000Z",
+      "snippet": "Amazon Connect Outbound Campaigns now allows you to dial contacts in configurable priority order based on up to 10 profile attributes for voice campaigns and voice activities in journeys. This helps you focus agent time on the most valuable customers or…"
+    },
     {
       "title": "Amazon EBS expands volume modification enhancement to AWS European Sovereign Cloud Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ebs-four-volume-modifications-european-sovereign-region/",
@@ -35,6 +42,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-20T17:48:00.000Z",
       "snippet": "Amazon Elastic Kubernetes Service (EKS) now supports seven additional IAM condition keys for cluster creation and configuration APIs, enhancing the governance controls available through IAM policies and Service Control Policies (SCPs). Organizations managing…"
+    },
+    {
+      "title": "Amazon Connect outbound campaigns now supports hourly segment refresh",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-campaign-hourly-refresh/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T16:56:00.000Z",
+      "snippet": "Amazon Connect Outbound Campaigns now allows you to refresh campaign segments as frequently as every hour, reduced from the previous minimum of 24 hours. This enables campaigns to reach newly eligible customers throughout the day rather than waiting for the…"
     },
     {
       "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-16T16:00:00.000Z",
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances are available in Europe (Stockholm) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). These instances offer the highest maximum CPU…"
-    },
-    {
-      "title": "Introducing Amazon EC2 C8in and C8ib instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8in-c8ib-instances-ga/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-16T15:00:00.000Z",
-      "snippet": "AWS is announcing the general availability of Amazon EC2 C8in and C8ib instances powered by custom, sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature the latest sixth generation AWS Nitro cards. C8in and C8ib…"
-    },
-    {
-      "title": "Introducing Anthropic’s Claude Opus 4.7 model in Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-04-16T14:49:33.000Z",
-      "snippet": "AWS launches Claude Opus 4.7 in Amazon Bedrock, Anthropic's most intelligent Opus model for advancing performance across coding, long-running agents, and professional work. Claude Opus 4.7 is powered by Amazon Bedrock's next generation inference engine,…"
     }
   ]
 }
