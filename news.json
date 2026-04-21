@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-04-21T15:01:35.163Z",
+  "lastUpdated": "2026-04-21T21:06:35.009Z",
   "items": [
+    {
+      "title": "AWS Marketplace streamlines VAT payment for deemed supply transactions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-vat/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T19:03:00.000Z",
+      "snippet": "AWS Marketplace now offers sellers a streamlined self-service process to submit Value Added Tax (VAT) invoices and receive automated VAT disbursements for deemed supply of digital services in the European Union, Norway, and the United Kingdom. Under the…"
+    },
+    {
+      "title": "Amazon Athena Spark adds support for AWS PrivateLink",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena-spark-aws-privatelink/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T18:09:00.000Z",
+      "snippet": "Amazon Athena Spark now supports AWS PrivateLink so that you can access APIs and endpoints from your Amazon Virtual Private Cloud (VPC) without traversing the public internet. This feature can help you meet compliance requirements by allowing you to access…"
+    },
+    {
+      "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T17:00:00.000Z",
+      "snippet": "AWS Lambda now supports Amazon S3 Files, enabling your Lambda functions to mount Amazon S3 buckets as file systems and perform standard file operations without downloading data for processing. Built using Amazon EFS, S3 Files gives you the performance and…"
+    },
+    {
+      "title": "Real-time analytics: Oldcastle integrates Infor with Amazon Aurora and Amazon Quick Sight",
+      "link": "https://aws.amazon.com/blogs/architecture/real-time-analytics-oldcastle-integrates-infor-with-amazon-aurora-and-amazon-quick-sight/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-04-21T16:37:12.000Z",
+      "snippet": "This post explores how Oldcastle used AWS services to transform their analytics and AI capabilities by integrating Infor ERP with Amazon Aurora and Amazon Quick Sight. We discuss how they overcame the limitations of traditional cloud ERP reporting to deploy…"
+    },
+    {
+      "title": "AWS Transform custom is now available in six additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-atx-custom-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T15:00:00.000Z",
+      "snippet": "AWS Transform custom is now available in six additional AWS Regions: Asia Pacific (Mumbai, Tokyo, Seoul, Sydney), Canada (Central), and Europe (London). AWS Transform custom enables organizations to modernize and transform code at scale using AWS-managed and…"
+    },
+    {
+      "title": "Amazon EC2 G7e instances now available in AWS Local Zones in Los Angeles",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-g7e-instances-local-zones/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T14:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7e instances in AWS Local Zones in Los Angeles, California. G7e instances feature NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs and 5th generation Intel Xeon…"
+    },
+    {
+      "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T13:53:00.000Z",
+      "snippet": "Amazon Aurora serverless — the autoscaling database that scales up to support your most demanding workloads and down to zero when you don't need it — just got faster and smarter, with up to 30% better performance than the previous version and enhanced scaling…"
+    },
+    {
+      "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T10:00:00.000Z",
+      "snippet": "AWS Backup now supports Amazon Redshift Serverless namespaces and Amazon Aurora DSQL clusters as resource types in AWS Organizations backup policies. Organization administrators can now define backup policy rules that directly target these resource types…"
+    },
+    {
+      "title": "AWS Lambda Durable Execution SDK for Java GA",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-execution-java-ga/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T06:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for Java, empowering Java developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applications…"
+    },
     {
       "title": "Amazon Connect Outbound Campaigns now supports contact priority ordering",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-priority-dialing/",
@@ -21,6 +84,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-20T20:05:00.000Z",
       "snippet": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now offers Microsoft Windows Server licensing entitlements. You can now migrate or create new virtual machines (VMs) running Windows Server OS in EVS and obtain Windows Server licensing…"
+    },
+    {
+      "title": "Amazon Connect expands agentic voice speech-to-speech experiences to three new AWS Regions and ten locales",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T19:33:00.000Z",
+      "snippet": "Amazon Connect now expands agentic voice speech-to-speech experiences to three additional AWS Regions: Asia Pacific (Seoul), Asia Pacific (Singapore), and Europe (Frankfurt), along with new locales including Australian English, British English, Singaporean…"
     },
     {
       "title": "AWS IoT Greengrass v2.17 now supports non-root installation and introduces new light weight components",
@@ -93,6 +163,13 @@
       "snippet": "Amazon S3 Express One Zone, a high-performance S3 storage class for latency-sensitive applications, now supports S3 Inventory. S3 Inventory provides a scheduled alternative to S3's synchronous List API. You can configure S3 Inventory to generate reports on a…"
     },
     {
+      "title": "Amazon Connect adds touchtone buffering for AI-powered self-service",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-touchtone-buffering/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T12:29:00.000Z",
+      "snippet": "Amazon Connect now enables you to automatically pass customer context to personalize self-service experiences from the moment a call connects. When a customer initiates a call from a website, mobile app, or notification link, you can automatically pass…"
+    },
+    {
       "title": "AWS Managed Microsoft AD is now available on Windows functional level 2016",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-2016-functional-level/",
       "source": "AWS What's New",
@@ -133,83 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-17T16:40:00.000Z",
       "snippet": "Today, AWS Deadline Cloud announces an AI-powered troubleshooting assistant that helps you quickly diagnose and resolve render job failures. AWS Deadline Cloud is a fully managed service that simplifies render management for computer-generated 2D/3D graphics…"
-    },
-    {
-      "title": "Transform security logs into OCSF format using a configuration-driven ETL solution",
-      "link": "https://aws.amazon.com/blogs/security/transform-security-logs-into-ocsf-format-using-a-configuration-driven-etl-solution/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-04-17T16:30:57.000Z",
-      "snippet": "Security logs capture essential security-related activities, such as user sign-ins, file access, network traffic, and application usage. These logs are important for monitoring, detecting, and responding to potential security events. The Open Cybersecurity…"
-    },
-    {
-      "title": "Amazon Connect flow modules now work across all flow types and within other modules",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-flow-modules-enhancements/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-17T15:04:00.000Z",
-      "snippet": "Amazon Connect now supports the use of flow modules across all Connect flows, allowing you to reuse common logic and functionality beyond inbound customer experiences. Flow modules organize repeatable logic and create common reusable functions across the…"
-    },
-    {
-      "title": "Amazon Managed Grafana now supports creating Grafana 12.4 workspaces",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-managed-grafana-v12-create/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-17T15:00:00.000Z",
-      "snippet": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 12.4. This release includes features that were launched as a part of open source Grafana versions 11.0 to 12.4, including Drilldown apps, scenes powered dashboards, variables in…"
-    },
-    {
-      "title": "AWS Clean Rooms now supports configurable Spark properties for PySpark",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-clean-rooms-configurable-properties-pyspark/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-17T12:00:00.000Z",
-      "snippet": "AWS Clean Rooms now supports configurable Spark properties for PySpark jobs, offering customers the ability to optimize their workloads based on their performance and scale requirements. With this launch, customers can customize Spark settings such as memory…"
-    },
-    {
-      "title": "SageMaker JumpStart now offers optimized deployments for foundation models",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-jumpstart-optimized-deployments/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-17T00:00:00.000Z",
-      "snippet": "SageMaker JumpStart now offers optimized deployments, enabling customers to deploy foundation models with pre-configured settings tailored to specific use cases and performance constraints. SageMaker JumpStart optimized deployments simplify model deployment…"
-    },
-    {
-      "title": "Amazon CloudWatch RUM now available in AWS European Sovereign Cloud",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-rum-european-sovereign-cloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-16T21:47:00.000Z",
-      "snippet": "Amazon CloudWatch RUM (Real User Monitoring) is a feature of Amazon CloudWatch that enables developers and operations teams to collect, view, and analyze client-side performance data from real end-user sessions in web and mobile applications. With its…"
-    },
-    {
-      "title": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-16T20:00:00.000Z",
-      "snippet": "Amazon CloudWatch now supports auditing telemetry configuration and enabling telemetry from AWS services such as Amazon EC2, Amazon VPC, and AWS CloudTrail across multiple AWS Regions from a single region. Customers can enable the telemetry auditing feature…"
-    },
-    {
-      "title": "AWS Elastic Disaster Recovery is now available in the AWS European Sovereign Cloud",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/drs-thf/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-16T19:00:00.000Z",
-      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) is now available in the AWS European Sovereign Cloud, enabling organizations with data sovereignty requirements to protect their mission-critical workloads with disaster recovery on AWS. AWS DRS minimizes downtime and…"
-    },
-    {
-      "title": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in two additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-available-two-new-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-16T17:38:00.000Z",
-      "snippet": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in US East (Ohio) and Asia Pacific (Malaysia) AWS Regions. You can now provision WorkSpaces closer to your users, helping to provide in-country data residency and a more responsive…"
-    },
-    {
-      "title": "Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-lustre-persistent-2-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-16T16:30:00.000Z",
-      "snippet": "You can now create Amazon FSx for Lustre Persistent-2 file systems in four additional AWS Regions: Asia Pacific (Hyderabad, Jakarta), Europe (Zurich), and South America (São Paulo). Amazon FSx for Lustre Persistent-2 file systems are built on AWS Graviton…"
-    },
-    {
-      "title": "Amazon EC2 X8aedz instances are now available in Europe (Stockholm) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-x8aedz-instances-stockholm/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-16T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances are available in Europe (Stockholm) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). These instances offer the highest maximum CPU…"
     }
   ]
 }
