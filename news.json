@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-04-20T20:46:13.995Z",
+  "lastUpdated": "2026-04-21T02:51:20.958Z",
   "items": [
+    {
+      "title": "Amazon EBS expands volume modification enhancement to AWS European Sovereign Cloud Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ebs-four-volume-modifications-european-sovereign-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T20:30:00.000Z",
+      "snippet": "Amazon Elastic Block Store (Amazon EBS) now supports up to four Elastic Volumes modifications per volume within a rolling 24-hour window in AWS European Sovereign Cloud (Germany) Region. Elastic Volumes modifications allow you to increase the size, change the…"
+    },
+    {
+      "title": "Amazon EVS now offers Microsoft Windows Server Licensing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-evs-windows-server-licensing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T20:05:00.000Z",
+      "snippet": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now offers Microsoft Windows Server licensing entitlements. You can now migrate or create new virtual machines (VMs) running Windows Server OS in EVS and obtain Windows Server licensing…"
+    },
+    {
+      "title": "AWS IoT Greengrass v2.17 now supports non-root installation and introduces new light weight components",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-greengrass-v217/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T19:00:00.000Z",
+      "snippet": "AWS IoT Greengrass v2.17 is now available, enabling you to run the edge runtime as a non-root user on Linux systems and deploy lighter-weight components that use significantly less memory. AWS IoT Greengrass is an Internet of Things (IoT) edge runtime and…"
+    },
     {
       "title": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place upgrade from version 5.0 to 8.0",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-mongodb-in-place-version-upgrade-5-0-to-8-0/",
@@ -30,6 +51,27 @@
       "snippet": "Important: As of January 1, 2025, Client SDK 3 tools (CMU and KMU) are no longer supported. This guide has been updated to use Client SDK 5 commands exclusively. Ensure you’re using the latest Client SDK 5 version (5.17 or later) for the most recent features…"
     },
     {
+      "title": "Amazon MSK Replicator now supports log forwarding for replication visibility",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T15:00:00.000Z",
+      "snippet": "Amazon MSK Replicator now delivers replicator logs to give you end-to-end visibility into replication health. Replicator logs surface critical replication events and errors along with guidance on how to resolve each issue, enabling you to troubleshoot faster…"
+    },
+    {
+      "title": "Amazon MSK Replicator now supports enhanced consumer offset synchronization for bidirectional replication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-enhanced-consumer-offset-synchronization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T15:00:00.000Z",
+      "snippet": "Amazon MSK Replicator now provides enhanced consumer offset synchronization for bidirectional replication, enabling applications to resume processing from the correct position when moving across Kafka clusters. This capability enables you to move producer and…"
+    },
+    {
+      "title": "MSK Replicator now supports replication from external Apache Kafka clusters to MSK Express Brokers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-external-kafka-cluster-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T15:00:00.000Z",
+      "snippet": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters—including on-premises, self-managed on AWS, or other cloud providers—to Amazon MSK Express brokers. This capability simplifies workload migration to MSK Express Brokers,…"
+    },
+    {
       "title": "Amazon S3 Express One Zone now supports S3 Inventory",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/",
       "source": "AWS What's New",
@@ -42,6 +84,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-20T07:00:00.000Z",
       "snippet": "Starting today, all AWS Directory Service for Microsoft AD (AWS Managed Microsoft AD) directories run on Windows functional level 2016. The upgrade to Windows functional level 2016 has been applied automatically to all existing AWS Managed Microsoft AD…"
+    },
+    {
+      "title": "AWS Managed Microsoft AD now supports Kerberos Encryption audit event logs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-kerberose-encrption-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T07:00:00.000Z",
+      "snippet": "Starting today, AWS Managed Microsoft AD supports forwarding Kerberos Encryption audit event logs (Event IDs 201–209) to Amazon CloudWatch Logs. These logs provide visibility into the encryption types used by your applications and services, helping you…"
     },
     {
       "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
@@ -161,55 +210,6 @@
       "source": "AWS News Blog",
       "pubDate": "2026-04-16T14:49:33.000Z",
       "snippet": "AWS launches Claude Opus 4.7 in Amazon Bedrock, Anthropic's most intelligent Opus model for advancing performance across coding, long-running agents, and professional work. Claude Opus 4.7 is powered by Amazon Bedrock's next generation inference engine,…"
-    },
-    {
-      "title": "Amazon Quick now supports multi-account sign-in within the same browser",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-multi-account-sign-in/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-16T12:00:00.000Z",
-      "snippet": "Today, AWS announces multi-session support for Amazon Quick, which enables customers to access up to five Amazon Quick accounts simultaneously within the same browser. The feature also includes the Amazon Quick account name in all URLs, enabling users to…"
-    },
-    {
-      "title": "Claude Opus 4.7 is now available in Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/claude-opus-4.7-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-16T12:00:00.000Z",
-      "snippet": "Amazon Bedrock, the platform for building AI applications and agents at production scale, now offers Claude Opus 4.7-- Anthropic's most capable Opus model to date -- delivering meaningful improvements across agentic coding, professional work, and long-running…"
-    },
-    {
-      "title": "AWS Payment Cryptography now available in South America (São Paulo)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-15T20:34:00.000Z",
-      "snippet": "AWS Payment Cryptography has expanded its global presence with availability in South America (São Paulo). This expansion enables customers with latency-sensitive payment applications to build, deploy or migrate into additional AWS Regions without depending on…"
-    },
-    {
-      "title": "Amazon Quick Introduces Sheet Tooltips for Rich, Contextual Data Exploration",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sheet-tooltips/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-15T15:00:00.000Z",
-      "snippet": "Quick Sight in Amazon Quick now supports sheet tooltips, enabling authors to surface rich, contextual detail when viewers hover over data points — without disrupting their analysis flow. Sheet tooltips allow authors to create dedicated tooltip sheets…"
-    },
-    {
-      "title": "AWS Interconnect is now generally available, with a new option to simplify last-mile connectivity",
-      "link": "https://aws.amazon.com/blogs/aws/aws-interconnect-is-now-generally-available-with-a-new-option-to-simplify-last-mile-connectivity/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-04-14T23:54:47.000Z",
-      "snippet": "Today, we’re announcing the general availability of AWS Interconnect – multicloud, a managed private connectivity service that connects your Amazon Virtual Private Cloud (Amazon VPC) directly to VPCs on other cloud providers. We’re also introducing AWS…"
-    },
-    {
-      "title": "Secure AI agent access patterns to AWS resources using Model Context Protocol",
-      "link": "https://aws.amazon.com/blogs/security/secure-ai-agent-access-patterns-to-aws-resources-using-model-context-protocol/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-04-14T22:52:51.000Z",
-      "snippet": "AI agents and coding assistants interact with AWS resources through the Model Context Protocol (MCP). Unlike traditional applications with deterministic code paths, agents reason dynamically, choosing different tools or accessing different data depending on…"
-    },
-    {
-      "title": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-p6-b300-govcloud-us-east/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-14T21:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS GovCloud (US-East) Region. P6-B300 instances provide 8x NVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps…"
     }
   ]
 }
