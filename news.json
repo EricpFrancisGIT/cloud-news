@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T03:11:40.338Z",
+  "lastUpdated": "2026-04-22T09:16:49.950Z",
   "items": [
     {
       "title": "Winter 2025 SOC 1 report is now available with 184 services in scope",
@@ -14,6 +14,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-21T21:00:00.000Z",
       "snippet": "Amazon SageMaker now supports multi-region replication from IAM Identity Center (IdC), enabling you to deploy SageMaker Unified Studio domains in different regions from your IdC instance. This new capability empowers enterprise customers, particularly those…"
+    },
+    {
+      "title": "Five new Qwen models for coding agents and efficient reasoning are now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/qwen-models-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T20:05:00.000Z",
+      "snippet": "Today, AWS announced the availability of Qwen3-Coder-Next, Qwen3-30B-A3B, Qwen3-30B-A3B-Thinking-2507, Qwen3-Coder-30B-A3B-Instruct, and Qwen3.5-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These…"
     },
     {
       "title": "Introducing the Amazon EKS Hybrid Nodes gateway for hybrid Kubernetes networking",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-20T15:00:00.000Z",
       "snippet": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters—including on-premises, self-managed on AWS, or other cloud providers—to Amazon MSK Express brokers. This capability simplifies workload migration to MSK Express Brokers,…"
-    },
-    {
-      "title": "Amazon S3 Express One Zone now supports S3 Inventory",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T13:00:00.000Z",
-      "snippet": "Amazon S3 Express One Zone, a high-performance S3 storage class for latency-sensitive applications, now supports S3 Inventory. S3 Inventory provides a scheduled alternative to S3's synchronous List API. You can configure S3 Inventory to generate reports on a…"
     }
   ]
 }
