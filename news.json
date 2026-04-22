@@ -1,12 +1,110 @@
 {
-  "lastUpdated": "2026-04-22T15:21:53.582Z",
+  "lastUpdated": "2026-04-22T21:26:53.907Z",
   "items": [
+    {
+      "title": "Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London), and Asia Pacific (New Zealand) regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-flex-instances-europe-ireland-europe-london-asia-pacific-new-zealand-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T19:46:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i-flex instances are available in the Europe (Ireland, London), and Asia Pacific (New Zealand) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS,…"
+    },
+    {
+      "title": "Amazon EC2 C8i instances are now available in Europe (Ireland) and Asia Pacific (New Zealand) regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-instances-europe-ireland-asia-pacific-new-zealand-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T19:31:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Ireland) and Asia Pacific (New Zealand) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest…"
+    },
+    {
+      "title": "Enhancements to AWS Network Firewall Managed Rules from AWS Marketplace Partners",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/marketplace-managed-rules-enhancements/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T18:00:00.000Z",
+      "snippet": "AWS Network Firewall now supports expanded Managed Rules from AWS Marketplace partners, with new rule group optimizations through partners to include up to 10 million domain name indicators and up to 1 million IP addresses in their managed rule groups.…"
+    },
+    {
+      "title": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5 models",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ft-qwen3-5/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T17:53:00.000Z",
+      "snippet": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5, enabling you to fine-tune Qwen3.5 4B, 9B, and 27B parameter models using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). Qwen3.5 is a popular open-weight model…"
+    },
+    {
+      "title": "Amazon EC2 announces Managed resource visibility settings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-managed-resource-visibility/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T17:53:00.000Z",
+      "snippet": "Amazon EC2 now lets you control whether resources provisioned by managed instance offerings appear in your Amazon EC2 console views and API list operations. Amazon EC2 Managed Instances are instances provisioned and managed by a designated service provider,…"
+    },
+    {
+      "title": "A technical walkthrough of multicloud full-stack security using AWS Security Hub Extended",
+      "link": "https://aws.amazon.com/blogs/security/a-technical-walkthrough-of-multicloud-full-stack-security-using-aws-security-hub-extended/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-22T16:31:11.000Z",
+      "snippet": "Building on our recent announcement of AWS Security Hub Extended —our full-stack enterprise security offering — we want to show you how we’re simplifying security procurement and operations for your multicloud environments. Whether you’re a security architect…"
+    },
+    {
+      "title": "AWS Secrets Manager extends managed external secrets to MongoDB Atlas and Confluent Cloud",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/secrets-manager-managed-external-secrets-mongodb-confluent/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T16:21:00.000Z",
+      "snippet": "AWS Secrets Manager now supports managed external secrets for MongoDB Atlas and Confluent Cloud. AWS Secrets Manager now supports managed external secrets for MongoDB Atlas and Confluent Cloud, enabling you to centrally manage and automatically rotate secrets…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore adds new features to help developers build agents faster",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-new-features-to-build-agents-faster/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T16:00:00.000Z",
+      "snippet": "Today, Amazon Bedrock AgentCore introduces new features to help developers go from an idea to working agent prototype faster and manage the full agent lifecycle from a single platform: a managed harness (in preview), the AgentCore CLI, and AgentCore skills…"
+    },
+    {
+      "title": "PACIFIC enables multi-tenant, sovereign product carbon footprint exchange on the Catena-X data space using AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/pacific-enables-multi-tenant-sovereign-product-carbon-footprint-exchange-on-the-catena-x-data-space-using-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-04-22T15:33:54.000Z",
+      "snippet": "This post explores how PACIFIC enables multi-tenant, sovereign PCF exchange on the Catena-X data space using Amazon Elastic Container Service (Amazon ECS) on AWS Fargate, Amazon Cognito, and AWS Identity and Access Management (IAM) to deliver measurable…"
+    },
+    {
+      "title": "Amazon EC2 for SQL Server HA now supports health notifications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-sql-ha-health-notifications/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T15:00:00.000Z",
+      "snippet": "Today, AWS announced that you can now receive notifications through the AWS Health Dashboard when Amazon EC2 for SQL Server cannot detect a valid SQL Server High Availability (HA) status. This enhancement is particularly valuable for customers who register…"
+    },
+    {
+      "title": "Amazon Corretto April 2026 Quarterly Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-corretto-april-2026-quarterly-updates/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T14:00:00.000Z",
+      "snippet": "On April 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.1, 25.0.3, 21.0.11, 17.0.19, 11.0.31, and 8u492 are now available for…"
+    },
+    {
+      "title": "AWS Lambda durable functions are now available in 16 additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-functions-16-new-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T06:00:00.000Z",
+      "snippet": "AWS Lambda durable functions are now available in 16 additional AWS Regions. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lambda developer experience, and with this expansion, you can now use…"
+    },
+    {
+      "title": "Amazon OpenSearch Service now supports rollback for service software updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-service-now-supports-rollback-for-service-software-updates/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T03:30:00.000Z",
+      "snippet": "Amazon OpenSearch Service now supports rollback for service software updates, giving you greater control when managing updates to your Amazon OpenSearch Service domains. Previously, once a software update was applied, there was no self-service option to…"
+    },
     {
       "title": "Winter 2025 SOC 1 report is now available with 184 services in scope",
       "link": "https://aws.amazon.com/blogs/security/winter-2025-soc-1-report-is-now-available-with-184-services-in-scope/",
       "source": "AWS Security Blog",
       "pubDate": "2026-04-22T00:12:21.000Z",
       "snippet": "Amazon Web Services (AWS) is pleased to announce that the Winter 2025 System and Organization Controls (SOC) 1 report is now available. The report covers 184 services over the 12-month period from January 1, 2025 – December 31, 2025, giving customers a full…"
+    },
+    {
+      "title": "Amazon SageMaker AI launches optimized generative AI inference recommendations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-ai-inference-rec/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T22:38:00.000Z",
+      "snippet": "Amazon SageMaker AI now supports inference recommendations, a new capability that eliminates manual optimization and benchmarking to deliver optimal inference performance. By delivering validated, optimal deployment configurations with performance metrics,…"
     },
     {
       "title": "Amazon SageMaker now supports multi-region replication from IAM Identity Center",
@@ -79,6 +177,13 @@
       "snippet": "AWS Transform custom is now available in six additional AWS Regions: Asia Pacific (Mumbai, Tokyo, Seoul, Sydney), Canada (Central), and Europe (London). AWS Transform custom enables organizations to modernize and transform code at scale using AWS-managed and…"
     },
     {
+      "title": "Amazon MSK Serverless expands to 13 new AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-serverless-13-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T15:00:00.000Z",
+      "snippet": "You can now connect your Apache Kafka applications to Amazon MSK Serverless in the Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New Zealand), Asia Pacific (Osaka),…"
+    },
+    {
       "title": "Amazon EC2 G7e instances now available in AWS Local Zones in Los Angeles",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-g7e-instances-local-zones/",
       "source": "AWS What's New",
@@ -105,111 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-21T10:00:00.000Z",
       "snippet": "AWS Backup now supports Amazon Redshift Serverless namespaces and Amazon Aurora DSQL clusters as resource types in AWS Organizations backup policies. Organization administrators can now define backup policy rules that directly target these resource types…"
-    },
-    {
-      "title": "AWS Lambda Durable Execution SDK for Java GA",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-execution-java-ga/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T06:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for Java, empowering Java developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applications…"
-    },
-    {
-      "title": "Amazon Connect Outbound Campaigns now supports contact priority ordering",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-priority-dialing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T02:03:00.000Z",
-      "snippet": "Amazon Connect Outbound Campaigns now allows you to dial contacts in configurable priority order based on up to 10 profile attributes for voice campaigns and voice activities in journeys. This helps you focus agent time on the most valuable customers or…"
-    },
-    {
-      "title": "Amazon EBS expands volume modification enhancement to AWS European Sovereign Cloud Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ebs-four-volume-modifications-european-sovereign-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T20:30:00.000Z",
-      "snippet": "Amazon Elastic Block Store (Amazon EBS) now supports up to four Elastic Volumes modifications per volume within a rolling 24-hour window in AWS European Sovereign Cloud (Germany) Region. Elastic Volumes modifications allow you to increase the size, change the…"
-    },
-    {
-      "title": "Amazon EVS now offers Microsoft Windows Server Licensing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-evs-windows-server-licensing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T20:05:00.000Z",
-      "snippet": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now offers Microsoft Windows Server licensing entitlements. You can now migrate or create new virtual machines (VMs) running Windows Server OS in EVS and obtain Windows Server licensing…"
-    },
-    {
-      "title": "Amazon Connect expands agentic voice speech-to-speech experiences to three new AWS Regions and ten locales",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T19:33:00.000Z",
-      "snippet": "Amazon Connect now expands agentic voice speech-to-speech experiences to three additional AWS Regions: Asia Pacific (Seoul), Asia Pacific (Singapore), and Europe (Frankfurt), along with new locales including Australian English, British English, Singaporean…"
-    },
-    {
-      "title": "AWS IoT Greengrass v2.17 now supports non-root installation and introduces new light weight components",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-greengrass-v217/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T19:00:00.000Z",
-      "snippet": "AWS IoT Greengrass v2.17 is now available, enabling you to run the edge runtime as a non-root user on Linux systems and deploy lighter-weight components that use significantly less memory. AWS IoT Greengrass is an Internet of Things (IoT) edge runtime and…"
-    },
-    {
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place upgrade from version 5.0 to 8.0",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-mongodb-in-place-version-upgrade-5-0-to-8-0/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T18:00:00.000Z",
-      "snippet": "Amazon DocumentDB (with MongoDB compatibility) supports in-place major version upgrade (MVU) from version 5.0 to 8.0. You can upgrade with just a few clicks in the AWS Management Console or via the AWS SDK or AWS CLI — no new clusters, no endpoint changes,…"
-    },
-    {
-      "title": "Amazon EKS enhances cluster governance with new IAM condition keys",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-iam-condition-keys/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T17:48:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (EKS) now supports seven additional IAM condition keys for cluster creation and configuration APIs, enhancing the governance controls available through IAM policies and Service Control Policies (SCPs). Organizations managing…"
-    },
-    {
-      "title": "Amazon Connect outbound campaigns now supports hourly segment refresh",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-campaign-hourly-refresh/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T16:56:00.000Z",
-      "snippet": "Amazon Connect Outbound Campaigns now allows you to refresh campaign segments as frequently as every hour, reduced from the previous minimum of 24 hours. This enables campaigns to reach newly eligible customers throughout the day rather than waiting for the…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs Insights introduces JOIN and sub-query commands",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-logs-insights-join-sub-query/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T16:00:00.000Z",
-      "snippet": "Amazon CloudWatch Logs Insights introduces JOIN and sub-query commands to the Logs Insights query language to accelerate log analysis. Customers who need to analyze logs across multiple log groups or correlate data from different sources no longer need to run…"
-    },
-    {
-      "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-04-20T15:53:21.000Z",
-      "snippet": "Claude Opus 4.7 arrives in Amazon Bedrock with improved agentic coding and a 1M token context window. AWS Interconnect reaches general availability with multicloud private connectivity and a new last-mile option. Plus, post-quantum TLS for Secrets Manager,…"
-    },
-    {
-      "title": "How to clone an AWS CloudHSM cluster across Regions",
-      "link": "https://aws.amazon.com/blogs/security/how-to-clone-an-aws-cloudhsm-cluster-across-regions-2/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-04-20T15:15:47.000Z",
-      "snippet": "Important: As of January 1, 2025, Client SDK 3 tools (CMU and KMU) are no longer supported. This guide has been updated to use Client SDK 5 commands exclusively. Ensure you’re using the latest Client SDK 5 version (5.17 or later) for the most recent features…"
-    },
-    {
-      "title": "Amazon MSK Replicator now supports log forwarding for replication visibility",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T15:00:00.000Z",
-      "snippet": "Amazon MSK Replicator now delivers replicator logs to give you end-to-end visibility into replication health. Replicator logs surface critical replication events and errors along with guidance on how to resolve each issue, enabling you to troubleshoot faster…"
-    },
-    {
-      "title": "Amazon MSK Replicator now supports enhanced consumer offset synchronization for bidirectional replication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-enhanced-consumer-offset-synchronization/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T15:00:00.000Z",
-      "snippet": "Amazon MSK Replicator now provides enhanced consumer offset synchronization for bidirectional replication, enabling applications to resume processing from the correct position when moving across Kafka clusters. This capability enables you to move producer and…"
-    },
-    {
-      "title": "MSK Replicator now supports replication from external Apache Kafka clusters to MSK Express Brokers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-external-kafka-cluster-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T15:00:00.000Z",
-      "snippet": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters—including on-premises, self-managed on AWS, or other cloud providers—to Amazon MSK Express brokers. This capability simplifies workload migration to MSK Express Brokers,…"
     }
   ]
 }
