@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-04-21T21:06:35.009Z",
+  "lastUpdated": "2026-04-22T03:11:40.338Z",
   "items": [
+    {
+      "title": "Winter 2025 SOC 1 report is now available with 184 services in scope",
+      "link": "https://aws.amazon.com/blogs/security/winter-2025-soc-1-report-is-now-available-with-184-services-in-scope/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-22T00:12:21.000Z",
+      "snippet": "Amazon Web Services (AWS) is pleased to announce that the Winter 2025 System and Organization Controls (SOC) 1 report is now available. The report covers 184 services over the 12-month period from January 1, 2025 – December 31, 2025, giving customers a full…"
+    },
+    {
+      "title": "Amazon SageMaker now supports multi-region replication from IAM Identity Center",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/smus-identity-center/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T21:00:00.000Z",
+      "snippet": "Amazon SageMaker now supports multi-region replication from IAM Identity Center (IdC), enabling you to deploy SageMaker Unified Studio domains in different regions from your IdC instance. This new capability empowers enterprise customers, particularly those…"
+    },
+    {
+      "title": "Introducing the Amazon EKS Hybrid Nodes gateway for hybrid Kubernetes networking",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-hybrid-nodes-gateway/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T19:51:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (EKS) now offers the Amazon EKS Hybrid Nodes gateway, a feature that automates networking between your Amazon EKS cluster VPC and Kubernetes Pods running on Amazon EKS Hybrid Nodes. The Amazon EKS Hybrid Nodes gateway…"
+    },
     {
       "title": "AWS Marketplace streamlines VAT payment for deemed supply transactions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-vat/",
@@ -30,6 +51,20 @@
       "snippet": "This post explores how Oldcastle used AWS services to transform their analytics and AI capabilities by integrating Infor ERP with Amazon Aurora and Amazon Quick Sight. We discuss how they overcame the limitations of traditional cloud ERP reporting to deploy…"
     },
     {
+      "title": "Amazon CloudWatch pipelines now supports configuration of processors via AI",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-ai-configuration/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T16:30:00.000Z",
+      "snippet": "Amazon CloudWatch pipelines now lets you configure log processors using natural language descriptions powered by generative AI. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes log data to CloudWatch without requiring you…"
+    },
+    {
+      "title": "AWS Glue now supports OAuth 2.0 for Snowflake connectivity",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-oauth-snowflake-connectivity/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T16:00:00.000Z",
+      "snippet": "Starting today, AWS Glue supports OAuth 2.0 authorization and authentication for native Snowflake connectivity, enabling customers to read from and write to Snowflake without sharing user credentials. This makes it easier for enterprises to maintain security…"
+    },
+    {
       "title": "AWS Transform custom is now available in six additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-atx-custom-additional-regions/",
       "source": "AWS What's New",
@@ -42,6 +77,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-21T14:00:00.000Z",
       "snippet": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7e instances in AWS Local Zones in Los Angeles, California. G7e instances feature NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs and 5th generation Intel Xeon…"
+    },
+    {
+      "title": "Amazon Location Service now offers bulk address validation for the United States, Canada, Australia, and the United Kingdom",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-location-service-bulk-address-validation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-21T14:00:00.000Z",
+      "snippet": "Amazon Location Service now offers bulk address validation for the United States, Canada, Australia, and the United Kingdom. Customers can now validate, correct, and standardize large volumes of addresses at scale, whether cleaning customer databases before a…"
     },
     {
       "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
@@ -121,6 +163,13 @@
       "snippet": "Amazon Connect Outbound Campaigns now allows you to refresh campaign segments as frequently as every hour, reduced from the previous minimum of 24 hours. This enables campaigns to reach newly eligible customers throughout the day rather than waiting for the…"
     },
     {
+      "title": "Amazon CloudWatch Logs Insights introduces JOIN and sub-query commands",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-logs-insights-join-sub-query/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-20T16:00:00.000Z",
+      "snippet": "Amazon CloudWatch Logs Insights introduces JOIN and sub-query commands to the Logs Insights query language to accelerate log analysis. Customers who need to analyze logs across multiple log groups or correlate data from different sources no longer need to run…"
+    },
+    {
       "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026/",
       "source": "AWS News Blog",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-20T13:00:00.000Z",
       "snippet": "Amazon S3 Express One Zone, a high-performance S3 storage class for latency-sensitive applications, now supports S3 Inventory. S3 Inventory provides a scheduled alternative to S3's synchronous List API. You can configure S3 Inventory to generate reports on a…"
-    },
-    {
-      "title": "Amazon Connect adds touchtone buffering for AI-powered self-service",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-touchtone-buffering/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T12:29:00.000Z",
-      "snippet": "Amazon Connect now enables you to automatically pass customer context to personalize self-service experiences from the moment a call connects. When a customer initiates a call from a website, mobile app, or notification link, you can automatically pass…"
-    },
-    {
-      "title": "AWS Managed Microsoft AD is now available on Windows functional level 2016",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-2016-functional-level/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T07:00:00.000Z",
-      "snippet": "Starting today, all AWS Directory Service for Microsoft AD (AWS Managed Microsoft AD) directories run on Windows functional level 2016. The upgrade to Windows functional level 2016 has been applied automatically to all existing AWS Managed Microsoft AD…"
-    },
-    {
-      "title": "AWS Managed Microsoft AD now supports Kerberos Encryption audit event logs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-kerberose-encrption-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-20T07:00:00.000Z",
-      "snippet": "Starting today, AWS Managed Microsoft AD supports forwarding Kerberos Encryption audit event logs (Event IDs 201–209) to Amazon CloudWatch Logs. These logs provide visibility into the encryption types used by your applications and services, helping you…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-high-memory-u7i-asia-pacific/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-17T20:30:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) and U7i-12TB instances (u7i-12tb.224xlarge) are now available in AWS Asia Pacific (Singapore) region. U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports flexible instance groups",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-flexible-instance-groups/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-17T20:03:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports flexible instance groups, enabling customers to specify multiple instance types and multiple subnets within a single instance group. Customers running training and inference workloads on HyperPod often need to span…"
-    },
-    {
-      "title": "Amazon ECR Pull Through Cache Now Supports Referrer Discovery and Sync",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecr-pull-through-cache-referrers/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-17T18:29:00.000Z",
-      "snippet": "Amazon Elastic Container Registry (Amazon ECR) now automatically discovers and syncs OCI referrers, such as image signatures, SBOMs, and attestations, from upstream registries into your Amazon ECR private repositories with its pull through cache feature.…"
-    },
-    {
-      "title": "AWS Deadline Cloud announces AI-powered troubleshooting assistant for render jobs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-ai-troubleshooting/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-17T16:40:00.000Z",
-      "snippet": "Today, AWS Deadline Cloud announces an AI-powered troubleshooting assistant that helps you quickly diagnose and resolve render job failures. AWS Deadline Cloud is a fully managed service that simplifies render management for computer-generated 2D/3D graphics…"
     }
   ]
 }
