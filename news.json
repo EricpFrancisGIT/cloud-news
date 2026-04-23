@@ -1,12 +1,82 @@
 {
-  "lastUpdated": "2026-04-23T15:42:08.650Z",
+  "lastUpdated": "2026-04-23T21:47:16.203Z",
   "items": [
+    {
+      "title": "AWS Parallel Computing Service now supports Slurm 25.11",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-pcs-slurm-25-11/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T20:00:00.000Z",
+      "snippet": "AWS Parallel Computing Service (AWS PCS) now supports Slurm version 25.11, with support for a Prometheus-compatible OpenMetrics endpoint, and introduces new log types including scheduler audit logs. This release of Slurm 25.11 introduces expedited re-queue,…"
+    },
+    {
+      "title": "Amazon SageMaker supports notebooks and data agent for IdC domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-idc/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T19:13:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports serverless notebooks with a built-in data agent for AWS IAM Identity Center (IdC) domains. Previously, the notebook experience and data agent were available only in IAM domains. With this launch, customers who use…"
+    },
+    {
+      "title": "Attributed Revenue Dashboard Now Available in AWS Partner Central",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/attributed-revenue-dashboard-launch/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T16:30:00.000Z",
+      "snippet": "Today, AWS announces the launch of the Attributed Revenue dashboard in AWS Partner Central in the AWS Console, giving Partners self-service visibility into the revenue impact of their solutions as measured by Partner Revenue Measurement. The dashboard…"
+    },
+    {
+      "title": "AWS Elastic Beanstalk AI-powered environment analysis now supports Windows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-ai-analysis-windows/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T16:00:00.000Z",
+      "snippet": "AWS Elastic Beanstalk AI-powered environment analysis is now available on Windows Server platforms. Previously available on Amazon Linux 2 and AL2023, this feature now extends to Windows-based environments, enabling you to quickly identify root causes and get…"
+    },
+    {
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Seoul, Sydney) and Europe (Paris) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/second-generation-aws-outposts-racks-sydney-seoul-paris/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T16:00:00.000Z",
+      "snippet": "Second-generation AWS Outposts racks are now supported in the AWS Asia Pacific (Seoul, Sydney) and Europe (Paris) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for…"
+    },
+    {
+      "title": "Amazon Quick now supports multiple owners for admin-managed SharePoint and Google Drive knowledge bases",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-sharepoint/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T15:59:00.000Z",
+      "snippet": "Amazon Quick now enables you to add co-owners to knowledge bases and data source connections for admin-managed Microsoft SharePoint Online and Google Drive integrations. This makes it easier to collaborate across teams and reuse existing connections without…"
+    },
+    {
+      "title": "Amazon Redshift supports UPDATE, DELETE, MERGE for Apache Iceberg tables",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/redshift-update-delete-merge-iceberg-tables/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T15:00:00.000Z",
+      "snippet": "Amazon Redshift now supports row-level UPDATE, DELETE, and MERGE operations on Apache Iceberg tables. Customers who use Iceberg to build interoperable data lakes can now perform data manipulation language (DML) operations directly from Amazon Redshift,…"
+    },
+    {
+      "title": "Amazon Quick now supports permission verification for ACL-enabled knowledge bases",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-acl/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T14:56:00.000Z",
+      "snippet": "Amazon Quick now provides ACL verification for ACL enabled knowledge bases, enabling administrators to check whether a specific user has access to a specific document. This feature simplifies troubleshooting access issues and helps confirm that sensitive…"
+    },
     {
       "title": "Modernizing KYC with AWS serverless solutions and agentic AI for financial services",
       "link": "https://aws.amazon.com/blogs/architecture/modernizing-kyc-with-aws-serverless-solutions-and-agentic-ai-for-financial-services/",
       "source": "AWS Architecture Blog",
       "pubDate": "2026-04-23T13:20:43.000Z",
       "snippet": "This post extends IBM's approach to real-time KYC validation using generative AI, as previously discussed in the post IBM Digital KYC on AWS uses Generative AI to transform Client Onboarding and KYC Operations. It transforms compliance operations through…"
+    },
+    {
+      "title": "Amazon S3 now supports five additional checksum algorithms",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-five-additional-checksum-algorithms/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T13:00:00.000Z",
+      "snippet": "Amazon S3 now supports five additional checksum algorithms: MD5, XXHash3, XXHash64, XXHash128, and SHA-512, bringing the total to ten. S3 validates and stores the checksum alongside your object for any of these supported algorithms, so you can verify data…"
+    },
+    {
+      "title": "AWS Backup expands support for Amazon Aurora PITR to six Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-backup-amazon-aurora-pitr/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T10:00:00.000Z",
+      "snippet": "AWS Backup support for Amazon Aurora Point-in-time Recovery (PITR) is now available in six additional AWS Regions: Asia Pacific (Malaysia, Thailand, Taipei, New Zealand), Canada West (Calgary) and Mexico (Central). This expansion brings policy-based data…"
     },
     {
       "title": "Amazon SageMaker Unified Studio now supports VPC for notebook kernels",
@@ -140,76 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-04-22T00:12:21.000Z",
       "snippet": "Amazon Web Services (AWS) is pleased to announce that the Winter 2025 System and Organization Controls (SOC) 1 report is now available. The report covers 184 services over the 12-month period from January 1, 2025 – December 31, 2025, giving customers a full…"
-    },
-    {
-      "title": "Amazon SageMaker AI launches optimized generative AI inference recommendations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-ai-inference-rec/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T22:38:00.000Z",
-      "snippet": "Amazon SageMaker AI now supports inference recommendations, a new capability that eliminates manual optimization and benchmarking to deliver optimal inference performance. By delivering validated, optimal deployment configurations with performance metrics,…"
-    },
-    {
-      "title": "Amazon SageMaker now supports multi-region replication from IAM Identity Center",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/smus-identity-center/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T21:00:00.000Z",
-      "snippet": "Amazon SageMaker now supports multi-region replication from IAM Identity Center (IdC), enabling you to deploy SageMaker Unified Studio domains in different regions from your IdC instance. This new capability empowers enterprise customers, particularly those…"
-    },
-    {
-      "title": "Five new Qwen models for coding agents and efficient reasoning are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/qwen-models-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T20:05:00.000Z",
-      "snippet": "Today, AWS announced the availability of Qwen3-Coder-Next, Qwen3-30B-A3B, Qwen3-30B-A3B-Thinking-2507, Qwen3-Coder-30B-A3B-Instruct, and Qwen3.5-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These…"
-    },
-    {
-      "title": "Introducing the Amazon EKS Hybrid Nodes gateway for hybrid Kubernetes networking",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-hybrid-nodes-gateway/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T19:51:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (EKS) now offers the Amazon EKS Hybrid Nodes gateway, a feature that automates networking between your Amazon EKS cluster VPC and Kubernetes Pods running on Amazon EKS Hybrid Nodes. The Amazon EKS Hybrid Nodes gateway…"
-    },
-    {
-      "title": "AWS Marketplace streamlines VAT payment for deemed supply transactions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-vat/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T19:03:00.000Z",
-      "snippet": "AWS Marketplace now offers sellers a streamlined self-service process to submit Value Added Tax (VAT) invoices and receive automated VAT disbursements for deemed supply of digital services in the European Union, Norway, and the United Kingdom. Under the…"
-    },
-    {
-      "title": "Amazon Athena Spark adds support for AWS PrivateLink",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena-spark-aws-privatelink/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T18:09:00.000Z",
-      "snippet": "Amazon Athena Spark now supports AWS PrivateLink so that you can access APIs and endpoints from your Amazon Virtual Private Cloud (VPC) without traversing the public internet. This feature can help you meet compliance requirements by allowing you to access…"
-    },
-    {
-      "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T17:00:00.000Z",
-      "snippet": "AWS Lambda now supports Amazon S3 Files, enabling your Lambda functions to mount Amazon S3 buckets as file systems and perform standard file operations without downloading data for processing. Built using Amazon EFS, S3 Files gives you the performance and…"
-    },
-    {
-      "title": "Real-time analytics: Oldcastle integrates Infor with Amazon Aurora and Amazon Quick Sight",
-      "link": "https://aws.amazon.com/blogs/architecture/real-time-analytics-oldcastle-integrates-infor-with-amazon-aurora-and-amazon-quick-sight/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-04-21T16:37:12.000Z",
-      "snippet": "This post explores how Oldcastle used AWS services to transform their analytics and AI capabilities by integrating Infor ERP with Amazon Aurora and Amazon Quick Sight. We discuss how they overcame the limitations of traditional cloud ERP reporting to deploy…"
-    },
-    {
-      "title": "Amazon CloudWatch pipelines now supports configuration of processors via AI",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-ai-configuration/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T16:30:00.000Z",
-      "snippet": "Amazon CloudWatch pipelines now lets you configure log processors using natural language descriptions powered by generative AI. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes log data to CloudWatch without requiring you…"
-    },
-    {
-      "title": "AWS Glue now supports OAuth 2.0 for Snowflake connectivity",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-oauth-snowflake-connectivity/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T16:00:00.000Z",
-      "snippet": "Starting today, AWS Glue supports OAuth 2.0 authorization and authentication for native Snowflake connectivity, enabling customers to read from and write to Snowflake without sharing user credentials. This makes it easier for enterprises to maintain security…"
     }
   ]
 }
