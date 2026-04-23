@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-22T21:26:53.907Z",
+  "lastUpdated": "2026-04-23T03:31:57.674Z",
   "items": [
+    {
+      "title": "Amazon SageMaker Unified Studio now supports multiple code spaces within projects for IAM domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-code-spaces/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T20:31:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now lets data workers create and manage multiple code spaces (individually configured development environments) within a single project for IAM domains. Previously, projects were limited to one JupyterLab space and one Code…"
+    },
     {
       "title": "Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London), and Asia Pacific (New Zealand) regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-flex-instances-europe-ireland-europe-london-asia-pacific-new-zealand-regions/",
@@ -37,6 +44,13 @@
       "snippet": "Amazon EC2 now lets you control whether resources provisioned by managed instance offerings appear in your Amazon EC2 console views and API list operations. Amazon EC2 Managed Instances are instances provisioned and managed by a designated service provider,…"
     },
     {
+      "title": "Introducing GPU Health Monitoring and Auto Repair for Amazon ECS Managed Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-gpu-auto-repair/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T17:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now offers NVIDIA GPU health monitoring and auto repair functionality for Amazon ECS Managed Instances. The new capability automatically detects critical NVIDIA GPU hardware failures and replaces impaired…"
+    },
+    {
       "title": "A technical walkthrough of multicloud full-stack security using AWS Security Hub Extended",
       "link": "https://aws.amazon.com/blogs/security/a-technical-walkthrough-of-multicloud-full-stack-security-using-aws-security-hub-extended/",
       "source": "AWS Security Blog",
@@ -65,6 +79,13 @@
       "snippet": "This post explores how PACIFIC enables multi-tenant, sovereign PCF exchange on the Catena-X data space using Amazon Elastic Container Service (Amazon ECS) on AWS Fargate, Amazon Cognito, and AWS Identity and Access Management (IAM) to deliver measurable…"
     },
     {
+      "title": "Amazon IVS Low-Latency Streaming now supports server-side ad insertion",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ivs-low-latency-streaming-server-side-ad-insertion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T15:29:00.000Z",
+      "snippet": "Amazon Interactive Video Service (Amazon IVS) Low-Latency Streaming now supports server-side ad insertion (SSAI), enabling you to monetize your live streams with video ads. IVS SSAI integrates with AWS Elemental MediaTailor to stitch ads directly into the…"
+    },
+    {
       "title": "Amazon EC2 for SQL Server HA now supports health notifications",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-sql-ha-health-notifications/",
       "source": "AWS What's New",
@@ -77,6 +98,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-22T14:00:00.000Z",
       "snippet": "On April 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.1, 25.0.3, 21.0.11, 17.0.19, 11.0.31, and 8u492 are now available for…"
+    },
+    {
+      "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-custom-sql-server-supports-latest-gdr-updates-for-microsoft-sql-server/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-22T07:43:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR KB5077469 (RDS version…"
     },
     {
       "title": "AWS Lambda durable functions are now available in 16 additional AWS Regions",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-21T15:00:00.000Z",
       "snippet": "You can now connect your Apache Kafka applications to Amazon MSK Serverless in the Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New Zealand), Asia Pacific (Osaka),…"
-    },
-    {
-      "title": "Amazon EC2 G7e instances now available in AWS Local Zones in Los Angeles",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-g7e-instances-local-zones/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T14:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7e instances in AWS Local Zones in Los Angeles, California. G7e instances feature NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs and 5th generation Intel Xeon…"
-    },
-    {
-      "title": "Amazon Location Service now offers bulk address validation for the United States, Canada, Australia, and the United Kingdom",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-location-service-bulk-address-validation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T14:00:00.000Z",
-      "snippet": "Amazon Location Service now offers bulk address validation for the United States, Canada, Australia, and the United Kingdom. Customers can now validate, correct, and standardize large volumes of addresses at scale, whether cleaning customer databases before a…"
-    },
-    {
-      "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T13:53:00.000Z",
-      "snippet": "Amazon Aurora serverless — the autoscaling database that scales up to support your most demanding workloads and down to zero when you don't need it — just got faster and smarter, with up to 30% better performance than the previous version and enhanced scaling…"
-    },
-    {
-      "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-21T10:00:00.000Z",
-      "snippet": "AWS Backup now supports Amazon Redshift Serverless namespaces and Amazon Aurora DSQL clusters as resource types in AWS Organizations backup policies. Organization administrators can now define backup policy rules that directly target these resource types…"
     }
   ]
 }
