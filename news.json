@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-04-23T21:47:16.203Z",
+  "lastUpdated": "2026-04-24T03:52:25.320Z",
   "items": [
+    {
+      "title": "Amazon Athena simplifies federated queries with managed connectors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T21:15:00.000Z",
+      "snippet": "Amazon Athena now offers managed connectors for 12 data sources, including Amazon DynamoDB, PostgreSQL, MySQL, and Snowflake. Managed connectors are AWS Glue Data Catalog federated connectors that Athena creates and manages on your behalf, so you can query…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports automatic Slurm topology management",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-automatic-slurm-topology/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T20:00:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now automatically selects and continuously maintains the optimal network topology configuration for Slurm clusters based on the GPU instance types in the cluster. Network topology directly impacts distributed training performance —…"
+    },
     {
       "title": "AWS Parallel Computing Service now supports Slurm 25.11",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-pcs-slurm-25-11/",
@@ -42,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-23T15:59:00.000Z",
       "snippet": "Amazon Quick now enables you to add co-owners to knowledge bases and data source connections for admin-managed Microsoft SharePoint Online and Google Drive integrations. This makes it easier to collaborate across teams and reuse existing connections without…"
+    },
+    {
+      "title": "Amazon EC2 X8g instances now available in Europe (Ireland) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8g-instances-europe-ireland/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T15:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8g instances are available in Europe (Ireland) region. These instances are powered by AWS Graviton4 processors and deliver up to 60% better performance than AWS Graviton2-based Amazon EC2 X2gd…"
     },
     {
       "title": "Amazon Redshift supports UPDATE, DELETE, MERGE for Apache Iceberg tables",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-22T07:43:00.000Z",
       "snippet": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR KB5077469 (RDS version…"
-    },
-    {
-      "title": "AWS Lambda durable functions are now available in 16 additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-functions-16-new-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-22T06:00:00.000Z",
-      "snippet": "AWS Lambda durable functions are now available in 16 additional AWS Regions. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lambda developer experience, and with this expansion, you can now use…"
-    },
-    {
-      "title": "Amazon OpenSearch Service now supports rollback for service software updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-service-now-supports-rollback-for-service-software-updates/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-22T03:30:00.000Z",
-      "snippet": "Amazon OpenSearch Service now supports rollback for service software updates, giving you greater control when managing updates to your Amazon OpenSearch Service domains. Previously, once a software update was applied, there was no self-service option to…"
-    },
-    {
-      "title": "Winter 2025 SOC 1 report is now available with 184 services in scope",
-      "link": "https://aws.amazon.com/blogs/security/winter-2025-soc-1-report-is-now-available-with-184-services-in-scope/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-04-22T00:12:21.000Z",
-      "snippet": "Amazon Web Services (AWS) is pleased to announce that the Winter 2025 System and Organization Controls (SOC) 1 report is now available. The report covers 184 services over the 12-month period from January 1, 2025 – December 31, 2025, giving customers a full…"
     }
   ]
 }
