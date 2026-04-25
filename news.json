@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T04:12:42.199Z",
+  "lastUpdated": "2026-04-25T10:17:46.185Z",
   "items": [
     {
       "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions",
@@ -30,18 +30,18 @@
       "snippet": "As outlined in the AWS post-quantum cryptography (PQC) migration plan, addressing the risk of harvest now, decrypt later (HNDL) attack is an important part of your post-quantum plan. Upgrading the client-side of your workloads to support quantum-resistant…"
     },
     {
-      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-24T17:00:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US East (Ohio) region, and U7in-24TB instances…"
-    },
-    {
       "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
       "source": "AWS What's New",
       "pubDate": "2026-04-24T17:00:00.000Z",
       "snippet": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility into the quality of AI-driven customer interactions,…"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-24T17:00:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US East (Ohio) region, and U7in-24TB instances…"
     },
     {
       "title": "AWS Marketplace Management Portal now supports bank account deletion",
