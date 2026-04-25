@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-04-24T22:07:32.449Z",
+  "lastUpdated": "2026-04-25T04:12:42.199Z",
   "items": [
+    {
+      "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-24T21:13:00.000Z",
+      "snippet": "AWS Lambda now supports Provisioned Mode for event source mappings (ESMs) that subscribe to Apache Kafka event sources in the Asia Pacific (Taipei), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Provisioned Mode allows you to optimize the…"
+    },
     {
       "title": "Amazon Quick now integrates with Visier’s Vee agent for workforce intelligence",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-visier-vee/",
@@ -23,18 +30,18 @@
       "snippet": "As outlined in the AWS post-quantum cryptography (PQC) migration plan, addressing the risk of harvest now, decrypt later (HNDL) attack is an important part of your post-quantum plan. Upgrading the client-side of your workloads to support quantum-resistant…"
     },
     {
-      "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-24T17:00:00.000Z",
-      "snippet": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility into the quality of AI-driven customer interactions,…"
-    },
-    {
       "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
       "source": "AWS What's New",
       "pubDate": "2026-04-24T17:00:00.000Z",
       "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US East (Ohio) region, and U7in-24TB instances…"
+    },
+    {
+      "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-24T17:00:00.000Z",
+      "snippet": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility into the quality of AI-driven customer interactions,…"
     },
     {
       "title": "AWS Marketplace Management Portal now supports bank account deletion",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-22T17:53:00.000Z",
       "snippet": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5, enabling you to fine-tune Qwen3.5 4B, 9B, and 27B parameter models using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). Qwen3.5 is a popular open-weight model…"
-    },
-    {
-      "title": "Amazon EC2 announces Managed resource visibility settings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-managed-resource-visibility/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-22T17:53:00.000Z",
-      "snippet": "Amazon EC2 now lets you control whether resources provisioned by managed instance offerings appear in your Amazon EC2 console views and API list operations. Amazon EC2 Managed Instances are instances provisioned and managed by a designated service provider,…"
     }
   ]
 }
