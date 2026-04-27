@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-04-27T10:58:23.132Z",
+  "lastUpdated": "2026-04-27T17:03:27.017Z",
   "items": [
+    {
+      "title": "Can I do that with policy? Understanding the AWS Service Authorization Reference",
+      "link": "https://aws.amazon.com/blogs/security/can-i-do-that-with-policy-understanding-the-aws-service-authorization-reference/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-27T16:01:46.000Z",
+      "snippet": "Understanding what AWS Identity and Access Management (IAM) policies can control helps you build better security controls and avoid spending time on approaches that won’t work. You’ve likely encountered questions like: Can I use AWS Organizations service…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-g7e-r5d/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-27T15:30:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances. SageMaker HyperPod is a purpose-built infrastructure for developing, training, and deploying foundation models at scale. It provides a resilient and performant environment with built-in…"
+    },
+    {
+      "title": "AWS Weekly Roundup: Anthropic & Meta partnership, AWS Lambda S3 Files, Amazon Bedrock AgentCore CLI, and more (April 27, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-anthropic-meta-partnership-aws-lambda-s3-files-amazon-bedrock-agentcore-cli-and-more-april-27-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-04-27T15:01:28.000Z",
+      "snippet": "Late March took me to Seattle for the Specialist Tech Conference, one of the most energizing gatherings of AWS specialists from around the world. It was an incredible opportunity to connect with peers, exchange experiences, and go deep on the latest…"
+    },
+    {
+      "title": "Amazon WorkSpaces Personal Supports Rocky 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-rocky9-rhel9-ubuntu24/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-24T22:03:00.000Z",
+      "snippet": "AWS announces availability of new Linux bundles for Amazon WorkSpaces Personal, including Rocky Linux 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04. With these bundles, customers can launch WorkSpaces powered by the latest enterprise-grade Linux operating…"
+    },
     {
       "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-22T20:31:00.000Z",
       "snippet": "Amazon SageMaker Unified Studio now lets data workers create and manage multiple code spaces (individually configured development environments) within a single project for IAM domains. Previously, projects were limited to one JupyterLab space and one Code…"
-    },
-    {
-      "title": "Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London), and Asia Pacific (New Zealand) regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-flex-instances-europe-ireland-europe-london-asia-pacific-new-zealand-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-22T19:46:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i-flex instances are available in the Europe (Ireland, London), and Asia Pacific (New Zealand) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS,…"
-    },
-    {
-      "title": "Amazon EC2 C8i instances are now available in Europe (Ireland) and Asia Pacific (New Zealand) regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-instances-europe-ireland-asia-pacific-new-zealand-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-22T19:31:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Ireland) and Asia Pacific (New Zealand) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest…"
-    },
-    {
-      "title": "Enhancements to AWS Network Firewall Managed Rules from AWS Marketplace Partners",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/marketplace-managed-rules-enhancements/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-22T18:00:00.000Z",
-      "snippet": "AWS Network Firewall now supports expanded Managed Rules from AWS Marketplace partners, with new rule group optimizations through partners to include up to 10 million domain name indicators and up to 1 million IP addresses in their managed rule groups.…"
-    },
-    {
-      "title": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5 models",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ft-qwen3-5/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-22T17:53:00.000Z",
-      "snippet": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5, enabling you to fine-tune Qwen3.5 4B, 9B, and 27B parameter models using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). Qwen3.5 is a popular open-weight model…"
     }
   ]
 }
