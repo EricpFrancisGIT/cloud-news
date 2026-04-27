@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-04-27T17:03:27.017Z",
+  "lastUpdated": "2026-04-27T23:08:26.503Z",
   "items": [
+    {
+      "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-ai-driven-scaling-default/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-27T22:03:00.000Z",
+      "snippet": "Amazon Redshift Serverless now makes AI-driven scaling and optimization the default for all new workgroups. AI-driven scaling uses machine learning to predict compute needs and automatically adjust resources before queries queue, delivering better…"
+    },
+    {
+      "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-melbourne-calgary-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-27T19:00:00.000Z",
+      "snippet": "Amazon Redshift Serverless, which allows you to run and scale analytics without having to provision and manage data warehouse clusters, is now generally available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions. With Amazon Redshift…"
+    },
+    {
+      "title": "Optimize security operations through an AWS Security Hub POC",
+      "link": "https://aws.amazon.com/blogs/security/how-to-develop-an-aws-security-hub-poc/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-04-27T18:55:44.000Z",
+      "snippet": "April 27, 2026: This post was first published in September 2025 when the enhanced AWS Security Hub was in public preview. It has since been updated to reflect the general availability of Security Hub. This revision also provides a more detailed, step-by-step…"
+    },
+    {
+      "title": "Amazon Connect increases attachment file sizes and adds custom file types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-increases-attachment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-27T18:45:00.000Z",
+      "snippet": "Amazon Connect now supports attachment file sizes up to 100 MB for chat, cases, and tasks, up from the previous 20 MB limit. Administrators can enable these higher limits and configure custom file extensions for attachments across chat, email, cases, and…"
+    },
+    {
+      "title": "Deloitte optimizes EKS environment provisioning and achieves 89% faster testing environments using Amazon EKS and vCluster",
+      "link": "https://aws.amazon.com/blogs/architecture/deloitte-optimizes-eks-environment-provisioning-and-achieves-89-faster-testing-environments-using-amazon-eks-and-vcluster/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-04-27T17:47:34.000Z",
+      "snippet": "In this post, we explore how Deloitte used Amazon EKS and vCluster to transform their testing infrastructure."
+    },
+    {
+      "title": "Amazon FSx for OpenZFS Single-AZ (HA) file systems are now available in 17 additional AWS commercial and AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-single-az-ha/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-27T16:53:00.000Z",
+      "snippet": "You can now create Amazon FSx for OpenZFS Single-AZ (HA) file systems in seventeen additional AWS Regions across the South America, Europe, Africa, Asia Pacific, and AWS GovCloud (US). Amazon FSx for OpenZFS provides fully managed, cost-effective, shared file…"
+    },
     {
       "title": "Can I do that with policy? Understanding the AWS Service Authorization Reference",
       "link": "https://aws.amazon.com/blogs/security/can-i-do-that-with-policy-understanding-the-aws-service-authorization-reference/",
@@ -58,18 +100,18 @@
       "snippet": "As outlined in the AWS post-quantum cryptography (PQC) migration plan, addressing the risk of harvest now, decrypt later (HNDL) attack is an important part of your post-quantum plan. Upgrading the client-side of your workloads to support quantum-resistant…"
     },
     {
-      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-24T17:00:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US East (Ohio) region, and U7in-24TB instances…"
-    },
-    {
       "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
       "source": "AWS What's New",
       "pubDate": "2026-04-24T17:00:00.000Z",
       "snippet": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility into the quality of AI-driven customer interactions,…"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-24T17:00:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US East (Ohio) region, and U7in-24TB instances…"
     },
     {
       "title": "AWS Marketplace Management Portal now supports bank account deletion",
@@ -121,6 +163,13 @@
       "snippet": "Amazon SageMaker Unified Studio now supports serverless notebooks with a built-in data agent for AWS IAM Identity Center (IdC) domains. Previously, the notebook experience and data agent were available only in IAM domains. With this launch, customers who use…"
     },
     {
+      "title": "Amazon SageMaker Unified Studio now offers CI/CD CLI for data and AI applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-smus-ci-cd-cli/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-23T19:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now offers the CI/CD CLI (aws-smus-cicd-cli), an open-source command line tool that automates deployment of multi-service data and AI applications across development, test, and production. Organizations building applications in…"
+    },
+    {
       "title": "AWS Compute Optimizer supports 162 new EC2 instance types and 32 new RDS DB instance classes",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-compute-optimizer-ec2-rds/",
       "source": "AWS What's New",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-23T15:00:00.000Z",
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8g instances are available in Europe (Ireland) region. These instances are powered by AWS Graviton4 processors and deliver up to 60% better performance than AWS Graviton2-based Amazon EC2 X2gd…"
-    },
-    {
-      "title": "Amazon Redshift supports UPDATE, DELETE, MERGE for Apache Iceberg tables",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/redshift-update-delete-merge-iceberg-tables/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-23T15:00:00.000Z",
-      "snippet": "Amazon Redshift now supports row-level UPDATE, DELETE, and MERGE operations on Apache Iceberg tables. Customers who use Iceberg to build interoperable data lakes can now perform data manipulation language (DML) operations directly from Amazon Redshift,…"
-    },
-    {
-      "title": "Amazon Quick now supports permission verification for ACL-enabled knowledge bases",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-acl/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-23T14:56:00.000Z",
-      "snippet": "Amazon Quick now provides ACL verification for ACL enabled knowledge bases, enabling administrators to check whether a specific user has access to a specific document. This feature simplifies troubleshooting access issues and helps confirm that sensitive…"
-    },
-    {
-      "title": "Modernizing KYC with AWS serverless solutions and agentic AI for financial services",
-      "link": "https://aws.amazon.com/blogs/architecture/modernizing-kyc-with-aws-serverless-solutions-and-agentic-ai-for-financial-services/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-04-23T13:20:43.000Z",
-      "snippet": "This post extends IBM's approach to real-time KYC validation using generative AI, as previously discussed in the post IBM Digital KYC on AWS uses Generative AI to transform Client Onboarding and KYC Operations. It transforms compliance operations through…"
-    },
-    {
-      "title": "Amazon S3 now supports five additional checksum algorithms",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-five-additional-checksum-algorithms/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-23T13:00:00.000Z",
-      "snippet": "Amazon S3 now supports five additional checksum algorithms: MD5, XXHash3, XXHash64, XXHash128, and SHA-512, bringing the total to ten. S3 validates and stores the checksum alongside your object for any of these supported algorithms, so you can verify data…"
-    },
-    {
-      "title": "AWS Backup expands support for Amazon Aurora PITR to six Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-backup-amazon-aurora-pitr/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-23T10:00:00.000Z",
-      "snippet": "AWS Backup support for Amazon Aurora Point-in-time Recovery (PITR) is now available in six additional AWS Regions: Asia Pacific (Malaysia, Thailand, Taipei, New Zealand), Canada West (Calgary) and Mexico (Central). This expansion brings policy-based data…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports VPC for notebook kernels",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-unified-studio-vpc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-23T00:57:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports Amazon Virtual Private Cloud (Amazon VPC) for notebook kernels. With this launch, notebook kernels execute within the VPC configured at the domain level, giving enterprises network isolation for interactive data…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports multiple code spaces within projects for IAM domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-code-spaces/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-22T20:31:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now lets data workers create and manage multiple code spaces (individually configured development environments) within a single project for IAM domains. Previously, projects were limited to one JupyterLab space and one Code…"
     }
   ]
 }
