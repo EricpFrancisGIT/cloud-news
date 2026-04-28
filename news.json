@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T23:08:26.503Z",
+  "lastUpdated": "2026-04-28T05:13:33.056Z",
   "items": [
     {
       "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
@@ -7,6 +7,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-27T22:03:00.000Z",
       "snippet": "Amazon Redshift Serverless now makes AI-driven scaling and optimization the default for all new workgroups. AI-driven scaling uses machine learning to predict compute needs and automatically adjust resources before queries queue, delivering better…"
+    },
+    {
+      "title": "AWS KMS now tracks last usage of all KMS keys",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-kms-tracks-last-usage-kms-keys/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-27T19:00:00.000Z",
+      "snippet": "AWS Key Management Service (KMS) now provides visibility into the last cryptographic operation performed with your KMS keys, eliminating the need to manually query and analyze logs. This feature helps security administrators and compliance teams quickly…"
     },
     {
       "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions",
@@ -63,6 +70,27 @@
       "source": "AWS News Blog",
       "pubDate": "2026-04-27T15:01:28.000Z",
       "snippet": "Late March took me to Seattle for the Specialist Tech Conference, one of the most energizing gatherings of AWS specialists from around the world. It was an incredible opportunity to connect with peers, exchange experiences, and go deep on the latest…"
+    },
+    {
+      "title": "Introducing Amazon EC2 M8in and M8ib instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-m8in-m8ib/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-27T15:00:00.000Z",
+      "snippet": "AWS is announcing the general availability of Amazon EC2 M8in network optimized instances and Amazon EC2 M8ib EBS optimized instances. The new instances are powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These…"
+    },
+    {
+      "title": "Introducing Amazon EC2 R8in and R8ib instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-r8in-r8ib/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-27T15:00:00.000Z",
+      "snippet": "AWS is announcing the general availability of memory optimized Amazon EC2 R8in network optimized instances and Amazon EC2 R8ib EBS optimized instances. These new instances are powered by custom sixth generation Intel Xeon Scalable processors, available only…"
+    },
+    {
+      "title": "Introducing Amazon EC2 C8ine and M8ine instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8ine-m8ine/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-27T15:00:00.000Z",
+      "snippet": "AWS is announcing the general availability of Amazon EC2 C8ine and Amazon EC2 M8ine instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These also instances feature the latest sixth generation AWS Nitro cards.…"
     },
     {
       "title": "Amazon WorkSpaces Personal Supports Rocky 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-23T16:30:00.000Z",
       "snippet": "Today, AWS announces the launch of the Attributed Revenue dashboard in AWS Partner Central in the AWS Console, giving Partners self-service visibility into the revenue impact of their solutions as measured by Partner Revenue Measurement. The dashboard…"
-    },
-    {
-      "title": "AWS Elastic Beanstalk AI-powered environment analysis now supports Windows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-ai-analysis-windows/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-23T16:00:00.000Z",
-      "snippet": "AWS Elastic Beanstalk AI-powered environment analysis is now available on Windows Server platforms. Previously available on Amazon Linux 2 and AL2023, this feature now extends to Windows-based environments, enabling you to quickly identify root causes and get…"
-    },
-    {
-      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Seoul, Sydney) and Europe (Paris) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/second-generation-aws-outposts-racks-sydney-seoul-paris/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-23T16:00:00.000Z",
-      "snippet": "Second-generation AWS Outposts racks are now supported in the AWS Asia Pacific (Seoul, Sydney) and Europe (Paris) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for…"
-    },
-    {
-      "title": "Amazon Quick now supports multiple owners for admin-managed SharePoint and Google Drive knowledge bases",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-sharepoint/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-23T15:59:00.000Z",
-      "snippet": "Amazon Quick now enables you to add co-owners to knowledge bases and data source connections for admin-managed Microsoft SharePoint Online and Google Drive integrations. This makes it easier to collaborate across teams and reuse existing connections without…"
-    },
-    {
-      "title": "Amazon EC2 X8g instances now available in Europe (Ireland) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8g-instances-europe-ireland/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-23T15:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8g instances are available in Europe (Ireland) region. These instances are powered by AWS Graviton4 processors and deliver up to 60% better performance than AWS Graviton2-based Amazon EC2 X2gd…"
     }
   ]
 }
