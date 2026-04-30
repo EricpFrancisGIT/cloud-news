@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T23:44:33.238Z",
+  "lastUpdated": "2026-04-30T05:49:38.286Z",
   "items": [
     {
       "title": "Amazon RDS for MySQL announces Innovation Release 9.6 in Amazon RDS Database Preview Environment",
@@ -56,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-29T15:18:00.000Z",
       "snippet": "Amazon Bedrock now supports OpenAI's open-weight GPT OSS models (120B and 20B) and NVIDIA Nemotron (Nano 9B v2, Nano 12B v2, Nano 30B, Super 120B) models expanding your ability to build and scale generative AI applications with diverse, high-performance…"
+    },
+    {
+      "title": "Amazon Quick Adds Custom Sort for Filter Controls",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-filter-control-sort/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-29T15:00:00.000Z",
+      "snippet": "Quick Sight in Amazon Quick now supports custom sort for filter controls, giving authors control over how values appear in dropdown and list controls. Previously, filter control values were always sorted alphabetically. With custom sort, authors can arrange…"
     },
     {
       "title": "AWS Transfer Family Terraform module now supports Okta and Microsoft Entra ID integration examples",
@@ -184,13 +191,6 @@
       "snippet": "Amazon Quick is now available as a native desktop application for MacOS and Windows in preview. The desktop application extends Quick beyond your browser and utilizes the capabilities on your computer– including direct access to local files, proactive…"
     },
     {
-      "title": "Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T11:30:00.000Z",
-      "snippet": "Amazon Quick is expanding integrations with 13 new built-in action connectors, all supporting managed authentication so users can securely connect their accounts in just a few clicks without manual credentials setup. Amazon Quick is an AI assistant that turns…"
-    },
-    {
       "title": "Amazon Quick now supports document and visual creation in chat",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick/",
       "source": "AWS What's New",
@@ -205,11 +205,11 @@
       "snippet": "Starting today, new Free and Plus pricing plans for Amazon Quick allow you to sign up in minutes using your personal email address or existing Google, Apple, Github, or Amazon credentials—no AWS account required. A guided onboarding experience helps you find…"
     },
     {
-      "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-ai-driven-scaling-default/",
+      "title": "Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
       "source": "AWS What's New",
-      "pubDate": "2026-04-27T22:03:00.000Z",
-      "snippet": "Amazon Redshift Serverless now makes AI-driven scaling and optimization the default for all new workgroups. AI-driven scaling uses machine learning to predict compute needs and automatically adjust resources before queries queue, delivering better…"
+      "pubDate": "2026-04-28T11:30:00.000Z",
+      "snippet": "Amazon Quick is expanding integrations with 13 new built-in action connectors, all supporting managed authentication so users can securely connect their accounts in just a few clicks without manual credentials setup. Amazon Quick is an AI assistant that turns…"
     }
   ]
 }
