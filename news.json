@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-04-30T17:59:54.756Z",
+  "lastUpdated": "2026-05-01T00:05:00.512Z",
   "items": [
+    {
+      "title": "AWS Outposts racks now support LagStatus CloudWatch metric",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-outposts-lagstatus-cloudwatch/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T20:17:00.000Z",
+      "snippet": "AWS Outposts racks now support the LagStatus Amazon CloudWatch metric in all AWS commercial Regions and the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. This metric provides you with the ability to monitor Outposts LAG connectivity status…"
+    },
+    {
+      "title": "Amazon ECS Managed Instances now supports NVIDIA GPU metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-mi-gpu-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T19:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now offers NVIDIA GPU metrics for containerized workloads running on Amazon ECS Managed Instances. These metrics are available through Amazon CloudWatch Container Insights with enhanced observability, giving…"
+    },
+    {
+      "title": "Amazon MQ for RabbitMQ now supports Prometheus metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mq-rabbitmq-prometheus-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T18:10:00.000Z",
+      "snippet": "Amazon MQ for RabbitMQ now supports the Prometheus plugin on RabbitMQ 4.2 brokers, providing a native Prometheus-compatible metrics endpoint on your RabbitMQ brokers. You can scrape broker, queue, and connection metrics directly from your brokers using any…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T17:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange, enabling developers to build agents that securely access protected resources on behalf of authenticated users — without requiring users to complete multiple consent flows.…"
+    },
+    {
+      "title": "AWS Neuron SDK now available with Neuron Agentic Development for NKI kernel development on Trainium",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/announcing-neuron-agentic-development/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T15:00:00.000Z",
+      "snippet": "AWS Neuron announces the Neuron Agentic Development capabilities, an open-source collection of agents and skills that equip AI coding assistants to accelerate development on AWS Trainium and AWS Inferentia. The initial release provides agentic coding…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore launches capabilities for optimizing agent performance in preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-optimization-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T15:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore launches recommendations and two ways to validate performance (batch evaluations and A/B tests). This completes the observe, evaluate, improve loop for AI agents in production. Until now, translating evaluation findings into concrete,…"
+    },
+    {
+      "title": "AWS Lambda adds support for Ruby 4.0",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T13:00:00.000Z",
+      "snippet": "AWS Lambda now supports creating serverless applications using Ruby 4.0. Developers can use Ruby 4.0 as both a managed runtime and a container base image, and AWS will automatically apply updates to the managed runtime and base image as they become available.…"
+    },
+    {
+      "title": "Amazon Quick adds Microsoft Excel, PowerPoint extensions and updates the Word extension (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-microsoft-excel/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T11:30:00.000Z",
+      "snippet": "Today, Amazon Quick introduces new and upgraded Microsoft 365 extensions in preview for Excel, PowerPoint, and Word, enabling Quick to perform tasks directly within users’ Microsoft 365 environments. These extensions allow you to use AI to perform complex…"
+    },
+    {
+      "title": "Amazon OpenSearch Service now supports index-level encryption",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-service-supports-index-level-encryption/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T02:30:00.000Z",
+      "snippet": "Amazon OpenSearch Service now supports index-level encryption, enabling you to encrypt data at rest on a per-index basis using AWS Key Management Service (KMS) customer managed keys. You can use different customer managed keys for different indexes on the…"
+    },
     {
       "title": "Amazon RDS for MySQL announces Innovation Release 9.6 in Amazon RDS Database Preview Environment",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-mysql-innovation/",
@@ -147,69 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-04-28T16:33:06.000Z",
       "snippet": "As organizations expand their Amazon Web Services (AWS) footprint, managing secure, scalable, and cost-efficient access across multiple accounts becomes increasingly important. AWS IAM Identity Center offers a centralized, unified solution for managing…"
-    },
-    {
-      "title": "Amazon EC2 C8gn instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8gn-milan-hong-kong/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Europe (Milan) and Asia Pacific (Hong Kong) regions. The new instances provide up to 30% better…"
-    },
-    {
-      "title": "Amazon Connect Talent for AI-powered hiring (now available in Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-talent-ai-powered/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T15:30:00.000Z",
-      "snippet": "Amazon Connect Talent is now available in Preview, giving talent acquisition leaders an AI-powered hiring solution that accelerates candidate selection at scale. Informed by decades of Amazon's hiring science, Amazon Connect Talent uses AI agents to conduct…"
-    },
-    {
-      "title": "Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T15:00:00.000Z",
-      "snippet": "AWS and OpenAI are expanding their partnership to bring frontier intelligence to the infrastructure millions of organizations already trust. Enterprises want the most capable AI models and agents, with the security, operational maturity, and data governance…"
-    },
-    {
-      "title": "AWS Announces Amazon Connect Decisions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-decisions-april/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T14:30:00.000Z",
-      "snippet": "Today, AWS announces the general availability of Amazon Connect Decisions, an agentic AI planning and intelligence solution that helps supply chain teams shift from firefighting to proactive operations. Combining 30 years of Amazon operational science and 25+…"
-    },
-    {
-      "title": "Build custom applications using natural language in Amazon Quick (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/custom-applications/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T14:30:00.000Z",
-      "snippet": "Today, AWS announces new features in preview for Amazon Quick, allowing users to create custom web applications in minutes using natural language. Creating internal tools and web applications typically requires developer resources or technical skills, but…"
-    },
-    {
-      "title": "Amazon Quick now available as a desktop application for macOS and Windows (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-macos-windows-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T14:30:00.000Z",
-      "snippet": "Amazon Quick is now available as a native desktop application for MacOS and Windows in preview. The desktop application extends Quick beyond your browser and utilizes the capabilities on your computer– including direct access to local files, proactive…"
-    },
-    {
-      "title": "Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T11:30:00.000Z",
-      "snippet": "Amazon Quick is expanding integrations with 13 new built-in action connectors, all supporting managed authentication so users can securely connect their accounts in just a few clicks without manual credentials setup. Amazon Quick is an AI assistant that turns…"
-    },
-    {
-      "title": "Amazon Quick now supports document and visual creation in chat",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T11:30:00.000Z",
-      "snippet": "Today, Amazon Quick introduces document and visual creation capabilities, enabling you to produce polished documents, presentations, spreadsheets, and more through natural language without leaving your conversation. No more switching between multiple tools to…"
-    },
-    {
-      "title": "Start using Amazon Quick for free in minutes with Free and Plus pricing plans",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-free-plus/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T11:30:00.000Z",
-      "snippet": "Starting today, new Free and Plus pricing plans for Amazon Quick allow you to sign up in minutes using your personal email address or existing Google, Apple, Github, or Amazon credentials—no AWS account required. A guided onboarding experience helps you find…"
     }
   ]
 }
