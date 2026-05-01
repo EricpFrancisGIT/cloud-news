@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-05-01T12:15:12.325Z",
+  "lastUpdated": "2026-05-01T18:20:16.758Z",
   "items": [
+    {
+      "title": "Announcing Kubernetes Dynamic Resource Allocation for Elastic Fabric Adapter",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/kubernetes-dra-elastic-fabric-adapter/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-01T14:00:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Dynamic Resource Allocation (DRA) for Elastic Fabric Adapter (EFA), simplifying high-performance inter-node communication and RDMA (Remote Direct Memory Access) for artificial intelligence, machine…"
+    },
+    {
+      "title": "AWS Payment Cryptography now supports paper-based key exchange",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-payment-cryptography/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T22:08:00.000Z",
+      "snippet": "AWS Payment Cryptography now supports Physical Key Exchange, a new PCI PIN and P2PE compliant feature for performing paper-based cryptographic key exchange with the service without needing to maintain your own secure key loading infrastructure. If your…"
+    },
+    {
+      "title": "Amazon EKS now supports one-click cluster access through CloudShell",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-one-click-cluster-access/",
+      "source": "AWS What's New",
+      "pubDate": "2026-04-30T22:00:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (EKS) now provides one-click cluster access directly from the AWS Management Console through AWS CloudShell, eliminating the need to install and configure kubectl, AWS CLI, or kubeconfig files locally. This feature helps…"
+    },
     {
       "title": "AWS Outposts racks now support LagStatus CloudWatch metric",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-outposts-lagstatus-cloudwatch/",
@@ -56,13 +77,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-30T11:30:00.000Z",
       "snippet": "Today, Amazon Quick introduces new and upgraded Microsoft 365 extensions in preview for Excel, PowerPoint, and Word, enabling Quick to perform tasks directly within users’ Microsoft 365 environments. These extensions allow you to use AI to perform complex…"
-    },
-    {
-      "title": "Amazon OpenSearch Service now supports index-level encryption",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-service-supports-index-level-encryption/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T02:30:00.000Z",
-      "snippet": "Amazon OpenSearch Service now supports index-level encryption, enabling you to encrypt data at rest on a per-index basis using AWS Key Management Service (KMS) customer managed keys. You can use different customer managed keys for different indexes on the…"
     },
     {
       "title": "Amazon RDS for MySQL announces Innovation Release 9.6 in Amazon RDS Database Preview Environment",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-28T17:00:00.000Z",
       "snippet": "AWS Cost Optimization Hub now supports direct CSV download in the console, enabling you to export your cost optimization recommendations to your local machine with a single click. This capability provides a one click export option directly from the console…"
-    },
-    {
-      "title": "Amazon WorkSpaces Personal enhances PCoIP to DCV protocol migration",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-pcoip/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-28T16:51:00.000Z",
-      "snippet": "Amazon WorkSpaces Personal now provides an enhanced experience for administrators migrating WorkSpaces from PCoIP to DCV protocol, including a guided console action for protocol modification, checkpoint snapshots for rollback support, and session blocking…"
-    },
-    {
-      "title": "Access control with IAM Identity Center session tags",
-      "link": "https://aws.amazon.com/blogs/security/access-control-with-iam-identity-center-session-tags/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-04-28T16:33:06.000Z",
-      "snippet": "As organizations expand their Amazon Web Services (AWS) footprint, managing secure, scalable, and cost-efficient access across multiple accounts becomes increasingly important. AWS IAM Identity Center offers a centralized, unified solution for managing…"
     }
   ]
 }
