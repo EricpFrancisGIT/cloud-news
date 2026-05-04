@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-05-04T13:33:01.681Z",
+  "lastUpdated": "2026-05-04T19:33:15.861Z",
   "items": [
+    {
+      "title": "Securing open proxies in your AWS environment",
+      "link": "https://aws.amazon.com/blogs/security/securing-open-proxies-in-your-aws-environment/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-04T18:16:39.000Z",
+      "snippet": "This article shows you how to identify and secure open proxies in your AWS environment to prevent abuse, protect your IP address reputation, and control costs. An open proxy is a server that forwards traffic on behalf of internet users without requiring…"
+    },
+    {
+      "title": "AWS Entity Resolution launches support for incremental Machine Learning based matching workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T17:43:00.000Z",
+      "snippet": "AWS Entity Resolution launches support for Machine Learning (ML) based Incremental Matching workflows in General Availability, fundamentally transforming how enterprises process entity resolution at scale. Previously, adding even a single new record required…"
+    },
+    {
+      "title": "AWS Weekly Roundup: What’s Next with AWS 2026, Amazon Quick, OpenAI partnership, and more (May 4, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-whats-next-with-aws-2026-amazon-quick-openai-partnership-and-more-may-4-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-05-04T17:05:41.000Z",
+      "snippet": "Last week, I took some time off in York, England, often described as the most haunted city in the country. I wandered through the ruins of abbeys that have stood for nearly a thousand years, walked along medieval walls, and spent an evening on a ghost tour…"
+    },
+    {
+      "title": "Amazon Quick generates dashboards from natural language prompts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-generates-analyses-from-natural-language-prompts/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T17:00:00.000Z",
+      "snippet": "Amazon Quick now generates dashboards from natural language prompts with Generate Analysis. You describe the dashboard you want, select up to three datasets, and review an editable plan before generation. Amazon Quick then produces organized sheets with…"
+    },
+    {
+      "title": "Amazon Quick introduces Dataset Q&A for conversational analytics against enterprise data",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-dataset-qa/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T16:55:00.000Z",
+      "snippet": "Amazon Quick now supports Dataset Q&A — a conversational analytics capability that enables users to ask natural language questions directly against their enterprise data. Alongside Dashboard Q&A, Dataset Q&A provides a powerful new way to interact with data…"
+    },
+    {
+      "title": "Amazon Quick now supports S3 tables bucket as a data source",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T16:00:00.000Z",
+      "snippet": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets. With no intermediate data warehouse or OLAP layers required,…"
+    },
+    {
+      "title": "Amazon Quick upgrades the extension for Microsoft Outlook (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-microsoft-outlook/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T15:27:00.000Z",
+      "snippet": "Today, AWS announces the preview of the Amazon Quick extension for Microsoft Outlook, which brings generative AI-powered productivity directly into your email and calendar workflows. With the extension, you can use natural language to summarize unread…"
+    },
+    {
+      "title": "Amazon SageMaker AI launches AI agent experience for model customization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T15:00:00.000Z",
+      "snippet": "Amazon SageMaker AI now features an agentic experience that transforms model customization from a months-long process into a workflow completed in days or hours. Customers building an AI solution need to carefully frame their use case goals and success…"
+    },
+    {
+      "title": "AWS Payment Cryptography announces support for cross account key sharing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/payment-cryptography-resource/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T14:58:00.000Z",
+      "snippet": "AWS Payment Cryptography now supports cross account sharing of keys using resource-based policies (RBP). With this new feature, customers can more easily manage cryptographic keys across multiple accounts both internal and external to their company, providing…"
+    },
     {
       "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-sao-paulo-region/",
@@ -42,6 +105,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-01T19:30:00.000Z",
       "snippet": "Amazon CloudFront now supports WebSockets traffic through Virtual Private Cloud (VPC) origins, enabling you to use CloudFront as the single entry point for real-time applications hosted entirely in private subnets. WebSockets support extends VPC origins to…"
+    },
+    {
+      "title": "General availability of AWS for SAP MCP Server in Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sap-mcp-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-01T16:44:00.000Z",
+      "snippet": "Today, we're announcing the General Availability of the AWS for SAP MCP Server on Amazon Bedrock AgentCore, purpose-built to connect AI agents directly to SAP ERP systems, securely and at scale. Built on the Model Context Protocol (MCP) and SAP's Open Data…"
     },
     {
       "title": "IAM Roles Anywhere now enforces VPC endpoint policies for the CreateSession API",
@@ -93,6 +163,13 @@
       "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports read replicas for database instances with additional storage volumes. Additional storage volumes allow customers to scale database storage up to 256 TiB by adding up to three storage…"
     },
     {
+      "title": "Amazon SageMaker AI Now Supports Capacity-Aware Inference with Automatic Instance Fallback",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ai-inf-auto-inst/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-01T00:40:00.000Z",
+      "snippet": "Amazon SageMaker AI inference endpoints now support flexible provisioning across a prioritized list of instance types. When your preferred instance type has insufficient capacity, SageMaker AI automatically provisions from the next available option in your…"
+    },
+    {
       "title": "AWS Payment Cryptography now supports paper-based key exchange",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-payment-cryptography/",
       "source": "AWS What's New",
@@ -128,88 +205,11 @@
       "snippet": "Amazon MQ for RabbitMQ now supports the Prometheus plugin on RabbitMQ 4.2 brokers, providing a native Prometheus-compatible metrics endpoint on your RabbitMQ brokers. You can scrape broker, queue, and connection metrics directly from your brokers using any…"
     },
     {
-      "title": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore/",
+      "title": "AWS IoT Core now supports customer managed domains in the AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-core-aws-govcloud-us/",
       "source": "AWS What's New",
-      "pubDate": "2026-04-30T17:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange, enabling developers to build agents that securely access protected resources on behalf of authenticated users — without requiring users to complete multiple consent flows.…"
-    },
-    {
-      "title": "AWS Neuron SDK now available with Neuron Agentic Development for NKI kernel development on Trainium",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/announcing-neuron-agentic-development/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T15:00:00.000Z",
-      "snippet": "AWS Neuron announces the Neuron Agentic Development capabilities, an open-source collection of agents and skills that equip AI coding assistants to accelerate development on AWS Trainium and AWS Inferentia. The initial release provides agentic coding…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore launches capabilities for optimizing agent performance in preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-optimization-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T15:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore launches recommendations and two ways to validate performance (batch evaluations and A/B tests). This completes the observe, evaluate, improve loop for AI agents in production. Until now, translating evaluation findings into concrete,…"
-    },
-    {
-      "title": "AWS Lambda adds support for Ruby 4.0",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T13:00:00.000Z",
-      "snippet": "AWS Lambda now supports creating serverless applications using Ruby 4.0. Developers can use Ruby 4.0 as both a managed runtime and a container base image, and AWS will automatically apply updates to the managed runtime and base image as they become available.…"
-    },
-    {
-      "title": "Amazon Quick adds Microsoft Excel, PowerPoint extensions and updates the Word extension (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-microsoft-excel/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T11:30:00.000Z",
-      "snippet": "Today, Amazon Quick introduces new and upgraded Microsoft 365 extensions in preview for Excel, PowerPoint, and Word, enabling Quick to perform tasks directly within users’ Microsoft 365 environments. These extensions allow you to use AI to perform complex…"
-    },
-    {
-      "title": "Amazon RDS for MySQL announces Innovation Release 9.6 in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-mysql-innovation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-29T20:37:00.000Z",
-      "snippet": "Amazon RDS for MySQL now supports community MySQL Innovation Release 9.6 in the Amazon RDS Database Preview Environment, allowing you to evaluate the latest Innovation Release on Amazon RDS for MySQL. You can deploy MySQL 9.6 in the Amazon RDS Database…"
-    },
-    {
-      "title": "Designing trust and safety into Amazon Bedrock powered applications",
-      "link": "https://aws.amazon.com/blogs/security/designing-trust-and-safety-into-amazon-bedrock-powered-applications/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-04-29T19:27:33.000Z",
-      "snippet": "Generative AI brings promising innovation, transforming how individuals and organizations approach everything from customer service to content creation and more. As AI continues to expand its capabilities, organizations are increasingly focused on how they…"
-    },
-    {
-      "title": "Amazon DocumentDB (with MongoDB compatibility) is Now Available in the Canada West (Calgary) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-available-in-canada-west-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-29T18:00:00.000Z",
-      "snippet": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Canada West (Calgary) region adding to the list of available regions where you can use Amazon DocumentDB. Amazon DocumentDB is a fully managed, native JSON database that makes it simple…"
-    },
-    {
-      "title": "Amazon CloudFront now supports invalidation by cache tag",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudfront-invalidation-cache-tag/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-29T17:06:00.000Z",
-      "snippet": "Amazon CloudFront now allows you to invalidate cached objects by cache tag, enabling you to remove groups of related content from CloudFront edge locations with a single invalidation request. Cache tag invalidation simplifies common operational workflows such…"
-    },
-    {
-      "title": "Paraphrase-multilingual-MiniLM-L12-v2, Table Transformer Detection, and Bielik-11B-v3.0-Instruct are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/paraphrase-multilingual-table-transformer-bielik-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-29T17:05:00.000Z",
-      "snippet": "Today, AWS announced the availability of paraphrase-multilingual-MiniLM-L12-v2, Microsoft Table Transformer Detection, and Bielik-11B-v3.0-Instruct in Amazon SageMaker JumpStart. Paraphrase-multilingual-MiniLM-L12-v2 from Sentence Transformers is a…"
-    },
-    {
-      "title": "Gemma 4 models are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/gemma-4-models-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-29T17:05:00.000Z",
-      "snippet": "Today, AWS announced the availability of Gemma 4 E4B, Gemma 4 26B-A4B, and Gemma 4 31B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three instruction-tuned models from Google DeepMind bring…"
-    },
-    {
-      "title": "Amazon CloudWatch adds visual agent configuration to the EC2 console",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-agent-ec2/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-29T17:00:00.000Z",
-      "snippet": "Amazon CloudWatch now provides a visual configuration editor for the CloudWatch agent directly in the Amazon EC2 console, enabling you to set up and manage observability for your EC2 instances without hand-editing JSON. The CloudWatch agent collects…"
+      "pubDate": "2026-04-30T18:00:00.000Z",
+      "snippet": "AWS IoT Core now supports customer managed domains in the AWS GovCloud (US) Regions. Customer managed domains (also known as custom domains), allow you to configure custom domain names, use your own server certificates stored in AWS Certificate Manager,…"
     }
   ]
 }
