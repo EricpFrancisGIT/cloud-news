@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-04T19:33:15.861Z",
+  "lastUpdated": "2026-05-05T01:38:25.923Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch Logs Insights supports querying by log group tags",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudwatch-logs-query-by-tags/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T23:00:00.000Z",
+      "snippet": "Amazon CloudWatch Logs Insights query language now supports querying log groups using tags, making it easier to analyze logs without listing the log groups explicitly. In addition to querying logs by log group names, data sources, and facets, customers can…"
+    },
     {
       "title": "Securing open proxies in your AWS environment",
       "link": "https://aws.amazon.com/blogs/security/securing-open-proxies-in-your-aws-environment/",
@@ -14,6 +21,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-04T17:43:00.000Z",
       "snippet": "AWS Entity Resolution launches support for Machine Learning (ML) based Incremental Matching workflows in General Availability, fundamentally transforming how enterprises process entity resolution at scale. Previously, adding even a single new record required…"
+    },
+    {
+      "title": "Amazon FSx is now available in the AWS Asia Pacific (New Zealand) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-aws-asia-pacific/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T17:37:00.000Z",
+      "snippet": "Amazon FSx, a fully-managed service that makes it easy and cost effective to launch, run, and scale feature-rich, high-performance file systems in the cloud, is now available in the AWS Asia Pacific (New Zealand) Region. Amazon FSx lets you choose between…"
     },
     {
       "title": "AWS Weekly Roundup: What’s Next with AWS 2026, Amazon Quick, OpenAI partnership, and more (May 4, 2026)",
@@ -30,6 +44,13 @@
       "snippet": "Amazon Quick now generates dashboards from natural language prompts with Generate Analysis. You describe the dashboard you want, select up to three datasets, and review an editable plan before generation. Amazon Quick then produces organized sheets with…"
     },
     {
+      "title": "Amazon Aurora DSQL now supports the JSON data type with compression",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aurora-dsql-json-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T17:00:00.000Z",
+      "snippet": "Amazon Aurora DSQL introduces support for the PostgreSQL JSON data type with optional compression. With JSON data type support, you can now use code and tools that depend on PostgreSQL's JSON type with Aurora DSQL without modification, making it easier to…"
+    },
+    {
       "title": "Amazon Quick introduces Dataset Q&A for conversational analytics against enterprise data",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-dataset-qa/",
       "source": "AWS What's New",
@@ -42,6 +63,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-04T16:00:00.000Z",
       "snippet": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets. With no intermediate data warehouse or OLAP layers required,…"
+    },
+    {
+      "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T16:00:00.000Z",
+      "snippet": "Today, Amazon EventBridge announces support for logging data plane APIs using AWS CloudTrail, enabling customers to have greater visibility into event bus activity in their AWS account for best practices in security and operational troubleshooting. Amazon…"
     },
     {
       "title": "Amazon Quick upgrades the extension for Microsoft Outlook (Preview)",
@@ -63,6 +91,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-04T14:58:00.000Z",
       "snippet": "AWS Payment Cryptography now supports cross account sharing of keys using resource-based policies (RBP). With this new feature, customers can more easily manage cryptographic keys across multiple accounts both internal and external to their company, providing…"
+    },
+    {
+      "title": "Amazon RDS for SQL Server now supports M8i and R8i instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-m8i-r8i-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports M8i and R8i instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among…"
+    },
+    {
+      "title": "Amazon RDS for SQL Server supports read replica with additional storage volumes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-read-replica-for-asv/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports read replicas for database instances with additional storage volumes. Additional storage volumes allow customers to scale database storage up to 256 TiB by adding up to three storage…"
     },
     {
       "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
@@ -156,13 +198,6 @@
       "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports cross-account snapshot sharing for database instances with additional storage volumes. Additional storage volumes allow customers to scale database storage up to 256 TiB by adding up…"
     },
     {
-      "title": "Amazon RDS for SQL Server supports read replica with additional storage volumes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-read-replica-for-asv/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports read replicas for database instances with additional storage volumes. Additional storage volumes allow customers to scale database storage up to 256 TiB by adding up to three storage…"
-    },
-    {
       "title": "Amazon SageMaker AI Now Supports Capacity-Aware Inference with Automatic Instance Fallback",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ai-inf-auto-inst/",
       "source": "AWS What's New",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-04-30T22:08:00.000Z",
       "snippet": "AWS Payment Cryptography now supports Physical Key Exchange, a new PCI PIN and P2PE compliant feature for performing paper-based cryptographic key exchange with the service without needing to maintain your own secure key loading infrastructure. If your…"
-    },
-    {
-      "title": "Amazon EKS now supports one-click cluster access through CloudShell",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-one-click-cluster-access/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T22:00:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (EKS) now provides one-click cluster access directly from the AWS Management Console through AWS CloudShell, eliminating the need to install and configure kubectl, AWS CLI, or kubeconfig files locally. This feature helps…"
-    },
-    {
-      "title": "AWS Outposts racks now support LagStatus CloudWatch metric",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-outposts-lagstatus-cloudwatch/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T20:17:00.000Z",
-      "snippet": "AWS Outposts racks now support the LagStatus Amazon CloudWatch metric in all AWS commercial Regions and the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. This metric provides you with the ability to monitor Outposts LAG connectivity status…"
-    },
-    {
-      "title": "Amazon ECS Managed Instances now supports NVIDIA GPU metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-mi-gpu-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T19:00:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now offers NVIDIA GPU metrics for containerized workloads running on Amazon ECS Managed Instances. These metrics are available through Amazon CloudWatch Container Insights with enhanced observability, giving…"
-    },
-    {
-      "title": "Amazon MQ for RabbitMQ now supports Prometheus metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mq-rabbitmq-prometheus-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T18:10:00.000Z",
-      "snippet": "Amazon MQ for RabbitMQ now supports the Prometheus plugin on RabbitMQ 4.2 brokers, providing a native Prometheus-compatible metrics endpoint on your RabbitMQ brokers. You can scrape broker, queue, and connection metrics directly from your brokers using any…"
-    },
-    {
-      "title": "AWS IoT Core now supports customer managed domains in the AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-core-aws-govcloud-us/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T18:00:00.000Z",
-      "snippet": "AWS IoT Core now supports customer managed domains in the AWS GovCloud (US) Regions. Customer managed domains (also known as custom domains), allow you to configure custom domain names, use your own server certificates stored in AWS Certificate Manager,…"
     }
   ]
 }
