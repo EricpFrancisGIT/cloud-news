@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T01:38:25.923Z",
+  "lastUpdated": "2026-05-05T07:43:37.688Z",
   "items": [
     {
       "title": "Amazon CloudWatch Logs Insights supports querying by log group tags",
@@ -7,6 +7,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-04T23:00:00.000Z",
       "snippet": "Amazon CloudWatch Logs Insights query language now supports querying log groups using tags, making it easier to analyze logs without listing the log groups explicitly. In addition to querying logs by log group names, data sources, and facets, customers can…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications now supports host-to-client URL redirection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-url/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T20:56:00.000Z",
+      "snippet": "Amazon WorkSpaces Applications now supports host-to-client URL redirection, which automatically launches URLs from streaming sessions in the user's local browser. Administrators can configure allow and deny URL patterns through the AWS Management Console to…"
     },
     {
       "title": "Securing open proxies in your AWS environment",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-01T00:40:00.000Z",
       "snippet": "Amazon SageMaker AI inference endpoints now support flexible provisioning across a prioritized list of instance types. When your preferred instance type has insufficient capacity, SageMaker AI automatically provisions from the next available option in your…"
-    },
-    {
-      "title": "AWS Payment Cryptography now supports paper-based key exchange",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-payment-cryptography/",
-      "source": "AWS What's New",
-      "pubDate": "2026-04-30T22:08:00.000Z",
-      "snippet": "AWS Payment Cryptography now supports Physical Key Exchange, a new PCI PIN and P2PE compliant feature for performing paper-based cryptographic key exchange with the service without needing to maintain your own secure key loading infrastructure. If your…"
     }
   ]
 }
