@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-05-05T07:43:37.688Z",
+  "lastUpdated": "2026-05-05T18:41:13.236Z",
   "items": [
+    {
+      "title": "Amazon WorkSpaces now lets AI agents operate desktop applications (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-ai-agents/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T17:25:00.000Z",
+      "snippet": "Amazon WorkSpaces, AWS's fully managed cloud desktop service, now enables AI agents to securely access and operate desktop applications through managed WorkSpaces environments. Many enterprises run critical business processes on desktop…"
+    },
+    {
+      "title": "Modernize your workflows: Amazon WorkSpaces now gives AI agents their own desktop (preview)",
+      "link": "https://aws.amazon.com/blogs/aws/modernize-your-workflows-amazon-workspaces-now-gives-ai-agents-their-own-desktop-preview/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-05-05T17:23:40.000Z",
+      "snippet": "Amazon WorkSpaces now lets AI agents securely operate legacy desktop applications—without APIs or modernization—using IAM authentication, MCP support, and computer vision within existing security frameworks."
+    },
+    {
+      "title": "Amazon Connect Cases now supports customer profile identity resolution",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-customer-profiles-id-res/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T15:25:00.000Z",
+      "snippet": "Amazon Connect Cases now automatically reassociates cases when duplicate customer profiles are merged, so agents always see a complete case history for each customer. When the same customer has multiple profiles, such as when they reach out through different…"
+    },
+    {
+      "title": "Five ways to use Kiro and Amazon Q to strengthen your security posture",
+      "link": "https://aws.amazon.com/blogs/security/five-ways-to-use-kiro-and-amazon-q-to-strengthen-your-security-posture/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-05T15:00:07.000Z",
+      "snippet": "A Monday morning security alert flags unauthorized access attempts, security group misconfigurations, and AWS Identity and Access Management (IAM) policy violations. Your team needs answers fast. Security teams are using Kiro and Amazon Q Developer to handle…"
+    },
+    {
+      "title": "Amazon OpenSearch Service expands Cluster Insights with a new insight",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-cluster-insights/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T10:00:00.000Z",
+      "snippet": "Amazon OpenSearch Service expands Cluster Insights availability to all OpenSearch versions and Elasticsearch version 6.8 and above, bringing proactive cluster health and performance visibility through the Console. In addition, a new Unused Index insight helps…"
+    },
+    {
+      "title": "AWS IAM now provides higher maximum quotas for roles, role trust policies, instance profiles, managed policies, and identity providers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T02:28:00.000Z",
+      "snippet": "AWS Identity and Access Management (IAM) has increased maximum quotas for six resources: Customer managed policies per account (5,000 to 10,000) Instance profiles per account (5,000 to 10,000) Managed policies per role (20 to 25) Role trust policy length…"
+    },
     {
       "title": "Amazon CloudWatch Logs Insights supports querying by log group tags",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudwatch-logs-query-by-tags/",
@@ -58,6 +100,20 @@
       "snippet": "Amazon Aurora DSQL introduces support for the PostgreSQL JSON data type with optional compression. With JSON data type support, you can now use code and tools that depend on PostgreSQL's JSON type with Aurora DSQL without modification, making it easier to…"
     },
     {
+      "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ec2-i8ge-available-new-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T17:00:00.000Z",
+      "snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in Europe (Paris), Asia Pacific (Thailand), Asia Pacific (Hong Kong), Asia Pacific (Seoul), and Asia Pacific (Tokyo) AWS regions. I8ge instances are powered by AWS Graviton4…"
+    },
+    {
+      "title": "Amazon VPC Lattice resource configurations now support private domain-name targets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-lattice/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T17:00:00.000Z",
+      "snippet": "VPC Lattice resource configurations now support domain-name targets that are private to your network. You can define a resource configuration for a private FQDN and share it with other accounts, enabling secure cross-account access to privately-hosted…"
+    },
+    {
       "title": "Amazon Quick introduces Dataset Q&A for conversational analytics against enterprise data",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-dataset-qa/",
       "source": "AWS What's New",
@@ -65,18 +121,18 @@
       "snippet": "Amazon Quick now supports Dataset Q&A — a conversational analytics capability that enables users to ask natural language questions directly against their enterprise data. Alongside Dashboard Q&A, Dataset Q&A provides a powerful new way to interact with data…"
     },
     {
-      "title": "Amazon Quick now supports S3 tables bucket as a data source",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T16:00:00.000Z",
-      "snippet": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets. With no intermediate data warehouse or OLAP layers required,…"
-    },
-    {
       "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
       "source": "AWS What's New",
       "pubDate": "2026-05-04T16:00:00.000Z",
       "snippet": "Today, Amazon EventBridge announces support for logging data plane APIs using AWS CloudTrail, enabling customers to have greater visibility into event bus activity in their AWS account for best practices in security and operational troubleshooting. Amazon…"
+    },
+    {
+      "title": "Amazon Quick now supports S3 tables bucket as a data source",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T16:00:00.000Z",
+      "snippet": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets. With no intermediate data warehouse or OLAP layers required,…"
     },
     {
       "title": "Amazon Quick upgrades the extension for Microsoft Outlook (Preview)",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-01T19:30:00.000Z",
       "snippet": "Amazon CloudFront now supports WebSockets traffic through Virtual Private Cloud (VPC) origins, enabling you to use CloudFront as the single entry point for real-time applications hosted entirely in private subnets. WebSockets support extends VPC origins to…"
-    },
-    {
-      "title": "General availability of AWS for SAP MCP Server in Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sap-mcp-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T16:44:00.000Z",
-      "snippet": "Today, we're announcing the General Availability of the AWS for SAP MCP Server on Amazon Bedrock AgentCore, purpose-built to connect AI agents directly to SAP ERP systems, securely and at scale. Built on the Model Context Protocol (MCP) and SAP's Open Data…"
-    },
-    {
-      "title": "IAM Roles Anywhere now enforces VPC endpoint policies for the CreateSession API",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-roles-anywhere-vpc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T16:00:00.000Z",
-      "snippet": "AWS Identity and Access Management (IAM) Roles Anywhere now provides the capability to configure Virtual Private Cloud (VPC) endpoint policies for the IAM Roles Anywhere CreateSession API. You can update your VPC endpoint policies to allow or deny the…"
-    },
-    {
-      "title": "Amazon Redshift Introduces Concurrency Scaling Support for auto-copy and zero-ETL",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/concurrency-scaling-auto-copy-zero-ETL/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T15:00:00.000Z",
-      "snippet": "Amazon Redshift announces the general availability of Amazon Redshift concurrency scaling support for Amazon Redshift auto-copy and zero-ETL, enhancing the performance of data ingestion. This new feature combines the power of auto-copy's seamless data…"
-    },
-    {
-      "title": "AWS Transform now offers BI migration agents for Power BI and Tableau to Amazon Quick",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-bi-migration/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T15:00:00.000Z",
-      "snippet": "AWS Transform customers can now use BI migration agents to convert Tableau and Power BI dashboards to Amazon Quick Sight (BI capability of Amazon Quick) assets, helping reduce migration effort from months to days. These agents are built by Wavicle Data…"
-    },
-    {
-      "title": "Spatial Data Management on AWS adds custom transformations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/spatial-data-management-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T14:35:00.000Z",
-      "snippet": "Spatial Data Management on AWS (SDMA) now supports custom transformation connectors and a unified desktop client installer. Custom transformation connectors let you run compute-intensive processing — such as format conversion, 3D rendering, image tiling, or…"
-    },
-    {
-      "title": "Announcing Kubernetes Dynamic Resource Allocation for Elastic Fabric Adapter",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/kubernetes-dra-elastic-fabric-adapter/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T14:00:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Dynamic Resource Allocation (DRA) for Elastic Fabric Adapter (EFA), simplifying high-performance inter-node communication and RDMA (Remote Direct Memory Access) for artificial intelligence, machine…"
-    },
-    {
-      "title": "Amazon RDS for SQL Server supports cross-account snapshot sharing with additional storage volumes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-cross-account-snapshot-sharing-additional-storage-volume/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports cross-account snapshot sharing for database instances with additional storage volumes. Additional storage volumes allow customers to scale database storage up to 256 TiB by adding up…"
-    },
-    {
-      "title": "Amazon SageMaker AI Now Supports Capacity-Aware Inference with Automatic Instance Fallback",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ai-inf-auto-inst/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T00:40:00.000Z",
-      "snippet": "Amazon SageMaker AI inference endpoints now support flexible provisioning across a prioritized list of instance types. When your preferred instance type has insufficient capacity, SageMaker AI automatically provisions from the next available option in your…"
     }
   ]
 }
