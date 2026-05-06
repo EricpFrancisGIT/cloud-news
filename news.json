@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-05-06T13:12:27.530Z",
+  "lastUpdated": "2026-05-06T19:17:38.034Z",
   "items": [
+    {
+      "title": "AWS Marketplace now supports programmatic procurement with Agreements API",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-agreements-api/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T18:00:00.000Z",
+      "snippet": "Today, AWS Marketplace announces the Agreements API, enabling you to procure AWS Marketplace products and manage agreements programmatically. With this launch, you can generate estimates, accept offers, track charges and entitlements, update purchase orders…"
+    },
+    {
+      "title": "Amazon Neptune now supports 1-click connect with CloudShell",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T17:00:00.000Z",
+      "snippet": "Amazon Neptune now offers 1-click connect capability, enabling you to quickly connect to Neptune Database and Neptune Analytics using CloudShell. Previously, connecting to Neptune resources required manual configuration network settings and access…"
+    },
+    {
+      "title": "The AWS MCP Server is now generally available",
+      "link": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-05-06T15:36:44.000Z",
+      "snippet": "AWS announces the general availability of the AWS MCP Server, a managed remote Model Context Protocol (MCP) server that gives AI agents and coding assistants secure, authenticated access to all AWS services. The AWS MCP Server is part of the Agent Toolkit for…"
+    },
+    {
+      "title": "AWS Elemental MediaTailor now supports ad trickplay personalization and compact DASH manifest optimization via dynamic transcoding",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatail-ad-trickplay-and-compact-dash-manifest-optimization",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T14:24:00.000Z",
+      "snippet": "AWS Elemental MediaTailor now enhances streaming ad personalization with support for trickplay features in HLS and DASH formats. This update also introduces compact DASH manifests for more efficient manifest delivery. Previously, these capabilities required a…"
+    },
+    {
+      "title": "Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T12:00:00.000Z",
+      "snippet": "Today, AWS is launching the Agent Toolkit for AWS, a production-ready suite of tools and guidance that helps AI coding agents build on AWS with fewer errors, lower token costs, and enterprise-grade security controls. The Agent Toolkit for AWS is the successor…"
+    },
+    {
+      "title": "The AWS MCP Server is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T12:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of the AWS MCP Server, a managed server that gives AI coding agents secure, auditable access to AWS services through the Model Context Protocol (MCP). The AWS MCP Server is a core component of the Agent Toolkit…"
+    },
+    {
+      "title": "AWS Directory Service expands directory security settings with STIG-aligned controls for Managed AD",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/add-security-settings-stig-aws-microsoft-ad/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T07:00:00.000Z",
+      "snippet": "AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD) now has expanded its security settings to include STIG-aligned configurations for high-impact security areas. These new security settings help customers meet their organizations…"
+    },
     {
       "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatailor-automatic-google-ad-platform-integration",
@@ -142,6 +191,13 @@
       "snippet": "This article shows you how to identify and secure open proxies in your AWS environment to prevent abuse, protect your IP address reputation, and control costs. An open proxy is a server that forwards traffic on behalf of internet users without requiring…"
     },
     {
+      "title": "AWS Console Mobile App adds interactive graphs, AI log ssummaries, and natural language logs search to CloudWatch Alarms",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-console-mobile-app/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T17:49:00.000Z",
+      "snippet": "Amazon Web Services (AWS) is announcing new CloudWatch Alarms capabilities in the AWS Console Mobile Application. You can now investigate alarms and move from notification to root cause faster with interactive graphs, AI-generated logs summaries, natural…"
+    },
+    {
       "title": "AWS Entity Resolution launches support for incremental Machine Learning based matching workflows",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/",
       "source": "AWS What's New",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-04T17:37:00.000Z",
       "snippet": "Amazon FSx, a fully-managed service that makes it easy and cost effective to launch, run, and scale feature-rich, high-performance file systems in the cloud, is now available in the AWS Asia Pacific (New Zealand) Region. Amazon FSx lets you choose between…"
-    },
-    {
-      "title": "AWS Weekly Roundup: What’s Next with AWS 2026, Amazon Quick, OpenAI partnership, and more (May 4, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-whats-next-with-aws-2026-amazon-quick-openai-partnership-and-more-may-4-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-04T17:05:41.000Z",
-      "snippet": "Last week, I took some time off in York, England, often described as the most haunted city in the country. I wandered through the ruins of abbeys that have stood for nearly a thousand years, walked along medieval walls, and spent an evening on a ghost tour…"
-    },
-    {
-      "title": "Amazon Quick generates dashboards from natural language prompts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-generates-analyses-from-natural-language-prompts/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T17:00:00.000Z",
-      "snippet": "Amazon Quick now generates dashboards from natural language prompts with Generate Analysis. You describe the dashboard you want, select up to three datasets, and review an editable plan before generation. Amazon Quick then produces organized sheets with…"
-    },
-    {
-      "title": "4 new Qwen models for multimodal reasoning, agentic coding, and multilingual applications are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/qwen-models-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T17:00:00.000Z",
-      "snippet": "Today, we are excited to announce the availability of four new Qwen models in Amazon SageMaker JumpStart: Qwen3.5-27B-FP8, Qwen3.6-35B-A3B, Qwen3.5-0.8B, and Qwen3.5-2B. These models address different AI application needs with specialized capabilities:…"
-    },
-    {
-      "title": "Amazon Aurora DSQL now supports the JSON data type with compression",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aurora-dsql-json-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T17:00:00.000Z",
-      "snippet": "Amazon Aurora DSQL introduces support for the PostgreSQL JSON data type with optional compression. With JSON data type support, you can now use code and tools that depend on PostgreSQL's JSON type with Aurora DSQL without modification, making it easier to…"
-    },
-    {
-      "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ec2-i8ge-available-new-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T17:00:00.000Z",
-      "snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in Europe (Paris), Asia Pacific (Thailand), Asia Pacific (Hong Kong), Asia Pacific (Seoul), and Asia Pacific (Tokyo) AWS regions. I8ge instances are powered by AWS Graviton4…"
-    },
-    {
-      "title": "Amazon VPC Lattice resource configurations now support private domain-name targets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-lattice/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T17:00:00.000Z",
-      "snippet": "VPC Lattice resource configurations now support domain-name targets that are private to your network. You can define a resource configuration for a private FQDN and share it with other accounts, enabling secure cross-account access to privately-hosted…"
-    },
-    {
-      "title": "Amazon Quick introduces Dataset Q&A for conversational analytics against enterprise data",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-dataset-qa/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T16:55:00.000Z",
-      "snippet": "Amazon Quick now supports Dataset Q&A — a conversational analytics capability that enables users to ask natural language questions directly against their enterprise data. Alongside Dashboard Q&A, Dataset Q&A provides a powerful new way to interact with data…"
-    },
-    {
-      "title": "Amazon Quick now supports S3 tables bucket as a data source",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T16:00:00.000Z",
-      "snippet": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets. With no intermediate data warehouse or OLAP layers required,…"
     }
   ]
 }
