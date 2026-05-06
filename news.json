@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-05-05T18:41:13.236Z",
+  "lastUpdated": "2026-05-06T00:55:17.024Z",
   "items": [
+    {
+      "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatailor-automatic-google-ad-platform-integration",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T21:44:00.000Z",
+      "snippet": "AWS Elemental MediaTailor now automatically authenticates server-to-server connections with Google Ad Manager (GAM), Google Campaign Manager (GCM), and Google Display & Video 360 (DV360). This delivers a seamless integration experience for customers using…"
+    },
+    {
+      "title": "Introducing AI traffic analysis dashboards for AWS WAF",
+      "link": "https://aws.amazon.com/blogs/security/introducing-ai-traffic-analysis-dashboards-for-aws-waf/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-05T18:56:54.000Z",
+      "snippet": "As AI agents, bots, and programmatic access become an increasingly significant portion of web traffic, organizations need better tools to understand, analyze, and manage this activity. Today, we’re excited to announce AI Traffic Analysis dashboards for AWS…"
+    },
+    {
+      "title": "AWS SAM CLI adds BuildKit support for AWS Lambda functions packaged as container images",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-buildkit-aws-lambda/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T18:50:00.000Z",
+      "snippet": "AWS Serverless Application Model Command Line Interface (SAM CLI) now supports BuildKit for building container images from Dockerfiles, enabling faster, more efficient container image builds for Lambda functions packaged as container images. SAM CLI is a…"
+    },
+    {
+      "title": "AWS SAM now supports WebSocket APIs for Amazon API Gateway",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T18:31:00.000Z",
+      "snippet": "AWS Serverless Application Model (AWS SAM) now supports WebSocket APIs for Amazon API Gateway, enabling you to define complete WebSocket APIs with minimal configuration in your SAM template. AWS SAM is a collection of open-source tools that make it easy for…"
+    },
+    {
+      "title": "Amazon ElastiCache adds thirteen new Amazon CloudWatch metrics for network capacity planning and engine diagnostics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-elasticache-cloudwatch-metrics-network-engine-diagnostics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T18:00:00.000Z",
+      "snippet": "Amazon ElastiCache customers can now detect network throttling, memory fragmentation, and connection exhaustion, using thirteen new Amazon CloudWatch metrics for node-based clusters. You can monitor these host-level and engine-level diagnostics directly from…"
+    },
     {
       "title": "Amazon WorkSpaces now lets AI agents operate desktop applications (Preview)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-ai-agents/",
@@ -16,6 +51,34 @@
       "snippet": "Amazon WorkSpaces now lets AI agents securely operate legacy desktop applications—without APIs or modernization—using IAM authentication, MCP support, and computer vision within existing security frameworks."
     },
     {
+      "title": "AWS IoT Core for Device Location adds Confidence Level Configuration and Measurement Type support",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-device-location/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T16:59:00.000Z",
+      "snippet": "AWS IoT Core for Device Location now supports two enhancements that give developers greater control over location resolution and richer metadata for resolved device locations. Customers using the Cell ID, Wi-Fi, or Cell+Wi-Fi solvers can now specify a desired…"
+    },
+    {
+      "title": "Amazon MQ now supports in-place major version upgrades for RabbitMQ 4",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-inplace-upgrades-rabbitmq4/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T16:50:00.000Z",
+      "snippet": "Amazon MQ now supports in-place version upgrades for RabbitMQ brokers, enabling you to upgrade your brokers to RabbitMQ 4 without creating a new broker or migrating your data. You can now upgrade from RabbitMQ 3.13 to 4.2, directly from the Amazon MQ console,…"
+    },
+    {
+      "title": "Amazon Quick now integrates with New Relic for observability-driven AI agents",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-new-relic/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T16:35:00.000Z",
+      "snippet": "Amazon Quick, your AI assistant for work, now integrates with New Relic's AI agents, enabling on-call engineers, SREs, and engineering leaders to investigate incidents, generate root cause analysis briefs, and create tracked tasks without leaving their Amazon…"
+    },
+    {
+      "title": "EC2 Instance Store CSI driver now generally available in EKS add-ons",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ec2-csi-eks/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T16:22:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports using the Amazon EKS console, and AWS Command Line Interface (CLI) to install and manage the Amazon Elastic Cloud Compute (EC2) Container Storage Interface (CSI) driver. This launch enables a simple…"
+    },
+    {
       "title": "Amazon Connect Cases now supports customer profile identity resolution",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-customer-profiles-id-res/",
       "source": "AWS What's New",
@@ -28,6 +91,20 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-05-05T15:00:07.000Z",
       "snippet": "A Monday morning security alert flags unauthorized access attempts, security group misconfigurations, and AWS Identity and Access Management (IAM) policy violations. Your team needs answers fast. Security teams are using Kiro and Amazon Q Developer to handle…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore is now available in AWS GovCloud (US-West)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-launch-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T12:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore brings enterprise-grade agentic AI capabilities to workloads with elevated compliance needs in the AWS GovCloud (US-West) Region. AgentCore is a platform for building, deploying, and operating AI agents securely at scale—without…"
+    },
+    {
+      "title": "AWS Backup improves performance for Amazon EKS cluster backups",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-amazon-eks-performance-improvement/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-05T10:00:00.000Z",
+      "snippet": "AWS Backup for Amazon EKS now completes cluster state backups up to 10x faster. This performance improvement enables you to back up Amazon EKS clusters with a large numbers of namespaces and Kubernetes resources significantly faster, reducing backup windows…"
     },
     {
       "title": "Amazon OpenSearch Service expands Cluster Insights with a new insight",
@@ -121,13 +198,6 @@
       "snippet": "Amazon Quick now supports Dataset Q&A — a conversational analytics capability that enables users to ask natural language questions directly against their enterprise data. Alongside Dashboard Q&A, Dataset Q&A provides a powerful new way to interact with data…"
     },
     {
-      "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T16:00:00.000Z",
-      "snippet": "Today, Amazon EventBridge announces support for logging data plane APIs using AWS CloudTrail, enabling customers to have greater visibility into event bus activity in their AWS account for best practices in security and operational troubleshooting. Amazon…"
-    },
-    {
       "title": "Amazon Quick now supports S3 tables bucket as a data source",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
       "source": "AWS What's New",
@@ -135,81 +205,11 @@
       "snippet": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets. With no intermediate data warehouse or OLAP layers required,…"
     },
     {
-      "title": "Amazon Quick upgrades the extension for Microsoft Outlook (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-microsoft-outlook/",
+      "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
       "source": "AWS What's New",
-      "pubDate": "2026-05-04T15:27:00.000Z",
-      "snippet": "Today, AWS announces the preview of the Amazon Quick extension for Microsoft Outlook, which brings generative AI-powered productivity directly into your email and calendar workflows. With the extension, you can use natural language to summarize unread…"
-    },
-    {
-      "title": "Amazon SageMaker AI launches AI agent experience for model customization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T15:00:00.000Z",
-      "snippet": "Amazon SageMaker AI now features an agentic experience that transforms model customization from a months-long process into a workflow completed in days or hours. Customers building an AI solution need to carefully frame their use case goals and success…"
-    },
-    {
-      "title": "AWS Payment Cryptography announces support for cross account key sharing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/payment-cryptography-resource/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T14:58:00.000Z",
-      "snippet": "AWS Payment Cryptography now supports cross account sharing of keys using resource-based policies (RBP). With this new feature, customers can more easily manage cryptographic keys across multiple accounts both internal and external to their company, providing…"
-    },
-    {
-      "title": "Amazon RDS for SQL Server now supports M8i and R8i instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-m8i-r8i-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports M8i and R8i instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among…"
-    },
-    {
-      "title": "Amazon RDS for SQL Server supports read replica with additional storage volumes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-read-replica-for-asv/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports read replicas for database instances with additional storage volumes. Additional storage volumes allow customers to scale database storage up to 256 TiB by adding up to three storage…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-sao-paulo-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T22:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore is now available in the AWS South America (São Paulo) Region. Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers ship agents fast with any framework and any model, connect them to…"
-    },
-    {
-      "title": "FreeRTOS 202604 LTS now available with enhanced security and MQTT v5.0",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/freertos-lts/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T21:42:00.000Z",
-      "snippet": "FreeRTOS 202604 LTS, a new Long Term Support release of the open-source real-time operating system for embedded devices, is now available. This release provides embedded systems developers and Internet of Things (IoT) device manufacturers with feature…"
-    },
-    {
-      "title": "Security posture improvement in the AI era",
-      "link": "https://aws.amazon.com/blogs/security/security-posture-improvement-in-the-ai-era/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-01T20:58:39.000Z",
-      "snippet": "It’s only been a few weeks since Anthropic announced the Claude Mythos Preview model and launched Project Glasswing with AWS and other leading organizations. This has generated a lot of discussion about the future of cybersecurity and what the ever-increasing…"
-    },
-    {
-      "title": "OpenSearch UI supports cross-region data access to OpenSearch domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/opensearch-ui-cross-region-data-access-domains/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T20:54:00.000Z",
-      "snippet": "Amazon OpenSearch Service now supports cross-region data access for OpenSearch UI, enabling users to access OpenSearch domains hosted in different AWS Regions from within a single OpenSearch UI application. Combined with the cross-account data access launch…"
-    },
-    {
-      "title": "Announcing the ISO 31000:2018 Risk Management on AWS Compliance Guide",
-      "link": "https://aws.amazon.com/blogs/security/announcing-the-iso-310002018-risk-management-on-aws-compliance-guide/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-01T20:01:40.000Z",
-      "snippet": "AWS Security Assurance Services is announcing the release of our latest compliance guide, ISO 31000:2018 Risk Management on AWS, which provides practical guidance for organizations establishing and operating a risk management program in AWS environments using…"
-    },
-    {
-      "title": "Amazon CloudFront Announces WebSocket Support for VPC Origins",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-websockets-vpc-origins/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-01T19:30:00.000Z",
-      "snippet": "Amazon CloudFront now supports WebSockets traffic through Virtual Private Cloud (VPC) origins, enabling you to use CloudFront as the single entry point for real-time applications hosted entirely in private subnets. WebSockets support extends VPC origins to…"
+      "pubDate": "2026-05-04T16:00:00.000Z",
+      "snippet": "Today, Amazon EventBridge announces support for logging data plane APIs using AWS CloudTrail, enabling customers to have greater visibility into event bus activity in their AWS account for best practices in security and operational troubleshooting. Amazon…"
     }
   ]
 }
