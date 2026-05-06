@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T00:55:17.024Z",
+  "lastUpdated": "2026-05-06T07:07:22.801Z",
   "items": [
     {
       "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
@@ -170,6 +170,13 @@
       "snippet": "Amazon Quick now generates dashboards from natural language prompts with Generate Analysis. You describe the dashboard you want, select up to three datasets, and review an editable plan before generation. Amazon Quick then produces organized sheets with…"
     },
     {
+      "title": "4 new Qwen models for multimodal reasoning, agentic coding, and multilingual applications are now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/qwen-models-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-04T17:00:00.000Z",
+      "snippet": "Today, we are excited to announce the availability of four new Qwen models in Amazon SageMaker JumpStart: Qwen3.5-27B-FP8, Qwen3.6-35B-A3B, Qwen3.5-0.8B, and Qwen3.5-2B. These models address different AI application needs with specialized capabilities:…"
+    },
+    {
       "title": "Amazon Aurora DSQL now supports the JSON data type with compression",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aurora-dsql-json-support/",
       "source": "AWS What's New",
@@ -196,13 +203,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-04T16:55:00.000Z",
       "snippet": "Amazon Quick now supports Dataset Q&A — a conversational analytics capability that enables users to ask natural language questions directly against their enterprise data. Alongside Dashboard Q&A, Dataset Q&A provides a powerful new way to interact with data…"
-    },
-    {
-      "title": "Amazon Quick now supports S3 tables bucket as a data source",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T16:00:00.000Z",
-      "snippet": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets. With no intermediate data warehouse or OLAP layers required,…"
     },
     {
       "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
