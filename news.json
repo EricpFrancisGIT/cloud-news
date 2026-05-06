@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T07:07:22.801Z",
+  "lastUpdated": "2026-05-06T13:12:27.530Z",
   "items": [
     {
       "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
@@ -205,11 +205,11 @@
       "snippet": "Amazon Quick now supports Dataset Q&A — a conversational analytics capability that enables users to ask natural language questions directly against their enterprise data. Alongside Dashboard Q&A, Dataset Q&A provides a powerful new way to interact with data…"
     },
     {
-      "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
+      "title": "Amazon Quick now supports S3 tables bucket as a data source",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
       "source": "AWS What's New",
       "pubDate": "2026-05-04T16:00:00.000Z",
-      "snippet": "Today, Amazon EventBridge announces support for logging data plane APIs using AWS CloudTrail, enabling customers to have greater visibility into event bus activity in their AWS account for best practices in security and operational troubleshooting. Amazon…"
+      "snippet": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets. With no intermediate data warehouse or OLAP layers required,…"
     }
   ]
 }
