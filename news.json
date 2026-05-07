@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-05-06T19:17:38.034Z",
+  "lastUpdated": "2026-05-07T01:22:43.890Z",
   "items": [
+    {
+      "title": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth on existing VPN connections",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-site-to-site-vpn-modify-bandwidth/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T21:09:00.000Z",
+      "snippet": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth between standard (up to 1.25 Gbps) and large (up to 5 Gbps) on existing connections, making it easier to update your VPN connections’ bandwidth per your organization’s need. Previously, changing…"
+    },
+    {
+      "title": "New compliance guide available: ISO/IEC 42001:2023 on AWS",
+      "link": "https://aws.amazon.com/blogs/security/new-compliance-guide-available-iso-iec-420012023-on-aws/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-06T19:39:19.000Z",
+      "snippet": "We have released our latest compliance guide, ISO/IEC 42001:2023 on AWS, which provides practical guidance for organizations designing and operating an Artificial Intelligence Management System (AIMS) using AWS services. As organizations deploy AI and…"
+    },
+    {
+      "title": "Amazon EC2 P6-B300 instances are now available in the US East (N. Virginia) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-p6-b300-us-east",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T19:24:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the US East (N. Virginia) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps…"
+    },
     {
       "title": "AWS Marketplace now supports programmatic procurement with Agreements API",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-agreements-api/",
@@ -14,6 +35,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-06T17:00:00.000Z",
       "snippet": "Amazon Neptune now offers 1-click connect capability, enabling you to quickly connect to Neptune Database and Neptune Analytics using CloudShell. Previously, connecting to Neptune resources required manual configuration network settings and access…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Memory announces metadata for long-term memory",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-longterm-memory-metadata",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T17:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Memory now supports metadata on long-term memory (LTM) records, enabling agents to tag, filter, and retrieve memories using structured attributes alongside semantic search. You can define up to ten indexed keys per memory resource -…"
+    },
+    {
+      "title": "AWS Elastic Beanstalk now supports TLS listeners for Network Load Balancers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-tls-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T16:00:00.000Z",
+      "snippet": "AWS Elastic Beanstalk now supports TLS listeners for environments configured with a Network Load Balancer. You can configure a TLS listener with an SSL certificate and security policy, allowing the load balancer to handle secure connections and forward…"
     },
     {
       "title": "The AWS MCP Server is now generally available",
@@ -42,6 +77,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-06T12:00:00.000Z",
       "snippet": "Today, AWS announces the general availability of the AWS MCP Server, a managed server that gives AI coding agents secure, auditable access to AWS services through the Model Context Protocol (MCP). The AWS MCP Server is a core component of the Agent Toolkit…"
+    },
+    {
+      "title": "AWS Transfer Family web apps are now available in the AWS Asia Pacific (New Zealand) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-asia-pacific/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-06T10:00:00.000Z",
+      "snippet": "Customers in the Asia Pacific (New Zealand) Region can now use AWS Transfer Family web apps to provide their workforce with a fully managed, branded portal for browsing, uploading, and downloading data in Amazon S3 through a web browser. AWS Transfer Family…"
     },
     {
       "title": "AWS Directory Service expands directory security settings with STIG-aligned controls for Managed AD",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-05T02:28:00.000Z",
       "snippet": "AWS Identity and Access Management (IAM) has increased maximum quotas for six resources: Customer managed policies per account (5,000 to 10,000) Instance profiles per account (5,000 to 10,000) Managed policies per role (20 to 25) Role trust policy length…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs Insights supports querying by log group tags",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudwatch-logs-query-by-tags/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T23:00:00.000Z",
-      "snippet": "Amazon CloudWatch Logs Insights query language now supports querying log groups using tags, making it easier to analyze logs without listing the log groups explicitly. In addition to querying logs by log group names, data sources, and facets, customers can…"
-    },
-    {
-      "title": "Amazon WorkSpaces Applications now supports host-to-client URL redirection",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-url/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T20:56:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now supports host-to-client URL redirection, which automatically launches URLs from streaming sessions in the user's local browser. Administrators can configure allow and deny URL patterns through the AWS Management Console to…"
-    },
-    {
-      "title": "Securing open proxies in your AWS environment",
-      "link": "https://aws.amazon.com/blogs/security/securing-open-proxies-in-your-aws-environment/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-04T18:16:39.000Z",
-      "snippet": "This article shows you how to identify and secure open proxies in your AWS environment to prevent abuse, protect your IP address reputation, and control costs. An open proxy is a server that forwards traffic on behalf of internet users without requiring…"
-    },
-    {
-      "title": "AWS Console Mobile App adds interactive graphs, AI log ssummaries, and natural language logs search to CloudWatch Alarms",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-console-mobile-app/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T17:49:00.000Z",
-      "snippet": "Amazon Web Services (AWS) is announcing new CloudWatch Alarms capabilities in the AWS Console Mobile Application. You can now investigate alarms and move from notification to root cause faster with interactive graphs, AI-generated logs summaries, natural…"
-    },
-    {
-      "title": "AWS Entity Resolution launches support for incremental Machine Learning based matching workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T17:43:00.000Z",
-      "snippet": "AWS Entity Resolution launches support for Machine Learning (ML) based Incremental Matching workflows in General Availability, fundamentally transforming how enterprises process entity resolution at scale. Previously, adding even a single new record required…"
-    },
-    {
-      "title": "Amazon FSx is now available in the AWS Asia Pacific (New Zealand) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-aws-asia-pacific/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-04T17:37:00.000Z",
-      "snippet": "Amazon FSx, a fully-managed service that makes it easy and cost effective to launch, run, and scale feature-rich, high-performance file systems in the cloud, is now available in the AWS Asia Pacific (New Zealand) Region. Amazon FSx lets you choose between…"
     }
   ]
 }
