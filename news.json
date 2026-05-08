@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T01:43:16.778Z",
+  "lastUpdated": "2026-05-08T07:48:32.200Z",
   "items": [
     {
       "title": "Amazon EC2 G6 instances now available in AWS European Sovereign Cloud (Germany)",
@@ -72,18 +72,18 @@
       "snippet": "Amazon Connect Outbound Campaigns now detects customer time zones using all phone numbers and addresses on a customer profile, not just the primary contact fields. Previously, time zone detection used only the primary phone number, which could miss customers…"
     },
     {
-      "title": "Amazon EC2 M8gn and M8gb instances are now available in AWS Europe (Ireland) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8gn-m8gb-aws-europe/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8gn and M8gb instances are available in the AWS Europe (Ireland) region. These instances are powered by AWS Graviton4 processors to deliver up to 30% better compute performance than AWS Graviton3…"
-    },
-    {
       "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-ami-based-node/",
       "source": "AWS What's New",
       "pubDate": "2026-05-07T16:00:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now supports AMI-based configuration that provisions Slurm cluster nodes with the software and configurations needed for a production-ready environment to run AI/ML training workloads. This removes the need to download, configure, or…"
+    },
+    {
+      "title": "Amazon EC2 M8gn and M8gb instances are now available in AWS Europe (Ireland) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8gn-m8gb-aws-europe/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T16:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8gn and M8gb instances are available in the AWS Europe (Ireland) region. These instances are powered by AWS Graviton4 processors to deliver up to 30% better compute performance than AWS Graviton3…"
     },
     {
       "title": "AWS India customers can now use UPI Scan and Pay for sign-up and payments",
@@ -133,6 +133,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-07T07:00:00.000Z",
       "snippet": "Amazon SES Mail Manager is now available in AWS GovCloud (US) regions, expanding Mail Manager coverage to 30 AWS regions. Amazon SES Mail Manager provides a centralized gateway to manage all inbound and outbound email traffic with advanced routing, filtering,…"
+    },
+    {
+      "title": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/concurrencyscaling-support-for-copy",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T02:06:00.000Z",
+      "snippet": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads Posted on: May 7, 2026 Amazon Redshift now extends concurrency scaling to support high-volume data ingestion workloads, enabling concurrency scaling for…"
     },
     {
       "title": "Amazon OpenSearch Service now supports VPC egress for private connectivity to resources in your VPC",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-06T18:00:00.000Z",
       "snippet": "Today, AWS Marketplace announces the Agreements API, enabling you to procure AWS Marketplace products and manage agreements programmatically. With this launch, you can generate estimates, accept offers, track charges and entitlements, update purchase orders…"
-    },
-    {
-      "title": "Amazon Neptune now supports 1-click connect with CloudShell",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T17:00:00.000Z",
-      "snippet": "Amazon Neptune now offers 1-click connect capability, enabling you to quickly connect to Neptune Database and Neptune Analytics using CloudShell. Previously, connecting to Neptune resources required manual configuration network settings and access…"
     }
   ]
 }
