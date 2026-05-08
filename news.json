@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-05-07T19:38:14.906Z",
+  "lastUpdated": "2026-05-08T01:43:16.778Z",
   "items": [
+    {
+      "title": "Amazon EC2 G6 instances now available in AWS European Sovereign Cloud (Germany)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g6-aws-european-sovereign-cloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T21:07:00.000Z",
+      "snippet": "Starting today, the Amazon Elastic Compute Cloud (Amazon EC2) G6 instances powered by NVIDIA L4 GPUs are available in AWS European Sovereign Cloud (Germany). G6 instances can be used for a wide range of graphics-intensive and machine learning (ML) use cases.…"
+    },
+    {
+      "title": "Amazon EC2 X8i instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-BOM-DUB-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T20:45:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Europe (Ireland) and Asia Pacific (Mumbai) regions. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are…"
+    },
     {
       "title": "Amazon SageMaker Unified Studio adds identity and user management features",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-identity-user-management/",
@@ -16,6 +30,13 @@
       "snippet": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS…"
     },
     {
+      "title": "Amazon EC2 G7e instances now available in Europe (London) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g7e-london-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T18:04:00.000Z",
+      "snippet": "Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in Europe (London) region. G7e instances offer up to 2.3x inference performance compared to G6e. Customers can use G7e instances to…"
+    },
+    {
       "title": "AWS Capabilities by Region now supports availability notifications",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-regional-planning-tool-notification",
       "source": "AWS What's New",
@@ -23,11 +44,39 @@
       "snippet": "Today, AWS announces availability notifications for AWS Capabilities by Region in AWS Builder Center, a new subscription-based system that automatically alerts builders when an AWS service(s) and/or features(s) become available in their target Regions.…"
     },
     {
+      "title": "AWS Elemental MediaTailor launches Monetization Functions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-elemental-mediatailor-monetization-functions",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T17:20:00.000Z",
+      "snippet": "AWS Elemental MediaTailor now supports monetization functions, a new capability that lets customers customize how MediaTailor builds ad decision server (ADS) requests and manages session data during ad-personalized playback. With monetization functions,…"
+    },
+    {
+      "title": "AWS Advanced JDBC Wrapper now provides client-side encryption",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-advanced-jdbc-wrapper-encryption/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T17:00:00.000Z",
+      "snippet": "The AWS Advanced JDBC Wrapper now provides column-level client-side encryption through its KMS Encryption plugin. The wrapper provides advanced capabilities such as failover handling, AWS authentication integration, and enhanced monitoring for Amazon Aurora…"
+    },
+    {
       "title": "AWS achieves SNI 27017, SNI 27018, and SNI 9001 certifications for the AWS Asia Pacific (Jakarta) Region",
       "link": "https://aws.amazon.com/blogs/security/aws-achieves-sni-27017-sni-27018-and-sni-9001-certifications-for-the-aws-asia-pacific-jakarta-region/",
       "source": "AWS Security Blog",
       "pubDate": "2026-05-07T16:03:47.000Z",
       "snippet": "Amazon Web Services (AWS) achieved three Standar Nasional Indonesia (SNI) certifications for the AWS Asia Pacific (Jakarta) Region: SNI ISO/IEC 27017:2015, SNI ISO/IEC 27018:2019, and SNI ISO 9001:2015. SNI represents Indonesia’s national standards framework,…"
+    },
+    {
+      "title": "Amazon Connect Outbound Campaigns adds multi-contact time zone detection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-campaign-multitimezone",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T16:00:00.000Z",
+      "snippet": "Amazon Connect Outbound Campaigns now detects customer time zones using all phone numbers and addresses on a customer profile, not just the primary contact fields. Previously, time zone detection used only the primary phone number, which could miss customers…"
+    },
+    {
+      "title": "Amazon EC2 M8gn and M8gb instances are now available in AWS Europe (Ireland) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8gn-m8gb-aws-europe/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T16:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8gn and M8gb instances are available in the AWS Europe (Ireland) region. These instances are powered by AWS Graviton4 processors to deliver up to 30% better compute performance than AWS Graviton3…"
     },
     {
       "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters",
@@ -44,6 +93,20 @@
       "snippet": "India customers can now use UPI (Unified Payments Interface) Scan and Pay to sign up for AWS or make payments to their invoices. UPI is a popular and convenient payment method in India, which facilitates instant bank-to-bank transfers between two parties…"
     },
     {
+      "title": "Introducing Amazon EC2 R8idn and R8idb instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8idn-r8idb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T15:00:00.000Z",
+      "snippet": "AWS is announcing the general availability of Amazon EC2 R8idn and Amazon EC2 R8idb instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instances also feature the latest sixth generation AWS Nitro cards.…"
+    },
+    {
+      "title": "Introducing Amazon EC2 M8idn and M8idb instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8idn-m8idb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T15:00:00.000Z",
+      "snippet": "AWS is announcing the general availability of Amazon EC2 M8idn and Amazon EC2 M8idb instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instances also feature the latest sixth generation AWS Nitro cards.…"
+    },
+    {
       "title": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview",
       "source": "AWS What's New",
@@ -56,6 +119,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-07T12:00:00.000Z",
       "snippet": "We are pleased to announce that AWS Resource Explorer, a managed capability that simplifies the search and discovery of resources, is now available in the AWS GovCloud Regions (US-East) and (US-West). You can search for your AWS resources either using the AWS…"
+    },
+    {
+      "title": "Amazon RDS for SQL Server now supports instances powered by AMD EPYC processors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-amd-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T07:00:00.000Z",
+      "snippet": "Amazon RDS for SQL Server now supports M8a and R8a instances powered by 5th Generation AMD EPYC processors. On RDS for SQL Server, R8a and M8a instances deliver up to 70% higher throughput than comparable x86 instances for commonly used instance sizes. Each…"
+    },
+    {
+      "title": "Amazon SES Mail Manager now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ses-mail-manager-available-aws-govcloud-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T07:00:00.000Z",
+      "snippet": "Amazon SES Mail Manager is now available in AWS GovCloud (US) regions, expanding Mail Manager coverage to 30 AWS regions. Amazon SES Mail Manager provides a centralized gateway to manage all inbound and outbound email traffic with advanced routing, filtering,…"
     },
     {
       "title": "Amazon OpenSearch Service now supports VPC egress for private connectivity to resources in your VPC",
@@ -133,83 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-06T17:00:00.000Z",
       "snippet": "Amazon Neptune now offers 1-click connect capability, enabling you to quickly connect to Neptune Database and Neptune Analytics using CloudShell. Previously, connecting to Neptune resources required manual configuration network settings and access…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Memory announces metadata for long-term memory",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-longterm-memory-metadata",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T17:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Memory now supports metadata on long-term memory (LTM) records, enabling agents to tag, filter, and retrieve memories using structured attributes alongside semantic search. You can define up to ten indexed keys per memory resource -…"
-    },
-    {
-      "title": "AWS Elastic Beanstalk now supports TLS listeners for Network Load Balancers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-tls-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T16:00:00.000Z",
-      "snippet": "AWS Elastic Beanstalk now supports TLS listeners for environments configured with a Network Load Balancer. You can configure a TLS listener with an SSL certificate and security policy, allowing the load balancer to handle secure connections and forward…"
-    },
-    {
-      "title": "The AWS MCP Server is now generally available",
-      "link": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-06T15:36:44.000Z",
-      "snippet": "AWS announces the general availability of the AWS MCP Server, a managed remote Model Context Protocol (MCP) server that gives AI agents and coding assistants secure, authenticated access to all AWS services. The AWS MCP Server is part of the Agent Toolkit for…"
-    },
-    {
-      "title": "AWS Elemental MediaTailor now supports ad trickplay personalization and compact DASH manifest optimization via dynamic transcoding",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatail-ad-trickplay-and-compact-dash-manifest-optimization",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T14:24:00.000Z",
-      "snippet": "AWS Elemental MediaTailor now enhances streaming ad personalization with support for trickplay features in HLS and DASH formats. This update also introduces compact DASH manifests for more efficient manifest delivery. Previously, these capabilities required a…"
-    },
-    {
-      "title": "Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T12:00:00.000Z",
-      "snippet": "Today, AWS is launching the Agent Toolkit for AWS, a production-ready suite of tools and guidance that helps AI coding agents build on AWS with fewer errors, lower token costs, and enterprise-grade security controls. The Agent Toolkit for AWS is the successor…"
-    },
-    {
-      "title": "The AWS MCP Server is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T12:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of the AWS MCP Server, a managed server that gives AI coding agents secure, auditable access to AWS services through the Model Context Protocol (MCP). The AWS MCP Server is a core component of the Agent Toolkit…"
-    },
-    {
-      "title": "AWS Transfer Family web apps are now available in the AWS Asia Pacific (New Zealand) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-asia-pacific/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T10:00:00.000Z",
-      "snippet": "Customers in the Asia Pacific (New Zealand) Region can now use AWS Transfer Family web apps to provide their workforce with a fully managed, branded portal for browsing, uploading, and downloading data in Amazon S3 through a web browser. AWS Transfer Family…"
-    },
-    {
-      "title": "AWS Directory Service expands directory security settings with STIG-aligned controls for Managed AD",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/add-security-settings-stig-aws-microsoft-ad/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T07:00:00.000Z",
-      "snippet": "AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD) now has expanded its security settings to include STIG-aligned configurations for high-impact security areas. These new security settings help customers meet their organizations…"
-    },
-    {
-      "title": "Announcing Valkey 9.0 for Amazon ElastiCache",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/valkey-amazon-elasticache/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-05T22:33:00.000Z",
-      "snippet": "Amazon ElastiCache now supports Valkey 9.0, bringing new capabilities to customers building real-time, AI-driven, and high-throughput applications on AWS. As applications grow more data-intensive and latency-sensitive, teams often face the overhead of…"
-    },
-    {
-      "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatailor-automatic-google-ad-platform-integration",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-05T21:44:00.000Z",
-      "snippet": "AWS Elemental MediaTailor now automatically authenticates server-to-server connections with Google Ad Manager (GAM), Google Campaign Manager (GCM), and Google Display & Video 360 (DV360). This delivers a seamless integration experience for customers using…"
-    },
-    {
-      "title": "Introducing AI traffic analysis dashboards for AWS WAF",
-      "link": "https://aws.amazon.com/blogs/security/introducing-ai-traffic-analysis-dashboards-for-aws-waf/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-05T18:56:54.000Z",
-      "snippet": "As AI agents, bots, and programmatic access become an increasingly significant portion of web traffic, organizations need better tools to understand, analyze, and manage this activity. Today, we’re excited to announce AI Traffic Analysis dashboards for AWS…"
     }
   ]
 }
