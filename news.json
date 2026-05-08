@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-05-08T13:53:40.344Z",
+  "lastUpdated": "2026-05-08T19:58:49.594Z",
   "items": [
+    {
+      "title": "Amazon Route 53 Global Resolver now lets you add and remove AWS Regions for anycast DNS resolution",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-global-resolver-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-08T17:43:00.000Z",
+      "snippet": "Amazon Route 53 Global Resolver now lets you add and remove AWS Regions for anycast DNS resolution, giving you flexible control over where your DNS queries are resolved. This allows you to easily expand Global Resolver coverage as your organization grows or…"
+    },
+    {
+      "title": "AWS Service Catalog is now available in the AWS Asia Pacific (New Zealand) and Canada West (Calgary) regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-service-catalog-calgary-new-zealand-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-08T16:43:00.000Z",
+      "snippet": "AWS Service Catalog is now available to customers in two additional AWS Regions: Asia Pacific (New Zealand) and Canada West (Calgary). AWS Service Catalog enables customers to create, govern, and distribute a catalog of approved Infrastructure as Code (IaC)…"
+    },
+    {
+      "title": "Amazon Route 53 Resolver endpoints now support additional capabilities for IPv6 query traffic",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-53-resolver-ipv6/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T23:08:00.000Z",
+      "snippet": "Amazon Route 53 Resolver endpoints now support DNS64 on inbound endpoints and IPv6 forwarding through the internet gateway (IGW) on outbound endpoints, making it easier to manage hybrid DNS across IPv4 and IPv6 networks. With DNS64 enabled on inbound…"
+    },
+    {
+      "title": "AWS Marketplace introduces Tax management portal for sellers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-tax/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T21:36:00.000Z",
+      "snippet": "AWS Marketplace launches a new Tax management portal that provides sellers a streamlined self-service process to view and download invoices, eliminating the need to request invoices through support channels. Tax management portal integrates the invoice…"
+    },
     {
       "title": "Amazon EC2 G6 instances now available in AWS European Sovereign Cloud (Germany)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g6-aws-european-sovereign-cloud/",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-06T19:24:00.000Z",
       "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the US East (N. Virginia) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps…"
-    },
-    {
-      "title": "Amazon ElastiCache now supports real-time aggregations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-elasticache-aggregations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T19:00:00.000Z",
-      "snippet": "Amazon ElastiCache now supports aggregation queries, making it easier to filter, group, transform, and summarize data directly in your cache with a single query. Developers can use aggregation queries to build real-time application experiences with latencies…"
-    },
-    {
-      "title": "Amazon ElastiCache now supports real-time hybrid search with vector and full-text",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-elasticache-hybrid-search/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T19:00:00.000Z",
-      "snippet": "Amazon ElastiCache now supports real-time hybrid search that combines vector similarity with full-text search in a single query, without a separate search service. Applications can combine semantic meaning with exact keyword matching that captures both intent…"
-    },
-    {
-      "title": "Amazon ElastiCache now supports real-time full-text, exact-match, and numeric range search",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-elasticache-enchanced-search/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T19:00:00.000Z",
-      "snippet": "Amazon ElastiCache now supports real-time full-text, exact-match, and numeric range search directly in your cache without a separate search service. Applications can use ElastiCache to search terabytes of data with latency as low as microseconds and…"
-    },
-    {
-      "title": "AWS Marketplace now supports programmatic procurement with Agreements API",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-agreements-api/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T18:00:00.000Z",
-      "snippet": "Today, AWS Marketplace announces the Agreements API, enabling you to procure AWS Marketplace products and manage agreements programmatically. With this launch, you can generate estimates, accept offers, track charges and entitlements, update purchase orders…"
     }
   ]
 }
