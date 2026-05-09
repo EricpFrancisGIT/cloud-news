@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-05-08T19:58:49.594Z",
+  "lastUpdated": "2026-05-09T02:04:02.419Z",
   "items": [
+    {
+      "title": "AWS Client VPN now supports Ubuntu OS version 26.04 LTS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-client-vpn-ubuntu-26/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-08T22:39:00.000Z",
+      "snippet": "AWS Client VPN now supports Linux desktop client with Ubuntu versions 26.04 LTS. You can now run the AWS supplied VPN client on the latest Ubuntu OS versions. AWS Client VPN desktop clients are available free of charge, and can be downloaded here. AWS Client…"
+    },
+    {
+      "title": "Amazon Connect adds default Step-by-Step Guides for After Contact Work",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-adds-default-step-by-step-guides-for-after-contact-work",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-08T20:12:00.000Z",
+      "snippet": "Amazon Connect now supports Default Guides for After Contact Work (ACW), enabling contact center administrators to automatically launch a Step-by-Step Guide when an agent enters the ACW state without any manual work. This capability helps contact centers…"
+    },
     {
       "title": "Amazon Route 53 Global Resolver now lets you add and remove AWS Regions for anycast DNS resolution",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-global-resolver-aws/",
@@ -14,6 +28,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-08T16:43:00.000Z",
       "snippet": "AWS Service Catalog is now available to customers in two additional AWS Regions: Asia Pacific (New Zealand) and Canada West (Calgary). AWS Service Catalog enables customers to create, govern, and distribute a catalog of approved Infrastructure as Code (IaC)…"
+    },
+    {
+      "title": "IAM Policy Autopilot adds Java support and Terraform-aware policy generation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-policy-autopilot/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-08T04:00:00.000Z",
+      "snippet": "IAM Policy Autopilot now supports Java applications and Terraform-aware policy generation, expanding its language coverage and its ability to generate less permissive IAM policies from code. IAM Policy Autopilot is an open-source tool launched at re:Invent…"
     },
     {
       "title": "Amazon Route 53 Resolver endpoints now support additional capabilities for IPv6 query traffic",
@@ -167,7 +188,7 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/concurrencyscaling-support-for-copy",
       "source": "AWS What's New",
       "pubDate": "2026-05-07T02:06:00.000Z",
-      "snippet": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads Posted on: May 7, 2026 Amazon Redshift now extends concurrency scaling to support high-volume data ingestion workloads, enabling concurrency scaling for…"
+      "snippet": "Amazon Redshift now extends concurrency scaling to support high-volume data ingestion workloads, enabling concurrency scaling for Amazon Redshift COPY queries from Amazon S3. This means your data pipelines no longer have to choose between ingestion speed and…"
     },
     {
       "title": "Amazon OpenSearch Service now supports VPC egress for private connectivity to resources in your VPC",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-06T19:45:00.000Z",
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-West) Region. These instances offer up to 2x performance compared to P5en instances for AI training and…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Runtime now supports bring-your-own file system from Amazon S3 Files and Amazon EFS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-agentcore-runtime/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T19:45:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Runtime now supports bring-your-own file system, enabling developers to attach their Amazon S3 Files and Amazon EFS access points directly to agent runtimes. AgentCore Runtime mounts the file system into every session at a path you…"
-    },
-    {
-      "title": "New compliance guide available: ISO/IEC 42001:2023 on AWS",
-      "link": "https://aws.amazon.com/blogs/security/new-compliance-guide-available-iso-iec-420012023-on-aws/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-06T19:39:19.000Z",
-      "snippet": "We have released our latest compliance guide, ISO/IEC 42001:2023 on AWS, which provides practical guidance for organizations designing and operating an Artificial Intelligence Management System (AIMS) using AWS services. As organizations deploy AI and…"
-    },
-    {
-      "title": "Amazon EC2 P6-B300 instances are now available in the US East (N. Virginia) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-p6-b300-us-east",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T19:24:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the US East (N. Virginia) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps…"
     }
   ]
 }
