@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-05-11T14:54:57.184Z",
+  "lastUpdated": "2026-05-11T20:55:07.312Z",
   "items": [
+    {
+      "title": "AWS HealthOmics now supports caching of cancelled workflow runs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-healthomics-caching-cancelled-runs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T19:00:00.000Z",
+      "snippet": "AWS HealthOmics now supports caching completed task outputs of cancelled runs, enabling customers to reuse outputs and avoid recomputing previously completed tasks. When caching is enabled and a run is cancelled, HealthOmics automatically stores completed…"
+    },
+    {
+      "title": "Choosing between single or multiple organizations in AWS Organizations",
+      "link": "https://aws.amazon.com/blogs/architecture/choosing-between-single-or-multiple-organizations-in-aws-organizations/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-05-11T18:56:38.000Z",
+      "snippet": "Organizations face critical architectural decisions that can impact their operations for years to come such as: Is it better to maintain a single organization or implement multiple organizations? In this post, I explain the key advantages and disadvantages of…"
+    },
+    {
+      "title": "Complimentary virtual training: Get hands-on with AWS Security Services",
+      "link": "https://aws.amazon.com/blogs/security/complimentary-virtual-training-get-hands-on-with-aws-security-services/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-11T17:58:02.000Z",
+      "snippet": "If you’re looking to strengthen your organization’s security posture on Amazon Web Services (AWS) but aren’t sure where to start, then we’re here to help. Security Activation Days are complimentary, virtual, hands-on workshops designed to help you get…"
+    },
+    {
+      "title": "AWS Weekly Roundup: Amazon Bedrock AgentCore payments, Agent Toolkit for AWS, and more (May 11, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-agentcore-payments-agent-toolkit-for-aws-and-more-may-11-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-05-11T16:08:26.000Z",
+      "snippet": "My most exciting news of last week: Amazon Bedrock AgentCore previewed the first managed payment capabilities enabling AI agents to autonomously access and pay for APIs, MCP servers, web content, and other agents. Built in partnership with Coinbase and…"
+    },
+    {
+      "title": "Claude Platform on AWS is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T14:00:00.000Z",
+      "snippet": "Today, AWS announced the general availability of Claude Platform on AWS, a new service that gives customers direct access to Anthropic's native Claude Platform experience through their existing AWS account. AWS is the first cloud provider to offer access to…"
+    },
+    {
+      "title": "AWS Transform adds containerization capability during migrations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-containerization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T08:22:00.000Z",
+      "snippet": "AWS Transform now supports replatforming applications to containers during migration to AWS. This release extends AWS Transform's agentic AI capabilities to automate the containerization of your source code, enabling you to migrate and modernize in parallel,…"
+    },
     {
       "title": "AWS Client VPN now supports Ubuntu OS version 26.04 LTS",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-client-vpn-ubuntu-26/",
@@ -149,6 +191,13 @@
       "snippet": "AWS is announcing the general availability of Amazon EC2 R8idn and Amazon EC2 R8idb instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instances also feature the latest sixth generation AWS Nitro cards.…"
     },
     {
+      "title": "AWS WAF introduces dynamic label interpolation for custom request and response handling",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-waf-dynamic-label-interpolation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-07T15:00:00.000Z",
+      "snippet": "AWS WAF now supports dynamic label interpolation, enabling you to forward WAF classification signals to your origin and embed context in responses with a single rule. Security engineers who previously maintained a separate rule for every signal value can now…"
+    },
+    {
       "title": "Introducing Amazon EC2 M8idn and M8idb instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8idn-m8idb/",
       "source": "AWS What's New",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-07T12:00:00.000Z",
       "snippet": "Today, Amazon Bedrock AgentCore announces the preview of AgentCore payments, enabling AI agents to autonomously access and pay for APIs, MCP servers, web content, and other agents. Built in partnership with Coinbase and Stripe, AgentCore payments is the first…"
-    },
-    {
-      "title": "AWS Resource Explorer is now available in AWS GovCloud (US-East) and (US-West)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-resource-explorer-available-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T12:00:00.000Z",
-      "snippet": "We are pleased to announce that AWS Resource Explorer, a managed capability that simplifies the search and discovery of resources, is now available in the AWS GovCloud Regions (US-East) and (US-West). You can search for your AWS resources either using the AWS…"
-    },
-    {
-      "title": "Amazon RDS for SQL Server now supports instances powered by AMD EPYC processors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-amd-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T07:00:00.000Z",
-      "snippet": "Amazon RDS for SQL Server now supports M8a and R8a instances powered by 5th Generation AMD EPYC processors. On RDS for SQL Server, R8a and M8a instances deliver up to 70% higher throughput than comparable x86 instances for commonly used instance sizes. Each…"
-    },
-    {
-      "title": "Amazon SES Mail Manager now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ses-mail-manager-available-aws-govcloud-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T07:00:00.000Z",
-      "snippet": "Amazon SES Mail Manager is now available in AWS GovCloud (US) regions, expanding Mail Manager coverage to 30 AWS regions. Amazon SES Mail Manager provides a centralized gateway to manage all inbound and outbound email traffic with advanced routing, filtering,…"
-    },
-    {
-      "title": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/concurrencyscaling-support-for-copy",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T02:06:00.000Z",
-      "snippet": "Amazon Redshift now extends concurrency scaling to support high-volume data ingestion workloads, enabling concurrency scaling for Amazon Redshift COPY queries from Amazon S3. This means your data pipelines no longer have to choose between ingestion speed and…"
-    },
-    {
-      "title": "Amazon OpenSearch Service now supports VPC egress for private connectivity to resources in your VPC",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-service-vpc",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T00:30:00.000Z",
-      "snippet": "Amazon OpenSearch Service now supports the VPC egress option, which allows your virtual private cloud (VPC) domain to establish private network connections to resources in your VPC, such as ML models, AWS services, and custom applications, without exposing…"
-    },
-    {
-      "title": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth on existing VPN connections",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-site-to-site-vpn-modify-bandwidth/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T21:09:00.000Z",
-      "snippet": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth between standard (up to 1.25 Gbps) and large (up to 5 Gbps) on existing connections, making it easier to update your VPN connections’ bandwidth per your organization’s need. Previously, changing…"
-    },
-    {
-      "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-West) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-p6-b200-aws-govcloud",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-06T19:45:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-West) Region. These instances offer up to 2x performance compared to P5en instances for AI training and…"
     }
   ]
 }
