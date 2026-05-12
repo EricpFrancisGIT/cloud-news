@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-12T09:05:21.334Z",
+  "lastUpdated": "2026-05-12T15:10:21.866Z",
   "items": [
+    {
+      "title": "Building hybrid multi-tenant architecture for stateful services on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/building-hybrid-multi-tenant-architecture-for-stateful-services-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-05-12T13:26:49.000Z",
+      "snippet": "In this post, we show you how to build a hybrid multi-tenant architecture that provides strong tenant isolation without requiring per-tenant AWS accounts. You learn how to configure Route 53 weighted routing to distribute traffic across multiple accounts,…"
+    },
     {
       "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Studio notebooks",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p6-b200-region-expansion-sagemaker-studio-notebooks/",
@@ -203,13 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-05-07T16:03:47.000Z",
       "snippet": "Amazon Web Services (AWS) achieved three Standar Nasional Indonesia (SNI) certifications for the AWS Asia Pacific (Jakarta) Region: SNI ISO/IEC 27017:2015, SNI ISO/IEC 27018:2019, and SNI ISO 9001:2015. SNI represents Indonesia’s national standards framework,…"
-    },
-    {
-      "title": "Amazon Connect Outbound Campaigns adds multi-contact time zone detection",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-campaign-multitimezone",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T16:00:00.000Z",
-      "snippet": "Amazon Connect Outbound Campaigns now detects customer time zones using all phone numbers and addresses on a customer profile, not just the primary contact fields. Previously, time zone detection used only the primary phone number, which could miss customers…"
     }
   ]
 }
