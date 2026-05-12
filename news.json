@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-05-11T20:55:07.312Z",
+  "lastUpdated": "2026-05-12T03:00:13.065Z",
   "items": [
+    {
+      "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Studio notebooks",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p6-b200-region-expansion-sagemaker-studio-notebooks/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T23:34:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker Studio notebooks. Amazon EC2 P6-B200 instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and 5th…"
+    },
+    {
+      "title": "Announcing Region Expansion of G6e instances on SageMaker Studio notebooks",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/g6e-region-expansion-sagemaker-studio-notebooks/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T20:00:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 G6e instances in the Middle East (Dubai), Asia Pacific (Tokyo, Seoul) and Europe (Frankfurt, Stockholm, Spain) on SageMaker Studio notebooks. Amazon EC2 G6e instances are powered by up to 8 NVIDIA…"
+    },
+    {
+      "title": "Announcing Region Expansion of G6 instances on SageMaker Studio notebooks",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6-region-expansion-sagemaker-studio-notebooks/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T20:00:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 G6 instances in the Middle East (Dubai) and Asia Pacific (Malaysia) on SageMaker Studio notebooks. Amazon EC2 G6 instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs with 24 GB of memory per…"
+    },
+    {
+      "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T20:00:00.000Z",
+      "snippet": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is a networking feature that uses the AWS Scalable Reliable…"
+    },
+    {
+      "title": "Announcing Region Expansion of P4de instances on SageMaker Studio notebooks",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p4de-region-expansion-sagemaker-studio-notebooks/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T20:00:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 P4de instances in Asia Pacific (Tokyo, Singapore) and Europe (Frankfurt) on SageMaker Studio notebooks. Amazon EC2 P4de instances are powered by 8 NVIDIA A100 GPUs with 80GB high-performance HBM2e…"
+    },
+    {
+      "title": "Amazon Aurora DSQL is now available in five additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-five-additional-aws-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T19:59:00.000Z",
+      "snippet": "Amazon Aurora DSQL single-Region clusters are now available in Asia Pacific (Hong Kong), Asia Pacific (Mumbai), Asia Pacific (Singapore), Europe (Stockholm), and South America (Sao Paulo). Aurora DSQL is the fastest serverless, distributed SQL database that…"
+    },
     {
       "title": "AWS HealthOmics now supports caching of cancelled workflow runs",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-healthomics-caching-cancelled-runs/",
@@ -14,6 +56,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-05-11T18:56:38.000Z",
       "snippet": "Organizations face critical architectural decisions that can impact their operations for years to come such as: Is it better to maintain a single organization or implement multiple organizations? In this post, I explain the key advantages and disadvantages of…"
+    },
+    {
+      "title": "AWS WAF introduces dynamic label interpolation for custom request and response handling",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-waf-dynamic-label-interpolation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T18:00:00.000Z",
+      "snippet": "AWS WAF now supports dynamic label interpolation, enabling you to forward WAF classification signals to your origin and embed context in responses with a single rule. Security engineers who previously maintained a separate rule for every signal value can now…"
     },
     {
       "title": "Complimentary virtual training: Get hands-on with AWS Security Services",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-07T16:00:00.000Z",
       "snippet": "Amazon Connect Outbound Campaigns now detects customer time zones using all phone numbers and addresses on a customer profile, not just the primary contact fields. Previously, time zone detection used only the primary phone number, which could miss customers…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-ami-based-node/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T16:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports AMI-based configuration that provisions Slurm cluster nodes with the software and configurations needed for a production-ready environment to run AI/ML training workloads. This removes the need to download, configure, or…"
-    },
-    {
-      "title": "Amazon EC2 M8gn and M8gb instances are now available in AWS Europe (Ireland) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8gn-m8gb-aws-europe/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8gn and M8gb instances are available in the AWS Europe (Ireland) region. These instances are powered by AWS Graviton4 processors to deliver up to 30% better compute performance than AWS Graviton3…"
-    },
-    {
-      "title": "AWS India customers can now use UPI Scan and Pay for sign-up and payments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-india-upi-scanandpay/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T15:00:00.000Z",
-      "snippet": "India customers can now use UPI (Unified Payments Interface) Scan and Pay to sign up for AWS or make payments to their invoices. UPI is a popular and convenient payment method in India, which facilitates instant bank-to-bank transfers between two parties…"
-    },
-    {
-      "title": "Introducing Amazon EC2 R8idn and R8idb instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8idn-r8idb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T15:00:00.000Z",
-      "snippet": "AWS is announcing the general availability of Amazon EC2 R8idn and Amazon EC2 R8idb instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instances also feature the latest sixth generation AWS Nitro cards.…"
-    },
-    {
-      "title": "AWS WAF introduces dynamic label interpolation for custom request and response handling",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-waf-dynamic-label-interpolation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T15:00:00.000Z",
-      "snippet": "AWS WAF now supports dynamic label interpolation, enabling you to forward WAF classification signals to your origin and embed context in responses with a single rule. Security engineers who previously maintained a separate rule for every signal value can now…"
-    },
-    {
-      "title": "Introducing Amazon EC2 M8idn and M8idb instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8idn-m8idb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T15:00:00.000Z",
-      "snippet": "AWS is announcing the general availability of Amazon EC2 M8idn and Amazon EC2 M8idb instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instances also feature the latest sixth generation AWS Nitro cards.…"
-    },
-    {
-      "title": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T12:00:00.000Z",
-      "snippet": "Today, Amazon Bedrock AgentCore announces the preview of AgentCore payments, enabling AI agents to autonomously access and pay for APIs, MCP servers, web content, and other agents. Built in partnership with Coinbase and Stripe, AgentCore payments is the first…"
     }
   ]
 }
