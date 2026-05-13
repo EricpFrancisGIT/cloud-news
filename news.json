@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T03:20:33.022Z",
+  "lastUpdated": "2026-05-13T09:25:38.856Z",
   "items": [
     {
       "title": "AWS Security Agent full repository code scanning feature now available in preview",
@@ -21,6 +21,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-12T18:00:00.000Z",
       "snippet": "Amazon EventBridge Scheduler expands its AWS SDK integrations with 13 additional services and 619 new API actions across new and existing AWS services, including AWS Lambda Managed Instances. You can now schedule direct invocations of a broader set of AWS…"
+    },
+    {
+      "title": "AWS Security Agent now supports full repository code reviews",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent-full-repository-code-review/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-12T17:37:00.000Z",
+      "snippet": "Today, AWS announces the release of full repository code review, a new capability in AWS Security Agent that performs deep, context-aware security analysis of your entire codebase. Unlike traditional static analysis tools that match code against known…"
     },
     {
       "title": "Amazon SageMaker Feature Store now supports SageMaker Python SDK V3",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-08T17:43:00.000Z",
       "snippet": "Amazon Route 53 Global Resolver now lets you add and remove AWS Regions for anycast DNS resolution, giving you flexible control over where your DNS queries are resolved. This allows you to easily expand Global Resolver coverage as your organization grows or…"
-    },
-    {
-      "title": "AWS Service Catalog is now available in the AWS Asia Pacific (New Zealand) and Canada West (Calgary) regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-service-catalog-calgary-new-zealand-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-08T16:43:00.000Z",
-      "snippet": "AWS Service Catalog is now available to customers in two additional AWS Regions: Asia Pacific (New Zealand) and Canada West (Calgary). AWS Service Catalog enables customers to create, govern, and distribute a catalog of approved Infrastructure as Code (IaC)…"
     }
   ]
 }
