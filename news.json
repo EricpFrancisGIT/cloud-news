@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T09:25:38.856Z",
+  "lastUpdated": "2026-05-13T15:30:51.810Z",
   "items": [
     {
       "title": "AWS Security Agent full repository code scanning feature now available in preview",
@@ -93,6 +93,13 @@
       "snippet": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker Studio notebooks. Amazon EC2 P6-B200 instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and 5th…"
     },
     {
+      "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T20:00:00.000Z",
+      "snippet": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is a networking feature that uses the AWS Scalable Reliable…"
+    },
+    {
       "title": "Announcing Region Expansion of G6e instances on SageMaker Studio notebooks",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/g6e-region-expansion-sagemaker-studio-notebooks/",
       "source": "AWS What's New",
@@ -105,13 +112,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-11T20:00:00.000Z",
       "snippet": "We are pleased to announce general availability of Amazon EC2 G6 instances in the Middle East (Dubai) and Asia Pacific (Malaysia) on SageMaker Studio notebooks. Amazon EC2 G6 instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs with 24 GB of memory per…"
-    },
-    {
-      "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T20:00:00.000Z",
-      "snippet": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is a networking feature that uses the AWS Scalable Reliable…"
     },
     {
       "title": "Announcing Region Expansion of P4de instances on SageMaker Studio notebooks",
