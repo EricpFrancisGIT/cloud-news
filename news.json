@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-05-12T21:15:28.131Z",
+  "lastUpdated": "2026-05-13T03:20:33.022Z",
   "items": [
+    {
+      "title": "AWS Security Agent full repository code scanning feature now available in preview",
+      "link": "https://aws.amazon.com/blogs/security/aws-security-agent-full-repository-code-scanning-feature-now-available-in-preview/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-12T21:34:16.000Z",
+      "snippet": "Today, we’re excited to announce the preview release of full repository code review, a new capability in AWS Security Agent that performs deep, context-aware security analysis of your entire code base. AI-driven cybersecurity capabilities are advancing…"
+    },
+    {
+      "title": "AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-12T19:00:00.000Z",
+      "snippet": "AWS Lambda now supports scheduled scaling for functions running on Lambda Managed Instances, using Amazon EventBridge Scheduler. This capability allows you to define one-time or recurring schedules that proactively adjust your function's capacity limits ahead…"
+    },
     {
       "title": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/",
@@ -35,6 +49,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-12T16:00:00.000Z",
       "snippet": "Amazon Redshift announces the general availability of RG instances, a new generation of provisioned cluster nodes powered by AWS Graviton processors that deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous…"
+    },
+    {
+      "title": "Amazon CloudFront Premium flat-rate plan now supports configurable usage allowances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudfront-configurable-premium-flat-rate-plans/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-12T16:00:00.000Z",
+      "snippet": "Previously, the Amazon CloudFront Premium flat-rate plan supported a single usage allowance, and customers who outgrew it needed to contact us to discuss custom pricing options. Now, the Premium plan offers a range of self-service monthly usage levels ranging…"
+    },
+    {
+      "title": "Amazon Connect Customer now supports embedding Cases and Customer Profiles in custom agent applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-sdk-cases-customer-profiles/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-12T16:00:00.000Z",
+      "snippet": "Amazon Connect Customer now enables you to embed Cases and Customer Profiles into custom agent applications, helping agents access case details and customer context alongside the tools they already use to resolve issues. Developers can use the Amazon Connect…"
     },
     {
       "title": "Enabling AI sovereignty on AWS",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-08T16:43:00.000Z",
       "snippet": "AWS Service Catalog is now available to customers in two additional AWS Regions: Asia Pacific (New Zealand) and Canada West (Calgary). AWS Service Catalog enables customers to create, govern, and distribute a catalog of approved Infrastructure as Code (IaC)…"
-    },
-    {
-      "title": "IAM Policy Autopilot adds Java support and Terraform-aware policy generation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-policy-autopilot/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-08T04:00:00.000Z",
-      "snippet": "IAM Policy Autopilot now supports Java applications and Terraform-aware policy generation, expanding its language coverage and its ability to generate less permissive IAM policies from code. IAM Policy Autopilot is an open-source tool launched at re:Invent…"
-    },
-    {
-      "title": "Amazon Route 53 Resolver endpoints now support additional capabilities for IPv6 query traffic",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-53-resolver-ipv6/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T23:08:00.000Z",
-      "snippet": "Amazon Route 53 Resolver endpoints now support DNS64 on inbound endpoints and IPv6 forwarding through the internet gateway (IGW) on outbound endpoints, making it easier to manage hybrid DNS across IPv4 and IPv6 networks. With DNS64 enabled on inbound…"
-    },
-    {
-      "title": "AWS Marketplace introduces Tax management portal for sellers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-tax/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T21:36:00.000Z",
-      "snippet": "AWS Marketplace launches a new Tax management portal that provides sellers a streamlined self-service process to view and download invoices, eliminating the need to request invoices through support channels. Tax management portal integrates the invoice…"
-    },
-    {
-      "title": "Amazon EC2 G6 instances now available in AWS European Sovereign Cloud (Germany)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g6-aws-european-sovereign-cloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-07T21:07:00.000Z",
-      "snippet": "Starting today, the Amazon Elastic Compute Cloud (Amazon EC2) G6 instances powered by NVIDIA L4 GPUs are available in AWS European Sovereign Cloud (Germany). G6 instances can be used for a wide range of graphics-intensive and machine learning (ML) use cases.…"
     }
   ]
 }
