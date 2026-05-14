@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-05-13T21:35:56.328Z",
+  "lastUpdated": "2026-05-14T03:40:59.500Z",
   "items": [
+    {
+      "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-data-agent-idc/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-13T21:53:00.000Z",
+      "snippet": "Amazon SageMaker Data Agent is now available in SageMaker Unified Studio domains configured with IAM Identity Center. Data Agent extends its AI-powered capabilities to help data analysts and engineers streamline their analytics workflows across both SageMaker…"
+    },
+    {
+      "title": "Detecting and preventing crypto mining in your AWS environment",
+      "link": "https://aws.amazon.com/blogs/security/detecting-and-preventing-crypto-mining-in-your-aws-environment/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-13T21:47:27.000Z",
+      "snippet": "This article guides you on how to use Amazon GuardDuty to identify and mitigate cryptocurrency mining threats in your Amazon Web Services (AWS) environment. You’ll learn about the specialized detection capabilities of GuardDuty and best practices to build a…"
+    },
     {
       "title": "Introducing the updated AWS User Guide to Governance, Risk, and Compliance for Responsible AI Adoption",
       "link": "https://aws.amazon.com/blogs/security/introducing-the-updated-aws-user-guide-to-governance-risk-and-compliance-for-responsible-ai-adoption/",
       "source": "AWS Security Blog",
       "pubDate": "2026-05-13T19:07:42.000Z",
       "snippet": "The financial services industry (FSI) is using AI to transform how financial institutions serve their customers. AI solutions can help proactively manage portfolios, automatically refinance mortgages when rates decrease, and negotiate insurance premiums for…"
+    },
+    {
+      "title": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-openzfs-multi-az-vpcs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-13T19:00:00.000Z",
+      "snippet": "Amazon FSx for OpenZFS now allows you to create Multi-AZ file systems in shared VPCs within your AWS organization, making it easier for you to decentralize network and storage administration. VPC sharing is a feature that allows resource owners (\"owner…"
     },
     {
       "title": "PCI PIN and P2PE compliance packages for AWS Payment Cryptography are now available",
@@ -21,6 +42,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-05-13T15:45:50.000Z",
       "snippet": "In this post, we demonstrate an approach we used to address this challenge for a customer by implementing an AWS Lambda transformation function that streams Amazon CloudWatch metrics directly to internal OpenTelemetry collectors running within a VPC."
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports M8i and R8i instances with Oracle SE2 License Included",
+      "link": "https://aws.amazon.com/about-aws/whats-new/amazon-oracle-m8i-r8i-license-included",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-13T07:00:00.000Z",
+      "snippet": "Amazon RDS for Oracle now offers M8i and R8i instances with Oracle Database Standard Edition 2 (SE2) with the License Included (LI). M8i and R8i instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance…"
     },
     {
       "title": "AWS Security Agent full repository code scanning feature now available in preview",
@@ -128,6 +156,13 @@
       "snippet": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker Studio notebooks. Amazon EC2 P6-B200 instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and 5th…"
     },
     {
+      "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-11T20:00:00.000Z",
+      "snippet": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is a networking feature that uses the AWS Scalable Reliable…"
+    },
+    {
       "title": "Announcing Region Expansion of G6e instances on SageMaker Studio notebooks",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/g6e-region-expansion-sagemaker-studio-notebooks/",
       "source": "AWS What's New",
@@ -140,13 +175,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-11T20:00:00.000Z",
       "snippet": "We are pleased to announce general availability of Amazon EC2 G6 instances in the Middle East (Dubai) and Asia Pacific (Malaysia) on SageMaker Studio notebooks. Amazon EC2 G6 instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs with 24 GB of memory per…"
-    },
-    {
-      "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T20:00:00.000Z",
-      "snippet": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is a networking feature that uses the AWS Scalable Reliable…"
     },
     {
       "title": "Announcing Region Expansion of P4de instances on SageMaker Studio notebooks",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-11T18:00:00.000Z",
       "snippet": "AWS WAF now supports dynamic label interpolation, enabling you to forward WAF classification signals to your origin and embed context in responses with a single rule. Security engineers who previously maintained a separate rule for every signal value can now…"
-    },
-    {
-      "title": "Amazon SageMaker Studio notebooks now support P5.4xl instance types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/p5.4xl-new-launch-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T18:00:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P5.4xl instances on SageMaker Studio notebooks. Amazon EC2 P5.4xl instances are powered by NVIDIA H100 Tensor Core GPUs and deliver high performance in Amazon EC2 for deep learning (DL) and high…"
-    },
-    {
-      "title": "Complimentary virtual training: Get hands-on with AWS Security Services",
-      "link": "https://aws.amazon.com/blogs/security/complimentary-virtual-training-get-hands-on-with-aws-security-services/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-11T17:58:02.000Z",
-      "snippet": "If you’re looking to strengthen your organization’s security posture on Amazon Web Services (AWS) but aren’t sure where to start, then we’re here to help. Security Activation Days are complimentary, virtual, hands-on workshops designed to help you get…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio adds getting started tutorials and in-product release notes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-getting-started",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T17:12:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now helps you get productive faster with getting started tutorials and a development environment appearance that automatically adapts to your system preference, and adds in-product release notes to help you discover new…"
-    },
-    {
-      "title": "AWS Weekly Roundup: Amazon Bedrock AgentCore payments, Agent Toolkit for AWS, and more (May 11, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-agentcore-payments-agent-toolkit-for-aws-and-more-may-11-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-11T16:08:26.000Z",
-      "snippet": "My most exciting news of last week: Amazon Bedrock AgentCore previewed the first managed payment capabilities enabling AI agents to autonomously access and pay for APIs, MCP servers, web content, and other agents. Built in partnership with Coinbase and…"
     }
   ]
 }
