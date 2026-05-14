@@ -1,6 +1,97 @@
 {
-  "lastUpdated": "2026-05-14T15:51:20.055Z",
+  "lastUpdated": "2026-05-14T21:56:23.709Z",
   "items": [
+    {
+      "title": "Regional routing for AWS access portals: Implementing custom vanity domains for IAM Identity Center",
+      "link": "https://aws.amazon.com/blogs/security/regional-routing-for-aws-access-portals-implementing-custom-vanity-domains-for-iam-identity-center/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-14T20:42:20.000Z",
+      "snippet": "AWS IAM Identity Center provides a web-based access portal that gives your workforce a single place to view their AWS accounts and applications. With the recent launch of IAM Identity Center multi-Region replication, customers can replicate their IAM Identity…"
+    },
+    {
+      "title": "SageMaker AI now supports serverless model customization for Qwen3.6",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-qwen3-6/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T19:18:00.000Z",
+      "snippet": "Amazon SageMaker AI now supports serverless model customization for Qwen3.6 27B parameter model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). Qwen3.6 is a popular open-weight model family from Alibaba Cloud. This launch is an…"
+    },
+    {
+      "title": "AWS Transform agents now available in Kiro, Claude, Cursor, and Codex",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-developer-tools/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T19:00:00.000Z",
+      "snippet": "Today, AWS announces that the AWS Transform agents — built on decades of AWS migration and modernization experience — are now accessible through a Kiro power, agent plugins, and via the AWS Transform MCP server. Developers can now consume all of AWS…"
+    },
+    {
+      "title": "AWS Transform introduces the agent builder toolkit Kiro power for building customized transformation agents",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-agent-builder-toolkit/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T19:00:00.000Z",
+      "snippet": "Today, as part of the AWS Transform composability initiative, AWS announces the general availability of the agent builder toolkit Kiro power for AWS Transform. With the agent builder toolkit, AWS Partners and customers can build agents tailored to their…"
+    },
+    {
+      "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/image-embeddings-models-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T18:00:00.000Z",
+      "snippet": "Today, AWS announced the availability of FLUX.2-klein-base-4B and Qwen3-Embedding-0.6B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Black Forest Labs and Qwen bring state-of-the-art…"
+    },
+    {
+      "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T18:00:00.000Z",
+      "snippet": "Amazon Application Recovery Controller (ARC) Region Switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing the Lambda event source…"
+    },
+    {
+      "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T18:00:00.000Z",
+      "snippet": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed capability removes the need to build or maintain custom streaming…"
+    },
+    {
+      "title": "Three new models for speech recognition and text-to-speech are now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/speech-models-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T18:00:00.000Z",
+      "snippet": "Today, AWS announced the availability of Qwen3-TTS-12Hz-1.7B-CustomVoice, Qwen3-TTS-12Hz-1.7B-Base, and Qwen3-ASR-1.7B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models from Qwen bring…"
+    },
+    {
+      "title": "Two new models for agentic coding and efficient AI are now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentic-reasoning-models-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T18:00:00.000Z",
+      "snippet": "Today, AWS announced the availability of GLM-5.1-FP8 and Phi-4-mini-instruct in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Z.ai and Microsoft bring advanced agentic capabilities and…"
+    },
+    {
+      "title": "Reference stack outputs across accounts and Regions with AWS CloudFormation and CDK",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-cloudformation-cdk-stack/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T17:30:00.000Z",
+      "snippet": "AWS CloudFormation now supports a new intrinsic function, Fn::GetStackOutput, that enables you to reference stack outputs across AWS accounts and Regions directly within your CloudFormation templates and CDK applications. This new capability simplifies the…"
+    },
+    {
+      "title": "Automating post-quantum cryptography readiness using AWS Config",
+      "link": "https://aws.amazon.com/blogs/security/automating-post-quantum-cryptography-readiness-using-aws-config/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-14T16:18:20.000Z",
+      "snippet": "Migrating your TLS endpoints to Post-quantum cryptography (PQC) starts with understanding your current TLS endpoint inventory and posture. This post introduces the PQC Readiness Scanner — an automated tool that inventories your Application Load Balancer…"
+    },
+    {
+      "title": "AWS Transform adds agentic AI assistant to the AWS Toolkit for Visual Studio",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-ai-assistant",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T15:00:00.000Z",
+      "snippet": "To improve developer experience, AWS Transform now includes an interactive agentic AI assistant in the AWS Toolkit for Visual Studio. This enables .NET developers to modernize applications through a conversational, step-by-step guided experience directly in…"
+    },
+    {
+      "title": "AWS RTB Fabric supports custom domains for real-time bidding workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rtb-fabric-custom-domains/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T12:00:00.000Z",
+      "snippet": "AWS RTB Fabric now supports custom domains for real-time bidding transactions received through external links. This capability helps advertising technology (AdTech) companies preserve their public endpoints and use owned domains—without requiring their…"
+    },
     {
       "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-data-agent-idc/",
@@ -119,97 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-12T16:00:00.000Z",
       "snippet": "Amazon Connect Customer now enables you to embed Cases and Customer Profiles into custom agent applications, helping agents access case details and customer context alongside the tools they already use to resolve issues. Developers can use the Amazon Connect…"
-    },
-    {
-      "title": "Enabling AI sovereignty on AWS",
-      "link": "https://aws.amazon.com/blogs/security/enabling-ai-sovereignty-on-aws/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-12T15:18:28.000Z",
-      "snippet": "Cloud and AI are transforming industries and societies at unprecedented speed, from accelerating research and enhancing customer experiences to optimizing business processes and enriching public services. At Amazon Web Services (AWS), we believe that for the…"
-    },
-    {
-      "title": "Building hybrid multi-tenant architecture for stateful services on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/building-hybrid-multi-tenant-architecture-for-stateful-services-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-05-12T13:26:49.000Z",
-      "snippet": "In this post, we show you how to build a hybrid multi-tenant architecture that provides strong tenant isolation without requiring per-tenant AWS accounts. You learn how to configure Route 53 weighted routing to distribute traffic across multiple accounts,…"
-    },
-    {
-      "title": "Announcing Region Expansion of P5.48xl instances on SageMaker Studio notebooks",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/p5-48xl-region-expansion-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T04:22:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P5.48xl instances in the AWS US West (San Francisco), Asia Pacific (Tokyo, Mumbai, Sydney, Jakarta) and Europe (London, Stockholm) regions on SageMaker Studio notebooks. Amazon EC2 P5.48xl…"
-    },
-    {
-      "title": "Announcing Region Expansion of G6 instances on SageMaker Notebook Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/g6-region-expansion-sagemaker-notebook-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T03:40:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 G6 instances in Asia Pacific (Tokyo, Mumbai, Sydney) and Europe (London, Paris, Frankfurt, Stockholm, Zurich) on SageMaker notebook instances. Amazon EC2 G6 instances are powered by up to 8 NVIDIA…"
-    },
-    {
-      "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Studio notebooks",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p6-b200-region-expansion-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T23:34:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker Studio notebooks. Amazon EC2 P6-B200 instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and 5th…"
-    },
-    {
-      "title": "Announcing Region Expansion of G6e instances on SageMaker Studio notebooks",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/g6e-region-expansion-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T20:00:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 G6e instances in the Middle East (Dubai), Asia Pacific (Tokyo, Seoul) and Europe (Frankfurt, Stockholm, Spain) on SageMaker Studio notebooks. Amazon EC2 G6e instances are powered by up to 8 NVIDIA…"
-    },
-    {
-      "title": "Announcing Region Expansion of G6 instances on SageMaker Studio notebooks",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6-region-expansion-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T20:00:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 G6 instances in the Middle East (Dubai) and Asia Pacific (Malaysia) on SageMaker Studio notebooks. Amazon EC2 G6 instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs with 24 GB of memory per…"
-    },
-    {
-      "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T20:00:00.000Z",
-      "snippet": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is a networking feature that uses the AWS Scalable Reliable…"
-    },
-    {
-      "title": "Announcing Region Expansion of P4de instances on SageMaker Studio notebooks",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p4de-region-expansion-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T20:00:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P4de instances in Asia Pacific (Tokyo, Singapore) and Europe (Frankfurt) on SageMaker Studio notebooks. Amazon EC2 P4de instances are powered by 8 NVIDIA A100 GPUs with 80GB high-performance HBM2e…"
-    },
-    {
-      "title": "Amazon Aurora DSQL is now available in five additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-five-additional-aws-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T19:59:00.000Z",
-      "snippet": "Amazon Aurora DSQL single-Region clusters are now available in Asia Pacific (Hong Kong), Asia Pacific (Mumbai), Asia Pacific (Singapore), Europe (Stockholm), and South America (Sao Paulo). Aurora DSQL is the fastest serverless, distributed SQL database that…"
-    },
-    {
-      "title": "AWS HealthOmics now supports caching of cancelled workflow runs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-healthomics-caching-cancelled-runs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T19:00:00.000Z",
-      "snippet": "AWS HealthOmics now supports caching completed task outputs of cancelled runs, enabling customers to reuse outputs and avoid recomputing previously completed tasks. When caching is enabled and a run is cancelled, HealthOmics automatically stores completed…"
-    },
-    {
-      "title": "Choosing between single or multiple organizations in AWS Organizations",
-      "link": "https://aws.amazon.com/blogs/architecture/choosing-between-single-or-multiple-organizations-in-aws-organizations/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-05-11T18:56:38.000Z",
-      "snippet": "Organizations face critical architectural decisions that can impact their operations for years to come such as: Is it better to maintain a single organization or implement multiple organizations? In this post, I explain the key advantages and disadvantages of…"
-    },
-    {
-      "title": "AWS WAF introduces dynamic label interpolation for custom request and response handling",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-waf-dynamic-label-interpolation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-11T18:00:00.000Z",
-      "snippet": "AWS WAF now supports dynamic label interpolation, enabling you to forward WAF classification signals to your origin and embed context in responses with a single rule. Security engineers who previously maintained a separate rule for every signal value can now…"
     }
   ]
 }
