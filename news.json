@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T10:06:39.177Z",
+  "lastUpdated": "2026-05-15T16:11:45.737Z",
   "items": [
     {
       "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
@@ -51,6 +51,13 @@
       "snippet": "Amazon SageMaker AI now supports serverless model customization for Qwen3.6 27B parameter model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). Qwen3.6 is a popular open-weight model family from Alibaba Cloud. This launch is an…"
     },
     {
+      "title": "AWS Transform agents now available in Kiro, Claude, Cursor, and Codex",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-developer-tools/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T19:00:00.000Z",
+      "snippet": "Today, AWS announces that the AWS Transform agents — built on decades of AWS migration and modernization experience — are now accessible through a Kiro power, agent plugins, and via the AWS Transform MCP server. Developers can now consume all of AWS…"
+    },
+    {
       "title": "AWS Transform introduces the agent builder toolkit Kiro power for building customized transformation agents",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-agent-builder-toolkit/",
       "source": "AWS What's New",
@@ -63,13 +70,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T19:00:00.000Z",
       "snippet": "AWS Transform brings assessment, migration, and modernization into a single AI-powered experience that guides enterprises through their full transformation journey. Today, AWS announces support for customer-owned Amazon S3 buckets, giving customers full…"
-    },
-    {
-      "title": "AWS Transform agents now available in Kiro, Claude, Cursor, and Codex",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-developer-tools/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T19:00:00.000Z",
-      "snippet": "Today, AWS announces that the AWS Transform agents — built on decades of AWS migration and modernization experience — are now accessible through a Kiro power, agent plugins, and via the AWS Transform MCP server. Developers can now consume all of AWS…"
     },
     {
       "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
