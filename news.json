@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-05-14T21:56:23.709Z",
+  "lastUpdated": "2026-05-15T04:01:29.169Z",
   "items": [
+    {
+      "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T22:30:00.000Z",
+      "snippet": "Amazon CloudFront now supports passthrough mode for viewer mutual TLS (mTLS) authentication, enabling customers to forward client certificates to their origin for validation without requiring CloudFront to perform certificate verification. Passthrough mode…"
+    },
+    {
+      "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-ocsp/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T22:30:00.000Z",
+      "snippet": "Amazon CloudFront now supports Online Certificate Status Protocol (OCSP) revocation checking for viewer mTLS, enabling you to validate client certificate revocation status in real time during connection establishment. This enables customers using mutual TLS…"
+    },
+    {
+      "title": "Amazon Bedrock introduces new advanced prompt optimization and migration tool",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-bedrock-introduces-new-advanced-prompt-optimization-and-migration-tool/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-05-14T22:03:39.000Z",
+      "snippet": "Amazon Bedrock Advanced Prompt Optimization enables customers to optimize their prompts for their current model or migrate prompts to new models faster than before with built-in evaluation feedback loops. Optimize your prompts and compare results for up to 5…"
+    },
+    {
+      "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T21:50:00.000Z",
+      "snippet": "Customers spend days to weeks optimizing prompts and evaluating responses when they want to migrate to a new model or just get better performance out of their current model. They struggle with changing their prompts quickly and then testing them to prevent…"
+    },
+    {
+      "title": "Announcing general availability of Amazon EC2 M3 Ultra Mac instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m3-ultra-mac-instances-generally-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T21:23:00.000Z",
+      "snippet": "Amazon Web Services announces general availability of Amazon EC2 M3 Ultra Mac instances, powered by the latest Mac Studio hardware. Amazon EC2 M3 Ultra Mac instances are the next-generation EC2 Mac instances, that enable Apple developers to migrate their most…"
+    },
     {
       "title": "Regional routing for AWS access portals: Implementing custom vanity domains for IAM Identity Center",
       "link": "https://aws.amazon.com/blogs/security/regional-routing-for-aws-access-portals-implementing-custom-vanity-domains-for-iam-identity-center/",
@@ -30,6 +65,13 @@
       "snippet": "Today, as part of the AWS Transform composability initiative, AWS announces the general availability of the agent builder toolkit Kiro power for AWS Transform. With the agent builder toolkit, AWS Partners and customers can build agents tailored to their…"
     },
     {
+      "title": "AWS Transform now supports customer-owned artifact stores",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-customer-owned-artifact/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T19:00:00.000Z",
+      "snippet": "AWS Transform brings assessment, migration, and modernization into a single AI-powered experience that guides enterprises through their full transformation journey. Today, AWS announces support for customer-owned Amazon S3 buckets, giving customers full…"
+    },
+    {
       "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/image-embeddings-models-on-sagemaker-jumpstart/",
       "source": "AWS What's New",
@@ -42,13 +84,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T18:00:00.000Z",
       "snippet": "Amazon Application Recovery Controller (ARC) Region Switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing the Lambda event source…"
-    },
-    {
-      "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T18:00:00.000Z",
-      "snippet": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed capability removes the need to build or maintain custom streaming…"
     },
     {
       "title": "Three new models for speech recognition and text-to-speech are now available in Amazon SageMaker JumpStart",
@@ -65,11 +100,39 @@
       "snippet": "Today, AWS announced the availability of GLM-5.1-FP8 and Phi-4-mini-instruct in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Z.ai and Microsoft bring advanced agentic capabilities and…"
     },
     {
+      "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T18:00:00.000Z",
+      "snippet": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed capability removes the need to build or maintain custom streaming…"
+    },
+    {
       "title": "Reference stack outputs across accounts and Regions with AWS CloudFormation and CDK",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-cloudformation-cdk-stack/",
       "source": "AWS What's New",
       "pubDate": "2026-05-14T17:30:00.000Z",
       "snippet": "AWS CloudFormation now supports a new intrinsic function, Fn::GetStackOutput, that enables you to reference stack outputs across AWS accounts and Regions directly within your CloudFormation templates and CDK applications. This new capability simplifies the…"
+    },
+    {
+      "title": "Amazon EC2 X8aedz instances are now available in Europe (Ireland) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-x8aedz-europe-ireland/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T17:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances are available in Europe (Ireland) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). These instances offer the highest maximum CPU…"
+    },
+    {
+      "title": "Amazon Connect Customer launches permission for agents to view only their own performance evaluations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-permission-view-own-performance-evaluations/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now supports a permission that gives agents access to their own performance evaluations in the Connect UI, without exposing other agents' evaluations, so they can review feedback to improve their performance. With this permission,…"
+    },
+    {
+      "title": "Amazon RDS for PostgreSQL supports minor versions 18.4, 17.10, 16.14, 15.18, and 14.23",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-postgresql/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T16:49:00.000Z",
+      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.4, 17.10, 16.14, 15.18, and 14.23. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior versions of…"
     },
     {
       "title": "Automating post-quantum cryptography readiness using AWS Config",
@@ -147,69 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-05-12T21:34:16.000Z",
       "snippet": "Today, we’re excited to announce the preview release of full repository code review, a new capability in AWS Security Agent that performs deep, context-aware security analysis of your entire code base. AI-driven cybersecurity capabilities are advancing…"
-    },
-    {
-      "title": "AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T19:00:00.000Z",
-      "snippet": "AWS Lambda now supports scheduled scaling for functions running on Lambda Managed Instances, using Amazon EventBridge Scheduler. This capability allows you to define one-time or recurring schedules that proactively adjust your function's capacity limits ahead…"
-    },
-    {
-      "title": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T18:00:00.000Z",
-      "snippet": "Amazon EventBridge Scheduler expands its AWS SDK integrations with 13 additional services and 619 new API actions across new and existing AWS services, including AWS Lambda Managed Instances. You can now schedule direct invocations of a broader set of AWS…"
-    },
-    {
-      "title": "AWS Security Agent now supports full repository code reviews",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent-full-repository-code-review/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T17:37:00.000Z",
-      "snippet": "Today, AWS announces the release of full repository code review, a new capability in AWS Security Agent that performs deep, context-aware security analysis of your entire codebase. Unlike traditional static analysis tools that match code against known…"
-    },
-    {
-      "title": "Amazon SageMaker Feature Store now supports SageMaker Python SDK V3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-feature-store-pyv3/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T17:12:00.000Z",
-      "snippet": "Amazon SageMaker Feature Store now supports the SageMaker Python SDK v3, including new capabilities for Lake Formation access controls and Apache Iceberg table properties configuration. Feature Store is a fully managed repository to store, share, and manage…"
-    },
-    {
-      "title": "Karpenter now supports Amazon Application Recovery Controller zonal shift",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/karpenter-arc-zonal-shift/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T17:00:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Amazon Application Recovery Controller (ARC) zonal shift and zonal autoshift when using the open source Karpenter project for compute provisioning. ARC helps you manage and coordinate recovery for…"
-    },
-    {
-      "title": "Amazon Redshift introduces AWS Graviton-based RG instances with an integrated data lake query engine",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-redshift-introduces-aws-graviton-based-rg-instances-with-an-integrated-data-lake-query-engine/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-12T16:05:12.000Z",
-      "snippet": "Amazon Redshift RG instances, powered by AWS Graviton, run data warehouse and data lake workloads up to 2.4x as fast as RA3 instances at 30% lower price per vCPU. Its integrated data lake query engine supports open table formats such as Apache Iceberg."
-    },
-    {
-      "title": "Amazon Redshift launches RG instances powered by AWS Graviton",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T16:00:00.000Z",
-      "snippet": "Amazon Redshift announces the general availability of RG instances, a new generation of provisioned cluster nodes powered by AWS Graviton processors that deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous…"
-    },
-    {
-      "title": "Amazon CloudFront Premium flat-rate plan now supports configurable usage allowances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudfront-configurable-premium-flat-rate-plans/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T16:00:00.000Z",
-      "snippet": "Previously, the Amazon CloudFront Premium flat-rate plan supported a single usage allowance, and customers who outgrew it needed to contact us to discuss custom pricing options. Now, the Premium plan offers a range of self-service monthly usage levels ranging…"
-    },
-    {
-      "title": "Amazon Connect Customer now supports embedding Cases and Customer Profiles in custom agent applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-sdk-cases-customer-profiles/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-12T16:00:00.000Z",
-      "snippet": "Amazon Connect Customer now enables you to embed Cases and Customer Profiles into custom agent applications, helping agents access case details and customer context alongside the tools they already use to resolve issues. Developers can use the Amazon Connect…"
     }
   ]
 }
