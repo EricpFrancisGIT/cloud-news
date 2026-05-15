@@ -1,12 +1,54 @@
 {
-  "lastUpdated": "2026-05-15T16:11:45.737Z",
+  "lastUpdated": "2026-05-15T22:16:49.894Z",
   "items": [
     {
-      "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
+      "title": "Amazon EMR Serverless is now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
       "source": "AWS What's New",
-      "pubDate": "2026-05-14T22:30:00.000Z",
-      "snippet": "Amazon CloudFront now supports passthrough mode for viewer mutual TLS (mTLS) authentication, enabling customers to forward client certificates to their origin for validation without requiring CloudFront to perform certificate verification. Passthrough mode…"
+      "pubDate": "2026-05-15T19:50:00.000Z",
+      "snippet": "Amazon EMR Serverless is now generally available in six additional AWS Regions - Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and Mexico (Central). Amazon EMR Serverless is a…"
+    },
+    {
+      "title": "The AWS AI Security Framework: Securing AI with the right controls, at the right layers, at the right phases",
+      "link": "https://aws.amazon.com/blogs/security/the-aws-ai-security-framework-securing-ai-with-the-right-controls-at-the-right-layers-at-the-right-phases/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-15T17:38:16.000Z",
+      "snippet": "TL;DR for busy executives The AWS AI Security Framework helps security leaders move fast and stay secure with AI. Security compounds from day 1 as workloads evolve from prototype to production to scale. Assess first. Request a no-cost SHIP engagement to…"
+    },
+    {
+      "title": "Amazon Connect Cases now lets you edit related items and delete cases from the agent workspace",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-related-item/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-15T17:25:00.000Z",
+      "snippet": "Amazon Connect Cases now supports editing and deleting related items, and deleting cases directly from the agent workspace without administrator help. Agents can update comments, unlink contacts associated with the wrong case, or delete cases opened in error.…"
+    },
+    {
+      "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 11.22-rds.20260224, 12.22-rds.20260224, and 13.23-rds.20260224",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-postgresql-extended-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-15T16:08:00.000Z",
+      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 11.22-rds.20260224, 12.22-rds.20260224, and 13.23-rds.20260224. We recommend that you upgrade to these versions to fix known security vulnerabilities…"
+    },
+    {
+      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 12.4",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-v12-update/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-15T16:06:00.000Z",
+      "snippet": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 10.4 to 12.4. You can upgrade with just a few clicks from the AWS Console or via AWS SDK or AWS CLI. Upgrading to version 12.4 brings native Grafana Scenes-powered dashboards for faster…"
+    },
+    {
+      "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-15T15:00:00.000Z",
+      "snippet": "AWS Organizations now supports higher quotas for service control policies (SCPs). The maximum number of SCPs that can be attached to a single node (root, OU, or account) has increased from 5 to 10, and the maximum SCP size has increased from 5,120 to 10,240…"
+    },
+    {
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-15T15:00:00.000Z",
+      "snippet": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability…"
     },
     {
       "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
@@ -14,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T22:30:00.000Z",
       "snippet": "Amazon CloudFront now supports Online Certificate Status Protocol (OCSP) revocation checking for viewer mTLS, enabling you to validate client certificate revocation status in real time during connection establishment. This enables customers using mutual TLS…"
+    },
+    {
+      "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T22:30:00.000Z",
+      "snippet": "Amazon CloudFront now supports passthrough mode for mutual TLS (mTLS) viewer authentication, allowing CloudFront to forward client certificates to the origin without verifying the certificates on CloudFront. Customers who already validate client certificates…"
     },
     {
       "title": "Amazon Bedrock introduces new advanced prompt optimization and migration tool",
@@ -42,6 +91,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-05-14T20:42:20.000Z",
       "snippet": "AWS IAM Identity Center provides a web-based access portal that gives your workforce a single place to view their AWS accounts and applications. With the recent launch of IAM Identity Center multi-Region replication, customers can replicate their IAM Identity…"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Paris) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-u7i-aws-europe-paris/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T20:00:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7i-12TB instances (u7i-12tb.224xlarge) and U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel…"
     },
     {
       "title": "SageMaker AI now supports serverless model customization for Qwen3.6",
@@ -86,6 +142,13 @@
       "snippet": "Amazon Application Recovery Controller (ARC) Region Switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing the Lambda event source…"
     },
     {
+      "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-14T18:00:00.000Z",
+      "snippet": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed capability removes the need to build or maintain custom streaming…"
+    },
+    {
       "title": "Three new models for speech recognition and text-to-speech are now available in Amazon SageMaker JumpStart",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/speech-models-on-sagemaker-jumpstart/",
       "source": "AWS What's New",
@@ -98,13 +161,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T18:00:00.000Z",
       "snippet": "Today, AWS announced the availability of GLM-5.1-FP8 and Phi-4-mini-instruct in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Z.ai and Microsoft bring advanced agentic capabilities and…"
-    },
-    {
-      "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T18:00:00.000Z",
-      "snippet": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed capability removes the need to build or maintain custom streaming…"
     },
     {
       "title": "Reference stack outputs across accounts and Regions with AWS CloudFormation and CDK",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T12:00:00.000Z",
       "snippet": "AWS RTB Fabric now supports custom domains for real-time bidding transactions received through external links. This capability helps advertising technology (AdTech) companies preserve their public endpoints and use owned domains—without requiring their…"
-    },
-    {
-      "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-data-agent-idc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-13T21:53:00.000Z",
-      "snippet": "Amazon SageMaker Data Agent is now available in SageMaker Unified Studio domains configured with IAM Identity Center. Data Agent extends its AI-powered capabilities to help data analysts and engineers streamline their analytics workflows across both SageMaker…"
-    },
-    {
-      "title": "Detecting and preventing crypto mining in your AWS environment",
-      "link": "https://aws.amazon.com/blogs/security/detecting-and-preventing-crypto-mining-in-your-aws-environment/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-13T21:47:27.000Z",
-      "snippet": "This article guides you on how to use Amazon GuardDuty to identify and mitigate cryptocurrency mining threats in your Amazon Web Services (AWS) environment. You’ll learn about the specialized detection capabilities of GuardDuty and best practices to build a…"
-    },
-    {
-      "title": "Introducing the updated AWS User Guide to Governance, Risk, and Compliance for Responsible AI Adoption",
-      "link": "https://aws.amazon.com/blogs/security/introducing-the-updated-aws-user-guide-to-governance-risk-and-compliance-for-responsible-ai-adoption/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-13T19:07:42.000Z",
-      "snippet": "The financial services industry (FSI) is using AI to transform how financial institutions serve their customers. AI solutions can help proactively manage portfolios, automatically refinance mortgages when rates decrease, and negotiate insurance premiums for…"
-    },
-    {
-      "title": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-openzfs-multi-az-vpcs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-13T19:00:00.000Z",
-      "snippet": "Amazon FSx for OpenZFS now allows you to create Multi-AZ file systems in shared VPCs within your AWS organization, making it easier for you to decentralize network and storage administration. VPC sharing is a feature that allows resource owners (\"owner…"
-    },
-    {
-      "title": "PCI PIN and P2PE compliance packages for AWS Payment Cryptography are now available",
-      "link": "https://aws.amazon.com/blogs/security/pci-pin-and-p2pe-compliance-packages-for-aws-payment-cryptography-are-now-available/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-13T16:16:38.000Z",
-      "snippet": "Amazon Web Services (AWS) is pleased to announce the successful completion of Payment Card Industry Personal Identification Number (PCI PIN) and PCI Point-to-Point Encryption (PCI P2PE) assessments for the AWS Payment Cryptography service. This assessment…"
-    },
-    {
-      "title": "Streaming CloudWatch metrics to VPC-based OpenTelemetry collectors using Lambda",
-      "link": "https://aws.amazon.com/blogs/architecture/streaming-cloudwatch-metrics-to-vpc-based-opentelemetry-collectors-using-lambda/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-05-13T15:45:50.000Z",
-      "snippet": "In this post, we demonstrate an approach we used to address this challenge for a customer by implementing an AWS Lambda transformation function that streams Amazon CloudWatch metrics directly to internal OpenTelemetry collectors running within a VPC."
-    },
-    {
-      "title": "Amazon RDS for Oracle now supports M8i and R8i instances with Oracle SE2 License Included",
-      "link": "https://aws.amazon.com/about-aws/whats-new/amazon-oracle-m8i-r8i-license-included",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-13T07:00:00.000Z",
-      "snippet": "Amazon RDS for Oracle now offers M8i and R8i instances with Oracle Database Standard Edition 2 (SE2) with the License Included (LI). M8i and R8i instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance…"
-    },
-    {
-      "title": "AWS Security Agent full repository code scanning feature now available in preview",
-      "link": "https://aws.amazon.com/blogs/security/aws-security-agent-full-repository-code-scanning-feature-now-available-in-preview/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-12T21:34:16.000Z",
-      "snippet": "Today, we’re excited to announce the preview release of full repository code review, a new capability in AWS Security Agent that performs deep, context-aware security analysis of your entire code base. AI-driven cybersecurity capabilities are advancing…"
     }
   ]
 }
