@@ -1,12 +1,26 @@
 {
-  "lastUpdated": "2026-05-15T22:16:49.894Z",
+  "lastUpdated": "2026-05-16T04:21:55.860Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch Logs announces increased query result limits",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudwatch-logs-query-results/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-15T21:00:00.000Z",
+      "snippet": "Amazon CloudWatch Logs now supports retrieving up to 100,000 results using the Logs Insights query language. Customers can specify the limit in their query using the LIMIT command. Previously, customers were limited to 10,000 results and had to split their…"
+    },
     {
       "title": "Amazon EMR Serverless is now available in additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
       "source": "AWS What's New",
       "pubDate": "2026-05-15T19:50:00.000Z",
       "snippet": "Amazon EMR Serverless is now generally available in six additional AWS Regions - Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and Mexico (Central). Amazon EMR Serverless is a…"
+    },
+    {
+      "title": "AWS Partner Central agents now accelerates opportunity creation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-partner-central-agents-oppo",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-15T18:41:00.000Z",
+      "snippet": "Today, AWS announces that the AWS Partner Central agents now accelerate opportunity creation through natural language conversation. AWS Partner Central agents, released on March 16, 2026, are AI-powered capabilities built on Amazon Bedrock AgentCore that help…"
     },
     {
       "title": "The AWS AI Security Framework: Securing AI with the right controls, at the right layers, at the right phases",
@@ -37,18 +51,18 @@
       "snippet": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 10.4 to 12.4. You can upgrade with just a few clicks from the AWS Console or via AWS SDK or AWS CLI. Upgrading to version 12.4 brings native Grafana Scenes-powered dashboards for faster…"
     },
     {
-      "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T15:00:00.000Z",
-      "snippet": "AWS Organizations now supports higher quotas for service control policies (SCPs). The maximum number of SCPs that can be attached to a single node (root, OU, or account) has increased from 5 to 10, and the maximum SCP size has increased from 5,120 to 10,240…"
-    },
-    {
       "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
       "source": "AWS What's New",
       "pubDate": "2026-05-15T15:00:00.000Z",
       "snippet": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability…"
+    },
+    {
+      "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-15T15:00:00.000Z",
+      "snippet": "AWS Organizations now supports higher quotas for service control policies (SCPs). The maximum number of SCPs that can be attached to a single node (root, OU, or account) has increased from 5 to 10, and the maximum SCP size has increased from 5,120 to 10,240…"
     },
     {
       "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
@@ -196,20 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-05-14T16:18:20.000Z",
       "snippet": "Migrating your TLS endpoints to Post-quantum cryptography (PQC) starts with understanding your current TLS endpoint inventory and posture. This post introduces the PQC Readiness Scanner — an automated tool that inventories your Application Load Balancer…"
-    },
-    {
-      "title": "AWS Transform adds agentic AI assistant to the AWS Toolkit for Visual Studio",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-ai-assistant",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T15:00:00.000Z",
-      "snippet": "To improve developer experience, AWS Transform now includes an interactive agentic AI assistant in the AWS Toolkit for Visual Studio. This enables .NET developers to modernize applications through a conversational, step-by-step guided experience directly in…"
-    },
-    {
-      "title": "AWS RTB Fabric supports custom domains for real-time bidding workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rtb-fabric-custom-domains/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T12:00:00.000Z",
-      "snippet": "AWS RTB Fabric now supports custom domains for real-time bidding transactions received through external links. This capability helps advertising technology (AdTech) companies preserve their public endpoints and use owned domains—without requiring their…"
     }
   ]
 }
