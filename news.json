@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-18T11:07:33.377Z",
+  "lastUpdated": "2026-05-18T17:12:44.868Z",
   "items": [
+    {
+      "title": "AWS SAM CLI adds AWS CloudFormation Language Extensions support to accelerate local serverless development",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-cloudformation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-18T16:31:00.000Z",
+      "snippet": "AWS SAM CLI now supports AWS CloudFormation Language Extensions, enabling you to reduce duplication in your infrastructure as code (IaC) templates while retaining the full local development workflow. This accelerates your serverless development by letting you…"
+    },
     {
       "title": "Amazon CloudWatch Logs announces increased query result limits",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudwatch-logs-query-results/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T16:49:00.000Z",
       "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.4, 17.10, 16.14, 15.18, and 14.23. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior versions of…"
-    },
-    {
-      "title": "Automating post-quantum cryptography readiness using AWS Config",
-      "link": "https://aws.amazon.com/blogs/security/automating-post-quantum-cryptography-readiness-using-aws-config/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-14T16:18:20.000Z",
-      "snippet": "Migrating your TLS endpoints to Post-quantum cryptography (PQC) starts with understanding your current TLS endpoint inventory and posture. This post introduces the PQC Readiness Scanner — an automated tool that inventories your Application Load Balancer…"
     }
   ]
 }
