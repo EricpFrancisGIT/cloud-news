@@ -1,12 +1,61 @@
 {
-  "lastUpdated": "2026-05-18T17:12:44.868Z",
+  "lastUpdated": "2026-05-18T23:13:46.333Z",
   "items": [
+    {
+      "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-region-selector/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-18T21:50:00.000Z",
+      "snippet": "Today, AWS announces the addition of AWS Local Zones to the Region selector in the AWS Management Console, providing a unified experience across AWS global infrastructure. AWS Local Zones now appear alongside AWS Regions in the Console's top navigation,…"
+    },
+    {
+      "title": "AWS Glue zero-ETL is now available in Asia Pacific (Mumbai) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-zero-etl-mumbai-region",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-18T21:10:00.000Z",
+      "snippet": "AWS Glue zero-ETL integrations are now available in the Asia Pacific (Mumbai) region. With this expansion, customers in the Asia Pacific (Mumbai) region can now use zero-ETL integrations to simplify their data pipelines, reduce data movement latency, and…"
+    },
+    {
+      "title": "AWS Weekly Roundup: AWS Transform at 1 year, Claude Platform on AWS, EC2 M3 Ultra Mac instances, and more (May 18, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-05-18T19:13:20.000Z",
+      "snippet": "Just a year ago, we launched AWS Transform for .NET, Mainframe and VMware workloads, the first agentic AI service purpose-built for modernizing enterprise applications at scale. At re:Invent 2025, we introduced AWS Transform custom, which enables…"
+    },
+    {
+      "title": "Amazon Lightsail CDN distributions now support IPv6-only instances as origins",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-lightsail-cdn-ipv6/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-18T18:49:00.000Z",
+      "snippet": "Amazon Lightsail content delivery network (CDN) distributions now support IPv6-only instances as origins. This feature enables customers to use IPv6-only instances to deliver content through the Lightsail CDN distributions with low latency and high transfer…"
+    },
+    {
+      "title": "Amazon EVS enables support for 32 hosts per environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-evs-32-hosts",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-18T17:55:00.000Z",
+      "snippet": "Today, we are announcing that Amazon Elastic VMware Service (Amazon EVS) now supports up to 32 ESXi hosts per environment, double the previous limit of 16 hosts. Amazon EVS gives you flexibility in how you configure VMware Cloud Foundation (VCF) domains and…"
+    },
     {
       "title": "AWS SAM CLI adds AWS CloudFormation Language Extensions support to accelerate local serverless development",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-cloudformation/",
       "source": "AWS What's New",
       "pubDate": "2026-05-18T16:31:00.000Z",
       "snippet": "AWS SAM CLI now supports AWS CloudFormation Language Extensions, enabling you to reduce duplication in your infrastructure as code (IaC) templates while retaining the full local development workflow. This accelerates your serverless development by letting you…"
+    },
+    {
+      "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-18T16:25:00.000Z",
+      "snippet": "Amazon Redshift now supports writing directly to Apache Iceberg tables via the AWS Glue Data Catalog (awsdatacatalog) mount and ALTER TABLE DDL statements to modify the schema, partitioning, and properties of Apache Iceberg tables. With write access through…"
+    },
+    {
+      "title": "Amazon SageMaker Studio now supports GPU capacity reservation through SageMaker Flexible Training Plans",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-training-plan-support-for-studio/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-18T15:00:00.000Z",
+      "snippet": "Amazon SageMaker Studio IDEs, including JupyterLab and Code Editor, now support GPU capacity reservations through SageMaker Flexible Training Plans (FTP), giving you predictable access to high-demand, high-performance computational resources within your…"
     },
     {
       "title": "Amazon CloudWatch Logs announces increased query result limits",
@@ -58,18 +107,18 @@
       "snippet": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 10.4 to 12.4. You can upgrade with just a few clicks from the AWS Console or via AWS SDK or AWS CLI. Upgrading to version 12.4 brings native Grafana Scenes-powered dashboards for faster…"
     },
     {
-      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T15:00:00.000Z",
-      "snippet": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability…"
-    },
-    {
       "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
       "source": "AWS What's New",
       "pubDate": "2026-05-15T15:00:00.000Z",
       "snippet": "AWS Organizations now supports higher quotas for service control policies (SCPs). The maximum number of SCPs that can be attached to a single node (root, OU, or account) has increased from 5 to 10, and the maximum SCP size has increased from 5,120 to 10,240…"
+    },
+    {
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-15T15:00:00.000Z",
+      "snippet": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability…"
     },
     {
       "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T18:00:00.000Z",
       "snippet": "Amazon Application Recovery Controller (ARC) Region Switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing the Lambda event source…"
-    },
-    {
-      "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T18:00:00.000Z",
-      "snippet": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed capability removes the need to build or maintain custom streaming…"
-    },
-    {
-      "title": "Three new models for speech recognition and text-to-speech are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/speech-models-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T18:00:00.000Z",
-      "snippet": "Today, AWS announced the availability of Qwen3-TTS-12Hz-1.7B-CustomVoice, Qwen3-TTS-12Hz-1.7B-Base, and Qwen3-ASR-1.7B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models from Qwen bring…"
-    },
-    {
-      "title": "Two new models for agentic coding and efficient AI are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentic-reasoning-models-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T18:00:00.000Z",
-      "snippet": "Today, AWS announced the availability of GLM-5.1-FP8 and Phi-4-mini-instruct in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Z.ai and Microsoft bring advanced agentic capabilities and…"
-    },
-    {
-      "title": "Reference stack outputs across accounts and Regions with AWS CloudFormation and CDK",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-cloudformation-cdk-stack/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T17:30:00.000Z",
-      "snippet": "AWS CloudFormation now supports a new intrinsic function, Fn::GetStackOutput, that enables you to reference stack outputs across AWS accounts and Regions directly within your CloudFormation templates and CDK applications. This new capability simplifies the…"
-    },
-    {
-      "title": "Amazon EC2 X8aedz instances are now available in Europe (Ireland) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-x8aedz-europe-ireland/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T17:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances are available in Europe (Ireland) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). These instances offer the highest maximum CPU…"
-    },
-    {
-      "title": "Amazon Connect Customer launches permission for agents to view only their own performance evaluations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-permission-view-own-performance-evaluations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now supports a permission that gives agents access to their own performance evaluations in the Connect UI, without exposing other agents' evaluations, so they can review feedback to improve their performance. With this permission,…"
-    },
-    {
-      "title": "Amazon RDS for PostgreSQL supports minor versions 18.4, 17.10, 16.14, 15.18, and 14.23",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-postgresql/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T16:49:00.000Z",
-      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.4, 17.10, 16.14, 15.18, and 14.23. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior versions of…"
     }
   ]
 }
