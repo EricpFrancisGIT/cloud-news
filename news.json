@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-05-19T17:15:06.889Z",
+  "lastUpdated": "2026-05-19T23:15:58.014Z",
   "items": [
+    {
+      "title": "CIRT insights: How to help prevent unauthorized account removals from AWS Organizations",
+      "link": "https://aws.amazon.com/blogs/security/cirt-insights-how-to-help-prevent-unauthorized-account-removals-from-aws-organizations/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-19T21:34:25.000Z",
+      "snippet": "The AWS Customer Incident Response Team works with customers to help them recover from active security incidents. As part of this work, the team often uncovers new or trending tactics used by various threat actors that take advantage of specific customer…"
+    },
+    {
+      "title": "Amazon MWAA now supports Apache Airflow 3.2",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mwaa-now-supports-apache-airflow-3-2/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-19T20:00:00.000Z",
+      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.2, the latest major release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed service that lets you run Apache Airflow at scale…"
+    },
+    {
+      "title": "Amazon Inspector is now available in the AWS Asia Pacific (Taipei) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-inspector-taipei/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-19T17:00:00.000Z",
+      "snippet": "Today, AWS announces the availability of Amazon Inspector in the AWS Asia Pacific (Taipei) Region. Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads including Amazon EC2 instances, container images, and AWS…"
+    },
+    {
+      "title": "Amazon ECS introduces pause and continue controls for service deployments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-19T17:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now enables you to pause service deployments at critical stages during deployment progression and continue deployments when ready. You can use these pause points to introduce manual decision points and interactive…"
+    },
     {
       "title": "Governing infrastructure as code using pattern-based policy as code",
       "link": "https://aws.amazon.com/blogs/security/governing-infrastructure-as-code-using-pattern-based-policy-as-code/",
@@ -21,6 +49,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-05-19T15:06:40.000Z",
       "snippet": "This post introduces a video decoding optimization technique that we have ideated in collaboration with Synthesia Research Engineering team, which we call Asynchronous Frame Generation Pipeline. Adopting this technique allows you to overlap GPU compute,…"
+    },
+    {
+      "title": "Amazon Managed Grafana now supports dual-stack connectivity (IPv6 and IPv4)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-ipv6/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-19T15:00:00.000Z",
+      "snippet": "Amazon Managed Grafana now supports dual-stack connectivity, enabling workspaces to communicate over both Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6). Dual-stack mode is available for workspaces running Grafana version 10.4 or…"
     },
     {
       "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
@@ -77,6 +112,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-18T15:00:00.000Z",
       "snippet": "Amazon SageMaker Studio IDEs, including JupyterLab and Code Editor, now support GPU capacity reservations through SageMaker Flexible Training Plans (FTP), giving you predictable access to high-demand, high-performance computational resources within your…"
+    },
+    {
+      "title": "Introducing pre-fetching and IAM role assumption for AWS Secrets Manager Agent",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-agent-prefetch-and-role-assumption/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-18T07:00:00.000Z",
+      "snippet": "AWS Secrets Manager Agent now supports two new capabilities: pre-fetching secrets at startup and assuming an IAM role to retrieve secrets. With pre-fetching, you can specify a list of secrets or a tag value to retrieve and cache at agent startup, reducing…"
     },
     {
       "title": "Amazon CloudWatch Logs announces increased query result limits",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T21:50:00.000Z",
       "snippet": "Customers spend days to weeks optimizing prompts and evaluating responses when they want to migrate to a new model or just get better performance out of their current model. They struggle with changing their prompts quickly and then testing them to prevent…"
-    },
-    {
-      "title": "Announcing general availability of Amazon EC2 M3 Ultra Mac instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m3-ultra-mac-instances-generally-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T21:23:00.000Z",
-      "snippet": "Amazon Web Services announces general availability of Amazon EC2 M3 Ultra Mac instances, powered by the latest Mac Studio hardware. Amazon EC2 M3 Ultra Mac instances are the next-generation EC2 Mac instances, that enable Apple developers to migrate their most…"
-    },
-    {
-      "title": "Regional routing for AWS access portals: Implementing custom vanity domains for IAM Identity Center",
-      "link": "https://aws.amazon.com/blogs/security/regional-routing-for-aws-access-portals-implementing-custom-vanity-domains-for-iam-identity-center/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-14T20:42:20.000Z",
-      "snippet": "AWS IAM Identity Center provides a web-based access portal that gives your workforce a single place to view their AWS accounts and applications. With the recent launch of IAM Identity Center multi-Region replication, customers can replicate their IAM Identity…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Paris) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-u7i-aws-europe-paris/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T20:00:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7i-12TB instances (u7i-12tb.224xlarge) and U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel…"
-    },
-    {
-      "title": "SageMaker AI now supports serverless model customization for Qwen3.6",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-qwen3-6/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T19:18:00.000Z",
-      "snippet": "Amazon SageMaker AI now supports serverless model customization for Qwen3.6 27B parameter model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). Qwen3.6 is a popular open-weight model family from Alibaba Cloud. This launch is an…"
-    },
-    {
-      "title": "AWS Transform agents now available in Kiro, Claude, Cursor, and Codex",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-developer-tools/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T19:00:00.000Z",
-      "snippet": "Today, AWS announces that the AWS Transform agents — built on decades of AWS migration and modernization experience — are now accessible through a Kiro power, agent plugins, and via the AWS Transform MCP server. Developers can now consume all of AWS…"
-    },
-    {
-      "title": "AWS Transform introduces the agent builder toolkit Kiro power for building customized transformation agents",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-agent-builder-toolkit/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T19:00:00.000Z",
-      "snippet": "Today, as part of the AWS Transform composability initiative, AWS announces the general availability of the agent builder toolkit Kiro power for AWS Transform. With the agent builder toolkit, AWS Partners and customers can build agents tailored to their…"
     }
   ]
 }
