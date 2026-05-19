@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-05-19T11:14:45.785Z",
+  "lastUpdated": "2026-05-19T17:15:06.889Z",
   "items": [
+    {
+      "title": "Governing infrastructure as code using pattern-based policy as code",
+      "link": "https://aws.amazon.com/blogs/security/governing-infrastructure-as-code-using-pattern-based-policy-as-code/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-19T16:15:31.000Z",
+      "snippet": "Organizations often struggle to enforce security and compliance requirements consistently across their cloud infrastructure. In one environment, a workload might be deployed in an AWS Region that was never approved for that class of data. In another, a…"
+    },
+    {
+      "title": "How ALS GeoAnalytics LITHOLENS ™ revolutionizes core logging through machine learning with Amazon EKS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-05-19T15:09:36.000Z",
+      "snippet": "This post explores how ALS GeoAnalytics successfully deployed LITHOLENS ™ with Amazon Elastic Kubernetes Service (Amazon EKS) to scale model training and inference while minimizing cost."
+    },
+    {
+      "title": "How Synthesia optimizes generative AI video inference on Amazon EC2 G7e instances",
+      "link": "https://aws.amazon.com/blogs/architecture/how-synthesia-optimizes-generative-ai-video-inference-on-amazon-ec2-g7e-instances/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-05-19T15:06:40.000Z",
+      "snippet": "This post introduces a video decoding optimization technique that we have ideated in collaboration with Synthesia Research Engineering team, which we call Asynchronous Frame Generation Pipeline. Adopting this technique allows you to overlap GPU compute,…"
+    },
     {
       "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-region-selector/",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T19:00:00.000Z",
       "snippet": "Today, as part of the AWS Transform composability initiative, AWS announces the general availability of the agent builder toolkit Kiro power for AWS Transform. With the agent builder toolkit, AWS Partners and customers can build agents tailored to their…"
-    },
-    {
-      "title": "AWS Transform now supports customer-owned artifact stores",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-customer-owned-artifact/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T19:00:00.000Z",
-      "snippet": "AWS Transform brings assessment, migration, and modernization into a single AI-powered experience that guides enterprises through their full transformation journey. Today, AWS announces support for customer-owned Amazon S3 buckets, giving customers full…"
-    },
-    {
-      "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/image-embeddings-models-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T18:00:00.000Z",
-      "snippet": "Today, AWS announced the availability of FLUX.2-klein-base-4B and Qwen3-Embedding-0.6B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Black Forest Labs and Qwen bring state-of-the-art…"
-    },
-    {
-      "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T18:00:00.000Z",
-      "snippet": "Amazon Application Recovery Controller (ARC) Region Switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing the Lambda event source…"
     }
   ]
 }
