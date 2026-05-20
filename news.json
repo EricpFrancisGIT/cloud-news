@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-20T11:17:13.182Z",
+  "lastUpdated": "2026-05-20T17:17:29.680Z",
   "items": [
+    {
+      "title": "Announcing the general availability of a new AWS Local Zone in Istanbul, Türkiye",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-istanbul-turkiye/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T14:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of a new AWS Local Zone in Istanbul, Türkiye, bringing AWS infrastructure closer to end users, while enabling organizations to meet data residency requirements by storing and backing up data locally. AWS Local…"
+    },
     {
       "title": "Amazon SageMaker HyperPod now supports data capture for inference workloads",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-data-capture",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-14T22:30:00.000Z",
       "snippet": "Amazon CloudFront now supports passthrough mode for mutual TLS (mTLS) viewer authentication, allowing CloudFront to forward client certificates to the origin without verifying the certificates on CloudFront. Customers who already validate client certificates…"
-    },
-    {
-      "title": "Amazon Bedrock introduces new advanced prompt optimization and migration tool",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-bedrock-introduces-new-advanced-prompt-optimization-and-migration-tool/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-14T22:03:39.000Z",
-      "snippet": "Amazon Bedrock Advanced Prompt Optimization enables customers to optimize their prompts for their current model or migrate prompts to new models faster than before with built-in evaluation feedback loops. Optimize your prompts and compare results for up to 5…"
     }
   ]
 }
