@@ -1,6 +1,62 @@
 {
-  "lastUpdated": "2026-05-20T17:17:29.680Z",
+  "lastUpdated": "2026-05-20T23:17:47.278Z",
   "items": [
+    {
+      "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
+      "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-20T20:56:03.000Z",
+      "snippet": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed…"
+    },
+    {
+      "title": "AWS Security Hub now uncovers identity risks from unused access",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-unused-access/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T20:20:00.000Z",
+      "snippet": "Today, AWS Security Hub brings identity risk into the same unified console where central security teams already manage threats, exposures, and posture findings. Security Hub now detects unused IAM permissions, roles, and credentials across your AWS…"
+    },
+    {
+      "title": "Security Hub Extended expands to 21 curated partner solutions across 9 categories",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-extended/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T18:00:00.000Z",
+      "snippet": "AWS Security Hub Extended plan now includes 21 curated partner solutions across 9 security categories, adding SentinelOne (endpoint), CyberArk (identity), Sublime (email), Varonis (data security), LayerX (browser), Native Security (cloud), and Zenity (AI…"
+    },
+    {
+      "title": "AWS Security Hub Extended: Why enterprise security products should sell themselves",
+      "link": "https://aws.amazon.com/blogs/security/aws-security-hub-extended-why-enterprise-security-products-should-sell-themselves/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-20T17:32:58.000Z",
+      "snippet": "Our largest security services customers started the same way every customer does – with a click. They enabled Amazon GuardDuty, Amazon Inspector, AWS WAF, and AWS Security Hub, experienced the benefits in real time, and evaluated with transparent…"
+    },
+    {
+      "title": "Cyber resilience on AWS: A reference approach for recovery from ransomware and destructive events",
+      "link": "https://aws.amazon.com/blogs/architecture/cyber-resilience-on-aws-a-reference-approach-for-recovery-from-ransomware-and-destructive-events/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-05-20T17:32:57.000Z",
+      "snippet": "Cyber resilience is the ability to recover workloads to a known-good state after an adversary has affected the environment. Prevention works to keep threat actors out and detection works to find them quickly. Cyber resilience focuses on recovery: restoring a…"
+    },
+    {
+      "title": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T17:00:00.000Z",
+      "snippet": "Today, Amazon Web Services (AWS) announced version 0.1 of ExtendDB, an open source project that implements the Amazon DynamoDB API with pluggable storage backends. Amazon DynamoDB is a serverless, fully managed NoSQL database with single-digit millisecond…"
+    },
+    {
+      "title": "AWS Billing Conductor Improves Account Visibility with Billing Transfer Inventory",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-billing-conductor-billing-transfer/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T16:28:00.000Z",
+      "snippet": "AWS Billing Conductor Console now enables you to see which accounts have received or accepted billing transfer invites but still lack access to pro forma billing data. This page helps customers detect and close gaps in their account’s billing visibility. When…"
+    },
+    {
+      "title": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T15:53:00.000Z",
+      "snippet": "Amazon Elastic Container Service (ECS) now supports mounting Amazon Elastic Block Store (EBS) volumes to containers in the AWS GovCloud Regions. This capability makes it easier for you to deploy storage and data intensive applications such as ETL jobs, media…"
+    },
     {
       "title": "Announcing the general availability of a new AWS Local Zone in Istanbul, Türkiye",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-istanbul-turkiye/",
@@ -9,11 +65,18 @@
       "snippet": "Today, AWS announces the general availability of a new AWS Local Zone in Istanbul, Türkiye, bringing AWS infrastructure closer to end users, while enabling organizations to meet data residency requirements by storing and backing up data locally. AWS Local…"
     },
     {
+      "title": "AWS Transfer Family web apps now support federated permissions with IAM Identity Center across AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-federated-permissions-across-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T10:00:00.000Z",
+      "snippet": "AWS Transfer Family web apps now support federated permissions with AWS IAM Identity Center across multiple AWS Regions. Previously, you could only create Transfer Family web apps in the Region where your IAM Identity Center instance was enabled. With IAM…"
+    },
+    {
       "title": "Amazon SageMaker HyperPod now supports data capture for inference workloads",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-data-capture",
       "source": "AWS What's New",
       "pubDate": "2026-05-20T01:08:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports data capture for inference workloads, enabling customers to record inference request and response payloads for model monitoring, compliance, debugging, and offline analysis. Organizations deploying generative AI and…"
+      "snippet": "Amazon SageMaker HyperPod now supports data capture for inference workloads, a new capability that records inference request and response payloads from production endpoints to Amazon S3. Customers deploying generative AI models on HyperPod need visibility…"
     },
     {
       "title": "CIRT insights: How to help prevent unauthorized account removals from AWS Organizations",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-15T19:50:00.000Z",
       "snippet": "Amazon EMR Serverless is now generally available in six additional AWS Regions - Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and Mexico (Central). Amazon EMR Serverless is a…"
-    },
-    {
-      "title": "AWS Partner Central agents now accelerates opportunity creation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-partner-central-agents-oppo",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T18:41:00.000Z",
-      "snippet": "Today, AWS announces that the AWS Partner Central agents now accelerate opportunity creation through natural language conversation. AWS Partner Central agents, released on March 16, 2026, are AI-powered capabilities built on Amazon Bedrock AgentCore that help…"
-    },
-    {
-      "title": "The AWS AI Security Framework: Securing AI with the right controls, at the right layers, at the right phases",
-      "link": "https://aws.amazon.com/blogs/security/the-aws-ai-security-framework-securing-ai-with-the-right-controls-at-the-right-layers-at-the-right-phases/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-15T17:38:16.000Z",
-      "snippet": "TL;DR for busy executives The AWS AI Security Framework helps security leaders move fast and stay secure with AI. Security compounds from day 1 as workloads evolve from prototype to production to scale. Assess first. Request a no-cost SHIP engagement to…"
-    },
-    {
-      "title": "Amazon Connect Cases now lets you edit related items and delete cases from the agent workspace",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-related-item/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T17:25:00.000Z",
-      "snippet": "Amazon Connect Cases now supports editing and deleting related items, and deleting cases directly from the agent workspace without administrator help. Agents can update comments, unlink contacts associated with the wrong case, or delete cases opened in error.…"
-    },
-    {
-      "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 11.22-rds.20260224, 12.22-rds.20260224, and 13.23-rds.20260224",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-postgresql-extended-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T16:08:00.000Z",
-      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 11.22-rds.20260224, 12.22-rds.20260224, and 13.23-rds.20260224. We recommend that you upgrade to these versions to fix known security vulnerabilities…"
-    },
-    {
-      "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 12.4",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-v12-update/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T16:06:00.000Z",
-      "snippet": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 10.4 to 12.4. You can upgrade with just a few clicks from the AWS Console or via AWS SDK or AWS CLI. Upgrading to version 12.4 brings native Grafana Scenes-powered dashboards for faster…"
-    },
-    {
-      "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T15:00:00.000Z",
-      "snippet": "AWS Organizations now supports higher quotas for service control policies (SCPs). The maximum number of SCPs that can be attached to a single node (root, OU, or account) has increased from 5 to 10, and the maximum SCP size has increased from 5,120 to 10,240…"
-    },
-    {
-      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T15:00:00.000Z",
-      "snippet": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability…"
-    },
-    {
-      "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-ocsp/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T22:30:00.000Z",
-      "snippet": "Amazon CloudFront now supports Online Certificate Status Protocol (OCSP) revocation checking for viewer mTLS, enabling you to validate client certificate revocation status in real time during connection establishment. This enables customers using mutual TLS…"
-    },
-    {
-      "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T22:30:00.000Z",
-      "snippet": "Amazon CloudFront now supports passthrough mode for mutual TLS (mTLS) viewer authentication, allowing CloudFront to forward client certificates to the origin without verifying the certificates on CloudFront. Customers who already validate client certificates…"
     }
   ]
 }
