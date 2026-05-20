@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-19T23:15:58.014Z",
+  "lastUpdated": "2026-05-20T05:16:22.550Z",
   "items": [
+    {
+      "title": "Amazon SageMaker HyperPod now supports data capture for inference workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-data-capture",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T01:08:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports data capture for inference workloads, enabling customers to record inference request and response payloads for model monitoring, compliance, debugging, and offline analysis. Organizations deploying generative AI and…"
+    },
     {
       "title": "CIRT insights: How to help prevent unauthorized account removals from AWS Organizations",
       "link": "https://aws.amazon.com/blogs/security/cirt-insights-how-to-help-prevent-unauthorized-account-removals-from-aws-organizations/",
@@ -203,13 +210,6 @@
       "source": "AWS News Blog",
       "pubDate": "2026-05-14T22:03:39.000Z",
       "snippet": "Amazon Bedrock Advanced Prompt Optimization enables customers to optimize their prompts for their current model or migrate prompts to new models faster than before with built-in evaluation feedback loops. Optimize your prompts and compare results for up to 5…"
-    },
-    {
-      "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-14T21:50:00.000Z",
-      "snippet": "Customers spend days to weeks optimizing prompts and evaluating responses when they want to migrate to a new model or just get better performance out of their current model. They struggle with changing their prompts quickly and then testing them to prevent…"
     }
   ]
 }
