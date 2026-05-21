@@ -1,12 +1,61 @@
 {
-  "lastUpdated": "2026-05-21T17:19:30.053Z",
+  "lastUpdated": "2026-05-21T23:19:48.278Z",
   "items": [
+    {
+      "title": "AWS KY3P report now available for third-party supplier due diligence",
+      "link": "https://aws.amazon.com/blogs/security/aws-ky3p-report-now-available-for-third-party-supplier-due-diligence/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-21T19:58:03.000Z",
+      "snippet": "We’re excited to announce that Amazon Web Services (AWS) has completed the S&P Global Know Your Third Party (KY3P) assessment of its security posture. This assessment demonstrates our continued commitment to meet the heightened expectations of cloud service…"
+    },
+    {
+      "title": "Amazon EC2 C7i-flex, M7i-flex & M7i instances now available in Asia Pacific (Hyderabad) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-21T19:39:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex, M7i-flex and M7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Asia Pacific (Hyderabad) region. These custom processors,…"
+    },
+    {
+      "title": "SageMaker Unified Studio automates Glue connector provisioning for cross-subnet job retries",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-unified-studio-glue/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-21T19:27:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports automatic creation of connections for Glue job retries across subnets to improve data pipeline resilience. This helps organizations running business-critical data pipelines reduce unplanned downtime and meet their…"
+    },
+    {
+      "title": "Amazon SageMaker AI now supports OpenAI-compatible APIs for inference endpoints",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-openai-apis/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-21T17:55:00.000Z",
+      "snippet": "Amazon SageMaker Inference now supports OpenAI-compatible APIs, so you can use the tools and frameworks you already know, like the OpenAI SDK, LangChain, and Strands Agents, to connect directly to your SageMaker endpoints. Switching requires nothing more than…"
+    },
     {
       "title": "Automating identity lifecycle and security with AWS Directory Service APIs",
       "link": "https://aws.amazon.com/blogs/security/automating-identity-lifecycle-and-security-with-aws-directory-service-apis/",
       "source": "AWS Security Blog",
       "pubDate": "2026-05-21T16:00:59.000Z",
       "snippet": "Managing identities and access across complex environments has become more critical than ever. AWS Directory Service for Managed Microsoft Active Directory, also known as AWS Managed Microsoft AD, has added new capabilities to manage users and groups. Now,…"
+    },
+    {
+      "title": "Amazon Aurora MySQL 8.4 is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-21T16:00:00.000Z",
+      "snippet": "Amazon Aurora MySQL-Compatible Edition now supports MySQL 8.4, a community MySQL Long Term Support (LTS) major version. Aurora MySQL 8.4 launches with compatibility for community MySQL 8.4.7 and introduces aligned version numbering, so the version number you…"
+    },
+    {
+      "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-custom-sql-server-latest-gdr-updates-microsoft-sql-server",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-21T07:22:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR KB5084816 (RDS version…"
+    },
+    {
+      "title": "Amazon Bedrock expands support for request-level usage attribution",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T23:34:00.000Z",
+      "snippet": "Amazon Bedrock customers can now attribute model inference usage to specific teams, applications, environments, and experiments at the individual request level on the InvokeModel and InvokeModelWithResponseStream APIs. This gives customers fine-grained…"
     },
     {
       "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
@@ -21,6 +70,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-20T20:20:00.000Z",
       "snippet": "Today, AWS Security Hub brings identity risk into the same unified console where central security teams already manage threats, exposures, and posture findings. Security Hub now detects unused IAM permissions, roles, and credentials across your AWS…"
+    },
+    {
+      "title": "Amazon DocumentDB (with MongoDB compatibility) Serverless is now available on DocumentDB 8.0",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/docdb8-serverless",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T18:17:00.000Z",
+      "snippet": "Amazon DocumentDB (with MongoDB compatibility) Serverless, an on-demand, auto-scaling configuration for DocumentDB, is now available on version 8.0. Amazon DocumentDB Serverless automatically scales capacity up or down in fine-grained increments based on your…"
     },
     {
       "title": "Security Hub Extended expands to 21 curated partner solutions across 9 categories",
@@ -63,13 +119,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-20T16:28:00.000Z",
       "snippet": "AWS Billing Conductor Console now enables you to see which accounts have received or accepted billing transfer invites but still lack access to pro forma billing data. This page helps customers detect and close gaps in their account’s billing visibility. When…"
-    },
-    {
-      "title": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-20T15:53:00.000Z",
-      "snippet": "Amazon Elastic Container Service (ECS) now supports mounting Amazon Elastic Block Store (EBS) volumes to containers in the AWS GovCloud Regions. This capability makes it easier for you to deploy storage and data intensive applications such as ETL jobs, media…"
     },
     {
       "title": "Announcing the general availability of a new AWS Local Zone in Istanbul, Türkiye",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-18T21:10:00.000Z",
       "snippet": "AWS Glue zero-ETL integrations are now available in the Asia Pacific (Mumbai) region. With this expansion, customers in the Asia Pacific (Mumbai) region can now use zero-ETL integrations to simplify their data pipelines, reduce data movement latency, and…"
-    },
-    {
-      "title": "AWS Weekly Roundup: AWS Transform at 1 year, Claude Platform on AWS, EC2 M3 Ultra Mac instances, and more (May 18, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-18T19:13:20.000Z",
-      "snippet": "Just a year ago, we launched AWS Transform for .NET, Mainframe and VMware workloads, the first agentic AI service purpose-built for modernizing enterprise applications at scale. At re:Invent 2025, we introduced AWS Transform custom, which enables…"
-    },
-    {
-      "title": "Amazon Lightsail CDN distributions now support IPv6-only instances as origins",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-lightsail-cdn-ipv6/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-18T18:49:00.000Z",
-      "snippet": "Amazon Lightsail content delivery network (CDN) distributions now support IPv6-only instances as origins. This feature enables customers to use IPv6-only instances to deliver content through the Lightsail CDN distributions with low latency and high transfer…"
-    },
-    {
-      "title": "Amazon EVS enables support for 32 hosts per environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-evs-32-hosts",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-18T17:55:00.000Z",
-      "snippet": "Today, we are announcing that Amazon Elastic VMware Service (Amazon EVS) now supports up to 32 ESXi hosts per environment, double the previous limit of 16 hosts. Amazon EVS gives you flexibility in how you configure VMware Cloud Foundation (VCF) domains and…"
-    },
-    {
-      "title": "AWS SAM CLI adds AWS CloudFormation Language Extensions support to accelerate local serverless development",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-cloudformation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-18T16:31:00.000Z",
-      "snippet": "AWS SAM CLI now supports AWS CloudFormation Language Extensions, enabling you to reduce duplication in your infrastructure as code (IaC) templates while retaining the full local development workflow. This accelerates your serverless development by letting you…"
-    },
-    {
-      "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-18T16:25:00.000Z",
-      "snippet": "Amazon Redshift now supports writing directly to Apache Iceberg tables via the AWS Glue Data Catalog (awsdatacatalog) mount and ALTER TABLE DDL statements to modify the schema, partitioning, and properties of Apache Iceberg tables. With write access through…"
-    },
-    {
-      "title": "Amazon SageMaker Studio now supports GPU capacity reservation through SageMaker Flexible Training Plans",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-training-plan-support-for-studio/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-18T15:00:00.000Z",
-      "snippet": "Amazon SageMaker Studio IDEs, including JupyterLab and Code Editor, now support GPU capacity reservations through SageMaker Flexible Training Plans (FTP), giving you predictable access to high-demand, high-performance computational resources within your…"
-    },
-    {
-      "title": "Introducing pre-fetching and IAM role assumption for AWS Secrets Manager Agent",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-agent-prefetch-and-role-assumption/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-18T07:00:00.000Z",
-      "snippet": "AWS Secrets Manager Agent now supports two new capabilities: pre-fetching secrets at startup and assuming an IAM role to retrieve secrets. With pre-fetching, you can specify a list of secrets or a tag value to retrieve and cache at agent startup, reducing…"
     }
   ]
 }
