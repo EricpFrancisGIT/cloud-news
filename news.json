@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-21T11:18:31.330Z",
+  "lastUpdated": "2026-05-21T17:19:30.053Z",
   "items": [
+    {
+      "title": "Automating identity lifecycle and security with AWS Directory Service APIs",
+      "link": "https://aws.amazon.com/blogs/security/automating-identity-lifecycle-and-security-with-aws-directory-service-apis/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-21T16:00:59.000Z",
+      "snippet": "Managing identities and access across complex environments has become more critical than ever. AWS Directory Service for Managed Microsoft Active Directory, also known as AWS Managed Microsoft AD, has added new capabilities to manage users and groups. Now,…"
+    },
     {
       "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
       "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
@@ -21,6 +28,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-20T18:00:00.000Z",
       "snippet": "AWS Security Hub Extended plan now includes 21 curated partner solutions across 9 security categories, adding SentinelOne (endpoint), CyberArk (identity), Sublime (email), Varonis (data security), LayerX (browser), Native Security (cloud), and Zenity (AI…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio now supports data quality rule authoring and evaluation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-quality",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T17:42:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports data quality rule authoring and evaluation, powered by AWS Glue Data Quality. Data engineers, analysts, and data scientists can define data quality rules, run ruleset evaluations, and view results directly within…"
     },
     {
       "title": "AWS Security Hub Extended: Why enterprise security products should sell themselves",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-18T07:00:00.000Z",
       "snippet": "AWS Secrets Manager Agent now supports two new capabilities: pre-fetching secrets at startup and assuming an IAM role to retrieve secrets. With pre-fetching, you can specify a list of secrets or a tag value to retrieve and cache at agent startup, reducing…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs announces increased query result limits",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudwatch-logs-query-results/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T21:00:00.000Z",
-      "snippet": "Amazon CloudWatch Logs now supports retrieving up to 100,000 results using the Logs Insights query language. Customers can specify the limit in their query using the LIMIT command. Previously, customers were limited to 10,000 results and had to split their…"
-    },
-    {
-      "title": "Amazon EMR Serverless is now available in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-15T19:50:00.000Z",
-      "snippet": "Amazon EMR Serverless is now generally available in six additional AWS Regions - Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and Mexico (Central). Amazon EMR Serverless is a…"
     }
   ]
 }
