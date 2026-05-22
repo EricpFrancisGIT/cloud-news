@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-05-22T17:20:52.078Z",
+  "lastUpdated": "2026-05-22T23:21:11.597Z",
   "items": [
+    {
+      "title": "Amazon SageMaker expands domain management across domain types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/domain-management-iam-idc/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T19:30:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now provides domain management experience for Identity Center and IAM-based domains outside of AWS console, allows administrators and data management teams to create and manage projects, configure workforce identity, manage…"
+    },
+    {
+      "title": "New agentic migration assessment capabilities now available with AWS Transform",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T18:58:00.000Z",
+      "snippet": "AWS Transform now offers advanced migration assessment capabilities including what-if scenarios, customizable assumptions, flexible file format support, and multiple new total cost of ownership (TCO) assessment features. These latest features let you quickly…"
+    },
+    {
+      "title": "Amazon SageMaker adds business metadata and governance in IAM-based domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-catalog-iam-domains/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T18:24:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports business context, metadata and data governance capabilities in IAM-based domains. With this launch, customers using Amazon SageMaker IAM-based domains can add business context to their AWS Glue Data Catalog tables,…"
+    },
+    {
+      "title": "AWS Security Agent adds verification scripts for pentest findings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T17:21:00.000Z",
+      "snippet": "AWS Security Agent now generates verification scripts for penetration test findings, enabling security teams to independently reproduce and validate discovered vulnerabilities. Previously, teams manually followed reproduction steps from finding details. Now,…"
+    },
     {
       "title": "Amazon WorkSpaces Personal now supports WorkSpace Migration for Linux WorkSpaces",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-linux-migration",
@@ -9,11 +37,25 @@
       "snippet": "Amazon WorkSpaces now supports the WorkSpace Migration feature for all Linux operating systems that Amazon WorkSpaces offers. This allows customers to seamlessly migrate WorkSpaces from one Linux operating system to another, automating the process to migrate…"
     },
     {
+      "title": "Amazon Keyspaces (for Apache Cassandra) expands to Asia Pacific (Malaysia) and Asia Pacific (Thailand) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-keyspaces-malaysia-thailand/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T16:00:00.000Z",
+      "snippet": "Amazon Keyspaces (for Apache Cassandra) is now available in the Asia Pacific (Malaysia) and Asia Pacific (Thailand) Regions, allowing customers in Asia Pacific Region to build Cassandra-compatible applications with lower latency while keeping their data…"
+    },
+    {
       "title": "AWS Clean Rooms now supports mutable payment configurations for collaborations",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
       "source": "AWS What's New",
-      "pubDate": "2026-05-22T07:00:00.000Z",
+      "pubDate": "2026-05-22T12:00:00.000Z",
       "snippet": "AWS Clean Rooms now supports mutable fine-grained payment configurations for collaboration members. This capability offers customers greater flexibility and control over payment responsibilities as they develop new use cases with their partners. With this…"
+    },
+    {
+      "title": "AWS Secrets Manager adds managed external secrets support for Datadog vended keys and Snowflake Programmatic Access Tokens",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T07:00:00.000Z",
+      "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Datadog Keys and Snowflake Programmatic Access Tokens (PATs). Managed external secrets enable customers to automatically rotate third-party credentials directly from AWS…"
     },
     {
       "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
@@ -168,48 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-05-19T21:34:25.000Z",
       "snippet": "The AWS Customer Incident Response Team works with customers to help them recover from active security incidents. As part of this work, the team often uncovers new or trending tactics used by various threat actors that take advantage of specific customer…"
-    },
-    {
-      "title": "Amazon MWAA now supports Apache Airflow 3.2",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mwaa-now-supports-apache-airflow-3-2/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-19T20:00:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.2, the latest major release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed service that lets you run Apache Airflow at scale…"
-    },
-    {
-      "title": "Amazon Inspector is now available in the AWS Asia Pacific (Taipei) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-inspector-taipei/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-19T17:00:00.000Z",
-      "snippet": "Today, AWS announces the availability of Amazon Inspector in the AWS Asia Pacific (Taipei) Region. Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads including Amazon EC2 instances, container images, and AWS…"
-    },
-    {
-      "title": "Amazon ECS introduces pause and continue controls for service deployments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-19T17:00:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now enables you to pause service deployments at critical stages during deployment progression and continue deployments when ready. You can use these pause points to introduce manual decision points and interactive…"
-    },
-    {
-      "title": "Governing infrastructure as code using pattern-based policy as code",
-      "link": "https://aws.amazon.com/blogs/security/governing-infrastructure-as-code-using-pattern-based-policy-as-code/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-19T16:15:31.000Z",
-      "snippet": "Organizations often struggle to enforce security and compliance requirements consistently across their cloud infrastructure. In one environment, a workload might be deployed in an AWS Region that was never approved for that class of data. In another, a…"
-    },
-    {
-      "title": "How ALS GeoAnalytics LITHOLENS ™ revolutionizes core logging through machine learning with Amazon EKS",
-      "link": "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-05-19T15:09:36.000Z",
-      "snippet": "This post explores how ALS GeoAnalytics successfully deployed LITHOLENS ™ with Amazon Elastic Kubernetes Service (Amazon EKS) to scale model training and inference while minimizing cost."
-    },
-    {
-      "title": "How Synthesia optimizes generative AI video inference on Amazon EC2 G7e instances",
-      "link": "https://aws.amazon.com/blogs/architecture/how-synthesia-optimizes-generative-ai-video-inference-on-amazon-ec2-g7e-instances/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-05-19T15:06:40.000Z",
-      "snippet": "This post introduces a video decoding optimization technique that we have ideated in collaboration with Synthesia Research Engineering team, which we call Asynchronous Frame Generation Pipeline. Adopting this technique allows you to overlap GPU compute,…"
     }
   ]
 }
