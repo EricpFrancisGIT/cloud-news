@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-21T23:19:48.278Z",
+  "lastUpdated": "2026-05-22T05:20:09.515Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-21T23:00:00.000Z",
+      "snippet": "Amazon CloudWatch Logs Insights query language now supports 13 new commands and functions that give you more powerful ways to query, transform, and analyze your logs. Customers analyzing logs in CloudWatch Logs Insights often need to perform string…"
+    },
     {
       "title": "AWS KY3P report now available for third-party supplier due diligence",
       "link": "https://aws.amazon.com/blogs/security/aws-ky3p-report-now-available-for-third-party-supplier-due-diligence/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-18T21:50:00.000Z",
       "snippet": "Today, AWS announces the addition of AWS Local Zones to the Region selector in the AWS Management Console, providing a unified experience across AWS global infrastructure. AWS Local Zones now appear alongside AWS Regions in the Console's top navigation,…"
-    },
-    {
-      "title": "AWS Glue zero-ETL is now available in Asia Pacific (Mumbai) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-zero-etl-mumbai-region",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-18T21:10:00.000Z",
-      "snippet": "AWS Glue zero-ETL integrations are now available in the Asia Pacific (Mumbai) region. With this expansion, customers in the Asia Pacific (Mumbai) region can now use zero-ETL integrations to simplify their data pipelines, reduce data movement latency, and…"
     }
   ]
 }
