@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-05-22T11:20:32.256Z",
+  "lastUpdated": "2026-05-22T17:20:52.078Z",
   "items": [
+    {
+      "title": "Amazon WorkSpaces Personal now supports WorkSpace Migration for Linux WorkSpaces",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-linux-migration",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T16:24:00.000Z",
+      "snippet": "Amazon WorkSpaces now supports the WorkSpace Migration feature for all Linux operating systems that Amazon WorkSpaces offers. This allows customers to seamlessly migrate WorkSpaces from one Linux operating system to another, automating the process to migrate…"
+    },
+    {
+      "title": "AWS Clean Rooms now supports mutable payment configurations for collaborations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T07:00:00.000Z",
+      "snippet": "AWS Clean Rooms now supports mutable fine-grained payment configurations for collaboration members. This capability offers customers greater flexibility and control over payment responsibilities as they develop new use cases with their partners. With this…"
+    },
     {
       "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
@@ -196,20 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-05-19T15:06:40.000Z",
       "snippet": "This post introduces a video decoding optimization technique that we have ideated in collaboration with Synthesia Research Engineering team, which we call Asynchronous Frame Generation Pipeline. Adopting this technique allows you to overlap GPU compute,…"
-    },
-    {
-      "title": "Amazon Managed Grafana now supports dual-stack connectivity (IPv6 and IPv4)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-ipv6/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-19T15:00:00.000Z",
-      "snippet": "Amazon Managed Grafana now supports dual-stack connectivity, enabling workspaces to communicate over both Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6). Dual-stack mode is available for workspaces running Grafana version 10.4 or…"
-    },
-    {
-      "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-region-selector/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-18T21:50:00.000Z",
-      "snippet": "Today, AWS announces the addition of AWS Local Zones to the Region selector in the AWS Management Console, providing a unified experience across AWS global infrastructure. AWS Local Zones now appear alongside AWS Regions in the Console's top navigation,…"
     }
   ]
 }
