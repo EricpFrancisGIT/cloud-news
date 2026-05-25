@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-25T17:24:47.180Z",
+  "lastUpdated": "2026-05-25T23:25:04.169Z",
   "items": [
+    {
+      "title": "AWS Weekly Roundup: AWS Local Zones in Istanbul, open-source ExtendDB, Kiro Web, and more (May 25, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-local-zones-in-istanbul-open-source-extenddb-kiro-web-and-more-may-25-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-05-25T20:11:10.000Z",
+      "snippet": "There’s something genuinely energizing about working with startups — something I’ve been doing intensely for more than two years now. Startups operate at a different frequency: the urgency is real, the constraints are tight, and the stakes are personal.…"
+    },
     {
       "title": "Amazon SageMaker expands domain management across domain types",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/domain-management-iam-idc/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-20T10:00:00.000Z",
       "snippet": "AWS Transfer Family web apps now support federated permissions with AWS IAM Identity Center across multiple AWS Regions. Previously, you could only create Transfer Family web apps in the Region where your IAM Identity Center instance was enabled. With IAM…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports data capture for inference workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-data-capture",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-20T01:08:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports data capture for inference workloads, a new capability that records inference request and response payloads from production endpoints to Amazon S3. Customers deploying generative AI models on HyperPod need visibility…"
     }
   ]
 }
