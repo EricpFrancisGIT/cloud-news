@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T05:24:03.453Z",
+  "lastUpdated": "2026-05-25T11:24:25.257Z",
   "items": [
     {
       "title": "Amazon SageMaker expands domain management across domain types",
@@ -184,6 +184,13 @@
       "snippet": "AWS Billing Conductor Console now enables you to see which accounts have received or accepted billing transfer invites but still lack access to pro forma billing data. This page helps customers detect and close gaps in their account’s billing visibility. When…"
     },
     {
+      "title": "AWS Transform now modernizes networks during migrations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-network-modernization",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-20T14:53:00.000Z",
+      "snippet": "Network migration teams previously spent days manually reviewing network designs and discovered conflicts only at deployment. AWS Transform now includes two new capabilities that solve both. A new modernization engine goes beyond network mapping to optimize…"
+    },
+    {
       "title": "Announcing the general availability of a new AWS Local Zone in Istanbul, Türkiye",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-istanbul-turkiye/",
       "source": "AWS What's New",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-20T01:08:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now supports data capture for inference workloads, a new capability that records inference request and response payloads from production endpoints to Amazon S3. Customers deploying generative AI models on HyperPod need visibility…"
-    },
-    {
-      "title": "CIRT insights: How to help prevent unauthorized account removals from AWS Organizations",
-      "link": "https://aws.amazon.com/blogs/security/cirt-insights-how-to-help-prevent-unauthorized-account-removals-from-aws-organizations/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-19T21:34:25.000Z",
-      "snippet": "The AWS Customer Incident Response Team works with customers to help them recover from active security incidents. As part of this work, the team often uncovers new or trending tactics used by various threat actors that take advantage of specific customer…"
     }
   ]
 }
