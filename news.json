@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-05-26T13:14:36.220Z",
+  "lastUpdated": "2026-05-26T19:14:55.052Z",
   "items": [
+    {
+      "title": "Welcoming the AWS Customer Incident Response Team",
+      "link": "https://aws.amazon.com/blogs/security/welcoming-the-aws-customer-incident-response-team/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-26T19:04:17.000Z",
+      "snippet": "May 26, 2026: This post was originally published in July 2022. It has been updated to reflect current engagement options, new threat intelligence resources such as the Threat Technique Catalog for AWS (TTC), additional open-source tools, and the distinction…"
+    },
+    {
+      "title": "Well-architected best practices for software supply chain security",
+      "link": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-26T17:03:30.000Z",
+      "snippet": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security…"
+    },
     {
       "title": "AWS Weekly Roundup: AWS Local Zones in Istanbul, open-source ExtendDB, Kiro Web, and more (May 25, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-local-zones-in-istanbul-open-source-extenddb-kiro-web-and-more-may-25-2026/",
       "source": "AWS News Blog",
       "pubDate": "2026-05-25T20:11:10.000Z",
       "snippet": "There’s something genuinely energizing about working with startups — something I’ve been doing intensely for more than two years now. Startups operate at a different frequency: the urgency is real, the constraints are tight, and the stakes are personal.…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio adds interactive interface for managing Feature Store in IAM Domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-feature-store/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T20:07:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio IAM domains now includes an interactive interface for creating and managing feature groups in SageMaker Feature Store, eliminating the need to write code for common feature management tasks. This launch makes feature management…"
     },
     {
       "title": "Amazon SageMaker expands domain management across domain types",
@@ -35,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-22T17:21:00.000Z",
       "snippet": "AWS Security Agent now generates verification scripts for penetration test findings, enabling security teams to independently reproduce and validate discovered vulnerabilities. Previously, teams manually followed reproduction steps from finding details. Now,…"
+    },
+    {
+      "title": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-22T16:39:00.000Z",
+      "snippet": "Today, Amazon GameLift Streams launched Generation 6e (G6e) stream classes, providing enhanced GPU performance for streaming high-fidelity, graphically demanding games and applications. The new G6e stream classes are powered by EC2 G6e instances featuring…"
     },
     {
       "title": "Amazon WorkSpaces Personal now supports WorkSpace Migration for Linux WorkSpaces",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-20T17:00:00.000Z",
       "snippet": "Today, Amazon Web Services (AWS) announced version 0.1 of ExtendDB, an open source project that implements the Amazon DynamoDB API with pluggable storage backends. Amazon DynamoDB is a serverless, fully managed NoSQL database with single-digit millisecond…"
-    },
-    {
-      "title": "AWS Billing Conductor Improves Account Visibility with Billing Transfer Inventory",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-billing-conductor-billing-transfer/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-20T16:28:00.000Z",
-      "snippet": "AWS Billing Conductor Console now enables you to see which accounts have received or accepted billing transfer invites but still lack access to pro forma billing data. This page helps customers detect and close gaps in their account’s billing visibility. When…"
-    },
-    {
-      "title": "AWS Transform now modernizes networks during migrations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-network-modernization",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-20T14:53:00.000Z",
-      "snippet": "Network migration teams previously spent days manually reviewing network designs and discovered conflicts only at deployment. AWS Transform now includes two new capabilities that solve both. A new modernization engine goes beyond network mapping to optimize…"
-    },
-    {
-      "title": "Announcing the general availability of a new AWS Local Zone in Istanbul, Türkiye",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-istanbul-turkiye/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-20T14:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of a new AWS Local Zone in Istanbul, Türkiye, bringing AWS infrastructure closer to end users, while enabling organizations to meet data residency requirements by storing and backing up data locally. AWS Local…"
-    },
-    {
-      "title": "AWS Transfer Family web apps now support federated permissions with IAM Identity Center across AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-federated-permissions-across-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-20T10:00:00.000Z",
-      "snippet": "AWS Transfer Family web apps now support federated permissions with AWS IAM Identity Center across multiple AWS Regions. Previously, you could only create Transfer Family web apps in the Region where your IAM Identity Center instance was enabled. With IAM…"
     }
   ]
 }
