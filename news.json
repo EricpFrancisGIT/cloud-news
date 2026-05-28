@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-05-27T19:40:28.966Z",
+  "lastUpdated": "2026-05-28T01:40:46.098Z",
   "items": [
+    {
+      "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Notebook Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/p6-b200-region-expansion-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T23:30:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker notebook instances. Amazon EC2 P6-B200 instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and 5th…"
+    },
+    {
+      "title": "SageMaker Notebook Instances now support P5.4xl instance types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T20:30:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 P5.4xl instances on SageMaker notebook instances. Amazon EC2 P5.4xl instances are powered by NVIDIA H100 Tensor Core GPUs and deliver high performance in Amazon EC2 for deep learning (DL) and high…"
+    },
+    {
+      "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T20:30:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 P5en.48xl instances on SageMaker notebook instances. Amazon EC2 P5en instances feature 8 H200 GPUs which have 1.7x GPU memory size and 1.4x GPU memory bandwidth than H100 GPUs featured in P5…"
+    },
+    {
+      "title": "Amazon EMR now supports Apache Spark 4.0.2 in general availability",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-apache-spark/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T20:17:00.000Z",
+      "snippet": "Amazon EMR now supports Apache Spark 4.0.2 across all three deployment models. With Spark 4.0.2, you can build and maintain data pipelines more easily with ANSI SQL and VARIANT data types, enforce fine-grained access control (FGAC) at the row level or column…"
+    },
+    {
+      "title": "AWS Glue large and memory optimized workers now available in Europe (Spain) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T20:10:00.000Z",
+      "snippet": "AWS Glue now offers large and memory-optimized workers in the AWS Europe (Spain) Region, giving customers in this region more power to handle complex data processing workloads. The new additions include two general compute workers (G.12X and G.16X) as well as…"
+    },
+    {
+      "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now enables managers to use generative AI to automatically evaluate self-service interactions, and get aggregated insights to help improve customer experience. Managers can define custom evaluation criteria in natural language within…"
+    },
     {
       "title": "Meet Our Newest AWS Heroes – May 2026",
       "link": "https://aws.amazon.com/blogs/aws/meet-our-newest-aws-heroes-may-2026/",
@@ -14,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-27T15:06:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now supports minimum capacity requirements (MinCount) for clusters using Slurm orchestration with continuous provisioning. With continuous provisioning, HyperPod provisions clusters with available partial capacity so you can start…"
+    },
+    {
+      "title": "AWS Backup adds OTP verification for Multi-party approval on logically air-gapped vaults",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T10:00:00.000Z",
+      "snippet": "AWS Backup now requires one-time password (OTP) verification when approvers vote on Multi-party approval actions for logically air-gapped vaults. When an approver votes on an Multi-party approval request, they must enter a six-digit code sent to their…"
     },
     {
       "title": "Amazon EC2 X8i instances are now available in additional regions",
@@ -161,55 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-05-21T19:58:03.000Z",
       "snippet": "We’re excited to announce that Amazon Web Services (AWS) has completed the S&P Global Know Your Third Party (KY3P) assessment of its security posture. This assessment demonstrates our continued commitment to meet the heightened expectations of cloud service…"
-    },
-    {
-      "title": "Amazon EC2 C7i-flex, M7i-flex & M7i instances now available in Asia Pacific (Hyderabad) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-21T19:39:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex, M7i-flex and M7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Asia Pacific (Hyderabad) region. These custom processors,…"
-    },
-    {
-      "title": "SageMaker Unified Studio automates Glue connector provisioning for cross-subnet job retries",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-unified-studio-glue/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-21T19:27:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports automatic creation of connections for Glue job retries across subnets to improve data pipeline resilience. This helps organizations running business-critical data pipelines reduce unplanned downtime and meet their…"
-    },
-    {
-      "title": "Amazon SageMaker AI now supports OpenAI-compatible APIs for inference endpoints",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-openai-apis/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-21T17:55:00.000Z",
-      "snippet": "Amazon SageMaker Inference now supports OpenAI-compatible APIs, so you can use the tools and frameworks you already know, like the OpenAI SDK, LangChain, and Strands Agents, to connect directly to your SageMaker endpoints. Switching requires nothing more than…"
-    },
-    {
-      "title": "Automating identity lifecycle and security with AWS Directory Service APIs",
-      "link": "https://aws.amazon.com/blogs/security/automating-identity-lifecycle-and-security-with-aws-directory-service-apis/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-21T16:00:59.000Z",
-      "snippet": "Managing identities and access across complex environments has become more critical than ever. AWS Directory Service for Managed Microsoft Active Directory, also known as AWS Managed Microsoft AD, has added new capabilities to manage users and groups. Now,…"
-    },
-    {
-      "title": "Amazon Aurora MySQL 8.4 is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-21T16:00:00.000Z",
-      "snippet": "Amazon Aurora MySQL-Compatible Edition now supports MySQL 8.4, a community MySQL Long Term Support (LTS) major version. Aurora MySQL 8.4 launches with compatibility for community MySQL 8.4.7 and introduces aligned version numbering, so the version number you…"
-    },
-    {
-      "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-custom-sql-server-latest-gdr-updates-microsoft-sql-server",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-21T07:22:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR KB5084816 (RDS version…"
-    },
-    {
-      "title": "Amazon Bedrock expands support for request-level usage attribution",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-20T23:34:00.000Z",
-      "snippet": "Amazon Bedrock customers can now attribute model inference usage to specific teams, applications, environments, and experiments at the individual request level on the InvokeModel and InvokeModelWithResponseStream APIs. This gives customers fine-grained…"
     }
   ]
 }
