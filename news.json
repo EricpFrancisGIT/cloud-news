@@ -1,12 +1,82 @@
 {
-  "lastUpdated": "2026-05-28T13:41:34.346Z",
+  "lastUpdated": "2026-05-28T19:41:54.619Z",
   "items": [
+    {
+      "title": "Introducing the next generation of AWS Resilience Hub for generative AI-based SRE resilience journey",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-05-28T19:29:55.000Z",
+      "snippet": "AWS launches the next generation of AWS Resilience Hub with a significantly expanded experience that brings together a new application model, dependency discovery assessment, generative AI-powered failure mode analysis, modular resilience policies, and…"
+    },
+    {
+      "title": "Simplifying policy management with URL and Domain Category filtering on AWS Network Firewall",
+      "link": "https://aws.amazon.com/blogs/security/simplifying-policy-management-with-url-and-domain-category-filtering-on-aws-network-firewall/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-28T18:57:13.000Z",
+      "snippet": "Network administrators face a persistent challenge: maintaining domain blocklists and allowlists that keep pace with the internet. New websites and services emerge daily, and keeping these lists current requires constant manual updates that leave gaps in…"
+    },
+    {
+      "title": "Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-05-28T18:26:16.000Z",
+      "snippet": "AWS rebuilt Amazon OpenSearch Serverless from the ground up for agentic AI and dynamic workloads. Get instant autoscaling and up to 60% cost savings."
+    },
+    {
+      "title": "AWS Organizations emits CloudTrail events for account membership changes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-cloudtrail/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T16:00:00.000Z",
+      "snippet": "AWS Organizations now automatically emits CloudTrail events to your management account whenever accounts join or leave your organization. These new events—AccountJoinedOrganization and AccountDepartedOrganization—provide security teams and cloud…"
+    },
+    {
+      "title": "Amazon Connect Customer expands generative AI-powered post-contact summaries to eight new languages",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-summary-languages/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T15:21:00.000Z",
+      "snippet": "Amazon Connect Customer now supports generative AI-powered post-contact summaries in eight additional language families: Portuguese, French, Italian, German, Spanish, Chinese, Japanese, and Korean. Post-contact summaries also now support non-US variations of…"
+    },
+    {
+      "title": "Claude Opus 4.8 is now available on AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T15:16:00.000Z",
+      "snippet": "AWS now offers Claude Opus 4.8 -- Anthropic's most capable generally available model to date -- delivering meaningful advances across agentic coding, professional knowledge work, and long-running autonomous tasks for developers and enterprises building…"
+    },
+    {
+      "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T15:00:00.000Z",
+      "snippet": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of item-level modifications in DynamoDB tables, enabling real-time…"
+    },
+    {
+      "title": "AWS Partner Central now supports deal sizing using total contract value (TCV)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-partner-central-opportunity-deal-sizing-tcv/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T14:00:00.000Z",
+      "snippet": "Today, AWS announces an enhancement to the opportunity deal sizing capability in AWS Partner Central, by allowing Partners to estimate deals using total contract value (TCV). Partners can now submit the TCV from the deal with the customer, and deal sizing…"
+    },
     {
       "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Notebook Instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/p6-b200-region-expansion-sagemaker-notebook-instances/",
       "source": "AWS What's New",
       "pubDate": "2026-05-27T23:30:00.000Z",
       "snippet": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker notebook instances. Amazon EC2 P6-B200 instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and 5th…"
+    },
+    {
+      "title": "Announcing Region Expansion of P5.48xl instances on SageMaker Notebook Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p5-48xl-region-expansion-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T23:30:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 P5.48xl instances in Asia Pacific (Tokyo) on SageMaker notebook instances. Amazon EC2 P5.48xl instances are powered by NVIDIA H100 Tensor Core GPUs and deliver high performance in Amazon EC2 for…"
+    },
+    {
+      "title": "Announcing Region Expansion of P4de instances on SageMaker Notebook Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/p4de-region-expansion-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T23:30:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 P4de instances in Asia Pacific (Tokyo) on SageMaker notebook instances. Amazon EC2 P4de instances are powered by 8 NVIDIA A100 GPUs with 80GB high-performance HBM2e GPU memory, 2X higher than the…"
     },
     {
       "title": "Amazon Bedrock expands support for Service Quotas",
@@ -16,11 +86,11 @@
       "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock customers can now view inference…"
     },
     {
-      "title": "SageMaker Notebook Instances now support P5.4xl instance types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
+      "title": "AWS Elemental Inference now supports Smart Subtitles for automated live captioning",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/elemental-inference-subtitles",
       "source": "AWS What's New",
-      "pubDate": "2026-05-27T20:30:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P5.4xl instances on SageMaker notebook instances. Amazon EC2 P5.4xl instances are powered by NVIDIA H100 Tensor Core GPUs and deliver high performance in Amazon EC2 for deep learning (DL) and high…"
+      "pubDate": "2026-05-27T21:00:00.000Z",
+      "snippet": "AWS Elemental Inference now supports smart subtitles, a new AI-powered feature that automatically generates real-time subtitles for live video streams. Smart subtitles use advanced speech recognition to transcribe spoken audio and deliver Timed Text Markup…"
     },
     {
       "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
@@ -28,6 +98,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-27T20:30:00.000Z",
       "snippet": "We are pleased to announce general availability of Amazon EC2 P5en.48xl instances on SageMaker notebook instances. Amazon EC2 P5en instances feature 8 H200 GPUs which have 1.7x GPU memory size and 1.4x GPU memory bandwidth than H100 GPUs featured in P5…"
+    },
+    {
+      "title": "SageMaker Notebook Instances now support P5.4xl instance types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T20:30:00.000Z",
+      "snippet": "We are pleased to announce general availability of Amazon EC2 P5.4xl instances on SageMaker notebook instances. Amazon EC2 P5.4xl instances are powered by NVIDIA H100 Tensor Core GPUs and deliver high performance in Amazon EC2 for deep learning (DL) and high…"
     },
     {
       "title": "Amazon EMR now supports Apache Spark 4.0.2 in general availability",
@@ -86,6 +163,13 @@
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Singapore), Asia Pacific (Sydney) and AWS GovCloud (US-West) regions. These instances are powered by custom Intel Xeon 6 processors available only on…"
     },
     {
+      "title": "AWS Neuron 2.30.0 now available with NKI 0.4.0 and 22 new NKI Library kernels",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announce-neuron-2-30-0",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-26T20:17:00.000Z",
+      "snippet": "Today, AWS announces the general availability of AWS Neuron 2.30.0, delivering NKI 0.4.0 with new AWS Trainium3 specific hardware capabilities, 22 new NKI Library kernels, and expanded Neuron Agentic Development skills for model porting and validation. This…"
+    },
+    {
       "title": "Welcoming the AWS Customer Incident Response Team",
       "link": "https://aws.amazon.com/blogs/security/welcoming-the-aws-customer-incident-response-team/",
       "source": "AWS Security Blog",
@@ -107,13 +191,6 @@
       "snippet": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security…"
     },
     {
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-East) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-r8i-r8i-flex-govcloud-east/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-26T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS GovCloud (US-East) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance…"
-    },
-    {
       "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-East) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8i-m8i-flex-govcloud-east/",
       "source": "AWS What's New",
@@ -121,95 +198,18 @@
       "snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-East) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth…"
     },
     {
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-East) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-r8i-r8i-flex-govcloud-east/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-26T16:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS GovCloud (US-East) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance…"
+    },
+    {
       "title": "Amazon VPC IPAM now supports tags on IPAM pool allocations",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-ipam-tags/",
       "source": "AWS What's New",
       "pubDate": "2026-05-26T13:00:00.000Z",
       "snippet": "Amazon VPC IP Address Manager (IPAM) now supports tags on IPAM pool allocations, enabling customers to organize, govern, and control access to individual IP address allocations using the same tagging workflows they use across other AWS resources. Amazon VPC…"
-    },
-    {
-      "title": "Amazon GuardDuty Malware Protection for AWS Backup supports Amazon S3 continuous backups",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-guardduty-aws-backup-s3-continuous/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-26T10:00:00.000Z",
-      "snippet": "Amazon GuardDuty Malware Protection for AWS Backup is now available for Amazon S3 continuous backups. You can now scan your S3 continuous backups for malware and identify clean points in time across your entire backup timeline for safe recovery. You can…"
-    },
-    {
-      "title": "AWS Weekly Roundup: AWS Local Zones in Istanbul, open-source ExtendDB, Kiro Web, and more (May 25, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-local-zones-in-istanbul-open-source-extenddb-kiro-web-and-more-may-25-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-25T20:11:10.000Z",
-      "snippet": "There’s something genuinely energizing about working with startups — something I’ve been doing intensely for more than two years now. Startups operate at a different frequency: the urgency is real, the constraints are tight, and the stakes are personal.…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio adds interactive interface for managing Feature Store in IAM Domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-feature-store/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T20:07:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio IAM domains now includes an interactive interface for creating and managing feature groups in SageMaker Feature Store, eliminating the need to write code for common feature management tasks. This launch makes feature management…"
-    },
-    {
-      "title": "Amazon SageMaker expands domain management across domain types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/domain-management-iam-idc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T19:30:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now provides domain management experience for Identity Center and IAM-based domains outside of AWS console, allows administrators and data management teams to create and manage projects, configure workforce identity, manage…"
-    },
-    {
-      "title": "New agentic migration assessment capabilities now available with AWS Transform",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T18:58:00.000Z",
-      "snippet": "AWS Transform now offers advanced migration assessment capabilities including what-if scenarios, customizable assumptions, flexible file format support, and multiple new total cost of ownership (TCO) assessment features. These latest features let you quickly…"
-    },
-    {
-      "title": "Amazon SageMaker adds business metadata and governance in IAM-based domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-catalog-iam-domains/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T18:24:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports business context, metadata and data governance capabilities in IAM-based domains. With this launch, customers using Amazon SageMaker IAM-based domains can add business context to their AWS Glue Data Catalog tables,…"
-    },
-    {
-      "title": "AWS Security Agent adds verification scripts for pentest findings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T17:21:00.000Z",
-      "snippet": "AWS Security Agent now generates verification scripts for penetration test findings, enabling security teams to independently reproduce and validate discovered vulnerabilities. Previously, teams manually followed reproduction steps from finding details. Now,…"
-    },
-    {
-      "title": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T16:39:00.000Z",
-      "snippet": "Today, Amazon GameLift Streams launched Generation 6e (G6e) stream classes, providing enhanced GPU performance for streaming high-fidelity, graphically demanding games and applications. The new G6e stream classes are powered by EC2 G6e instances featuring…"
-    },
-    {
-      "title": "Amazon WorkSpaces Personal now supports WorkSpace Migration for Linux WorkSpaces",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-linux-migration",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T16:24:00.000Z",
-      "snippet": "Amazon WorkSpaces now supports the WorkSpace Migration feature for all Linux operating systems that Amazon WorkSpaces offers. This allows customers to seamlessly migrate WorkSpaces from one Linux operating system to another, automating the process to migrate…"
-    },
-    {
-      "title": "Amazon Keyspaces (for Apache Cassandra) expands to Asia Pacific (Malaysia) and Asia Pacific (Thailand) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-keyspaces-malaysia-thailand/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T16:00:00.000Z",
-      "snippet": "Amazon Keyspaces (for Apache Cassandra) is now available in the Asia Pacific (Malaysia) and Asia Pacific (Thailand) Regions, allowing customers in Asia Pacific Region to build Cassandra-compatible applications with lower latency while keeping their data…"
-    },
-    {
-      "title": "AWS Clean Rooms now supports mutable payment configurations for collaborations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T12:00:00.000Z",
-      "snippet": "AWS Clean Rooms now supports mutable fine-grained payment configurations for collaboration members. This capability offers customers greater flexibility and control over payment responsibilities as they develop new use cases with their partners. With this…"
-    },
-    {
-      "title": "AWS Secrets Manager adds managed external secrets support for Datadog vended keys and Snowflake Programmatic Access Tokens",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-22T07:00:00.000Z",
-      "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Datadog Keys and Snowflake Programmatic Access Tokens (PATs). Managed external secrets enable customers to automatically rotate third-party credentials directly from AWS…"
     }
   ]
 }
