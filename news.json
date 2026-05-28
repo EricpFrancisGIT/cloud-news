@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T01:40:46.098Z",
+  "lastUpdated": "2026-05-28T07:41:08.462Z",
   "items": [
     {
       "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Notebook Instances",
@@ -7,6 +7,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-27T23:30:00.000Z",
       "snippet": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker notebook instances. Amazon EC2 P6-B200 instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and 5th…"
+    },
+    {
+      "title": "Amazon Bedrock expands support for Service Quotas",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T21:41:00.000Z",
+      "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock customers can now view inference…"
     },
     {
       "title": "SageMaker Notebook Instances now support P5.4xl instance types",
@@ -56,6 +63,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-27T15:06:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now supports minimum capacity requirements (MinCount) for clusters using Slurm orchestration with continuous provisioning. With continuous provisioning, HyperPod provisions clusters with available partial capacity so you can start…"
+    },
+    {
+      "title": "Amazon Aurora MySQL now supports integration with Kiro Powers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-27T15:00:00.000Z",
+      "snippet": "Today, AWS announces that Amazon Aurora MySQL-Compatible Edition now supports integration with Kiro Powers, enabling developers to build Aurora MySQL-backed applications faster with AI agent assistance. Kiro Powers is a repository of curated and pre-packaged…"
     },
     {
       "title": "AWS Backup adds OTP verification for Multi-party approval on logically air-gapped vaults",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-22T07:00:00.000Z",
       "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Datadog Keys and Snowflake Programmatic Access Tokens (PATs). Managed external secrets enable customers to automatically rotate third-party credentials directly from AWS…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-21T23:00:00.000Z",
-      "snippet": "Amazon CloudWatch Logs Insights query language now supports 13 new commands and functions that give you more powerful ways to query, transform, and analyze your logs. Customers analyzing logs in CloudWatch Logs Insights often need to perform string…"
-    },
-    {
-      "title": "AWS KY3P report now available for third-party supplier due diligence",
-      "link": "https://aws.amazon.com/blogs/security/aws-ky3p-report-now-available-for-third-party-supplier-due-diligence/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-21T19:58:03.000Z",
-      "snippet": "We’re excited to announce that Amazon Web Services (AWS) has completed the S&P Global Know Your Third Party (KY3P) assessment of its security posture. This assessment demonstrates our continued commitment to meet the heightened expectations of cloud service…"
     }
   ]
 }
