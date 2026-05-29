@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-05-29T13:42:57.837Z",
+  "lastUpdated": "2026-05-29T19:43:15.939Z",
   "items": [
+    {
+      "title": "Amazon Connect Customer now supports scheduling tasks up to 90 days in advance",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-tasks-90day-schedule",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T18:00:00.000Z",
+      "snippet": "Amazon Connect Customer now supports scheduling tasks up to 90 days in advance, helping organizations plan, route, and track long-running follow-up work. For example, an insurance team managing an auto repair claim can schedule future tasks for an adjuster…"
+    },
+    {
+      "title": "AWS Shield Advanced introduces DDoS attack flow logs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-shield-ddos/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T17:00:00.000Z",
+      "snippet": "AWS Shield Advanced announces distributed denial-of-service (DDoS) attack flow logs, giving you packet-level visibility into traffic hitting Shield Advanced protected resources during a DDoS attack. The log data is published to Amazon S3, Amazon CloudWatch…"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports April 2026 Release Update and Supplemental Patch Bundle",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-oracle-supports-april-2026-release-update-supplemental-patch-bundle",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T07:49:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Oracle April 2026 Release Update (RU) for Oracle Database versions 19c and 21c, and the corresponding Supplemental Patch Bundle for Oracle Database version 19c. We recommend upgrading…"
+    },
+    {
+      "title": "Oracle Database@AWS is now available in twenty AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T07:00:00.000Z",
+      "snippet": "Oracle Database@AWS is now generally available in eight additional AWS Regions: EU-Central-2 (Zurich), EU-South-1 (Milan), EU-South-2 (Spain), EU-West-3 (Paris), AP-Northeast-3 (Osaka), AP-Southeast-1 (Singapore), AP-Southeast-4 (Melbourne) and SA-East-1 (Sao…"
+    },
+    {
+      "title": "Amazon S3 Tables are now available in two additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T04:00:00.000Z",
+      "snippet": "Amazon S3 Tables are now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions. Amazon S3 Tables deliver the first cloud object store with built-in Apache Iceberg support, streamlining tabular data storage at scale. S3 Tables…"
+    },
     {
       "title": "Why and how to migrate to a Transit Gateway-attached AWS Network Firewall",
       "link": "https://aws.amazon.com/blogs/security/why-and-how-to-migrate-to-a-transit-gateway-attached-aws-network-firewall/",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-27T17:00:00.000Z",
       "snippet": "Amazon Connect Customer now enables managers to use generative AI to automatically evaluate self-service interactions, and get aggregated insights to help improve customer experience. Managers can define custom evaluation criteria in natural language within…"
-    },
-    {
-      "title": "Meet Our Newest AWS Heroes – May 2026",
-      "link": "https://aws.amazon.com/blogs/aws/meet-our-newest-aws-heroes-may-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-27T16:15:05.000Z",
-      "snippet": "We’re excited to welcome four outstanding community leaders as our newest AWS Heroes. These individuals embody the spirit of collaboration and knowledge sharing that makes the AWS community thrive. From building AI-powered tools that help fellow builders…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod Slurm clusters now support specifying minimum capacity requirements with continuous provisioning",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-mincount/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T15:06:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports minimum capacity requirements (MinCount) for clusters using Slurm orchestration with continuous provisioning. With continuous provisioning, HyperPod provisions clusters with available partial capacity so you can start…"
-    },
-    {
-      "title": "Amazon Aurora MySQL now supports integration with Kiro Powers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T15:00:00.000Z",
-      "snippet": "Today, AWS announces that Amazon Aurora MySQL-Compatible Edition now supports integration with Kiro Powers, enabling developers to build Aurora MySQL-backed applications faster with AI agent assistance. Kiro Powers is a repository of curated and pre-packaged…"
-    },
-    {
-      "title": "AWS Backup adds OTP verification for Multi-party approval on logically air-gapped vaults",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T10:00:00.000Z",
-      "snippet": "AWS Backup now requires one-time password (OTP) verification when approvers vote on Multi-party approval actions for logically air-gapped vaults. When an approver votes on an Multi-party approval request, they must enter a six-digit code sent to their…"
-    },
-    {
-      "title": "Amazon EC2 X8i instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-SIN-SYD-PDT-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-26T21:58:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Singapore), Asia Pacific (Sydney) and AWS GovCloud (US-West) regions. These instances are powered by custom Intel Xeon 6 processors available only on…"
     }
   ]
 }
