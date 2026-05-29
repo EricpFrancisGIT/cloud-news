@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-05-28T19:41:54.619Z",
+  "lastUpdated": "2026-05-29T01:42:11.143Z",
   "items": [
+    {
+      "title": "Why and how to migrate to a Transit Gateway-attached AWS Network Firewall",
+      "link": "https://aws.amazon.com/blogs/security/why-and-how-to-migrate-to-a-transit-gateway-attached-aws-network-firewall/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-05-28T22:44:17.000Z",
+      "snippet": "AWS Network Firewall now supports native attachment to AWS Transit Gateway. Customers commonly use Transit Gateway to route traffic from Amazon Virtual Private Cloud (Amazon VPC) networks to a centralized inspection VPC (a VPC dedicated to hosting firewall…"
+    },
+    {
+      "title": "Monitor AWS Budgets directly in Billing and Cost Management Dashboards with new Budgets widget",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/monitor-aws-budgets-using-dashboards",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T20:57:00.000Z",
+      "snippet": "Today, AWS Billing and Cost Management (BCM) announces support for Budgets widgets in BCM Dashboards, giving you the flexibility to customize your cost management console with the views that matter most to your organization. You can now monitor AWS Budgets…"
+    },
+    {
+      "title": "AWS IoT Core adds APIs for MQTT connection management",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-apis-mqtt/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T20:30:00.000Z",
+      "snippet": "Today, AWS IoT Core launches two new MQTT connection management APIs, GetConnection and ListSubscriptions, enabling you to easily access MQTT client connection and subscription information for your Internet of Things (IoT) devices. These APIs help you…"
+    },
     {
       "title": "Introducing the next generation of AWS Resilience Hub for generative AI-based SRE resilience journey",
       "link": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/",
@@ -30,6 +51,13 @@
       "snippet": "AWS Organizations now automatically emits CloudTrail events to your management account whenever accounts join or leave your organization. These new events—AccountJoinedOrganization and AccountDepartedOrganization—provide security teams and cloud…"
     },
     {
+      "title": "AWS announces general availability of the next generation of AWS Resilience Hub",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T16:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of the next generation of AWS Resilience Hub, a central location in the AWS console that helps platform engineering and site reliability teams assess and strengthen the resilience of their critical workloads…"
+    },
+    {
       "title": "Amazon Connect Customer expands generative AI-powered post-contact summaries to eight new languages",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-summary-languages/",
       "source": "AWS What's New",
@@ -49,6 +77,27 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-28T15:00:00.000Z",
       "snippet": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of item-level modifications in DynamoDB tables, enabling real-time…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T15:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Applications now supports the ability to set up streaming resources powered by Windows Desktop operating systems using Bring Your Own License (BYOL). Customers can now bring their existing Windows Desktop licenses to support their eligible…"
+    },
+    {
+      "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T15:00:00.000Z",
+      "snippet": "Today, AWS announced the general availability of the next generation of Amazon OpenSearch Serverless, a fully managed search and vector engine designed for customers building agents. The next generation of OpenSearch Serverless auto scales 20x faster than its…"
+    },
+    {
+      "title": "AWS IoT Core now supports direct messaging for point-to-point communication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-direct-messaging/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T14:56:00.000Z",
+      "snippet": "AWS IoT Core now supports the ability to send point-to-point messages to any connected device, providing better visibility into message delivery and lower messaging cost. AWS IoT Core is a fully managed service that securely connects IoT devices to the AWS…"
     },
     {
       "title": "AWS Partner Central now supports deal sizing using total contract value (TCV)",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-26T21:58:00.000Z",
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Singapore), Asia Pacific (Sydney) and AWS GovCloud (US-West) regions. These instances are powered by custom Intel Xeon 6 processors available only on…"
-    },
-    {
-      "title": "AWS Neuron 2.30.0 now available with NKI 0.4.0 and 22 new NKI Library kernels",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announce-neuron-2-30-0",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-26T20:17:00.000Z",
-      "snippet": "Today, AWS announces the general availability of AWS Neuron 2.30.0, delivering NKI 0.4.0 with new AWS Trainium3 specific hardware capabilities, 22 new NKI Library kernels, and expanded Neuron Agentic Development skills for model porting and validation. This…"
-    },
-    {
-      "title": "Welcoming the AWS Customer Incident Response Team",
-      "link": "https://aws.amazon.com/blogs/security/welcoming-the-aws-customer-incident-response-team/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-26T19:04:17.000Z",
-      "snippet": "May 26, 2026: This post was originally published in July 2022. It has been updated to reflect current engagement options, new threat intelligence resources such as the Threat Technique Catalog for AWS (TTC), additional open-source tools, and the distinction…"
-    },
-    {
-      "title": "Amazon RDS now supports ENA Express for Multi-AZ replication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-ena-express-multiAZ/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-26T19:00:00.000Z",
-      "snippet": "Amazon RDS Multi-AZ instances now use ENA Express for replication traffic between Availability Zones. ENA Express uses AWS's Scalable Reliable Datagram (SRD) protocol to optimize network performance by delivering up to 25 Gbps single-flow bandwidth for…"
-    },
-    {
-      "title": "Well-architected best practices for software supply chain security",
-      "link": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-26T17:03:30.000Z",
-      "snippet": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security…"
-    },
-    {
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-East) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8i-m8i-flex-govcloud-east/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-26T16:00:00.000Z",
-      "snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-East) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth…"
-    },
-    {
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-East) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-r8i-r8i-flex-govcloud-east/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-26T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS GovCloud (US-East) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance…"
-    },
-    {
-      "title": "Amazon VPC IPAM now supports tags on IPAM pool allocations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-vpc-ipam-tags/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-26T13:00:00.000Z",
-      "snippet": "Amazon VPC IP Address Manager (IPAM) now supports tags on IPAM pool allocations, enabling customers to organize, govern, and control access to individual IP address allocations using the same tagging workflows they use across other AWS resources. Amazon VPC…"
     }
   ]
 }
