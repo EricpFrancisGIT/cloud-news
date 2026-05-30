@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T01:43:33.244Z",
+  "lastUpdated": "2026-05-30T07:43:50.845Z",
   "items": [
     {
       "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
@@ -30,18 +30,18 @@
       "snippet": "AWS Shield Advanced announces distributed denial-of-service (DDoS) attack flow logs, giving you packet-level visibility into traffic hitting Shield Advanced protected resources during a DDoS attack. The log data is published to Amazon S3, Amazon CloudWatch…"
     },
     {
-      "title": "AWS Interconnect - multicloud now offers a free 500 Mbps tier",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-interconnect-multicloud-offers-free-500-mbps-tier",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T15:00:00.000Z",
-      "snippet": "AWS Interconnect - multicloud now offers a free 500 Mbps multicloud Interconnect, making it easier to privately connect your workloads on AWS and other public clouds. Customers have been adopting multicloud strategies while migrating more applications to the…"
-    },
-    {
       "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/",
       "source": "AWS What's New",
       "pubDate": "2026-05-29T15:00:00.000Z",
       "snippet": "Amazon Redshift now allows you to get started with Amazon Redshift Serverless with a lower data warehouse base capacity configuration of 4 Redshift Processing Units (RPUs) in the Asia Pacific (Hong Kong), Asia Pacific (Seoul), Canada (Central), Europe…"
+    },
+    {
+      "title": "AWS Interconnect - multicloud now offers a free 500 Mbps tier",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-interconnect-multicloud-offers-free-500-mbps-tier",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T15:00:00.000Z",
+      "snippet": "AWS Interconnect - multicloud now offers a free 500 Mbps multicloud Interconnect, making it easier to privately connect your workloads on AWS and other public clouds. Customers have been adopting multicloud strategies while migrating more applications to the…"
     },
     {
       "title": "Amazon RDS for Oracle now supports April 2026 Release Update and Supplemental Patch Bundle",
@@ -135,18 +135,18 @@
       "snippet": "AWS now offers Claude Opus 4.8 -- Anthropic's most capable generally available model to date -- delivering meaningful advances across agentic coding, professional knowledge work, and long-running autonomous tasks for developers and enterprises building…"
     },
     {
-      "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T15:00:00.000Z",
-      "snippet": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of item-level modifications in DynamoDB tables, enabling real-time…"
-    },
-    {
       "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
       "source": "AWS What's New",
       "pubDate": "2026-05-28T15:00:00.000Z",
       "snippet": "Amazon WorkSpaces Applications now supports the ability to set up streaming resources powered by Windows Desktop operating systems using Bring Your Own License (BYOL). Customers can now bring their existing Windows Desktop licenses to support their eligible…"
+    },
+    {
+      "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T15:00:00.000Z",
+      "snippet": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of item-level modifications in DynamoDB tables, enabling real-time…"
     },
     {
       "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
