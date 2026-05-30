@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-05-29T19:43:15.939Z",
+  "lastUpdated": "2026-05-30T01:43:33.244Z",
   "items": [
+    {
+      "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T21:48:00.000Z",
+      "snippet": "Today, Amazon Simple Email Service (SES) launched a new set of deliverability features that help customers get more information about their outbound sending deliverability performance and reputation. Customers can now see the percentage of messages that are…"
+    },
+    {
+      "title": "AWS End User Messaging RCS for Business now available in 20 additional countries",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rcs-countries/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T20:23:00.000Z",
+      "snippet": "AWS End User Messaging now supports RCS for Business messaging in 20 additional countries, bringing the total to 22. Businesses can now send verified, branded RCS messages to customers in Austria, Brazil, Colombia, Czech Republic, Denmark, Dominican Republic,…"
+    },
     {
       "title": "Amazon Connect Customer now supports scheduling tasks up to 90 days in advance",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-tasks-90day-schedule",
@@ -14,6 +28,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-29T17:00:00.000Z",
       "snippet": "AWS Shield Advanced announces distributed denial-of-service (DDoS) attack flow logs, giving you packet-level visibility into traffic hitting Shield Advanced protected resources during a DDoS attack. The log data is published to Amazon S3, Amazon CloudWatch…"
+    },
+    {
+      "title": "AWS Interconnect - multicloud now offers a free 500 Mbps tier",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-interconnect-multicloud-offers-free-500-mbps-tier",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T15:00:00.000Z",
+      "snippet": "AWS Interconnect - multicloud now offers a free 500 Mbps multicloud Interconnect, making it easier to privately connect your workloads on AWS and other public clouds. Customers have been adopting multicloud strategies while migrating more applications to the…"
+    },
+    {
+      "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-29T15:00:00.000Z",
+      "snippet": "Amazon Redshift now allows you to get started with Amazon Redshift Serverless with a lower data warehouse base capacity configuration of 4 Redshift Processing Units (RPUs) in the Asia Pacific (Hong Kong), Asia Pacific (Seoul), Canada (Central), Europe…"
     },
     {
       "title": "Amazon RDS for Oracle now supports April 2026 Release Update and Supplemental Patch Bundle",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-27T20:30:00.000Z",
       "snippet": "We are pleased to announce general availability of Amazon EC2 P5en.48xl instances on SageMaker notebook instances. Amazon EC2 P5en instances feature 8 H200 GPUs which have 1.7x GPU memory size and 1.4x GPU memory bandwidth than H100 GPUs featured in P5…"
-    },
-    {
-      "title": "SageMaker Notebook Instances now support P5.4xl instance types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T20:30:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P5.4xl instances on SageMaker notebook instances. Amazon EC2 P5.4xl instances are powered by NVIDIA H100 Tensor Core GPUs and deliver high performance in Amazon EC2 for deep learning (DL) and high…"
-    },
-    {
-      "title": "Amazon EMR now supports Apache Spark 4.0.2 in general availability",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-apache-spark/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T20:17:00.000Z",
-      "snippet": "Amazon EMR now supports Apache Spark 4.0.2 across all three deployment models. With Spark 4.0.2, you can build and maintain data pipelines more easily with ANSI SQL and VARIANT data types, enforce fine-grained access control (FGAC) at the row level or column…"
-    },
-    {
-      "title": "AWS Glue large and memory optimized workers now available in Europe (Spain) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T20:10:00.000Z",
-      "snippet": "AWS Glue now offers large and memory-optimized workers in the AWS Europe (Spain) Region, giving customers in this region more power to handle complex data processing workloads. The new additions include two general compute workers (G.12X and G.16X) as well as…"
-    },
-    {
-      "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now enables managers to use generative AI to automatically evaluate self-service interactions, and get aggregated insights to help improve customer experience. Managers can define custom evaluation criteria in natural language within…"
     }
   ]
 }
