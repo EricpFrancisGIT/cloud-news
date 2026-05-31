@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T01:44:47.748Z",
+  "lastUpdated": "2026-05-31T07:45:05.634Z",
   "items": [
     {
       "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
@@ -135,18 +135,18 @@
       "snippet": "AWS now offers Claude Opus 4.8 -- Anthropic's most capable generally available model to date -- delivering meaningful advances across agentic coding, professional knowledge work, and long-running autonomous tasks for developers and enterprises building…"
     },
     {
-      "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T15:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now supports the ability to set up streaming resources powered by Windows Desktop operating systems using Bring Your Own License (BYOL). Customers can now bring their existing Windows Desktop licenses to support their eligible…"
-    },
-    {
       "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
       "source": "AWS What's New",
       "pubDate": "2026-05-28T15:00:00.000Z",
       "snippet": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of item-level modifications in DynamoDB tables, enabling real-time…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-28T15:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Applications now supports the ability to set up streaming resources powered by Windows Desktop operating systems using Bring Your Own License (BYOL). Customers can now bring their existing Windows Desktop licenses to support their eligible…"
     },
     {
       "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
