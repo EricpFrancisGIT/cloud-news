@@ -1,6 +1,97 @@
 {
-  "lastUpdated": "2026-06-01T14:14:42.079Z",
+  "lastUpdated": "2026-06-01T20:15:00.978Z",
   "items": [
+    {
+      "title": "Quick Research now supports customer managed keys",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-research-cm-keys",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T18:27:00.000Z",
+      "snippet": "Amazon Quick Research now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict security and compliance requirements to manage their own encryption…"
+    },
+    {
+      "title": "Amazon SageMaker adds permissions boundaries for SCP compliance",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-scp/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T17:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports custom IAM permissions boundaries, so organizations that enforce Service Control Policies (SCPs) requiring permissions boundaries on all IAM roles can adopt SageMaker Unified Studio without modifying their security…"
+    },
+    {
+      "title": "Building a scalable user search layer on top of Amazon Cognito",
+      "link": "https://aws.amazon.com/blogs/architecture/building-a-scalable-user-search-layer-on-top-of-amazon-cognito/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-01T16:16:45.000Z",
+      "snippet": "In this post, we show how to build a comprehensive scalable user search layer on top of Amazon Cognito using AWS Lambda, Amazon DynamoDB, and Amazon OpenSearch Service."
+    },
+    {
+      "title": "Spring 2026 SOC 1, 2, and 3 reports are now available with 188 services in scope",
+      "link": "https://aws.amazon.com/blogs/security/spring-2026-soc-1-2-and-3-reports-are-now-available-with-188-services-in-scope/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-01T16:07:48.000Z",
+      "snippet": "Amazon Web Services (AWS) is pleased to announce that the Spring 2026 System and Organization Controls (SOC) 1, 2, and 3 reports are now available. The reports cover 188 services over the 12-month period from April 1, 2025–March 31, 2026, giving customers a…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T16:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
+    },
+    {
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T16:00:00.000Z",
+      "snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth…"
+    },
+    {
+      "title": "Amazon EC2 M8azn instances are now available in Europe (Ireland) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8azn-europe-ireland/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T16:00:00.000Z",
+      "snippet": "Starting today, Amazon EC2 M8azn instances are now available in Europe (Ireland) Region. These general purpose high-frequency high-network instances are powered by fifth generation AMD EPYC (formerly code named Turin) processors and offer the highest maximum…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T16:00:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports EFA-only network interfaces for cluster instance groups, enabling you to configure dedicated Elastic Fabric Adapter (EFA) devices without the traditional Elastic Network Adapter (ENA) for IP networking. SageMaker…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T16:00:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now provides troubleshooting skills that bring expert-level AI/ML cluster diagnostics directly into AI coding assistants such as Claude Code, Cursor, and Kiro. SageMaker HyperPod is a purpose-built infrastructure for developing,…"
+    },
+    {
+      "title": "AWS Direct Connect now supports VIF Rate Limiters to help prevent network congestion",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-direct-connect-now-supports-vif-rate-limiters/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T15:00:00.000Z",
+      "snippet": "AWS Direct Connect now supports Virtual Interface (VIF) Rate Limiters on dedicated connections, which help you prevent network congestion caused by unexpected traffic spikes on a VIF which can potentially consume all available bandwidth, impacting workloads…"
+    },
+    {
+      "title": "AWS Weekly Roundup: Claude Opus 4.8 on AWS, Aurora MySQL with Kiro Powers, and more (June 1, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-8-on-aws-aurora-mysql-with-kiro-powers-and-more-june-1-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-01T14:25:33.000Z",
+      "snippet": "In my last Week in Review post, I shared what I’d been hearing from customers in the AI-Driven Development Lifecycle (AI-DLC) workshops I’ve been delivering. Last week I was back at it, this time in Denver for a two-day AI-DLC workshop, where I helped…"
+    },
+    {
+      "title": "Amazon Bedrock adds Amazon CloudWatch metrics for OpenAI- and Anthropic-compatible APIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T13:38:00.000Z",
+      "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock customers can now monitor…"
+    },
+    {
+      "title": "Amazon SES now supports tenant-level suppression lists",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ses-tenant-level-suppression-lists/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T12:00:00.000Z",
+      "snippet": "Amazon Simple Email Service (Amazon SES) now supports tenant-level suppression lists, allowing email senders to isolate bounces and complaints per tenant. Previously, all tenants in an account shared a single suppression list, meaning one tenant's email…"
+    },
     {
       "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/",
@@ -119,97 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-28T16:00:00.000Z",
       "snippet": "Today, AWS announces the general availability of the next generation of AWS Resilience Hub, a central location in the AWS console that helps platform engineering and site reliability teams assess and strengthen the resilience of their critical workloads…"
-    },
-    {
-      "title": "Amazon Connect Customer expands generative AI-powered post-contact summaries to eight new languages",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-summary-languages/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T15:21:00.000Z",
-      "snippet": "Amazon Connect Customer now supports generative AI-powered post-contact summaries in eight additional language families: Portuguese, French, Italian, German, Spanish, Chinese, Japanese, and Korean. Post-contact summaries also now support non-US variations of…"
-    },
-    {
-      "title": "Claude Opus 4.8 is now available on AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T15:16:00.000Z",
-      "snippet": "AWS now offers Claude Opus 4.8 -- Anthropic's most capable generally available model to date -- delivering meaningful advances across agentic coding, professional knowledge work, and long-running autonomous tasks for developers and enterprises building…"
-    },
-    {
-      "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T15:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now supports the ability to set up streaming resources powered by Windows Desktop operating systems using Bring Your Own License (BYOL). Customers can now bring their existing Windows Desktop licenses to support their eligible…"
-    },
-    {
-      "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T15:00:00.000Z",
-      "snippet": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of item-level modifications in DynamoDB tables, enabling real-time…"
-    },
-    {
-      "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T15:00:00.000Z",
-      "snippet": "Today, AWS announced the general availability of the next generation of Amazon OpenSearch Serverless, a fully managed search and vector engine designed for customers building agents. The next generation of OpenSearch Serverless auto scales 20x faster than its…"
-    },
-    {
-      "title": "AWS IoT Core now supports direct messaging for point-to-point communication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-direct-messaging/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T14:56:00.000Z",
-      "snippet": "AWS IoT Core now supports the ability to send point-to-point messages to any connected device, providing better visibility into message delivery and lower messaging cost. AWS IoT Core is a fully managed service that securely connects IoT devices to the AWS…"
-    },
-    {
-      "title": "AWS Partner Central now supports deal sizing using total contract value (TCV)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-partner-central-opportunity-deal-sizing-tcv/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T14:00:00.000Z",
-      "snippet": "Today, AWS announces an enhancement to the opportunity deal sizing capability in AWS Partner Central, by allowing Partners to estimate deals using total contract value (TCV). Partners can now submit the TCV from the deal with the customer, and deal sizing…"
-    },
-    {
-      "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Notebook Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/p6-b200-region-expansion-sagemaker-notebook-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T23:30:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker notebook instances. Amazon EC2 P6-B200 instances are powered by 8 NVIDIA Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and 5th…"
-    },
-    {
-      "title": "Announcing Region Expansion of P5.48xl instances on SageMaker Notebook Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p5-48xl-region-expansion-sagemaker-notebook-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T23:30:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P5.48xl instances in Asia Pacific (Tokyo) on SageMaker notebook instances. Amazon EC2 P5.48xl instances are powered by NVIDIA H100 Tensor Core GPUs and deliver high performance in Amazon EC2 for…"
-    },
-    {
-      "title": "Announcing Region Expansion of P4de instances on SageMaker Notebook Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/p4de-region-expansion-sagemaker-notebook-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T23:30:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P4de instances in Asia Pacific (Tokyo) on SageMaker notebook instances. Amazon EC2 P4de instances are powered by 8 NVIDIA A100 GPUs with 80GB high-performance HBM2e GPU memory, 2X higher than the…"
-    },
-    {
-      "title": "Amazon Bedrock expands support for Service Quotas",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T21:41:00.000Z",
-      "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock customers can now view inference…"
-    },
-    {
-      "title": "AWS Elemental Inference now supports Smart Subtitles for automated live captioning",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/elemental-inference-subtitles",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T21:00:00.000Z",
-      "snippet": "AWS Elemental Inference now supports smart subtitles, a new AI-powered feature that automatically generates real-time subtitles for live video streams. Smart subtitles use advanced speech recognition to transcribe spoken audio and deliver Timed Text Markup…"
-    },
-    {
-      "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-27T20:30:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 P5en.48xl instances on SageMaker notebook instances. Amazon EC2 P5en instances feature 8 H200 GPUs which have 1.7x GPU memory size and 1.4x GPU memory bandwidth than H100 GPUs featured in P5…"
     }
   ]
 }
