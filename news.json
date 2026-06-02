@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-02T08:15:41.850Z",
+  "lastUpdated": "2026-06-02T14:16:03.438Z",
   "items": [
+    {
+      "title": "Automating contract intelligence with Doczy.ai™ on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-02T14:06:32.000Z",
+      "snippet": "In this post, we show you how Doczy.ai™ uses generative AI on AWS to automate contract intelligence at scale, transforming unstructured documents into structured, actionable insights, so organizations can automate critical business processes and unlock the…"
+    },
     {
       "title": "AWS HealthOmics now supports Nextflow version pinning at run time",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-pinning-at-runtime/",
@@ -65,13 +72,6 @@
       "snippet": "Amazon Web Services (AWS) is pleased to announce that the Spring 2026 System and Organization Controls (SOC) 1, 2, and 3 reports are now available. The reports cover 188 services over the 12-month period from April 1, 2025–March 31, 2026, giving customers a…"
     },
     {
-      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
-    },
-    {
       "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
       "source": "AWS What's New",
@@ -84,6 +84,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-01T16:00:00.000Z",
       "snippet": "Starting today, Amazon EC2 M8azn instances are now available in Europe (Ireland) Region. These general purpose high-frequency high-network instances are powered by fifth generation AMD EPYC (formerly code named Turin) processors and offer the highest maximum…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T16:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
     },
     {
       "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-29T04:00:00.000Z",
       "snippet": "Amazon S3 Tables are now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions. Amazon S3 Tables deliver the first cloud object store with built-in Apache Iceberg support, streamlining tabular data storage at scale. S3 Tables…"
-    },
-    {
-      "title": "Why and how to migrate to a Transit Gateway-attached AWS Network Firewall",
-      "link": "https://aws.amazon.com/blogs/security/why-and-how-to-migrate-to-a-transit-gateway-attached-aws-network-firewall/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-28T22:44:17.000Z",
-      "snippet": "AWS Network Firewall now supports native attachment to AWS Transit Gateway. Customers commonly use Transit Gateway to route traffic from Amazon Virtual Private Cloud (Amazon VPC) networks to a centralized inspection VPC (a VPC dedicated to hosting firewall…"
     }
   ]
 }
