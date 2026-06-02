@@ -1,12 +1,47 @@
 {
-  "lastUpdated": "2026-06-01T20:15:00.978Z",
+  "lastUpdated": "2026-06-02T02:15:22.208Z",
   "items": [
+    {
+      "title": "AWS HealthOmics now supports Nextflow version pinning at run time",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-pinning-at-runtime/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T23:00:00.000Z",
+      "snippet": "AWS HealthOmics now allows customers to specify the Nextflow engine version at run time via the StartRun API, enabling customers to pin runs to a specific Nextflow version for controlled migration. With this launch, customers can select from supported…"
+    },
+    {
+      "title": "AWS HealthOmics now supports Nextflow version 26.04",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-26-04/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T23:00:00.000Z",
+      "snippet": "AWS HealthOmics now supports Nextflow version 26.04, enabling customers to take advantage of new Nextflow features and enhancements: record types, the strict syntax parser, workflow output summaries, and agent logging mode. AWS HealthOmics is a HIPAA-eligible…"
+    },
+    {
+      "title": "Scaling oncology patient support: How New York Cancer and Blood Specialists transformed customer experience with AWS and Pronetx, now part of Caylent",
+      "link": "https://aws.amazon.com/blogs/architecture/scaling-oncology-patient-support-how-new-york-cancer-and-blood-specialists-transformed-customer-experience-with-aws-and-pronetx-now-part-of-caylent/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-01T21:45:52.000Z",
+      "snippet": "This post details how NYCBS partnered with Amazon Web Services (AWS) and AWS partner Pronetx (now part of Caylent) to migrate to Amazon Connect Customer, the AWS cloud contact center service. The migration delivered a 54 percent improvement in patient…"
+    },
+    {
+      "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-01T21:33:28.000Z",
+      "snippet": "OpenAI frontier models GPT-5.5 and GPT-5.4, and Codex, the OpenAI coding agent, are now generally available on Amazon Bedrock. Deploy frontier models on Bedrock's high performance inference engine with built-in security, governance, and pay-per-token pricing."
+    },
     {
       "title": "Quick Research now supports customer managed keys",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-research-cm-keys",
       "source": "AWS What's New",
       "pubDate": "2026-06-01T18:27:00.000Z",
       "snippet": "Amazon Quick Research now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict security and compliance requirements to manage their own encryption…"
+    },
+    {
+      "title": "Amazon Quick now supports VPC connectivity for MCP connections",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-vpc-mcp/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T17:26:00.000Z",
+      "snippet": "Amazon Quick now enables enterprise customers to connect their privately hosted Model Context Protocol (MCP) servers to Quick through Amazon Virtual Private Cloud (VPC). Amazon Quick is an AI assistant that turns questions into answers, answers into actions,…"
     },
     {
       "title": "Amazon SageMaker adds permissions boundaries for SCP compliance",
@@ -86,11 +121,25 @@
       "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock customers can now monitor…"
     },
     {
+      "title": "GPT-5.5, GPT-5.4, and Codex from OpenAI are now generally available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-openai-models-codex-generally-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T13:00:00.000Z",
+      "snippet": "You can now use GPT-5.5 and GPT-5.4 in production workloads on Amazon Bedrock and build with Codex for AI-powered software development, with the same security, governance, and operational controls you already use across AWS. GPT-5.5 is the most capable model…"
+    },
+    {
       "title": "Amazon SES now supports tenant-level suppression lists",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ses-tenant-level-suppression-lists/",
       "source": "AWS What's New",
       "pubDate": "2026-06-01T12:00:00.000Z",
       "snippet": "Amazon Simple Email Service (Amazon SES) now supports tenant-level suppression lists, allowing email senders to isolate bounces and complaints per tenant. Previously, all tenants in an account shared a single suppression list, meaning one tenant's email…"
+    },
+    {
+      "title": "Amazon Inspector launches improved agent-based scanning for EC2",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-inspector-ec2-agent-scanning-improvements",
+      "source": "AWS What's New",
+      "pubDate": "2026-05-31T14:15:00.000Z",
+      "snippet": "Amazon Inspector now offers improved agent-based EC2 scanning with the new Inspector VM Scanner, delivering expanded detection coverage and reduced CPU utilization on your EC2 instances. Security teams can now detect vulnerabilities across a broader range of…"
     },
     {
       "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
@@ -161,55 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-05-28T22:44:17.000Z",
       "snippet": "AWS Network Firewall now supports native attachment to AWS Transit Gateway. Customers commonly use Transit Gateway to route traffic from Amazon Virtual Private Cloud (Amazon VPC) networks to a centralized inspection VPC (a VPC dedicated to hosting firewall…"
-    },
-    {
-      "title": "Monitor AWS Budgets directly in Billing and Cost Management Dashboards with new Budgets widget",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/monitor-aws-budgets-using-dashboards",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T20:57:00.000Z",
-      "snippet": "Today, AWS Billing and Cost Management (BCM) announces support for Budgets widgets in BCM Dashboards, giving you the flexibility to customize your cost management console with the views that matter most to your organization. You can now monitor AWS Budgets…"
-    },
-    {
-      "title": "AWS IoT Core adds APIs for MQTT connection management",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-apis-mqtt/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T20:30:00.000Z",
-      "snippet": "Today, AWS IoT Core launches two new MQTT connection management APIs, GetConnection and ListSubscriptions, enabling you to easily access MQTT client connection and subscription information for your Internet of Things (IoT) devices. These APIs help you…"
-    },
-    {
-      "title": "Introducing the next generation of AWS Resilience Hub for generative AI-based SRE resilience journey",
-      "link": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-28T19:29:55.000Z",
-      "snippet": "AWS launches the next generation of AWS Resilience Hub with a significantly expanded experience that brings together a new application model, dependency discovery assessment, generative AI-powered failure mode analysis, modular resilience policies, and…"
-    },
-    {
-      "title": "Simplifying policy management with URL and Domain Category filtering on AWS Network Firewall",
-      "link": "https://aws.amazon.com/blogs/security/simplifying-policy-management-with-url-and-domain-category-filtering-on-aws-network-firewall/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-05-28T18:57:13.000Z",
-      "snippet": "Network administrators face a persistent challenge: maintaining domain blocklists and allowlists that keep pace with the internet. New websites and services emerge daily, and keeping these lists current requires constant manual updates that leave gaps in…"
-    },
-    {
-      "title": "Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications",
-      "link": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-05-28T18:26:16.000Z",
-      "snippet": "AWS rebuilt Amazon OpenSearch Serverless from the ground up for agentic AI and dynamic workloads. Get instant autoscaling and up to 60% cost savings."
-    },
-    {
-      "title": "AWS Organizations emits CloudTrail events for account membership changes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-cloudtrail/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T16:00:00.000Z",
-      "snippet": "AWS Organizations now automatically emits CloudTrail events to your management account whenever accounts join or leave your organization. These new events—AccountJoinedOrganization and AccountDepartedOrganization—provide security teams and cloud…"
-    },
-    {
-      "title": "AWS announces general availability of the next generation of AWS Resilience Hub",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-28T16:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of the next generation of AWS Resilience Hub, a central location in the AWS console that helps platform engineering and site reliability teams assess and strengthen the resilience of their critical workloads…"
     }
   ]
 }
