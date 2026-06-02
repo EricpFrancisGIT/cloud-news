@@ -1,12 +1,61 @@
 {
-  "lastUpdated": "2026-06-02T14:16:03.438Z",
+  "lastUpdated": "2026-06-02T20:16:25.459Z",
   "items": [
+    {
+      "title": "Identify unused AWS KMS keys and prevent accidental key deletions",
+      "link": "https://aws.amazon.com/blogs/security/identify-unused-aws-kms-keys-and-prevent-accidental-key-deletions/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-02T19:01:54.000Z",
+      "snippet": "As you scale your use of Amazon Web Services (AWS), managing KMS keys becomes increasingly important. Whether you manage a handful of keys or thousands across multiple AWS accounts and AWS Regions, there’s often a need to audit key usage to help you meet…"
+    },
+    {
+      "title": "AWS Deadline Cloud now supports persistent storage for Service Managed Fleets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/persistent-storage",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-02T17:00:00.000Z",
+      "snippet": "AWS Deadline Cloud now supports persistent storage for Service-Managed Fleets (SMF), allowing you to maintain data across worker lifecycle events. AWS Deadline Cloud is a fully managed service that makes it easy for teams to run compute-intensive workloads in…"
+    },
+    {
+      "title": "Amazon SageMaker Studio now sets up in seconds with model customization ready from the start",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/quick-setup-model-customization-sagemaker-studio/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-02T16:23:00.000Z",
+      "snippet": "Amazon SageMaker Studio quick setup now completes in under twenty seconds, reduced from over two minutes. Whether you are building ML pipelines, exploring data, developing with notebooks, or fine-tuning foundation models, you can go from sign-in to a fully…"
+    },
+    {
+      "title": "Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies",
+      "link": "https://aws.amazon.com/blogs/security/secure-multi-tenant-ai-agents-with-amazon-bedrock-agentcore-resource-based-policies/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-02T16:00:11.000Z",
+      "snippet": "Software as a service (SaaS) providers building AI-powered applications on Amazon Bedrock AgentCore often need to serve multiple tenants with distinct security requirements from a shared infrastructure. Some tenants require cross-account access from their own…"
+    },
+    {
+      "title": "Amazon ElastiCache for Valkey now supports durability",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-02T15:00:00.000Z",
+      "snippet": "Today, AWS announces durability support for Amazon ElastiCache. Durability enables you to use ElastiCache for workloads that require microsecond read latency but cannot tolerate data loss. With durability support, ElastiCache now stores data durably across…"
+    },
     {
       "title": "Automating contract intelligence with Doczy.ai™ on AWS",
       "link": "https://aws.amazon.com/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/",
       "source": "AWS Architecture Blog",
       "pubDate": "2026-06-02T14:06:32.000Z",
       "snippet": "In this post, we show you how Doczy.ai™ uses generative AI on AWS to automate contract intelligence at scale, transforming unstructured documents into structured, actionable insights, so organizations can automate critical business processes and unlock the…"
+    },
+    {
+      "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-02T13:40:00.000Z",
+      "snippet": "AWS today announced that AWS Cost and Usage Report 2.0 (CUR 2.0) provides new integration options with AWS Athena and AWS Redshift. This capability allows customers to analyze the data from their AWS CUR 2.0 in Amazon Simple Storage Service (Amazon S3) using…"
+    },
+    {
+      "title": "Amazon RDS for SQL Server supports Bring Your Own Media",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-bring-your-own-media/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-02T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server launches Bring Your Own Media (BYOM) for Microsoft SQL Server. With BYOM, customers who migrate SQL Server applications from on-premises environments can adopt a managed database service on AWS…"
     },
     {
       "title": "AWS HealthOmics now supports Nextflow version pinning at run time",
@@ -72,6 +121,13 @@
       "snippet": "Amazon Web Services (AWS) is pleased to announce that the Spring 2026 System and Organization Controls (SOC) 1, 2, and 3 reports are now available. The reports cover 188 services over the 12-month period from April 1, 2025–March 31, 2026, giving customers a…"
     },
     {
+      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T16:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
+    },
+    {
       "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
       "source": "AWS What's New",
@@ -84,13 +140,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-01T16:00:00.000Z",
       "snippet": "Starting today, Amazon EC2 M8azn instances are now available in Europe (Ireland) Region. These general purpose high-frequency high-network instances are powered by fifth generation AMD EPYC (formerly code named Turin) processors and offer the highest maximum…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
     },
     {
       "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-05-29T20:23:00.000Z",
       "snippet": "AWS End User Messaging now supports RCS for Business messaging in 20 additional countries, bringing the total to 22. Businesses can now send verified, branded RCS messages to customers in Austria, Brazil, Colombia, Czech Republic, Denmark, Dominican Republic,…"
-    },
-    {
-      "title": "Amazon Connect Customer now supports scheduling tasks up to 90 days in advance",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-tasks-90day-schedule",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T18:00:00.000Z",
-      "snippet": "Amazon Connect Customer now supports scheduling tasks up to 90 days in advance, helping organizations plan, route, and track long-running follow-up work. For example, an insurance team managing an auto repair claim can schedule future tasks for an adjuster…"
-    },
-    {
-      "title": "AWS Shield Advanced introduces DDoS attack flow logs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-shield-ddos/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T17:00:00.000Z",
-      "snippet": "AWS Shield Advanced announces distributed denial-of-service (DDoS) attack flow logs, giving you packet-level visibility into traffic hitting Shield Advanced protected resources during a DDoS attack. The log data is published to Amazon S3, Amazon CloudWatch…"
-    },
-    {
-      "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T15:00:00.000Z",
-      "snippet": "Amazon Redshift now allows you to get started with Amazon Redshift Serverless with a lower data warehouse base capacity configuration of 4 Redshift Processing Units (RPUs) in the Asia Pacific (Hong Kong), Asia Pacific (Seoul), Canada (Central), Europe…"
-    },
-    {
-      "title": "AWS Interconnect - multicloud now offers a free 500 Mbps tier",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-interconnect-multicloud-offers-free-500-mbps-tier",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T15:00:00.000Z",
-      "snippet": "AWS Interconnect - multicloud now offers a free 500 Mbps multicloud Interconnect, making it easier to privately connect your workloads on AWS and other public clouds. Customers have been adopting multicloud strategies while migrating more applications to the…"
-    },
-    {
-      "title": "Amazon RDS for Oracle now supports April 2026 Release Update and Supplemental Patch Bundle",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-oracle-supports-april-2026-release-update-supplemental-patch-bundle",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T07:49:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Oracle April 2026 Release Update (RU) for Oracle Database versions 19c and 21c, and the corresponding Supplemental Patch Bundle for Oracle Database version 19c. We recommend upgrading…"
-    },
-    {
-      "title": "Oracle Database@AWS is now available in twenty AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T07:00:00.000Z",
-      "snippet": "Oracle Database@AWS is now generally available in eight additional AWS Regions: EU-Central-2 (Zurich), EU-South-1 (Milan), EU-South-2 (Spain), EU-West-3 (Paris), AP-Northeast-3 (Osaka), AP-Southeast-1 (Singapore), AP-Southeast-4 (Melbourne) and SA-East-1 (Sao…"
-    },
-    {
-      "title": "Amazon S3 Tables are now available in two additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T04:00:00.000Z",
-      "snippet": "Amazon S3 Tables are now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions. Amazon S3 Tables deliver the first cloud object store with built-in Apache Iceberg support, streamlining tabular data storage at scale. S3 Tables…"
     }
   ]
 }
