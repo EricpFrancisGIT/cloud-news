@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T08:17:04.285Z",
+  "lastUpdated": "2026-06-03T14:17:24.860Z",
   "items": [
     {
       "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
@@ -149,6 +149,13 @@
       "snippet": "Today, AWS Parallel Computing Service (AWS PCS) launches PCS-ready DLAMI, an AWS-maintained Amazon Machine Image built on the Deep Learning Base GPU AMI (Ubuntu 24.04). It provides a production-quality foundation for AI/ML training and high performance…"
     },
     {
+      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T16:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
+    },
+    {
       "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
       "source": "AWS What's New",
@@ -163,11 +170,11 @@
       "snippet": "Starting today, Amazon EC2 M8azn instances are now available in Europe (Ireland) Region. These general purpose high-frequency high-network instances are powered by fifth generation AMD EPYC (formerly code named Turin) processors and offer the highest maximum…"
     },
     {
-      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
       "source": "AWS What's New",
       "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
+      "snippet": "Amazon SageMaker HyperPod now supports EFA-only network interfaces for cluster instance groups, enabling you to configure dedicated Elastic Fabric Adapter (EFA) devices without the traditional Elastic Network Adapter (ENA) for IP networking. SageMaker…"
     },
     {
       "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
@@ -175,13 +182,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-01T16:00:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now provides troubleshooting skills that bring expert-level AI/ML cluster diagnostics directly into AI coding assistants such as Claude Code, Cursor, and Kiro. SageMaker HyperPod is a purpose-built infrastructure for developing,…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports EFA-only network interfaces for cluster instance groups, enabling you to configure dedicated Elastic Fabric Adapter (EFA) devices without the traditional Elastic Network Adapter (ENA) for IP networking. SageMaker…"
     },
     {
       "title": "AWS Direct Connect now supports VIF Rate Limiters to help prevent network congestion",
