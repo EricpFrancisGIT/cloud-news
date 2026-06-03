@@ -1,12 +1,26 @@
 {
-  "lastUpdated": "2026-06-02T20:16:25.459Z",
+  "lastUpdated": "2026-06-03T02:16:45.566Z",
   "items": [
+    {
+      "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-02T21:48:00.000Z",
+      "snippet": "Kubernetes version 1.36 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.36. Starting today, you can create new EKS…"
+    },
     {
       "title": "Identify unused AWS KMS keys and prevent accidental key deletions",
       "link": "https://aws.amazon.com/blogs/security/identify-unused-aws-kms-keys-and-prevent-accidental-key-deletions/",
       "source": "AWS Security Blog",
       "pubDate": "2026-06-02T19:01:54.000Z",
       "snippet": "As you scale your use of Amazon Web Services (AWS), managing KMS keys becomes increasingly important. Whether you manage a handful of keys or thousands across multiple AWS accounts and AWS Regions, there’s often a need to audit key usage to help you meet…"
+    },
+    {
+      "title": "AWS Config now supports internal service linked rules",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-02T18:00:00.000Z",
+      "snippet": "AWS Config now supports internal service linked rules, enabling AWS services to evaluate AWS resource configurations using AWS Config managed rules. Internal service linked rules extend the existing service linked recorder capability by allowing AWS services…"
     },
     {
       "title": "AWS Deadline Cloud now supports persistent storage for Service Managed Fleets",
@@ -35,6 +49,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-02T15:00:00.000Z",
       "snippet": "Today, AWS announces durability support for Amazon ElastiCache. Durability enables you to use ElastiCache for workloads that require microsecond read latency but cannot tolerate data loss. With durability support, ElastiCache now stores data durably across…"
+    },
+    {
+      "title": "Amazon Location Service announces public transit and intermodal routing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-location-service/amazon-location-new-public-transit-intermodal-routing",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-02T14:51:00.000Z",
+      "snippet": "Amazon Location Service today announced support for public transit and intermodal routing in the Routes API. Developers can now use the CalculateRoutes operation with two new travel modes, Transit and Intermodal, to plan journeys that combine public…"
     },
     {
       "title": "Automating contract intelligence with Doczy.ai™ on AWS",
@@ -121,11 +142,11 @@
       "snippet": "Amazon Web Services (AWS) is pleased to announce that the Spring 2026 System and Organization Controls (SOC) 1, 2, and 3 reports are now available. The reports cover 188 services over the 12-month period from April 1, 2025–March 31, 2026, giving customers a…"
     },
     {
-      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "title": "AWS PCS now provides a production-ready Deep Learning AMI",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-pcs-deep-learning-ami/",
       "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
+      "pubDate": "2026-06-01T16:07:00.000Z",
+      "snippet": "Today, AWS Parallel Computing Service (AWS PCS) launches PCS-ready DLAMI, an AWS-maintained Amazon Machine Image built on the Deep Learning Base GPU AMI (Ubuntu 24.04). It provides a production-quality foundation for AI/ML training and high performance…"
     },
     {
       "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
@@ -142,11 +163,11 @@
       "snippet": "Starting today, Amazon EC2 M8azn instances are now available in Europe (Ireland) Region. These general purpose high-frequency high-network instances are powered by fifth generation AMD EPYC (formerly code named Turin) processors and offer the highest maximum…"
     },
     {
-      "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
+      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
       "source": "AWS What's New",
       "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports EFA-only network interfaces for cluster instance groups, enabling you to configure dedicated Elastic Fabric Adapter (EFA) devices without the traditional Elastic Network Adapter (ENA) for IP networking. SageMaker…"
+      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
     },
     {
       "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
@@ -154,6 +175,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-01T16:00:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now provides troubleshooting skills that bring expert-level AI/ML cluster diagnostics directly into AI coding assistants such as Claude Code, Cursor, and Kiro. SageMaker HyperPod is a purpose-built infrastructure for developing,…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T16:00:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports EFA-only network interfaces for cluster instance groups, enabling you to configure dedicated Elastic Fabric Adapter (EFA) devices without the traditional Elastic Network Adapter (ENA) for IP networking. SageMaker…"
     },
     {
       "title": "AWS Direct Connect now supports VIF Rate Limiters to help prevent network congestion",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-01T13:00:00.000Z",
       "snippet": "You can now use GPT-5.5 and GPT-5.4 in production workloads on Amazon Bedrock and build with Codex for AI-powered software development, with the same security, governance, and operational controls you already use across AWS. GPT-5.5 is the most capable model…"
-    },
-    {
-      "title": "Amazon SES now supports tenant-level suppression lists",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ses-tenant-level-suppression-lists/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T12:00:00.000Z",
-      "snippet": "Amazon Simple Email Service (Amazon SES) now supports tenant-level suppression lists, allowing email senders to isolate bounces and complaints per tenant. Previously, all tenants in an account shared a single suppression list, meaning one tenant's email…"
-    },
-    {
-      "title": "Amazon Inspector launches improved agent-based scanning for EC2",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-inspector-ec2-agent-scanning-improvements",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-31T14:15:00.000Z",
-      "snippet": "Amazon Inspector now offers improved agent-based EC2 scanning with the new Inspector VM Scanner, delivering expanded detection coverage and reduced CPU utilization on your EC2 instances. Security teams can now detect vulnerabilities across a broader range of…"
-    },
-    {
-      "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T21:48:00.000Z",
-      "snippet": "Today, Amazon Simple Email Service (SES) launched a new set of deliverability features that help customers get more information about their outbound sending deliverability performance and reputation. Customers can now see the percentage of messages that are…"
-    },
-    {
-      "title": "AWS End User Messaging RCS for Business now available in 20 additional countries",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rcs-countries/",
-      "source": "AWS What's New",
-      "pubDate": "2026-05-29T20:23:00.000Z",
-      "snippet": "AWS End User Messaging now supports RCS for Business messaging in 20 additional countries, bringing the total to 22. Businesses can now send verified, branded RCS messages to customers in Austria, Brazil, Colombia, Czech Republic, Denmark, Dominican Republic,…"
     }
   ]
 }
