@@ -1,6 +1,76 @@
 {
-  "lastUpdated": "2026-06-03T14:17:24.860Z",
+  "lastUpdated": "2026-06-03T20:17:43.976Z",
   "items": [
+    {
+      "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-03T20:00:00.000Z",
+      "snippet": "AWS Step Functions now enables you to add AI agent reasoning steps to your workflow through an optimized integration with the managed harness (currently in preview) in Amazon Bedrock AgentCore. AWS Step Functions is a visual workflow service that orchestrates…"
+    },
+    {
+      "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-03T19:58:00.000Z",
+      "snippet": "Amazon Bedrock now supports GPT‑5.4 from OpenAI in AWS GovCloud (US-West) — giving government and regulated industry customers access to OpenAI's most capable frontier model for professional work, backed by the enterprise-grade security and goverment…"
+    },
+    {
+      "title": "Align your architecture backlog with Tech Roadmap Prioritization (TRP)",
+      "link": "https://aws.amazon.com/blogs/architecture/align-your-architecture-backlog-with-tech-roadmap-prioritization-trp/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-03T18:08:51.000Z",
+      "snippet": "In this post, we show you how to run a one-hour prioritization session with your stakeholders, plot competing initiatives on a shared matrix by cost and impact and turn the result into an actionable architecture backlog - using a framework called Tech Roadmap…"
+    },
+    {
+      "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-03T17:44:00.000Z",
+      "snippet": "Amazon Application Recovery Controller (ARC) Region switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing three new execution…"
+    },
+    {
+      "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-03T16:00:00.000Z",
+      "snippet": "Amazon Keyspaces (for Apache Cassandra) now returns an iterator position in the GetRecords response for change data capture (CDC) streams, indicating whether a consumer has reached the tip of the stream or whether additional records may be available. Amazon…"
+    },
+    {
+      "title": "Building highly available Oracle databases with Amazon FSx for NetApp ONTAP",
+      "link": "https://aws.amazon.com/blogs/architecture/building-highly-available-oracle-databases-with-amazon-fsx-for-netapp-ontap/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-03T15:51:22.000Z",
+      "snippet": "This post shows how to build a highly available Oracle database architecture using FSxN shared storage, Auto Scaling groups with dynamic AMI updates, and serverless orchestration to help reduce recovery times with current configurations."
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio now supports a localized experience in twelve languages",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemaker-localization",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-03T15:26:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio enhanced its global accessibility by introducing support for twelve languages across the user interface. Supported languages include English (American), Chinese (Simplified and Traditional), French, German, Indonesian, Italian,…"
+    },
+    {
+      "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-03T15:00:00.000Z",
+      "snippet": "Amazon SageMaker AI now offers multi-turn reinforcement learning (RL), a new serverless model customization technique for fine-tuning models on multi-step, agentic tasks. SageMaker AI model customization lets you adapt foundation models using techniques such…"
+    },
+    {
+      "title": "AWS Config now supports 9 new resource types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-03T15:00:00.000Z",
+      "snippet": "AWS Config now supports 9 additional AWS resource types across key services including Amazon Bedrock, Amazon Bedrock AgentCore, and Amazon SageMaker. This expansion provides greater coverage over your AWS environment, enabling you to more effectively…"
+    },
+    {
+      "title": "Amazon RDS for Db2 launches support for IBM Db2 v12.1 and Db2 Community Edition",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-db2-v12-community-edition",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-03T07:11:00.000Z",
+      "snippet": "Amazon RDS for Db2 now supports IBM Db2 v12.1. With Db2 v12.1, RDS now supports Db2 Standard, Db2 Advanced, and Db2 Community Edition. Db2 Community Edition provides all the features available in Standard and Advanced Editions, with no commercial software…"
+    },
     {
       "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36",
@@ -107,6 +177,20 @@
       "snippet": "OpenAI frontier models GPT-5.5 and GPT-5.4, and Codex, the OpenAI coding agent, are now generally available on Amazon Bedrock. Deploy frontier models on Bedrock's high performance inference engine with built-in security, governance, and pay-per-token pricing."
     },
     {
+      "title": "Amazon Connect Customer now optimizes placement of ad-hoc activities in agent schedules",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-customer-activity-optimization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T18:51:00.000Z",
+      "snippet": "Amazon Connect Customer now optimizes placement of ad-hoc activities in agent schedules, making it easier for you to schedule non-productive events while automatically minimizing impact to service level goals. For example, automatically find the optimal time…"
+    },
+    {
+      "title": "Amazon Connect Customer now supports up to 5,000 agents per schedule",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-customer-5000-agents/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T18:43:00.000Z",
+      "snippet": "Amazon Connect Customer now supports up to 5,000 agents per schedule, making it easier for you to schedule larger business units or multiple business units that share agents (multi-skilled agents) within a single schedule. Additional scale limit updates…"
+    },
+    {
       "title": "Quick Research now supports customer managed keys",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-research-cm-keys",
       "source": "AWS What's New",
@@ -114,102 +198,18 @@
       "snippet": "Amazon Quick Research now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict security and compliance requirements to manage their own encryption…"
     },
     {
+      "title": "Amazon Connect Customer now provides schedule update notifications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-customer-scheduling-notifications/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-01T18:24:00.000Z",
+      "snippet": "Amazon Connect Customer now provides schedule update notifications, making it easier for you to automatically notify agents when their schedules change. You can define rules to send email or text notifications (via EventBridge) to supervisors and agents when…"
+    },
+    {
       "title": "Amazon Quick now supports VPC connectivity for MCP connections",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-vpc-mcp/",
       "source": "AWS What's New",
       "pubDate": "2026-06-01T17:26:00.000Z",
       "snippet": "Amazon Quick now enables enterprise customers to connect their privately hosted Model Context Protocol (MCP) servers to Quick through Amazon Virtual Private Cloud (VPC). Amazon Quick is an AI assistant that turns questions into answers, answers into actions,…"
-    },
-    {
-      "title": "Amazon SageMaker adds permissions boundaries for SCP compliance",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-scp/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T17:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports custom IAM permissions boundaries, so organizations that enforce Service Control Policies (SCPs) requiring permissions boundaries on all IAM roles can adopt SageMaker Unified Studio without modifying their security…"
-    },
-    {
-      "title": "Building a scalable user search layer on top of Amazon Cognito",
-      "link": "https://aws.amazon.com/blogs/architecture/building-a-scalable-user-search-layer-on-top-of-amazon-cognito/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-01T16:16:45.000Z",
-      "snippet": "In this post, we show how to build a comprehensive scalable user search layer on top of Amazon Cognito using AWS Lambda, Amazon DynamoDB, and Amazon OpenSearch Service."
-    },
-    {
-      "title": "Spring 2026 SOC 1, 2, and 3 reports are now available with 188 services in scope",
-      "link": "https://aws.amazon.com/blogs/security/spring-2026-soc-1-2-and-3-reports-are-now-available-with-188-services-in-scope/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-01T16:07:48.000Z",
-      "snippet": "Amazon Web Services (AWS) is pleased to announce that the Spring 2026 System and Organization Controls (SOC) 1, 2, and 3 reports are now available. The reports cover 188 services over the 12-month period from April 1, 2025–March 31, 2026, giving customers a…"
-    },
-    {
-      "title": "AWS PCS now provides a production-ready Deep Learning AMI",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-pcs-deep-learning-ami/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:07:00.000Z",
-      "snippet": "Today, AWS Parallel Computing Service (AWS PCS) launches PCS-ready DLAMI, an AWS-maintained Amazon Machine Image built on the Deep Learning Base GPU AMI (Ubuntu 24.04). It provides a production-quality foundation for AI/ML training and high performance…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously, AgentCore Identity used a service-managed secret approach, where secrets…"
-    },
-    {
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth…"
-    },
-    {
-      "title": "Amazon EC2 M8azn instances are now available in Europe (Ireland) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8azn-europe-ireland/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Starting today, Amazon EC2 M8azn instances are now available in Europe (Ireland) Region. These general purpose high-frequency high-network instances are powered by fifth generation AMD EPYC (formerly code named Turin) processors and offer the highest maximum…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports EFA-only network interfaces for cluster instance groups, enabling you to configure dedicated Elastic Fabric Adapter (EFA) devices without the traditional Elastic Network Adapter (ENA) for IP networking. SageMaker…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T16:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now provides troubleshooting skills that bring expert-level AI/ML cluster diagnostics directly into AI coding assistants such as Claude Code, Cursor, and Kiro. SageMaker HyperPod is a purpose-built infrastructure for developing,…"
-    },
-    {
-      "title": "AWS Direct Connect now supports VIF Rate Limiters to help prevent network congestion",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-direct-connect-now-supports-vif-rate-limiters/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T15:00:00.000Z",
-      "snippet": "AWS Direct Connect now supports Virtual Interface (VIF) Rate Limiters on dedicated connections, which help you prevent network congestion caused by unexpected traffic spikes on a VIF which can potentially consume all available bandwidth, impacting workloads…"
-    },
-    {
-      "title": "AWS Weekly Roundup: Claude Opus 4.8 on AWS, Aurora MySQL with Kiro Powers, and more (June 1, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-8-on-aws-aurora-mysql-with-kiro-powers-and-more-june-1-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-01T14:25:33.000Z",
-      "snippet": "In my last Week in Review post, I shared what I’d been hearing from customers in the AI-Driven Development Lifecycle (AI-DLC) workshops I’ve been delivering. Last week I was back at it, this time in Denver for a two-day AI-DLC workshop, where I helped…"
-    },
-    {
-      "title": "Amazon Bedrock adds Amazon CloudWatch metrics for OpenAI- and Anthropic-compatible APIs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T13:38:00.000Z",
-      "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock customers can now monitor…"
-    },
-    {
-      "title": "GPT-5.5, GPT-5.4, and Codex from OpenAI are now generally available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-openai-models-codex-generally-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T13:00:00.000Z",
-      "snippet": "You can now use GPT-5.5 and GPT-5.4 in production workloads on Amazon Bedrock and build with Codex for AI-powered software development, with the same security, governance, and operational controls you already use across AWS. GPT-5.5 is the most capable model…"
     }
   ]
 }
