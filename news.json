@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-06-04T14:18:47.023Z",
+  "lastUpdated": "2026-06-04T20:19:07.253Z",
   "items": [
+    {
+      "title": "Gain visibility into DDoS attacks with flow logs in AWS Shield Advanced",
+      "link": "https://aws.amazon.com/blogs/security/gain-visibility-into-ddos-attacks-with-flow-logs-in-aws-shield-advanced/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-04T19:21:34.000Z",
+      "snippet": "Reconstructing distributed denial of service (DDoS) attack traffic used to mean combining data from multiple sources after the fact. AWS Shield Advanced attack flow logs change that—they capture traffic metadata during attacks so you can pinpoint sources,…"
+    },
+    {
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T17:00:00.000Z",
+      "snippet": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a standby Region you designate in near…"
+    },
+    {
+      "title": "Customize federated sign-in with new Amazon Cognito Lambda trigger",
+      "link": "https://aws.amazon.com/blogs/security/customize-federated-sign-in-with-new-amazon-cognito-lambda-trigger/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-04T15:49:15.000Z",
+      "snippet": "You can use Amazon Cognito user pools to add sign-up and sign-in functionality to your web and mobile applications. You can authenticate users directly with Amazon Cognito managed accounts using passwords, passwordless flows, or custom authentication flows,…"
+    },
+    {
+      "title": "Amazon MQ is now available in the AWS European Sovereign Cloud (Germany) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T08:05:00.000Z",
+      "snippet": "You can now deploy Amazon MQ for RabbitMQ in the AWS European Sovereign Cloud (Germany) Region. This new independent cloud for Europe is located entirely within the EU, designed to help customers in regulated industries and public sector organizations meet…"
+    },
     {
       "title": "Improve your application resilience with Amazon Cognito multi-Region replication",
       "link": "https://aws.amazon.com/blogs/aws/improve-your-application-resilience-with-amazon-cognito-multi-region-replication/",
@@ -41,7 +69,7 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
       "source": "AWS What's New",
       "pubDate": "2026-06-03T19:58:00.000Z",
-      "snippet": "Amazon Bedrock now supports GPT‑5.4 from OpenAI in AWS GovCloud (US-West) — giving government and regulated industry customers access to OpenAI's most capable frontier model for professional work, backed by the enterprise-grade security and goverment…"
+      "snippet": "Amazon Bedrock now supports GPT-5.4 from OpenAI in AWS GovCloud (US-West). Government and regulated industry customers can use GPT-5.4 for complex reasoning, coding, document analysis, and multi-step workflows while benefiting from the security, governance,…"
     },
     {
       "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
@@ -182,34 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-06-02T14:06:32.000Z",
       "snippet": "In this post, we show you how Doczy.ai™ uses generative AI on AWS to automate contract intelligence at scale, transforming unstructured documents into structured, actionable insights, so organizations can automate critical business processes and unlock the…"
-    },
-    {
-      "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-02T13:40:00.000Z",
-      "snippet": "AWS today announced that AWS Cost and Usage Report 2.0 (CUR 2.0) provides new integration options with AWS Athena and AWS Redshift. This capability allows customers to analyze the data from their AWS CUR 2.0 in Amazon Simple Storage Service (Amazon S3) using…"
-    },
-    {
-      "title": "Amazon RDS for SQL Server supports Bring Your Own Media",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-bring-your-own-media/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-02T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server launches Bring Your Own Media (BYOM) for Microsoft SQL Server. With BYOM, customers who migrate SQL Server applications from on-premises environments can adopt a managed database service on AWS…"
-    },
-    {
-      "title": "AWS HealthOmics now supports Nextflow version pinning at run time",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-pinning-at-runtime/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T23:00:00.000Z",
-      "snippet": "AWS HealthOmics now allows customers to specify the Nextflow engine version at run time via the StartRun API, enabling customers to pin runs to a specific Nextflow version for controlled migration. With this launch, customers can select from supported…"
-    },
-    {
-      "title": "AWS HealthOmics now supports Nextflow version 26.04",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-26-04/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-01T23:00:00.000Z",
-      "snippet": "AWS HealthOmics now supports Nextflow version 26.04, enabling customers to take advantage of new Nextflow features and enhancements: record types, the strict syntax parser, workflow output summaries, and agent logging mode. AWS HealthOmics is a HIPAA-eligible…"
     }
   ]
 }
