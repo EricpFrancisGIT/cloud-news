@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-06-05T14:20:03.701Z",
+  "lastUpdated": "2026-06-05T20:20:25.698Z",
   "items": [
+    {
+      "title": "Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs",
+      "link": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-05T19:15:11.000Z",
+      "snippet": "You can use the new console experience on Amazon Bedrock to browse and compare the latest AI models side by side, organize work into projects with streamlined evaluation workflows, and access project-aware live documentation with auto-prefilled code snippets…"
+    },
+    {
+      "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
+      "link": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-05T17:07:06.000Z",
+      "snippet": "Modern web applications require robust security controls to protect user data and application resources. Authentication and authorization are two fundamental pillars of application security that answer critical questions: Who are you? and What are you allowed…"
+    },
+    {
+      "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-05T15:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and performance. AWS Fargate offers 32vCPU tasks with the following…"
+    },
+    {
+      "title": "The AWS MCP Server now supports cross-account and cross-role access",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-05T07:00:00.000Z",
+      "snippet": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS. This feature allows developers using AI coding agents like Kiro, Claude Code, or Codex to work across multiple AWS…"
+    },
     {
       "title": "Amazon SageMaker Data Agent integrates business context into conversations",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
@@ -42,6 +70,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-04T17:00:00.000Z",
       "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) Capabilities can now be configured as log delivery sources using Amazon CloudWatch Vended Logs. This enables customers to monitor and troubleshoot their EKS Capabilities for Argo CD, AWS Controllers for…"
+    },
+    {
+      "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T16:13:00.000Z",
+      "snippet": "AWS Deadline Cloud now gives you an easier way to deliver plugins to cloud workers when using service-managed fleets. AWS Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation,…"
     },
     {
       "title": "Customize federated sign-in with new Amazon Cognito Lambda trigger",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-03T07:11:00.000Z",
       "snippet": "Amazon RDS for Db2 now supports IBM Db2 v12.1. With Db2 v12.1, RDS now supports Db2 Standard, Db2 Advanced, and Db2 Community Edition. Db2 Community Edition provides all the features available in Standard and Advanced Editions, with no commercial software…"
-    },
-    {
-      "title": "AWS IoT Core adds new logs to troubleshoot connectivity and authentication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-core-ping-auth-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T07:00:00.000Z",
-      "snippet": "AWS IoT Core now provides two new Amazon CloudWatch Log event types that help you troubleshoot device connectivity issues and authentication errors across your Internet of Things (IoT) fleet. The new Ping log event type is emitted when devices send MQTT…"
-    },
-    {
-      "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-02T21:48:00.000Z",
-      "snippet": "Kubernetes version 1.36 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.36. Starting today, you can create new EKS…"
-    },
-    {
-      "title": "Identify unused AWS KMS keys and prevent accidental key deletions",
-      "link": "https://aws.amazon.com/blogs/security/identify-unused-aws-kms-keys-and-prevent-accidental-key-deletions/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-02T19:01:54.000Z",
-      "snippet": "As you scale your use of Amazon Web Services (AWS), managing KMS keys becomes increasingly important. Whether you manage a handful of keys or thousands across multiple AWS accounts and AWS Regions, there’s often a need to audit key usage to help you meet…"
-    },
-    {
-      "title": "AWS Config now supports internal service linked rules",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-02T18:00:00.000Z",
-      "snippet": "AWS Config now supports internal service linked rules, enabling AWS services to evaluate AWS resource configurations using AWS Config managed rules. Internal service linked rules extend the existing service linked recorder capability by allowing AWS services…"
-    },
-    {
-      "title": "AWS Deadline Cloud now supports persistent storage for Service Managed Fleets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/persistent-storage",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-02T17:00:00.000Z",
-      "snippet": "AWS Deadline Cloud now supports persistent storage for Service-Managed Fleets (SMF), allowing you to maintain data across worker lifecycle events. AWS Deadline Cloud is a fully managed service that makes it easy for teams to run compute-intensive workloads in…"
     }
   ]
 }
