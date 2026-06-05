@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-06-04T20:19:07.253Z",
+  "lastUpdated": "2026-06-05T02:19:26.887Z",
   "items": [
+    {
+      "title": "Amazon SageMaker Data Agent integrates business context into conversations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T21:51:00.000Z",
+      "snippet": "Amazon SageMaker Data Agent now integrates with SageMaker Catalog business context and metadata, enabling data practitioners to discover datasets and generate more accurate SQL and Python code using business terminology instead of cryptic technical table…"
+    },
+    {
+      "title": "Amazon Cognito unlocks advanced capabilities with next-generation infrastructure",
+      "link": "https://aws.amazon.com/blogs/security/amazon-cognito-unlocks-advanced-capabilities-with-next-generation-infrastructure/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-04T21:45:42.000Z",
+      "snippet": "Amazon Cognito recently introduced high-throughput performance for demanding workloads, customer-managed keys for full control over data encryption at rest, and multi- Region replication for business continuity improvement. These capabilities were made…"
+    },
     {
       "title": "Gain visibility into DDoS attacks with flow logs in AWS Shield Advanced",
       "link": "https://aws.amazon.com/blogs/security/gain-visibility-into-ddos-attacks-with-flow-logs-in-aws-shield-advanced/",
@@ -16,6 +30,20 @@
       "snippet": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a standby Region you designate in near…"
     },
     {
+      "title": "AWS Databases on Vercel now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T17:00:00.000Z",
+      "snippet": "Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB serverless databases are now available on Vercel Marketplace and v0 by Vercel in additional AWS Regions, offering you more flexibility to build applications with Vercel and AWS databases from…"
+    },
+    {
+      "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T17:00:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) Capabilities can now be configured as log delivery sources using Amazon CloudWatch Vended Logs. This enables customers to monitor and troubleshoot their EKS Capabilities for Argo CD, AWS Controllers for…"
+    },
+    {
       "title": "Customize federated sign-in with new Amazon Cognito Lambda trigger",
       "link": "https://aws.amazon.com/blogs/security/customize-federated-sign-in-with-new-amazon-cognito-lambda-trigger/",
       "source": "AWS Security Blog",
@@ -28,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-04T08:05:00.000Z",
       "snippet": "You can now deploy Amazon MQ for RabbitMQ in the AWS European Sovereign Cloud (Germany) Region. This new independent cloud for Europe is located entirely within the EU, designed to help customers in regulated industries and public sector organizations meet…"
+    },
+    {
+      "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T07:00:00.000Z",
+      "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Today, Amazon Bedrock introduces a console…"
     },
     {
       "title": "Improve your application resilience with Amazon Cognito multi-Region replication",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-02T17:00:00.000Z",
       "snippet": "AWS Deadline Cloud now supports persistent storage for Service-Managed Fleets (SMF), allowing you to maintain data across worker lifecycle events. AWS Deadline Cloud is a fully managed service that makes it easy for teams to run compute-intensive workloads in…"
-    },
-    {
-      "title": "Amazon SageMaker Studio now sets up in seconds with model customization ready from the start",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/quick-setup-model-customization-sagemaker-studio/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-02T16:23:00.000Z",
-      "snippet": "Amazon SageMaker Studio quick setup now completes in under twenty seconds, reduced from over two minutes. Whether you are building ML pipelines, exploring data, developing with notebooks, or fine-tuning foundation models, you can go from sign-in to a fully…"
-    },
-    {
-      "title": "Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies",
-      "link": "https://aws.amazon.com/blogs/security/secure-multi-tenant-ai-agents-with-amazon-bedrock-agentcore-resource-based-policies/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-02T16:00:11.000Z",
-      "snippet": "Software as a service (SaaS) providers building AI-powered applications on Amazon Bedrock AgentCore often need to serve multiple tenants with distinct security requirements from a shared infrastructure. Some tenants require cross-account access from their own…"
-    },
-    {
-      "title": "Amazon ElastiCache for Valkey now supports durability",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-02T15:00:00.000Z",
-      "snippet": "Today, AWS announces durability support for Amazon ElastiCache. Durability enables you to use ElastiCache for workloads that require microsecond read latency but cannot tolerate data loss. With durability support, ElastiCache now stores data durably across…"
-    },
-    {
-      "title": "Amazon Location Service announces public transit and intermodal routing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-location-service/amazon-location-new-public-transit-intermodal-routing",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-02T14:51:00.000Z",
-      "snippet": "Amazon Location Service today announced support for public transit and intermodal routing in the Routes API. Developers can now use the CalculateRoutes operation with two new travel modes, Transit and Intermodal, to plan journeys that combine public…"
-    },
-    {
-      "title": "Automating contract intelligence with Doczy.ai™ on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-02T14:06:32.000Z",
-      "snippet": "In this post, we show you how Doczy.ai™ uses generative AI on AWS to automate contract intelligence at scale, transforming unstructured documents into structured, actionable insights, so organizations can automate critical business processes and unlock the…"
     }
   ]
 }
