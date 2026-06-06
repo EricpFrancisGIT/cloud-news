@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-06-05T20:20:25.698Z",
+  "lastUpdated": "2026-06-06T01:06:42.626Z",
   "items": [
+    {
+      "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-05T22:25:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Runtime now supports interactive shells through a new InvokeAgentRuntimeCommandShell API, opening a persistent, PTY-backed terminal directly into a running agent session over WebSocket. This complements the existing…"
+    },
+    {
+      "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-05T21:11:00.000Z",
+      "snippet": "AWS Glue Data Catalog now supports AWS IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization, you can define all necessary permissions across storage, catalog, and query engines in a single IAM…"
+    },
+    {
+      "title": "Amazon OpenSearch UI is now available in GovCloud regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-05T20:40:00.000Z",
+      "snippet": "Amazon OpenSearch Service expands its modernized operational analytics experience to GovCloud regions, including AWS GovCloud (US-East) and AWS GovCloud (US-West), enabling users to gain insights across data spanning managed domains and serverless collections…"
+    },
     {
       "title": "Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs",
       "link": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
@@ -51,18 +72,18 @@
       "snippet": "Reconstructing distributed denial of service (DDoS) attack traffic used to mean combining data from multiple sources after the fact. AWS Shield Advanced attack flow logs change that—they capture traffic metadata during attacks so you can pinpoint sources,…"
     },
     {
-      "title": "Amazon Cognito now supports multi-Region replication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T17:00:00.000Z",
-      "snippet": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a standby Region you designate in near…"
-    },
-    {
       "title": "AWS Databases on Vercel now available in additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
       "source": "AWS What's New",
       "pubDate": "2026-06-04T17:00:00.000Z",
       "snippet": "Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB serverless databases are now available on Vercel Marketplace and v0 by Vercel in additional AWS Regions, offering you more flexibility to build applications with Vercel and AWS databases from…"
+    },
+    {
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T17:00:00.000Z",
+      "snippet": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a standby Region you designate in near…"
     },
     {
       "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-03T15:00:00.000Z",
       "snippet": "Amazon SageMaker AI now offers multi-turn reinforcement learning (RL), a new serverless model customization technique for fine-tuning models on multi-step, agentic tasks. SageMaker AI model customization lets you adapt foundation models using techniques such…"
-    },
-    {
-      "title": "Amazon ECS Managed Instances now supports AWS Trainium and AWS Inferentia",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-managed-instances-neuron",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T15:00:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) Managed Instances now supports AWS Trainium and AWS Inferentia, purpose-built AI accelerators designed to deliver scalable performance and cost efficiency for training and inference across a broad range of…"
-    },
-    {
-      "title": "AWS Config now supports 9 new resource types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T15:00:00.000Z",
-      "snippet": "AWS Config now supports 9 additional AWS resource types across key services including Amazon Bedrock, Amazon Bedrock AgentCore, and Amazon SageMaker. This expansion provides greater coverage over your AWS environment, enabling you to more effectively…"
-    },
-    {
-      "title": "Amazon RDS for Db2 launches support for IBM Db2 v12.1 and Db2 Community Edition",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-db2-v12-community-edition",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T07:11:00.000Z",
-      "snippet": "Amazon RDS for Db2 now supports IBM Db2 v12.1. With Db2 v12.1, RDS now supports Db2 Standard, Db2 Advanced, and Db2 Community Edition. Db2 Community Edition provides all the features available in Standard and Advanced Editions, with no commercial software…"
     }
   ]
 }
