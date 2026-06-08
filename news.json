@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-06-08T13:59:35.310Z",
+  "lastUpdated": "2026-06-08T19:59:57.262Z",
   "items": [
+    {
+      "title": "AWS Application Migration Service is now AWS Transform MGN",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T17:00:00.000Z",
+      "snippet": "AWS Application Migration Service (MGN) is now available as AWS Transform MGN. This name change reflects MGN's role as the proven replication engine powering AWS Transform, the agentic migration service. You can choose between two rehosting experiences. Use…"
+    },
+    {
+      "title": "Operationalizing AWS security: A maturity roadmap",
+      "link": "https://aws.amazon.com/blogs/security/operationalizing-aws-security-a-maturity-roadmap/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-08T16:18:04.000Z",
+      "snippet": "Enabling security tooling is the starting point. Making it operational—where findings drive decisions, response times are measurable, and your security posture improves week over week—is where most organizations struggle. This blog post provides a phased…"
+    },
+    {
+      "title": "Amazon Redshift reduces manual snapshot cost for Serverless and RG instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-incremental-manual-snapshots/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T15:00:00.000Z",
+      "snippet": "Amazon Redshift announces a new billing model for manual snapshots on Amazon Redshift Serverless and Amazon Redshift RG instances. With this enhancement, Amazon Redshift now meters manual snapshot storage based on the unique data blocks stored across your…"
+    },
+    {
+      "title": "Amazon OpenSearch Serverless now supports Agentic Search",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-search/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T06:58:00.000Z",
+      "snippet": "Amazon OpenSearch Serverless now offers Agentic Search — a capability that lets users query their data using natural language. Users simply describe what they are looking for, and the system interprets intent, plans the optimal search strategy, generates the…"
+    },
     {
       "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
@@ -72,18 +100,18 @@
       "snippet": "Reconstructing distributed denial of service (DDoS) attack traffic used to mean combining data from multiple sources after the fact. AWS Shield Advanced attack flow logs change that—they capture traffic metadata during attacks so you can pinpoint sources,…"
     },
     {
-      "title": "AWS Databases on Vercel now available in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T17:00:00.000Z",
-      "snippet": "Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB serverless databases are now available on Vercel Marketplace and v0 by Vercel in additional AWS Regions, offering you more flexibility to build applications with Vercel and AWS databases from…"
-    },
-    {
       "title": "Amazon Cognito now supports multi-Region replication",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
       "source": "AWS What's New",
       "pubDate": "2026-06-04T17:00:00.000Z",
       "snippet": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a standby Region you designate in near…"
+    },
+    {
+      "title": "AWS Databases on Vercel now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T17:00:00.000Z",
+      "snippet": "Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB serverless databases are now available on Vercel Marketplace and v0 by Vercel in additional AWS Regions, offering you more flexibility to build applications with Vercel and AWS databases from…"
     },
     {
       "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-03T17:44:00.000Z",
       "snippet": "Amazon Application Recovery Controller (ARC) Region switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing three new execution…"
-    },
-    {
-      "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T16:00:00.000Z",
-      "snippet": "Amazon Keyspaces (for Apache Cassandra) now returns an iterator position in the GetRecords response for change data capture (CDC) streams, indicating whether a consumer has reached the tip of the stream or whether additional records may be available. Amazon…"
-    },
-    {
-      "title": "Building highly available Oracle databases with Amazon FSx for NetApp ONTAP",
-      "link": "https://aws.amazon.com/blogs/architecture/building-highly-available-oracle-databases-with-amazon-fsx-for-netapp-ontap/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-03T15:51:22.000Z",
-      "snippet": "This post shows how to build a highly available Oracle database architecture using FSxN shared storage, Auto Scaling groups with dynamic AMI updates, and serverless orchestration to help reduce recovery times with current configurations."
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports a localized experience in twelve languages",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemaker-localization",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T15:26:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio enhanced its global accessibility by introducing support for twelve languages across the user interface. Supported languages include English (American), Chinese (Simplified and Traditional), French, German, Indonesian, Italian,…"
-    },
-    {
-      "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T15:00:00.000Z",
-      "snippet": "Amazon SageMaker AI now offers multi-turn reinforcement learning (RL), a new serverless model customization technique for fine-tuning models on multi-step, agentic tasks. SageMaker AI model customization lets you adapt foundation models using techniques such…"
     }
   ]
 }
