@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-06-09T14:00:54.666Z",
+  "lastUpdated": "2026-06-09T20:01:17.125Z",
   "items": [
+    {
+      "title": "Anthropic Claude Fable 5 on AWS: Mythos-class capabilities with built-in safeguards now available",
+      "link": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-09T17:40:31.000Z",
+      "snippet": "AWS announces the availability of Claude Fable 5 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5 makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use."
+    },
+    {
+      "title": "Automate medical record digitization with Amazon Bedrock Data Automation and AWS HealthLake",
+      "link": "https://aws.amazon.com/blogs/architecture/automate-medical-record-digitization-with-amazon-bedrock-data-automation-and-aws-healthlake/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-09T16:51:55.000Z",
+      "snippet": "In this post, you learn how to build an automated, serverless pipeline that converts scanned PDF medical records into FHIR R4-compliant data using Amazon Bedrock Data Automation and AWS HealthLake. We walk through the architecture, explain how each AWS…"
+    },
+    {
+      "title": "AWS FinOps Agent is now available in preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-09T15:28:00.000Z",
+      "snippet": "Today, AWS announces the preview of AWS FinOps Agent, a frontier agent for FinOps practitioners and engineering teams that answers cost questions, surfaces optimization opportunities, automatically investigates cost anomalies, and runs recurring FinOps…"
+    },
+    {
+      "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-09T14:15:00.000Z",
+      "snippet": "Claude Fable 5 is generally available on AWS and makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use. Fable 5 is state-of-the-art on nearly all tested benchmarks and delivers a…"
+    },
+    {
+      "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-09T07:00:00.000Z",
+      "snippet": "Amazon EMR Serverless now supports interactive sessions with Spark Connect, enabling you to develop and run Apache Spark applications from managed notebooks in Amazon SageMaker Unified Studio, as well as your favorite notebook environments and IDEs such as…"
+    },
     {
       "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-05T07:00:00.000Z",
       "snippet": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS. This feature allows developers using AI coding agents like Kiro, Claude Code, or Codex to work across multiple AWS…"
-    },
-    {
-      "title": "Amazon SageMaker Data Agent integrates business context into conversations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T21:51:00.000Z",
-      "snippet": "Amazon SageMaker Data Agent now integrates with SageMaker Catalog business context and metadata, enabling data practitioners to discover datasets and generate more accurate SQL and Python code using business terminology instead of cryptic technical table…"
-    },
-    {
-      "title": "Amazon Cognito unlocks advanced capabilities with next-generation infrastructure",
-      "link": "https://aws.amazon.com/blogs/security/amazon-cognito-unlocks-advanced-capabilities-with-next-generation-infrastructure/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-04T21:45:42.000Z",
-      "snippet": "Amazon Cognito recently introduced high-throughput performance for demanding workloads, customer-managed keys for full control over data encryption at rest, and multi- Region replication for business continuity improvement. These capabilities were made…"
-    },
-    {
-      "title": "Gain visibility into DDoS attacks with flow logs in AWS Shield Advanced",
-      "link": "https://aws.amazon.com/blogs/security/gain-visibility-into-ddos-attacks-with-flow-logs-in-aws-shield-advanced/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-04T19:21:34.000Z",
-      "snippet": "Reconstructing distributed denial of service (DDoS) attack traffic used to mean combining data from multiple sources after the fact. AWS Shield Advanced attack flow logs change that—they capture traffic metadata during attacks so you can pinpoint sources,…"
-    },
-    {
-      "title": "AWS Databases on Vercel now available in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T17:00:00.000Z",
-      "snippet": "Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB serverless databases are now available on Vercel Marketplace and v0 by Vercel in additional AWS Regions, offering you more flexibility to build applications with Vercel and AWS databases from…"
-    },
-    {
-      "title": "Amazon Cognito now supports multi-Region replication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T17:00:00.000Z",
-      "snippet": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a standby Region you designate in near…"
     }
   ]
 }
