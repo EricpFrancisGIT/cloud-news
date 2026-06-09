@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-09T02:00:14.253Z",
+  "lastUpdated": "2026-06-09T08:00:34.313Z",
   "items": [
+    {
+      "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-09T03:00:00.000Z",
+      "snippet": "AWS Cost Explorer now supports 'Analyze with Amazon Q', a new capability that delivers comprehensive cost explanations for any report you configure in Cost Explorer. With a single button click you now can receive detailed analysis from Amazon Q Developer…"
+    },
     {
       "title": "AWS Weekly Roundup: BYOM for Amazon RDS for SQL Server, AWS IoT Device SDK for Swift, and more (June 8, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-byom-for-amazon-rds-for-sql-server-aws-iot-device-sdk-for-swift-and-more-june-8-2026/",
@@ -35,6 +42,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-08T18:59:00.000Z",
       "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports engine minor versions, starting with 5.0.1. This release delivers enhanced aggregation capabilities with new operators ($rand, $pow, $dateToParts, $dateFromParts), the active connections metric to…"
+    },
+    {
+      "title": "Amazon CloudWatch Logs Insights adds 23 new query commands and functions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T17:50:00.000Z",
+      "snippet": "Amazon CloudWatch Logs Insights query language now supports 23 new commands and functions that give you new ways to query, parse, transform, and analyze your logs. Customers analyzing logs in CloudWatch Logs Insights often need to do conditional processing,…"
     },
     {
       "title": "AWS Savings Plans Purchase Analyzer now supports target coverage analysis",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-04T17:00:00.000Z",
       "snippet": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a standby Region you designate in near…"
-    },
-    {
-      "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T17:00:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) Capabilities can now be configured as log delivery sources using Amazon CloudWatch Vended Logs. This enables customers to monitor and troubleshoot their EKS Capabilities for Argo CD, AWS Controllers for…"
-    },
-    {
-      "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T16:13:00.000Z",
-      "snippet": "AWS Deadline Cloud now gives you an easier way to deliver plugins to cloud workers when using service-managed fleets. AWS Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation,…"
     }
   ]
 }
