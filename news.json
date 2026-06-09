@@ -1,12 +1,82 @@
 {
-  "lastUpdated": "2026-06-08T19:59:57.262Z",
+  "lastUpdated": "2026-06-09T02:00:14.253Z",
   "items": [
+    {
+      "title": "AWS Weekly Roundup: BYOM for Amazon RDS for SQL Server, AWS IoT Device SDK for Swift, and more (June 8, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-byom-for-amazon-rds-for-sql-server-aws-iot-device-sdk-for-swift-and-more-june-8-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-08T21:27:12.000Z",
+      "snippet": "This week, the AWS IoT Device SDK for Swift reached general availability. As a member of the Swift Server Workgroup (SSWG), this one caught my attention. The SDK brings production-ready MQTT 5 connectivity, Device Shadow, Jobs, and fleet provisioning to Swift…"
+    },
+    {
+      "title": "ICYMI: May 2026 @AWS Security",
+      "link": "https://aws.amazon.com/blogs/security/icymi-may-2026-aws-security/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-08T21:00:11.000Z",
+      "snippet": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS…"
+    },
+    {
+      "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T21:00:00.000Z",
+      "snippet": "AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless), Amazon WorkSpaces, and Amazon SageMaker endpoints. This…"
+    },
+    {
+      "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T19:36:00.000Z",
+      "snippet": "Effective today, Amazon MSK Express Brokers support automatic topic creation with Kafka Streams. Customers can now deploy their Kafka Streams applications on Express Brokers without needing to manually pre-create or manage topics for stateful operations. MSK…"
+    },
+    {
+      "title": "Amazon DocumentDB now supports engine minor version starting with 5.0.1",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T18:59:00.000Z",
+      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports engine minor versions, starting with 5.0.1. This release delivers enhanced aggregation capabilities with new operators ($rand, $pow, $dateToParts, $dateFromParts), the active connections metric to…"
+    },
+    {
+      "title": "AWS Savings Plans Purchase Analyzer now supports target coverage analysis",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-savings-plans-coverage/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T17:16:00.000Z",
+      "snippet": "Today, AWS announces target coverage analysis in Savings Plans Purchase Analyzer, a capability in AWS Billing and Cost Management that helps you plan your Savings Plans purchases based on your coverage target. Savings Plans Purchase Analyzer helps you…"
+    },
+    {
+      "title": "PostgreSQL 19 Beta 1 is now available in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/postgresql-19-beta-1-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T17:03:00.000Z",
+      "snippet": "Amazon RDS for PostgreSQL 19 Beta 1 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 1 in the Amazon RDS Database Preview…"
+    },
+    {
+      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T17:00:00.000Z",
+      "snippet": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI lets you run Lambda functions on managed Amazon EC2 instances, giving you…"
+    },
     {
       "title": "AWS Application Migration Service is now AWS Transform MGN",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
       "source": "AWS What's New",
       "pubDate": "2026-06-08T17:00:00.000Z",
       "snippet": "AWS Application Migration Service (MGN) is now available as AWS Transform MGN. This name change reflects MGN's role as the proven replication engine powering AWS Transform, the agentic migration service. You can choose between two rehosting experiences. Use…"
+    },
+    {
+      "title": "Amazon Aurora DSQL now supports the JSONB data type with compression",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-dsql-supports-jsonb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T17:00:00.000Z",
+      "snippet": "Amazon Aurora DSQL introduces support for the PostgreSQL JSONB data type with optional compression. You can now use code and tools that depend on PostgreSQL's JSONB type with Aurora DSQL, making it easier to store semi-structured data alongside relational…"
+    },
+    {
+      "title": "AWS now provides AI-powered cost investigations for cost anomalies",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T16:41:00.000Z",
+      "snippet": "AWS Cost Anomaly Detection now includes AI-powered cost investigation, which uses Amazon Q to analyze the root cause of detected cost anomalies. Investigating a cost change typically requires correlating cost data with AWS CloudTrail events and resource…"
     },
     {
       "title": "Operationalizing AWS security: A maturity roadmap",
@@ -16,6 +86,13 @@
       "snippet": "Enabling security tooling is the starting point. Making it operational—where findings drive decisions, response times are measurable, and your security posture improves week over week—is where most organizations struggle. This blog post provides a phased…"
     },
     {
+      "title": "Amazon Connect Customer now offers AI agent trace details for self-service voice interactions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-ai-agent-traces/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T16:17:00.000Z",
+      "snippet": "Amazon Connect Customer now provides AI agent traces for self-service voice interactions, enabling you to understand how AI agents reason, act, and respond during each customer conversation. With this launch, you have full visibility into how the AI agent…"
+    },
+    {
       "title": "Amazon Redshift reduces manual snapshot cost for Serverless and RG instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-incremental-manual-snapshots/",
       "source": "AWS What's New",
@@ -23,11 +100,11 @@
       "snippet": "Amazon Redshift announces a new billing model for manual snapshots on Amazon Redshift Serverless and Amazon Redshift RG instances. With this enhancement, Amazon Redshift now meters manual snapshot storage based on the unique data blocks stored across your…"
     },
     {
-      "title": "Amazon OpenSearch Serverless now supports Agentic Search",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-search/",
+      "title": "Amazon RDS for SQL Server migration cost assessment capabilities now available in AWS Transform",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-sql-server-cost-assessment-aws-transform/",
       "source": "AWS What's New",
-      "pubDate": "2026-06-08T06:58:00.000Z",
-      "snippet": "Amazon OpenSearch Serverless now offers Agentic Search — a capability that lets users query their data using natural language. Users simply describe what they are looking for, and the system interprets intent, plans the optimal search strategy, generates the…"
+      "pubDate": "2026-06-08T07:00:00.000Z",
+      "snippet": "Amazon RDS for SQL Server now offers TCO assessment in AWS Transform, so you can estimate costs when migrating on-premises SQL Server databases to RDS for SQL Server. Using AI-powered agents, AWS Transform analyzes your on-premises SQL Server environment and…"
     },
     {
       "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
@@ -72,6 +149,13 @@
       "snippet": "Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and performance. AWS Fargate offers 32vCPU tasks with the following…"
     },
     {
+      "title": "Amazon EC2 C8in instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-asia-pacific-europe/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-05T15:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS Asia Pacific (Sydney, Singapore, Malaysia) and Europe (Frankfurt) regions. C8in instances are powered by custom, sixth generation Intel Xeon Scalable processors,…"
+    },
+    {
       "title": "The AWS MCP Server now supports cross-account and cross-role access",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
       "source": "AWS What's New",
@@ -100,18 +184,18 @@
       "snippet": "Reconstructing distributed denial of service (DDoS) attack traffic used to mean combining data from multiple sources after the fact. AWS Shield Advanced attack flow logs change that—they capture traffic metadata during attacks so you can pinpoint sources,…"
     },
     {
-      "title": "Amazon Cognito now supports multi-Region replication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T17:00:00.000Z",
-      "snippet": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a standby Region you designate in near…"
-    },
-    {
       "title": "AWS Databases on Vercel now available in additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
       "source": "AWS What's New",
       "pubDate": "2026-06-04T17:00:00.000Z",
       "snippet": "Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB serverless databases are now available on Vercel Marketplace and v0 by Vercel in additional AWS Regions, offering you more flexibility to build applications with Vercel and AWS databases from…"
+    },
+    {
+      "title": "Amazon Cognito now supports multi-Region replication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-04T17:00:00.000Z",
+      "snippet": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a secondary user pool in a standby Region you designate in near…"
     },
     {
       "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
@@ -126,90 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-04T16:13:00.000Z",
       "snippet": "AWS Deadline Cloud now gives you an easier way to deliver plugins to cloud workers when using service-managed fleets. AWS Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation,…"
-    },
-    {
-      "title": "Customize federated sign-in with new Amazon Cognito Lambda trigger",
-      "link": "https://aws.amazon.com/blogs/security/customize-federated-sign-in-with-new-amazon-cognito-lambda-trigger/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-04T15:49:15.000Z",
-      "snippet": "You can use Amazon Cognito user pools to add sign-up and sign-in functionality to your web and mobile applications. You can authenticate users directly with Amazon Cognito managed accounts using passwords, passwordless flows, or custom authentication flows,…"
-    },
-    {
-      "title": "Amazon MQ is now available in the AWS European Sovereign Cloud (Germany) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T08:05:00.000Z",
-      "snippet": "You can now deploy Amazon MQ for RabbitMQ in the AWS European Sovereign Cloud (Germany) Region. This new independent cloud for Europe is located entirely within the EU, designed to help customers in regulated industries and public sector organizations meet…"
-    },
-    {
-      "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-04T07:00:00.000Z",
-      "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Today, Amazon Bedrock introduces a console…"
-    },
-    {
-      "title": "Improve your application resilience with Amazon Cognito multi-Region replication",
-      "link": "https://aws.amazon.com/blogs/aws/improve-your-application-resilience-with-amazon-cognito-multi-region-replication/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-03T22:37:29.000Z",
-      "snippet": "Amazon Cognito now offers multi-Region replication that automatically synchronizes user data, credentials, and pool configurations to a secondary AWS Region, enabling uninterrupted authentication during regional failovers without forced password resets—plus…"
-    },
-    {
-      "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T21:15:00.000Z",
-      "snippet": "AWS IoT Device Management adds MQTT session data to connectivity status API, enabling you to troubleshoot connectivity issues and audit connection patterns across your Internet of things (IoT) device fleet. This launch brings AWS IoT Device Management's…"
-    },
-    {
-      "title": "Amazon SageMaker Data Agent now supports conversation history",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T20:26:00.000Z",
-      "snippet": "Amazon SageMaker Data Agent, available in SageMaker Unified Studio now supports conversation history, enabling data practitioners to maintain continuity across analytical sessions. Data analysts and data scientists can now seamlessly reference previous…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports notebook scheduling",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T20:13:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now enables you to schedule, parameterize, and orchestrate notebook runs directly from the notebook interface without managing external orchestration infrastructure. This makes it easier for customers to take notebooks from…"
-    },
-    {
-      "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T20:00:00.000Z",
-      "snippet": "AWS Step Functions now enables you to add AI agent reasoning steps to your workflow through an optimized integration with the managed harness (currently in preview) in Amazon Bedrock AgentCore. AWS Step Functions is a visual workflow service that orchestrates…"
-    },
-    {
-      "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T19:58:00.000Z",
-      "snippet": "Amazon Bedrock now supports GPT-5.4 from OpenAI in AWS GovCloud (US-West). Government and regulated industry customers can use GPT-5.4 for complex reasoning, coding, document analysis, and multi-step workflows while benefiting from the security, governance,…"
-    },
-    {
-      "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T18:30:00.000Z",
-      "snippet": "AWS Compute Optimizer now lets you extend the lookback period of your Amazon EBS volume and Amazon ECS rightsizing recommendations from the default 14 days to 32 days, at no additional cost. A longer lookback period allows Compute Optimizer to account for…"
-    },
-    {
-      "title": "Align your architecture backlog with Tech Roadmap Prioritization (TRP)",
-      "link": "https://aws.amazon.com/blogs/architecture/align-your-architecture-backlog-with-tech-roadmap-prioritization-trp/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-03T18:08:51.000Z",
-      "snippet": "In this post, we show you how to run a one-hour prioritization session with your stakeholders, plot competing initiatives on a shared matrix by cost and impact and turn the result into an actionable architecture backlog - using a framework called Tech Roadmap…"
-    },
-    {
-      "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-03T17:44:00.000Z",
-      "snippet": "Amazon Application Recovery Controller (ARC) Region switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing three new execution…"
     }
   ]
 }
