@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T08:01:54.361Z",
+  "lastUpdated": "2026-06-10T14:02:15.368Z",
   "items": [
     {
       "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
@@ -121,13 +121,6 @@
       "snippet": "Amazon RDS for PostgreSQL 19 Beta 1 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 1 in the Amazon RDS Database Preview…"
     },
     {
-      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T17:00:00.000Z",
-      "snippet": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI lets you run Lambda functions on managed Amazon EC2 instances, giving you…"
-    },
-    {
       "title": "AWS Application Migration Service is now AWS Transform MGN",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
       "source": "AWS What's New",
@@ -140,6 +133,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-08T17:00:00.000Z",
       "snippet": "Amazon Aurora DSQL introduces support for the PostgreSQL JSONB data type with optional compression. You can now use code and tools that depend on PostgreSQL's JSONB type with Aurora DSQL, making it easier to store semi-structured data alongside relational…"
+    },
+    {
+      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T17:00:00.000Z",
+      "snippet": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI lets you run Lambda functions on managed Amazon EC2 instances, giving you…"
     },
     {
       "title": "AWS now provides AI-powered cost investigations for cost anomalies",
