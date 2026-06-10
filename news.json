@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-06-10T14:02:15.368Z",
+  "lastUpdated": "2026-06-10T20:02:34.622Z",
   "items": [
+    {
+      "title": "Introducing the Snowflake and AWS Custom Lens for the AWS Well-Architected Framework",
+      "link": "https://aws.amazon.com/blogs/architecture/introducing-the-snowflake-and-aws-custom-lens-for-the-aws-well-architected-framework/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-10T15:06:00.000Z",
+      "snippet": "The Snowflake and AWS Custom Well-Architected Framework Lens brings together AWS Well-Architected best practices and Snowflake guidance into a single review experience, with integrated recommendations that reflect how the two services compose in production.…"
+    },
+    {
+      "title": "Now available: Amazon EC2 M9g and M9gd instances powered by new AWS Graviton5 processors",
+      "link": "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-10T15:04:30.000Z",
+      "snippet": "AWS launches Amazon EC2 M9g and M9gd instances, powered by AWS Graviton5 processors. AWS Graviton5 is most powerful, and most energy eﬃcient processor AWS has ever built, and oﬀers up to 25% better compute performance compared to Graviton4-based instances."
+    },
+    {
+      "title": "Amazon EC2 M9g and M9gd general purpose instances are now available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-10T15:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed AWS processors, delivering the best price…"
+    },
+    {
+      "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-10T14:32:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-East) Region. These instances offer up to 2x performance compared to P5en instances for AI training and…"
+    },
+    {
+      "title": "AWS Cost and Usage Report 2.0 now supports table configurations update",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-usage-report/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-10T13:33:00.000Z",
+      "snippet": "AWS today announces that AWS Cost and Usage Report 2.0 (CUR 2.0) now supports updates to data table configurations via the AWS Management Console and SDK/CLI. This capability allows customers to modify their existing exports to take advantage of new CUR 2.0…"
+    },
+    {
+      "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-09T20:52:00.000Z",
+      "snippet": "You can now create Amazon FSx for OpenZFS file systems with the Intelligent-Tiering storage class in 8 additional AWS Regions across the US, Europe, Asia Pacific, and South America. FSx Intelligent-Tiering is built for general-purpose file workloads such as…"
+    },
     {
       "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
@@ -35,6 +77,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-09T15:28:00.000Z",
       "snippet": "Today, AWS announces the preview of AWS FinOps Agent, a frontier agent for FinOps practitioners and engineering teams that answers cost questions, surfaces optimization opportunities, automatically investigates cost anomalies, and runs recurring FinOps…"
+    },
+    {
+      "title": "Announcing metal-48xl and metal-96xl for Amazon EC2 network/EBS instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-09T15:00:00.000Z",
+      "snippet": "AWS is announcing the general availability of metal-48xl and metal-96xl sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8in, M8ib, M8idn, M8idb, R8in, R8ib, R8idn, and R8idb instances. These instances are powered by custom sixth generation Intel Xeon…"
     },
     {
       "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
@@ -121,6 +170,13 @@
       "snippet": "Amazon RDS for PostgreSQL 19 Beta 1 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 1 in the Amazon RDS Database Preview…"
     },
     {
+      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T17:00:00.000Z",
+      "snippet": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI lets you run Lambda functions on managed Amazon EC2 instances, giving you…"
+    },
+    {
       "title": "AWS Application Migration Service is now AWS Transform MGN",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
       "source": "AWS What's New",
@@ -133,13 +189,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-08T17:00:00.000Z",
       "snippet": "Amazon Aurora DSQL introduces support for the PostgreSQL JSONB data type with optional compression. You can now use code and tools that depend on PostgreSQL's JSONB type with Aurora DSQL, making it easier to store semi-structured data alongside relational…"
-    },
-    {
-      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T17:00:00.000Z",
-      "snippet": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI lets you run Lambda functions on managed Amazon EC2 instances, giving you…"
     },
     {
       "title": "AWS now provides AI-powered cost investigations for cost anomalies",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-08T16:17:00.000Z",
       "snippet": "Amazon Connect Customer now provides AI agent traces for self-service voice interactions, enabling you to understand how AI agents reason, act, and respond during each customer conversation. With this launch, you have full visibility into how the AI agent…"
-    },
-    {
-      "title": "Amazon Redshift reduces manual snapshot cost for Serverless and RG instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-incremental-manual-snapshots/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T15:00:00.000Z",
-      "snippet": "Amazon Redshift announces a new billing model for manual snapshots on Amazon Redshift Serverless and Amazon Redshift RG instances. With this enhancement, Amazon Redshift now meters manual snapshot storage based on the unique data blocks stored across your…"
-    },
-    {
-      "title": "Amazon RDS for SQL Server migration cost assessment capabilities now available in AWS Transform",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-sql-server-cost-assessment-aws-transform/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T07:00:00.000Z",
-      "snippet": "Amazon RDS for SQL Server now offers TCO assessment in AWS Transform, so you can estimate costs when migrating on-premises SQL Server databases to RDS for SQL Server. Using AI-powered agents, AWS Transform analyzes your on-premises SQL Server environment and…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-05T22:25:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Runtime now supports interactive shells through a new InvokeAgentRuntimeCommandShell API, opening a persistent, PTY-backed terminal directly into a running agent session over WebSocket. This complements the existing…"
-    },
-    {
-      "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-05T21:11:00.000Z",
-      "snippet": "AWS Glue Data Catalog now supports AWS IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization, you can define all necessary permissions across storage, catalog, and query engines in a single IAM…"
-    },
-    {
-      "title": "Amazon OpenSearch UI is now available in GovCloud regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-05T20:40:00.000Z",
-      "snippet": "Amazon OpenSearch Service expands its modernized operational analytics experience to GovCloud regions, including AWS GovCloud (US-East) and AWS GovCloud (US-West), enabling users to gain insights across data spanning managed domains and serverless collections…"
-    },
-    {
-      "title": "Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs",
-      "link": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-05T19:15:11.000Z",
-      "snippet": "You can use the new console experience on Amazon Bedrock to browse and compare the latest AI models side by side, organize work into projects with streamlined evaluation workflows, and access project-aware live documentation with auto-prefilled code snippets…"
-    },
-    {
-      "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
-      "link": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-05T17:07:06.000Z",
-      "snippet": "Modern web applications require robust security controls to protect user data and application resources. Authentication and authorization are two fundamental pillars of application security that answer critical questions: Who are you? and What are you allowed…"
     }
   ]
 }
