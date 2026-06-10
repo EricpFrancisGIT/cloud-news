@@ -1,12 +1,26 @@
 {
-  "lastUpdated": "2026-06-09T20:01:17.125Z",
+  "lastUpdated": "2026-06-10T02:01:34.979Z",
   "items": [
+    {
+      "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-09T18:46:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, giving data engineers and analysts more flexibility in choosing their Spark runtime for interactive analytics and data engineering workloads. In addition to…"
+    },
     {
       "title": "Anthropic Claude Fable 5 on AWS: Mythos-class capabilities with built-in safeguards now available",
       "link": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
       "source": "AWS News Blog",
       "pubDate": "2026-06-09T17:40:31.000Z",
       "snippet": "AWS announces the availability of Claude Fable 5 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5 makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use."
+    },
+    {
+      "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-09T17:14:00.000Z",
+      "snippet": "You can now create Amazon S3 Access Grants in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in S3. This…"
     },
     {
       "title": "Automate medical record digitization with Amazon Bedrock Data Automation and AWS HealthLake",
@@ -28,6 +42,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-09T14:15:00.000Z",
       "snippet": "Claude Fable 5 is generally available on AWS and makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use. Fable 5 is state-of-the-art on nearly all tested benchmarks and delivers a…"
+    },
+    {
+      "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-09T10:00:00.000Z",
+      "snippet": "AWS Backup support for Amazon Elastic Kubernetes Service (EKS) is now available in the AWS European Sovereign Cloud (Germany) Region. This expansion brings fully-managed, policy-based data protection and recovery to your Amazon EKS clusters in this newly…"
     },
     {
       "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect",
@@ -189,27 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-06-05T17:07:06.000Z",
       "snippet": "Modern web applications require robust security controls to protect user data and application resources. Authentication and authorization are two fundamental pillars of application security that answer critical questions: Who are you? and What are you allowed…"
-    },
-    {
-      "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-05T15:00:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and performance. AWS Fargate offers 32vCPU tasks with the following…"
-    },
-    {
-      "title": "Amazon EC2 C8in instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-asia-pacific-europe/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-05T15:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS Asia Pacific (Sydney, Singapore, Malaysia) and Europe (Frankfurt) regions. C8in instances are powered by custom, sixth generation Intel Xeon Scalable processors,…"
-    },
-    {
-      "title": "The AWS MCP Server now supports cross-account and cross-role access",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-05T07:00:00.000Z",
-      "snippet": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS. This feature allows developers using AI coding agents like Kiro, Claude Code, or Codex to work across multiple AWS…"
     }
   ]
 }
