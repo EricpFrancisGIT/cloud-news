@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-10T20:02:34.622Z",
+  "lastUpdated": "2026-06-11T02:02:51.571Z",
   "items": [
+    {
+      "title": "Amazon ECS Managed Daemons now support inter-task visibility and communication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-10T20:00:00.000Z",
+      "snippet": "Amazon ECS Managed Daemons now support inter-task visibility and communication, enabling customers to deploy tracing, profiling, and security agents that require access to application processes and shared IPC resources on ECS Managed Instances. With this…"
+    },
     {
       "title": "Introducing the Snowflake and AWS Custom Lens for the AWS Well-Architected Framework",
       "link": "https://aws.amazon.com/blogs/architecture/introducing-the-snowflake-and-aws-custom-lens-for-the-aws-well-architected-framework/",
@@ -170,13 +177,6 @@
       "snippet": "Amazon RDS for PostgreSQL 19 Beta 1 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 1 in the Amazon RDS Database Preview…"
     },
     {
-      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T17:00:00.000Z",
-      "snippet": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI lets you run Lambda functions on managed Amazon EC2 instances, giving you…"
-    },
-    {
       "title": "AWS Application Migration Service is now AWS Transform MGN",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
       "source": "AWS What's New",
@@ -191,6 +191,13 @@
       "snippet": "Amazon Aurora DSQL introduces support for the PostgreSQL JSONB data type with optional compression. You can now use code and tools that depend on PostgreSQL's JSONB type with Aurora DSQL, making it easier to store semi-structured data alongside relational…"
     },
     {
+      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-08T17:00:00.000Z",
+      "snippet": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI lets you run Lambda functions on managed Amazon EC2 instances, giving you…"
+    },
+    {
       "title": "AWS now provides AI-powered cost investigations for cost anomalies",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
       "source": "AWS What's New",
@@ -203,13 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-06-08T16:18:04.000Z",
       "snippet": "Enabling security tooling is the starting point. Making it operational—where findings drive decisions, response times are measurable, and your security posture improves week over week—is where most organizations struggle. This blog post provides a phased…"
-    },
-    {
-      "title": "Amazon Connect Customer now offers AI agent trace details for self-service voice interactions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-ai-agent-traces/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T16:17:00.000Z",
-      "snippet": "Amazon Connect Customer now provides AI agent traces for self-service voice interactions, enabling you to understand how AI agents reason, act, and respond during each customer conversation. With this launch, you have full visibility into how the AI agent…"
     }
   ]
 }
