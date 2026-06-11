@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-06-11T14:03:31.310Z",
+  "lastUpdated": "2026-06-11T20:03:51.085Z",
   "items": [
+    {
+      "title": "AWS Elastic Beanstalk console now integrates CloudWatch Logs in the Logs tab",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T17:00:00.000Z",
+      "snippet": "AWS Elastic Beanstalk now provides a CloudWatch Logs integration directly in the environment Logs tab of the Elastic Beanstalk console. Previously, customers had to navigate to the CloudWatch console to find the relevant log groups and log streams for their…"
+    },
+    {
+      "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications/",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T17:00:00.000Z",
+      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless now supports workflow and task state change events to Amazon EventBridge, enabling data engineering and platform teams to build event-driven automation for their Apache Airflow workflows.…"
+    },
+    {
+      "title": "Amazon Managed Service for Prometheus now supports out of order sample ingestion",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-outoforder-ingestion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T13:00:00.000Z",
+      "snippet": "Amazon Managed Service for Prometheus now supports out-of-order sample ingestion and a workspace-level rule query offset. All workspaces have a default out-of-order time window of 1 minute, allowing the workspace to accept metric samples arriving outside…"
+    },
+    {
+      "title": "AWS announces AWS Workload Credentials Provider",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-workload-credentials-provider/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T07:00:00.000Z",
+      "snippet": "AWS announces AWS Workload Credentials Provider, a lightweight client-side provider that automates deployment of exported certificates from AWS Certificate Manager (ACM) and local caching of secrets from AWS Secrets Manager across AWS and non-AWS workloads.…"
+    },
     {
       "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-08T17:16:00.000Z",
       "snippet": "Today, AWS announces target coverage analysis in Savings Plans Purchase Analyzer, a capability in AWS Billing and Cost Management that helps you plan your Savings Plans purchases based on your coverage target. Savings Plans Purchase Analyzer helps you…"
-    },
-    {
-      "title": "PostgreSQL 19 Beta 1 is now available in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/postgresql-19-beta-1-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T17:03:00.000Z",
-      "snippet": "Amazon RDS for PostgreSQL 19 Beta 1 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 1 in the Amazon RDS Database Preview…"
-    },
-    {
-      "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T17:00:00.000Z",
-      "snippet": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI lets you run Lambda functions on managed Amazon EC2 instances, giving you…"
-    },
-    {
-      "title": "AWS Application Migration Service is now AWS Transform MGN",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T17:00:00.000Z",
-      "snippet": "AWS Application Migration Service (MGN) is now available as AWS Transform MGN. This name change reflects MGN's role as the proven replication engine powering AWS Transform, the agentic migration service. You can choose between two rehosting experiences. Use…"
-    },
-    {
-      "title": "Amazon Aurora DSQL now supports the JSONB data type with compression",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-dsql-supports-jsonb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T17:00:00.000Z",
-      "snippet": "Amazon Aurora DSQL introduces support for the PostgreSQL JSONB data type with optional compression. You can now use code and tools that depend on PostgreSQL's JSONB type with Aurora DSQL, making it easier to store semi-structured data alongside relational…"
     }
   ]
 }
