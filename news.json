@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-06-12T14:04:51.628Z",
+  "lastUpdated": "2026-06-12T20:05:15.700Z",
   "items": [
+    {
+      "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-12T16:00:00.000Z",
+      "snippet": "AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better…"
+    },
+    {
+      "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-12T14:00:00.000Z",
+      "snippet": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine learning workloads. EC2 Capacity Blocks for ML allows you to…"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7i-8TB instances now available in AWS Europe (Paris) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7i-8tb-europe-paris/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T23:00:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7i-8TB…"
+    },
+    {
+      "title": "Amazon Quick now integrates with Snowflake Cortex AI",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T22:02:00.000Z",
+      "snippet": "Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), enabling teams to query their Snowflake data and documents using natural language, and automate multi-step workflows directly within their Quick workspace. After…"
+    },
+    {
+      "title": "Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-aws-outposts-ec2-instance-store/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T20:52:00.000Z",
+      "snippet": "Today, AWS is expanding support for Amazon Elastic Kubernetes Service (EKS) local clusters on AWS Outposts to first-generation and second-generation AWS Outposts racks running Amazon EC2 instances that boot from Amazon EC2 instance store. AWS Outposts offers…"
+    },
     {
       "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
@@ -28,6 +63,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-11T17:00:00.000Z",
       "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless now supports workflow and task state change events to Amazon EventBridge, enabling data engineering and platform teams to build event-driven automation for their Apache Airflow workflows.…"
+    },
+    {
+      "title": "AWS Lake Formation extends table permissions to access underlying data in Amazon S3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lake-formation-access-data-amazon-s3",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T16:00:00.000Z",
+      "snippet": "AWS Lake Formation now enables you to read and write the underlying data files in Amazon S3 for tables registered in the AWS Glue Data Catalog. This provides you with a single set of permissions for both SQL queries and direct file access using your existing…"
     },
     {
       "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-09T15:00:00.000Z",
       "snippet": "AWS is announcing the general availability of metal-48xl and metal-96xl sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8in, M8ib, M8idn, M8idb, R8in, R8ib, R8idn, and R8idb instances. These instances are powered by custom sixth generation Intel Xeon…"
-    },
-    {
-      "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-09T14:15:00.000Z",
-      "snippet": "Claude Fable 5 is generally available on AWS and makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use. Fable 5 is state-of-the-art on nearly all tested benchmarks and delivers a…"
-    },
-    {
-      "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-09T10:00:00.000Z",
-      "snippet": "AWS Backup support for Amazon Elastic Kubernetes Service (EKS) is now available in the AWS European Sovereign Cloud (Germany) Region. This expansion brings fully-managed, policy-based data protection and recovery to your Amazon EKS clusters in this newly…"
-    },
-    {
-      "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-09T07:00:00.000Z",
-      "snippet": "Amazon EMR Serverless now supports interactive sessions with Spark Connect, enabling you to develop and run Apache Spark applications from managed notebooks in Amazon SageMaker Unified Studio, as well as your favorite notebook environments and IDEs such as…"
-    },
-    {
-      "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-09T03:00:00.000Z",
-      "snippet": "AWS Cost Explorer now supports 'Analyze with Amazon Q', a new capability that delivers comprehensive cost explanations for any report you configure in Cost Explorer. With a single button click you now can receive detailed analysis from Amazon Q Developer…"
-    },
-    {
-      "title": "AWS Weekly Roundup: BYOM for Amazon RDS for SQL Server, AWS IoT Device SDK for Swift, and more (June 8, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-byom-for-amazon-rds-for-sql-server-aws-iot-device-sdk-for-swift-and-more-june-8-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-08T21:27:12.000Z",
-      "snippet": "This week, the AWS IoT Device SDK for Swift reached general availability. As a member of the Swift Server Workgroup (SSWG), this one caught my attention. The SDK brings production-ready MQTT 5 connectivity, Device Shadow, Jobs, and fleet provisioning to Swift…"
-    },
-    {
-      "title": "ICYMI: May 2026 @AWS Security",
-      "link": "https://aws.amazon.com/blogs/security/icymi-may-2026-aws-security/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-08T21:00:11.000Z",
-      "snippet": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS…"
     }
   ]
 }
