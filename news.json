@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-06-11T20:03:51.085Z",
+  "lastUpdated": "2026-06-12T02:04:09.589Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T20:10:00.000Z",
+      "snippet": "Amazon CloudWatch Application Signals introduces service health ranking on the application map and new infrastructure, logs, and traces tabs on the service overview page. These capabilities let operators triage unhealthy services and inspect the underlying…"
+    },
+    {
+      "title": "Amazon Aurora now supports PostgreSQL major version 18",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T18:59:00.000Z",
+      "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL major version 18, starting with version 18.3. This release brings community improvements to query performance and database management, and introduces support for pg_roaringbitmap, a new…"
+    },
     {
       "title": "AWS Elastic Beanstalk console now integrates CloudWatch Logs in the Logs tab",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs/",
@@ -9,11 +23,18 @@
       "snippet": "AWS Elastic Beanstalk now provides a CloudWatch Logs integration directly in the environment Logs tab of the Elastic Beanstalk console. Previously, customers had to navigate to the CloudWatch console to find the relevant log groups and log streams for their…"
     },
     {
-      "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications/",
+      "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
       "source": "AWS What's New",
       "pubDate": "2026-06-11T17:00:00.000Z",
       "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless now supports workflow and task state change events to Amazon EventBridge, enabling data engineering and platform teams to build event-driven automation for their Apache Airflow workflows.…"
+    },
+    {
+      "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-11T13:00:00.000Z",
+      "snippet": "Amazon Managed Service for Prometheus now supports ingestion, storage, and querying of Prometheus native histograms, enabling customers to capture high-resolution metric distributions with greater precision and lower cardinality than classic histograms.…"
     },
     {
       "title": "Amazon Managed Service for Prometheus now supports out of order sample ingestion",
@@ -49,6 +70,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-10T20:00:00.000Z",
       "snippet": "Amazon ECS Managed Daemons now support inter-task visibility and communication, enabling customers to deploy tracing, profiling, and security agents that require access to application processes and shared IPC resources on ECS Managed Instances. With this…"
+    },
+    {
+      "title": "Gemma 4 models now available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gemma-4-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-10T19:17:00.000Z",
+      "snippet": "Today, AWS announces the availability of the Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock. With Gemma 4, you can build generative AI applications across reasoning, multimodal understanding, agentic, and software engineering…"
+    },
+    {
+      "title": "Amazon Virtual Private Cloud (VPC) Flow Logs introduces additional metadata",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-flow-logs-metadata",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-10T16:58:00.000Z",
+      "snippet": "Amazon Virtual Private Cloud (VPC) Flow Logs now supports EC2 resource tags and next-hop interface metadata, simplifying network monitoring and troubleshooting by eliminating the need to manually correlate flow log data with resource metadata. VPC Flow Logs…"
     },
     {
       "title": "Introducing the Snowflake and AWS Custom Lens for the AWS Well-Architected Framework",
@@ -175,41 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-06-08T21:00:11.000Z",
       "snippet": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS…"
-    },
-    {
-      "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T21:00:00.000Z",
-      "snippet": "AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless), Amazon WorkSpaces, and Amazon SageMaker endpoints. This…"
-    },
-    {
-      "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T19:36:00.000Z",
-      "snippet": "Effective today, Amazon MSK Express Brokers support automatic topic creation with Kafka Streams. Customers can now deploy their Kafka Streams applications on Express Brokers without needing to manually pre-create or manage topics for stateful operations. MSK…"
-    },
-    {
-      "title": "Amazon DocumentDB now supports engine minor version starting with 5.0.1",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T18:59:00.000Z",
-      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports engine minor versions, starting with 5.0.1. This release delivers enhanced aggregation capabilities with new operators ($rand, $pow, $dateToParts, $dateFromParts), the active connections metric to…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs Insights adds 23 new query commands and functions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T17:50:00.000Z",
-      "snippet": "Amazon CloudWatch Logs Insights query language now supports 23 new commands and functions that give you new ways to query, parse, transform, and analyze your logs. Customers analyzing logs in CloudWatch Logs Insights often need to do conditional processing,…"
-    },
-    {
-      "title": "AWS Savings Plans Purchase Analyzer now supports target coverage analysis",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-savings-plans-coverage/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-08T17:16:00.000Z",
-      "snippet": "Today, AWS announces target coverage analysis in Savings Plans Purchase Analyzer, a capability in AWS Billing and Cost Management that helps you plan your Savings Plans purchases based on your coverage target. Savings Plans Purchase Analyzer helps you…"
     }
   ]
 }
