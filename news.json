@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-06-12T20:05:15.700Z",
+  "lastUpdated": "2026-06-13T02:05:31.233Z",
   "items": [
+    {
+      "title": "Amazon Lightsail is now available in three additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-12T20:43:00.000Z",
+      "snippet": "Starting today, Amazon Lightsail is available in three additional AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion brings the power and simplicity of Lightsail to customers across new geographies in Asia,…"
+    },
+    {
+      "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-12T17:00:00.000Z",
+      "snippet": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight model from NVIDIA with 30B total parameters. In addition to…"
+    },
     {
       "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
@@ -196,20 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-06-09T16:51:55.000Z",
       "snippet": "In this post, you learn how to build an automated, serverless pipeline that converts scanned PDF medical records into FHIR R4-compliant data using Amazon Bedrock Data Automation and AWS HealthLake. We walk through the architecture, explain how each AWS…"
-    },
-    {
-      "title": "AWS FinOps Agent is now available in preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-09T15:28:00.000Z",
-      "snippet": "Today, AWS announces the preview of AWS FinOps Agent, a frontier agent for FinOps practitioners and engineering teams that answers cost questions, surfaces optimization opportunities, automatically investigates cost anomalies, and runs recurring FinOps…"
-    },
-    {
-      "title": "Announcing metal-48xl and metal-96xl for Amazon EC2 network/EBS instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-09T15:00:00.000Z",
-      "snippet": "AWS is announcing the general availability of metal-48xl and metal-96xl sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8in, M8ib, M8idn, M8idb, R8in, R8ib, R8idn, and R8idb instances. These instances are powered by custom sixth generation Intel Xeon…"
     }
   ]
 }
