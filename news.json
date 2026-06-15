@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-06-15T14:19:20.276Z",
+  "lastUpdated": "2026-06-15T20:19:38.630Z",
   "items": [
+    {
+      "title": "Amazon Route 53 Resolver DNS Firewall now supports Palo Alto Networks Advanced DNS Security (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T17:06:00.000Z",
+      "snippet": "Amazon Web Services announces the preview of Palo Alto Networks (PANW) Advanced DNS Security on Amazon Route 53 Resolver DNS Firewall. Security administrators can now enforce DNS threat protections from Palo Alto Networks directly on Route 53 DNS Firewall…"
+    },
+    {
+      "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T17:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) Express Mode is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. ECS Express Mode empowers developers to rapidly launch containerized applications, including web applications and…"
+    },
+    {
+      "title": "AWS launches Cost Explorer historical data retention for accounts in billing groups",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T16:07:00.000Z",
+      "snippet": "Today, AWS announces Cost Explorer historical data retention for accounts in billing groups. Customers can use AWS Billing Conductor and Billing Transfer to map accounts to billing groups, enabling them to view billing data priced at the pro forma rates…"
+    },
+    {
+      "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T15:55:00.000Z",
+      "snippet": "AWS Lambda Managed Instances (LMI) now supports tag propagation, enabling you to automatically apply tags to managed resources such as Amazon EC2 instances, Amazon EBS volumes, and Amazon ENIs. This helps you enforce cost allocation, service control policies…"
+    },
+    {
+      "title": "AWS DevOps Agent expands with custom SRE agents and MCP/A2A protocols",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-custom-agents/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T15:47:00.000Z",
+      "snippet": "AWS DevOps Agent now supports custom SRE agents, bring-your-own sub-agents, and headless access via MCP and A2A protocols. These capabilities enable teams to automate recurring SRE workflows, extend DevOps Agent by connecting it to other agents, and access…"
+    },
     {
       "title": "How Samsung achieved real-time pricing with AWS Lambda Response Streaming",
       "link": "https://aws.amazon.com/blogs/architecture/how-samsung-achieved-real-time-pricing-with-aws-lambda-response-streaming/",
@@ -9,11 +44,60 @@
       "snippet": "In this post, we walk through the legacy architecture challenges, the stateless streaming solution, key implementation patterns, and performance results—a pattern you can apply if you’re building high-traffic APIs that aggregate data from multiple backend…"
     },
     {
+      "title": "Amazon EC2 C7i instances are now available in the Israel (Tel Aviv) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T13:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in the Israel (Tel Aviv) Region. C7i instances are supported by custom Intel…"
+    },
+    {
+      "title": "Amazon EC2 C8i instances are now available in Europe (Stockholm) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T13:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Stockholm) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory…"
+    },
+    {
       "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
       "source": "AWS News Blog",
       "pubDate": "2026-06-15T11:41:48.000Z",
       "snippet": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog posts for some of the Summit launches, so I am excited to…"
+    },
+    {
+      "title": "Amazon CloudWatch now supports cross-account metrics centralization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cross-account-metrics-centralization",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T10:00:00.000Z",
+      "snippet": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Metrics Centralization, which enables you to replicate CloudWatch metrics cross-account and cross-region into a single destination account. Enterprise teams with complex…"
+    },
+    {
+      "title": "Amazon CloudWatch Query Studio is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-query-studio-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T10:00:00.000Z",
+      "snippet": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Query Studio, a unified querying and visualization experience that enables you to explore metrics from a single interface within the CloudWatch console. With Query Studio, a…"
+    },
+    {
+      "title": "Amazon RDS for MariaDB supports Long-Term Support version 12.3 in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-maria-db-innovation-release-12-3-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T07:00:00.000Z",
+      "snippet": "Amazon RDS for MariaDB now supports MariaDB 12.3 in the Amazon RDS Database Preview Environment, allowing you to evaluate the latest Long-Term Support Release on Amazon RDS for MariaDB. This preview environment provides a sandbox where you can test…"
+    },
+    {
+      "title": "Amazon RDS for MySQL announces Extended Support minor version 5.7.44-RDS.20260521",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-mysql-extended-support-minor-5744-rds/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for MySQL now supports new Amazon RDS Extended Support minor version 5.7.44-RDS.20260521. We recommend that you upgrade to this version to fix known security vulnerabilities and bugs in prior versions of MySQL.…"
+    },
+    {
+      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-mariadb-community-versions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for MariaDB now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior…"
     },
     {
       "title": "Amazon Lightsail is now available in three additional AWS Regions",
@@ -126,90 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-11T00:12:00.000Z",
       "snippet": "Today, AWS announces the expanded availability of OpenAI's GPT-5.4 and GPT-5.5 models, which are now available in the US East (N. Virginia) Region on Amazon Bedrock. With GPT-5.4 and GPT-5.5, you can build generative AI applications across reasoning, coding,…"
-    },
-    {
-      "title": "Amazon OpenSearch Service launches MCP Apps for agentic observability",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-observability-mcp-app",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-10T22:58:00.000Z",
-      "snippet": "Amazon OpenSearch Service now supports MCP Apps, bringing observability workflows directly into compatible agentic IDEs such as Claude Desktop and VS Code. With this capability, your AI agent in local environment can investigate incidents using logs, traces,…"
-    },
-    {
-      "title": "Amazon ECS Managed Daemons now support inter-task visibility and communication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-10T20:00:00.000Z",
-      "snippet": "Amazon ECS Managed Daemons now support inter-task visibility and communication, enabling customers to deploy tracing, profiling, and security agents that require access to application processes and shared IPC resources on ECS Managed Instances. With this…"
-    },
-    {
-      "title": "Gemma 4 models now available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gemma-4-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-10T19:17:00.000Z",
-      "snippet": "Today, AWS announces the availability of the Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock. With Gemma 4, you can build generative AI applications across reasoning, multimodal understanding, agentic, and software engineering…"
-    },
-    {
-      "title": "Amazon Virtual Private Cloud (VPC) Flow Logs introduces additional metadata",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-flow-logs-metadata",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-10T16:58:00.000Z",
-      "snippet": "Amazon Virtual Private Cloud (VPC) Flow Logs now supports EC2 resource tags and next-hop interface metadata, simplifying network monitoring and troubleshooting by eliminating the need to manually correlate flow log data with resource metadata. VPC Flow Logs…"
-    },
-    {
-      "title": "Introducing the Snowflake and AWS Custom Lens for the AWS Well-Architected Framework",
-      "link": "https://aws.amazon.com/blogs/architecture/introducing-the-snowflake-and-aws-custom-lens-for-the-aws-well-architected-framework/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-10T15:06:00.000Z",
-      "snippet": "The Snowflake and AWS Custom Well-Architected Framework Lens brings together AWS Well-Architected best practices and Snowflake guidance into a single review experience, with integrated recommendations that reflect how the two services compose in production.…"
-    },
-    {
-      "title": "Now available: Amazon EC2 M9g and M9gd instances powered by new AWS Graviton5 processors",
-      "link": "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-10T15:04:30.000Z",
-      "snippet": "AWS launches Amazon EC2 M9g and M9gd instances, powered by AWS Graviton5 processors. AWS Graviton5 is most powerful, and most energy eﬃcient processor AWS has ever built, and oﬀers up to 25% better compute performance compared to Graviton4-based instances."
-    },
-    {
-      "title": "Amazon EC2 M9g and M9gd general purpose instances are now available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-10T15:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed AWS processors, delivering the best price…"
-    },
-    {
-      "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-10T14:32:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-East) Region. These instances offer up to 2x performance compared to P5en instances for AI training and…"
-    },
-    {
-      "title": "AWS Cost and Usage Report 2.0 now supports table configurations update",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-usage-report/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-10T13:33:00.000Z",
-      "snippet": "AWS today announces that AWS Cost and Usage Report 2.0 (CUR 2.0) now supports updates to data table configurations via the AWS Management Console and SDK/CLI. This capability allows customers to modify their existing exports to take advantage of new CUR 2.0…"
-    },
-    {
-      "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-09T20:52:00.000Z",
-      "snippet": "You can now create Amazon FSx for OpenZFS file systems with the Intelligent-Tiering storage class in 8 additional AWS Regions across the US, Europe, Asia Pacific, and South America. FSx Intelligent-Tiering is built for general-purpose file workloads such as…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-09T18:46:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, giving data engineers and analysts more flexibility in choosing their Spark runtime for interactive analytics and data engineering workloads. In addition to…"
-    },
-    {
-      "title": "Anthropic Claude Fable 5 on AWS: Mythos-class capabilities with built-in safeguards now available",
-      "link": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-09T17:40:31.000Z",
-      "snippet": "AWS announces the availability of Claude Fable 5 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5 delivers Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use."
     }
   ]
 }
