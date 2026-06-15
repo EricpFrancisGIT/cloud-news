@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-06-15T08:17:54.477Z",
+  "lastUpdated": "2026-06-15T14:19:20.276Z",
   "items": [
+    {
+      "title": "How Samsung achieved real-time pricing with AWS Lambda Response Streaming",
+      "link": "https://aws.amazon.com/blogs/architecture/how-samsung-achieved-real-time-pricing-with-aws-lambda-response-streaming/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-15T14:13:36.000Z",
+      "snippet": "In this post, we walk through the legacy architecture challenges, the stateless streaming solution, key implementation patterns, and performance results—a pattern you can apply if you’re building high-traffic APIs that aggregate data from multiple backend…"
+    },
+    {
+      "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-15T11:41:48.000Z",
+      "snippet": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog posts for some of the Summit launches, so I am excited to…"
+    },
     {
       "title": "Amazon Lightsail is now available in three additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
@@ -196,20 +210,6 @@
       "source": "AWS News Blog",
       "pubDate": "2026-06-09T17:40:31.000Z",
       "snippet": "AWS announces the availability of Claude Fable 5 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5 delivers Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use."
-    },
-    {
-      "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-09T17:14:00.000Z",
-      "snippet": "You can now create Amazon S3 Access Grants in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in S3. This…"
-    },
-    {
-      "title": "Automate medical record digitization with Amazon Bedrock Data Automation and AWS HealthLake",
-      "link": "https://aws.amazon.com/blogs/architecture/automate-medical-record-digitization-with-amazon-bedrock-data-automation-and-aws-healthlake/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-09T16:51:55.000Z",
-      "snippet": "In this post, you learn how to build an automated, serverless pipeline that converts scanned PDF medical records into FHIR R4-compliant data using Amazon Bedrock Data Automation and AWS HealthLake. We walk through the architecture, explain how each AWS…"
     }
   ]
 }
