@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-16T08:20:24.788Z",
+  "lastUpdated": "2026-06-16T14:20:48.146Z",
   "items": [
+    {
+      "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T04:00:00.000Z",
+      "snippet": "Today, AWS announces the public preview of a new storage migration capability for AWS Transform that enables application owners, database administrators, and cloud migration teams to migrate block storage workloads from any on-premises or cloud source to…"
+    },
     {
       "title": "AWS Management Console Private Access now works without internet connectivity",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-11T20:52:00.000Z",
       "snippet": "Today, AWS is expanding support for Amazon Elastic Kubernetes Service (EKS) local clusters on AWS Outposts to first-generation and second-generation AWS Outposts racks running Amazon EC2 instances that boot from Amazon EC2 instance store. AWS Outposts offers…"
-    },
-    {
-      "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T20:10:00.000Z",
-      "snippet": "Amazon CloudWatch Application Signals introduces service health ranking on the application map and new infrastructure, logs, and traces tabs on the service overview page. These capabilities let operators triage unhealthy services and inspect the underlying…"
     }
   ]
 }
