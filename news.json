@@ -1,12 +1,110 @@
 {
-  "lastUpdated": "2026-06-16T14:20:48.146Z",
+  "lastUpdated": "2026-06-16T20:21:14.463Z",
   "items": [
+    {
+      "title": "Threat tactic spotlight: Subdomain takeover",
+      "link": "https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-16T17:53:20.000Z",
+      "snippet": "In this blog post you’ll learn how to detect and prevent subdomain takeover – a tactic where threat actors exploit dangling DNS records to redirect traffic to attacker-controlled resources. We’ll explain the issue, how the situation arises, and how you can…"
+    },
+    {
+      "title": "AWS Sign-in now supports resource-based policies and resource control policies",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-sign-in/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T16:20:00.000Z",
+      "snippet": "AWS Sign-in now supports resource-based policies and resource control policies (RCPs) for the AWS Management Console. You can use these policies to restrict console sign-in to expected networks. Policies are evaluated during sign-in and whenever the console…"
+    },
+    {
+      "title": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T16:10:00.000Z",
+      "snippet": "Amazon Redshift is expanding the general availability of RG instances — powered by AWS Graviton processors — to three additional AWS Regions: Africa (Cape Town), Asia Pacific (Bangkok), and Mexico (Central). Amazon Redshift's new Graviton-based RG instances…"
+    },
+    {
+      "title": "AWS announces AWS Blocks, an open-source framework for composing application backends on AWS (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T15:49:00.000Z",
+      "snippet": "Today, AWS announces the public preview of AWS Blocks, an open-source TypeScript framework for application developers who want backend capabilities on AWS removing the need to learn infrastructure tools. AWS Blocks runs a fully functional local environment…"
+    },
+    {
+      "title": "AWS Partner Central agents now accelerate co-selling on every deal",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/accelerate-co-selling-with-agents/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T13:00:00.000Z",
+      "snippet": "Starting today, AWS Partner Central agents qualify every co-sell opportunity in real time and make recommendations that drive AWS engagement and accelerate deal progression. Building on the AWS Partner Central agents released on March 16, 2026, the agent can…"
+    },
+    {
+      "title": "Amazon CloudWatch introduces native OpenTelemetry metrics with PromQL querying and per-GB pricing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T12:44:00.000Z",
+      "snippet": "Amazon CloudWatch now natively supports OpenTelemetry metrics. You can send metrics via the OpenTelemetry Protocol (OTLP) and query them using Prometheus Query Language (PromQL), with per-GB ingestion pricing and 15 months of storage included. This allows you…"
+    },
+    {
+      "title": "AWS Marketplace announces AI-assisted product listing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T12:30:00.000Z",
+      "snippet": "Today, AWS Marketplace announces AI-assisted product listing in Partner Assistant chat, helping Independent Software Vendors (ISVs) and Consulting Partners create high-quality product listings on AWS Marketplace using their existing digital assets. This new…"
+    },
+    {
+      "title": "AWS Partner Central launches new funding benefits for Business Value Realization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T07:00:00.000Z",
+      "snippet": "AWS Partner Central now supports the Business Value Realization (BVR) motion, a new experience and funding motion for partners who drive customer adoption and business outcomes after deploying strategic AWS services. BVR helps partners drive business outcomes…"
+    },
+    {
+      "title": "AWS Partner Central now validates Foundational Technical Review in minutes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T07:00:00.000Z",
+      "snippet": "AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined process with AI-powered validation provides AWS partners with…"
+    },
+    {
+      "title": "AWS Marketplace reduces listing fee for professional services to 0.5%",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T05:00:00.000Z",
+      "snippet": "AWS Marketplace now offers a 0.5% listing fee for professional services private offers, reduced from 2.5%. This makes it more cost-effective for consulting partners, systems integrators, managed services providers and independent software vendors to transact…"
+    },
+    {
+      "title": "AWS Partners can now accelerate co-sell deals with express private offers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partners-express-private-offers",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T05:00:00.000Z",
+      "snippet": "AWS Partners co-selling with AWS can now use express private offers to automate pricing within co-sell workflows. Partners configure their pricing rules, discount boundaries, and eligible products once, and when AWS sales representatives identify their…"
+    },
+    {
+      "title": "AWS announces Amazon Connect Customer Services Competency",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-announces-amazon-connect-customer-services-competency",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T04:00:00.000Z",
+      "snippet": "AWS announces the Amazon Connect Customer Competency, a new AWS Specialization that helps customers identify Services Partners with proven expertise in transforming enterprise-wide customer experience on Amazon Connect Customer. Today's customers expect…"
+    },
     {
       "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
       "source": "AWS What's New",
       "pubDate": "2026-06-16T04:00:00.000Z",
-      "snippet": "Today, AWS announces the public preview of a new storage migration capability for AWS Transform that enables application owners, database administrators, and cloud migration teams to migrate block storage workloads from any on-premises or cloud source to…"
+      "snippet": "Today, AWS announced the public preview of a new storage migration capability for AWS Transform that enables customers to migrate block storage workloads from any on-premises or cloud source to Amazon FSx for NetApp ONTAP (FSx for ONTAP), in addition to…"
+    },
+    {
+      "title": "AWS Marketplace Storefront is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-marketplace-storefront/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T04:00:00.000Z",
+      "snippet": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel Partners and Independent Software Vendors can now simplify…"
+    },
+    {
+      "title": "AWS Partner Central agents now guide new partners from registration to ready-to-sell",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T04:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of onboarding capabilities for AWS Partner Central agents. The agent acts as an always-available advisor that guides new partners through every step required to be ready to sell with AWS, from profile setup to…"
     },
     {
       "title": "AWS Management Console Private Access now works without internet connectivity",
@@ -86,6 +184,13 @@
       "snippet": "AWS DevOps Agent now supports custom SRE agents, bring-your-own sub-agents, and headless access via MCP and A2A protocols. These capabilities enable teams to automate recurring SRE workflows, extend DevOps Agent by connecting it to other agents, and access…"
     },
     {
+      "title": "AWS Partner Central now provides lead enrichment and prospecting",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/lead-enrichment-and-prospecting",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T15:37:00.000Z",
+      "snippet": "AWS Partner Central now provides lead enrichment and prospecting, enabling AWS Partners to enrich AWS-sourced leads or partner-sourced leads with AWS-generated propensity insights, and recommendations for program, funding, and sales motion eligibility.…"
+    },
+    {
       "title": "How Samsung achieved real-time pricing with AWS Lambda Response Streaming",
       "link": "https://aws.amazon.com/blogs/architecture/how-samsung-achieved-real-time-pricing-with-aws-lambda-response-streaming/",
       "source": "AWS Architecture Blog",
@@ -105,111 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-15T13:00:00.000Z",
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in the Israel (Tel Aviv) Region. C7i instances are supported by custom Intel…"
-    },
-    {
-      "title": "AWS WAF announces AI traffic monetization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-ai-traffic-monetization/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T12:00:00.000Z",
-      "snippet": "Today, AWS WAF announced AI traffic monetization, a new Bot Control capability that lets you price, meter, and collect payment from AI bots and agents accessing your content and APIs. As AI agents increasingly support autonomous payments for the content and…"
-    },
-    {
-      "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-15T11:41:48.000Z",
-      "snippet": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog posts for some of the Summit launches, so I am excited to…"
-    },
-    {
-      "title": "Amazon CloudWatch now supports cross-account metrics centralization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cross-account-metrics-centralization",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T10:00:00.000Z",
-      "snippet": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Metrics Centralization, which enables you to replicate CloudWatch metrics cross-account and cross-region into a single destination account. Enterprise teams with complex…"
-    },
-    {
-      "title": "Amazon CloudWatch Query Studio is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-query-studio-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T10:00:00.000Z",
-      "snippet": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Query Studio, a unified querying and visualization experience that enables you to explore metrics from a single interface within the CloudWatch console. With Query Studio, a…"
-    },
-    {
-      "title": "Free Network Bandwidth Amazon GameLift Servers is Here!",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-free-network-bandwidth",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T08:00:00.000Z",
-      "snippet": "Starting today, Amazon GameLift Servers provides network bandwidth in and out of AWS at no additional charge for all instance types from generation 6 and later, including On-Demand and Spot, with no commitment required. You now pay only for your Amazon…"
-    },
-    {
-      "title": "Amazon RDS for MariaDB supports Long-Term Support version 12.3 in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-maria-db-innovation-release-12-3-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T07:00:00.000Z",
-      "snippet": "Amazon RDS for MariaDB now supports MariaDB 12.3 in the Amazon RDS Database Preview Environment, allowing you to evaluate the latest Long-Term Support Release on Amazon RDS for MariaDB. This preview environment provides a sandbox where you can test…"
-    },
-    {
-      "title": "Amazon RDS for MySQL announces Extended Support minor version 5.7.44-RDS.20260521",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-mysql-extended-support-minor-5744-rds/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for MySQL now supports new Amazon RDS Extended Support minor version 5.7.44-RDS.20260521. We recommend that you upgrade to this version to fix known security vulnerabilities and bugs in prior versions of MySQL.…"
-    },
-    {
-      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-mariadb-community-versions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for MariaDB now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior…"
-    },
-    {
-      "title": "Amazon Lightsail is now available in three additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-12T20:43:00.000Z",
-      "snippet": "Starting today, Amazon Lightsail is available in three additional AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion brings the power and simplicity of Lightsail to customers across new geographies in Asia,…"
-    },
-    {
-      "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-12T17:00:00.000Z",
-      "snippet": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight model from NVIDIA with 30B total parameters. In addition to…"
-    },
-    {
-      "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-12T16:00:00.000Z",
-      "snippet": "AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better…"
-    },
-    {
-      "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-12T14:00:00.000Z",
-      "snippet": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine learning workloads. EC2 Capacity Blocks for ML allows you to…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i-8TB instances now available in AWS Europe (Paris) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7i-8tb-europe-paris/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T23:00:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7i-8TB…"
-    },
-    {
-      "title": "Amazon Quick now integrates with Snowflake Cortex AI",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T22:02:00.000Z",
-      "snippet": "Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), enabling teams to query their Snowflake data and documents using natural language, and automate multi-step workflows directly within their Quick workspace. After…"
-    },
-    {
-      "title": "Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-aws-outposts-ec2-instance-store/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T20:52:00.000Z",
-      "snippet": "Today, AWS is expanding support for Amazon Elastic Kubernetes Service (EKS) local clusters on AWS Outposts to first-generation and second-generation AWS Outposts racks running Amazon EC2 instances that boot from Amazon EC2 instance store. AWS Outposts offers…"
     }
   ]
 }
