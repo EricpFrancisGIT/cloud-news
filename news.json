@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-06-15T20:19:38.630Z",
+  "lastUpdated": "2026-06-16T02:19:59.809Z",
   "items": [
+    {
+      "title": "AWS Management Console Private Access now works without internet connectivity",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T23:00:00.000Z",
+      "snippet": "AWS Management Console Private Access now enables customers to access the AWS Console from VPCs without internet connectivity, allowing enterprises to manage their AWS infrastructure through the console while maintaining strict network security controls in…"
+    },
+    {
+      "title": "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access",
+      "link": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-15T20:42:13.000Z",
+      "snippet": "AWS WAF launches AI traffic monetization, a new Bot Control capability that enables content providers and publishers price, meter, and collect payment from AI bots and agents accessing their content and APIs. AWS WAF now lets you set a price for that access,…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T20:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Memory extracts useful information from short-term memory and stores it as long-term memory records. Metadata on these records helps organize, filter, and route them for retrieval. Previously, metadata values could only be inferred by…"
+    },
+    {
+      "title": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T18:30:00.000Z",
+      "snippet": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions, enabling you to easily and efficiently transfer incremental point-in-time snapshots of your volumes beyond AWS Regions that are enabled by default. On-demand data…"
+    },
+    {
+      "title": "Amazon CloudWatch introduces Log Analytics for unified log analysis",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-log-analytics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T18:00:00.000Z",
+      "snippet": "Amazon CloudWatch now offers Log Analytics, a unified console experience that brings together CloudWatch Logs Insights for querying and analyzing log data, Live Tail for real-time log streaming, and Contributor Insights for identifying top contributors - all…"
+    },
     {
       "title": "Amazon Route 53 Resolver DNS Firewall now supports Palo Alto Networks Advanced DNS Security (Preview)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
@@ -58,6 +93,13 @@
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Stockholm) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory…"
     },
     {
+      "title": "AWS WAF announces AI traffic monetization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-ai-traffic-monetization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T12:00:00.000Z",
+      "snippet": "Today, AWS WAF announced AI traffic monetization, a new Bot Control capability that lets you price, meter, and collect payment from AI bots and agents accessing your content and APIs. As AI agents increasingly support autonomous payments for the content and…"
+    },
+    {
       "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
       "source": "AWS News Blog",
@@ -77,6 +119,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-15T10:00:00.000Z",
       "snippet": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Query Studio, a unified querying and visualization experience that enables you to explore metrics from a single interface within the CloudWatch console. With Query Studio, a…"
+    },
+    {
+      "title": "Free Network Bandwidth Amazon GameLift Servers is Here!",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-free-network-bandwidth",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T08:00:00.000Z",
+      "snippet": "Starting today, Amazon GameLift Servers provides network bandwidth in and out of AWS at no additional charge for all instance types from generation 6 and later, including On-Demand and Spot, with no commitment required. You now pay only for your Amazon…"
     },
     {
       "title": "Amazon RDS for MariaDB supports Long-Term Support version 12.3 in Amazon RDS Database Preview Environment",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-11T18:59:00.000Z",
       "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL major version 18, starting with version 18.3. This release brings community improvements to query performance and database management, and introduces support for pg_roaringbitmap, a new…"
-    },
-    {
-      "title": "AWS Elastic Beanstalk console now integrates CloudWatch Logs in the Logs tab",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T17:00:00.000Z",
-      "snippet": "AWS Elastic Beanstalk now provides a CloudWatch Logs integration directly in the environment Logs tab of the Elastic Beanstalk console. Previously, customers had to navigate to the CloudWatch console to find the relevant log groups and log streams for their…"
-    },
-    {
-      "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T17:00:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless now supports workflow and task state change events to Amazon EventBridge, enabling data engineering and platform teams to build event-driven automation for their Apache Airflow workflows.…"
-    },
-    {
-      "title": "AWS Lake Formation extends table permissions to access underlying data in Amazon S3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lake-formation-access-data-amazon-s3",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T16:00:00.000Z",
-      "snippet": "AWS Lake Formation now enables you to read and write the underlying data files in Amazon S3 for tables registered in the AWS Glue Data Catalog. This provides you with a single set of permissions for both SQL queries and direct file access using your existing…"
-    },
-    {
-      "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T13:00:00.000Z",
-      "snippet": "Amazon Managed Service for Prometheus now supports ingestion, storage, and querying of Prometheus native histograms, enabling customers to capture high-resolution metric distributions with greater precision and lower cardinality than classic histograms.…"
-    },
-    {
-      "title": "Amazon Managed Service for Prometheus now supports out of order sample ingestion",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-outoforder-ingestion/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T13:00:00.000Z",
-      "snippet": "Amazon Managed Service for Prometheus now supports out-of-order sample ingestion and a workspace-level rule query offset. All workspaces have a default out-of-order time window of 1 minute, allowing the workspace to accept metric samples arriving outside…"
-    },
-    {
-      "title": "AWS announces AWS Workload Credentials Provider",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-workload-credentials-provider/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T07:00:00.000Z",
-      "snippet": "AWS announces AWS Workload Credentials Provider, a lightweight client-side provider that automates deployment of exported certificates from AWS Certificate Manager (ACM) and local caching of secrets from AWS Secrets Manager across AWS and non-AWS workloads.…"
-    },
-    {
-      "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T00:12:00.000Z",
-      "snippet": "Today, AWS announces the expanded availability of OpenAI's GPT-5.4 and GPT-5.5 models, which are now available in the US East (N. Virginia) Region on Amazon Bedrock. With GPT-5.4 and GPT-5.5, you can build generative AI applications across reasoning, coding,…"
     }
   ]
 }
