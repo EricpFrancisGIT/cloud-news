@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T02:19:59.809Z",
+  "lastUpdated": "2026-06-16T08:20:24.788Z",
   "items": [
     {
       "title": "AWS Management Console Private Access now works without internet connectivity",
@@ -14,6 +14,13 @@
       "source": "AWS News Blog",
       "pubDate": "2026-06-15T20:42:13.000Z",
       "snippet": "AWS WAF launches AI traffic monetization, a new Bot Control capability that enables content providers and publishers price, meter, and collect payment from AI bots and agents accessing their content and APIs. AWS WAF now lets you set a price for that access,…"
+    },
+    {
+      "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T20:04:00.000Z",
+      "snippet": "Today, AWS announces the availability of xAI's Grok 4.3 model on Amazon Bedrock. With this launch, xAI joins Amazon Bedrock as a model provider, giving you even more choice as you build generative AI applications across reasoning, agentic, and enterprise…"
     },
     {
       "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
@@ -79,18 +86,18 @@
       "snippet": "In this post, we walk through the legacy architecture challenges, the stateless streaming solution, key implementation patterns, and performance results—a pattern you can apply if you’re building high-traffic APIs that aggregate data from multiple backend…"
     },
     {
-      "title": "Amazon EC2 C7i instances are now available in the Israel (Tel Aviv) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T13:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in the Israel (Tel Aviv) Region. C7i instances are supported by custom Intel…"
-    },
-    {
       "title": "Amazon EC2 C8i instances are now available in Europe (Stockholm) region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
       "source": "AWS What's New",
       "pubDate": "2026-06-15T13:00:00.000Z",
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Stockholm) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory…"
+    },
+    {
+      "title": "Amazon EC2 C7i instances are now available in the Israel (Tel Aviv) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-15T13:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in the Israel (Tel Aviv) Region. C7i instances are supported by custom Intel…"
     },
     {
       "title": "AWS WAF announces AI traffic monetization",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-11T20:10:00.000Z",
       "snippet": "Amazon CloudWatch Application Signals introduces service health ranking on the application map and new infrastructure, logs, and traces tabs on the service overview page. These capabilities let operators triage unhealthy services and inspect the underlying…"
-    },
-    {
-      "title": "Amazon Aurora now supports PostgreSQL major version 18",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-11T18:59:00.000Z",
-      "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL major version 18, starting with version 18.3. This release brings community improvements to query performance and database management, and introduces support for pg_roaringbitmap, a new…"
     }
   ]
 }
