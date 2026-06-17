@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-06-16T20:21:14.463Z",
+  "lastUpdated": "2026-06-17T02:21:31.562Z",
   "items": [
+    {
+      "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-16T23:13:10.000Z",
+      "snippet": "Amazon S3 now lets you attach up to 1 GB of rich, mutable, and queryable context directly to your objects using annotations, purpose-built for AI agents and autonomous workflows that need to discover, understand, and act on data at scale without maintaining…"
+    },
+    {
+      "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T22:53:00.000Z",
+      "snippet": "Amazon Bedrock Guardrails now offers the InvokeGuardrailChecks API, a new resourceless API that lets you apply individual safeguards at any point in your agentic AI applications without creating guardrail resources. The API provides granular, per-request…"
+    },
+    {
+      "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T21:55:00.000Z",
+      "snippet": "AWS Transform now offers a model-to-model migration custom transformation that assesses your generative AI workloads and produces a comprehensive migration plan for moving from third-party providers to Amazon Bedrock. The AI-powered agent scans your codebase,…"
+    },
+    {
+      "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T21:22:00.000Z",
+      "snippet": "Amazon S3 Vectors can now return up to 10,000 similarity search results per query, a 100x increase from the previous limit. The higher result limit helps you retrieve a larger, more comprehensive set of candidates during similarity queries. This is especially…"
+    },
+    {
+      "title": "AWS Transform for mainframe now delivers a traceable reimagine workflow",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mainframe-traceable-reimagine-workflow/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T18:29:00.000Z",
+      "snippet": "AWS Transform for mainframe now delivers a connected, traceable reimagine experience from assessment through code generation. Previously, modernizing mainframe applications required months of analysis across multiple tools for discovery, reverse engineering,…"
+    },
     {
       "title": "Threat tactic spotlight: Subdomain takeover",
       "link": "https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/",
@@ -65,6 +100,20 @@
       "snippet": "AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined process with AI-powered validation provides AWS partners with…"
     },
     {
+      "title": "Amazon RDS for SQL Server now supports X2m instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-x2m/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server launches memory-optimized X2m database instances. Based on the Amazon EC2 X2iedn instance, X2m database instances provide the Amazon RDS Optimize CPU feature, which allows customers to reduce SQL…"
+    },
+    {
+      "title": "Amazon S3 Vectors reduces query charges by up to 80% for large vector indexes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-reduces-query-charges-80-percent-large-indexes/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T07:00:00.000Z",
+      "snippet": "Amazon S3 Vectors has reduced data processed charges for queries on vector indexes with over 10 million vectors by up to 80%. This reduction lowers costs for customers running similarity search across large-scale AI, RAG, and semantic search workloads. The…"
+    },
+    {
       "title": "AWS Marketplace reduces listing fee for professional services to 0.5%",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace",
       "source": "AWS What's New",
@@ -107,6 +156,20 @@
       "snippet": "Today, AWS announces the general availability of onboarding capabilities for AWS Partner Central agents. The agent acts as an always-available advisor that guides new partners through every step required to be ready to sell with AWS, from profile setup to…"
     },
     {
+      "title": "Amazon S3 adds annotations to provide AI agents and analytics tools with context for data discovery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-annotations-business-context",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T04:00:00.000Z",
+      "snippet": "Amazon S3 adds annotations, so you can attach custom metadata to your S3 objects at massive scale, giving AI agents and analytics tools the context they need to find and use the right data. Annotations are a new metadata capability purpose-built for attaching…"
+    },
+    {
+      "title": "Amazon EC2 P6-B200 instances are now available in the Asia Pacific (Mumbai) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-mumbai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T03:08:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in Asia Pacific (Mumbai) Region. These instances offer up to 2x performance compared to P5en instances for AI training and…"
+    },
+    {
       "title": "AWS Management Console Private Access now works without internet connectivity",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
       "source": "AWS What's New",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-15T18:00:00.000Z",
       "snippet": "Amazon CloudWatch now offers Log Analytics, a unified console experience that brings together CloudWatch Logs Insights for querying and analyzing log data, Live Tail for real-time log streaming, and Contributor Insights for identifying top contributors - all…"
-    },
-    {
-      "title": "Amazon Route 53 Resolver DNS Firewall now supports Palo Alto Networks Advanced DNS Security (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T17:06:00.000Z",
-      "snippet": "Amazon Web Services announces the preview of Palo Alto Networks (PANW) Advanced DNS Security on Amazon Route 53 Resolver DNS Firewall. Security administrators can now enforce DNS threat protections from Palo Alto Networks directly on Route 53 DNS Firewall…"
-    },
-    {
-      "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T17:00:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) Express Mode is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. ECS Express Mode empowers developers to rapidly launch containerized applications, including web applications and…"
-    },
-    {
-      "title": "AWS launches Cost Explorer historical data retention for accounts in billing groups",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T16:07:00.000Z",
-      "snippet": "Today, AWS announces Cost Explorer historical data retention for accounts in billing groups. Customers can use AWS Billing Conductor and Billing Transfer to map accounts to billing groups, enabling them to view billing data priced at the pro forma rates…"
-    },
-    {
-      "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T15:55:00.000Z",
-      "snippet": "AWS Lambda Managed Instances (LMI) now supports tag propagation, enabling you to automatically apply tags to managed resources such as Amazon EC2 instances, Amazon EBS volumes, and Amazon ENIs. This helps you enforce cost allocation, service control policies…"
-    },
-    {
-      "title": "AWS DevOps Agent expands with custom SRE agents and MCP/A2A protocols",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-custom-agents/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T15:47:00.000Z",
-      "snippet": "AWS DevOps Agent now supports custom SRE agents, bring-your-own sub-agents, and headless access via MCP and A2A protocols. These capabilities enable teams to automate recurring SRE workflows, extend DevOps Agent by connecting it to other agents, and access…"
-    },
-    {
-      "title": "AWS Partner Central now provides lead enrichment and prospecting",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/lead-enrichment-and-prospecting",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T15:37:00.000Z",
-      "snippet": "AWS Partner Central now provides lead enrichment and prospecting, enabling AWS Partners to enrich AWS-sourced leads or partner-sourced leads with AWS-generated propensity insights, and recommendations for program, funding, and sales motion eligibility.…"
-    },
-    {
-      "title": "How Samsung achieved real-time pricing with AWS Lambda Response Streaming",
-      "link": "https://aws.amazon.com/blogs/architecture/how-samsung-achieved-real-time-pricing-with-aws-lambda-response-streaming/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-15T14:13:36.000Z",
-      "snippet": "In this post, we walk through the legacy architecture challenges, the stateless streaming solution, key implementation patterns, and performance results—a pattern you can apply if you’re building high-traffic APIs that aggregate data from multiple backend…"
-    },
-    {
-      "title": "Amazon EC2 C8i instances are now available in Europe (Stockholm) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T13:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Stockholm) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory…"
-    },
-    {
-      "title": "Amazon EC2 C7i instances are now available in the Israel (Tel Aviv) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T13:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in the Israel (Tel Aviv) Region. C7i instances are supported by custom Intel…"
     }
   ]
 }
