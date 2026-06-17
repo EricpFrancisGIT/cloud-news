@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-17T08:21:52.216Z",
+  "lastUpdated": "2026-06-17T14:22:13.952Z",
   "items": [
+    {
+      "title": "Reducing SMS OTP fraud with Vonage network-powered solutions and Amazon Cognito",
+      "link": "https://aws.amazon.com/blogs/architecture/reducing-sms-otp-fraud-with-vonage-network-powered-solutions-and-amazon-cognito/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-17T13:50:16.000Z",
+      "snippet": "In this post, we show how Vonage network-powered solutions work with Amazon Cognito to enhance many mobile-first use cases with network-level identity verification. Vonage network-powered solutions are a composable stack of real-time mobile operator…"
+    },
     {
       "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
       "link": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
@@ -86,18 +93,18 @@
       "snippet": "Today, AWS Marketplace announces AI-assisted product listing in Partner Assistant chat, helping Independent Software Vendors (ISVs) and Consulting Partners create high-quality product listings on AWS Marketplace using their existing digital assets. This new…"
     },
     {
-      "title": "AWS Partner Central now validates Foundational Technical Review in minutes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T07:00:00.000Z",
-      "snippet": "AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined process with AI-powered validation provides AWS partners with…"
-    },
-    {
       "title": "AWS Partner Central launches new funding benefits for Business Value Realization",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
       "source": "AWS What's New",
       "pubDate": "2026-06-16T07:00:00.000Z",
       "snippet": "AWS Partner Central now supports the Business Value Realization (BVR) motion, a new experience and funding motion for partners who drive customer adoption and business outcomes after deploying strategic AWS services. BVR helps partners drive business outcomes…"
+    },
+    {
+      "title": "AWS Partner Central now validates Foundational Technical Review in minutes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T07:00:00.000Z",
+      "snippet": "AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined process with AI-powered validation provides AWS partners with…"
     },
     {
       "title": "Amazon RDS for SQL Server now supports X2m instances",
@@ -135,18 +142,18 @@
       "snippet": "AWS announces the Amazon Connect Customer Competency, a new AWS Specialization that helps customers identify Services Partners with proven expertise in transforming enterprise-wide customer experience on Amazon Connect Customer. Today's customers expect…"
     },
     {
-      "title": "AWS Marketplace Storefront is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-marketplace-storefront/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T04:00:00.000Z",
-      "snippet": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel Partners and Independent Software Vendors can now simplify…"
-    },
-    {
       "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
       "source": "AWS What's New",
       "pubDate": "2026-06-16T04:00:00.000Z",
       "snippet": "Today, AWS announced the public preview of a new storage migration capability for AWS Transform that enables customers to migrate block storage workloads from any on-premises or cloud source to Amazon FSx for NetApp ONTAP (FSx for ONTAP), in addition to…"
+    },
+    {
+      "title": "AWS Marketplace Storefront is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-marketplace-storefront/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-16T04:00:00.000Z",
+      "snippet": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel Partners and Independent Software Vendors can now simplify…"
     },
     {
       "title": "AWS Partner Central agents now guide new partners from registration to ready-to-sell",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-15T18:30:00.000Z",
       "snippet": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions, enabling you to easily and efficiently transfer incremental point-in-time snapshots of your volumes beyond AWS Regions that are enabled by default. On-demand data…"
-    },
-    {
-      "title": "Amazon CloudWatch introduces Log Analytics for unified log analysis",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-log-analytics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-15T18:00:00.000Z",
-      "snippet": "Amazon CloudWatch now offers Log Analytics, a unified console experience that brings together CloudWatch Logs Insights for querying and analyzing log data, Live Tail for real-time log streaming, and Contributor Insights for identifying top contributors - all…"
     }
   ]
 }
