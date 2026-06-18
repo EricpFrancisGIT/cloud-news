@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-06-18T14:23:33.126Z",
+  "lastUpdated": "2026-06-18T20:23:51.738Z",
   "items": [
+    {
+      "title": "Accelerate security investigations with Kiro CLI",
+      "link": "https://aws.amazon.com/blogs/security/accelerate-security-investigations-with-kiro-cli/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-18T19:24:30.000Z",
+      "snippet": "When a security event occurs in your Amazon Web Services (AWS) environment, rapid response is critical. However security teams often struggle with time-consuming, manual processes that slow down investigations. Analysts must recall complex AWS Command Line…"
+    },
+    {
+      "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T18:47:00.000Z",
+      "snippet": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C7id,R7id, M7id, C7i-flex,R7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8i, in…"
+    },
+    {
+      "title": "Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-interrupt-agent-with-urgent-contact/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T18:35:00.000Z",
+      "snippet": "Amazon Connect Customer now supports the ability to interrupt an agent with a contact, overriding their usual routing configuration in case of urgent or time-sensitive work. For example, an agent may be waiting for a time-sensitive callback on their personal…"
+    },
+    {
+      "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T18:30:00.000Z",
+      "snippet": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sentences and paragraphs to a 384-dimensional dense vector…"
+    },
+    {
+      "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T18:30:00.000Z",
+      "snippet": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI delivers frontier-class multimodal capabilities in a…"
+    },
+    {
+      "title": "Spring 2026 SOC 1 and 2 reports are now available in OSCAL format",
+      "link": "https://aws.amazon.com/blogs/security/spring-2026-soc-1-and-2-reports-are-now-available-in-oscal-format/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-18T16:50:34.000Z",
+      "snippet": "Amazon Web Services (AWS) is excited to release the Spring 2026 System and Organization Controls (SOC) 1 and 2 reports in machine-readable OSCAL format alongside the PDF version of the reports. The reports cover 188 services over the 12-month period from…"
+    },
+    {
+      "title": "Amazon SageMaker AI Announces New observability capability For Inference Endpoints",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-inference/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T15:13:00.000Z",
+      "snippet": "Amazon SageMaker AI's new observability capability allows customers to operate production generative AI inference workloads with confidence by providing comprehensive visibility into token performance, GPU health, inference component placement, and…"
+    },
     {
       "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks",
@@ -114,18 +163,18 @@
       "snippet": "Today, AWS announces new optimization capabilities in AgentCore that turn production traces into continuous improvement for agents. The most dangerous agent failures are not the ones that throw errors. They are the silent ones that look fine on dashboards.…"
     },
     {
-      "title": "AgentCore harness in now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T12:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model is the brain, the harness is the body: everything the…"
-    },
-    {
       "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
       "source": "AWS What's New",
       "pubDate": "2026-06-17T12:00:00.000Z",
       "snippet": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore policy is an authorization capability within Amazon Bedrock…"
+    },
+    {
+      "title": "AgentCore harness is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-17T12:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model is the brain, the harness is the body: everything the…"
     },
     {
       "title": "AWS Glue Data Catalog now supports business context and semantic search (Preview)",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-17T05:00:00.000Z",
       "snippet": "Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service, is now generally available. With Managed Knowledge Base, developers can build production-ready AI agents grounded in enterprise data without managing vector…"
-    },
-    {
-      "title": "AWS Security Agent announces support for Threat Modeling",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-agent-threat-modeling/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T04:00:00.000Z",
-      "snippet": "AWS Security Agent (now part of AWS Continuum) now includes threat modeling, an AI-powered agentic capability that automatically generates threat models for your applications. Available today in public preview, AWS Security Agent analyzes your design…"
-    },
-    {
-      "title": "AWS Security Agent adds Kiro Power, Claude Code, simulated validations and new integrations support",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-kiro-power-claude-code/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T04:00:00.000Z",
-      "snippet": "AWS Security Agent (now part of AWS Continuum) adds support for Kiro and Claude Code, enabling developers to trigger security scans directly from their development environment. AWS Security Agent now also validates code scanner findings by simulating exploits…"
-    },
-    {
-      "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-16T23:13:10.000Z",
-      "snippet": "Amazon S3 now lets you attach up to 1 GB of rich, mutable, and queryable context directly to your objects using annotations, purpose-built for AI agents and autonomous workflows that need to discover, understand, and act on data at scale without maintaining…"
-    },
-    {
-      "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T22:53:00.000Z",
-      "snippet": "Amazon Bedrock Guardrails now offers the InvokeGuardrailChecks API, a new resourceless API that lets you apply individual safeguards at any point in your agentic AI applications without creating guardrail resources. The API provides granular, per-request…"
-    },
-    {
-      "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T21:55:00.000Z",
-      "snippet": "AWS Transform now offers a model-to-model migration custom transformation that assesses your generative AI workloads and produces a comprehensive migration plan for moving from third-party providers to Amazon Bedrock. The AI-powered agent scans your codebase,…"
-    },
-    {
-      "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T21:22:00.000Z",
-      "snippet": "Amazon S3 Vectors can now return up to 10,000 similarity search results per query, a 100x increase from the previous limit. The higher result limit helps you retrieve a larger, more comprehensive set of candidates during similarity queries. This is especially…"
-    },
-    {
-      "title": "Amazon Bedrock Guardrails adds automated reasoning checks in Sydney",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-sydney/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T20:07:00.000Z",
-      "snippet": "Automated Reasoning checks in Amazon Bedrock Guardrails use formal verification techniques to validate AI model outputs with mathematical rigor, providing a fundamentally different approach from traditional sampling-based testing methods. This capability…"
     }
   ]
 }
