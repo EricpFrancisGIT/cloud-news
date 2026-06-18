@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T20:22:33.528Z",
+  "lastUpdated": "2026-06-18T02:22:50.741Z",
   "items": [
     {
       "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
@@ -51,6 +51,13 @@
       "snippet": "AWS DevOps Agent now offers a release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence. With this addition, AWS DevOps Agent…"
     },
     {
+      "title": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-postgresql-mysql-mariadb-m9g-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-17T15:00:00.000Z",
+      "snippet": "AWS Graviton5-based M9g database (DB) instances are now generally available for Amazon Relational Database Service (RDS) for PostgreSQL, MySQL, and MariaDB. Graviton5-based instances provide up to a 30% performance improvement and up to a 23%…"
+    },
+    {
       "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
       "source": "AWS What's New",
@@ -93,18 +100,11 @@
       "snippet": "In this post, we show how Vonage network-powered solutions work with Amazon Cognito to enhance many mobile-first use cases with network-level identity verification. Vonage network-powered solutions are a composable stack of real-time mobile operator…"
     },
     {
-      "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
+      "title": "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/",
       "source": "AWS What's New",
-      "pubDate": "2026-06-17T12:00:00.000Z",
-      "snippet": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore policy is an authorization capability within Amazon Bedrock…"
-    },
-    {
-      "title": "AgentCore harness in now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T12:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model is the brain, the harness is the body: everything the…"
+      "pubDate": "2026-06-17T13:40:00.000Z",
+      "snippet": "Today, AWS announces multiple new features for Amazon Quick, including autonomous agents, multi-dataset analytics capabilities, and a redesigned activity feed. Amazon Quick is the AI assistant that connects to popular business applications and learns user…"
     },
     {
       "title": "Amazon Bedrock AgentCore introduces new optimization capabilities to continuously improve agents in production",
@@ -114,11 +114,46 @@
       "snippet": "Today, AWS announces new optimization capabilities in AgentCore that turn production traces into continuous improvement for agents. The most dangerous agent failures are not the ones that throw errors. They are the silent ones that look fine on dashboards.…"
     },
     {
+      "title": "AgentCore harness in now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-17T12:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model is the brain, the harness is the body: everything the…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-17T12:00:00.000Z",
+      "snippet": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore policy is an authorization capability within Amazon Bedrock…"
+    },
+    {
+      "title": "AWS Glue Data Catalog now supports business context and semantic search (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-data-catalog/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-17T12:00:00.000Z",
+      "snippet": "Today, AWS announces the preview of business context and semantic search for AWS Glue Data Catalog, helping you discover and understand data by semantic meaning. You can now enrich your Glue Data Catalog tables, including those backed by S3 Tables, with…"
+    },
+    {
       "title": "Introducing AWS Continuum for security at machine speed",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-continuum/",
       "source": "AWS What's New",
       "pubDate": "2026-06-17T07:00:00.000Z",
       "snippet": "Today, AWS announces AWS Continuum, which discovers, prioritizes, validates, and remediates security risks at machine speed within guardrails you define. Frontier models have made finding software vulnerabilities faster and cheaper, but the harder work comes…"
+    },
+    {
+      "title": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-17T07:00:00.000Z",
+      "snippet": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless (ADB-S), a fully managed Oracle database service on Exadata infrastructure that automatically handles patching, tuning, and scaling. ADB-S is available through both public and private…"
+    },
+    {
+      "title": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-17T07:00:00.000Z",
+      "snippet": "AWS Secrets Manager now offers a secret safety skill as part of the aws-core plugin in the Agent Toolkit for AWS, an open-source repository that equips AI coding agents with tools, knowledge, and guardrails for building on AWS. The skill lets developers use…"
     },
     {
       "title": "Amazon Bedrock Managed Knowledge Base is now generally available",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-16T20:07:00.000Z",
       "snippet": "Automated Reasoning checks in Amazon Bedrock Guardrails use formal verification techniques to validate AI model outputs with mathematical rigor, providing a fundamentally different approach from traditional sampling-based testing methods. This capability…"
-    },
-    {
-      "title": "AWS Transform for mainframe now delivers a traceable reimagine workflow",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mainframe-traceable-reimagine-workflow/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T18:29:00.000Z",
-      "snippet": "AWS Transform for mainframe now delivers a connected, traceable reimagine experience from assessment through code generation. Previously, modernizing mainframe applications required months of analysis across multiple tools for discovery, reverse engineering,…"
-    },
-    {
-      "title": "Announcing Web Search on Amazon Bedrock AgentCore for Agentic Web Retrieval",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-web-search/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T18:00:00.000Z",
-      "snippet": "As AI agents become more capable, they need access to information beyond a model's training data - to answer questions, retrieve latest facts, and take action grounded in current developments. Today, we're making that easy with the general availability of Web…"
-    },
-    {
-      "title": "Threat tactic spotlight: Subdomain takeover",
-      "link": "https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-16T17:53:20.000Z",
-      "snippet": "In this blog post you’ll learn how to detect and prevent subdomain takeover – a tactic where threat actors exploit dangling DNS records to redirect traffic to attacker-controlled resources. We’ll explain the issue, how the situation arises, and how you can…"
-    },
-    {
-      "title": "AWS Sign-in now supports resource-based policies and resource control policies",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-sign-in/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T16:20:00.000Z",
-      "snippet": "AWS Sign-in now supports resource-based policies and resource control policies (RCPs) for the AWS Management Console. You can use these policies to restrict console sign-in to expected networks. Policies are evaluated during sign-in and whenever the console…"
-    },
-    {
-      "title": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-16T16:10:00.000Z",
-      "snippet": "Amazon Redshift is expanding the general availability of RG instances — powered by AWS Graviton processors — to three additional AWS Regions: Africa (Cape Town), Asia Pacific (Bangkok), and Mexico (Central). Amazon Redshift's new Graviton-based RG instances…"
     }
   ]
 }
