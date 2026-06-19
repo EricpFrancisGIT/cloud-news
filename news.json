@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T14:24:54.696Z",
+  "lastUpdated": "2026-06-19T20:25:12.725Z",
   "items": [
     {
       "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
@@ -7,6 +7,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-19T01:00:00.000Z",
       "snippet": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asia Pacific with support for Amazon Simple Storage Service…"
+    },
+    {
+      "title": "Amazon CloudWatch Synthetics now supports multilocation canaries",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T22:41:00.000Z",
+      "snippet": "Today, Amazon CloudWatch Synthetics announces support for multilocation canaries, allowing developers and site reliability engineers to run the same canary across multiple AWS Regions simultaneously from a single point of management. Previously, monitoring…"
     },
     {
       "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
@@ -128,6 +135,13 @@
       "snippet": "Amazon GameLift Servers now supports two significant container fleet improvements that enhance flexibility and inter-container communication for game server deployments. These new capabilities address common challenges faced by game developers using…"
     },
     {
+      "title": "Amazon WorkSpaces Personal Supports Ubuntu 24.04",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ubuntu-china-zhy/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T07:00:00.000Z",
+      "snippet": "AWS announces availability of Ubuntu 24.04 LTS bundles for Amazon WorkSpaces Personal in the AWS China (Ningxia) Region, operated by NWCD. With this bundle, customers in China can launch Ubuntu WorkSpaces and take advantage of updated Linux packages,…"
+    },
+    {
       "title": "Amazon RDS for SQL Server increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-increases-gp3-limits/",
       "source": "AWS What's New",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-17T15:00:00.000Z",
       "snippet": "Amazon Aurora MySQL-Compatible Edition and Amazon Relational Database Service (RDS) for MySQL now offer Amazon RDS Extended Support for MySQL 5.7 through June 30, 2029, from the previous end date of February 28, 2027. This applies to Aurora MySQL version 2…"
-    },
-    {
-      "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
-      "link": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-17T14:58:00.000Z",
-      "snippet": "AWS Transform – continuous modernization (preview) automatically scans code repositories to detect, prioritize, and remediate technical debt at scale."
-    },
-    {
-      "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-17T14:57:34.000Z",
-      "snippet": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence."
     }
   ]
 }
