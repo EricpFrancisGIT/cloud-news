@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-06-18T20:23:51.738Z",
+  "lastUpdated": "2026-06-19T02:24:08.868Z",
   "items": [
+    {
+      "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-19T01:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asia Pacific with support for Amazon Simple Storage Service…"
+    },
+    {
+      "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T22:36:00.000Z",
+      "snippet": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters, Intelligent Rebalancing is now available on all MSK Provisioned…"
+    },
+    {
+      "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-18T21:22:10.000Z",
+      "snippet": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads."
+    },
+    {
+      "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-18T21:06:38.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic patterns, scheduled scaling for planned…"
+    },
+    {
+      "title": "Amazon ECS announces faster service auto scaling",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T21:00:00.000Z",
+      "snippet": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests, time to trigger scale-out improved from 363 seconds to 86…"
+    },
+    {
+      "title": "Amazon EC2 G7 instances are now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T20:59:00.000Z",
+      "snippet": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphics…"
+    },
+    {
+      "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T20:20:00.000Z",
+      "snippet": "Amazon MQ for RabbitMQ now supports private networking, enabling your brokers to connect to private resources in your VPC without exposing those resources publicly.. This helps you meet your security and compliance requirements when your brokers need to reach…"
+    },
     {
       "title": "Accelerate security investigations with Kiro CLI",
       "link": "https://aws.amazon.com/blogs/security/accelerate-security-investigations-with-kiro-cli/",
@@ -30,11 +79,25 @@
       "snippet": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sentences and paragraphs to a 384-dimensional dense vector…"
     },
     {
+      "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T18:30:00.000Z",
+      "snippet": "AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon CloudWatch metrics, VolumeIOPSExceededCheck and…"
+    },
+    {
       "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
       "source": "AWS What's New",
       "pubDate": "2026-06-18T18:30:00.000Z",
       "snippet": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI delivers frontier-class multimodal capabilities in a…"
+    },
+    {
+      "title": "Amazon EKS now supports customer-routed control plane egress",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-customer-routed-control-plane-egress",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T17:00:00.000Z",
+      "snippet": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) introduces customer-routed control plane egress, a capability that lets you route outbound Kubernetes API server traffic through your own Amazon VPC. This includes admission webhook callbacks, OpenID…"
     },
     {
       "title": "Spring 2026 SOC 1 and 2 reports are now available in OSCAL format",
@@ -49,6 +112,27 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-18T15:13:00.000Z",
       "snippet": "Amazon SageMaker AI's new observability capability allows customers to operate production generative AI inference workloads with confidence by providing comprehensive visibility into token performance, GPU health, inference component placement, and…"
+    },
+    {
+      "title": "Amazon SNS now supports sending SMS in the Asia Pacific (Seoul) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sns-supports-sending-sms-seoul-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T15:00:00.000Z",
+      "snippet": "Customers that use Amazon Simple Notification Service (Amazon SNS) in the Asia Pacific (Seoul) Region can now send text messages (SMS) to subscribers in more than 200 countries and territories. Amazon SNS is a fully managed pub/sub messaging service that…"
+    },
+    {
+      "title": "Amazon GameLift Servers adds new container fleet improvements",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-container-fleet-improvements",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T08:00:00.000Z",
+      "snippet": "Amazon GameLift Servers now supports two significant container fleet improvements that enhance flexibility and inter-container communication for game server deployments. These new capabilities address common challenges faced by game developers using…"
+    },
+    {
+      "title": "Amazon RDS for SQL Server increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-increases-gp3-limits/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports higher volume-level limits for General Purpose (gp3) storage. With this update, each gp3 volume can scale up to 64 TiB in size (4X the previous 16 TiB limit), up to 80,000 IOPS (5X…"
     },
     {
       "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
@@ -126,90 +210,6 @@
       "source": "AWS News Blog",
       "pubDate": "2026-06-17T14:57:34.000Z",
       "snippet": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence."
-    },
-    {
-      "title": "AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more",
-      "link": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-17T14:54:55.000Z",
-      "snippet": "AWS Security Agent now adds STRIDE-based threat modeling, full repo and PR code scanning with remediation across major Git platforms, and IDE integrations via Kiro power, Claude Code plugin, and MCP — letting developers run security reviews and fix issues…"
-    },
-    {
-      "title": "AWS Outposts racks now support bmn-cx3a instances, the first AMD-based instances with accelerated networking on Outposts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-amd-bmn-cx3a/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T14:30:00.000Z",
-      "snippet": "AWS announces the availability of bmn-cx3a instances on second-generation AWS Outposts racks. Bmn-cx3a instances feature 5th Gen AMD EPYC processors with a maximum frequency of 4.1 GHz and NVIDIA ConnectX-7 (CX7) network interface cards, delivering up to 800…"
-    },
-    {
-      "title": "Reducing SMS OTP fraud with Vonage network-powered solutions and Amazon Cognito",
-      "link": "https://aws.amazon.com/blogs/architecture/reducing-sms-otp-fraud-with-vonage-network-powered-solutions-and-amazon-cognito/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-17T13:50:16.000Z",
-      "snippet": "In this post, we show how Vonage network-powered solutions work with Amazon Cognito to enhance many mobile-first use cases with network-level identity verification. Vonage network-powered solutions are a composable stack of real-time mobile operator…"
-    },
-    {
-      "title": "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T13:40:00.000Z",
-      "snippet": "Today, AWS announces multiple new features for Amazon Quick, including autonomous agents, multi-dataset analytics capabilities, and a redesigned activity feed. Amazon Quick is the AI assistant that connects to popular business applications and learns user…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore introduces new optimization capabilities to continuously improve agents in production",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-new-optimization-capabilities",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T12:00:00.000Z",
-      "snippet": "Today, AWS announces new optimization capabilities in AgentCore that turn production traces into continuous improvement for agents. The most dangerous agent failures are not the ones that throw errors. They are the silent ones that look fine on dashboards.…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T12:00:00.000Z",
-      "snippet": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore policy is an authorization capability within Amazon Bedrock…"
-    },
-    {
-      "title": "AgentCore harness is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T12:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model is the brain, the harness is the body: everything the…"
-    },
-    {
-      "title": "AWS Glue Data Catalog now supports business context and semantic search (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-data-catalog/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T12:00:00.000Z",
-      "snippet": "Today, AWS announces the preview of business context and semantic search for AWS Glue Data Catalog, helping you discover and understand data by semantic meaning. You can now enrich your Glue Data Catalog tables, including those backed by S3 Tables, with…"
-    },
-    {
-      "title": "Introducing AWS Continuum for security at machine speed",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-continuum/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T07:00:00.000Z",
-      "snippet": "Today, AWS announces AWS Continuum, which discovers, prioritizes, validates, and remediates security risks at machine speed within guardrails you define. Frontier models have made finding software vulnerabilities faster and cheaper, but the harder work comes…"
-    },
-    {
-      "title": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T07:00:00.000Z",
-      "snippet": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless (ADB-S), a fully managed Oracle database service on Exadata infrastructure that automatically handles patching, tuning, and scaling. ADB-S is available through both public and private…"
-    },
-    {
-      "title": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T07:00:00.000Z",
-      "snippet": "AWS Secrets Manager now offers a secret safety skill as part of the aws-core plugin in the Agent Toolkit for AWS, an open-source repository that equips AI coding agents with tools, knowledge, and guardrails for building on AWS. The skill lets developers use…"
-    },
-    {
-      "title": "Amazon Bedrock Managed Knowledge Base is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-managed-knowledge-base/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T05:00:00.000Z",
-      "snippet": "Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service, is now generally available. With Managed Knowledge Base, developers can build production-ready AI agents grounded in enterprise data without managing vector…"
     }
   ]
 }
