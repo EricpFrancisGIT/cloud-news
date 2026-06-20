@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T20:25:12.725Z",
+  "lastUpdated": "2026-06-20T02:25:33.989Z",
   "items": [
     {
       "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
@@ -69,7 +69,7 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
       "source": "AWS What's New",
       "pubDate": "2026-06-18T18:47:00.000Z",
-      "snippet": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C7id,R7id, M7id, C7i-flex,R7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8i, in…"
+      "snippet": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C8id,R8id, M8id, C7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8i, in addition to…"
     },
     {
       "title": "Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact",
