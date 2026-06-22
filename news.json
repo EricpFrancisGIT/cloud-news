@@ -1,6 +1,62 @@
 {
-  "lastUpdated": "2026-06-22T14:28:46.037Z",
+  "lastUpdated": "2026-06-22T20:29:08.054Z",
   "items": [
+    {
+      "title": "AWS Network Firewall updates default drop action for improved connection reliability",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-22T17:00:00.000Z",
+      "snippet": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of \"Application drop established (bidirectional)\" (formerly named…"
+    },
+    {
+      "title": "Secure multi-tenant RAG with Amazon Bedrock and Verified Permissions",
+      "link": "https://aws.amazon.com/blogs/architecture/secure-multi-tenant-rag-with-amazon-bedrock-and-verified-permissions/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-22T16:49:13.000Z",
+      "snippet": "This post walks you through a two-layer, defense-in-depth authorization pattern for granular, intra-tenant access control in RAG applications. Defense in depth is a security strategy that uses multiple independent layers of protection. Each layer operates…"
+    },
+    {
+      "title": "Modernizing financial analytics with Amazon SageMaker Unified Studio",
+      "link": "https://aws.amazon.com/blogs/architecture/modernizing-financial-analytics-with-amazon-sagemaker-unified-studio/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-22T16:42:55.000Z",
+      "snippet": "Avanse Financial Services, India’s leading education loan providers, migrated to a cloud-native lakehouse architecture using Amazon SageMaker Unified Studio, which unified their data engineering, analytics, and artificial intelligence (AI) workflows in a…"
+    },
+    {
+      "title": "Architecting AI-powered resilience framework on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/architecting-ai-powered-resilience-framework-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-22T16:35:07.000Z",
+      "snippet": "In this post, you’ll learn how to architect and implement a five-layer AI-powered resilience framework that automatically discovers dependencies, generates targeted experiments, and integrates with your existing Continuous Integration/Continuous Deployment…"
+    },
+    {
+      "title": "AWS Batch now supports customer-ordered instance allocation strategies",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-22T16:30:00.000Z",
+      "snippet": "AWS Batch now offers the Best Fit Progressive Ordered (BFPO) and Spot Capacity Optimized Prioritized (SCOP) allocation strategies, giving you more control over instance type prioritization in your compute environments. BFPO and SCOP enable you to manually…"
+    },
+    {
+      "title": "AWS IAM Identity Center now supports separate quotas for AWS accounts and applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-22T16:07:00.000Z",
+      "snippet": "AWS IAM Identity Center now supports separate quotas for the number of AWS accounts and applications that can be configured in an IAM Identity Center instance. By default, you can configure up to 7,000 AWS accounts and up to 7,000 applications independently,…"
+    },
+    {
+      "title": "Prevent data exfiltration: AWS egress controls for cloud workloads",
+      "link": "https://aws.amazon.com/blogs/security/prevent-data-exfiltration-aws-egress-controls-for-cloud-workloads/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-22T15:53:05.000Z",
+      "snippet": "When securing an Amazon Web Services (AWS) environment, teams naturally prioritize inbound controls, firewalls, WAFs, and access policies, because that’s where the most visible threats originate. Outbound traffic, on the other hand, tends to get less…"
+    },
+    {
+      "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-22T14:46:17.000Z",
+      "snippet": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian, VP of Agentic AI at AWS unveiled a stack of AI launches…"
+    },
     {
       "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
@@ -63,6 +119,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-06-18T19:24:30.000Z",
       "snippet": "When a security event occurs in your Amazon Web Services (AWS) environment, rapid response is critical. However security teams often struggle with time-consuming, manual processes that slow down investigations. Analysts must recall complex AWS Command Line…"
+    },
+    {
+      "title": "AWS Parallel Computing Service supports P6e-GB200 and P6e-GB300 UltraServers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-18T19:00:00.000Z",
+      "snippet": "AWS Parallel Computing Service (PCS) now supports Amazon EC2 P6e-GB200 and P6e-GB300 UltraServer instances, enabling customers to run large-scale GPU workloads using the NVIDIA Blackwell architecture within Slurm-managed clusters. You can reserve UltraServers…"
     },
     {
       "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-18T07:00:00.000Z",
       "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports higher volume-level limits for General Purpose (gp3) storage. With this update, each gp3 volume can scale up to 64 TiB in size (4X the previous 16 TiB limit), up to 80,000 IOPS (5X…"
-    },
-    {
-      "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T19:15:00.000Z",
-      "snippet": "AWS Glue Interactive Sessions now support Apache Spark Connect, using which you can now develop and run Apache Spark applications from your preferred environment, including managed notebooks in Amazon SageMaker Unified Studio, or your preferred notebook…"
-    },
-    {
-      "title": "Top announcements of the AWS Summit in New York, 2026",
-      "link": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-17T16:36:08.000Z",
-      "snippet": "A recap of the top announcements from AWS's New York Summit 2026"
-    },
-    {
-      "title": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-real-time-engine-log-streaming/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T16:00:00.000Z",
-      "snippet": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time, enabling customers to monitor workflow execution progress as it happens. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers…"
-    },
-    {
-      "title": "Introducing AWS Continuum: Security at machine speed",
-      "link": "https://aws.amazon.com/blogs/security/introducing-aws-continuum-security-at-machine-speed/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-17T15:34:05.000Z",
-      "snippet": "What we believe We’ve been thinking deeply about enterprise security. The operating model that served us for the past decade (collect telemetry, store it, query it, build dashboards to watch it) is no longer keeping pace. We need to shift to the new world:…"
-    },
-    {
-      "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
-      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-17T15:09:20.000Z",
-      "snippet": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Agentic Retriever for complex multi-step queries—all…"
-    },
-    {
-      "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
-      "link": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-17T15:00:11.000Z",
-      "snippet": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS environment. You can focus on building agents instead of…"
-    },
-    {
-      "title": "AWS DevOps Agent adds release management capability (preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-release-management/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T15:00:00.000Z",
-      "snippet": "AWS DevOps Agent now offers a release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence. With this addition, AWS DevOps Agent…"
-    },
-    {
-      "title": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-postgresql-mysql-mariadb-m9g-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T15:00:00.000Z",
-      "snippet": "AWS Graviton5-based M9g database (DB) instances are now generally available for Amazon Relational Database Service (RDS) for PostgreSQL, MySQL, and MariaDB. Graviton5-based instances provide up to a 30% performance improvement and up to a 23%…"
-    },
-    {
-      "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-17T15:00:00.000Z",
-      "snippet": "Amazon Aurora MySQL-Compatible Edition and Amazon Relational Database Service (RDS) for MySQL now offer Amazon RDS Extended Support for MySQL 5.7 through June 30, 2029, from the previous end date of February 28, 2027. This applies to Aurora MySQL version 2…"
     }
   ]
 }
