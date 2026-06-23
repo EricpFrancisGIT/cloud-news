@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T08:29:52.007Z",
+  "lastUpdated": "2026-06-23T14:30:07.464Z",
   "items": [
     {
       "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
@@ -21,6 +21,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-22T20:37:00.000Z",
       "snippet": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated code. You can now give each user or job their own compute…"
+    },
+    {
+      "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-22T17:30:40.000Z",
+      "snippet": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones, network infrastructure, and server rehosting. Customers can…"
     },
     {
       "title": "AWS Network Firewall updates default drop action for improved connection reliability",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-18T17:00:00.000Z",
       "snippet": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) introduces customer-routed control plane egress, a capability that lets you route outbound Kubernetes API server traffic through your own Amazon VPC. This includes admission webhook callbacks, OpenID…"
-    },
-    {
-      "title": "Spring 2026 SOC 1 and 2 reports are now available in OSCAL format",
-      "link": "https://aws.amazon.com/blogs/security/spring-2026-soc-1-and-2-reports-are-now-available-in-oscal-format/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-18T16:50:34.000Z",
-      "snippet": "Amazon Web Services (AWS) is excited to release the Spring 2026 System and Organization Controls (SOC) 1 and 2 reports in machine-readable OSCAL format alongside the PDF version of the reports. The reports cover 188 services over the 12-month period from…"
     }
   ]
 }
