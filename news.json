@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-23T20:30:26.212Z",
+  "lastUpdated": "2026-06-24T02:30:45.965Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch Logs supports managed syslog ingestion",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-23T20:30:00.000Z",
+      "snippet": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs. With today's launch, customers can configure their network devices and…"
+    },
     {
       "title": "SageMaker Notebook Instances now support G6e instance types",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
@@ -23,11 +30,32 @@
       "snippet": "AWS HealthOmics adds ephemeral storage for private workflows, giving bioinformatics workloads dedicated scratch space that delivers more consistent run performance and lower costs. Each workflow task now receives a dedicated local volume mounted at /tmp, and…"
     },
     {
+      "title": "Amazon Cognito now supports customer managed key for encryption at rest",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-23T17:00:46.000Z",
+      "snippet": "Amazon Cognito now supports customer managed keys in AWS Key Management Service (KMS) for encrypting user pool data at rest. While AWS owned keys are used by default to protect your data, customer managed keys give you full control over the encryption keys,…"
+    },
+    {
       "title": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
       "source": "AWS What's New",
       "pubDate": "2026-06-23T16:20:00.000Z",
       "snippet": "Today, AWS announces new automated refinement workflows for Automated Reasoning checks in Amazon Bedrock Guardrails. Automated Reasoning checks use formal logic to mathematically validate the accuracy of generative AI responses against a policy you define,…"
+    },
+    {
+      "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-23T15:12:00.000Z",
+      "snippet": "CloudWatch OTel Container Insights for Amazon EKS collects infrastructure metrics at 30-second granularity using open-source receivers including cAdvisor, Kube State Metrics, and NVIDIA DCGM. Each metric carries OpenTelemetry semantic conventions and…"
+    },
+    {
+      "title": "Claude Tag is now available in beta via Claude Enterprise in AWS Marketplace",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-tag-aws-marketplace/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-23T05:00:00.000Z",
+      "snippet": "Anthropic is launching Claude Tag — bringing Claude directly into the channels where your team already works, starting with Slack. Claude Tag is available today in beta to AWS customers who access Claude Enterprise through AWS Marketplace. Claude Tag is a new…"
     },
     {
       "title": "Amazon OpenSearch Service now offers AI-assisted migrations",
@@ -182,34 +210,6 @@
       "source": "AWS News Blog",
       "pubDate": "2026-06-18T21:06:38.000Z",
       "snippet": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic patterns, scheduled scaling for planned…"
-    },
-    {
-      "title": "Amazon ECS announces faster service auto scaling",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-18T21:00:00.000Z",
-      "snippet": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests, time to trigger scale-out improved from 363 seconds to 86…"
-    },
-    {
-      "title": "Amazon EC2 G7 instances are now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-18T20:59:00.000Z",
-      "snippet": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphics…"
-    },
-    {
-      "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-18T20:20:00.000Z",
-      "snippet": "Amazon MQ for RabbitMQ now supports private networking, enabling your brokers to connect to private resources in your VPC without exposing those resources publicly.. This helps you meet your security and compliance requirements when your brokers need to reach…"
-    },
-    {
-      "title": "Accelerate security investigations with Kiro CLI",
-      "link": "https://aws.amazon.com/blogs/security/accelerate-security-investigations-with-kiro-cli/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-18T19:24:30.000Z",
-      "snippet": "When a security event occurs in your Amazon Web Services (AWS) environment, rapid response is critical. However security teams often struggle with time-consuming, manual processes that slow down investigations. Analysts must recall complex AWS Command Line…"
     }
   ]
 }
