@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-06-24T14:31:24.790Z",
+  "lastUpdated": "2026-06-24T20:31:45.948Z",
   "items": [
+    {
+      "title": "Restrict AWS Management Console access to expected networks with sign-in resource-based policies and RCPs",
+      "link": "https://aws.amazon.com/blogs/security/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-24T20:01:47.000Z",
+      "snippet": "Amazon Web Services (AWS) recently announced support for resource-based policies and resource control policies (RCPs) for AWS Sign-In. By using resource-based policies and RCPs, you can restrict access to the AWS Management Console sign-in and aws login CLI…"
+    },
+    {
+      "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-24T19:21:00.000Z",
+      "snippet": "Amazon EMR Serverless now supports updates to key application configurations such as maximum capacity, and custom image settings — without stopping and restarting the application. New workloads submitted after the update automatically use the new settings,…"
+    },
+    {
+      "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-24T13:00:00.000Z",
+      "snippet": "Amazon Neptune now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region graph database topology as code — automating deployment, storing…"
+    },
     {
       "title": "Amazon CloudWatch now supports tags on dashboards",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
@@ -9,11 +30,25 @@
       "snippet": "Amazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you identify and manage AWS resources across your environment. With…"
     },
     {
+      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Asia Pacific (Seoul) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7in-24tb-aws-seoul/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-24T01:00:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Asia Pacific (Seoul) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire…"
+    },
+    {
       "title": "Amazon CloudWatch Logs supports managed syslog ingestion",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
       "source": "AWS What's New",
       "pubDate": "2026-06-23T20:30:00.000Z",
       "snippet": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs. With today's launch, customers can configure their network devices and…"
+    },
+    {
+      "title": "Amazon GuardDuty AI-powered investigations accelerate threat response (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-guardduty/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-23T19:49:00.000Z",
+      "snippet": "AWS announces the preview of AI-powered investigations in Amazon GuardDuty, a new capability that automatically analyzes GuardDuty findings and accounts to help you quickly distinguish true threats from benign findings. This feature addresses the…"
     },
     {
       "title": "SageMaker Notebook Instances now support G6e instance types",
@@ -175,41 +210,6 @@
       "source": "AWS News Blog",
       "pubDate": "2026-06-22T14:46:17.000Z",
       "snippet": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian, VP of Agentic AI at AWS unveiled a stack of AI launches…"
-    },
-    {
-      "title": "Introducing self-service lifecycle management capabilities for AWS Outposts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-22T10:00:00.000Z",
-      "snippet": "AWS Outposts now provides self-service capabilities for configuration, quoting, ordering, subscription management, renewal, and decommissioning directly from the AWS Management Console, CLI, and API. Previously, customers relied on AWS teams for managing…"
-    },
-    {
-      "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-19T01:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asia Pacific with support for Amazon Simple Storage Service…"
-    },
-    {
-      "title": "Amazon CloudWatch Synthetics now supports multilocation canaries",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-18T22:41:00.000Z",
-      "snippet": "Today, Amazon CloudWatch Synthetics announces support for multilocation canaries, allowing developers and site reliability engineers to run the same canary across multiple AWS Regions simultaneously from a single point of management. Previously, monitoring…"
-    },
-    {
-      "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-18T22:36:00.000Z",
-      "snippet": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters, Intelligent Rebalancing is now available on all MSK Provisioned…"
-    },
-    {
-      "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
-      "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-18T21:22:10.000Z",
-      "snippet": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads."
     }
   ]
 }
