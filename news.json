@@ -1,12 +1,75 @@
 {
-  "lastUpdated": "2026-06-25T20:33:05.234Z",
+  "lastUpdated": "2026-06-26T02:33:25.657Z",
   "items": [
+    {
+      "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T22:24:00.000Z",
+      "snippet": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% higher…"
+    },
+    {
+      "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Mumbai) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8a-instances-asia-pacific-mumbai-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T22:15:00.000Z",
+      "snippet": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Mumbai) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher…"
+    },
+    {
+      "title": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T21:00:00.000Z",
+      "snippet": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models are now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 approved within Amazon Bedrock in the AWS GovCloud (US) Regions. Federal…"
+    },
+    {
+      "title": "AWS Network Firewall now supports managed threat intelligence rules from VisionHeight",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/network-firewall-visionheight-managed-rules",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T20:18:00.000Z",
+      "snippet": "AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule groups expand the managed rules offerings for AWS Network…"
+    },
+    {
+      "title": "Kiro achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-fedramp-high-dod-il-4-5-govcloud-us/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T17:00:00.000Z",
+      "snippet": "Kiro is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions. Federal agencies, public sector organizations, and other enterprises with…"
+    },
     {
       "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances",
       "source": "AWS What's New",
       "pubDate": "2026-06-25T16:39:00.000Z",
       "snippet": "Amazon Redshift announces the availability of All Upfront and Partial Upfront payment options for 1-year and 3-year reserved instances for RG instances. Reserved instances allow customers to benefit from significant savings over on-demand rates. The new…"
+    },
+    {
+      "title": "AWS GovCloud (US) now offers US-based, US citizen 24/7 technical support for all customers by default",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/default-govcloud-us-based-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T12:00:00.000Z",
+      "snippet": "AWS GovCloud (US) customers now have their technical support cases routed to US-based, US-citizen cloud support engineers by default with no opt-in or special request required. This enhancement ensures that 24/7 technical support across both AWS GovCloud…"
+    },
+    {
+      "title": "AWS Backup enhances Amazon S3 backup copy performance",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-s3-copy-enhancement/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T10:00:00.000Z",
+      "snippet": "AWS Backup now executes S3 backup copy operations up to 8x faster for buckets with millions of objects and low change rates between backup copies through enhanced change tracking. This improvement reduces the time required to copy S3 backups across accounts…"
+    },
+    {
+      "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-custom-supports-latest-cu-gdr-updates-microsoft-sql-server",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T07:44:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR KB5090407…"
+    },
+    {
+      "title": "Amazon RDS now supports the latest GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-supports-latest-gdr-updates-microsoft-sql-server",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T07:03:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR KB5084821 (RDS version…"
     },
     {
       "title": "Amazon OpenSearch Ingestion now available in AWS Europe (Paris) Region",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-23T01:02:00.000Z",
       "snippet": "Amazon G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs (vCPUs) and up to 1600 Gbps of Elastic Fabric Adapter…"
-    },
-    {
-      "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
-      "link": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-22T22:40:07.000Z",
-      "snippet": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation up to 8 hours, no infrastructure to…"
-    },
-    {
-      "title": "AWS HealthOmics now supports Nextflow profiles",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-22T22:00:00.000Z",
-      "snippet": "AWS HealthOmics now supports Nextflow profiles, enabling customers to activate predefined execution settings at run time. Nextflow profiles allow customers to define reusable settings and select them at the point of execution, making it easy to switch between…"
-    },
-    {
-      "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-22T20:37:00.000Z",
-      "snippet": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated code. You can now give each user or job their own compute…"
-    },
-    {
-      "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-22T17:30:40.000Z",
-      "snippet": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones, network infrastructure, and server rehosting. Customers can…"
-    },
-    {
-      "title": "AWS Network Firewall updates default drop action for improved connection reliability",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-22T17:00:00.000Z",
-      "snippet": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of \"Application drop established (bidirectional)\" (formerly named…"
-    },
-    {
-      "title": "Secure multi-tenant RAG with Amazon Bedrock and Verified Permissions",
-      "link": "https://aws.amazon.com/blogs/architecture/secure-multi-tenant-rag-with-amazon-bedrock-and-verified-permissions/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-22T16:49:13.000Z",
-      "snippet": "This post walks you through a two-layer, defense-in-depth authorization pattern for granular, intra-tenant access control in RAG applications. Defense in depth is a security strategy that uses multiple independent layers of protection. Each layer operates…"
-    },
-    {
-      "title": "Modernizing financial analytics with Amazon SageMaker Unified Studio",
-      "link": "https://aws.amazon.com/blogs/architecture/modernizing-financial-analytics-with-amazon-sagemaker-unified-studio/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-22T16:42:55.000Z",
-      "snippet": "Avanse Financial Services, India’s leading education loan providers, migrated to a cloud-native lakehouse architecture using Amazon SageMaker Unified Studio, which unified their data engineering, analytics, and artificial intelligence (AI) workflows in a…"
-    },
-    {
-      "title": "Architecting AI-powered resilience framework on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/architecting-ai-powered-resilience-framework-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-22T16:35:07.000Z",
-      "snippet": "In this post, you’ll learn how to architect and implement a five-layer AI-powered resilience framework that automatically discovers dependencies, generates targeted experiments, and integrates with your existing Continuous Integration/Continuous Deployment…"
-    },
-    {
-      "title": "AWS Batch now supports customer-ordered instance allocation strategies",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-22T16:30:00.000Z",
-      "snippet": "AWS Batch now offers the Best Fit Progressive Ordered (BFPO) and Spot Capacity Optimized Prioritized (SCOP) allocation strategies, giving you more control over instance type prioritization in your compute environments. BFPO and SCOP enable you to manually…"
     }
   ]
 }
