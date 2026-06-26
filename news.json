@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-26T14:34:08.514Z",
+  "lastUpdated": "2026-06-26T20:34:27.756Z",
   "items": [
+    {
+      "title": "Amazon EC2 R8g instances now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-26T15:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West (Calgary) regions. These instances are powered by AWS Graviton4…"
+    },
     {
       "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
@@ -28,6 +35,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-25T20:18:00.000Z",
       "snippet": "AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule groups expand the managed rules offerings for AWS Network…"
+    },
+    {
+      "title": "Amazon EC2 C8in instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-ireland-ohio/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-25T17:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS US East (Ohio) and Europe (Ireland) regions. C8in instances are powered by custom, sixth generation Intel Xeon Scalable processors, available only on AWS. These…"
     },
     {
       "title": "Kiro achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-23T05:00:00.000Z",
       "snippet": "Anthropic is launching Claude Tag — bringing Claude directly into the channels where your team already works, starting with Slack. Claude Tag is available today in beta to AWS customers who access Claude Enterprise through AWS Marketplace. Claude Tag is a new…"
-    },
-    {
-      "title": "Amazon OpenSearch Service now offers AI-assisted migrations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-opensearch-service-ai-migrations",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T03:30:00.000Z",
-      "snippet": "Migration Assistant for Amazon OpenSearch Service now includes an AI-assisted experience that simplifies moving your self-managed Apache Solr, Elasticsearch, or OpenSearch deployments to OpenSearch Serverless or Managed Clusters. With the new assistant, you…"
-    },
-    {
-      "title": "Amazon SageMaker Studio notebooks now support G7e instance types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/g7e-new-launch-sagemaker-studio-notebooks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T01:02:00.000Z",
-      "snippet": "Amazon G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs (vCPUs) and up to 1600 Gbps of Elastic Fabric Adapter…"
     }
   ]
 }
