@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-06-29T14:38:05.437Z",
+  "lastUpdated": "2026-06-29T20:38:23.725Z",
   "items": [
+    {
+      "title": "What the June 2026 Threat Technique Catalog update means for your AWS environment",
+      "link": "https://aws.amazon.com/blogs/security/what-the-june-2026-threat-technique-catalog-update-means-for-your-aws-environment/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-06-29T19:30:59.000Z",
+      "snippet": "The AWS Customer Incident Response Team (AWS CIRT) encounters patterns that repeat across engagements when helping customers respond to security incidents. We’re passionate about making sure that information is accessible so that everyone can improve their…"
+    },
+    {
+      "title": "Lessons learned from scaling to 1 million Lambda functions",
+      "link": "https://aws.amazon.com/blogs/architecture/lessons-learned-from-scaling-to-1-million-lambda-functions/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-29T17:21:05.000Z",
+      "snippet": "In this post, we share our journey and the lessons learned from building and running a fully serverless, multi-account software as a service (SaaS) platform at scale. We’ll explore why true scale-to-zero is critical, how we handle quota management, why…"
+    },
+    {
+      "title": "Preventing data exfiltration in machine learning environments with Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/architecture/preventing-data-exfiltration-in-machine-learning-environments-with-amazon-sagemaker-ai/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-29T17:16:48.000Z",
+      "snippet": "In this post, we demonstrate how iBusiness implemented a three-layered security architecture using Amazon SageMaker AI, virtual private cloud (VPC) endpoints, and Amazon WorkSpaces Secure Browser to prevent data exfiltration while maintaining data scientist…"
+    },
+    {
+      "title": "Dual-token authentication for Nakama game servers with Amazon Cognito on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/dual-token-authentication-for-nakama-game-servers-with-amazon-cognito-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-06-29T17:09:54.000Z",
+      "snippet": "In this post, you learn how to configure an Amazon Cognito User Pool for SRP-based game client authentication with no client secret. You will implement a Go runtime hook that validates Cognito JWTs and bridges player identity to Nakama sessions."
+    },
+    {
+      "title": "AWS Weekly Roundup, Agentic CX designer for Amazon Connect Customer, EC2 AMI Watermarks, Open Governance for MySQL, and more (June 29, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-06-29T16:30:30.000Z",
+      "snippet": "It has been a busy stretch on the AWS Summit circuit. At the New York City Summit, I delivered a workshop called Building AI architectures with AWS Serverless, and it was a lot of fun watching builders wire up agents and serverless services to solve real…"
+    },
+    {
+      "title": "Amazon S3 server access logs now deliver to Amazon CloudWatch Logs and Amazon S3 Tables",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-cloudwatch-logs-tables/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-29T04:00:00.000Z",
+      "snippet": "Amazon S3 now supports delivering server access logs to Amazon CloudWatch Logs, giving you instant querying, alarms, cross-account and cross-Region aggregation, and AWS Key Management Service (KMS) encryption for your access log data. You can also mirror your…"
+    },
     {
       "title": "Amazon EC2 R8g instances now available in additional regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-23T18:14:00.000Z",
       "snippet": "We are pleased to announce general availability of Amazon EC2 G6e instances on SageMaker notebook instances. Amazon EC2 G6e instances are powered by up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB of memory per GPU and third generation AMD EPYC processors.…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Memory now supports cross-account access",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T17:20:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Memory now enables cross-account access, allowing you to build multi-account architectures where memory resources and consuming agents span multiple AWS accounts. You can grant principals in one account permission to call memory data…"
-    },
-    {
-      "title": "AWS HealthOmics now supports ephemeral storage for private workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/healthomics-scratch-storage/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T17:15:00.000Z",
-      "snippet": "AWS HealthOmics adds ephemeral storage for private workflows, giving bioinformatics workloads dedicated scratch space that delivers more consistent run performance and lower costs. Each workflow task now receives a dedicated local volume mounted at /tmp, and…"
-    },
-    {
-      "title": "Amazon Cognito now supports customer managed key for encryption at rest",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T17:00:46.000Z",
-      "snippet": "Amazon Cognito now supports customer managed keys in AWS Key Management Service (KMS) for encrypting user pool data at rest. While AWS owned keys are used by default to protect your data, customer managed keys give you full control over the encryption keys,…"
-    },
-    {
-      "title": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T16:20:00.000Z",
-      "snippet": "Today, AWS announces new automated refinement workflows for Automated Reasoning checks in Amazon Bedrock Guardrails. Automated Reasoning checks use formal logic to mathematically validate the accuracy of generative AI responses against a policy you define,…"
-    },
-    {
-      "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T15:12:00.000Z",
-      "snippet": "CloudWatch OTel Container Insights for Amazon EKS collects infrastructure metrics at 30-second granularity using open-source receivers including cAdvisor, Kube State Metrics, and NVIDIA DCGM. Each metric carries OpenTelemetry semantic conventions and…"
-    },
-    {
-      "title": "Claude Tag is now available in beta via Claude Enterprise in AWS Marketplace",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-tag-aws-marketplace/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T05:00:00.000Z",
-      "snippet": "Anthropic is launching Claude Tag — bringing Claude directly into the channels where your team already works, starting with Slack. Claude Tag is available today in beta to AWS customers who access Claude Enterprise through AWS Marketplace. Claude Tag is a new…"
     }
   ]
 }
