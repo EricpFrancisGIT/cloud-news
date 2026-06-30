@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-29T20:38:23.725Z",
+  "lastUpdated": "2026-06-30T02:38:43.611Z",
   "items": [
+    {
+      "title": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-29T22:00:00.000Z",
+      "snippet": "Today, AWS announces general availability of AWS Web Application Firewall (AWS WAF) protection for Amazon Bedrock AgentCore Gateway, enabling you to protect your agentic AI workloads from common web exploits and abuse. As enterprises move agentic applications…"
+    },
     {
       "title": "What the June 2026 Threat Technique Catalog update means for your AWS environment",
       "link": "https://aws.amazon.com/blogs/security/what-the-june-2026-threat-technique-catalog-update-means-for-your-aws-environment/",
@@ -14,6 +21,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-06-29T17:21:05.000Z",
       "snippet": "In this post, we share our journey and the lessons learned from building and running a fully serverless, multi-account software as a service (SaaS) platform at scale. We’ll explore why true scale-to-zero is critical, how we handle quota management, why…"
+    },
+    {
+      "title": "Amazon MWAA Serverless now supports shared VPC configurations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-29T17:19:00.000Z",
+      "snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports shared VPC subnets. Previously, customers using subnets shared via AWS Resource Access Manager (AWS RAM) received a validation error when creating MWAA Serverless workflows.…"
     },
     {
       "title": "Preventing data exfiltration in machine learning environments with Amazon SageMaker AI",
@@ -30,7 +44,7 @@
       "snippet": "In this post, you learn how to configure an Amazon Cognito User Pool for SRP-based game client authentication with no client secret. You will implement a Go runtime hook that validates Cognito JWTs and bridges player identity to Nakama sessions."
     },
     {
-      "title": "AWS Weekly Roundup, Agentic CX designer for Amazon Connect Customer, EC2 AMI Watermarks, Open Governance for MySQL, and more (June 29, 2026)",
+      "title": "AWS Weekly Roundup: Agentic CX designer for Amazon Connect Customer, EC2 AMI Watermarks, Open Governance for MySQL, and more (June 29, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026/",
       "source": "AWS News Blog",
       "pubDate": "2026-06-29T16:30:30.000Z",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-23T20:30:00.000Z",
       "snippet": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs. With today's launch, customers can configure their network devices and…"
-    },
-    {
-      "title": "Amazon GuardDuty AI-powered investigations accelerate threat response (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-guardduty/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T19:49:00.000Z",
-      "snippet": "AWS announces the preview of AI-powered investigations in Amazon GuardDuty, a new capability that automatically analyzes GuardDuty findings and accounts to help you quickly distinguish true threats from benign findings. This feature addresses the…"
-    },
-    {
-      "title": "SageMaker Notebook Instances now support G6e instance types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-23T18:14:00.000Z",
-      "snippet": "We are pleased to announce general availability of Amazon EC2 G6e instances on SageMaker notebook instances. Amazon EC2 G6e instances are powered by up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB of memory per GPU and third generation AMD EPYC processors.…"
     }
   ]
 }
