@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-07-01T14:40:42.209Z",
+  "lastUpdated": "2026-07-01T20:40:58.287Z",
   "items": [
+    {
+      "title": "Secure Amazon container workloads using container attribute-based rules in AWS Network Firewall",
+      "link": "https://aws.amazon.com/blogs/security/secure-amazon-container-workloads-using-container-attribute-based-rules-in-aws-network-firewall/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-01T19:40:22.000Z",
+      "snippet": "Today, you can use AWS Network Firewall to protect traffic flowing to and from containerized applications on Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS) clusters. If you run AI and machine learning (ML)…"
+    },
+    {
+      "title": "AWS Partner Central now supports AWS Marketplace listings for co-selling",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-marketplace-co-selling-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T19:06:00.000Z",
+      "snippet": "Today, AWS announces that partners can associate one or more AWS Marketplace solutions and product listings from their AWS Marketplace catalog directly to co-sell opportunities in AWS Partner Central. Previously, opportunities required partners to use…"
+    },
+    {
+      "title": "Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks",
+      "link": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-07-01T17:20:30.000Z",
+      "snippet": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T17:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers…"
+    },
+    {
+      "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T17:00:00.000Z",
+      "snippet": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and Europe (Ireland) or US West (N. California); between Asia…"
+    },
+    {
+      "title": "AWS AppConfig launches managed experimentation tools for A/B testing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/6/aws-appconfig-experimentation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T16:30:00.000Z",
+      "snippet": "Today, AWS announces the general availability of experimentation tools in AWS AppConfig, a new capability that enables you to run A/B tests and feature experiments without building or managing separate experimentation infrastructure. Built on 25+ years of…"
+    },
+    {
+      "title": "Amazon EKS now supports Kubernetes version rollback",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-version-rollback",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T16:00:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Kubernetes version rollback, enabling you to revert to the previous Kubernetes minor version within 7 days if any issues arise after an upgrade. This provides an additional safety net for your…"
+    },
+    {
+      "title": "How to use the AWS Workload Credentials Provider for cross-account secret retrieval and prefetching secrets",
+      "link": "https://aws.amazon.com/blogs/security/how-to-use-the-aws-workload-credentials-provider-for-cross-account-secret-retrieval-and-prefetching-secrets/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-01T15:56:26.000Z",
+      "snippet": "If you manage secrets across multiple AWS accounts or need faster secret access for latency-sensitive applications, this post shows you how to meet those requirements using two new features of the AWS Workload Credentials Provider (provider). You will learn…"
+    },
+    {
+      "title": "Amazon Managed Service for Prometheus achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-fedramp-high/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T15:43:00.000Z",
+      "snippet": "Amazon Managed Service for Prometheus is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions. Federal agencies, public sector organizations,…"
+    },
+    {
+      "title": "AWS Security Agent now available in Asia Pacific (Mumbai), Asia Pacific (Singapore), and South America (São Paulo)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-agent-asia-pacific/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T15:26:00.000Z",
+      "snippet": "Starting today, AWS Security Agent (now part of AWS Continuum) is available in three additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), and South America (São Paulo). Customers in these Regions can now access core capabilities of…"
+    },
+    {
+      "title": "Amazon OpenSearch Service optimized for log analytics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-optimized-log-analytics",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T02:30:00.000Z",
+      "snippet": "Today, Amazon OpenSearch Service introduces a new engine purpose-built for log analytics workloads, delivering up to 4x better price-performance on internal benchmarks. It combines this efficiency with the full-text search capabilities that OpenSearch is…"
+    },
     {
       "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
       "link": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
@@ -133,83 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-30T16:00:00.000Z",
       "snippet": "AWS now offers Claude Sonnet 5 - Anthropic's most capable Sonnet model and the first Sonnet model of Anthropic’s latest generation - bringing top-tier intelligence at Sonnet pricing for coding, agents, and everyday professional work at scale. Claude Sonnet 5…"
-    },
-    {
-      "title": "Amazon SageMaker AI now supports serverless model customization for Gemma 4 models",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-gemma-4/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T15:30:00.000Z",
-      "snippet": "Amazon SageMaker AI now supports serverless model customization for Gemma 4 E4B and 31B models using supervised fine-tuning (SFT), direct preference optimization (DPO), and reinforcement fine-tuning (RFT). Gemma is a family of open models built by Google…"
-    },
-    {
-      "title": "Amazon EC2 C9g and C9gd compute optimized instances are now available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-c9g-c9gd-instances-graviton5-processors-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T15:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed CPUs, delivering the best price performance…"
-    },
-    {
-      "title": "Claude Opus 4.8 is now available in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws-govcloud-us",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T12:00:00.000Z",
-      "snippet": "AWS GovCloud (US) now offers Claude Opus 4.8 -- Anthropic's most capable generally available model to date -- delivering meaningful advances across agentic coding, professional knowledge work, and long-running autonomous tasks for developers and enterprises…"
-    },
-    {
-      "title": "OpenAI GPT-5.4 and NVIDIA Nemotron 3 Super 120B now available on Kiro in AWS GovCloud (US-West) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-gpt-nemotron-launch-aws-govcloud-us/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T09:00:00.000Z",
-      "snippet": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US-West) Region. OpenAI GPT-5.4 is now available in Kiro for complex reasoning, coding, document analysis, and multi-step agentic workflows. It helps developers build AI…"
-    },
-    {
-      "title": "Amazon GameLift Servers announces DDoS Protection client SDKs for C# and Unity",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-ddos-protection-unity",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T08:00:00.000Z",
-      "snippet": "Amazon GameLift Servers now offers DDoS Protection client SDKs for C# and Unity, helping game developers protect session-based multiplayer games against denial-of-service and distributed denial-of-service attacks. This feature co-locates a relay network…"
-    },
-    {
-      "title": "Amazon CloudWatch pipelines now supports processing and enriching OpenTelemetry metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-pipelines-otel-metrics",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T07:27:00.000Z",
-      "snippet": "Amazon CloudWatch pipelines now supports processing and enriching OpenTelemetry (OTel) metrics during ingestion. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes telemetry data to CloudWatch without requiring you to manage…"
-    },
-    {
-      "title": "AWS Service Availability Updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T07:00:00.000Z",
-      "snippet": "We’re announcing availability changes to the following AWS services and features. Services moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting July 30, 2026. Customers already using these services and…"
-    },
-    {
-      "title": "AWS Clean Rooms now supports intermediate tables for SQL",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-clean-rooms-intermediate-tables",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T06:00:00.000Z",
-      "snippet": "AWS Clean Rooms now supports intermediate tables for SQL queries, offering increased flexibility for organizations running complex, multi-step analytical workflows with their partners. With this launch, customers can write the results of a SQL query to an…"
-    },
-    {
-      "title": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-29T22:00:00.000Z",
-      "snippet": "Today, AWS announces general availability of AWS Web Application Firewall (AWS WAF) protection for Amazon Bedrock AgentCore Gateway, enabling you to protect your agentic AI workloads from common web exploits and abuse. As enterprises move agentic applications…"
-    },
-    {
-      "title": "What the June 2026 Threat Technique Catalog update means for your AWS environment",
-      "link": "https://aws.amazon.com/blogs/security/what-the-june-2026-threat-technique-catalog-update-means-for-your-aws-environment/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-06-29T19:30:59.000Z",
-      "snippet": "The AWS Customer Incident Response Team (AWS CIRT) encounters patterns that repeat across engagements when helping customers respond to security incidents. We’re passionate about making sure that information is accessible so that everyone can improve their…"
-    },
-    {
-      "title": "Lessons learned from scaling to 1 million Lambda functions",
-      "link": "https://aws.amazon.com/blogs/architecture/lessons-learned-from-scaling-to-1-million-lambda-functions/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-06-29T17:21:05.000Z",
-      "snippet": "In this post, we share our journey and the lessons learned from building and running a fully serverless, multi-account software as a service (SaaS) platform at scale. We’ll explore why true scale-to-zero is critical, how we handle quota management, why…"
     }
   ]
 }
