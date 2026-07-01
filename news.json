@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T02:39:56.836Z",
+  "lastUpdated": "2026-07-01T08:40:17.146Z",
   "items": [
     {
       "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
@@ -170,6 +170,13 @@
       "snippet": "Amazon GameLift Servers now offers DDoS Protection client SDKs for C# and Unity, helping game developers protect session-based multiplayer games against denial-of-service and distributed denial-of-service attacks. This feature co-locates a relay network…"
     },
     {
+      "title": "Amazon CloudWatch pipelines now supports processing and enriching OpenTelemetry metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-pipelines-otel-metrics",
+      "source": "AWS What's New",
+      "pubDate": "2026-06-30T07:27:00.000Z",
+      "snippet": "Amazon CloudWatch pipelines now supports processing and enriching OpenTelemetry (OTel) metrics during ingestion. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes telemetry data to CloudWatch without requiring you to manage…"
+    },
+    {
       "title": "AWS Service Availability Updates",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-service-availability/",
       "source": "AWS What's New",
@@ -203,13 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-06-29T17:21:05.000Z",
       "snippet": "In this post, we share our journey and the lessons learned from building and running a fully serverless, multi-account software as a service (SaaS) platform at scale. We’ll explore why true scale-to-zero is critical, how we handle quota management, why…"
-    },
-    {
-      "title": "Amazon MWAA Serverless now supports shared VPC configurations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-29T17:19:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports shared VPC subnets. Previously, customers using subnets shared via AWS Resource Access Manager (AWS RAM) received a validation error when creating MWAA Serverless workflows.…"
     }
   ]
 }
