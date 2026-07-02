@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-07-01T20:40:58.287Z",
+  "lastUpdated": "2026-07-02T02:41:22.815Z",
   "items": [
+    {
+      "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T22:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore has increased the default runtime quota limits, giving customers greater capacity to scale their agent-based workloads. AgentCore is the platform for developers to build, connect, and optimize AI agents. The new default limits support…"
+    },
+    {
+      "title": "Amazon CloudWatch supports creating alarms from log queries",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-log-alarms/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T21:30:00.000Z",
+      "snippet": "Amazon CloudWatch allows you to create alarms on log data using log queries, and get alerted on anomalies without leaving your log analysis workflow. With today's launch, you can configure an alarm on log query and specify the alarm threshold directly,…"
+    },
+    {
+      "title": "ECS Service Connect now supports Zone-Aware routing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T21:28:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) introduces zone-aware routing for ECS Service Connect, enabling customers to reduce cross Availability Zone (AZ) data transfer costs and latency by automatically prioritizing service-to-service traffic within the…"
+    },
+    {
+      "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T20:48:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now provides real-time deployment observability in the Amazon ECS Console. With this launch, customers can track deployment progress, monitor deployment health, and diagnose failures directly from the console, and…"
+    },
+    {
+      "title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T20:01:00.000Z",
+      "snippet": "AWS Artifact now includes Assurance Assistant, an AI-powered capability that generates citation-backed responses to security and compliance questions about AWS services. AWS Artifact is the service through which AWS provides compliance reports,…"
+    },
     {
       "title": "Secure Amazon container workloads using container attribute-based rules in AWS Network Firewall",
       "link": "https://aws.amazon.com/blogs/security/secure-amazon-container-workloads-using-container-attribute-based-rules-in-aws-network-firewall/",
@@ -23,13 +58,6 @@
       "snippet": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk…"
     },
     {
-      "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T17:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers…"
-    },
-    {
       "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
       "source": "AWS What's New",
@@ -37,11 +65,39 @@
       "snippet": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and Europe (Ireland) or US West (N. California); between Asia…"
     },
     {
+      "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T17:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers…"
+    },
+    {
+      "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T17:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit breaker settings to match your application's startup behavior,…"
+    },
+    {
+      "title": "Amazon GuardDuty adds sensitive file modification threat detections",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T16:58:00.000Z",
+      "snippet": "Amazon GuardDuty Runtime Monitoring now includes three new threat detections that alert security teams when sensitive files are modified on Amazon EC2 instances and container workloads running on Amazon EKS or Amazon ECS. These findings help identify…"
+    },
+    {
       "title": "AWS AppConfig launches managed experimentation tools for A/B testing",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/6/aws-appconfig-experimentation/",
       "source": "AWS What's New",
       "pubDate": "2026-07-01T16:30:00.000Z",
       "snippet": "Today, AWS announces the general availability of experimentation tools in AWS AppConfig, a new capability that enables you to run A/B tests and feature experiments without building or managing separate experimentation infrastructure. Built on 25+ years of…"
+    },
+    {
+      "title": "Amazon ECS Express Mode now supports custom task definitions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T16:05:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) Express Mode now supports custom task definitions, giving you the flexibility to use existing ECS application configurations and advanced task-level customizations with Express Mode’s simplified deployment…"
     },
     {
       "title": "Amazon EKS now supports Kubernetes version rollback",
@@ -70,6 +126,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-01T15:26:00.000Z",
       "snippet": "Starting today, AWS Security Agent (now part of AWS Continuum) is available in three additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), and South America (São Paulo). Customers in these Regions can now access core capabilities of…"
+    },
+    {
+      "title": "Amazon RDS for Db2 now supports self-managed Active Directory",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-db2-supports-self-managed-active-directory",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T07:28:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Db2 now allows customers to directly join their RDS for Db2 DB instances to the domains of self-managed Microsoft Active Directory (AD). Self-managed AD can be on-premises, on AWS, or in another cloud.…"
     },
     {
       "title": "Amazon OpenSearch Service optimized for log analytics",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-30T19:00:00.000Z",
       "snippet": "Amazon Neptune now supports dual-stack mode, enabling database clusters to accept connections over IPv4, IPv6, or both protocols simultaneously. This allows organizations to adopt IPv6 while maintaining backward compatibility with existing IPv4 deployments.…"
-    },
-    {
-      "title": "AWS End User Messaging RCS now supports rich media and interactive messaging",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-end-user-messaging-rcs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T18:21:00.000Z",
-      "snippet": "AWS End User Messaging now supports rich media and interactive messaging for RCS across all 22 supported countries. With the new SendRcsMessage API, you can send rich cards, carousels, images, videos, and interactive suggestion buttons that let recipients…"
-    },
-    {
-      "title": "Amazon Time Sync Service adds support for Microsecond accurate time on 26 additional EC2 instance types in all commercial regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-time-sync-precision-time-placement-group",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T17:30:00.000Z",
-      "snippet": "Amazon Time Sync Service introduces support for microsecond accurate time on 26 additional EC2 instance types in all commercial regions. Built on Amazon's proven network infrastructure and the AWS Nitro System, microsecond accurate time and nanosecond…"
-    },
-    {
-      "title": "Announcing general availability of Amazon WorkSpaces for AI agents",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T17:28:00.000Z",
-      "snippet": "Amazon WorkSpaces for agents is now generally available, enabling AI agents to securely access and operate desktop applications through managed WorkSpaces environments. Enterprises run critical business processes on desktop applications (ERP systems, CRMs,…"
-    },
-    {
-      "title": "Amazon EC2 Auto Scaling now supports reservations then balanced Availability Zone distribution",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-auto-scaling-res-then-balanced/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T17:09:00.000Z",
-      "snippet": "Amazon EC2 Auto Scaling now offers reservations-then-balanced, a new Availability Zone (AZ) distribution strategy that prioritizes launching instances into your capacity reservations before distributing remaining capacity evenly across Availability Zones.…"
-    },
-    {
-      "title": "Announcing Capability Insights for AWS, an open-source solution for regional capabilities",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/capability-insights-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T17:00:00.000Z",
-      "snippet": "Today, AWS announces the launch of Capability Insights, an open-source solution that enables you to deploy regional capabilities data inside your own Amazon Virtual Private Cloud (VPC). This self-hosted dashboard addresses the needs of teams building…"
-    },
-    {
-      "title": "Amazon SageMaker AI cuts generative AI inference scale-out time by up to half with automatic container image caching",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T16:31:00.000Z",
-      "snippet": "Amazon SageMaker Inference now supports container image caching, enabling up to 2x faster end-to-end scaling for generative AI models during scale-out events. When your endpoint scales out, the service pre-caches your container image so new instances can…"
-    },
-    {
-      "title": "AWS Security Hub CSPM launches AI Security Best Practices standard with 31 automated controls",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-hub-cspm-ai-security/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T16:17:00.000Z",
-      "snippet": "Today, AWS Security Hub CSPM announces the AI Security Best Practices standard, a set of 31 automated security controls that detect when your deployed AI resources do not align with security best practices. Developed by AWS security experts, this standard…"
-    },
-    {
-      "title": "IAM Identity Center now enables programmatic AWS account access for customer managed applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iam-identity-center-account-access-customer-managed-apps/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T16:00:00.000Z",
-      "snippet": "IAM Identity Center now enables customer managed applications to programmatically access AWS accounts on behalf of their users, including the ability to discover accounts and roles assigned to a user and retrieve temporary credentials required for AWS account…"
-    },
-    {
-      "title": "Claude Sonnet 5 is now available on AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-sonnet-5-now-available-on-aws",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T16:00:00.000Z",
-      "snippet": "AWS now offers Claude Sonnet 5 - Anthropic's most capable Sonnet model and the first Sonnet model of Anthropic’s latest generation - bringing top-tier intelligence at Sonnet pricing for coding, agents, and everyday professional work at scale. Claude Sonnet 5…"
     }
   ]
 }
