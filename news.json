@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-07-02T20:42:15.796Z",
+  "lastUpdated": "2026-07-03T02:42:35.899Z",
   "items": [
+    {
+      "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-02T21:49:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports Terraform for provisioning. Customers can use the open-source terraform-aws-sagemaker-unified-studio module to deploy a SageMaker Unified Studio domain through version-controlled templates. With this launch,…"
+    },
+    {
+      "title": "Amazon EC2 X8i instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-02T20:48:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Seoul), Asia Pacific (Malaysia) and Asia Pacific (Tokyo) regions. These instances are powered by custom Intel Xeon 6 processors available only on AWS.…"
+    },
     {
       "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
       "source": "AWS What's New",
       "pubDate": "2026-07-02T17:00:00.000Z",
       "snippet": "Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on physical servers fully dedicated to their use. Customers can…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports AMI versioning and auto-patching",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-02T16:00:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now gives you visibility into the Amazon Machine Image (AMI) versions running across your clusters and automatically applies security patches without disrupting your workloads. SageMaker HyperPod is purpose-built infrastructure for…"
     },
     {
       "title": "AWS Config now supports 8 new resource types",
@@ -189,27 +210,6 @@
       "source": "AWS News Blog",
       "pubDate": "2026-06-30T20:56:44.000Z",
       "snippet": "Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest memory of any processor instances in the cloud, and local NVMe…"
-    },
-    {
-      "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
-      "link": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-30T20:15:11.000Z",
-      "snippet": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance, IAM-based access controls, and domain…"
-    },
-    {
-      "title": "Amazon RDS Enhances IAM Database Authentication with Connection Rate Scaling",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-iam/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T20:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) now offers dynamic connection scaling for IAM database authentication, allowing connection rates to scale with instance resources. IAM database authentication performance now scales with available instance…"
-    },
-    {
-      "title": "AWS Parallel Computing Service supports in-place Slurm major version upgrades",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service-upgrade/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T19:12:00.000Z",
-      "snippet": "AWS Parallel Computing Service (PCS) now supports managed in-place Slurm version upgrades for existing clusters. You can move your clusters up to three Slurm major versions ahead with no disruption to running jobs. To upgrade, update your Cluster…"
     }
   ]
 }
