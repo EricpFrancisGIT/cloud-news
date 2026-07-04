@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T14:44:29.399Z",
+  "lastUpdated": "2026-07-04T20:44:47.952Z",
   "items": [
     {
       "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
@@ -86,6 +86,13 @@
       "snippet": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk…"
     },
     {
+      "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T17:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit breaker settings to match your application's startup behavior,…"
+    },
+    {
       "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
       "source": "AWS What's New",
@@ -98,13 +105,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-01T17:00:00.000Z",
       "snippet": "Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers…"
-    },
-    {
-      "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T17:00:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit breaker settings to match your application's startup behavior,…"
     },
     {
       "title": "Amazon GuardDuty adds sensitive file modification threat detections",
