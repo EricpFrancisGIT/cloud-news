@@ -1,12 +1,54 @@
 {
-  "lastUpdated": "2026-07-06T14:47:00.307Z",
+  "lastUpdated": "2026-07-06T20:47:18.240Z",
   "items": [
+    {
+      "title": "Amazon EVS VCF 9.0 and 9.1 support",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-06T17:29:00.000Z",
+      "snippet": "Today, we are announcing that Amazon Elastic VMware Service (EVS) now supports VMware Cloud Foundation (VCF) 9.0 and 9.1. Amazon EVS lets you run the latest VCF software directly within your Amazon Virtual Private Cloud (VPC) on EC2 bare-metal instances. With…"
+    },
+    {
+      "title": "Enforce least-privilege authorization in multi-agent AI chains using Cedar",
+      "link": "https://aws.amazon.com/blogs/security/enforce-least-privilege-authorization-in-multi-agent-ai-chains-using-cedar/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-06T16:52:23.000Z",
+      "snippet": "If you’re building multi-agent AI systems, you need to prevent authorization scope from silently expanding as agents delegate tasks through multi-hop chains. Without proper controls, an agent can potentially act beyond what the originating user authorized,…"
+    },
+    {
+      "title": "AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-07-06T15:46:43.000Z",
+      "snippet": "A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of founders talking about the problems they’re actually…"
+    },
+    {
+      "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-06T15:00:00.000Z",
+      "snippet": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for…"
+    },
+    {
+      "title": "CloudWatch Application Signals now automatically captures errors, performance anomalies, and deployment events",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-06T15:00:00.000Z",
+      "snippet": "Today, AWS announces Service Events for Amazon CloudWatch Application Signals, which automatically captures exception and latency event snapshots, function-level performance data, and deployment events from instrumented services without additional code…"
+    },
     {
       "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
       "source": "AWS What's New",
       "pubDate": "2026-07-06T09:00:00.000Z",
       "snippet": "Starting today, AWS CodePipeline is now available in Asia Pacific (New Zealand) Region (ap-southeast-6). AWS CodePipeline is a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software. With…"
+    },
+    {
+      "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-06T07:00:00.000Z",
+      "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Paddle API Keys and GitLab Access Tokens. Managed external secrets enable customers to automatically rotate third-party credentials directly from AWS Secrets Manager by…"
     },
     {
       "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
@@ -93,6 +135,13 @@
       "snippet": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk…"
     },
     {
+      "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-01T17:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit breaker settings to match your application's startup behavior,…"
+    },
+    {
       "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
       "source": "AWS What's New",
@@ -105,13 +154,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-01T17:00:00.000Z",
       "snippet": "Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers…"
-    },
-    {
-      "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T17:00:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit breaker settings to match your application's startup behavior,…"
     },
     {
       "title": "Amazon GuardDuty adds sensitive file modification threat detections",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-01T07:28:00.000Z",
       "snippet": "Amazon Relational Database Service (Amazon RDS) for Db2 now allows customers to directly join their RDS for Db2 DB instances to the domains of self-managed Microsoft Active Directory (AD). Self-managed AD can be on-premises, on AWS, or in another cloud.…"
-    },
-    {
-      "title": "Amazon OpenSearch Service optimized for log analytics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-optimized-log-analytics",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T02:30:00.000Z",
-      "snippet": "Today, Amazon OpenSearch Service introduces a new engine purpose-built for log analytics workloads, delivering up to 4x better price-performance on internal benchmarks. It combines this efficiency with the full-text search capabilities that OpenSearch is…"
-    },
-    {
-      "title": "Amazon Connect Customer now supports rule based redaction for agent screen recording",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/screen-recording-rule-based/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T22:53:00.000Z",
-      "snippet": "Amazon Connect Customer now lets you protect sensitive information in agent screen recordings by defining rules to redact specific applications or URLs. Agent screen recording helps supervisors identify coaching opportunities, such as non-compliance with…"
-    },
-    {
-      "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
-      "link": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-30T21:30:33.000Z",
-      "snippet": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no additional cost."
-    },
-    {
-      "title": "Amazon CloudWatch Logs enriches log events with AWS resource tags",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-resource-tags/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T21:15:00.000Z",
-      "snippet": "Amazon CloudWatch Logs now enriches log events with resource tags, making it easier to filter, search, and analyze logs by the metadata that matters most to your organization, such as team ownership, environment, cost center, or application name, without…"
-    },
-    {
-      "title": "AWS CloudFormation and CDK accelerate development feedback loops with pre-deployment validation on all stack operations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T21:00:00.000Z",
-      "snippet": "AWS CloudFormation customers can now get immediate feedback on deployment errors in seconds, eliminating the need to wait through a full provision-and-rollback cycle to discover preventable failures. CloudFormation now runs pre-deployment validation on Create…"
-    },
-    {
-      "title": "AWS CloudFormation and CDK express mode speeds up infrastructure deployments by up to 4x",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation-cdk/",
-      "source": "AWS What's New",
-      "pubDate": "2026-06-30T21:00:00.000Z",
-      "snippet": "AWS CloudFormation and CDK express mode reduces deployment time by up to 4x for developers and AI agents building infrastructure, based on internal benchmarks. Express mode completes stack operations when CloudFormation confirms resource configuration is…"
     }
   ]
 }
