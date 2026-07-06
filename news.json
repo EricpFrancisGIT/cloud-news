@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-06T08:46:41.954Z",
+  "lastUpdated": "2026-07-06T14:47:00.307Z",
   "items": [
+    {
+      "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-06T09:00:00.000Z",
+      "snippet": "Starting today, AWS CodePipeline is now available in Asia Pacific (New Zealand) Region (ap-southeast-6). AWS CodePipeline is a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software. With…"
+    },
     {
       "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-06-30T21:00:00.000Z",
       "snippet": "AWS CloudFormation and CDK express mode reduces deployment time by up to 4x for developers and AI agents building infrastructure, based on internal benchmarks. Express mode completes stack operations when CloudFormation confirms resource configuration is…"
-    },
-    {
-      "title": "Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-06-30T20:56:44.000Z",
-      "snippet": "Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest memory of any processor instances in the cloud, and local NVMe…"
     }
   ]
 }
