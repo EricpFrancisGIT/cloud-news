@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-06T20:47:18.240Z",
+  "lastUpdated": "2026-07-07T02:47:40.035Z",
   "items": [
+    {
+      "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-06T21:29:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports Disaggregated Prefill and Decode (DPD), an inference optimization that separates the two phases of large language model (LLM) inference — prefill and decode — onto dedicated GPU pools and transfers the key-value (KV)…"
+    },
+    {
+      "title": "Amazon Cognito now supports self-service provisioned API rate limits",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-06T21:00:00.000Z",
+      "snippet": "Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand. Cognito has default rate limits for the maximum number of operations per second that you can perform in your user pools in each AWS Region, and you can purchase…"
+    },
+    {
+      "title": "Amazon SageMaker Studio now integrates with Hugging Face for one-click model deployment and customization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/sagemaker-studio-hugging-face-integration/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-06T20:30:00.000Z",
+      "snippet": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click. Select any supported model on Hugging Face and choose…"
+    },
     {
       "title": "Amazon EVS VCF 9.0 and 9.1 support",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
@@ -189,27 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-07-01T15:56:26.000Z",
       "snippet": "If you manage secrets across multiple AWS accounts or need faster secret access for latency-sensitive applications, this post shows you how to meet those requirements using two new features of the AWS Workload Credentials Provider (provider). You will learn…"
-    },
-    {
-      "title": "Amazon Managed Service for Prometheus achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-fedramp-high/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T15:43:00.000Z",
-      "snippet": "Amazon Managed Service for Prometheus is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions. Federal agencies, public sector organizations,…"
-    },
-    {
-      "title": "AWS Security Agent now available in Asia Pacific (Mumbai), Asia Pacific (Singapore), and South America (São Paulo)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-agent-asia-pacific/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T15:26:00.000Z",
-      "snippet": "Starting today, AWS Security Agent (now part of AWS Continuum) is available in three additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), and South America (São Paulo). Customers in these Regions can now access core capabilities of…"
-    },
-    {
-      "title": "Amazon RDS for Db2 now supports self-managed Active Directory",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-db2-supports-self-managed-active-directory",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T07:28:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for Db2 now allows customers to directly join their RDS for Db2 DB instances to the domains of self-managed Microsoft Active Directory (AD). Self-managed AD can be on-premises, on AWS, or in another cloud.…"
     }
   ]
 }
