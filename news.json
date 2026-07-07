@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-07-07T14:48:18.500Z",
+  "lastUpdated": "2026-07-07T20:48:36.919Z",
   "items": [
+    {
+      "title": "Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies",
+      "link": "https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-07T18:18:52.000Z",
+      "snippet": "With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are…"
+    },
+    {
+      "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-07T18:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) Managed Instances now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series ECS management fees are reduced by 35%, and P-series and AWS Trainium…"
+    },
+    {
+      "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-07T17:06:00.000Z",
+      "snippet": "Amazon EMR Serverless now offers larger worker configurations of 32 vCPUs with up to 244 GB of memory, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker configuration available on EMR Serverless was 16 vCPUs with…"
+    },
+    {
+      "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Frankfurt) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-07T17:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Frankfurt) region. C8ine instances are powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature…"
+    },
+    {
+      "title": "S&P Global’s innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots",
+      "link": "https://aws.amazon.com/blogs/architecture/sp-globals-innovative-disaster-recovery-strategy-using-amazon-fsx-for-netapp-ontap-snapshots/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-07T16:32:21.000Z",
+      "snippet": "In this post, we explain how S&P Global Market Intelligence implemented an innovative disaster recovery solution for their Capital IQ platform using Amazon FSx for NetApp ONTAP. This solution enables immediate failover to read-only mode in a secondary region…"
+    },
+    {
+      "title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-07T12:00:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series Auto Mode management fees are reduced by 35%, and P-series and AWS Trainium fees…"
+    },
+    {
+      "title": "AWS Security Hub adds impact analysis for exposure findings",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/impact-analysis-aws-security-hub/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-06T21:45:00.000Z",
+      "snippet": "Today, AWS Security Hub adds impact analysis to exposure findings, helping security teams understand the full scope of what an attacker could reach if an exposure is exploited. Impact analysis extends exposure findings by mapping the downstream resources that…"
+    },
     {
       "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-01T17:00:00.000Z",
       "snippet": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit breaker settings to match your application's startup behavior,…"
-    },
-    {
-      "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T17:00:00.000Z",
-      "snippet": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and Europe (Ireland) or US West (N. California); between Asia…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T17:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers…"
-    },
-    {
-      "title": "Amazon GuardDuty adds sensitive file modification threat detections",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T16:58:00.000Z",
-      "snippet": "Amazon GuardDuty Runtime Monitoring now includes three new threat detections that alert security teams when sensitive files are modified on Amazon EC2 instances and container workloads running on Amazon EKS or Amazon ECS. These findings help identify…"
-    },
-    {
-      "title": "AWS AppConfig launches managed experimentation tools for A/B testing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/6/aws-appconfig-experimentation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T16:30:00.000Z",
-      "snippet": "Today, AWS announces the general availability of experimentation tools in AWS AppConfig, a new capability that enables you to run A/B tests and feature experiments without building or managing separate experimentation infrastructure. Built on 25+ years of…"
-    },
-    {
-      "title": "Amazon ECS Express Mode now supports custom task definitions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T16:05:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) Express Mode now supports custom task definitions, giving you the flexibility to use existing ECS application configurations and advanced task-level customizations with Express Mode’s simplified deployment…"
-    },
-    {
-      "title": "Amazon EKS now supports Kubernetes version rollback",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-version-rollback",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-01T16:00:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Kubernetes version rollback, enabling you to revert to the previous Kubernetes minor version within 7 days if any issues arise after an upgrade. This provides an additional safety net for your…"
-    },
-    {
-      "title": "How to use the AWS Workload Credentials Provider for cross-account secret retrieval and prefetching secrets",
-      "link": "https://aws.amazon.com/blogs/security/how-to-use-the-aws-workload-credentials-provider-for-cross-account-secret-retrieval-and-prefetching-secrets/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-01T15:56:26.000Z",
-      "snippet": "If you manage secrets across multiple AWS accounts or need faster secret access for latency-sensitive applications, this post shows you how to meet those requirements using two new features of the AWS Workload Credentials Provider (provider). You will learn…"
     }
   ]
 }
