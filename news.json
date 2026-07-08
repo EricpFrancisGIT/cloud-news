@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T08:49:17.837Z",
+  "lastUpdated": "2026-07-08T14:49:42.499Z",
   "items": [
     {
       "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
@@ -91,6 +91,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-07T12:00:00.000Z",
       "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series Auto Mode management fees are reduced by 35%, and P-series and AWS Trainium fees…"
+    },
+    {
+      "title": "AWS Systems Manager simplifies Azure VM management and hybrid node pricing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-systems-manager-multicloud-vm/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-07T08:00:00.000Z",
+      "snippet": "You can now connect and manage Azure Virtual Machines in AWS Systems Manager without manual agent installation or per-instance tier fees. Create a Cloud Connector and automatically deploy the SSM Agent to your Azure VMs at scale. Once connected, Azure VMs…"
     },
     {
       "title": "Amazon SageMaker Unified Studio now supports importing existing MWAA environments",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-02T17:00:00.000Z",
       "snippet": "Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on physical servers fully dedicated to their use. Customers can…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports AMI versioning and auto-patching",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-02T16:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now gives you visibility into the Amazon Machine Image (AMI) versions running across your clusters and automatically applies security patches without disrupting your workloads. SageMaker HyperPod is purpose-built infrastructure for…"
     }
   ]
 }
