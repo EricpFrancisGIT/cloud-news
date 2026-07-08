@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T02:48:57.259Z",
+  "lastUpdated": "2026-07-08T08:49:17.837Z",
   "items": [
     {
       "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
@@ -91,6 +91,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-07T12:00:00.000Z",
       "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series Auto Mode management fees are reduced by 35%, and P-series and AWS Trainium fees…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio now supports importing existing MWAA environments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-import-existing-mwaa-environments/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-07T02:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports connecting existing Amazon Managed Workflows for Apache Airflow (MWAA) environments to projects. Data engineers and platform teams who already operate MWAA environments can now manage their Airflow workflows from…"
     },
     {
       "title": "AWS Security Hub adds impact analysis for exposure findings",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-02T16:00:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now gives you visibility into the Amazon Machine Image (AMI) versions running across your clusters and automatically applies security patches without disrupting your workloads. SageMaker HyperPod is purpose-built infrastructure for…"
-    },
-    {
-      "title": "AWS Config now supports 8 new resource types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-02T15:00:00.000Z",
-      "snippet": "AWS Config now supports 8 additional AWS resource types across key services including Amazon API Gateway, Amazon EC2, and Amazon S3 Vectors. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess,…"
     }
   ]
 }
