@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-08T14:49:42.499Z",
+  "lastUpdated": "2026-07-08T20:50:01.856Z",
   "items": [
+    {
+      "title": "Designing for the inevitable: System prompt leakage and mitigations in generative AI applications",
+      "link": "https://aws.amazon.com/blogs/security/designing-for-the-inevitable-system-prompt-leakage-and-mitigations-in-generative-ai-applications/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-08T18:58:42.000Z",
+      "snippet": "System prompts form the foundation of generative AI applications. A system prompt is a collection of instructions and operational context provided to a large language model (LLM) that shapes how the model behaves and interacts with users and tools. System…"
+    },
+    {
+      "title": "The CISO’s guide to post-quantum mandates and migrations",
+      "link": "https://aws.amazon.com/blogs/security/the-cisos-guide-to-post-quantum-mandates-and-migrations/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-08T15:00:05.000Z",
+      "snippet": "Over a dozen major economies have now published post-quantum cryptography (PQC) adoption guidance. As a CISO, you’re probably well into your migration plan and know the most difficult part has little to do with changing algorithms. The real leadership…"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Zurich) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-u7i-aws-europe-zurich/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-07T23:30:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7i instances with 12TB of memory (u7i-12tb.224xlarge) are now available in the AWS Europe (Zurich) region. U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel Xeon Scalable Processors…"
+    },
     {
       "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-06T07:00:00.000Z",
       "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Paddle API Keys and GitLab Access Tokens. Managed external secrets enable customers to automatically rotate third-party credentials directly from AWS Secrets Manager by…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-02T21:49:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports Terraform for provisioning. Customers can use the open-source terraform-aws-sagemaker-unified-studio module to deploy a SageMaker Unified Studio domain through version-controlled templates. With this launch,…"
-    },
-    {
-      "title": "Amazon EC2 X8i instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-02T20:48:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Seoul), Asia Pacific (Malaysia) and Asia Pacific (Tokyo) regions. These instances are powered by custom Intel Xeon 6 processors available only on AWS.…"
-    },
-    {
-      "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-02T17:00:00.000Z",
-      "snippet": "Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on physical servers fully dedicated to their use. Customers can…"
     }
   ]
 }
