@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-07-09T13:10:19.540Z",
+  "lastUpdated": "2026-07-09T19:10:41.291Z",
   "items": [
+    {
+      "title": "AWS Client VPN extends availability to four additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-client-vpn-four-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T17:08:00.000Z",
+      "snippet": "AWS Client VPN is now available in four new regions: Canada West (Calgary), Mexico (Central) and two in Asia Pacific - New Zealand and Taipei. This fully managed service enables customers to securely connect their remote workforce to resources in AWS or…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio adds custom asset types to the catalog in IAM-based domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/smus-custom-asset-types-iam/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T16:04:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains. With custom asset types, domain administrators can catalog any format of asset within the SageMaker Unified Studio, such as medical imaging files in Amazon S3, revenue…"
+    },
     {
       "title": "AWS Builder Center Now Offers Free Sandbox Environments",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
       "source": "AWS What's New",
       "pubDate": "2026-07-08T22:45:00.000Z",
       "snippet": "AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card, or concerns about unexpected charges. Previously, workshops could only be…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-08T22:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio Workflows now supports 19 new operators for Amazon Bedrock, Amazon S3 Tables, Amazon S3 Vectors, AWS Glue Data Catalog, and Amazon MWAA Serverless. With these operators, customers can add new tasks using the visual workflow…"
     },
     {
       "title": "AWS Security Hub now offers Network Scanning to identify publicly reachable resources",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-06T20:30:00.000Z",
       "snippet": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click. Select any supported model on Hugging Face and choose…"
-    },
-    {
-      "title": "AWS introduces declarative controls for VPC Encryption Controls",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/vpc-encryption-controls-declarative-controls/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T18:19:00.000Z",
-      "snippet": "You can now use declarative policies to turn on VPC Encryption Controls in monitor or enforce mode across all VPCs in your environment. This enhancement allows you to centrally define and manage your desired VPC Encryption Controls settings and apply it…"
-    },
-    {
-      "title": "Amazon EVS VCF 9.0 and 9.1 support",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T17:29:00.000Z",
-      "snippet": "Today, we are announcing that Amazon Elastic VMware Service (EVS) now supports VMware Cloud Foundation (VCF) 9.0 and 9.1. Amazon EVS lets you run the latest VCF software directly within your Amazon Virtual Private Cloud (VPC) on EC2 bare-metal instances. With…"
-    },
-    {
-      "title": "Enforce least-privilege authorization in multi-agent AI chains using Cedar",
-      "link": "https://aws.amazon.com/blogs/security/enforce-least-privilege-authorization-in-multi-agent-ai-chains-using-cedar/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-06T16:52:23.000Z",
-      "snippet": "If you’re building multi-agent AI systems, you need to prevent authorization scope from silently expanding as agents delegate tasks through multi-hop chains. Without proper controls, an agent can potentially act beyond what the originating user authorized,…"
     }
   ]
 }
