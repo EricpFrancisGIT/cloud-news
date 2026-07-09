@@ -1,12 +1,47 @@
 {
-  "lastUpdated": "2026-07-08T20:50:01.856Z",
+  "lastUpdated": "2026-07-09T02:50:20.889Z",
   "items": [
+    {
+      "title": "AWS Builder Center Now Offers Free Sandbox Environments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-08T22:45:00.000Z",
+      "snippet": "AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card, or concerns about unexpected charges. Previously, workshops could only be…"
+    },
+    {
+      "title": "AWS Security Hub now offers Network Scanning to identify publicly reachable resources",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-network-scanning/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-08T21:00:00.000Z",
+      "snippet": "Today, AWS Security Hub introduces Network Scanning, a capability that identifies resources in your environment that are reachable from the public internet. Network Scanning probes your resources from the internet to detect actual reachability, not just what…"
+    },
     {
       "title": "Designing for the inevitable: System prompt leakage and mitigations in generative AI applications",
       "link": "https://aws.amazon.com/blogs/security/designing-for-the-inevitable-system-prompt-leakage-and-mitigations-in-generative-ai-applications/",
       "source": "AWS Security Blog",
       "pubDate": "2026-07-08T18:58:42.000Z",
       "snippet": "System prompts form the foundation of generative AI applications. A system prompt is a collection of instructions and operational context provided to a large language model (LLM) that shapes how the model behaves and interacts with users and tools. System…"
+    },
+    {
+      "title": "Amazon Redshift RG instances now available on the trailing track",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-graviton-rg-instances-trailing-track",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-08T18:12:00.000Z",
+      "snippet": "Amazon Redshift now supports Graviton-based RG instances on the trailing track. Starting July 7, 2026, rg.4xlarge and rg.xlarge instance types are available for customers running workloads on the trailing track (P201). The trailing track is designed for…"
+    },
+    {
+      "title": "Amazon Aurora DSQL change data capture (CDC) Is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-cdc-ga/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-08T18:00:00.000Z",
+      "snippet": "Amazon Aurora DSQL change data capture (CDC) is now generally available, enabling you to stream real-time database changes to Amazon Kinesis Data Streams for event-driven architectures and data integration workflows. Aurora DSQL CDC automatically captures the…"
+    },
+    {
+      "title": "Amazon Connect Customer now supports forecasting, planning, and scheduling for Tasks and Emails",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-agent-scheduling-tasks/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-08T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks, Emails). Connect Customer accounts for the unique…"
     },
     {
       "title": "The CISO’s guide to post-quantum mandates and migrations",
@@ -175,41 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-07-06T16:52:23.000Z",
       "snippet": "If you’re building multi-agent AI systems, you need to prevent authorization scope from silently expanding as agents delegate tasks through multi-hop chains. Without proper controls, an agent can potentially act beyond what the originating user authorized,…"
-    },
-    {
-      "title": "AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-07-06T15:46:43.000Z",
-      "snippet": "A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of founders talking about the problems they’re actually…"
-    },
-    {
-      "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T15:00:00.000Z",
-      "snippet": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for…"
-    },
-    {
-      "title": "CloudWatch Application Signals now automatically captures errors, performance anomalies, and deployment events",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T15:00:00.000Z",
-      "snippet": "Today, AWS announces Service Events for Amazon CloudWatch Application Signals, which automatically captures exception and latency event snapshots, function-level performance data, and deployment events from instrumented services without additional code…"
-    },
-    {
-      "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T09:00:00.000Z",
-      "snippet": "Starting today, AWS CodePipeline is now available in Asia Pacific (New Zealand) Region (ap-southeast-6). AWS CodePipeline is a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software. With…"
-    },
-    {
-      "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T07:00:00.000Z",
-      "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Paddle API Keys and GitLab Access Tokens. Managed external secrets enable customers to automatically rotate third-party credentials directly from AWS Secrets Manager by…"
     }
   ]
 }
