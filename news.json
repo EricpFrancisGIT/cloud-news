@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-09T19:10:41.291Z",
+  "lastUpdated": "2026-07-10T01:11:02.044Z",
   "items": [
+    {
+      "title": "Introducing OAuth Support for AWS MCP Server",
+      "link": "https://aws.amazon.com/blogs/security/introducing-oauth-support-for-aws-mcp-server/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-09T23:43:47.000Z",
+      "snippet": "AWS MCP Server using the same credentials and sign-in methods that you already use for connecting to the AWS Management Console or AWS Command Line Interface (AWS CLI) through a familiar browser-based experience powered by industry-standard OAuth. This new…"
+    },
+    {
+      "title": "OAuth support for the AWS MCP Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T23:03:00.000Z",
+      "snippet": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS identities, sign-in methods, IAM permissions, and governance…"
+    },
+    {
+      "title": "Specification-driven composition for flexible data workflows",
+      "link": "https://aws.amazon.com/blogs/architecture/specification-driven-composition-for-flexible-data-workflows/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-09T22:27:31.000Z",
+      "snippet": "Specification-driven composition addresses a common scalability bottleneck in data pipelines. Data pipelines often start as simple scripts, but as they grow, you duplicate transformation logic and small changes cascade across multiple workflows. Copying and…"
+    },
+    {
+      "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T17:24:00.000Z",
+      "snippet": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including creation, deletion, compute and storage scaling, parameter group…"
+    },
     {
       "title": "AWS Client VPN extends availability to four additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-client-vpn-four-additional-regions/",
@@ -14,6 +42,34 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-09T16:04:00.000Z",
       "snippet": "Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains. With custom asset types, domain administrators can catalog any format of asset within the SageMaker Unified Studio, such as medical imaging files in Amazon S3, revenue…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports deep health checks for Slurm clusters with continuous provisioning",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/deep-health-check-continuous-slurm/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T16:00:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports deep health checks for Slurm-orchestrated clusters created with continuous provisioning, enabling you to proactively verify GPU accelerator health on running instances at any time. Continuous provisioning lets you start…"
+    },
+    {
+      "title": "Amazon SageMaker Feature Store now supports batch feature writes and record listing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amzn-sgm-feature-store-batch-write-list/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T15:35:00.000Z",
+      "snippet": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports new capabilities for high-throughput feature ingestion, record…"
+    },
+    {
+      "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T15:00:00.000Z",
+      "snippet": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Standard brokers. This capability extends replication support to MSK Standard brokers,…"
+    },
+    {
+      "title": "AWS Config now supports 191 additional managed rules",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-config-additional-managed-rules",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T12:00:00.000Z",
+      "snippet": "AWS Config now supports 191 additional managed rules across key services including Amazon Bedrock, Amazon SageMaker, Amazon ECS, Amazon EKS, Amazon RDS, Amazon Redshift, Amazon S3, and Amazon CloudTrail. This expansion increases built-in governance coverage…"
     },
     {
       "title": "AWS Builder Center Now Offers Free Sandbox Environments",
@@ -63,6 +119,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-08T17:00:00.000Z",
       "snippet": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks, Emails). Connect Customer accounts for the unique…"
+    },
+    {
+      "title": "AWS Neuron 2.31.0 now available with NKI 0.5.0 and UltraServer Operator",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announce-neuron-2-31-0",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-08T15:58:00.000Z",
+      "snippet": "AWS Neuron 2.31.0 is now available, introducing NKI 0.5.0 with new MX FP8 scale dtype support, tensor indirection on compute operations for fewer instructions in indexed access patterns, and new NkiTensor view APIs for zero-cost tensor layout transformations.…"
     },
     {
       "title": "The CISO’s guide to post-quantum mandates and migrations",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-07T16:00:00.000Z",
       "snippet": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as…"
-    },
-    {
-      "title": "Amazon RDS for Oracle now supports Oracle Database 26ai",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T15:00:00.000Z",
-      "snippet": "Amazon RDS for Oracle now supports Oracle Database 26ai, Oracle's latest Long Term Support Release, with Amazon Bedrock integration which provides access to foundation models such as Anthropic Claude, Amazon Nova, and Meta Llama. With Oracle Database 26ai,…"
-    },
-    {
-      "title": "Amazon S3 Express One Zone is now available in the AWS Europe (Frankfurt) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-express-one-zone-europe-frankfurt/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T13:00:00.000Z",
-      "snippet": "The Amazon S3 Express One Zone storage class is now available in the AWS Europe (Frankfurt) Region. Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond data…"
-    },
-    {
-      "title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T12:00:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series Auto Mode management fees are reduced by 35%, and P-series and AWS Trainium fees…"
-    },
-    {
-      "title": "AWS Systems Manager simplifies Azure VM management and hybrid node pricing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-systems-manager-multicloud-vm/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T08:00:00.000Z",
-      "snippet": "You can now connect and manage Azure Virtual Machines in AWS Systems Manager without manual agent installation or per-instance tier fees. Create a Cloud Connector and automatically deploy the SSM Agent to your Azure VMs at scale. Once connected, Azure VMs…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports importing existing MWAA environments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-import-existing-mwaa-environments/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T02:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports connecting existing Amazon Managed Workflows for Apache Airflow (MWAA) environments to projects. Data engineers and platform teams who already operate MWAA environments can now manage their Airflow workflows from…"
-    },
-    {
-      "title": "AWS Security Hub adds impact analysis for exposure findings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/impact-analysis-aws-security-hub/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T21:45:00.000Z",
-      "snippet": "Today, AWS Security Hub adds impact analysis to exposure findings, helping security teams understand the full scope of what an attacker could reach if an exposure is exploited. Impact analysis extends exposure findings by mapping the downstream resources that…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T21:29:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports Disaggregated Prefill and Decode (DPD), an inference optimization that separates the two phases of large language model (LLM) inference — prefill and decode — onto dedicated GPU pools and transfers the key-value (KV)…"
-    },
-    {
-      "title": "Amazon Cognito now supports self-service provisioned API rate limits",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T21:00:00.000Z",
-      "snippet": "Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand. Cognito has default rate limits for the maximum number of operations per second that you can perform in your user pools in each AWS Region, and you can purchase…"
-    },
-    {
-      "title": "Amazon SageMaker Studio now integrates with Hugging Face for one-click model deployment and customization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/sagemaker-studio-hugging-face-integration/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-06T20:30:00.000Z",
-      "snippet": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click. Select any supported model on Hugging Face and choose…"
     }
   ]
 }
