@@ -1,12 +1,61 @@
 {
-  "lastUpdated": "2026-07-10T13:20:19.665Z",
+  "lastUpdated": "2026-07-10T19:20:38.526Z",
   "items": [
+    {
+      "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T18:16:00.000Z",
+      "snippet": "Amazon EMR on EKS now supports the Apache Spark troubleshooting agent. Data engineers can now diagnose EMR on EKS job failures through natural language, receiving automated root cause analysis and PySpark code recommendations without manually navigating…"
+    },
+    {
+      "title": "Amazon Location Service enhances Places APIs with new address and search options",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T17:26:00.000Z",
+      "snippet": "Today, Amazon Location Service announced new enhancements to its Places APIs that give developers greater control over address name formatting, multilingual address, travel-optimized POI search, and drive-through data. These capabilities span the Geocode,…"
+    },
+    {
+      "title": "AWS designated as a critical third party to the UK financial sector",
+      "link": "https://aws.amazon.com/blogs/security/aws-designated-as-a-critical-third-party-to-the-uk-financial-sector/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-10T16:15:19.000Z",
+      "snippet": "Amazon Web Services EMEA Sarl (AWS) has been designated as a critical third party (CTP) to the UK financial sector by HM Treasury. The CTP regime came into force on January 1, 2025, and establishes a framework through which the Bank of England, PRA, and FCA…"
+    },
+    {
+      "title": "AWS DMS Schema Conversion now supports offline SQL Server conversion",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-schema-conversion-offline-source/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T15:09:00.000Z",
+      "snippet": "AWS Database Migration Service (DMS) Schema Conversion now supports offline source conversion for Microsoft SQL Server, enabling you to convert SQL Server schemas and code without direct connectivity to your source databases. You extract metadata using…"
+    },
+    {
+      "title": "Amazon EC2 I7ie instances now available in AWS Asia Pacific (Hyderabad) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i7ie-instances-aws-hyd-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T14:55:00.000Z",
+      "snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hyderabad) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core turbo…"
+    },
+    {
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-r8g-24xl-48xl/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T14:00:00.000Z",
+      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge database instances. R8g instances are powered by AWS Graviton4 processors and feature DDR5 memory, enabling customers to achieve higher throughput and support larger…"
+    },
+    {
+      "title": "AWS DMS Schema Conversion now supports AI agent automation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-sc-ai-agent-automation-mcp-server/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T07:00:00.000Z",
+      "snippet": "AWS Database Migration Service (DMS) Schema Conversion now supports AI agent automation through the AWS MCP Server. You can connect AI coding agents, including Kiro, Claude Code, and Cursor, to DMS Schema Conversion and run complete migration workflows using…"
+    },
     {
       "title": "Introducing OAuth Support for AWS MCP Server",
       "link": "https://aws.amazon.com/blogs/security/introducing-oauth-support-for-aws-mcp-server/",
       "source": "AWS Security Blog",
       "pubDate": "2026-07-09T23:43:47.000Z",
-      "snippet": "AWS MCP Server using the same credentials and sign-in methods that you already use for connecting to the AWS Management Console or AWS Command Line Interface (AWS CLI) through a familiar browser-based experience powered by industry-standard OAuth. This new…"
+      "snippet": "You can now connect your agents to the AWS MCP Server using the same credentials and sign-in methods that you already use for connecting to the AWS Management Console or AWS Command Line Interface (AWS CLI) through a familiar browser-based experience powered…"
     },
     {
       "title": "OAuth support for the AWS MCP Server",
@@ -21,6 +70,20 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-07-09T22:27:31.000Z",
       "snippet": "Specification-driven composition addresses a common scalability bottleneck in data pipelines. Data pipelines often start as simple scripts, but as they grow, you duplicate transformation logic and small changes cascade across multiple workflows. Copying and…"
+    },
+    {
+      "title": "Amazon EC2 I8g instances now available in AWS GovCloud (US) regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8g-instances-aws-govcloud-us-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T18:35:00.000Z",
+      "snippet": "AWS is announcing the general availability of Amazon EC2 Storage Optimized I8g instances in AWS GovCloud (US East, US West) regions. I8g instances offer the best performance in Amazon EC2 for storage-intensive workloads. I8g instances are powered by AWS…"
+    },
+    {
+      "title": "Amazon EC2 now supports using an EBS volume for Replace Root Volume",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-replace-root-volume-ebs-volume/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-09T18:06:00.000Z",
+      "snippet": "Today, AWS announces Replace Root Volume using an existing EBS volume, a new option for replacing the root volume of a running Amazon EC2 instance. Customers can now use an EBS volume as the target for a root volume replacement, in addition to the existing…"
     },
     {
       "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-07T21:26:00.000Z",
       "snippet": "Amazon GameLift Streams now supports Stream Session Admin Shell, a secure terminal connection to the live runtime environment of a stream session for real-time troubleshooting. You can inspect logs, query running processes, check GPU utilization, and examine…"
-    },
-    {
-      "title": "Amazon S3 Vectors is now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-vectors-available-aws-govcloud-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T19:00:00.000Z",
-      "snippet": "Amazon S3 Vectors is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (RAG), and semantic search at billion-vector scale. S3 Vectors…"
-    },
-    {
-      "title": "AWS Security Hub extends unified security management to Microsoft Azure",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-hub-supports-monitoring-microsoft-azure/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T18:21:00.000Z",
-      "snippet": "Today, AWS announces that AWS Security Hub now monitors Microsoft Azure resources, extending risk analytics, cloud security posture management, vulnerability management, and security response management across both clouds. Many AWS customers running workloads…"
-    },
-    {
-      "title": "Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies",
-      "link": "https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-07T18:18:52.000Z",
-      "snippet": "With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are…"
-    },
-    {
-      "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T18:00:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) Managed Instances now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series ECS management fees are reduced by 35%, and P-series and AWS Trainium…"
-    },
-    {
-      "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T17:06:00.000Z",
-      "snippet": "Amazon EMR Serverless now offers larger worker configurations of 32 vCPUs with up to 244 GB of memory, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker configuration available on EMR Serverless was 16 vCPUs with…"
-    },
-    {
-      "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Frankfurt) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T17:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Frankfurt) region. C8ine instances are powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature…"
-    },
-    {
-      "title": "Amazon SageMaker now supports data lineage in IAM-based domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-data-lineage-iam-domain",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T17:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports OpenLineage compatible data lineage in IAM-based domains, capturing lineage events from Apache Spark jobs run on Amazon EMR, AWS Glue, SageMaker Visual ETL, and notebooks. This capability is already available in…"
-    },
-    {
-      "title": "S&P Global’s innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots",
-      "link": "https://aws.amazon.com/blogs/architecture/sp-globals-innovative-disaster-recovery-strategy-using-amazon-fsx-for-netapp-ontap-snapshots/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-07T16:32:21.000Z",
-      "snippet": "In this post, we explain how S&P Global Market Intelligence implemented an innovative disaster recovery solution for their Capital IQ platform using Amazon FSx for NetApp ONTAP. This solution enables immediate failover to read-only mode in a secondary region…"
-    },
-    {
-      "title": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T16:00:00.000Z",
-      "snippet": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as…"
     }
   ]
 }
