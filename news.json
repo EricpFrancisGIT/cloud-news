@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-10T19:20:38.526Z",
+  "lastUpdated": "2026-07-11T01:20:54.404Z",
   "items": [
+    {
+      "title": "Amazon EC2 network/EBS instances now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T20:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8in, R8ib, R8idn, and R8idb instances are available in the AWS Asia Pacific (Tokyo) and Europe (Frankfurt, Ireland) regions. These instances are powered by custom sixth generation Intel Xeon Scalable…"
+    },
     {
       "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/",
@@ -16,11 +23,25 @@
       "snippet": "Today, Amazon Location Service announced new enhancements to its Places APIs that give developers greater control over address name formatting, multilingual address, travel-optimized POI search, and drive-through data. These capabilities span the Geocode,…"
     },
     {
+      "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters using continuous provisioning",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/06/ami-configuration-continuous-slurm/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T17:00:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports AMI-based configuration for Slurm clusters that use continuous provisioning. Continuous provisioning adds nodes to the cluster as capacity becomes available, and this launch extends AMI-based configuration to clusters…"
+    },
+    {
       "title": "AWS designated as a critical third party to the UK financial sector",
       "link": "https://aws.amazon.com/blogs/security/aws-designated-as-a-critical-third-party-to-the-uk-financial-sector/",
       "source": "AWS Security Blog",
       "pubDate": "2026-07-10T16:15:19.000Z",
       "snippet": "Amazon Web Services EMEA Sarl (AWS) has been designated as a critical third party (CTP) to the UK financial sector by HM Treasury. The CTP regime came into force on January 1, 2025, and establishes a framework through which the Bank of England, PRA, and FCA…"
+    },
+    {
+      "title": "Amazon EC2 G7 instances are now available in the AWS US East (N. Virginia) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-g7-available-North-Virginia",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T15:14:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in US East (N. Virginia) Region. G7 instances deliver up to 4.6x AI inference performance and up to 2.1…"
     },
     {
       "title": "AWS DMS Schema Conversion now supports offline SQL Server conversion",
@@ -49,6 +70,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-10T07:00:00.000Z",
       "snippet": "AWS Database Migration Service (DMS) Schema Conversion now supports AI agent automation through the AWS MCP Server. You can connect AI coding agents, including Kiro, Claude Code, and Cursor, to DMS Schema Conversion and run complete migration workflows using…"
+    },
+    {
+      "title": "AWS Organizations now applies account departure security controls by default for new organizations created via AWS Organizations console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-security-controls-new-orgs-console",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T07:00:00.000Z",
+      "snippet": "AWS Organizations now automatically applies security controls by default when you create a new organization via AWS Organizations console, simplifying initial security configuration by automatically applying core security controls. This approach safeguards…"
     },
     {
       "title": "Introducing OAuth Support for AWS MCP Server",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-08T17:00:00.000Z",
       "snippet": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks, Emails). Connect Customer accounts for the unique…"
-    },
-    {
-      "title": "AWS Neuron 2.31.0 now available with NKI 0.5.0 and UltraServer Operator",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announce-neuron-2-31-0",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-08T15:58:00.000Z",
-      "snippet": "AWS Neuron 2.31.0 is now available, introducing NKI 0.5.0 with new MX FP8 scale dtype support, tensor indirection on compute operations for fewer instructions in indexed access patterns, and new NkiTensor view APIs for zero-cost tensor layout transformations.…"
-    },
-    {
-      "title": "The CISO’s guide to post-quantum mandates and migrations",
-      "link": "https://aws.amazon.com/blogs/security/the-cisos-guide-to-post-quantum-mandates-and-migrations/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-08T15:00:05.000Z",
-      "snippet": "Over a dozen major economies have now published post-quantum cryptography (PQC) adoption guidance. As a CISO, you’re probably well into your migration plan and know the most difficult part has little to do with changing algorithms. The real leadership…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Zurich) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-u7i-aws-europe-zurich/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T23:30:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7i instances with 12TB of memory (u7i-12tb.224xlarge) are now available in the AWS Europe (Zurich) region. U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel Xeon Scalable Processors…"
-    },
-    {
-      "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-07T21:26:00.000Z",
-      "snippet": "Amazon GameLift Streams now supports Stream Session Admin Shell, a secure terminal connection to the live runtime environment of a stream session for real-time troubleshooting. You can inspect logs, query running processes, check GPU utilization, and examine…"
     }
   ]
 }
