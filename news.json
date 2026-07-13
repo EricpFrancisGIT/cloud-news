@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-07-13T13:24:11.641Z",
+  "lastUpdated": "2026-07-13T19:24:32.490Z",
   "items": [
+    {
+      "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-07-13T18:13:57.000Z",
+      "snippet": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need a reliable way to pass messages…"
+    },
+    {
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now available as a skill in the Agent Toolkit for AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-agent-skill",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T18:00:00.000Z",
+      "snippet": "Amazon DocumentDB (with MongoDB compatibility) is now available as a specialized database skill in the Agent Toolkit for AWS. With this skill, AI coding agents can set up, manage, migrate, optimize, and troubleshoot Amazon DocumentDB clusters using…"
+    },
+    {
+      "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-07-13T16:18:20.000Z",
+      "snippet": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’…"
+    },
+    {
+      "title": "Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T15:30:00.000Z",
+      "snippet": "Today, AWS announced the availability of gemma-4-E2B-it in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Google DeepMind is a multimodal, instruction-tuned model optimized for efficient…"
+    },
+    {
+      "title": "OpenAI privacy-filter for PII detection and masking is now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/privacy-filter-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T15:30:00.000Z",
+      "snippet": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectional token-classification model for personally identifiable…"
+    },
+    {
+      "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T15:30:00.000Z",
+      "snippet": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI is a multilingual, real-time speech-transcription model,…"
+    },
+    {
+      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T15:30:00.000Z",
+      "snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and…"
+    },
     {
       "title": "New compliance guidance available: HITRUST i1 on AWS",
       "link": "https://aws.amazon.com/blogs/security/new-compliance-guidance-available-hitrust-i1-on-aws/",
@@ -14,13 +63,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-07-13T10:06:18.000Z",
       "snippet": "Enterprise video surveillance is operating at an unprecedented scale as organizations across retail, banking, quick-service restaurants (QSR), convenience stores, and transportation networks generate petabytes of video data across thousands of distributed…"
-    },
-    {
-      "title": "How MAPFRE USA modernized fraud claims with Amazon EMR Serverless",
-      "link": "https://aws.amazon.com/blogs/architecture/how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-13T09:26:59.000Z",
-      "snippet": "Insurance fraud remains a significant challenge for the insurance industry. Fraudulent claims can increase loss costs, reduce trust, and consume investigation capacity that could otherwise be focused on serving customers. Traditional fraud detection…"
     },
     {
       "title": "Amazon EC2 network/EBS instances now available in additional regions",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-09T15:35:00.000Z",
       "snippet": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports new capabilities for high-throughput feature ingestion, record…"
-    },
-    {
-      "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T15:00:00.000Z",
-      "snippet": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Standard brokers. This capability extends replication support to MSK Standard brokers,…"
-    },
-    {
-      "title": "AWS Config now supports 191 additional managed rules",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-config-additional-managed-rules",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T12:00:00.000Z",
-      "snippet": "AWS Config now supports 191 additional managed rules across key services including Amazon Bedrock, Amazon SageMaker, Amazon ECS, Amazon EKS, Amazon RDS, Amazon Redshift, Amazon S3, and Amazon CloudTrail. This expansion increases built-in governance coverage…"
-    },
-    {
-      "title": "AWS Builder Center Now Offers Free Sandbox Environments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-08T22:45:00.000Z",
-      "snippet": "AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card, or concerns about unexpected charges. Previously, workshops could only be…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-08T22:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio Workflows now supports 19 new operators for Amazon Bedrock, Amazon S3 Tables, Amazon S3 Vectors, AWS Glue Data Catalog, and Amazon MWAA Serverless. With these operators, customers can add new tasks using the visual workflow…"
-    },
-    {
-      "title": "AWS Security Hub now offers Network Scanning to identify publicly reachable resources",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-network-scanning/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-08T21:00:00.000Z",
-      "snippet": "Today, AWS Security Hub introduces Network Scanning, a capability that identifies resources in your environment that are reachable from the public internet. Network Scanning probes your resources from the internet to detect actual reachability, not just what…"
-    },
-    {
-      "title": "Designing for the inevitable: System prompt leakage and mitigations in generative AI applications",
-      "link": "https://aws.amazon.com/blogs/security/designing-for-the-inevitable-system-prompt-leakage-and-mitigations-in-generative-ai-applications/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-08T18:58:42.000Z",
-      "snippet": "System prompts form the foundation of generative AI applications. A system prompt is a collection of instructions and operational context provided to a large language model (LLM) that shapes how the model behaves and interacts with users and tools. System…"
     }
   ]
 }
