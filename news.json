@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-13T07:23:49.281Z",
+  "lastUpdated": "2026-07-13T13:24:11.641Z",
   "items": [
+    {
+      "title": "New compliance guidance available: HITRUST i1 on AWS",
+      "link": "https://aws.amazon.com/blogs/security/new-compliance-guidance-available-hitrust-i1-on-aws/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-13T13:19:51.000Z",
+      "snippet": "We are pleased to announce the publication of a new AWS compliance implementation guidance: HITRUST i1 Compliance on AWS: Customer Implementation Guidance with an Illustrative Healthcare Platform. Healthcare organizations seeking HITRUST i1 certification…"
+    },
+    {
+      "title": "Unlocking the future of video data: March Networks cloud storage on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/unlocking-the-future-of-video-data-march-networks-cloud-storage-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-13T10:06:18.000Z",
+      "snippet": "Enterprise video surveillance is operating at an unprecedented scale as organizations across retail, banking, quick-service restaurants (QSR), convenience stores, and transportation networks generate petabytes of video data across thousands of distributed…"
+    },
+    {
+      "title": "How MAPFRE USA modernized fraud claims with Amazon EMR Serverless",
+      "link": "https://aws.amazon.com/blogs/architecture/how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-13T09:26:59.000Z",
+      "snippet": "Insurance fraud remains a significant challenge for the insurance industry. Fraudulent claims can increase loss costs, reduce trust, and consume investigation capacity that could otherwise be focused on serving customers. Traditional fraud detection…"
+    },
     {
       "title": "Amazon EC2 network/EBS instances now available in additional regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
@@ -189,27 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-07-08T18:58:42.000Z",
       "snippet": "System prompts form the foundation of generative AI applications. A system prompt is a collection of instructions and operational context provided to a large language model (LLM) that shapes how the model behaves and interacts with users and tools. System…"
-    },
-    {
-      "title": "Amazon Redshift RG instances now available on the trailing track",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-graviton-rg-instances-trailing-track",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-08T18:12:00.000Z",
-      "snippet": "Amazon Redshift now supports Graviton-based RG instances on the trailing track. Starting July 7, 2026, rg.4xlarge and rg.xlarge instance types are available for customers running workloads on the trailing track (P201). The trailing track is designed for…"
-    },
-    {
-      "title": "Amazon Aurora DSQL change data capture (CDC) Is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-cdc-ga/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-08T18:00:00.000Z",
-      "snippet": "Amazon Aurora DSQL change data capture (CDC) is now generally available, enabling you to stream real-time database changes to Amazon Kinesis Data Streams for event-driven architectures and data integration workflows. Aurora DSQL CDC automatically captures the…"
-    },
-    {
-      "title": "Amazon Connect Customer now supports forecasting, planning, and scheduling for Tasks and Emails",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-agent-scheduling-tasks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-08T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks, Emails). Connect Customer accounts for the unique…"
     }
   ]
 }
