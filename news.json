@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T01:24:49.034Z",
+  "lastUpdated": "2026-07-14T07:25:09.399Z",
   "items": [
     {
       "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
@@ -30,6 +30,13 @@
       "snippet": "Amazon DocumentDB (with MongoDB compatibility) is now available as a specialized database skill in the Agent Toolkit for AWS. With this skill, AI coding agents can set up, manage, migrate, optimize, and troubleshoot Amazon DocumentDB clusters using…"
     },
     {
+      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 46 new MongoDB operators in version 8.0.1",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T17:00:00.000Z",
+      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports 46 additional MongoDB aggregation operators and cursor methods starting from minor version 8.0.1. This release significantly expands query API compatibility, making it easier to migrate MongoDB…"
+    },
+    {
       "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
       "source": "AWS News Blog",
@@ -51,18 +58,18 @@
       "snippet": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectional token-classification model for personally identifiable…"
     },
     {
-      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T15:30:00.000Z",
-      "snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and…"
-    },
-    {
       "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
       "source": "AWS What's New",
       "pubDate": "2026-07-13T15:30:00.000Z",
       "snippet": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI is a multilingual, real-time speech-transcription model,…"
+    },
+    {
+      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T15:30:00.000Z",
+      "snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and…"
     },
     {
       "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters",
@@ -170,6 +177,13 @@
       "snippet": "AWS Organizations now automatically applies security controls by default when you create a new organization via AWS Organizations console, simplifying initial security configuration by automatically applying core security controls. This approach safeguards…"
     },
     {
+      "title": "AWS Partner Central subsidiary connections now support qualification sharing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/subsidiary-qualification-sharing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T04:00:00.000Z",
+      "snippet": "AWS Partner Central subsidiary connections now enable partners to share qualifications across their connected partner and seller accounts. Partners connecting newly acquired partner's accounts or regional subsidiary accounts they own can now consolidate their…"
+    },
+    {
       "title": "Introducing OAuth Support for AWS MCP Server",
       "link": "https://aws.amazon.com/blogs/security/introducing-oauth-support-for-aws-mcp-server/",
       "source": "AWS Security Blog",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-09T18:35:00.000Z",
       "snippet": "AWS is announcing the general availability of Amazon EC2 Storage Optimized I8g instances in AWS GovCloud (US East, US West) regions. I8g instances offer the best performance in Amazon EC2 for storage-intensive workloads. I8g instances are powered by AWS…"
-    },
-    {
-      "title": "Amazon EC2 now supports using an EBS volume for Replace Root Volume",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-replace-root-volume-ebs-volume/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T18:06:00.000Z",
-      "snippet": "Today, AWS announces Replace Root Volume using an existing EBS volume, a new option for replacing the root volume of a running Amazon EC2 instance. Customers can now use an EBS volume as the target for a root volume replacement, in addition to the existing…"
-    },
-    {
-      "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T17:24:00.000Z",
-      "snippet": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including creation, deletion, compute and storage scaling, parameter group…"
     }
   ]
 }
