@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-07-14T13:27:43.774Z",
+  "lastUpdated": "2026-07-14T19:28:00.134Z",
   "items": [
+    {
+      "title": "Security Hub adds AI workload protection and multicloud support for Microsoft Azure",
+      "link": "https://aws.amazon.com/blogs/security/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-14T19:16:57.000Z",
+      "snippet": "Security Hub is our foundation for full-stack enterprise security across clouds. It centralizes your security operations and turns raw signals into prioritized insights, so your team spends its time managing real risk instead of stitching tools together.…"
+    },
+    {
+      "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T17:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Personal now provides automated rollback and support for PCoIP to DCV protocol migration of stopped WorkSpaces, building on the recently launched console-based migration workflow and checkpoint snapshot support. These new capabilities enable…"
+    },
+    {
+      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T17:00:00.000Z",
+      "snippet": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipelines,…"
+    },
+    {
+      "title": "Authenticate legitimate AI agent traffic with AWS WAF Bot Control",
+      "link": "https://aws.amazon.com/blogs/security/authenticate-legitimate-ai-agent-traffic-with-aws-waf-bot-control/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-14T15:18:42.000Z",
+      "snippet": "As AI agents and automated tools increasingly access web applications, distinguishing legitimate bot traffic from malicious attempts has become a critical security challenge. Traditional approaches such as IP-based filtering and reverse DNS lookups fail in…"
+    },
+    {
+      "title": "AWS Storage Gateway adds console support for copying file shares across gateways",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T10:00:00.000Z",
+      "snippet": "AWS Storage Gateway now allows you to copy file shares across gateways directly from the Storage Gateway console. When you initiate a copy, the console reads the configuration of your source share and creates a new file share on the destination gateway with…"
+    },
+    {
+      "title": "Amazon CloudFront Functions now supports logging to CloudFront access logs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T08:00:00.000Z",
+      "snippet": "You can now write custom data directly into CloudFront access logs using a new helper method available from within CloudFront Functions. CloudFront Functions run lightweight JavaScript at the edge for tasks like URL rewrites, header manipulation, and request…"
+    },
     {
       "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-10T07:00:00.000Z",
       "snippet": "AWS Database Migration Service (DMS) Schema Conversion now supports AI agent automation through the AWS MCP Server. You can connect AI coding agents, including Kiro, Claude Code, and Cursor, to DMS Schema Conversion and run complete migration workflows using…"
-    },
-    {
-      "title": "AWS Organizations now applies account departure security controls by default for new organizations created via AWS Organizations console",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-security-controls-new-orgs-console",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T07:00:00.000Z",
-      "snippet": "AWS Organizations now automatically applies security controls by default when you create a new organization via AWS Organizations console, simplifying initial security configuration by automatically applying core security controls. This approach safeguards…"
-    },
-    {
-      "title": "AWS Partner Central subsidiary connections now support qualification sharing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/subsidiary-qualification-sharing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T04:00:00.000Z",
-      "snippet": "AWS Partner Central subsidiary connections now enable partners to share qualifications across their connected partner and seller accounts. Partners connecting newly acquired partner's accounts or regional subsidiary accounts they own can now consolidate their…"
-    },
-    {
-      "title": "Introducing OAuth Support for AWS MCP Server",
-      "link": "https://aws.amazon.com/blogs/security/introducing-oauth-support-for-aws-mcp-server/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-09T23:43:47.000Z",
-      "snippet": "You can now connect your agents to the AWS MCP Server using the same credentials and sign-in methods that you already use for connecting to the AWS Management Console or AWS Command Line Interface (AWS CLI) through a familiar browser-based experience powered…"
-    },
-    {
-      "title": "OAuth support for the AWS MCP Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T23:03:00.000Z",
-      "snippet": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS identities, sign-in methods, IAM permissions, and governance…"
-    },
-    {
-      "title": "Specification-driven composition for flexible data workflows",
-      "link": "https://aws.amazon.com/blogs/architecture/specification-driven-composition-for-flexible-data-workflows/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-09T22:27:31.000Z",
-      "snippet": "Specification-driven composition addresses a common scalability bottleneck in data pipelines. Data pipelines often start as simple scripts, but as they grow, you duplicate transformation logic and small changes cascade across multiple workflows. Copying and…"
-    },
-    {
-      "title": "Amazon EC2 I8g instances now available in AWS GovCloud (US) regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8g-instances-aws-govcloud-us-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T18:35:00.000Z",
-      "snippet": "AWS is announcing the general availability of Amazon EC2 Storage Optimized I8g instances in AWS GovCloud (US East, US West) regions. I8g instances offer the best performance in Amazon EC2 for storage-intensive workloads. I8g instances are powered by AWS…"
     }
   ]
 }
