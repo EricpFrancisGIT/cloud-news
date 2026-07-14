@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-07-13T19:24:32.490Z",
+  "lastUpdated": "2026-07-14T01:24:49.034Z",
   "items": [
+    {
+      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T22:03:00.000Z",
+      "snippet": "GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance, security and reliability. GPT-5.6 sets a new standard…"
+    },
+    {
+      "title": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-new-zealand/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T21:17:00.000Z",
+      "snippet": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region. Amazon Managed Service for Prometheus is a fully managed, Prometheus-compatible monitoring service that makes it easy to monitor and alert on operational metrics at…"
+    },
     {
       "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
       "link": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
@@ -37,6 +51,13 @@
       "snippet": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectional token-classification model for personally identifiable…"
     },
     {
+      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T15:30:00.000Z",
+      "snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and…"
+    },
+    {
       "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
       "source": "AWS What's New",
@@ -44,11 +65,11 @@
       "snippet": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI is a multilingual, real-time speech-transcription model,…"
     },
     {
-      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+      "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
       "source": "AWS What's New",
-      "pubDate": "2026-07-13T15:30:00.000Z",
-      "snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and…"
+      "pubDate": "2026-07-13T14:31:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports custom AMIs for Slurm-orchestrated clusters, enabling customers to deploy clusters with pre-configured, security-hardened environments that meet their specific organizational requirements. Customers deploying AI/ML…"
     },
     {
       "title": "New compliance guidance available: HITRUST i1 on AWS",
@@ -98,6 +119,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-07-10T16:15:19.000Z",
       "snippet": "Amazon Web Services EMEA Sarl (AWS) has been designated as a critical third party (CTP) to the UK financial sector by HM Treasury. The CTP regime came into force on January 1, 2025, and establishes a framework through which the Bank of England, PRA, and FCA…"
+    },
+    {
+      "title": "Amazon EKS Auto Mode now supports Application Recovery Controller zonal shift",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/eks-auto-mode-arc-zonal-shift",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-10T16:00:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Amazon Application Recovery Controller (ARC) zonal shift and autoshift for clusters using EKS Auto Mode. ARC helps you manage and coordinate recovery across AWS Regions and Availability Zones (AZs).…"
     },
     {
       "title": "Amazon EC2 G7 instances are now available in the AWS US East (N. Virginia) Region",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-09T17:24:00.000Z",
       "snippet": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including creation, deletion, compute and storage scaling, parameter group…"
-    },
-    {
-      "title": "AWS Client VPN extends availability to four additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-client-vpn-four-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T17:08:00.000Z",
-      "snippet": "AWS Client VPN is now available in four new regions: Canada West (Calgary), Mexico (Central) and two in Asia Pacific - New Zealand and Taipei. This fully managed service enables customers to securely connect their remote workforce to resources in AWS or…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio adds custom asset types to the catalog in IAM-based domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/smus-custom-asset-types-iam/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T16:04:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains. With custom asset types, domain administrators can catalog any format of asset within the SageMaker Unified Studio, such as medical imaging files in Amazon S3, revenue…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports deep health checks for Slurm clusters with continuous provisioning",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/deep-health-check-continuous-slurm/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T16:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports deep health checks for Slurm-orchestrated clusters created with continuous provisioning, enabling you to proactively verify GPU accelerator health on running instances at any time. Continuous provisioning lets you start…"
-    },
-    {
-      "title": "Amazon SageMaker Feature Store now supports batch feature writes and record listing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amzn-sgm-feature-store-batch-write-list/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-09T15:35:00.000Z",
-      "snippet": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports new capabilities for high-throughput feature ingestion, record…"
     }
   ]
 }
