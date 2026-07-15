@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-07-15T13:29:00.628Z",
+  "lastUpdated": "2026-07-15T19:29:21.731Z",
   "items": [
+    {
+      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T17:00:00.000Z",
+      "snippet": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Hyderabad, Melbourne, Malaysia), Europe (London, Paris, Zurich),…"
+    },
+    {
+      "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T17:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (RDS) now supports R8gd database instances in 12 additional regions and and M8gd database instances in 6 additional Regions with Optimized Reads for Amazon Aurora PostgreSQL, RDS for PostgreSQL, RDS for MySQL, and RDS for…"
+    },
+    {
+      "title": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-version-42/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T17:00:00.000Z",
+      "snippet": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) Express Brokers now supports Apache Kafka version 4.2. This release includes Eligible Leader Replicas (ELR) enhancements that strengthen availability with improved leader election correctness. It also…"
+    },
+    {
+      "title": "Amazon RDS now supports up to four storage modifications in 24 hours",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-upto-four-storage-modifications-24-hours",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T16:15:00.000Z",
+      "snippet": "Amazon RDS now allows up to four storage modifications per database instance within a rolling 24-hour window. These modifications let you increase the size, change the type, and adjust the performance of your RDS storage volumes. You can start a new…"
+    },
+    {
+      "title": "How bitdrift scaled to 121 million concurrent gRPC connections on Amazon CloudFront for live telemetry sporting events",
+      "link": "https://aws.amazon.com/blogs/architecture/how-bitdrift-scaled-to-121-million-concurrent-grpc-connections-on-amazon-cloudfront-for-live-telemetry-sporting-events/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-15T15:27:47.000Z",
+      "snippet": "When 121 million mobile devices establish persistent gRPC connections to your origin infrastructure within seconds of a live broadcast, the routing policy behind your DNS records matters far more than it does at normal traffic levels. The wrong policy can…"
+    },
+    {
+      "title": "Amazon OpenSearch Service now supports the Agent Toolkit for AWS with a curated skill",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T14:44:00.000Z",
+      "snippet": "Amazon OpenSearch Service now integrates with the Agent Toolkit for AWS, enabling you to build, manage, and query OpenSearch Service domains and OpenSearch Serverless collections directly from AI coding agents such as Claude Code, Kiro, and Cursor. The…"
+    },
+    {
+      "title": "Amazon RDS for Db2 is now available in additional AWS Commercial regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-db2-available-additional-aws-commercial-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T07:39:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Db2 is now available in the Asia Pacific (Thailand), Asia Pacific (Malaysia), Asia Pacific (Taipei), Mexico (Central), and Canada West (Calgary) Regions. Amazon RDS for Db2 makes it easy to set up, operate,…"
+    },
     {
       "title": "AWS Lambda announces self-managed code storage",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
@@ -16,6 +65,13 @@
       "snippet": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS…"
     },
     {
+      "title": "AWS Elastic Disaster Recovery reduces recovery time for AWS-to-AWS workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-recovery/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T22:05:00.000Z",
+      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now recovers your AWS-based workloads faster. For source servers running on Amazon EC2, DRS can now skip preparation steps that these workloads no longer need, reducing recovery time by up to 65% for Windows and up to…"
+    },
+    {
       "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
       "source": "AWS What's New",
@@ -23,11 +79,25 @@
       "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoveries. When DRS restores EBS volumes from snapshots, the data loads from Amazon S3…"
     },
     {
+      "title": "Amazon CloudWatch announces lookup processor for log enrichment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-lookup-processor/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T22:00:00.000Z",
+      "snippet": "Amazon CloudWatch now supports lookup processor, enabling you to enrich log events with additional context by matching fields in your logs against a lookup table directly within your CloudWatch Pipeline. With the lookup processor, you can upload CSV files…"
+    },
+    {
       "title": "How Mapfre USA modernized fraud claims with Amazon EMR Serverless",
       "link": "https://aws.amazon.com/blogs/architecture/how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless/",
       "source": "AWS Architecture Blog",
       "pubDate": "2026-07-14T21:47:35.000Z",
       "snippet": "Insurance fraud remains a significant challenge for the insurance industry because fraudulent claims can increase loss costs, reduce trust, and consume investigation capacity that could otherwise be focused on serving customers. Traditional fraud detection…"
+    },
+    {
+      "title": "Amazon EC2 M8in, M8idn, M8ib, M8idb instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/m8in-m8idn-m8ib-m8idb-new-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T20:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8in, M8idn network optimized, and M8ib, M8idb EBS optimized instances are available in the AWS US East (Ohio), Europe (Ireland), and Asia Pacific (Tokyo) regions. The new instances are powered by…"
     },
     {
       "title": "AWS Lambda console provides a one-click setup prompt for coding agents",
@@ -65,6 +135,13 @@
       "snippet": "Amazon Managed Service for Apache Flink now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for building and operating Flink applications. The skills provide expert guidance for common tasks such as creating applications,…"
     },
     {
+      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T17:00:00.000Z",
+      "snippet": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipelines,…"
+    },
+    {
       "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
       "source": "AWS What's New",
@@ -77,13 +154,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-14T17:00:00.000Z",
       "snippet": "Starting today, Amazon Aurora DSQL is available for single-Region clusters in the Europe (Spain) Region. Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency. It enables you…"
-    },
-    {
-      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T17:00:00.000Z",
-      "snippet": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipelines,…"
     },
     {
       "title": "Authenticate legitimate AI agent traffic with AWS WAF Bot Control",
@@ -140,76 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-13T17:00:00.000Z",
       "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports 46 additional MongoDB aggregation operators and cursor methods starting from minor version 8.0.1. This release significantly expands query API compatibility, making it easier to migrate MongoDB…"
-    },
-    {
-      "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-07-13T16:18:20.000Z",
-      "snippet": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’…"
-    },
-    {
-      "title": "Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T15:30:00.000Z",
-      "snippet": "Today, AWS announced the availability of gemma-4-E2B-it in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Google DeepMind is a multimodal, instruction-tuned model optimized for efficient…"
-    },
-    {
-      "title": "OpenAI privacy-filter for PII detection and masking is now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/privacy-filter-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T15:30:00.000Z",
-      "snippet": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectional token-classification model for personally identifiable…"
-    },
-    {
-      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T15:30:00.000Z",
-      "snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and…"
-    },
-    {
-      "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T15:30:00.000Z",
-      "snippet": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI is a multilingual, real-time speech-transcription model,…"
-    },
-    {
-      "title": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T15:00:00.000Z",
-      "snippet": "Amazon Redshift Serverless now automatically preserves zero-ETL and Amazon S3 event integrations when restoring a namespace from a snapshot or recovery point to the same serverless namespace. Previously, restoring a snapshot marked associated integrations as…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T14:31:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports custom AMIs for Slurm-orchestrated clusters, enabling customers to deploy clusters with pre-configured, security-hardened environments that meet their specific organizational requirements. Customers deploying AI/ML…"
-    },
-    {
-      "title": "New compliance guidance available: HITRUST i1 on AWS",
-      "link": "https://aws.amazon.com/blogs/security/new-compliance-guidance-available-hitrust-i1-on-aws/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-13T13:19:51.000Z",
-      "snippet": "We are pleased to announce the publication of a new AWS compliance implementation guidance: HITRUST i1 Compliance on AWS: Customer Implementation Guidance with an Illustrative Healthcare Platform. Healthcare organizations seeking HITRUST i1 certification…"
-    },
-    {
-      "title": "Unlocking the future of video data: March Networks cloud storage on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/unlocking-the-future-of-video-data-march-networks-cloud-storage-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-13T10:06:18.000Z",
-      "snippet": "Enterprise video surveillance is operating at an unprecedented scale as organizations across retail, banking, quick-service restaurants (QSR), convenience stores, and transportation networks generate petabytes of video data across thousands of distributed…"
-    },
-    {
-      "title": "Amazon EC2 network/EBS instances now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8in-r8ib-r8idn-r8idb",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T20:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8in, R8ib, R8idn, and R8idb instances are available in the AWS Asia Pacific (Tokyo) and Europe (Frankfurt, Ireland) regions. These instances are powered by custom sixth generation Intel Xeon Scalable…"
     }
   ]
 }
