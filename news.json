@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-14T19:28:00.134Z",
+  "lastUpdated": "2026-07-15T01:28:21.809Z",
   "items": [
+    {
+      "title": "ICYMI: June 2026 @AWS Security",
+      "link": "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-15T00:37:58.000Z",
+      "snippet": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS…"
+    },
+    {
+      "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T22:00:56.000Z",
+      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoveries. When DRS restores EBS volumes from snapshots, the data loads from Amazon S3…"
+    },
+    {
+      "title": "How Mapfre USA modernized fraud claims with Amazon EMR Serverless",
+      "link": "https://aws.amazon.com/blogs/architecture/how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-14T21:47:35.000Z",
+      "snippet": "Insurance fraud remains a significant challenge for the insurance industry because fraudulent claims can increase loss costs, reduce trust, and consume investigation capacity that could otherwise be focused on serving customers. Traditional fraud detection…"
+    },
+    {
+      "title": "AWS Lambda console provides a one-click setup prompt for coding agents",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T20:00:00.000Z",
+      "snippet": "AWS Lambda console now provides a one-click setup prompt for coding agents that configures your agent with AWS Serverless skills and the Serverless Model Context Protocol (MCP) server, embedding serverless best practices from the start. This setup is…"
+    },
     {
       "title": "Security Hub adds AI workload protection and multicloud support for Microsoft Azure",
       "link": "https://aws.amazon.com/blogs/security/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure/",
@@ -9,11 +37,39 @@
       "snippet": "Security Hub is our foundation for full-stack enterprise security across clouds. It centralizes your security operations and turns raw signals into prioritized insights, so your team spends its time managing real risk instead of stitching tools together.…"
     },
     {
+      "title": "AWS IAM Identity Center achieves FedRAMP Class C Certification",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-identity-center-fedramp/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T19:10:00.000Z",
+      "snippet": "AWS IAM Identity Center is now in scope for FedRAMP Class C in the US East (Ohio), US East (N. Virginia), US West (N. California), and US West (Oregon) Regions. You can now use IAM Identity Center to enable workforce access to AWS accounts and applications…"
+    },
+    {
+      "title": "Introducing Amazon GuardDuty AI Protection for AWS AI workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-ai-protection-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T19:00:00.000Z",
+      "snippet": "Amazon GuardDuty now offers AI Protection, expanding threat detection to AWS AI services including Amazon Bedrock and Amazon SageMaker. As organizations rapidly adopt AI, security teams may lack visibility into threats specifically targeting AI workloads,…"
+    },
+    {
+      "title": "Amazon Managed Service for Apache Flink now offers AI Agent Skills to simplify building and operating Flink applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-agent-skills/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T18:20:00.000Z",
+      "snippet": "Amazon Managed Service for Apache Flink now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for building and operating Flink applications. The skills provide expert guidance for common tasks such as creating applications,…"
+    },
+    {
       "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
       "source": "AWS What's New",
       "pubDate": "2026-07-14T17:00:00.000Z",
       "snippet": "Amazon WorkSpaces Personal now provides automated rollback and support for PCoIP to DCV protocol migration of stopped WorkSpaces, building on the recently launched console-based migration workflow and checkpoint snapshot support. These new capabilities enable…"
+    },
+    {
+      "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T17:00:00.000Z",
+      "snippet": "Starting today, Amazon Aurora DSQL is available for single-Region clusters in the Europe (Spain) Region. Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency. It enables you…"
     },
     {
       "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
@@ -100,6 +156,13 @@
       "snippet": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectional token-classification model for personally identifiable…"
     },
     {
+      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-13T15:30:00.000Z",
+      "snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and…"
+    },
+    {
       "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
       "source": "AWS What's New",
@@ -107,11 +170,11 @@
       "snippet": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI is a multilingual, real-time speech-transcription model,…"
     },
     {
-      "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+      "title": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/",
       "source": "AWS What's New",
-      "pubDate": "2026-07-13T15:30:00.000Z",
-      "snippet": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval and…"
+      "pubDate": "2026-07-13T15:00:00.000Z",
+      "snippet": "Amazon Redshift Serverless now automatically preserves zero-ETL and Amazon S3 event integrations when restoring a namespace from a snapshot or recovery point to the same serverless namespace. Previously, restoring a snapshot marked associated integrations as…"
     },
     {
       "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-10T18:16:00.000Z",
       "snippet": "Amazon EMR on EKS now supports the Apache Spark troubleshooting agent. Data engineers can now diagnose EMR on EKS job failures through natural language, receiving automated root cause analysis and PySpark code recommendations without manually navigating…"
-    },
-    {
-      "title": "Amazon Location Service enhances Places APIs with new address and search options",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-enhanced-address-search",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T17:26:00.000Z",
-      "snippet": "Today, Amazon Location Service announced new enhancements to its Places APIs that give developers greater control over address name formatting, multilingual address, travel-optimized POI search, and drive-through data. These capabilities span the Geocode,…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters using continuous provisioning",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/06/ami-configuration-continuous-slurm/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T17:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports AMI-based configuration for Slurm clusters that use continuous provisioning. Continuous provisioning adds nodes to the cluster as capacity becomes available, and this launch extends AMI-based configuration to clusters…"
-    },
-    {
-      "title": "AWS designated as a critical third party to the UK financial sector",
-      "link": "https://aws.amazon.com/blogs/security/aws-designated-as-a-critical-third-party-to-the-uk-financial-sector/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-10T16:15:19.000Z",
-      "snippet": "Amazon Web Services EMEA Sarl (AWS) has been designated as a critical third party (CTP) to the UK financial sector by HM Treasury. The CTP regime came into force on January 1, 2025, and establishes a framework through which the Bank of England, PRA, and FCA…"
-    },
-    {
-      "title": "Amazon EKS Auto Mode now supports Application Recovery Controller zonal shift",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/eks-auto-mode-arc-zonal-shift",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T16:00:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Amazon Application Recovery Controller (ARC) zonal shift and autoshift for clusters using EKS Auto Mode. ARC helps you manage and coordinate recovery across AWS Regions and Availability Zones (AZs).…"
-    },
-    {
-      "title": "Amazon EC2 G7 instances are now available in the AWS US East (N. Virginia) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-g7-available-North-Virginia",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T15:14:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in US East (N. Virginia) Region. G7 instances deliver up to 4.6x AI inference performance and up to 2.1…"
-    },
-    {
-      "title": "AWS DMS Schema Conversion now supports offline SQL Server conversion",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-schema-conversion-offline-source/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T15:09:00.000Z",
-      "snippet": "AWS Database Migration Service (DMS) Schema Conversion now supports offline source conversion for Microsoft SQL Server, enabling you to convert SQL Server schemas and code without direct connectivity to your source databases. You extract metadata using…"
-    },
-    {
-      "title": "Amazon EC2 I7ie instances now available in AWS Asia Pacific (Hyderabad) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i7ie-instances-aws-hyd-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T14:55:00.000Z",
-      "snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Asia Pacific (Hyderabad) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core turbo…"
-    },
-    {
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-r8g-24xl-48xl/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T14:00:00.000Z",
-      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports R8g.24xlarge and R8g.48xlarge database instances. R8g instances are powered by AWS Graviton4 processors and feature DDR5 memory, enabling customers to achieve higher throughput and support larger…"
-    },
-    {
-      "title": "AWS DMS Schema Conversion now supports AI agent automation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-dms-sc-ai-agent-automation-mcp-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-10T07:00:00.000Z",
-      "snippet": "AWS Database Migration Service (DMS) Schema Conversion now supports AI agent automation through the AWS MCP Server. You can connect AI coding agents, including Kiro, Claude Code, and Cursor, to DMS Schema Conversion and run complete migration workflows using…"
     }
   ]
 }
