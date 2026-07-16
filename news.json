@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-07-16T13:30:21.808Z",
+  "lastUpdated": "2026-07-16T19:30:40.807Z",
   "items": [
+    {
+      "title": "Amazon EC2 now surfaces the public SSM parameters associated with public AMIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-pulic-images-ssm-parameters",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T18:20:00.000Z",
+      "snippet": "Amazon EC2 now surfaces the AWS Systems Manager (SSM) Parameter Store parameters associated with public AMIs directly in the AMI metadata. When you describe a public AMI, the response includes the associated public SSM parameter, making it easy to discover…"
+    },
+    {
+      "title": "Amazon S3 Event Notifications now include system-generated tags",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T18:00:00.000Z",
+      "snippet": "Amazon S3 Event Notifications now include system-generated tags in events delivered to all destinations including Amazon EventBridge, Amazon SQS, Amazon SNS, and AWS Lambda. System-generated tags are metadata labels attached to your bucket by AWS services.…"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T16:00:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids).…"
+    },
+    {
+      "title": "Prioritize your AWS Health alerts using AWS User Notifications",
+      "link": "https://aws.amazon.com/blogs/architecture/prioritize-your-aws-health-alerts-using-aws-user-notifications/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-16T14:56:22.000Z",
+      "snippet": "If you run critical workloads on AWS, such as a contact center on Amazon Connect Customer, database workloads on Amazon Relational Database Service (Amazon RDS), or hybrid connectivity through AWS Direct Connect, service health events demand your attention.…"
+    },
+    {
+      "title": "AWS Control Tower Account Factory for Terraform now re-applies customizations when accounts move between OUs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-control-tower-account/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T04:07:00.000Z",
+      "snippet": "AWS Control Tower Account Factory for Terraform (AFT) can now automatically re-apply an account's customizations when that account moves to a different Organizational Unit (OU). Previously, moving an enrolled account between OUs required manually triggering…"
+    },
+    {
+      "title": "Amazon CloudWatch Logs Insights adds 25 new query commands and functions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-cloudwatch-logs-insights-ql/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T21:56:00.000Z",
+      "snippet": "Amazon CloudWatch Logs Insights query language now supports 25 new commands and functions that expand your ability to query, transform, correlate, and analyze logs. Customers analyzing logs in CloudWatch Logs Insights often need to perform statistical…"
+    },
     {
       "title": "Amazon CloudWatch Logs announces intelligent tiering for storage",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-intelligent-tiering/",
@@ -23,13 +65,6 @@
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the AWS Europe (Frankfurt, Stockholm) and Asia Pacific (Mumbai) Regions. G7e instances offer up to…"
     },
     {
-      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T17:00:00.000Z",
-      "snippet": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Hyderabad, Melbourne, Malaysia), Europe (London, Paris, Zurich),…"
-    },
-    {
       "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
       "source": "AWS What's New",
@@ -42,6 +77,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-15T17:00:00.000Z",
       "snippet": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include password hashes in your CSV file so that imported users can…"
+    },
+    {
+      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T17:00:00.000Z",
+      "snippet": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Hyderabad, Melbourne, Malaysia), Europe (London, Paris, Zurich),…"
     },
     {
       "title": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
@@ -121,6 +163,13 @@
       "snippet": "Amazon CloudWatch now supports lookup processor, enabling you to enrich log events with additional context by matching fields in your logs against a lookup table directly within your CloudWatch Pipeline. With the lookup processor, you can upload CSV files…"
     },
     {
+      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T21:56:00.000Z",
+      "snippet": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG instances, including up to 2.4x faster query performance than…"
+    },
+    {
       "title": "How Mapfre USA modernized fraud claims with Amazon EMR Serverless",
       "link": "https://aws.amazon.com/blogs/architecture/how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless/",
       "source": "AWS Architecture Blog",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-14T19:00:00.000Z",
       "snippet": "Amazon GuardDuty now offers AI Protection, expanding threat detection to AWS AI services including Amazon Bedrock and Amazon SageMaker. As organizations rapidly adopt AI, security teams may lack visibility into threats specifically targeting AI workloads,…"
-    },
-    {
-      "title": "Amazon Managed Service for Apache Flink now offers AI Agent Skills to simplify building and operating Flink applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-agent-skills/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T18:20:00.000Z",
-      "snippet": "Amazon Managed Service for Apache Flink now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for building and operating Flink applications. The skills provide expert guidance for common tasks such as creating applications,…"
-    },
-    {
-      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T17:00:00.000Z",
-      "snippet": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipelines,…"
-    },
-    {
-      "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T17:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Personal now provides automated rollback and support for PCoIP to DCV protocol migration of stopped WorkSpaces, building on the recently launched console-based migration workflow and checkpoint snapshot support. These new capabilities enable…"
-    },
-    {
-      "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T17:00:00.000Z",
-      "snippet": "Starting today, Amazon Aurora DSQL is available for single-Region clusters in the Europe (Spain) Region. Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency. It enables you…"
-    },
-    {
-      "title": "Authenticate legitimate AI agent traffic with AWS WAF Bot Control",
-      "link": "https://aws.amazon.com/blogs/security/authenticate-legitimate-ai-agent-traffic-with-aws-waf-bot-control/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-14T15:18:42.000Z",
-      "snippet": "As AI agents and automated tools increasingly access web applications, distinguishing legitimate bot traffic from malicious attempts has become a critical security challenge. Traditional approaches such as IP-based filtering and reverse DNS lookups fail in…"
-    },
-    {
-      "title": "AWS Storage Gateway adds console support for copying file shares across gateways",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T10:00:00.000Z",
-      "snippet": "AWS Storage Gateway now allows you to copy file shares across gateways directly from the Storage Gateway console. When you initiate a copy, the console reads the configuration of your source share and creates a new file share on the destination gateway with…"
-    },
-    {
-      "title": "Amazon CloudFront Functions now supports logging to CloudFront access logs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T08:00:00.000Z",
-      "snippet": "You can now write custom data directly into CloudFront access logs using a new helper method available from within CloudFront Functions. CloudFront Functions run lightweight JavaScript at the edge for tasks like URL rewrites, header manipulation, and request…"
     }
   ]
 }
