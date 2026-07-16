@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-15T19:29:21.731Z",
+  "lastUpdated": "2026-07-16T01:29:40.979Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch Logs announces intelligent tiering for storage",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-intelligent-tiering/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T20:00:00.000Z",
+      "snippet": "Amazon CloudWatch Logs now supports intelligent storage tiering, which automatically classifies your log data across three storage tiers - Standard (existing), Infrequent Access, and Archive Instant Access based on access patterns. This allows you to store…"
+    },
+    {
+      "title": "Amazon MQ now supports configurable storage for RabbitMQ brokers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mq-rabbitmq-configurable-storage/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T18:18:00.000Z",
+      "snippet": "Amazon MQ now allows you to configure the EBS Disk storage size for RabbitMQ brokers independently of instance type. When creating or updating a broker, you can define a custom storage size, allowing you to right-size storage independently of your instance…"
+    },
+    {
+      "title": "Amazon EC2 G7e instances now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-g7e-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T18:04:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the AWS Europe (Frankfurt, Stockholm) and Asia Pacific (Mumbai) Regions. G7e instances offer up to…"
+    },
+    {
+      "title": "Amazon Cognito now supports importing users with password hashes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T17:00:00.000Z",
+      "snippet": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include password hashes in your CSV file so that imported users can…"
+    },
     {
       "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
@@ -28,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-15T16:15:00.000Z",
       "snippet": "Amazon RDS now allows up to four storage modifications per database instance within a rolling 24-hour window. These modifications let you increase the size, change the type, and adjust the performance of your RDS storage volumes. You can start a new…"
+    },
+    {
+      "title": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US) regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T15:51:00.000Z",
+      "snippet": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions, with support for Amazon DynamoDB, Salesforce, and SAP OData as sources. Customers operating in regulated environments can…"
     },
     {
       "title": "How bitdrift scaled to 121 million concurrent gRPC connections on Amazon CloudFront for live telemetry sporting events",
@@ -135,13 +170,6 @@
       "snippet": "Amazon Managed Service for Apache Flink now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for building and operating Flink applications. The skills provide expert guidance for common tasks such as creating applications,…"
     },
     {
-      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T17:00:00.000Z",
-      "snippet": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipelines,…"
-    },
-    {
       "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
       "source": "AWS What's New",
@@ -154,6 +182,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-14T17:00:00.000Z",
       "snippet": "Starting today, Amazon Aurora DSQL is available for single-Region clusters in the Europe (Spain) Region. Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency. It enables you…"
+    },
+    {
+      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T17:00:00.000Z",
+      "snippet": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipelines,…"
     },
     {
       "title": "Authenticate legitimate AI agent traffic with AWS WAF Bot Control",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-14T08:00:00.000Z",
       "snippet": "You can now write custom data directly into CloudFront access logs using a new helper method available from within CloudFront Functions. CloudFront Functions run lightweight JavaScript at the edge for tasks like URL rewrites, header manipulation, and request…"
-    },
-    {
-      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T22:03:00.000Z",
-      "snippet": "GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance, security and reliability. GPT-5.6 sets a new standard…"
-    },
-    {
-      "title": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-new-zealand/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T21:17:00.000Z",
-      "snippet": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region. Amazon Managed Service for Prometheus is a fully managed, Prometheus-compatible monitoring service that makes it easy to monitor and alert on operational metrics at…"
-    },
-    {
-      "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-07-13T18:13:57.000Z",
-      "snippet": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need a reliable way to pass messages…"
-    },
-    {
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now available as a skill in the Agent Toolkit for AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-agent-skill",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T18:00:00.000Z",
-      "snippet": "Amazon DocumentDB (with MongoDB compatibility) is now available as a specialized database skill in the Agent Toolkit for AWS. With this skill, AI coding agents can set up, manage, migrate, optimize, and troubleshoot Amazon DocumentDB clusters using…"
-    },
-    {
-      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 46 new MongoDB operators in version 8.0.1",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-13T17:00:00.000Z",
-      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports 46 additional MongoDB aggregation operators and cursor methods starting from minor version 8.0.1. This release significantly expands query API compatibility, making it easier to migrate MongoDB…"
     }
   ]
 }
