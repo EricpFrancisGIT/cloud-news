@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T07:30:03.167Z",
+  "lastUpdated": "2026-07-16T13:30:21.808Z",
   "items": [
     {
       "title": "Amazon CloudWatch Logs announces intelligent tiering for storage",
@@ -23,13 +23,6 @@
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the AWS Europe (Frankfurt, Stockholm) and Asia Pacific (Mumbai) Regions. G7e instances offer up to…"
     },
     {
-      "title": "Amazon Cognito now supports importing users with password hashes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T17:00:00.000Z",
-      "snippet": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include password hashes in your CSV file so that imported users can…"
-    },
-    {
       "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
       "source": "AWS What's New",
@@ -42,6 +35,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-15T17:00:00.000Z",
       "snippet": "Amazon Relational Database Service (RDS) now supports R8gd database instances in 12 additional regions and and M8gd database instances in 6 additional Regions with Optimized Reads for Amazon Aurora PostgreSQL, RDS for PostgreSQL, RDS for MySQL, and RDS for…"
+    },
+    {
+      "title": "Amazon Cognito now supports importing users with password hashes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T17:00:00.000Z",
+      "snippet": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include password hashes in your CSV file so that imported users can…"
     },
     {
       "title": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
@@ -170,6 +170,13 @@
       "snippet": "Amazon Managed Service for Apache Flink now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for building and operating Flink applications. The skills provide expert guidance for common tasks such as creating applications,…"
     },
     {
+      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-14T17:00:00.000Z",
+      "snippet": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipelines,…"
+    },
+    {
       "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
       "source": "AWS What's New",
@@ -182,13 +189,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-14T17:00:00.000Z",
       "snippet": "Starting today, Amazon Aurora DSQL is available for single-Region clusters in the Europe (Spain) Region. Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency. It enables you…"
-    },
-    {
-      "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T17:00:00.000Z",
-      "snippet": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipelines,…"
     },
     {
       "title": "Authenticate legitimate AI agent traffic with AWS WAF Bot Control",
