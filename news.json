@@ -1,9 +1,23 @@
 {
-  "lastUpdated": "2026-07-16T19:30:40.807Z",
+  "lastUpdated": "2026-07-17T01:30:59.590Z",
   "items": [
     {
+      "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-grafana-fedramp-high/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T19:31:00.000Z",
+      "snippet": "Amazon Managed Grafana is now a FedRAMP High authorized service in the AWS GovCloud (US-East) and AWS GovCloud (US-West) regions. Federal agencies, public sector organizations, and other enterprises with FedRAMP High compliance requirements can now use Amazon…"
+    },
+    {
+      "title": "Track cost efficiency trends directly in Billing and Cost Management Dashboards with the new Cost Efficiency widget",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/monitor-cost-efficiency-using-dashboards",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T18:56:00.000Z",
+      "snippet": "Today, AWS Billing and Cost Management (BCM) announces support for Cost Efficiency widget in BCM Dashboards. You can now view cost efficiency trends alongside Cost Explorer, Budgets, and reports for Savings Plans and Reserved Instance coverage and utilization…"
+    },
+    {
       "title": "Amazon EC2 now surfaces the public SSM parameters associated with public AMIs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-pulic-images-ssm-parameters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-public-images-ssm-parameters",
       "source": "AWS What's New",
       "pubDate": "2026-07-16T18:20:00.000Z",
       "snippet": "Amazon EC2 now surfaces the AWS Systems Manager (SSM) Parameter Store parameters associated with public AMIs directly in the AMI metadata. When you describe a public AMI, the response includes the associated public SSM parameter, making it easy to discover…"
@@ -16,11 +30,39 @@
       "snippet": "Amazon S3 Event Notifications now include system-generated tags in events delivered to all destinations including Amazon EventBridge, Amazon SQS, Amazon SNS, and AWS Lambda. System-generated tags are metadata labels attached to your bucket by AWS services.…"
     },
     {
+      "title": "PostgreSQL 19 Beta 2 is now available in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T18:00:00.000Z",
+      "snippet": "Amazon RDS for PostgreSQL 19 Beta 2 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 2 in the Amazon RDS Database Preview…"
+    },
+    {
+      "title": "AWS Sustainability service now includes water withdrawals data",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-sustainability-water-withdrawals/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T16:43:00.000Z",
+      "snippet": "Customers can now view annual water withdrawals data associated with their AWS workloads in AWS Sustainability, alongside existing carbon emissions data. This enhancement helps organizations gain comprehensive visibility into their environmental impact across…"
+    },
+    {
       "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
       "source": "AWS What's New",
       "pubDate": "2026-07-16T16:00:00.000Z",
       "snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids).…"
+    },
+    {
+      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T16:00:00.000Z",
+      "snippet": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG instances, including up to 2.4x faster query performance than…"
+    },
+    {
+      "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T15:00:00.000Z",
+      "snippet": "You can now transition objects to S3 Standard-Infrequent Access (S3 Standard-IA) and S3 One Zone-Infrequent Access (S3 One Zone-IA) as soon as the day they are created, without the previous 30-day minimum retention in S3 Standard. These storage classes offer…"
     },
     {
       "title": "Prioritize your AWS Health alerts using AWS User Notifications",
@@ -30,11 +72,32 @@
       "snippet": "If you run critical workloads on AWS, such as a contact center on Amazon Connect Customer, database workloads on Amazon Relational Database Service (Amazon RDS), or hybrid connectivity through AWS Direct Connect, service health events demand your attention.…"
     },
     {
+      "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T10:00:00.000Z",
+      "snippet": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Canada West (Calgary). With logically air-gapped…"
+    },
+    {
+      "title": "AWS Backup extends restore testing support to six additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-restore-testing-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T10:00:00.000Z",
+      "snippet": "AWS Backup restore testing is now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Canada West (Calgary). Restore testing helps you automate and…"
+    },
+    {
       "title": "AWS Control Tower Account Factory for Terraform now re-applies customizations when accounts move between OUs",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-control-tower-account/",
       "source": "AWS What's New",
       "pubDate": "2026-07-16T04:07:00.000Z",
       "snippet": "AWS Control Tower Account Factory for Terraform (AFT) can now automatically re-apply an account's customizations when that account moves to a different Organizational Unit (OU). Previously, moving an enrolled account between OUs required manually triggering…"
+    },
+    {
+      "title": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-now-in-scope-for-fedramp-moderate/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T00:00:00.000Z",
+      "snippet": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate in the US East (Ohio), US East (N. Virginia), and US West (Oregon) Regions. You can now use Aurora DSQL to build applications and run workloads that are subject to FedRAMP Moderate compliance…"
     },
     {
       "title": "Amazon CloudWatch Logs Insights adds 25 new query commands and functions",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-14T22:05:00.000Z",
       "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now recovers your AWS-based workloads faster. For source servers running on Amazon EC2, DRS can now skip preparation steps that these workloads no longer need, reducing recovery time by up to 65% for Windows and up to…"
-    },
-    {
-      "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T22:00:56.000Z",
-      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoveries. When DRS restores EBS volumes from snapshots, the data loads from Amazon S3…"
-    },
-    {
-      "title": "Amazon CloudWatch announces lookup processor for log enrichment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-lookup-processor/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T22:00:00.000Z",
-      "snippet": "Amazon CloudWatch now supports lookup processor, enabling you to enrich log events with additional context by matching fields in your logs against a lookup table directly within your CloudWatch Pipeline. With the lookup processor, you can upload CSV files…"
-    },
-    {
-      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T21:56:00.000Z",
-      "snippet": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG instances, including up to 2.4x faster query performance than…"
-    },
-    {
-      "title": "How Mapfre USA modernized fraud claims with Amazon EMR Serverless",
-      "link": "https://aws.amazon.com/blogs/architecture/how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-14T21:47:35.000Z",
-      "snippet": "Insurance fraud remains a significant challenge for the insurance industry because fraudulent claims can increase loss costs, reduce trust, and consume investigation capacity that could otherwise be focused on serving customers. Traditional fraud detection…"
-    },
-    {
-      "title": "Amazon EC2 M8in, M8idn, M8ib, M8idb instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/m8in-m8idn-m8ib-m8idb-new-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T20:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8in, M8idn network optimized, and M8ib, M8idb EBS optimized instances are available in the AWS US East (Ohio), Europe (Ireland), and Asia Pacific (Tokyo) regions. The new instances are powered by…"
-    },
-    {
-      "title": "AWS Lambda console provides a one-click setup prompt for coding agents",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T20:00:00.000Z",
-      "snippet": "AWS Lambda console now provides a one-click setup prompt for coding agents that configures your agent with AWS Serverless skills and the Serverless Model Context Protocol (MCP) server, embedding serverless best practices from the start. This setup is…"
-    },
-    {
-      "title": "Security Hub adds AI workload protection and multicloud support for Microsoft Azure",
-      "link": "https://aws.amazon.com/blogs/security/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-14T19:16:57.000Z",
-      "snippet": "Security Hub is our foundation for full-stack enterprise security across clouds. It centralizes your security operations and turns raw signals into prioritized insights, so your team spends its time managing real risk instead of stitching tools together.…"
-    },
-    {
-      "title": "AWS IAM Identity Center achieves FedRAMP Class C Certification",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-identity-center-fedramp/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T19:10:00.000Z",
-      "snippet": "AWS IAM Identity Center is now in scope for FedRAMP Class C in the US East (Ohio), US East (N. Virginia), US West (N. California), and US West (Oregon) Regions. You can now use IAM Identity Center to enable workforce access to AWS accounts and applications…"
-    },
-    {
-      "title": "Introducing Amazon GuardDuty AI Protection for AWS AI workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-ai-protection-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T19:00:00.000Z",
-      "snippet": "Amazon GuardDuty now offers AI Protection, expanding threat detection to AWS AI services including Amazon Bedrock and Amazon SageMaker. As organizations rapidly adopt AI, security teams may lack visibility into threats specifically targeting AI workloads,…"
     }
   ]
 }
