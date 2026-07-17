@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-17T13:31:37.152Z",
+  "lastUpdated": "2026-07-17T19:31:58.681Z",
   "items": [
+    {
+      "title": "Amazon OpenSearch UI now supports one-click dashboard migration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-17T17:23:00.000Z",
+      "snippet": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new, zero-downtime, serverless interface for search and unified…"
+    },
+    {
+      "title": "Eclipse Dataspace Components on AWS: Cost optimization strategies",
+      "link": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-cost-optimization-strategies/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-17T16:03:47.000Z",
+      "snippet": "When you deploy Eclipse Dataspace Components (EDC) connectors on AWS, one of the first challenges you face is predicting and controlling the cost of the required infrastructure. Without clear benchmarks, it is difficult to make informed decisions about…"
+    },
+    {
+      "title": "Eclipse Dataspace Components on AWS: Architecture patterns in production",
+      "link": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-architecture-patterns-in-production/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-17T16:03:44.000Z",
+      "snippet": "Running Eclipse Dataspace Components (EDC) connectors in production on AWS requires deliberate architecture decisions around isolation, managed services, and security layering. In Part 1 of this series, we covered the fundamentals of data space architectures…"
+    },
+    {
+      "title": "Eclipse Dataspace Components on AWS: Data sharing fundamentals",
+      "link": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-data-sharing-fundamentals/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-17T16:03:40.000Z",
+      "snippet": "This three-part blog series guides you through implementing Eclipse Dataspace Components (EDC) on AWS, from foundational concept to production deployment. Part 1 establishes the theoretical foundation with IDSA standards, the Dataspace Protocol (DSP), and…"
+    },
     {
       "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-grafana-fedramp-high/",
@@ -44,18 +72,18 @@
       "snippet": "Customers can now view annual water withdrawals data associated with their AWS workloads in AWS Sustainability, alongside existing carbon emissions data. This enhancement helps organizations gain comprehensive visibility into their environmental impact across…"
     },
     {
-      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T16:00:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids).…"
-    },
-    {
       "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
       "source": "AWS What's New",
       "pubDate": "2026-07-16T16:00:00.000Z",
       "snippet": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG instances, including up to 2.4x faster query performance than…"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T16:00:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids).…"
     },
     {
       "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
@@ -72,18 +100,18 @@
       "snippet": "If you run critical workloads on AWS, such as a contact center on Amazon Connect Customer, database workloads on Amazon Relational Database Service (Amazon RDS), or hybrid connectivity through AWS Direct Connect, service health events demand your attention.…"
     },
     {
-      "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
+      "title": "AWS Backup extends logically air-gapped vault support to seven additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
       "source": "AWS What's New",
       "pubDate": "2026-07-16T10:00:00.000Z",
-      "snippet": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Canada West (Calgary). With logically air-gapped…"
+      "snippet": "AWS Backup logically air-gapped vaults are now available in seven additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Israel (Tel Aviv), Mexico (Central), and Canada West (Calgary). With…"
     },
     {
-      "title": "AWS Backup extends restore testing support to six additional AWS Regions",
+      "title": "AWS Backup extends restore testing support to seven additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-restore-testing-regions/",
       "source": "AWS What's New",
       "pubDate": "2026-07-16T10:00:00.000Z",
-      "snippet": "AWS Backup restore testing is now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Canada West (Calgary). Restore testing helps you automate and…"
+      "snippet": "AWS Backup restore testing is now available in seven additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Israel (Tel Aviv), Mexico (Central), and Canada West (Calgary). Restore testing…"
     },
     {
       "title": "AWS Control Tower Account Factory for Terraform now re-applies customizations when accounts move between OUs",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-15T14:44:00.000Z",
       "snippet": "Amazon OpenSearch Service now integrates with the Agent Toolkit for AWS, enabling you to build, manage, and query OpenSearch Service domains and OpenSearch Serverless collections directly from AI coding agents such as Claude Code, Kiro, and Cursor. The…"
-    },
-    {
-      "title": "Amazon RDS for Db2 is now available in additional AWS Commercial regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-db2-available-additional-aws-commercial-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T07:39:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for Db2 is now available in the Asia Pacific (Thailand), Asia Pacific (Malaysia), Asia Pacific (Taipei), Mexico (Central), and Canada West (Calgary) Regions. Amazon RDS for Db2 makes it easy to set up, operate,…"
-    },
-    {
-      "title": "AWS Lambda announces self-managed code storage",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T07:00:00.000Z",
-      "snippet": "AWS Lambda now supports self-managed Amazon S3 buckets for code storage, enabling you to reference source code directly from your own S3 buckets without Lambda creating intermediate copies. This eliminates code storage limits and reduces function activation…"
-    },
-    {
-      "title": "ICYMI: June 2026 @AWS Security",
-      "link": "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-15T00:37:58.000Z",
-      "snippet": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS…"
-    },
-    {
-      "title": "AWS Elastic Disaster Recovery reduces recovery time for AWS-to-AWS workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-recovery/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-14T22:05:00.000Z",
-      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now recovers your AWS-based workloads faster. For source servers running on Amazon EC2, DRS can now skip preparation steps that these workloads no longer need, reducing recovery time by up to 65% for Windows and up to…"
     }
   ]
 }
