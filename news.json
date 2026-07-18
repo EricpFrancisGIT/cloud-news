@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-17T19:31:58.681Z",
+  "lastUpdated": "2026-07-18T01:32:18.438Z",
   "items": [
+    {
+      "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-17T17:29:00.000Z",
+      "snippet": "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 buckets and DynamoDB tables. With this launch, you can pass a RoleArn parameter when…"
+    },
     {
       "title": "Amazon OpenSearch UI now supports one-click dashboard migration",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
@@ -28,6 +35,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-07-17T16:03:40.000Z",
       "snippet": "This three-part blog series guides you through implementing Eclipse Dataspace Components (EDC) on AWS, from foundational concept to production deployment. Part 1 establishes the theoretical foundation with IDSA standards, the Dataspace Protocol (DSP), and…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports partition-level topology for Slurm orchestrated clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-partition-topology-slurm/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-17T15:16:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports network topology configuration at the partition level for Slurm orchestrated clusters. A single cluster can now run tree topology in one partition and block topology in another, with each partition using the topology…"
     },
     {
       "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
@@ -100,11 +114,11 @@
       "snippet": "If you run critical workloads on AWS, such as a contact center on Amazon Connect Customer, database workloads on Amazon Relational Database Service (Amazon RDS), or hybrid connectivity through AWS Direct Connect, service health events demand your attention.…"
     },
     {
-      "title": "AWS Backup extends logically air-gapped vault support to seven additional AWS Regions",
+      "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
       "source": "AWS What's New",
       "pubDate": "2026-07-16T10:00:00.000Z",
-      "snippet": "AWS Backup logically air-gapped vaults are now available in seven additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Israel (Tel Aviv), Mexico (Central), and Canada West (Calgary). With…"
+      "snippet": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Canada West (Calgary). With logically air-gapped…"
     },
     {
       "title": "AWS Backup extends restore testing support to seven additional AWS Regions",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-15T15:51:00.000Z",
       "snippet": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions, with support for Amazon DynamoDB, Salesforce, and SAP OData as sources. Customers operating in regulated environments can…"
-    },
-    {
-      "title": "How bitdrift scaled to 121 million concurrent gRPC connections on Amazon CloudFront for live telemetry sporting events",
-      "link": "https://aws.amazon.com/blogs/architecture/how-bitdrift-scaled-to-121-million-concurrent-grpc-connections-on-amazon-cloudfront-for-live-telemetry-sporting-events/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-15T15:27:47.000Z",
-      "snippet": "When 121 million mobile devices establish persistent gRPC connections to your origin infrastructure within seconds of a live broadcast, the routing policy behind your DNS records matters far more than it does at normal traffic levels. The wrong policy can…"
-    },
-    {
-      "title": "Amazon OpenSearch Service now supports the Agent Toolkit for AWS with a curated skill",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-agent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T14:44:00.000Z",
-      "snippet": "Amazon OpenSearch Service now integrates with the Agent Toolkit for AWS, enabling you to build, manage, and query OpenSearch Service domains and OpenSearch Serverless collections directly from AI coding agents such as Claude Code, Kiro, and Cursor. The…"
     }
   ]
 }
