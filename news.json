@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T13:32:57.428Z",
+  "lastUpdated": "2026-07-18T19:33:19.082Z",
   "items": [
     {
       "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
@@ -170,6 +170,13 @@
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the AWS Europe (Frankfurt, Stockholm) and Asia Pacific (Mumbai) Regions. G7e instances offer up to…"
     },
     {
+      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-15T17:00:00.000Z",
+      "snippet": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Hyderabad, Melbourne, Malaysia), Europe (London, Paris, Zurich),…"
+    },
+    {
       "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
       "source": "AWS What's New",
@@ -182,13 +189,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-15T17:00:00.000Z",
       "snippet": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include password hashes in your CSV file so that imported users can…"
-    },
-    {
-      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T17:00:00.000Z",
-      "snippet": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Hyderabad, Melbourne, Malaysia), Europe (London, Paris, Zurich),…"
     },
     {
       "title": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
