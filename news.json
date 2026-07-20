@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-07-20T13:38:16.091Z",
+  "lastUpdated": "2026-07-20T19:38:36.158Z",
   "items": [
+    {
+      "title": "Selectively log network activity events by identity in AWS CloudTrail",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-cloudtrail-filter-useridentity-advance-selectors/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T17:34:00.000Z",
+      "snippet": "Today, AWS launches enhanced event filtering for network activity events for VPC end points, a CloudTrail event type that captures actions transmitted through a Virtual Private Cloud Endpoint. Customers can now control which network activity events are logged…"
+    },
+    {
+      "title": "2026 ISO and CSA STAR certificates are now available with two additional services",
+      "link": "https://aws.amazon.com/blogs/security/2026-iso-and-csa-star-certificates-are-now-available-with-two-additional-services/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-20T16:40:16.000Z",
+      "snippet": "Amazon Web Services (AWS) successfully completed an onboarding audit with no findings for ISO 9001:2015, 27001:2022, 27017:2015, 27018:2019, 27701:2019, 20000-1:2018, and 22301:2019, and Cloud Security Alliance (CSA) STAR Cloud Controls Matrix (CCM) v4.0. EY…"
+    },
+    {
+      "title": "AWS Weekly Roundup: One-click Lambda setup prompt, OpenAI GPT-5.6 models on Bedrock, and more (July 20, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-07-20T16:37:34.000Z",
+      "snippet": "Last week, my team visited Seoul to meet AWS Korea User Group (AWSKRUG) leaders. AWSKRUG is the largest cloud developer community in Korea, with 20 meetup groups organized by topic and area that collectively host over 100 events each year, primarily in Seoul.…"
+    },
+    {
+      "title": "Amazon Connect delivers more natural agentic voice experiences with expanded language support and speech controls",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-agentic-voice/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T16:16:00.000Z",
+      "snippet": "Amazon Connect customers can now deliver more natural, human-sounding agentic voice experiences with expanded support across 50+ languages including Spanish, French, Italian, Japanese, Korean, Portuguese, and Thai, over 100 new voice options, and…"
+    },
+    {
+      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T15:00:00.000Z",
+      "snippet": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.3. This release includes adaptive partition selection for improved backpressure handling, so applications run more smoothly under uneven load. It also introduces better handling of…"
+    },
+    {
+      "title": "Amazon CloudWatch announces coding agent insights",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-coding-agent-insights/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T09:51:00.000Z",
+      "snippet": "Amazon CloudWatch announces the launch of coding agent insights, giving engineering leaders visibility into how AI coding tools are driving value across their organization. Coding Agent Insights integrates with Claude apps gateway for AWS to collect telemetry…"
+    },
+    {
+      "title": "Introducing KNFSD File Cache - Now in Preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/knfsd-file-cache/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T08:00:00.000Z",
+      "snippet": "Today, AWS announces the availability of KNFSD File Cache, an open-source, Apache-2.0 licensed solution for deploying a scalable, high-speed Network File System (NFS) cache on AWS. KNFSD File Cache mounts exports from one or more source NFS servers, whether…"
+    },
     {
       "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
@@ -42,6 +91,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-17T15:16:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now supports network topology configuration at the partition level for Slurm orchestrated clusters. A single cluster can now run tree topology in one partition and block topology in another, with each partition using the topology…"
+    },
+    {
+      "title": "Amazon CloudWatch Synthetics now supports customer managed encryption keys",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/synthetics-customer-managed-keys/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T20:34:00.000Z",
+      "snippet": "Amazon CloudWatch Synthetics now supports customer managed AWS Key Management Service (KMS) keys for encrypting canary environment variables, giving you full control over the encryption of sensitive configuration data such as API keys, credentials, and…"
     },
     {
       "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-15T20:00:00.000Z",
       "snippet": "Amazon CloudWatch Logs now supports intelligent storage tiering, which automatically classifies your log data across three storage tiers - Standard (existing), Infrequent Access, and Archive Instant Access based on access patterns. This allows you to store…"
-    },
-    {
-      "title": "Amazon MQ now supports configurable storage for RabbitMQ brokers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mq-rabbitmq-configurable-storage/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T18:18:00.000Z",
-      "snippet": "Amazon MQ now allows you to configure the EBS Disk storage size for RabbitMQ brokers independently of instance type. When creating or updating a broker, you can define a custom storage size, allowing you to right-size storage independently of your instance…"
-    },
-    {
-      "title": "Amazon EC2 G7e instances now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-g7e-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T18:04:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the AWS Europe (Frankfurt, Stockholm) and Asia Pacific (Mumbai) Regions. G7e instances offer up to…"
-    },
-    {
-      "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T17:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (RDS) now supports R8gd database instances in 12 additional regions and and M8gd database instances in 6 additional Regions with Optimized Reads for Amazon Aurora PostgreSQL, RDS for PostgreSQL, RDS for MySQL, and RDS for…"
-    },
-    {
-      "title": "Amazon Cognito now supports importing users with password hashes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T17:00:00.000Z",
-      "snippet": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include password hashes in your CSV file so that imported users can…"
-    },
-    {
-      "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T17:00:00.000Z",
-      "snippet": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific (Hyderabad, Melbourne, Malaysia), Europe (London, Paris, Zurich),…"
-    },
-    {
-      "title": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-version-42/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T17:00:00.000Z",
-      "snippet": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) Express Brokers now supports Apache Kafka version 4.2. This release includes Eligible Leader Replicas (ELR) enhancements that strengthen availability with improved leader election correctness. It also…"
-    },
-    {
-      "title": "Amazon RDS now supports up to four storage modifications in 24 hours",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-upto-four-storage-modifications-24-hours",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T16:15:00.000Z",
-      "snippet": "Amazon RDS now allows up to four storage modifications per database instance within a rolling 24-hour window. These modifications let you increase the size, change the type, and adjust the performance of your RDS storage volumes. You can start a new…"
-    },
-    {
-      "title": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US) regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T15:51:00.000Z",
-      "snippet": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions, with support for Amazon DynamoDB, Salesforce, and SAP OData as sources. Customers operating in regulated environments can…"
     }
   ]
 }
