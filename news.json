@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-20T19:38:36.158Z",
+  "lastUpdated": "2026-07-21T01:38:55.571Z",
   "items": [
+    {
+      "title": "Introducing the Amazon GuardDuty investigation agent: on-demand AI-powered threat assessment",
+      "link": "https://aws.amazon.com/blogs/security/introducing-the-amazon-guardduty-investigation-agent-on-demand-ai-powered-threat-assessment/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-20T21:59:00.000Z",
+      "snippet": "The new Amazon GuardDuty investigation agent (now in public preview) investigates security findings across your Amazon Web Services (AWS) environment, reducing investigation time from hours to minutes. GuardDuty is our managed threat detection service that…"
+    },
+    {
+      "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T18:29:00.000Z",
+      "snippet": "Today, AWS announces standardized product metadata for Amazon Bedrock in AWS Data Exports (Cost and Usage Report), giving FinOps teams and cloud administrators consistent, structured attributes to understand Bedrock costs. AWS Data Exports lets you create…"
+    },
+    {
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8i-r8i-flex-instances-in-stockholm-zurich-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T17:37:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Stockholm, Zurich) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest…"
+    },
     {
       "title": "Selectively log network activity events by identity in AWS CloudTrail",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-cloudtrail-filter-useridentity-advance-selectors/",
@@ -30,11 +51,32 @@
       "snippet": "Amazon Connect customers can now deliver more natural, human-sounding agentic voice experiences with expanded support across 50+ languages including Spanish, French, Italian, Japanese, Korean, Portuguese, and Thai, over 100 new voice options, and…"
     },
     {
+      "title": "Amazon EC2 I8ge instances are now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8ge-instances-aws-govcloud-us-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T16:00:00.000Z",
+      "snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS GovCloud (US-East, US-West) regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to 60% better compute performance compared to previous…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T15:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Applications now supports Microsoft OneDrive for Business and Google Drive as persistent storage options on multi-session fleets. Users streaming on multi-session fleets can now connect their OneDrive or Google Drive accounts and access,…"
+    },
+    {
       "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.3",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
       "source": "AWS What's New",
       "pubDate": "2026-07-20T15:00:00.000Z",
       "snippet": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.3. This release includes adaptive partition selection for improved backpressure handling, so applications run more smoothly under uneven load. It also introduces better handling of…"
+    },
+    {
+      "title": "Announcing the general availability of a new AWS Local Zone in Athens, Greece",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-local-zone-athens-greece/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T14:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of a new Local Zone in Athens, Greece. The Athens Local Zone is the second Local Zone in EMEA with support for Amazon Simple Storage Service (Amazon S3) and Amazon Elastic Block Store (Amazon EBS) Local Snapshots,…"
     },
     {
       "title": "Amazon CloudWatch announces coding agent insights",
@@ -121,18 +163,18 @@
       "snippet": "Amazon EC2 now surfaces the AWS Systems Manager (SSM) Parameter Store parameters associated with public AMIs directly in the AMI metadata. When you describe a public AMI, the response includes the associated public SSM parameter, making it easy to discover…"
     },
     {
-      "title": "Amazon S3 Event Notifications now include system-generated tags",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T18:00:00.000Z",
-      "snippet": "Amazon S3 Event Notifications now include system-generated tags in events delivered to all destinations including Amazon EventBridge, Amazon SQS, Amazon SNS, and AWS Lambda. System-generated tags are metadata labels attached to your bucket by AWS services.…"
-    },
-    {
       "title": "PostgreSQL 19 Beta 2 is now available in Amazon RDS Database Preview Environment",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
       "source": "AWS What's New",
       "pubDate": "2026-07-16T18:00:00.000Z",
       "snippet": "Amazon RDS for PostgreSQL 19 Beta 2 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 2 in the Amazon RDS Database Preview…"
+    },
+    {
+      "title": "Amazon S3 Event Notifications now include system-generated tags",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T18:00:00.000Z",
+      "snippet": "Amazon S3 Event Notifications now include system-generated tags in events delivered to all destinations including Amazon EventBridge, Amazon SQS, Amazon SNS, and AWS Lambda. System-generated tags are metadata labels attached to your bucket by AWS services.…"
     },
     {
       "title": "AWS Sustainability service now includes water withdrawals data",
@@ -168,48 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-07-16T14:56:22.000Z",
       "snippet": "If you run critical workloads on AWS, such as a contact center on Amazon Connect Customer, database workloads on Amazon Relational Database Service (Amazon RDS), or hybrid connectivity through AWS Direct Connect, service health events demand your attention.…"
-    },
-    {
-      "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T10:00:00.000Z",
-      "snippet": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Canada West (Calgary). With logically air-gapped…"
-    },
-    {
-      "title": "AWS Backup extends restore testing support to seven additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-restore-testing-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T10:00:00.000Z",
-      "snippet": "AWS Backup restore testing is now available in seven additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Israel (Tel Aviv), Mexico (Central), and Canada West (Calgary). Restore testing…"
-    },
-    {
-      "title": "AWS Control Tower Account Factory for Terraform now re-applies customizations when accounts move between OUs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-control-tower-account/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T04:07:00.000Z",
-      "snippet": "AWS Control Tower Account Factory for Terraform (AFT) can now automatically re-apply an account's customizations when that account moves to a different Organizational Unit (OU). Previously, moving an enrolled account between OUs required manually triggering…"
-    },
-    {
-      "title": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-now-in-scope-for-fedramp-moderate/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T00:00:00.000Z",
-      "snippet": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate in the US East (Ohio), US East (N. Virginia), and US West (Oregon) Regions. You can now use Aurora DSQL to build applications and run workloads that are subject to FedRAMP Moderate compliance…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs Insights adds 25 new query commands and functions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-cloudwatch-logs-insights-ql/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T21:56:00.000Z",
-      "snippet": "Amazon CloudWatch Logs Insights query language now supports 25 new commands and functions that expand your ability to query, transform, correlate, and analyze logs. Customers analyzing logs in CloudWatch Logs Insights often need to perform statistical…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs announces intelligent tiering for storage",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-intelligent-tiering/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-15T20:00:00.000Z",
-      "snippet": "Amazon CloudWatch Logs now supports intelligent storage tiering, which automatically classifies your log data across three storage tiers - Standard (existing), Infrequent Access, and Archive Instant Access based on access patterns. This allows you to store…"
     }
   ]
 }
