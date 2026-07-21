@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-07-21T13:39:36.447Z",
+  "lastUpdated": "2026-07-21T19:39:59.547Z",
   "items": [
+    {
+      "title": "Do more with AWS WAF labels using dynamic label interpolation",
+      "link": "https://aws.amazon.com/blogs/security/do-more-with-aws-waf-labels-using-dynamic-label-interpolation/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-21T17:03:16.000Z",
+      "snippet": "AWS WAF classifies web traffic by attaching metadata to each request it evaluates. Managed rule groups such as AWS WAF Bot Control and AWS WAF Fraud Control account takeover prevention (ATP) attach labels that describe what they found. A label can record that…"
+    },
+    {
+      "title": "Amazon SES introduces pricing plans",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-21T16:35:00.000Z",
+      "snippet": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three hierarchical options: Essentials, Pro, and Enterprise. Each…"
+    },
+    {
+      "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-21T15:30:00.000Z",
+      "snippet": "Today, Amazon Elastic Container Service (Amazon ECS) introduces Action Logs, a new observability feature that delivers detailed, timestamped records of the actions Amazon ECS performs on behalf of customers during service deployments and ECS Managed Daemon…"
+    },
+    {
+      "title": "Amazon Managed Service for Prometheus supports 1.5B active metrics and 200K rules per workspace",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-21T14:00:00.000Z",
+      "snippet": "Amazon Managed Service for Prometheus now supports up to 1.5 billion active metric time series and up to 200,000 total recording and alerting rules per workspace. Customers can also create many workspaces per account, enabling the storage and analysis of…"
+    },
+    {
+      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-21T07:45:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR…"
+    },
+    {
+      "title": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2025",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-21T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Microsoft SQL Server 2025 for Enterprise, Standard, and Developer editions. SQL Server 2025 brings AI integration directly into the database engine, enabling customers to invoke…"
+    },
     {
       "title": "Introducing the Amazon GuardDuty investigation agent: on-demand AI-powered threat assessment",
       "link": "https://aws.amazon.com/blogs/security/introducing-the-amazon-guardduty-investigation-agent-on-demand-ai-powered-threat-assessment/",
@@ -56,6 +98,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-20T16:00:00.000Z",
       "snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS GovCloud (US-East, US-West) regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to 60% better compute performance compared to previous…"
+    },
+    {
+      "title": "Amazon Connect Customer launches metrics for agent queues on analytics dashboards",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-20T15:28:00.000Z",
+      "snippet": "Amazon Connect Customer dashboards now display real-time and historical metrics for agent queues. Agent queues are used to directly route contacts to a specific agent. Now, supervisors can track how these agents perform in their own queues. For example, a…"
     },
     {
       "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-16T18:20:00.000Z",
       "snippet": "Amazon EC2 now surfaces the AWS Systems Manager (SSM) Parameter Store parameters associated with public AMIs directly in the AMI metadata. When you describe a public AMI, the response includes the associated public SSM parameter, making it easy to discover…"
-    },
-    {
-      "title": "Amazon S3 Event Notifications now include system-generated tags",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T18:00:00.000Z",
-      "snippet": "Amazon S3 Event Notifications now include system-generated tags in events delivered to all destinations including Amazon EventBridge, Amazon SQS, Amazon SNS, and AWS Lambda. System-generated tags are metadata labels attached to your bucket by AWS services.…"
-    },
-    {
-      "title": "PostgreSQL 19 Beta 2 is now available in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T18:00:00.000Z",
-      "snippet": "Amazon RDS for PostgreSQL 19 Beta 2 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 2 in the Amazon RDS Database Preview…"
-    },
-    {
-      "title": "AWS Sustainability service now includes water withdrawals data",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-sustainability-water-withdrawals/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T16:43:00.000Z",
-      "snippet": "Customers can now view annual water withdrawals data associated with their AWS workloads in AWS Sustainability, alongside existing carbon emissions data. This enhancement helps organizations gain comprehensive visibility into their environmental impact across…"
-    },
-    {
-      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T16:00:00.000Z",
-      "snippet": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG instances, including up to 2.4x faster query performance than…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T16:00:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids).…"
-    },
-    {
-      "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T15:00:00.000Z",
-      "snippet": "You can now transition objects to S3 Standard-Infrequent Access (S3 Standard-IA) and S3 One Zone-Infrequent Access (S3 One Zone-IA) as soon as the day they are created, without the previous 30-day minimum retention in S3 Standard. These storage classes offer…"
-    },
-    {
-      "title": "Prioritize your AWS Health alerts using AWS User Notifications",
-      "link": "https://aws.amazon.com/blogs/architecture/prioritize-your-aws-health-alerts-using-aws-user-notifications/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-16T14:56:22.000Z",
-      "snippet": "If you run critical workloads on AWS, such as a contact center on Amazon Connect Customer, database workloads on Amazon Relational Database Service (Amazon RDS), or hybrid connectivity through AWS Direct Connect, service health events demand your attention.…"
     }
   ]
 }
