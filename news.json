@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T01:38:55.571Z",
+  "lastUpdated": "2026-07-21T07:39:15.785Z",
   "items": [
     {
       "title": "Introducing the Amazon GuardDuty investigation agent: on-demand AI-powered threat assessment",
@@ -163,18 +163,18 @@
       "snippet": "Amazon EC2 now surfaces the AWS Systems Manager (SSM) Parameter Store parameters associated with public AMIs directly in the AMI metadata. When you describe a public AMI, the response includes the associated public SSM parameter, making it easy to discover…"
     },
     {
-      "title": "PostgreSQL 19 Beta 2 is now available in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-16T18:00:00.000Z",
-      "snippet": "Amazon RDS for PostgreSQL 19 Beta 2 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 2 in the Amazon RDS Database Preview…"
-    },
-    {
       "title": "Amazon S3 Event Notifications now include system-generated tags",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
       "source": "AWS What's New",
       "pubDate": "2026-07-16T18:00:00.000Z",
       "snippet": "Amazon S3 Event Notifications now include system-generated tags in events delivered to all destinations including Amazon EventBridge, Amazon SQS, Amazon SNS, and AWS Lambda. System-generated tags are metadata labels attached to your bucket by AWS services.…"
+    },
+    {
+      "title": "PostgreSQL 19 Beta 2 is now available in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-16T18:00:00.000Z",
+      "snippet": "Amazon RDS for PostgreSQL 19 Beta 2 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 2 in the Amazon RDS Database Preview…"
     },
     {
       "title": "AWS Sustainability service now includes water withdrawals data",
