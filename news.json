@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-22T13:41:04.359Z",
+  "lastUpdated": "2026-07-22T19:41:25.425Z",
   "items": [
+    {
+      "title": "Amazon Corretto July 2026 Quarterly Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T18:00:00.000Z",
+      "snippet": "On July 22, 2026, Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2, 25.0.4, 21.0.12, 17.0.20, 11.0.32, and 8u502 are now available for download.…"
+    },
+    {
+      "title": "Building a serverless AI assistant at Pelago: concept to care in two weeks",
+      "link": "https://aws.amazon.com/blogs/architecture/building-a-serverless-ai-assistant-at-pelago-concept-to-care-in-two-weeks/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-22T17:12:27.000Z",
+      "snippet": "Healthcare organizations face a critical scaling challenge – how to maintain deeply personalized patient interactions as member bases grow, without overwhelming care teams or compromising quality. At Pelago, a digital health company specializing in substance…"
+    },
+    {
+      "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T14:30:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (EKS) now supports Amazon EC2 placement groups and Elastic Fabric Adapter (EFA) network device configuration for node pools on EKS Auto Mode and the open-source Karpenter project, enabling you to optimize EKS workloads for…"
+    },
+    {
+      "title": "Building multi-Region resiliency for AWS CloudFormation custom resource deployment",
+      "link": "https://aws.amazon.com/blogs/architecture/building-multi-region-resiliency-for-aws-cloudformation-custom-resource-deployment/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-22T14:25:09.000Z",
+      "snippet": "AWS CloudFormation is the foundational tool of infrastructure-as-code for thousands of organizations running workloads on AWS. But as teams push the boundaries of what CloudFormation can do natively, custom resources have emerged as a powerful extension…"
+    },
     {
       "title": "Architecting offline-first generative AI applications for edge deployments using AWS services",
       "link": "https://aws.amazon.com/blogs/architecture/architecting-offline-first-generative-ai-applications-for-edge-deployments-using-aws-services/",
@@ -16,6 +44,27 @@
       "snippet": "Organizations in regulated industries like financial services, insurance, healthcare, and government ingest large volumes of data containing personally identifiable information (PII). Your applications, claims processing systems, partner data feeds, and…"
     },
     {
+      "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T07:00:00.000Z",
+      "snippet": "AWS Secrets Manager now automatically publishes events to Amazon EventBridge whenever your secret values change, enabling you to build event-driven workflows that respond in real time to secret updates. Until now, you had to rely on AWS CloudTrail events…"
+    },
+    {
+      "title": "AWS Direct Connect announces 100G expansion in Lima, Peru",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-100g-lima/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T04:00:00.000Z",
+      "snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location within the Cirion data center in Lima, Peru. You can now establish private, direct network access to all public AWS Regions (except those in…"
+    },
+    {
+      "title": "AWS Elastic Disaster Recovery is now available in six additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-21T22:00:00.000Z",
+      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) is now available in six additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Canada West (Calgary), and Mexico (Central). Elastic Disaster Recovery…"
+    },
+    {
       "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
       "source": "AWS What's New",
@@ -23,18 +72,18 @@
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R6in and R6idn instances are available in AWS Europe (Paris) and Canada (Central) regions. These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors…"
     },
     {
-      "title": "Amazon EC2 C6in instances are now available in Asia Pacific (Taipei) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-21T20:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C6in instances are available in AWS Asia Pacific (Taipei). These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors and built on the AWS Nitro…"
-    },
-    {
       "title": "Amazon EC2 M6in and M6idn instances are now available in additional regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m6in-m6idn/",
       "source": "AWS What's New",
       "pubDate": "2026-07-21T20:00:00.000Z",
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances are available in AWS Asia Pacific (Hyderabad) and South America (Sao Paulo) regions. These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon…"
+    },
+    {
+      "title": "Amazon EC2 C6in instances are now available in Asia Pacific (Taipei) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-21T20:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C6in instances are available in AWS Asia Pacific (Taipei). These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors and built on the AWS Nitro…"
     },
     {
       "title": "Do more with AWS WAF labels using dynamic label interpolation",
@@ -77,6 +126,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-21T07:45:00.000Z",
       "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR…"
+    },
+    {
+      "title": "AWS Marketplace now supports self-service seller signature management for India-based sellers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-marketplace-india/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-21T07:18:00.000Z",
+      "snippet": "AWS Marketplace now enables India-based sellers to upload and manage their seller signatures directly through AWS Partner Central, eliminating the previous manual, email-based submission process. Sellers located in India are required to provide a valid seller…"
     },
     {
       "title": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2025",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-20T15:28:00.000Z",
       "snippet": "Amazon Connect Customer dashboards now display real-time and historical metrics for agent queues. Agent queues are used to directly route contacts to a specific agent. Now, supervisors can track how these agents perform in their own queues. For example, a…"
-    },
-    {
-      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T15:00:00.000Z",
-      "snippet": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.3. This release includes adaptive partition selection for improved backpressure handling, so applications run more smoothly under uneven load. It also introduces better handling of…"
-    },
-    {
-      "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T15:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now supports Microsoft OneDrive for Business and Google Drive as persistent storage options on multi-session fleets. Users streaming on multi-session fleets can now connect their OneDrive or Google Drive accounts and access,…"
-    },
-    {
-      "title": "Announcing the general availability of a new AWS Local Zone in Athens, Greece",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-local-zone-athens-greece/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T14:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of a new Local Zone in Athens, Greece. The Athens Local Zone is the second Local Zone in EMEA with support for Amazon Simple Storage Service (Amazon S3) and Amazon Elastic Block Store (Amazon EBS) Local Snapshots,…"
-    },
-    {
-      "title": "Amazon CloudWatch announces coding agent insights",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-coding-agent-insights/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T09:51:00.000Z",
-      "snippet": "Amazon CloudWatch announces the launch of coding agent insights, giving engineering leaders visibility into how AI coding tools are driving value across their organization. Coding Agent Insights integrates with Claude apps gateway for AWS to collect telemetry…"
-    },
-    {
-      "title": "Introducing KNFSD File Cache - Now in Preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/knfsd-file-cache/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T08:00:00.000Z",
-      "snippet": "Today, AWS announces the availability of KNFSD File Cache, an open-source, Apache-2.0 licensed solution for deploying a scalable, high-speed Network File System (NFS) cache on AWS. KNFSD File Cache mounts exports from one or more source NFS servers, whether…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio adds custom visual transforms",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-17T21:40:00.000Z",
-      "snippet": "With Amazon SageMaker Unified Studio, you can now create, share, and reuse custom visual transforms in visual ETL flows. This capability enables data engineers to build reusable, business-specific transformation logic and make it available to their teams…"
-    },
-    {
-      "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-17T17:29:00.000Z",
-      "snippet": "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 buckets and DynamoDB tables. With this launch, you can pass a RoleArn parameter when…"
-    },
-    {
-      "title": "Amazon OpenSearch UI now supports one-click dashboard migration",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-17T17:23:00.000Z",
-      "snippet": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new, zero-downtime, serverless interface for search and unified…"
     }
   ]
 }
