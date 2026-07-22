@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-07-22T07:40:43.591Z",
+  "lastUpdated": "2026-07-22T13:41:04.359Z",
   "items": [
+    {
+      "title": "Architecting offline-first generative AI applications for edge deployments using AWS services",
+      "link": "https://aws.amazon.com/blogs/architecture/architecting-offline-first-generative-ai-applications-for-edge-deployments-using-aws-services/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-22T13:32:57.000Z",
+      "snippet": "According to Siemens’ 2024 report The True Cost of Downtime, Fortune 500 companies lose an estimated $1.4 trillion annually because of unplanned downtime. This downtime is often worsened by a lack of skills to detect and resolve issues quickly. Generative AI…"
+    },
+    {
+      "title": "Automate custom PII detection at scale with Amazon Macie and Step Functions",
+      "link": "https://aws.amazon.com/blogs/architecture/automate-custom-pii-detection-at-scale-with-amazon-macie-and-step-functions/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-07-22T13:30:26.000Z",
+      "snippet": "Organizations in regulated industries like financial services, insurance, healthcare, and government ingest large volumes of data containing personally identifiable information (PII). Your applications, claims processing systems, partner data feeds, and…"
+    },
     {
       "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-17T17:23:00.000Z",
       "snippet": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new, zero-downtime, serverless interface for search and unified…"
-    },
-    {
-      "title": "Eclipse Dataspace Components on AWS: Cost optimization strategies",
-      "link": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-cost-optimization-strategies/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-17T16:03:47.000Z",
-      "snippet": "When you deploy Eclipse Dataspace Components (EDC) connectors on AWS, one of the first challenges you face is predicting and controlling the cost of the required infrastructure. Without clear benchmarks, it is difficult to make informed decisions about…"
-    },
-    {
-      "title": "Eclipse Dataspace Components on AWS: Architecture patterns in production",
-      "link": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-architecture-patterns-in-production/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-17T16:03:44.000Z",
-      "snippet": "Running Eclipse Dataspace Components (EDC) connectors in production on AWS requires deliberate architecture decisions around isolation, managed services, and security layering. In Part 1 of this series, we covered the fundamentals of data space architectures…"
     }
   ]
 }
