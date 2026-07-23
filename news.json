@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-07-23T13:42:28.825Z",
+  "lastUpdated": "2026-07-23T19:42:45.610Z",
   "items": [
+    {
+      "title": "Amazon RDS for MySQL supports MySQL 9.7 in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-mysql-long-term-9-7-rds-database-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-23T18:05:00.000Z",
+      "snippet": "Amazon RDS for MySQL now supports version community MySQL 9.7 in the Amazon RDS Database Preview Environment, allowing you to evaluate the latest Release on Amazon RDS for MySQL. This preview environment provides a sandbox where you can test applications and…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-23T17:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group. Previously, AgentCore split agent telemetry across multiple…"
+    },
+    {
+      "title": "Enterprise security at machine speed: AWS Black Hat 2026 preview",
+      "link": "https://aws.amazon.com/blogs/security/enterprise-security-at-machine-speed-aws-black-hat-2026-preview/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-23T16:23:30.000Z",
+      "snippet": "Black Hat 2026 (Aug 1-6, 2026) brings together over 22,000 security practitioners, researchers, and CISOs who build, break, and defend enterprise infrastructure. They’re security professionals who push the limits of offensive and defensive security and demand…"
+    },
+    {
+      "title": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-23T16:02:00.000Z",
+      "snippet": "AWS GovCloud (US) now offers Claude Sonnet 5 on Amazon Bedrock. Claude Sonnet 5 delivers strong performance across coding, professional work, and agentic tasks while maintaining the balance of capability, cost, and speed. For coding, it navigates large…"
+    },
+    {
+      "title": "Announcing region expansion of G7e instances on SageMaker AI inference",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-23T15:04:00.000Z",
+      "snippet": "We are pleased to announce the availability of Amazon EC2 G7e instances in Asia Pacific (Seoul), Europe (London), and Asia Pacific (Tokyo) on Amazon SageMaker AI inference. G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs with…"
+    },
+    {
+      "title": "Announcing region expansion of G6 instances on SageMaker AI Inference",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-23T14:51:00.000Z",
+      "snippet": "We are pleased to announce the availability of Amazon EC2 G6 instances in the AWS GovCloud (US-East) region on Amazon SageMaker AI inference. G6 instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs, each with 24 GB of memory, and third-generation AMD…"
+    },
     {
       "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
@@ -14,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-22T20:55:00.000Z",
       "snippet": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30%…"
+    },
+    {
+      "title": "Amazon EC2 M8id instances are now available in Europe (Ireland) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8id-europe-ireland/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T19:55:00.000Z",
+      "snippet": "Amazon EC2 M8id instances are now available in (Ireland). These instances are powered by custom Intel Xeon 6 processors and deliver up to 43% higher performance and 3.3x more memory bandwidth compared to previous generation M6id instances. M8id instances…"
     },
     {
       "title": "AWS Network Load Balancer now supports Listener Rules for custom traffic routing",
@@ -56,6 +105,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-22T17:00:00.000Z",
       "snippet": "AWS Organizations now supports up to 2,000 resource control policies (RCPs) per organization, doubling the previous limit of 1,000. RCPs enable centralized management of the maximum permissions available to resources across member accounts in your…"
+    },
+    {
+      "title": "Amazon SageMaker AI inference now supports G7 instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-ai-g7/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T15:23:00.000Z",
+      "snippet": "Amazon SageMaker AI inference now supports G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs, enabling you to deploy machine learning models with up to 4.6x AI inference performance compared to previous-generation G6 instances.…"
     },
     {
       "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-21T17:00:00.000Z",
       "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies in the AWS European Sovereign Cloud, making software updates for containerized applications safer and allowing you to release new…"
-    },
-    {
-      "title": "Amazon SES introduces pricing plans",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-21T16:35:00.000Z",
-      "snippet": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three hierarchical options: Essentials, Pro, and Enterprise. Each…"
-    },
-    {
-      "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-21T15:30:00.000Z",
-      "snippet": "Today, Amazon Elastic Container Service (Amazon ECS) introduces Action Logs, a new observability feature that delivers detailed, timestamped records of the actions Amazon ECS performs on behalf of customers during service deployments and ECS Managed Daemon…"
-    },
-    {
-      "title": "Amazon Managed Service for Prometheus supports 1.5B active metrics and 200K rules per workspace",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-21T14:00:00.000Z",
-      "snippet": "Amazon Managed Service for Prometheus now supports up to 1.5 billion active metric time series and up to 200,000 total recording and alerting rules per workspace. Customers can also create many workspaces per account, enabling the storage and analysis of…"
-    },
-    {
-      "title": "AWS Marketplace now supports self-service seller signature management for India-based sellers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-marketplace-india/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-21T07:18:00.000Z",
-      "snippet": "AWS Marketplace now enables India-based sellers to upload and manage their seller signatures directly through AWS Partner Central, eliminating the previous manual, email-based submission process. Sellers located in India are required to provide a valid seller…"
-    },
-    {
-      "title": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2025",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-21T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Microsoft SQL Server 2025 for Enterprise, Standard, and Developer editions. SQL Server 2025 brings AI integration directly into the database engine, enabling customers to invoke…"
-    },
-    {
-      "title": "Introducing the Amazon GuardDuty investigation agent: on-demand AI-powered threat assessment",
-      "link": "https://aws.amazon.com/blogs/security/introducing-the-amazon-guardduty-investigation-agent-on-demand-ai-powered-threat-assessment/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-20T21:59:00.000Z",
-      "snippet": "The new Amazon GuardDuty investigation agent (now in public preview) investigates security findings across your Amazon Web Services (AWS) environment, reducing investigation time from hours to minutes. GuardDuty is our managed threat detection service that…"
-    },
-    {
-      "title": "AWS Partner Central agents expand funding guidance to all programs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-partner-central/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T20:08:00.000Z",
-      "snippet": "AWS Partner Central agents now support all AWS Partner funding programs. AWS Partners can get guidance on eligibility requirements, application processes, and program details for any funding program and receive documentation-backed answers in seconds. The…"
-    },
-    {
-      "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T18:29:00.000Z",
-      "snippet": "Today, AWS announces standardized product metadata for Amazon Bedrock in AWS Data Exports (Cost and Usage Report), giving FinOps teams and cloud administrators consistent, structured attributes to understand Bedrock costs. AWS Data Exports lets you create…"
     }
   ]
 }
