@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-07-22T19:41:25.425Z",
+  "lastUpdated": "2026-07-23T01:41:42.849Z",
   "items": [
+    {
+      "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T21:42:00.000Z",
+      "snippet": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS US West (N. California) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% higher…"
+    },
+    {
+      "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T20:55:00.000Z",
+      "snippet": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30%…"
+    },
+    {
+      "title": "AWS Network Load Balancer now supports Listener Rules for custom traffic routing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T19:13:00.000Z",
+      "snippet": "Network Load Balancer (NLB) now supports listener rules allowing you to route connections to different target groups based on the source IP address type. With listener rules, a single dual-stack NLB sends IPv6 client traffic to IPv6 targets and IPv4 client…"
+    },
+    {
+      "title": "AWS Entity Resolution now supports advanced real-time matching",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-entity-resolution/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T19:00:00.000Z",
+      "snippet": "AWS Entity Resolution now supports real-time matching with advanced matching workflows, enabling customers to match records in milliseconds using complex rulesets through the GenerateMatchId API. Previously, real-time matching was limited to simple rule-based…"
+    },
+    {
+      "title": "AWS Lambda durable functions now supports customer managed key encryption",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T18:30:00.000Z",
+      "snippet": "AWS Lambda durable functions now supports encryption of durable execution data with an AWS Key Management Service (AWS KMS) customer managed key. Lambda durable functions lets you build long-running, reliable workflows directly in your Lambda function code…"
+    },
     {
       "title": "Amazon Corretto July 2026 Quarterly Updates",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
@@ -14,6 +49,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-07-22T17:12:27.000Z",
       "snippet": "Healthcare organizations face a critical scaling challenge – how to maintain deeply personalized patient interactions as member bases grow, without overwhelming care teams or compromising quality. At Pelago, a digital health company specializing in substance…"
+    },
+    {
+      "title": "AWS Organizations increases RCP quota to 2,000 per organization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T17:00:00.000Z",
+      "snippet": "AWS Organizations now supports up to 2,000 resource control policies (RCPs) per organization, doubling the previous limit of 1,000. RCPs enable centralized management of the maximum permissions available to resources across member accounts in your…"
     },
     {
       "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
@@ -42,6 +84,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-07-22T13:30:26.000Z",
       "snippet": "Organizations in regulated industries like financial services, insurance, healthcare, and government ingest large volumes of data containing personally identifiable information (PII). Your applications, claims processing systems, partner data feeds, and…"
+    },
+    {
+      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-22T07:45:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR…"
     },
     {
       "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
@@ -86,6 +135,13 @@
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C6in instances are available in AWS Asia Pacific (Taipei). These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors and built on the AWS Nitro…"
     },
     {
+      "title": "Amazon SageMaker Unified Studio now supports Amazon OpenSearch",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-21T17:36:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports Amazon OpenSearch as a data source, enabling you to query and analyze your search and log analytics data directly alongside your other data assets. With this new connection, you can combine operational search data…"
+    },
+    {
       "title": "Do more with AWS WAF labels using dynamic label interpolation",
       "link": "https://aws.amazon.com/blogs/security/do-more-with-aws-waf-labels-using-dynamic-label-interpolation/",
       "source": "AWS Security Blog",
@@ -121,13 +177,6 @@
       "snippet": "Amazon Managed Service for Prometheus now supports up to 1.5 billion active metric time series and up to 200,000 total recording and alerting rules per workspace. Customers can also create many workspaces per account, enabling the storage and analysis of…"
     },
     {
-      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-21T07:45:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR…"
-    },
-    {
       "title": "AWS Marketplace now supports self-service seller signature management for India-based sellers",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-marketplace-india/",
       "source": "AWS What's New",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-20T18:29:00.000Z",
       "snippet": "Today, AWS announces standardized product metadata for Amazon Bedrock in AWS Data Exports (Cost and Usage Report), giving FinOps teams and cloud administrators consistent, structured attributes to understand Bedrock costs. AWS Data Exports lets you create…"
-    },
-    {
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8i-r8i-flex-instances-in-stockholm-zurich-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T17:37:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Stockholm, Zurich) regions. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest…"
-    },
-    {
-      "title": "Selectively log network activity events by identity in AWS CloudTrail",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-cloudtrail-filter-useridentity-advance-selectors/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T17:34:00.000Z",
-      "snippet": "Today, AWS launches enhanced event filtering for network activity events for VPC end points, a CloudTrail event type that captures actions transmitted through a Virtual Private Cloud Endpoint. Customers can now control which network activity events are logged…"
-    },
-    {
-      "title": "2026 ISO and CSA STAR certificates are now available with two additional services",
-      "link": "https://aws.amazon.com/blogs/security/2026-iso-and-csa-star-certificates-are-now-available-with-two-additional-services/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-20T16:40:16.000Z",
-      "snippet": "Amazon Web Services (AWS) successfully completed an onboarding audit with no findings for ISO 9001:2015, 27001:2022, 27017:2015, 27018:2019, 27701:2019, 20000-1:2018, and 22301:2019, and Cloud Security Alliance (CSA) STAR Cloud Controls Matrix (CCM) v4.0. EY…"
-    },
-    {
-      "title": "AWS Weekly Roundup: One-click Lambda setup prompt, OpenAI GPT-5.6 models on Bedrock, and more (July 20, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-07-20T16:37:34.000Z",
-      "snippet": "Last week, my team visited Seoul to meet AWS Korea User Group (AWSKRUG) leaders. AWSKRUG is the largest cloud developer community in Korea, with 20 meetup groups organized by topic and area that collectively host over 100 events each year, primarily in Seoul.…"
-    },
-    {
-      "title": "Amazon Connect delivers more natural agentic voice experiences with expanded language support and speech controls",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-agentic-voice/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T16:16:00.000Z",
-      "snippet": "Amazon Connect customers can now deliver more natural, human-sounding agentic voice experiences with expanded support across 50+ languages including Spanish, French, Italian, Japanese, Korean, Portuguese, and Thai, over 100 new voice options, and…"
-    },
-    {
-      "title": "Amazon EC2 I8ge instances are now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8ge-instances-aws-govcloud-us-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T16:00:00.000Z",
-      "snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS GovCloud (US-East, US-West) regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to 60% better compute performance compared to previous…"
-    },
-    {
-      "title": "Amazon Connect Customer launches metrics for agent queues on analytics dashboards",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-20T15:28:00.000Z",
-      "snippet": "Amazon Connect Customer dashboards now display real-time and historical metrics for agent queues. Agent queues are used to directly route contacts to a specific agent. Now, supervisors can track how these agents perform in their own queues. For example, a…"
     }
   ]
 }
