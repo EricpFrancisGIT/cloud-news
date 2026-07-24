@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-24T13:43:41.221Z",
+  "lastUpdated": "2026-07-24T19:44:04.536Z",
   "items": [
+    {
+      "title": "Claude Opus 5 is now available on AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T15:00:00.000Z",
+      "snippet": "AWS now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level. Claude Opus 5…"
+    },
+    {
+      "title": "Opus 4.8, Sonnet 5, and User Activity Monitoring now available on Kiro in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T14:00:00.000Z",
+      "snippet": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 4.8 is the most intelligent Opus model, delivering stronger self-verification, more efficient tool calling, and better follow-through on long-horizon…"
+    },
+    {
+      "title": "AWS announces aws-bench, an open-source benchmark for AI agents on AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T13:00:00.000Z",
+      "snippet": "Today, AWS announces a research preview of aws-bench, an open-source benchmark that measures how accurately and efficiently AI agents complete real-world AWS tasks. Model providers and AI researchers building agents that operate on AWS infrastructure need an…"
+    },
     {
       "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
@@ -42,6 +63,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-23T17:00:00.000Z",
       "snippet": "Amazon CloudWatch Logs now supports Application Load Balancer (ALB) logs as vended logs, improving observability and simplifying debugging for network traffic patterns. You can now analyze ALB access, connection and health check logs directly in CloudWatch to…"
+    },
+    {
+      "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-i8ge-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-23T17:00:00.000Z",
+      "snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS Europe (London) and Canada (Central) regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to 60% better compute performance compared to previous…"
     },
     {
       "title": "Amazon EVS is now available in additional Regions",
@@ -182,34 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-07-22T13:32:57.000Z",
       "snippet": "According to Siemens’ 2024 report The True Cost of Downtime, Fortune 500 companies lose an estimated $1.4 trillion annually because of unplanned downtime. This downtime is often worsened by a lack of skills to detect and resolve issues quickly. Generative AI…"
-    },
-    {
-      "title": "Automate custom PII detection at scale with Amazon Macie and Step Functions",
-      "link": "https://aws.amazon.com/blogs/architecture/automate-custom-pii-detection-at-scale-with-amazon-macie-and-step-functions/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-22T13:30:26.000Z",
-      "snippet": "Organizations in regulated industries like financial services, insurance, healthcare, and government ingest large volumes of data containing personally identifiable information (PII). Your applications, claims processing systems, partner data feeds, and…"
-    },
-    {
-      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T07:45:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR…"
-    },
-    {
-      "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T07:00:00.000Z",
-      "snippet": "AWS Secrets Manager now automatically publishes events to Amazon EventBridge whenever your secret values change, enabling you to build event-driven workflows that respond in real time to secret updates. Until now, you had to rely on AWS CloudTrail events…"
-    },
-    {
-      "title": "AWS Direct Connect announces 100G expansion in Lima, Peru",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-100g-lima/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T04:00:00.000Z",
-      "snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location within the Cirion data center in Lima, Peru. You can now establish private, direct network access to all public AWS Regions (except those in…"
     }
   ]
 }
