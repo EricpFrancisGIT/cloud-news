@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T01:43:02.944Z",
+  "lastUpdated": "2026-07-24T07:43:24.730Z",
   "items": [
     {
       "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
@@ -23,11 +23,25 @@
       "snippet": "Amazon RDS for MySQL now supports version community MySQL 9.7 in the Amazon RDS Database Preview Environment, allowing you to evaluate the latest Release on Amazon RDS for MySQL. This preview environment provides a sandbox where you can test applications and…"
     },
     {
+      "title": "AWS Lambda durable execution SDK for .NET is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-23T18:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for .NET, empowering C# developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applications…"
+    },
+    {
       "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
       "source": "AWS What's New",
       "pubDate": "2026-07-23T17:00:00.000Z",
       "snippet": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group. Previously, AgentCore split agent telemetry across multiple…"
+    },
+    {
+      "title": "Amazon CloudWatch Logs now supports Application Load Balancer logs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-23T17:00:00.000Z",
+      "snippet": "Amazon CloudWatch Logs now supports Application Load Balancer (ALB) logs as vended logs, improving observability and simplifying debugging for network traffic patterns. You can now analyze ALB access, connection and health check logs directly in CloudWatch to…"
     },
     {
       "title": "Amazon EVS is now available in additional Regions",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-22T04:00:00.000Z",
       "snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location within the Cirion data center in Lima, Peru. You can now establish private, direct network access to all public AWS Regions (except those in…"
-    },
-    {
-      "title": "AWS Elastic Disaster Recovery is now available in six additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-21T22:00:00.000Z",
-      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) is now available in six additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Canada West (Calgary), and Mexico (Central). Elastic Disaster Recovery…"
-    },
-    {
-      "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-21T20:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R6in and R6idn instances are available in AWS Europe (Paris) and Canada (Central) regions. These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors…"
     }
   ]
 }
