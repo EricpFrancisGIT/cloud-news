@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-07-24T19:44:04.536Z",
+  "lastUpdated": "2026-07-25T01:44:24.170Z",
   "items": [
+    {
+      "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T23:11:00.000Z",
+      "snippet": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT administrators need to complete a one-time setup for their virtual…"
+    },
+    {
+      "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T21:57:00.000Z",
+      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11.2. Amazon MWAA is a managed service that runs Apache Airflow at scale without the operational overhead of managing the underlying infrastructure. Apache Airflow 2.11.2…"
+    },
+    {
+      "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T21:00:00.000Z",
+      "snippet": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS License Manager. This flexibility is particularly valuable…"
+    },
+    {
+      "title": "Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent",
+      "link": "https://aws.amazon.com/blogs/security/accelerating-aws-network-firewall-troubleshooting-with-aws-devops-agent/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-24T19:54:48.000Z",
+      "snippet": "When an administrator introduces a rule change in AWS Network Firewall and network connectivity is disrupted, pinpointing the cause requires inspecting multiple points in the traffic path. The firewall gives you stateless and stateful rule engines, domain…"
+    },
+    {
+      "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T18:55:00.000Z",
+      "snippet": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. On-demand streams automatically increase ingest capacity in response to rising data ingest usage. With On-demand…"
+    },
+    {
+      "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T16:00:00.000Z",
+      "snippet": "AWS Lambda now publishes logs for Lambda Managed Instances (LMI) capacity providers to Amazon CloudWatch Logs, giving you visibility into scaling activity and instance lifecycle operations. LMI enables you to run Lambda functions on Amazon EC2 instances while…"
+    },
+    {
+      "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T15:03:00.000Z",
+      "snippet": "Amazon Simple Email Service (SES) now offers a simplified console experience for sending emails over SMTP using Mail Manager. Mail Manager is a capability within SES for managing email flow, but configuring its resources individually to set up SMTP sending…"
+    },
     {
       "title": "Claude Opus 5 is now available on AWS",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-22T18:30:00.000Z",
       "snippet": "AWS Lambda durable functions now supports encryption of durable execution data with an AWS Key Management Service (AWS KMS) customer managed key. Lambda durable functions lets you build long-running, reliable workflows directly in your Lambda function code…"
-    },
-    {
-      "title": "Amazon Corretto July 2026 Quarterly Updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T18:00:00.000Z",
-      "snippet": "On July 22, 2026, Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2, 25.0.4, 21.0.12, 17.0.20, 11.0.32, and 8u502 are now available for download.…"
-    },
-    {
-      "title": "Building a serverless AI assistant at Pelago: concept to care in two weeks",
-      "link": "https://aws.amazon.com/blogs/architecture/building-a-serverless-ai-assistant-at-pelago-concept-to-care-in-two-weeks/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-22T17:12:27.000Z",
-      "snippet": "Healthcare organizations face a critical scaling challenge – how to maintain deeply personalized patient interactions as member bases grow, without overwhelming care teams or compromising quality. At Pelago, a digital health company specializing in substance…"
-    },
-    {
-      "title": "AWS Organizations increases RCP quota to 2,000 per organization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T17:00:00.000Z",
-      "snippet": "AWS Organizations now supports up to 2,000 resource control policies (RCPs) per organization, doubling the previous limit of 1,000. RCPs enable centralized management of the maximum permissions available to resources across member accounts in your…"
-    },
-    {
-      "title": "Amazon SageMaker AI inference now supports G7 instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-ai-g7/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T15:23:00.000Z",
-      "snippet": "Amazon SageMaker AI inference now supports G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs, enabling you to deploy machine learning models with up to 4.6x AI inference performance compared to previous-generation G6 instances.…"
-    },
-    {
-      "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T14:30:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (EKS) now supports Amazon EC2 placement groups and Elastic Fabric Adapter (EFA) network device configuration for node pools on EKS Auto Mode and the open-source Karpenter project, enabling you to optimize EKS workloads for…"
-    },
-    {
-      "title": "Building multi-Region resiliency for AWS CloudFormation custom resource deployment",
-      "link": "https://aws.amazon.com/blogs/architecture/building-multi-region-resiliency-for-aws-cloudformation-custom-resource-deployment/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-22T14:25:09.000Z",
-      "snippet": "AWS CloudFormation is the foundational tool of infrastructure-as-code for thousands of organizations running workloads on AWS. But as teams push the boundaries of what CloudFormation can do natively, custom resources have emerged as a powerful extension…"
-    },
-    {
-      "title": "Architecting offline-first generative AI applications for edge deployments using AWS services",
-      "link": "https://aws.amazon.com/blogs/architecture/architecting-offline-first-generative-ai-applications-for-edge-deployments-using-aws-services/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-07-22T13:32:57.000Z",
-      "snippet": "According to Siemens’ 2024 report The True Cost of Downtime, Fortune 500 companies lose an estimated $1.4 trillion annually because of unplanned downtime. This downtime is often worsened by a lack of skills to detect and resolve issues quickly. Generative AI…"
     }
   ]
 }
