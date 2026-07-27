@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-27T13:20:19.554Z",
+  "lastUpdated": "2026-07-27T19:20:46.837Z",
   "items": [
+    {
+      "title": "AWS Shield Advanced is embracing the AWS WAF Anti-DDoS managed rule group: What changes and how to prepare",
+      "link": "https://aws.amazon.com/blogs/security/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-27T19:01:23.000Z",
+      "snippet": "Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now among the most common vectors targeting web applications, using valid-looking requests that…"
+    },
+    {
+      "title": "Announcing the Cloud Security Alliance on AWS Compliance Guide",
+      "link": "https://aws.amazon.com/blogs/security/announcing-the-cloud-security-alliance-on-aws-compliance-guide/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-27T16:15:44.000Z",
+      "snippet": "AWS Security Assurance Services is announcing the release of the Cloud Security Alliance (CSA) Compliance Guide on Amazon Web Service (AWS), a new resource that maps the 17 control domains and 207 control objectives of the Cloud Controls Matrix v4.1 (CCM) to…"
+    },
+    {
+      "title": "AWS Elemental MediaTailor adds configurable ad timeout and concurrency controls for improved ad fill and faster startup",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-27T16:09:00.000Z",
+      "snippet": "AWS Elemental MediaTailor now gives you direct control over ad decision server (ADS) timeout. Previously, changing these settings required contacting AWS Support. You can now configure individual HTTP ad request timeouts, total ad personalization time budgets…"
+    },
+    {
+      "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-07-27T14:54:41.000Z",
+      "snippet": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What…"
+    },
     {
       "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-22T20:55:00.000Z",
       "snippet": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30%…"
-    },
-    {
-      "title": "Amazon EC2 M8id instances are now available in Europe (Ireland) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8id-europe-ireland/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T19:55:00.000Z",
-      "snippet": "Amazon EC2 M8id instances are now available in (Ireland). These instances are powered by custom Intel Xeon 6 processors and deliver up to 43% higher performance and 3.3x more memory bandwidth compared to previous generation M6id instances. M8id instances…"
-    },
-    {
-      "title": "AWS Network Load Balancer now supports Listener Rules for custom traffic routing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T19:13:00.000Z",
-      "snippet": "Network Load Balancer (NLB) now supports listener rules allowing you to route connections to different target groups based on the source IP address type. With listener rules, a single dual-stack NLB sends IPv6 client traffic to IPv6 targets and IPv4 client…"
-    },
-    {
-      "title": "AWS Entity Resolution now supports advanced real-time matching",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-entity-resolution/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T19:00:00.000Z",
-      "snippet": "AWS Entity Resolution now supports real-time matching with advanced matching workflows, enabling customers to match records in milliseconds using complex rulesets through the GenerateMatchId API. Previously, real-time matching was limited to simple rule-based…"
-    },
-    {
-      "title": "AWS Lambda durable functions now supports customer managed key encryption",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T18:30:00.000Z",
-      "snippet": "AWS Lambda durable functions now supports encryption of durable execution data with an AWS Key Management Service (AWS KMS) customer managed key. Lambda durable functions lets you build long-running, reliable workflows directly in your Lambda function code…"
     }
   ]
 }
