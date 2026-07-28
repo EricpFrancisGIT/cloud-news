@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-07-28T13:22:00.676Z",
+  "lastUpdated": "2026-07-28T19:22:18.749Z",
   "items": [
+    {
+      "title": "AWS KMS or AWS CloudHSM: Choose the right key management solution",
+      "link": "https://aws.amazon.com/blogs/security/aws-kms-or-aws-cloudhsm-choose-the-right-key-management-solution/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-28T18:55:43.000Z",
+      "snippet": "Choosing the right cryptographic key management service on Amazon Web Services (AWS) starts with understanding the difference between AWS Key Management Service (AWS KMS) and AWS CloudHSM. Both provide key storage backed by a hardware security module (HSM)…"
+    },
+    {
+      "title": "2026 Phase 1a IRAP report is now available on AWS Artifact for Australian customers",
+      "link": "https://aws.amazon.com/blogs/security/2026-phase-1a-irap-report-is-now-available-on-aws-artifact-for-australian-customers/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-28T17:16:34.000Z",
+      "snippet": "Amazon Web Services (AWS) is excited to announce that the latest version of Information Security Registered Assessors Program (IRAP) report (Phase 1a – full assessment) is now available through AWS Artifact. An independent Australian Signals Directorate (ASD)…"
+    },
+    {
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-28T16:00:00.000Z",
+      "snippet": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid…"
+    },
+    {
+      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-28T16:00:00.000Z",
+      "snippet": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on their Console Home dashboard. With the Cost and Usage widget,…"
+    },
+    {
+      "title": "AWS DataSync Enhanced mode adds HDFS, Azure Blob, and object storage locations with Hyper-V agent support",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-hdfs-azure-blob-hyper-v/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-28T10:00:00.000Z",
+      "snippet": "AWS DataSync Enhanced mode now supports agent-based data transfers with Hadoop Distributed File Systems (HDFS), Microsoft Azure Blob Storage, and self-managed object storage. Additionally, Enhanced mode agents can now be deployed on Microsoft Hyper-V. Using a…"
+    },
+    {
+      "title": "Amazon S3 Tables now support the Variant data type for Apache Iceberg V3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-28T07:00:00.000Z",
+      "snippet": "Amazon S3 Tables now support the Variant data type as defined in the Apache Iceberg Version 3 (V3) specification. You can now write semi-structured data like JSON directly to S3 Tables without defining a fixed schema in advance, allowing you to land data…"
+    },
     {
       "title": "Amazon Neptune now supports tag-based access control for IAM",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-23T18:05:00.000Z",
       "snippet": "Amazon RDS for MySQL now supports version community MySQL 9.7 in the Amazon RDS Database Preview Environment, allowing you to evaluate the latest Release on Amazon RDS for MySQL. This preview environment provides a sandbox where you can test applications and…"
-    },
-    {
-      "title": "AWS Lambda durable execution SDK for .NET is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T18:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for .NET, empowering C# developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applications…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T17:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group. Previously, AgentCore split agent telemetry across multiple…"
-    },
-    {
-      "title": "Amazon CloudWatch Logs now supports Application Load Balancer logs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T17:00:00.000Z",
-      "snippet": "Amazon CloudWatch Logs now supports Application Load Balancer (ALB) logs as vended logs, improving observability and simplifying debugging for network traffic patterns. You can now analyze ALB access, connection and health check logs directly in CloudWatch to…"
-    },
-    {
-      "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-i8ge-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T17:00:00.000Z",
-      "snippet": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS Europe (London) and Canada (Central) regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to 60% better compute performance compared to previous…"
-    },
-    {
-      "title": "Amazon EVS is now available in additional Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T16:24:00.000Z",
-      "snippet": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Seoul), Europe (Zurich), and Europe (Stockholm) Regions. This expansion provides more options to leverage the scale and flexibility of AWS for…"
-    },
-    {
-      "title": "Enterprise security at machine speed: AWS Black Hat 2026 preview",
-      "link": "https://aws.amazon.com/blogs/security/enterprise-security-at-machine-speed-aws-black-hat-2026-preview/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-23T16:23:30.000Z",
-      "snippet": "Black Hat 2026 (Aug 1-6, 2026) brings together over 22,000 security practitioners, researchers, and CISOs who build, break, and defend enterprise infrastructure. They’re security professionals who push the limits of offensive and defensive security and demand…"
     }
   ]
 }
