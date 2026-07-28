@@ -1,12 +1,47 @@
 {
-  "lastUpdated": "2026-07-27T19:20:46.837Z",
+  "lastUpdated": "2026-07-28T01:21:07.517Z",
   "items": [
+    {
+      "title": "Amazon Neptune now supports tag-based access control for IAM",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-27T22:00:00.000Z",
+      "snippet": "Amazon Neptune Database now supports tag-based access control (TBAC) for IAM, enabling customers to use AWS resource tags and IAM principal tags as conditions in IAM policies and Service Control Policies (SCPs) to control access to Neptune data-plane…"
+    },
+    {
+      "title": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-27T20:45:00.000Z",
+      "snippet": "AWS Glue Data Quality now supports anomaly detection for Catalog-based data quality evaluations and the ability to write evaluation results to AWS Glue Data Catalog (GDC) tables. These capabilities work across both ETL jobs and Catalog evaluations, giving you…"
+    },
+    {
+      "title": "AWS Glue Data Quality now supports distribution statistics for data profiling",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-27T20:23:00.000Z",
+      "snippet": "AWS Glue Data Quality now supports a new Distribution Analyzer that generates frequency distribution profiles for your data. Using this new Distribution Analyzer in the Data Quality Definition Language (DQDL), you can generate histograms for numeric columns…"
+    },
     {
       "title": "AWS Shield Advanced is embracing the AWS WAF Anti-DDoS managed rule group: What changes and how to prepare",
       "link": "https://aws.amazon.com/blogs/security/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/",
       "source": "AWS Security Blog",
       "pubDate": "2026-07-27T19:01:23.000Z",
       "snippet": "Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now among the most common vectors targeting web applications, using valid-looking requests that…"
+    },
+    {
+      "title": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-27T18:58:00.000Z",
+      "snippet": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution, giving you greater control over the streaming experience across diverse player devices and network conditions. With Custom Aspect Ratio, you can configure a specific resolution…"
+    },
+    {
+      "title": "AWS Security Hub MCP App brings exposure findings into your AI-assisted workflow (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-27T17:00:00.000Z",
+      "snippet": "AWS announces the preview of the AWS Security Hub MCP App, a local Model Context Protocol (MCP) server that brings your Security Hub exposure findings directly into Claude Desktop. This capability can help accelerates your security investigations by reducing…"
     },
     {
       "title": "Announcing the Cloud Security Alliance on AWS Compliance Guide",
@@ -28,6 +63,13 @@
       "source": "AWS News Blog",
       "pubDate": "2026-07-27T14:54:41.000Z",
       "snippet": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What…"
+    },
+    {
+      "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-27T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports restoring Transparent Data Encryption (TDE)-enabled SQL Server databases on Multi-AZ instances and instances configured with a read replica in the same region, using native backup and…"
     },
     {
       "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
@@ -100,6 +142,13 @@
       "snippet": "Today, AWS announces a research preview of aws-bench, an open-source benchmark that measures how accurately and efficiently AI agents complete real-world AWS tasks. Model providers and AI researchers building agents that operate on AWS infrastructure need an…"
     },
     {
+      "title": "AWS Clean Rooms supports larger worker types up to 32 vCPUs for SQL",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-clean-rooms-32-vcpu-worker-types-sql",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-24T12:00:00.000Z",
+      "snippet": "AWS Clean Rooms now supports larger worker types of 32 vCPUs with 244 GB of memory for SQL analyses, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker type available was 16 vCPUs with 120 GB of memory. Larger…"
+    },
+    {
       "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
       "source": "AWS What's New",
@@ -161,55 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-07-23T16:23:30.000Z",
       "snippet": "Black Hat 2026 (Aug 1-6, 2026) brings together over 22,000 security practitioners, researchers, and CISOs who build, break, and defend enterprise infrastructure. They’re security professionals who push the limits of offensive and defensive security and demand…"
-    },
-    {
-      "title": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T16:02:00.000Z",
-      "snippet": "AWS GovCloud (US) now offers Claude Sonnet 5 on Amazon Bedrock. Claude Sonnet 5 delivers strong performance across coding, professional work, and agentic tasks while maintaining the balance of capability, cost, and speed. For coding, it navigates large…"
-    },
-    {
-      "title": "Announcing region expansion of G7e instances on SageMaker AI inference",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T15:04:00.000Z",
-      "snippet": "We are pleased to announce the availability of Amazon EC2 G7e instances in Asia Pacific (Seoul), Europe (London), and Asia Pacific (Tokyo) on Amazon SageMaker AI inference. G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs with…"
-    },
-    {
-      "title": "Announcing region expansion of G6 instances on SageMaker AI Inference",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T14:51:00.000Z",
-      "snippet": "We are pleased to announce the availability of Amazon EC2 G6 instances in the AWS GovCloud (US-East) region on Amazon SageMaker AI inference. G6 instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs, each with 24 GB of memory, and third-generation AMD…"
-    },
-    {
-      "title": "AWS Wickr announces Data Retention Service feature",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-wickr-data/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T04:00:00.000Z",
-      "snippet": "AWS Wickr now offers a managed Data Retention Service feature for Premium users, enabling organizations to retain conversations across their network for data archiving purposes. AWS Wickr is an enterprise-grade, secure collaboration product that provides…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-u7i/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-23T00:00:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7in-16TB instances (u7in-16tb.224xlarge) are now available in AWS South America (São Paulo) region, and U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Ireland) region. U7i instances are part of the AWS 7th…"
-    },
-    {
-      "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T21:42:00.000Z",
-      "snippet": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS US West (N. California) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% higher…"
-    },
-    {
-      "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-22T20:55:00.000Z",
-      "snippet": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30%…"
     }
   ]
 }
