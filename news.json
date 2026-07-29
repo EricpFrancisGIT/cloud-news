@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-29T13:23:18.147Z",
+  "lastUpdated": "2026-07-29T19:23:35.158Z",
   "items": [
+    {
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-29T15:00:00.000Z",
+      "snippet": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including…"
+    },
+    {
+      "title": "Secure your npm and pip package updates in Amazon Linux",
+      "link": "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-29T14:53:39.000Z",
+      "snippet": "If you use and install packages from npm or PyPI, the first hours after a package is published are the riskiest because scanners can’t analyze packages before publication. Recent supply chain events affecting NodeJS and Python packages have been detected and…"
+    },
+    {
+      "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-29T12:00:00.000Z",
+      "snippet": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date replica of your file system in the AWS GovCloud (US) Region…"
+    },
+    {
+      "title": "AWS IAM Identity Center extends multi-Region support to Identity Center directory",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-29T07:00:00.000Z",
+      "snippet": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now replicate IAM Identity Center from the primary AWS Region where you first enabled it to additional Regions of your choice…"
+    },
     {
       "title": "AWS KMS or AWS CloudHSM: Choose the right key management solution",
       "link": "https://aws.amazon.com/blogs/security/aws-kms-or-aws-cloudhsm-choose-the-right-key-management-solution/",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-24T15:03:00.000Z",
       "snippet": "Amazon Simple Email Service (SES) now offers a simplified console experience for sending emails over SMTP using Mail Manager. Mail Manager is a capability within SES for managing email flow, but configuring its resources individually to set up SMTP sending…"
-    },
-    {
-      "title": "Claude Opus 5 is now available on AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T15:00:00.000Z",
-      "snippet": "AWS now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level. Claude Opus 5…"
-    },
-    {
-      "title": "Amazon Redshift Serverless now offers All Upfront pricing for 3-year Serverless Reservations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-three-year-auri/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T15:00:00.000Z",
-      "snippet": "Amazon Redshift announces the availability of All Upfront payment option for 3-year Serverless Reservations, providing up to 50% savings over on-demand rates. With All Upfront pricing, you pay for the full reservation term at the start and receive the maximum…"
-    },
-    {
-      "title": "Opus 4.8, Sonnet 5, and User Activity Monitoring now available on Kiro in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T14:00:00.000Z",
-      "snippet": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 4.8 is the most intelligent Opus model, delivering stronger self-verification, more efficient tool calling, and better follow-through on long-horizon…"
-    },
-    {
-      "title": "AWS announces aws-bench, an open-source benchmark for AI agents on AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T13:00:00.000Z",
-      "snippet": "Today, AWS announces a research preview of aws-bench, an open-source benchmark that measures how accurately and efficiently AI agents complete real-world AWS tasks. Model providers and AI researchers building agents that operate on AWS infrastructure need an…"
     }
   ]
 }
