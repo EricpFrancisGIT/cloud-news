@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-07-29T19:23:35.158Z",
+  "lastUpdated": "2026-07-30T01:24:01.927Z",
   "items": [
+    {
+      "title": "Amazon identifies North Korean hacker group behind open-source supply chain attacks",
+      "link": "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-29T21:00:12.000Z",
+      "snippet": "Amazon is sharing new findings about how a threat actor linked to the Democratic People’s Republic of Korea (DPRK) is targeting open source software libraries, the shared building blocks that companies around the world use to develop applications. Amazon…"
+    },
+    {
+      "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-29T21:00:00.000Z",
+      "snippet": "Amazon EC2 Auto Scaling now supports Instance Refresh as a new AWS CloudFormation update policy. When you configure the new AutoScalingInstanceRefresh update policy and update properties that require instance replacement, CloudFormation automatically triggers…"
+    },
+    {
+      "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-29T20:45:00.000Z",
+      "snippet": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to execute on separate transactions. Long polling: Long…"
+    },
+    {
+      "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-29T20:18:00.000Z",
+      "snippet": "AWS Glue now supports VPC connections, filter pushdown, and partition support for the REST API connector. The REST API connector enables you to ingest data from any source that exposes a REST-based API, including proprietary systems and emerging platforms…"
+    },
+    {
+      "title": "AWS WAF adds pre-parse text transformations and new text transformations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-29T15:00:00.000Z",
+      "snippet": "Today, AWS WAF adds pre-parse text transformations for query arguments and ten new text transformations for use in any rule statement. Both help you normalize request content so that AWS WAF inspects requests the same way your application interprets them.…"
+    },
     {
       "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
@@ -14,6 +49,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-07-29T14:53:39.000Z",
       "snippet": "If you use and install packages from npm or PyPI, the first hours after a package is published are the riskiest because scanners can’t analyze packages before publication. Recent supply chain events affecting NodeJS and Python packages have been detected and…"
+    },
+    {
+      "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-29T14:00:00.000Z",
+      "snippet": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching to agents. When a manager prepares agent coaching feedback…"
     },
     {
       "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
@@ -111,7 +153,7 @@
       "link": "https://aws.amazon.com/blogs/security/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/",
       "source": "AWS Security Blog",
       "pubDate": "2026-07-27T19:01:23.000Z",
-      "snippet": "Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now among the most common vectors targeting web applications, using valid-looking requests that…"
+      "snippet": "July 29, 2026: We’ve updated this post to clarify the AWS Firewall Manager migration path. Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now…"
     },
     {
       "title": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-24T23:11:00.000Z",
       "snippet": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT administrators need to complete a one-time setup for their virtual…"
-    },
-    {
-      "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T21:57:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11.2. Amazon MWAA is a managed service that runs Apache Airflow at scale without the operational overhead of managing the underlying infrastructure. Apache Airflow 2.11.2…"
-    },
-    {
-      "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T21:00:00.000Z",
-      "snippet": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS License Manager. This flexibility is particularly valuable…"
-    },
-    {
-      "title": "Accelerating AWS Network Firewall troubleshooting with AWS DevOps Agent",
-      "link": "https://aws.amazon.com/blogs/security/accelerating-aws-network-firewall-troubleshooting-with-aws-devops-agent/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-24T19:54:48.000Z",
-      "snippet": "When an administrator introduces a rule change in AWS Network Firewall and network connectivity is disrupted, pinpointing the cause requires inspecting multiple points in the traffic path. The firewall gives you stateless and stateful rule engines, domain…"
-    },
-    {
-      "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T18:55:00.000Z",
-      "snippet": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. On-demand streams automatically increase ingest capacity in response to rising data ingest usage. With On-demand…"
-    },
-    {
-      "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T16:00:00.000Z",
-      "snippet": "AWS Lambda now publishes logs for Lambda Managed Instances (LMI) capacity providers to Amazon CloudWatch Logs, giving you visibility into scaling activity and instance lifecycle operations. LMI enables you to run Lambda functions on Amazon EC2 instances while…"
-    },
-    {
-      "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T15:03:00.000Z",
-      "snippet": "Amazon Simple Email Service (SES) now offers a simplified console experience for sending emails over SMTP using Mail Manager. Mail Manager is a capability within SES for managing email flow, but configuring its resources individually to set up SMTP sending…"
     }
   ]
 }
