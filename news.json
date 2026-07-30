@@ -1,6 +1,62 @@
 {
-  "lastUpdated": "2026-07-30T13:24:41.597Z",
+  "lastUpdated": "2026-07-30T19:25:06.800Z",
   "items": [
+    {
+      "title": "Extend Amazon Inspector SBOM Generator with Plugins",
+      "link": "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-30T17:22:54.000Z",
+      "snippet": "Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine…"
+    },
+    {
+      "title": "OpenAI GPT-5.6 Terra and GPT-5.6 Luna pricing update on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T16:18:00.000Z",
+      "snippet": "On 7/30, OpenAI announced updated pricing for GPT-5.6 Terra and GPT-5.6 Luna. GPT-5.6 Terra is the balanced model for everyday production work, delivering GPT-5.5-level performance at lower cost. GPT-5.6 Luna is the fast, affordable model for high-volume…"
+    },
+    {
+      "title": "AWS announces general availability of Policy-Based Routing on AWS Transit Gateway",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-transit-gateway-policy-based-routing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T15:39:00.000Z",
+      "snippet": "AWS Transit Gateway now supports Policy-Based Routing (PBR), giving network administrators granular control over how traffic is forwarded across their AWS network. With PBR, forwarding decisions can be based on a combination of packet attributes including…"
+    },
+    {
+      "title": "Amazon MSK Express brokers now delivers Apache Kafka data to Amazon S3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-brokers-delivers-to-amazon-s3",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T14:07:00.000Z",
+      "snippet": "Amazon MSK Express brokers now delivers data to Amazon S3 general purpose buckets, providing a fully managed capability to deliver Apache Kafka data in Amazon S3 for downstream processing in the easiest and most reliable way. This capability automatically…"
+    },
+    {
+      "title": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-streaming-tables-for-apache-iceberg",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T14:07:00.000Z",
+      "snippet": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg, a new capability that continuously materializes Apache Kafka topics as Apache Iceberg tables on Amazon S3 Tables. Amazon MSK data delivery to streaming tables can reduce the…"
+    },
+    {
+      "title": "Grok 4.3 from xAI is now available on Amazon Bedrock in AWS GovCloud (US-West)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/grok-4-3-bedrock-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T13:00:00.000Z",
+      "snippet": "xAI's Grok 4.3 model is now available on Amazon Bedrock in AWS GovCloud (US-West). With this launch, xAI joins Amazon Bedrock as a model provider in AWS GovCloud (US-West), giving you even more choice as you build generative AI applications across reasoning,…"
+    },
+    {
+      "title": "Gemma 4 models are now available on Amazon Bedrock in AWS GovCloud (US-West)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-bedrock-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T13:00:00.000Z",
+      "snippet": "The Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock in AWS GovCloud (US-West). With Gemma 4, you can build generative AI applications across reasoning, multimodal understanding, agentic, and software engineering workflows. The…"
+    },
+    {
+      "title": "Amazon OpenSearch Service now supports OpenSearch version 3.7",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T02:30:15.000Z",
+      "snippet": "You can now run OpenSearch version 3.7 on Amazon OpenSearch Service. OpenSearch 3.7 introduces improvements in vector search performance, search relevance, and Query Insights. With this launch, 1-bit scalar quantization on the Faiss and Lucene engines…"
+    },
     {
       "title": "Amazon identifies North Korean hacker group behind open-source supply chain attacks",
       "link": "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
@@ -154,62 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-07-27T19:01:23.000Z",
       "snippet": "July 29, 2026: We’ve updated this post to clarify the AWS Firewall Manager migration path. Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now…"
-    },
-    {
-      "title": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-27T18:58:00.000Z",
-      "snippet": "Amazon GameLift Streams now supports Custom Aspect Ratio and Dynamic Resolution, giving you greater control over the streaming experience across diverse player devices and network conditions. With Custom Aspect Ratio, you can configure a specific resolution…"
-    },
-    {
-      "title": "Amazon EKS now supports AWS PrivateLink for the cluster OIDC endpoint",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-oidc-endpoint-privatelink",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-27T18:00:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports AWS PrivateLink for the cluster OIDC discovery and JWKS endpoint. You can now reach the endpoint used by IAM roles for service accounts (IRSA) privately from your VPC without requiring internet…"
-    },
-    {
-      "title": "AWS Security Hub MCP App brings exposure findings into your AI-assisted workflow (Preview)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-27T17:00:00.000Z",
-      "snippet": "AWS announces the preview of the AWS Security Hub MCP App, a local Model Context Protocol (MCP) server that brings your Security Hub exposure findings directly into Claude Desktop. This capability can help accelerates your security investigations by reducing…"
-    },
-    {
-      "title": "Announcing the Cloud Security Alliance on AWS Compliance Guide",
-      "link": "https://aws.amazon.com/blogs/security/announcing-the-cloud-security-alliance-on-aws-compliance-guide/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-27T16:15:44.000Z",
-      "snippet": "AWS Security Assurance Services is announcing the release of the Cloud Security Alliance (CSA) Compliance Guide on Amazon Web Service (AWS), a new resource that maps the 17 control domains and 207 control objectives of the Cloud Controls Matrix v4.1 (CCM) to…"
-    },
-    {
-      "title": "AWS Elemental MediaTailor adds configurable ad timeout and concurrency controls for improved ad fill and faster startup",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-27T16:09:00.000Z",
-      "snippet": "AWS Elemental MediaTailor now gives you direct control over ad decision server (ADS) timeout. Previously, changing these settings required contacting AWS Support. You can now configure individual HTTP ad request timeouts, total ad personalization time budgets…"
-    },
-    {
-      "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-07-27T14:54:41.000Z",
-      "snippet": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What…"
-    },
-    {
-      "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-27T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports restoring Transparent Data Encryption (TDE)-enabled SQL Server databases on Multi-AZ instances and instances configured with a read replica in the same region, using native backup and…"
-    },
-    {
-      "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-24T23:11:00.000Z",
-      "snippet": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT administrators need to complete a one-time setup for their virtual…"
     }
   ]
 }
