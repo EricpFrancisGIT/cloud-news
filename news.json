@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-31T07:25:51.484Z",
+  "lastUpdated": "2026-07-31T13:26:07.781Z",
   "items": [
+    {
+      "title": "AWS CodeDeploy now available in five additional AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-31T10:54:00.000Z",
+      "snippet": "AWS CodeDeploy is now available in five additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Taipei), Asia Pacific (Malaysia), and Mexico (Central). AWS CodeDeploy is a fully managed deployment service that automates…"
+    },
     {
       "title": "Amazon SageMaker Unified Studio brings richer Git version control to all project tools",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-git/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-28T16:00:00.000Z",
       "snippet": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid…"
-    },
-    {
-      "title": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-amazon-efs-fsx-lustre/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-28T10:00:00.000Z",
-      "snippet": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre as source or destination locations. AWS DataSync is a secure, high-speed data transfer service that simplifies moving data over a network. Enhanced mode processes data in parallel,…"
     }
   ]
 }
