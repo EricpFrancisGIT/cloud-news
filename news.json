@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-07-30T19:25:06.800Z",
+  "lastUpdated": "2026-07-31T01:25:31.047Z",
   "items": [
+    {
+      "title": "Amazon SageMaker Unified Studio brings richer Git version control to all project tools",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-git/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T22:37:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio gives project members full Git version control directly within the tools you already use - Query Editor, Visual ETL, Workflows, and Notebooks. The enhanced Repositories experience replaces the previous automatic sync approach…"
+    },
+    {
+      "title": "Balancing speed and safety: A control framework for AI coding agents",
+      "link": "https://aws.amazon.com/blogs/security/balancing-speed-and-safety-a-control-framework-for-ai-coding-agents/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-30T21:49:15.000Z",
+      "snippet": "AI coding agents are part of the developer toolchain. Tools like Kiro and Claude Code generate features, tests, and code refactors from natural-language prompts. A single agent can open dozens of pull requests (PRs) across your repositories in an afternoon.…"
+    },
+    {
+      "title": "AWS Direct Connect now supports BGP route visibility on Virtual Interfaces",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-bgp-visibility/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T20:21:00.000Z",
+      "snippet": "AWS Direct Connect now provides Border Gateway Protocol (BGP) route visibility, allowing you to view the routes exchanged between AWS and your on-premises routers across your private, transit, and public virtual interfaces (VIFs). You can now see which routes…"
+    },
+    {
+      "title": "Amazon Redshift RG large and 12xlarge instances now available on the trailing track",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-large-12xlarge-trailing-track",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T20:02:00.000Z",
+      "snippet": "Amazon Redshift now supports Graviton-based RG instances on the trailing track. Starting today, rg.large and rg.12xlarge instance types are available for customers running workloads on the trailing track on patch P202 and onwards. The trailing track is…"
+    },
+    {
+      "title": "IAM Policy Simulator moves to the IAM console and adds additional capabilities",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T17:43:00.000Z",
+      "snippet": "AWS Identity and Access Management (IAM) announces a major update to IAM Policy Simulator, the tool you use to test and validate the permissions your IAM policies grant before you deploy them. This update changes the simulator in three ways: it now lives in…"
+    },
     {
       "title": "Extend Amazon Inspector SBOM Generator with Plugins",
       "link": "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/",
@@ -9,11 +44,11 @@
       "snippet": "Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine…"
     },
     {
-      "title": "OpenAI GPT-5.6 Terra and GPT-5.6 Luna pricing update on Amazon Bedrock",
+      "title": "Amazon Bedrock announces up to 80% lower prices for OpenAI GPT‑5.6 models",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/",
       "source": "AWS What's New",
       "pubDate": "2026-07-30T16:18:00.000Z",
-      "snippet": "On 7/30, OpenAI announced updated pricing for GPT-5.6 Terra and GPT-5.6 Luna. GPT-5.6 Terra is the balanced model for everyday production work, delivering GPT-5.5-level performance at lower cost. GPT-5.6 Luna is the fast, affordable model for high-volume…"
+      "snippet": "Today, OpenAI announced lower prices for GPT‑5.6 Luna and GPT‑5.6 Terra. Effective July 30, 2026, on-demand inference prices on Amazon Bedrock for GPT‑5.6 Luna are reduced by 80%, while prices for GPT‑5.6 Terra are reduced by 20%. These reductions are in-line…"
     },
     {
       "title": "AWS announces general availability of Policy-Based Routing on AWS Transit Gateway",
@@ -49,6 +84,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-30T13:00:00.000Z",
       "snippet": "The Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock in AWS GovCloud (US-West). With Gemma 4, you can build generative AI applications across reasoning, multimodal understanding, agentic, and software engineering workflows. The…"
+    },
+    {
+      "title": "AWS Managed Microsoft AD now supports Standard to Enterprise Edition upgrade",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-microsoft-ad-edition-upgrade/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-30T07:00:00.000Z",
+      "snippet": "AWS Directory Service now allows you to upgrade your AWS Managed Microsoft AD directory from Standard Edition to Enterprise Edition directly through the AWS Management Console, AWS CLI, and API without migrating to a new directory or re-joining your existing…"
     },
     {
       "title": "Amazon OpenSearch Service now supports OpenSearch version 3.7",
@@ -149,13 +191,6 @@
       "snippet": "Amazon Web Services (AWS) is excited to announce that the latest version of Information Security Registered Assessors Program (IRAP) report (Phase 1a – full assessment) is now available through AWS Artifact. An independent Australian Signals Directorate (ASD)…"
     },
     {
-      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-28T16:00:00.000Z",
-      "snippet": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on their Console Home dashboard. With the Cost and Usage widget,…"
-    },
-    {
       "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
       "source": "AWS What's New",
@@ -163,53 +198,18 @@
       "snippet": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid…"
     },
     {
+      "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-28T16:00:00.000Z",
+      "snippet": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on their Console Home dashboard. With the Cost and Usage widget,…"
+    },
+    {
       "title": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-amazon-efs-fsx-lustre/",
       "source": "AWS What's New",
       "pubDate": "2026-07-28T10:00:00.000Z",
       "snippet": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre as source or destination locations. AWS DataSync is a secure, high-speed data transfer service that simplifies moving data over a network. Enhanced mode processes data in parallel,…"
-    },
-    {
-      "title": "AWS DataSync Enhanced mode adds HDFS, Azure Blob, and object storage locations with Hyper-V agent support",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-datasync-hdfs-azure-blob-hyper-v/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-28T10:00:00.000Z",
-      "snippet": "AWS DataSync Enhanced mode now supports agent-based data transfers with Hadoop Distributed File Systems (HDFS), Microsoft Azure Blob Storage, and self-managed object storage. Additionally, Enhanced mode agents can now be deployed on Microsoft Hyper-V. Using a…"
-    },
-    {
-      "title": "Amazon S3 Tables now support the Variant data type for Apache Iceberg V3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-28T07:00:00.000Z",
-      "snippet": "Amazon S3 Tables now support the Variant data type as defined in the Apache Iceberg Version 3 (V3) specification. You can now write semi-structured data like JSON directly to S3 Tables without defining a fixed schema in advance, allowing you to land data…"
-    },
-    {
-      "title": "Amazon Neptune now supports tag-based access control for IAM",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-27T22:00:00.000Z",
-      "snippet": "Amazon Neptune Database now supports tag-based access control (TBAC) for IAM, enabling customers to use AWS resource tags and IAM principal tags as conditions in IAM policies and Service Control Policies (SCPs) to control access to Neptune data-plane…"
-    },
-    {
-      "title": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-27T20:45:00.000Z",
-      "snippet": "AWS Glue Data Quality now supports anomaly detection for Catalog-based data quality evaluations and the ability to write evaluation results to AWS Glue Data Catalog (GDC) tables. These capabilities work across both ETL jobs and Catalog evaluations, giving you…"
-    },
-    {
-      "title": "AWS Glue Data Quality now supports distribution statistics for data profiling",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-27T20:23:00.000Z",
-      "snippet": "AWS Glue Data Quality now supports a new Distribution Analyzer that generates frequency distribution profiles for your data. Using this new Distribution Analyzer in the Data Quality Definition Language (DQDL), you can generate histograms for numeric columns…"
-    },
-    {
-      "title": "AWS Shield Advanced is embracing the AWS WAF Anti-DDoS managed rule group: What changes and how to prepare",
-      "link": "https://aws.amazon.com/blogs/security/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-27T19:01:23.000Z",
-      "snippet": "July 29, 2026: We’ve updated this post to clarify the AWS Firewall Manager migration path. Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now…"
     }
   ]
 }
