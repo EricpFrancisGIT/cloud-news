@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T01:25:31.047Z",
+  "lastUpdated": "2026-07-31T07:25:51.484Z",
   "items": [
     {
       "title": "Amazon SageMaker Unified Studio brings richer Git version control to all project tools",
@@ -191,18 +191,18 @@
       "snippet": "Amazon Web Services (AWS) is excited to announce that the latest version of Information Security Registered Assessors Program (IRAP) report (Phase 1a – full assessment) is now available through AWS Artifact. An independent Australian Signals Directorate (ASD)…"
     },
     {
-      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-28T16:00:00.000Z",
-      "snippet": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid…"
-    },
-    {
       "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
       "source": "AWS What's New",
       "pubDate": "2026-07-28T16:00:00.000Z",
       "snippet": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on their Console Home dashboard. With the Cost and Usage widget,…"
+    },
+    {
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-28T16:00:00.000Z",
+      "snippet": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid…"
     },
     {
       "title": "AWS DataSync Enhanced mode now supports Amazon EFS and Amazon FSx for Lustre",
