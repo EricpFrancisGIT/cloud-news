@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T13:27:36.908Z",
+  "lastUpdated": "2026-08-01T19:27:56.889Z",
   "items": [
     {
       "title": "HIPAA Security Rule on AWS – Technical Safeguards Implementation and Readiness Guidance",
@@ -28,6 +28,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-31T14:00:00.000Z",
       "snippet": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate from Amazon…"
+    },
+    {
+      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-31T14:00:00.000Z",
+      "snippet": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local discovery, delivery, and mobility applications in Southeast…"
     },
     {
       "title": "Amazon CloudWatch announces managed Prometheus collectors",
@@ -203,13 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-07-29T14:53:39.000Z",
       "snippet": "If you use and install packages from npm or PyPI, the first hours after a package is published are the riskiest because scanners can’t analyze packages before publication. Recent supply chain events affecting NodeJS and Python packages have been detected and…"
-    },
-    {
-      "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-29T14:00:00.000Z",
-      "snippet": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching to agents. When a manager prepares agent coaching feedback…"
     }
   ]
 }
