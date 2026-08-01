@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-31T19:26:31.740Z",
+  "lastUpdated": "2026-08-01T01:26:51.489Z",
   "items": [
+    {
+      "title": "HIPAA Security Rule on AWS – Technical Safeguards Implementation and Readiness Guidance",
+      "link": "https://aws.amazon.com/blogs/security/hipaa-security-rule-on-aws-technical-safeguards-implementation-and-readiness-guidance/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-07-31T19:44:25.000Z",
+      "snippet": "Today, we’re releasing the HIPAA Security Rule on AWS: Technical Safeguards Implementation and Readiness Guidance. This helps covered entities and business associates configure, implement, and evidence compliance with the HIPAA Security Rule Technical…"
+    },
+    {
+      "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-31T18:00:00.000Z",
+      "snippet": "Starting today, Amazon Aurora DSQL supports multi-Region clusters in four additional AWS Regions: Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore). Aurora DSQL is the fastest serverless, distributed SQL database, with…"
+    },
+    {
+      "title": "Amazon RDS for Oracle now offers Reserved Instances for R8i and M8i instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-31T15:00:00.000Z",
+      "snippet": "Amazon RDS for Oracle now offers 1-year and 3-year Reserved Instances for R8i and M8i instances with up to 53% cost savings compared to On-Demand prices. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the…"
+    },
+    {
+      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-31T14:00:00.000Z",
+      "snippet": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate from Amazon…"
+    },
     {
       "title": "Amazon CloudWatch announces managed Prometheus collectors",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-29T14:00:00.000Z",
       "snippet": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching to agents. When a manager prepares agent coaching feedback…"
-    },
-    {
-      "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-29T12:00:00.000Z",
-      "snippet": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date replica of your file system in the AWS GovCloud (US) Region…"
-    },
-    {
-      "title": "AWS IAM Identity Center extends multi-Region support to Identity Center directory",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-29T07:00:00.000Z",
-      "snippet": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now replicate IAM Identity Center from the primary AWS Region where you first enabled it to additional Regions of your choice…"
-    },
-    {
-      "title": "AWS KMS or AWS CloudHSM: Choose the right key management solution",
-      "link": "https://aws.amazon.com/blogs/security/aws-kms-or-aws-cloudhsm-choose-the-right-key-management-solution/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-28T18:55:43.000Z",
-      "snippet": "Choosing the right cryptographic key management service on Amazon Web Services (AWS) starts with understanding the difference between AWS Key Management Service (AWS KMS) and AWS CloudHSM. Both provide key storage backed by a hardware security module (HSM)…"
-    },
-    {
-      "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-28T17:18:00.000Z",
-      "snippet": "Amazon EKS now delivers faster pod autoscaling across all Provisioned Control Plane clusters by increasing Horizontal Pod Autoscaler (HPA) sync concurrency to up to 40 times the default Kubernetes value. This reduces the time it takes for HPA-driven workloads…"
     }
   ]
 }
