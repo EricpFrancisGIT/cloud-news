@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-08-03T13:30:29.756Z",
+  "lastUpdated": "2026-08-03T19:30:46.388Z",
   "items": [
+    {
+      "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-08-03T16:12:30.000Z",
+      "snippet": "Last week I had the joy of participating in Amazon’s “Bring Your Kids to Work Day” with my 7 year old son. We commuted together into the New York City office, his first real rush hour train ride, and spent the day exploring how Amazon uses AI, machine…"
+    },
+    {
+      "title": "AWS Transform for full-stack Windows modernization now supports offline schema transformation to Aurora PostgreSQL",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-03T15:00:00.000Z",
+      "snippet": "Today, AWS Transform for full-stack Windows modernization announced general availability of offline source transformation, enabling customers to modernize Microsoft SQL Server databases to Amazon Aurora PostgreSQL without requiring a live database connection.…"
+    },
+    {
+      "title": "AWS WAF now supports Miggo Security managed rule groups for emerging threats and AI/ML application protection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-03T15:00:00.000Z",
+      "snippet": "AWS WAF now supports two new partner managed rule groups from Miggo Security, available through AWS Marketplace: Miggo Rules for AWS WAF – High Emerging Application Threats, and Miggo Rules for AWS WAF – AI/ML Application Protection. These rule groups give…"
+    },
+    {
+      "title": "Amazon ECR now supports image layers up to 200 GB",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-image-layers/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-03T15:00:00.000Z",
+      "snippet": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum image layer size limit to 200 GB, for images pushed via Docker push. Previously, packaging assets required splitting data across multiple layers or offloading to external storage…"
+    },
     {
       "title": "HIPAA Security Rule on AWS – Technical Safeguards Implementation and Readiness Guidance",
       "link": "https://aws.amazon.com/blogs/security/hipaa-security-rule-on-aws-technical-safeguards-implementation-and-readiness-guidance/",
@@ -23,18 +51,18 @@
       "snippet": "Amazon RDS for Oracle now offers 1-year and 3-year Reserved Instances for R8i and M8i instances with up to 53% cost savings compared to On-Demand prices. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the…"
     },
     {
-      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-31T14:00:00.000Z",
-      "snippet": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate from Amazon…"
-    },
-    {
       "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
       "source": "AWS What's New",
       "pubDate": "2026-07-31T14:00:00.000Z",
       "snippet": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local discovery, delivery, and mobility applications in Southeast…"
+    },
+    {
+      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-31T14:00:00.000Z",
+      "snippet": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate from Amazon…"
     },
     {
       "title": "Amazon CloudWatch announces managed Prometheus collectors",
@@ -49,6 +77,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-31T10:54:00.000Z",
       "snippet": "AWS CodeDeploy is now available in five additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Taipei), Asia Pacific (Malaysia), and Mexico (Central). AWS CodeDeploy is a fully managed deployment service that automates…"
+    },
+    {
+      "title": "Amazon Web Services now introduces Context Ontology Accelerator",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-context--ontology-accelarator-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-31T10:00:00.000Z",
+      "snippet": "Today, AWS announces Context Ontology Accelerator, an open source accelerator that helps organizations build an ontology of their business — a machine-readable model of their products, customers, policies, and the rules that define how they operate so AI…"
     },
     {
       "title": "Amazon EC2 C7i-flex instances now available in Europe (Milan) region",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-07-29T21:00:00.000Z",
       "snippet": "Amazon EC2 Auto Scaling now supports Instance Refresh as a new AWS CloudFormation update policy. When you configure the new AutoScalingInstanceRefresh update policy and update properties that require instance replacement, CloudFormation automatically triggers…"
-    },
-    {
-      "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-29T20:45:00.000Z",
-      "snippet": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to execute on separate transactions. Long polling: Long…"
-    },
-    {
-      "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-29T20:18:00.000Z",
-      "snippet": "AWS Glue now supports VPC connections, filter pushdown, and partition support for the REST API connector. The REST API connector enables you to ingest data from any source that exposes a REST-based API, including proprietary systems and emerging platforms…"
-    },
-    {
-      "title": "AWS WAF adds pre-parse text transformations and new text transformations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-29T15:00:00.000Z",
-      "snippet": "Today, AWS WAF adds pre-parse text transformations for query arguments and ten new text transformations for use in any rule statement. Both help you normalize request content so that AWS WAF inspects requests the same way your application interprets them.…"
-    },
-    {
-      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-29T15:00:00.000Z",
-      "snippet": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including…"
-    },
-    {
-      "title": "Secure your npm and pip package updates in Amazon Linux",
-      "link": "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-29T14:53:39.000Z",
-      "snippet": "If you use and install packages from npm or PyPI, the first hours after a package is published are the riskiest because scanners can’t analyze packages before publication. Recent supply chain events affecting NodeJS and Python packages have been detected and…"
     }
   ]
 }
