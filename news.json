@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T01:29:44.915Z",
+  "lastUpdated": "2026-08-03T07:30:05.922Z",
   "items": [
     {
       "title": "HIPAA Security Rule on AWS – Technical Safeguards Implementation and Readiness Guidance",
@@ -23,18 +23,18 @@
       "snippet": "Amazon RDS for Oracle now offers 1-year and 3-year Reserved Instances for R8i and M8i instances with up to 53% cost savings compared to On-Demand prices. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the…"
     },
     {
-      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-31T14:00:00.000Z",
-      "snippet": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local discovery, delivery, and mobility applications in Southeast…"
-    },
-    {
       "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
       "source": "AWS What's New",
       "pubDate": "2026-07-31T14:00:00.000Z",
       "snippet": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate from Amazon…"
+    },
+    {
+      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "source": "AWS What's New",
+      "pubDate": "2026-07-31T14:00:00.000Z",
+      "snippet": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local discovery, delivery, and mobility applications in Southeast…"
     },
     {
       "title": "Amazon CloudWatch announces managed Prometheus collectors",
