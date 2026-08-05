@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-08-05T13:33:18.075Z",
+  "lastUpdated": "2026-08-05T19:33:39.070Z",
   "items": [
+    {
+      "title": "From 2 weeks to 2 minutes: Amazon Cognito launches Provisioned limits for self-service rate limit management",
+      "link": "https://aws.amazon.com/blogs/security/from-2-weeks-to-2-minutes-amazon-cognito-launches-provisioned-limits-for-self-service-rate-limit-management/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-05T17:17:47.000Z",
+      "snippet": "Imagine preparing for your biggest sales event of the year, and you want to ensure your customer identity management service can handle the elevated traffic for carrying out application activities. For security teams, business leaders, and technologists…"
+    },
+    {
+      "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-05T17:00:00.000Z",
+      "snippet": "You can now understand how a product's pricing works before you buy it. Available in the pricing section of the listing in AWS Marketplace, AI Insights explains each product's pricing in plain language: what a pricing unit maps to, how your bill changes as…"
+    },
+    {
+      "title": "Amazon DynamoDB now supports real-time vector search",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-05T16:59:00.000Z",
+      "snippet": "Today, AWS announces the general availability of vector search for Amazon DynamoDB, a new feature to index and search vectors in real time. As vector datasets grow into the billions or trillions, vector search at scale traditionally trades off search speed,…"
+    },
+    {
+      "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-05T15:00:00.000Z",
+      "snippet": "Amazon Aurora serverless now delivers higher initial capacity during scale-up events, reaching up to 12 ACUs within a second and continuing to scale up to 256 ACUs as your workload grows. When the workload finishes, Aurora serverless automatically scales down…"
+    },
+    {
+      "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-08-05T14:45:10.000Z",
+      "snippet": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management."
+    },
     {
       "title": "[Preview Announcement] Re-introducing Forward Proxy as AWS Network Firewall Functionality",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-forward-proxy-preview/",
@@ -121,6 +156,13 @@
       "snippet": "Amazon GameLift Streams now offers stream URLs, which give end users temporary, unauthenticated access to a playable stream session in a supported web browser. Recipients need no AWS account, no credentials, and no software install. To share a playable…"
     },
     {
+      "title": "AWS HealthOmics now supports task-level timeout for WDL workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-healthomics-wdl-task-level-timeout/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-03T20:00:00.000Z",
+      "snippet": "AWS HealthOmics now supports task-level timeout for Workflow Description Language (WDL) workflows, enabling you to set maximum execution duration for individual tasks. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences…"
+    },
+    {
       "title": "AWS Resilience Hub now provides recommended resilience tests",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-resilience-hub/",
       "source": "AWS What's New",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-03T15:00:00.000Z",
       "snippet": "Today, AWS Transform for full-stack Windows modernization announced general availability of offline source transformation, enabling customers to modernize Microsoft SQL Server databases to Amazon Aurora PostgreSQL without requiring a live database connection.…"
-    },
-    {
-      "title": "AWS WAF now supports Miggo Security managed rule groups for emerging threats and AI/ML application protection",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-03T15:00:00.000Z",
-      "snippet": "AWS WAF now supports two new partner managed rule groups from Miggo Security, available through AWS Marketplace: Miggo Rules for AWS WAF – High Emerging Application Threats, and Miggo Rules for AWS WAF – AI/ML Application Protection. These rule groups give…"
-    },
-    {
-      "title": "AWS Config now supports 15 new resource types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-config-new-resource-types",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-03T15:00:00.000Z",
-      "snippet": "AWS Config now supports 15 additional AWS resource types across key services including Amazon Bedrock, Amazon OpenSearch Serverless, and Amazon SageMaker. This expansion provides greater coverage over your AWS environment, enabling you to more effectively…"
-    },
-    {
-      "title": "Amazon ECR now supports image layers up to 200 GB",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-image-layers/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-03T15:00:00.000Z",
-      "snippet": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum image layer size limit to 200 GB, for images pushed via Docker push. Previously, packaging assets required splitting data across multiple layers or offloading to external storage…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports Teradata Vantage",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-teradata",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-31T20:19:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports Teradata Vantage as a data source, enabling you to query and analyze your enterprise data warehouse data directly alongside your other data assets. With this new connection, you can combine business-critical data…"
-    },
-    {
-      "title": "HIPAA Security Rule on AWS – Technical Safeguards Implementation and Readiness Guidance",
-      "link": "https://aws.amazon.com/blogs/security/hipaa-security-rule-on-aws-technical-safeguards-implementation-and-readiness-guidance/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-07-31T19:44:25.000Z",
-      "snippet": "Today, we’re releasing the HIPAA Security Rule on AWS: Technical Safeguards Implementation and Readiness Guidance. This helps covered entities and business associates configure, implement, and evidence compliance with the HIPAA Security Rule Technical…"
-    },
-    {
-      "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-07-31T18:00:00.000Z",
-      "snippet": "Starting today, Amazon Aurora DSQL supports multi-Region clusters in four additional AWS Regions: Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore). Aurora DSQL is the fastest serverless, distributed SQL database, with…"
     }
   ]
 }
