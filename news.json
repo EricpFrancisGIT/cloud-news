@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T07:34:17.032Z",
+  "lastUpdated": "2026-08-06T13:35:05.369Z",
   "items": [
     {
       "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
@@ -49,6 +49,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-05T16:59:00.000Z",
       "snippet": "Today, AWS announces the general availability of vector search for Amazon DynamoDB, a new feature to index and search vectors in real time. As vector datasets grow into the billions or trillions, vector search at scale traditionally trades off search speed,…"
+    },
+    {
+      "title": "AWS Glue Data Catalog now supports metadata exports to S3 Tables (Preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-catalog-s3-tables/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-05T15:42:00.000Z",
+      "snippet": "AWS Glue Data Catalog is a centralized metadata repository that helps you discover and understand data, with semantic search and support for adding business context to datasets currently in preview. Today, we are adding two new capabilities to this preview:…"
     },
     {
       "title": "AWS IAM Identity Center makes management of AWS account access optional for new organization instances",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-03T19:02:58.000Z",
       "snippet": "AWS Resilience Hub now offers recommended resilience tests that help platform engineering and site reliability teams validate how their services respond to and recover from known failure scenarios. Resilience Hub provides pre-configured tests based on your…"
-    },
-    {
-      "title": "AWS Organizations now provides maximum account quota visibility in Service Quotas",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-03T18:54:00.000Z",
-      "snippet": "AWS Organizations customers can now view their maximum number of accounts quota and its utilization directly through AWS Service Quotas instead of relying on AWS Support or AWS account teams to determine their current account limit. Customers can now…"
     }
   ]
 }
