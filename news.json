@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-08-07T13:22:56.727Z",
+  "lastUpdated": "2026-08-07T19:23:16.302Z",
   "items": [
+    {
+      "title": "Securing your Amazon S3 buckets: Identifying and remediating over-permissioned access",
+      "link": "https://aws.amazon.com/blogs/security/securing-your-amazon-s3-buckets-identifying-and-remediating-over-permissioned-access/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-07T16:46:40.000Z",
+      "snippet": "Misconfigured Amazon Simple Storage Service (Amazon S3) buckets can expose your data to unauthorized access. Without proactive review, S3 bucket policies or Access Control Lists (ACLs) configured with broad access may go unnoticed in your environment. In this…"
+    },
+    {
+      "title": "AWS IAM Identity Center supports one-click multi-Region option for new organization instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-supports-one-click-multi-region-option-new-organization-instances",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-07T16:00:00.000Z",
+      "snippet": "AWS IAM Identity Center now makes it easier to enable multi-Region support when creating a new organization instance. Previously, enabling multi-Region support required multiple steps including creating a customer managed KMS key, configuring key policies,…"
+    },
+    {
+      "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-07T04:58:00.000Z",
+      "snippet": "AWS Parallel Computing Service (PCS), a managed service that simplifies running and scaling high performance computing (HPC) workloads on AWS using Slurm, has expanded its security and compliance coverage. Federal agencies, public sector organizations, and…"
+    },
     {
       "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
       "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
@@ -28,6 +49,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-06T21:53:00.000Z",
       "snippet": "AWS Lambda console now extends its console-to-IDE integration to support Kiro and Cursor IDEs. This expansion builds on the existing console-to-IDE transition for Visual Studio Code (VS Code), providing a seamless transition between cloud and local…"
+    },
+    {
+      "title": "AWS WAF now supports a Salt Security managed rule group for API and MCP threat detection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-waf-salt-security-managed-rules/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-06T21:10:00.000Z",
+      "snippet": "AWS WAF now supports the Salt Security managed rule group, available through AWS Marketplace: Salt Managed Rules for AWS WAF - AI Agent & API Security. This rule group gives AWS WAF customers detection and mitigation for API-focused attacks and for traffic…"
     },
     {
       "title": "Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-05T20:06:00.000Z",
       "snippet": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1), allowing customers in the Canada West Region to build Cassandra-compatible applications with lower latency while keeping their data within the Region to…"
-    },
-    {
-      "title": "AWS Glue Data Quality makes ETL anomaly detection free and improves anomaly predictions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-05T18:25:00.000Z",
-      "snippet": "AWS Glue Data Quality now offers improved anomaly detection with a new observation mode that reduces detection of false anomalies and removes pricing for anomaly detection in ETL jobs. Customers using notebook-based or exploratory workflows now benefit from…"
-    },
-    {
-      "title": "From 2 weeks to 2 minutes: Amazon Cognito launches Provisioned limits for self-service rate limit management",
-      "link": "https://aws.amazon.com/blogs/security/from-2-weeks-to-2-minutes-amazon-cognito-launches-provisioned-limits-for-self-service-rate-limit-management/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-05T17:17:47.000Z",
-      "snippet": "Imagine preparing for your biggest sales event of the year, and you want to ensure your customer identity management service can handle the elevated traffic for carrying out application activities. For security teams, business leaders, and technologists…"
-    },
-    {
-      "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-05T17:00:00.000Z",
-      "snippet": "You can now understand how a product's pricing works before you buy it. Available in the pricing section of the listing in AWS Marketplace, AI Insights explains each product's pricing in plain language: what a pricing unit maps to, how your bill changes as…"
-    },
-    {
-      "title": "Amazon DynamoDB now supports real-time vector search",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-05T16:59:00.000Z",
-      "snippet": "Today, AWS announces the general availability of vector search for Amazon DynamoDB, a new feature to index and search vectors in real time. As vector datasets grow into the billions or trillions, vector search at scale traditionally trades off search speed,…"
     }
   ]
 }
