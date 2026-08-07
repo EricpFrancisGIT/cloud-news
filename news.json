@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T01:22:12.436Z",
+  "lastUpdated": "2026-08-07T07:22:46.250Z",
   "items": [
     {
       "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
@@ -93,18 +93,18 @@
       "snippet": "Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots. You can use this status to determine when your storage is fully initialized after a restore and is ready to support latency-sensitive…"
     },
     {
-      "title": "Amazon WorkSpaces Applications now publishes enhanced observability metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-observability-metrics",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T15:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their application streaming workloads. These new metrics span network performance,…"
-    },
-    {
       "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
       "source": "AWS What's New",
       "pubDate": "2026-08-06T15:00:00.000Z",
       "snippet": "Amazon WorkSpaces now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their virtual desktop workloads. These new metrics span network performance, compute and storage…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications now publishes enhanced observability metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-observability-metrics",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-06T15:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Applications now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their application streaming workloads. These new metrics span network performance,…"
     },
     {
       "title": "AWS Marketplace now lets sellers configure net payment terms on private offers",
@@ -128,18 +128,18 @@
       "snippet": "AWS Backup for Amazon S3 now supports creating S3 Access Points, providing immediate read-only access to backup data using standard S3 APIs without initiating a restore. This enables targeted file recovery, data validation, compliance auditing, and forensic…"
     },
     {
-      "title": "AWS Backup extends logically air-gapped vault support for Amazon Neptune to three additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-logically-air-gapped-vault-neptune-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T07:00:00.000Z",
-      "snippet": "AWS Backup logically air-gapped vault support for Amazon Neptune is now available in three additional AWS Regions: Asia Pacific (Melbourne), Europe (Spain), and Europe (Zurich). With this expansion, you can store Neptune backups in logically air-gapped vaults…"
-    },
-    {
       "title": "Amazon SES now helps identify automated open and click events in event notifications",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
       "source": "AWS What's New",
       "pubDate": "2026-08-06T07:00:00.000Z",
       "snippet": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely triggered by an automated system or a human recipient.…"
+    },
+    {
+      "title": "AWS Backup extends logically air-gapped vault support for Amazon Neptune to three additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-logically-air-gapped-vault-neptune-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-06T07:00:00.000Z",
+      "snippet": "AWS Backup logically air-gapped vault support for Amazon Neptune is now available in three additional AWS Regions: Asia Pacific (Melbourne), Europe (Spain), and Europe (Zurich). With this expansion, you can store Neptune backups in logically air-gapped vaults…"
     },
     {
       "title": "Amazon Quick supports multi-dataset analytical capabiity",
