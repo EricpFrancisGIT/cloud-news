@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-08-07T19:23:16.302Z",
+  "lastUpdated": "2026-08-08T01:23:40.220Z",
   "items": [
+    {
+      "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-07T21:11:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Milan) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and…"
+    },
+    {
+      "title": "A decade of enterprise identity in the cloud with AWS Managed Microsoft AD",
+      "link": "https://aws.amazon.com/blogs/security/a-decade-of-enterprise-identity-in-the-cloud-with-aws-managed-microsoft-ad/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-07T19:37:57.000Z",
+      "snippet": "Ten years ago, we launched AWS Directory Service for Microsoft Active Directory, a fully managed Microsoft Active Directory in the AWS Cloud. In that original announcement, Jeff Barr described a straightforward promise: “You will spend less time administering…"
+    },
+    {
+      "title": "Amazon Timestream for InfluxDB now supports backup and restore",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-07T19:21:00.000Z",
+      "snippet": "Amazon Timestream for InfluxDB now lets you create and manage your own backups and restore your data on demand. You can trigger one-time, on-demand backups, schedule automated recurring backups at the frequency and retention you choose, and restore a backup…"
+    },
+    {
+      "title": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-07T18:00:48.000Z",
+      "snippet": "Amazon Cognito is now available as a core skill (aws-auth) in the Agent Toolkit for AWS. AI coding agents using the toolkit can now set up, configure, secure, and troubleshoot Amazon Cognito using best-practice workflows, helping developers implement secure…"
+    },
     {
       "title": "Securing your Amazon S3 buckets: Identifying and remediating over-permissioned access",
       "link": "https://aws.amazon.com/blogs/security/securing-your-amazon-s3-buckets-identifying-and-remediating-over-permissioned-access/",
@@ -14,6 +42,34 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-07T16:00:00.000Z",
       "snippet": "AWS IAM Identity Center now makes it easier to enable multi-Region support when creating a new organization instance. Previously, enabling multi-Region support required multiple steps including creating a customer managed KMS key, configuring key policies,…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-07T15:52:00.000Z",
+      "snippet": "Today, Amazon Bedrock AgentCore introduces new capabilities in AWS GovCloud (US-West). AgentCore is the platform to build, connect, and optimize agents. With these capabilities, teams operating in regulated environments can build context-aware agents and take…"
+    },
+    {
+      "title": "Amazon GameLift Servers now supports 21 new EC2 instance types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gamelift-ec2-instance-expansion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-07T08:00:00.000Z",
+      "snippet": "Amazon GameLift Servers now supports 21 additional Amazon EC2 instance types for managed EC2 fleets and managed container fleets. Amazon GameLift Servers is a fully managed service that enables game developers and studios to deploy, operate, and scale…"
+    },
+    {
+      "title": "Amazon OpenSearch Service announces additional upgrade runway for existing domains and support dates for additional versions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-07T07:00:00.000Z",
+      "snippet": "In November 2024, Amazon OpenSearch Service announced Extended Support for legacy Elasticsearch and OpenSearch engine versions (see also the detailed blog post). Since that announcement, many customers have upgraded to newer versions. However, some customers…"
+    },
+    {
+      "title": "Amazon SES now helps identify automated open and click events in event notifications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-07T07:00:00.000Z",
+      "snippet": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely triggered by an automated system or a human recipient.…"
     },
     {
       "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
@@ -93,11 +149,25 @@
       "snippet": "You can now use the AWS Glue Schema Registry, a serverless and free feature of AWS Glue, in the Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Hyderabad), Asia Pacific (Osaka), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Mexico…"
     },
     {
+      "title": "Amazon OpenSearch UI now supports Network Access Control",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ui-network-access-control",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-06T18:16:00.000Z",
+      "snippet": "Amazon OpenSearch Service now supports network access controls for OpenSearch UI applications. OpenSearch UI is the fully managed web service for search, analytics, and unified observability across multiple AWS data sources. With network access controls, you…"
+    },
+    {
       "title": "AWS Transform for migrations automates post-launch actions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
       "source": "AWS What's New",
       "pubDate": "2026-08-06T17:00:00.000Z",
       "snippet": "AWS Transform now automates the configuration and execution of post-launch actions through the migration workflow. Define actions at the account level and apply them automatically to each source server across your target accounts, including multi-account…"
+    },
+    {
+      "title": "Amazon Connect Customer adds one-click drill-down on real-time metrics dashboards",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-drill-down-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-06T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer dashboards now support drilling down into real-time queue and routing profile performance. With a single click, supervisors can drill from a summary view into pre-filtered routing profile, queue, agent, or routing step widgets. For…"
     },
     {
       "title": "AWS Security Agent now supports email-based MFA for penetration testing",
@@ -140,76 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-06T14:49:00.000Z",
       "snippet": "AWS Marketplace now supports configurable net payment terms on private offers, with options including Net 30, Net 45, Net 60, or Net 90. Prior to this launch, net payment terms were uniform across all AWS Marketplace purchases, based on the buyer's payment…"
-    },
-    {
-      "title": "Amazon MSK now delivers Kafka Authorizer Logs to customers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-kafka-authorizer-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T14:00:00.000Z",
-      "snippet": "Amazon Managed Streaming for Apache Kafka (MSK) now supports Authorizer Log Delivery for Provisioned clusters, including both Standard and Express brokers, at no additional cost. With authorizer logs, you get detailed visibility into user and application…"
-    },
-    {
-      "title": "AWS Backup for Amazon S3 now supports direct access to backup data",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-s3-direct-access/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T10:00:00.000Z",
-      "snippet": "AWS Backup for Amazon S3 now supports creating S3 Access Points, providing immediate read-only access to backup data using standard S3 APIs without initiating a restore. This enables targeted file recovery, data validation, compliance auditing, and forensic…"
-    },
-    {
-      "title": "Amazon SES now helps identify automated open and click events in event notifications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T07:00:00.000Z",
-      "snippet": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely triggered by an automated system or a human recipient.…"
-    },
-    {
-      "title": "AWS Backup extends logically air-gapped vault support for Amazon Neptune to three additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-logically-air-gapped-vault-neptune-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T07:00:00.000Z",
-      "snippet": "AWS Backup logically air-gapped vault support for Amazon Neptune is now available in three additional AWS Regions: Asia Pacific (Melbourne), Europe (Spain), and Europe (Zurich). With this expansion, you can store Neptune backups in logically air-gapped vaults…"
-    },
-    {
-      "title": "Amazon Quick supports multi-dataset analytical capabiity",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T06:54:00.000Z",
-      "snippet": "Today, Amazon Quick announces supporting multi-dataset topics, enabling users to model relationships across multiple datasets in a single topic and use that model to build dashboards and answer questions in natural language. Previously, answering a question…"
-    },
-    {
-      "title": "Announcing temporal policies and rate limiting in Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/temporal-policies-agentcore/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T04:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore announces two new controls: temporal policies for stateful agent authorization and rate limiting for AI traffic. Temporal policies let you define stateful authorization rules that evaluate each request in the context of an agent's…"
-    },
-    {
-      "title": "Amazon EC2 M8g instances now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-m8g-instances-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T00:27:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances are available in AWS Asia Pacific (Taipei), and AWS Mexico (Central) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to…"
-    },
-    {
-      "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-05T21:35:00.000Z",
-      "snippet": "AWS Lambda now supports scalable network bandwidth for Lambda functions, enabling faster data transfer to and from your execution environment for latency-sensitive workloads. This feature enables functions outside a VPC configured with 2 GB of memory or more…"
-    },
-    {
-      "title": "AWS partners with Anthropic and OpenAI to bring AWS Continuum into developer workflows",
-      "link": "https://aws.amazon.com/blogs/security/aws-partners-with-anthropic-and-openai-to-bring-aws-continuum-into-developer-workflows/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-05T21:00:11.000Z",
-      "snippet": "Customers have access to models that are continuously getting better with each new generation bringing larger context windows, stronger reasoning, and lower token costs. Getting the strongest AI-powered security will come from tools that combine the most…"
-    },
-    {
-      "title": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-keyspaces-apache-cassandra-canada-west/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-05T20:06:00.000Z",
-      "snippet": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1), allowing customers in the Canada West Region to build Cassandra-compatible applications with lower latency while keeping their data within the Region to…"
     }
   ]
 }
