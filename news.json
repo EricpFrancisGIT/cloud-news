@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-08-10T13:27:13.510Z",
+  "lastUpdated": "2026-08-10T19:27:33.130Z",
   "items": [
+    {
+      "title": "2026 AWS CyberVadis report now available for due diligence on third-party suppliers",
+      "link": "https://aws.amazon.com/blogs/security/2026-aws-cybervadis-report-now-available-for-due-diligence-on-third-party-suppliers/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-10T17:09:02.000Z",
+      "snippet": "We’re excited to announce that Amazon Web Services (AWS) has completed theCyberVadis assessment of its security posture with the highest score (Mature) in all assessed areas. This demonstrates our continued commitment to meet the heightened expectations for…"
+    },
+    {
+      "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-08-10T15:45:03.000Z",
+      "snippet": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering, brings global experts specializing in…"
+    },
+    {
+      "title": "AWS Elastic Disaster Recovery now preserves UEFI boot mode for Linux servers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T13:00:00.000Z",
+      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now preserves UEFI boot mode when recovering Linux source servers that boot with UEFI firmware. Previously, DRS launched these Linux servers in legacy BIOS mode, which could require extra configuration after recovery.…"
+    },
     {
       "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
@@ -189,27 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-08-06T16:16:06.000Z",
       "snippet": "This post assumes familiarity with envelope encryption and the AWS Encryption SDK. When your encryption system generates millions of duplicate API calls per hour, costs spiral and performance degrades. That’s exactly the challenge NICE Actimize faced while…"
-    },
-    {
-      "title": "Amazon RDS now provides visibility into storage volume initialization status",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-storage-volume-initialization-visibility",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T16:00:00.000Z",
-      "snippet": "Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots. You can use this status to determine when your storage is fully initialized after a restore and is ready to support latency-sensitive…"
-    },
-    {
-      "title": "Amazon WorkSpaces Applications now publishes enhanced observability metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-observability-metrics",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T15:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their application streaming workloads. These new metrics span network performance,…"
-    },
-    {
-      "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T15:00:00.000Z",
-      "snippet": "Amazon WorkSpaces now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their virtual desktop workloads. These new metrics span network performance, compute and storage…"
     }
   ]
 }
