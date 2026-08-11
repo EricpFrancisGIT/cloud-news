@@ -1,12 +1,68 @@
 {
-  "lastUpdated": "2026-08-10T19:27:33.130Z",
+  "lastUpdated": "2026-08-11T01:27:51.568Z",
   "items": [
+    {
+      "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T23:08:00.000Z",
+      "snippet": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning…"
+    },
+    {
+      "title": "langcache-embed-v3-small, Mellum2-12B-A2.5B-Thinking, and LightOnOCR-2-1B models now available on Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T23:05:00.000Z",
+      "snippet": "Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring…"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7i instances now available in AWS South America (São Paulo) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T23:02:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS South America (São Paulo) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire…"
+    },
+    {
+      "title": "GLM-5.2 FP8, NVIDIA-Nemotron-Nano-12B-v2 and GLM-OCR models now available on Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T23:02:00.000Z",
+      "snippet": "Z.ai's GLM-5.2 FP8, NVIDIA's Nemotron-Nano-12B-v2, and Z.ai's GLM-OCR models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning…"
+    },
+    {
+      "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T21:15:00.000Z",
+      "snippet": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for future sessions across your streaming locations. No…"
+    },
+    {
+      "title": "AWS completes the 2026 Police-Assured Secure Facilities (PASF) audit in Europe (London)",
+      "link": "https://aws.amazon.com/blogs/security/aws-completes-the-2026-police-assured-secure-facilities-pasf-audit-in-europe-london/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-10T20:21:40.000Z",
+      "snippet": "We’re excited to announce that our Europe (London) AWS Region has renewed its accreditation for United Kingdom (UK) Police-Assured Secure Facilities (PASF) for Official-Sensitive data. Since 2017, the Amazon Web Services (AWS) Europe (London) Region has been…"
+    },
+    {
+      "title": "Amazon EC2 introduces application status checks",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-application-status-checks",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T17:47:00.000Z",
+      "snippet": "Amazon EC2 introduces application status checks, a new status check that helps customers detect and respond to application-level issues on their EC2 instances. With application status checks, EC2 monitors applications to detect issues such as a web server…"
+    },
     {
       "title": "2026 AWS CyberVadis report now available for due diligence on third-party suppliers",
       "link": "https://aws.amazon.com/blogs/security/2026-aws-cybervadis-report-now-available-for-due-diligence-on-third-party-suppliers/",
       "source": "AWS Security Blog",
       "pubDate": "2026-08-10T17:09:02.000Z",
       "snippet": "We’re excited to announce that Amazon Web Services (AWS) has completed theCyberVadis assessment of its security posture with the highest score (Mature) in all assessed areas. This demonstrates our continued commitment to meet the heightened expectations for…"
+    },
+    {
+      "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T15:51:00.000Z",
+      "snippet": "The next generation of Amazon OpenSearch Serverless now supports up to 10,000 collections within a single collection group, increased from the previous limit of 1,500. Collection groups organize multiple collections and enable them to share OpenSearch Compute…"
     },
     {
       "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-06T20:00:00.000Z",
       "snippet": "Today, AWS announces runtime instances, a new feature in Amazon Bedrock AgentCore that lets you run agents on your own Amazon EC2 instances without managing infrastructure. AgentCore runtime provides purpose-built infrastructure to deploy and operate AI…"
-    },
-    {
-      "title": "Route Amazon Bedrock Guardrails interventions to Amazon Security Lake",
-      "link": "https://aws.amazon.com/blogs/security/route-amazon-bedrock-guardrails-interventions-to-amazon-security-lake/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-06T19:00:15.000Z",
-      "snippet": "Security teams investigating AI-related incidents need guardrail intervention data alongside their existing security telemetry. Routing Amazon Bedrock Guardrails violations to Amazon Security Lake makes this possible. With this integration, you can query…"
-    },
-    {
-      "title": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn nodes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T19:00:00.000Z",
-      "snippet": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn node families for Valkey and Memcached. Graviton4-based nodes provide up to 47% higher throughput, up to 43% lower P99 latency, and up to 31% better price-performance for on-demand pricing…"
-    },
-    {
-      "title": "AWS Glue Schema Registry is now available in ten more AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T18:56:00.000Z",
-      "snippet": "You can now use the AWS Glue Schema Registry, a serverless and free feature of AWS Glue, in the Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Hyderabad), Asia Pacific (Osaka), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Mexico…"
-    },
-    {
-      "title": "Amazon OpenSearch UI now supports Network Access Control",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ui-network-access-control",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T18:16:00.000Z",
-      "snippet": "Amazon OpenSearch Service now supports network access controls for OpenSearch UI applications. OpenSearch UI is the fully managed web service for search, analytics, and unified observability across multiple AWS data sources. With network access controls, you…"
-    },
-    {
-      "title": "AWS Transform for migrations automates post-launch actions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T17:00:00.000Z",
-      "snippet": "AWS Transform now automates the configuration and execution of post-launch actions through the migration workflow. Define actions at the account level and apply them automatically to each source server across your target accounts, including multi-account…"
-    },
-    {
-      "title": "Amazon Connect Customer adds one-click drill-down on real-time metrics dashboards",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-drill-down-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer dashboards now support drilling down into real-time queue and routing profile performance. With a single click, supervisors can drill from a summary view into pre-filtered routing profile, queue, agent, or routing step widgets. For…"
-    },
-    {
-      "title": "AWS Security Agent now supports email-based MFA for penetration testing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent-mfa/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-06T16:54:00.000Z",
-      "snippet": "AWS Security Agent (now part of AWS Continuum) now enables penetration testing of applications that use email-based multi-factor authentication (MFA) as part of their login flow. Previously, applications requiring one-time codes or verification links sent by…"
-    },
-    {
-      "title": "Caching KMS data keys in multi-thread environments: Per-tenant encryption for event-driven systems at scale",
-      "link": "https://aws.amazon.com/blogs/security/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-06T16:16:06.000Z",
-      "snippet": "This post assumes familiarity with envelope encryption and the AWS Encryption SDK. When your encryption system generates millions of duplicate API calls per hour, costs spiral and performance degrades. That’s exactly the challenge NICE Actimize faced while…"
     }
   ]
 }
