@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-12T13:30:04.957Z",
+  "lastUpdated": "2026-08-12T19:30:26.508Z",
   "items": [
+    {
+      "title": "Amazon Quick agentic AI capabilities are now available in AWS GovCloud (US-West)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-aws-govcloud-us-west/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-11T23:00:00.000Z",
+      "snippet": "Today, AWS announces that Amazon Quick's agentic AI capabilities are now available in AWS GovCloud (US-West), bringing an agentic AI teammate to government and regulated-industry teams within an isolated, FedRAMP Class D (formerly High) authorized…"
+    },
     {
       "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
@@ -128,6 +135,13 @@
       "snippet": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for future sessions across your streaming locations. No…"
     },
     {
+      "title": "AWS Marketplace now supports category-based notification subscriptions and multi-channel delivery for buyers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-managed-buyer-notifications/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T21:00:12.000Z",
+      "snippet": "AWS Marketplace buyers can now configure category-based notifications and multi-channel delivery through AWS User Notifications. Previously, buyer email notifications were limited to the AWS account root email with no way to choose which categories you…"
+    },
+    {
       "title": "AWS completes the 2026 Police-Assured Secure Facilities (PASF) audit in Europe (London)",
       "link": "https://aws.amazon.com/blogs/security/aws-completes-the-2026-police-assured-secure-facilities-pasf-audit-in-europe-london/",
       "source": "AWS Security Blog",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-07T19:21:00.000Z",
       "snippet": "Amazon Timestream for InfluxDB now lets you create and manage your own backups and restore your data on demand. You can trigger one-time, on-demand backups, schedule automated recurring backups at the frequency and retention you choose, and restore a backup…"
-    },
-    {
-      "title": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-07T18:00:48.000Z",
-      "snippet": "Amazon Cognito is now available as a core skill (aws-auth) in the Agent Toolkit for AWS. AI coding agents using the toolkit can now set up, configure, secure, and troubleshoot Amazon Cognito using best-practice workflows, helping developers implement secure…"
-    },
-    {
-      "title": "Securing your Amazon S3 buckets: Identifying and remediating over-permissioned access",
-      "link": "https://aws.amazon.com/blogs/security/securing-your-amazon-s3-buckets-identifying-and-remediating-over-permissioned-access/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-07T16:46:40.000Z",
-      "snippet": "Misconfigured Amazon Simple Storage Service (Amazon S3) buckets can expose your data to unauthorized access. Without proactive review, S3 bucket policies or Access Control Lists (ACLs) configured with broad access may go unnoticed in your environment. In this…"
     }
   ]
 }
