@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-08-11T19:29:00.928Z",
+  "lastUpdated": "2026-08-12T01:29:17.034Z",
   "items": [
+    {
+      "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-11T22:03:00.000Z",
+      "snippet": "Starting today, Amazon EC2 R8a instances are now available in Canada (Central) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19%…"
+    },
+    {
+      "title": "Landing Zone Accelerator Independent Assessment Report for C5:2020 now available on AWS Artifact",
+      "link": "https://aws.amazon.com/blogs/security/landing-zone-accelerator-independent-assessment-report-for-c52020-now-available-on-aws-artifact/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-11T21:50:28.000Z",
+      "snippet": "Organizations operating in Germany and across Europe increasingly need to demonstrate cloud security compliance under the Cloud Computing Compliance Criteria Catalogue (C5:2020), published by Germany’s Federal Office for Information Security (BSI). Last year,…"
+    },
+    {
+      "title": "Scaling patterns for self-organizing multi-agent clusters with Kiro",
+      "link": "https://aws.amazon.com/blogs/architecture/scaling-patterns-for-self-organizing-multi-agent-clusters-with-kiro/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-11T21:17:02.000Z",
+      "snippet": "Learn how to coordinate AI agents through shared state in Amazon S3 instead of a central orchestrator. Deploy and observe self-organizing agent clusters on Amazon EC2 with the open-source kiro-flock reference implementation."
+    },
+    {
+      "title": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-11T20:25:00.000Z",
+      "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock now supports cost allocation by…"
+    },
     {
       "title": "Summer 2026 SOC 1 report is now available with 185 services in scope",
       "link": "https://aws.amazon.com/blogs/security/summer-2026-soc-1-report-is-now-available-with-185-services-in-scope/",
@@ -37,11 +65,25 @@
       "snippet": "AWS Glue now provides direct access to Amazon SageMaker Unified Studio, helping data engineers and analysts move from viewing the catalog in the Glue console to querying their data, running data quality checks, and building data pipelines in SageMaker Unified…"
     },
     {
+      "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-11T14:57:00.000Z",
+      "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Jenkins API Tokens and SonarQube Tokens, enabling you to automatically rotate these third-party credentials directly from the AWS console without writing any custom rotation…"
+    },
+    {
       "title": "Amazon Connect Customer launches performance dashboard for Cases",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
       "source": "AWS What's New",
       "pubDate": "2026-08-11T13:30:00.000Z",
       "snippet": "Amazon Connect Customer now provides a performance dashboard for cases that helps managers monitor case volume, resolution trends, and performance against service level agreement (SLA) targets. Managers can compare current and prior-period performance across…"
+    },
+    {
+      "title": "AWS Clean Rooms supports exporting privacy-enhanced analysis logs for SQL",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-11T12:00:00.000Z",
+      "snippet": "AWS Clean Rooms now supports exporting privacy-enhanced analysis logs for SQL analyses, offering customers greater optimization and troubleshooting capabilities. With this launch, you can export privacy-enhanced analysis logs to an S3 bucket for SQL queries…"
     },
     {
       "title": "Amazon RDS for MariaDB now supports MariaDB 12.3",
@@ -91,6 +133,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-08-10T20:21:40.000Z",
       "snippet": "We’re excited to announce that our Europe (London) AWS Region has renewed its accreditation for United Kingdom (UK) Police-Assured Secure Facilities (PASF) for Official-Sensitive data. Since 2017, the Amazon Web Services (AWS) Europe (London) Region has been…"
+    },
+    {
+      "title": "AWS Identity and Access Management streamlines assignment of IAM roles to workforce users with account access manager",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-aam/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-10T20:07:00.000Z",
+      "snippet": "AWS Identity and Access Management (IAM) launched account access manager, a feature that streamlines assignment of IAM roles to workforce users. Administrators use account access manager to assign the IAM roles in their AWS accounts to the workforce users and…"
     },
     {
       "title": "Amazon EC2 introduces application status checks",
@@ -161,55 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-08-07T16:46:40.000Z",
       "snippet": "Misconfigured Amazon Simple Storage Service (Amazon S3) buckets can expose your data to unauthorized access. Without proactive review, S3 bucket policies or Access Control Lists (ACLs) configured with broad access may go unnoticed in your environment. In this…"
-    },
-    {
-      "title": "AWS IAM Identity Center supports one-click multi-Region option for new organization instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-supports-one-click-multi-region-option-new-organization-instances",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-07T16:00:00.000Z",
-      "snippet": "AWS IAM Identity Center now makes it easier to enable multi-Region support when creating a new organization instance. Previously, enabling multi-Region support required multiple steps including creating a customer managed KMS key, configuring key policies,…"
-    },
-    {
-      "title": "Amazon VPC IPAM now supports BGP route protection monitoring and delegated RPKI for BYOIP prefixes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-vpc-ipam-bgp-rpki-byoip/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-07T16:00:00.000Z",
-      "snippet": "Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports BGP route protection monitoring and delegated Resource Public Key Infrastructure (RPKI) management for Bring Your Own IP (BYOIP) prefixes. Network administrators can centrally monitor…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-07T15:52:00.000Z",
-      "snippet": "Today, Amazon Bedrock AgentCore introduces new capabilities in AWS GovCloud (US-West). AgentCore is the platform to build, connect, and optimize agents. With these capabilities, teams operating in regulated environments can build context-aware agents and take…"
-    },
-    {
-      "title": "Amazon CloudWatch Alarms now supports wall clock evaluation windows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-alarms-wallclock-evaluation",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-07T08:00:00.000Z",
-      "snippet": "Today, Amazon CloudWatch announces wall clock evaluation windows for metric alarms, enabling customers to align alarm evaluations to fixed calendar boundaries such as the top of the hour, midnight, or the start of the week. This new option complements the…"
-    },
-    {
-      "title": "Amazon GameLift Servers now supports 21 new EC2 instance types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gamelift-ec2-instance-expansion/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-07T08:00:00.000Z",
-      "snippet": "Amazon GameLift Servers now supports 21 additional Amazon EC2 instance types for managed EC2 fleets and managed container fleets. Amazon GameLift Servers is a fully managed service that enables game developers and studios to deploy, operate, and scale…"
-    },
-    {
-      "title": "Amazon OpenSearch Service announces additional upgrade runway for existing domains and support dates for additional versions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-07T07:00:00.000Z",
-      "snippet": "In November 2024, Amazon OpenSearch Service announced Extended Support for legacy Elasticsearch and OpenSearch engine versions (see also the detailed blog post). Since that announcement, many customers have upgraded to newer versions. However, some customers…"
-    },
-    {
-      "title": "Amazon SES now helps identify automated open and click events in event notifications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-07T07:00:00.000Z",
-      "snippet": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely triggered by an automated system or a human recipient.…"
     }
   ]
 }
