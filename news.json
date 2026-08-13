@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-08-13T13:31:28.293Z",
+  "lastUpdated": "2026-08-13T19:31:47.366Z",
   "items": [
+    {
+      "title": "Spot Placement Score now includes Local Zones",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-13T17:13:00.000Z",
+      "snippet": "Today, AWS announces support for AWS Local Zones in Spot placement score, helping you identify locations where your Spot capacity request is most likely to succeed. Spot placement score evaluates your target capacity and compute requirements and returns…"
+    },
+    {
+      "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-13T16:12:00.000Z",
+      "snippet": "Security teams can now access Daybreak Red and Daybreak Blue from OpenAI on Amazon Bedrock. Both are part of Daybreak, the cyber defense initiative from OpenAI that gives defenders governed access to frontier AI for cybersecurity work. Daybreak Blue is the…"
+    },
+    {
+      "title": "Track generative AI costs with Amazon Bedrock inference profiles",
+      "link": "https://aws.amazon.com/blogs/architecture/track-generative-ai-costs-with-amazon-bedrock-inference-profiles/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-13T15:59:39.000Z",
+      "snippet": "Learn how to track generative AI costs by department using Amazon Bedrock application inference profiles and AWS cost allocation tags. Create tagged profiles for each team and view per-department cost breakdowns in AWS Cost Explorer."
+    },
+    {
+      "title": "Recovery strategies to meet data residency requirements",
+      "link": "https://aws.amazon.com/blogs/architecture/recovery-strategies-to-meet-data-residency-requirements/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-13T14:05:39.000Z",
+      "snippet": "Learn three strategies for achieving disaster recovery while meeting data residency requirements. Ranging from encryption-based controls on multi-Region replication to fully in-country architectures, these patterns help you balance recovery objectives with…"
+    },
+    {
+      "title": "Amazon S3 adds additional policy details to access denied error messages",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-13T13:00:00.000Z",
+      "snippet": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-organization requests. This helps you quickly identify the…"
+    },
     {
       "title": "Reducing Text2SQL latency with parameterized query templates",
       "link": "https://aws.amazon.com/blogs/architecture/reducing-text2sql-latency-with-parameterized-query-templates/",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-10T23:05:00.000Z",
       "snippet": "Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring…"
-    },
-    {
-      "title": "GLM-5.2 FP8, NVIDIA-Nemotron-Nano-12B-v2 and GLM-OCR models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-10T23:02:00.000Z",
-      "snippet": "Z.ai's GLM-5.2 FP8, NVIDIA's Nemotron-Nano-12B-v2, and Z.ai's GLM-OCR models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i instances now available in AWS South America (São Paulo) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-10T23:02:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS South America (São Paulo) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire…"
-    },
-    {
-      "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-10T21:15:00.000Z",
-      "snippet": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for future sessions across your streaming locations. No…"
-    },
-    {
-      "title": "AWS Marketplace now supports category-based notification subscriptions and multi-channel delivery for buyers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-managed-buyer-notifications/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-10T21:00:12.000Z",
-      "snippet": "AWS Marketplace buyers can now configure category-based notifications and multi-channel delivery through AWS User Notifications. Previously, buyer email notifications were limited to the AWS account root email with no way to choose which categories you…"
-    },
-    {
-      "title": "AWS completes the 2026 Police-Assured Secure Facilities (PASF) audit in Europe (London)",
-      "link": "https://aws.amazon.com/blogs/security/aws-completes-the-2026-police-assured-secure-facilities-pasf-audit-in-europe-london/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-10T20:21:40.000Z",
-      "snippet": "We’re excited to announce that our Europe (London) AWS Region has renewed its accreditation for United Kingdom (UK) Police-Assured Secure Facilities (PASF) for Official-Sensitive data. Since 2017, the Amazon Web Services (AWS) Europe (London) Region has been…"
     }
   ]
 }
