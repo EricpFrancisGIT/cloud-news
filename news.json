@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T13:32:48.817Z",
+  "lastUpdated": "2026-08-14T19:33:06.532Z",
   "items": [
     {
       "title": "Serverless vehicle tracking at scale: Bosch L.OS on AWS",
@@ -7,6 +7,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-08-14T10:02:13.000Z",
       "snippet": "Learn how Bosch Mobility Platform Solutions built L.OS, a serverless vehicle tracking platform on AWS that unifies India's fragmented spot logistics market into a single real-time visibility layer using Amazon ECS, AWS Lambda, and Amazon MSK."
+    },
+    {
+      "title": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-14T07:00:00.000Z",
+      "snippet": "Amazon Simple Email Service (SES) now makes it easier to support mobile deep linking with the new ses:custom-path HTML attribute. When you add this attribute to an tag, SES carries your path segment through to the tracking URL, so mobile operating systems can…"
     },
     {
       "title": "AWS Billing and Cost Management introduces Managed Dashboards",
@@ -28,6 +35,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-13T20:49:00.000Z",
       "snippet": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment time, making it easier you to automate VPN connectivity and…"
+    },
+    {
+      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-13T19:34:00.000Z",
+      "snippet": "Amazon Redshift now offers rg.large and rg.12xlarge instance sizes for RG instances in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as…"
     },
     {
       "title": "Claude Opus 5 is now available in AWS GovCloud (US)",
@@ -196,20 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-08-11T21:50:28.000Z",
       "snippet": "Organizations operating in Germany and across Europe increasingly need to demonstrate cloud security compliance under the Cloud Computing Compliance Criteria Catalogue (C5:2020), published by Germany’s Federal Office for Information Security (BSI). Last year,…"
-    },
-    {
-      "title": "Scaling patterns for self-organizing multi-agent clusters with Kiro",
-      "link": "https://aws.amazon.com/blogs/architecture/scaling-patterns-for-self-organizing-multi-agent-clusters-with-kiro/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-11T21:17:02.000Z",
-      "snippet": "Learn how to coordinate AI agents through shared state in Amazon S3 instead of a central orchestrator. Deploy and observe self-organizing agent clusters on Amazon EC2 with the open-source kiro-flock reference implementation."
-    },
-    {
-      "title": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-11T20:25:00.000Z",
-      "snippet": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI applications. Amazon Bedrock now supports cost allocation by…"
     }
   ]
 }
