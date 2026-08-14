@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-08-13T19:31:47.366Z",
+  "lastUpdated": "2026-08-14T01:32:06.851Z",
   "items": [
+    {
+      "title": "AWS Certificate Manager will discontinue email validation to prove domain validation for certificates",
+      "link": "https://aws.amazon.com/blogs/security/aws-certificate-manager-will-discontinue-email-validation-to-prove-domain-validation-for-certificates/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-13T21:23:00.000Z",
+      "snippet": "Today, we’re announcing that AWS Certificate Manager (ACM) will discontinue support for email-validated public certificates by September 30, 2027. If you use email validation for your ACM public certificates, you need to migrate to DNS validation before that…"
+    },
+    {
+      "title": "AWS Client VPN now supports CLI, administration controls, and faster connections",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-13T20:49:00.000Z",
+      "snippet": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment time, making it easier you to automate VPN connectivity and…"
+    },
+    {
+      "title": "Claude Opus 5 is now available in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-13T18:23:00.000Z",
+      "snippet": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level. Claude…"
+    },
+    {
+      "title": "Amazon Quick Microsoft 365 extensions are now generally available",
+      "link": "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-13T18:00:00.000Z",
+      "snippet": "Today, Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environments, using AI to handle complex local tasks such…"
+    },
     {
       "title": "Spot Placement Score now includes Local Zones",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones/",
@@ -23,6 +51,13 @@
       "snippet": "Learn how to track generative AI costs by department using Amazon Bedrock application inference profiles and AWS cost allocation tags. Create tagged profiles for each team and view per-department cost breakdowns in AWS Cost Explorer."
     },
     {
+      "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-13T15:00:00.000Z",
+      "snippet": "AWS Certificate Manager (ACM) now enables you to change the domain validation method on your existing ACM issued public TLS certificates from e-mail to DNS, without reissuing the certificate or changing its existing Amazon Resource Name (ARN). Due to the…"
+    },
+    {
       "title": "Recovery strategies to meet data residency requirements",
       "link": "https://aws.amazon.com/blogs/architecture/recovery-strategies-to-meet-data-residency-requirements/",
       "source": "AWS Architecture Blog",
@@ -37,6 +72,13 @@
       "snippet": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-organization requests. This helps you quickly identify the…"
     },
     {
+      "title": "AWS Clean Rooms supports minimum aggregation thresholds in custom analysis rules",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-13T12:00:00.000Z",
+      "snippet": "AWS Clean Rooms now supports minimum aggregation thresholds for the Custom analysis rule type. Minimum aggregation helps protect the privacy of individual data subjects by preventing queries from returning results about individuals or small groups. With this…"
+    },
+    {
       "title": "Reducing Text2SQL latency with parameterized query templates",
       "link": "https://aws.amazon.com/blogs/architecture/reducing-text2sql-latency-with-parameterized-query-templates/",
       "source": "AWS Architecture Blog",
@@ -49,6 +91,20 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-08-13T00:14:19.000Z",
       "snippet": "Learn how Adobe Firefly achieved 28x faster GPU metric queries by migrating from self-managed Prometheus to Amazon Managed Service for Prometheus, with improvements in query performance, infrastructure reliability, and operational efficiency."
+    },
+    {
+      "title": "Amazon Quick now supports approval policies for sharing",
+      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-12T22:22:00.000Z",
+      "snippet": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated approvers to review and approve share requests before…"
+    },
+    {
+      "title": "Amazon Quick now supports per-user resource limits",
+      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-12T22:17:00.000Z",
+      "snippet": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create limit profiles that cap per-user consumption, helping…"
     },
     {
       "title": "How AWS IAM role manager rethinks the starting point for IAM roles",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-11T15:22:00.000Z",
       "snippet": "NVIDIA's LocateAnything-3B, Qwen's Qwen-AgentWorld-35B-A3B, and Qwen's Qwen3.5-122B-A10B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized…"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Lightning model is now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-lightning-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-11T15:21:00.000Z",
-      "snippet": "NVIDIA's Nemotron 3.5 Lightning is now available on Amazon SageMaker JumpStart, giving AWS customers access to the fastest open model in its class for persistent agent workloads and rapid task execution. Nemotron 3.5 Lightning is engineered for persistent…"
-    },
-    {
-      "title": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-11T14:57:00.000Z",
-      "snippet": "AWS Glue now provides direct access to Amazon SageMaker Unified Studio, helping data engineers and analysts move from viewing the catalog in the Glue console to querying their data, running data quality checks, and building data pipelines in SageMaker Unified…"
-    },
-    {
-      "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-11T14:57:00.000Z",
-      "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Jenkins API Tokens and SonarQube Tokens, enabling you to automatically rotate these third-party credentials directly from the AWS console without writing any custom rotation…"
-    },
-    {
-      "title": "Amazon Connect Customer launches performance dashboard for Cases",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-11T13:30:00.000Z",
-      "snippet": "Amazon Connect Customer now provides a performance dashboard for cases that helps managers monitor case volume, resolution trends, and performance against service level agreement (SLA) targets. Managers can compare current and prior-period performance across…"
-    },
-    {
-      "title": "AWS Clean Rooms supports exporting privacy-enhanced analysis logs for SQL",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-11T12:00:00.000Z",
-      "snippet": "AWS Clean Rooms now supports exporting privacy-enhanced analysis logs for SQL analyses, offering customers greater optimization and troubleshooting capabilities. With this launch, you can export privacy-enhanced analysis logs to an S3 bucket for SQL queries…"
-    },
-    {
-      "title": "Amazon RDS for MariaDB now supports MariaDB 12.3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-11T08:54:00.000Z",
-      "snippet": "Starting today, Amazon RDS for MariaDB supports MariaDB major version 12.3, the latest Long-Term Support release from the MariaDB community. This release supports MariaDB 12.3.2 minor version. MariaDB 12.3 includes Oracle TO_DATE() function compatibility,…"
-    },
-    {
-      "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-10T23:08:00.000Z",
-      "snippet": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning…"
-    },
-    {
-      "title": "langcache-embed-v3-small, Mellum2-12B-A2.5B-Thinking, and LightOnOCR-2-1B models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-10T23:05:00.000Z",
-      "snippet": "Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring…"
     }
   ]
 }
