@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-14T19:33:06.532Z",
+  "lastUpdated": "2026-08-15T01:33:28.561Z",
   "items": [
+    {
+      "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-14T15:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and scale Oracle Database deployments in the…"
+    },
     {
       "title": "Serverless vehicle tracking at scale: Bosch L.OS on AWS",
       "link": "https://aws.amazon.com/blogs/architecture/serverless-vehicle-tracking-at-scale-bosch-l-os-on-aws/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-11T22:03:00.000Z",
       "snippet": "Starting today, Amazon EC2 R8a instances are now available in Canada (Central) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19%…"
-    },
-    {
-      "title": "Landing Zone Accelerator Independent Assessment Report for C5:2020 now available on AWS Artifact",
-      "link": "https://aws.amazon.com/blogs/security/landing-zone-accelerator-independent-assessment-report-for-c52020-now-available-on-aws-artifact/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-11T21:50:28.000Z",
-      "snippet": "Organizations operating in Germany and across Europe increasingly need to demonstrate cloud security compliance under the Cloud Computing Compliance Criteria Catalogue (C5:2020), published by Germany’s Federal Office for Information Security (BSI). Last year,…"
     }
   ]
 }
