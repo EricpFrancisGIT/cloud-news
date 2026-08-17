@@ -1,12 +1,82 @@
 {
-  "lastUpdated": "2026-08-17T13:36:48.832Z",
+  "lastUpdated": "2026-08-17T19:37:05.956Z",
   "items": [
     {
-      "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1",
+      "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T18:11:00.000Z",
+      "snippet": "Amazon EC2 Auto Scaling now supports batch instance termination in a single API call. You can now pass up to 100 instance IDs to the TerminateInstanceInAutoScalingGroup API to terminate them as a batch, reducing the number of API calls needed to scale down…"
+    },
+    {
+      "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Canada West (Calgary) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex-calgary/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T17:28:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance…"
+    },
+    {
+      "title": "Updates to your AWS Sign-In experience",
+      "link": "https://aws.amazon.com/blogs/security/updates-to-your-aws-sign-in-experience/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-17T17:22:33.000Z",
+      "snippet": "Amazon Web Services (AWS) is gradually introducing updates to the AWS Sign-In and sign-up experience to a limited number of customers. We’re sharing these changes so you will know what to expect as we gradually make the updated experience available to more…"
+    },
+    {
+      "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-08-17T16:02:36.000Z",
+      "snippet": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community leaders and users of these Linux…"
+    },
+    {
+      "title": "Amazon Quick Microsoft 365 extensions are now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-microsoft-365-extensions-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T15:41:00.000Z",
+      "snippet": "Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environments, using AI to handle complex local tasks such as…"
+    },
+    {
+      "title": "Amazon OpenSearch Service now supports automatic semantic enrichment for VPC domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T15:39:00.000Z",
+      "snippet": "Amazon OpenSearch Service now extends automatic semantic enrichment to VPC-enabled domains, allowing customers with private network configurations to leverage AI-powered semantic search without exposing their domains to the public internet. Automatic semantic…"
+    },
+    {
+      "title": "AWS CloudShell now includes a built-in visual file editor",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cloudshell-visual-file-editor/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T13:00:00.000Z",
+      "snippet": "AWS CloudShell now includes a built-in visual file editor that you can launch directly from your shell session using a single 'edit' command, no setup required. CloudShell provides a browser-based shell environment that uses your existing AWS Management…"
+    },
+    {
+      "title": "Amazon Quick now supports per-user resource limits",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-14T21:07:00.000Z",
+      "snippet": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create limit profiles that cap per-user consumption, helping…"
+    },
+    {
+      "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-dlp-purview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-14T21:04:00.000Z",
+      "snippet": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside approved channels. With this integration, IT…"
+    },
+    {
+      "title": "Amazon Quick now supports approval policies for sharing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-14T21:00:00.000Z",
+      "snippet": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated approvers to review and approve share requests before…"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports Oracle APEX version 26.1",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
       "source": "AWS What's New",
       "pubDate": "2026-08-14T15:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and scale Oracle Database deployments in the…"
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle APEX version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and scale Oracle Database deployments in the cloud. Oracle APEX is a…"
     },
     {
       "title": "Serverless vehicle tracking at scale: Bosch L.OS on AWS",
@@ -56,13 +126,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-13T18:23:00.000Z",
       "snippet": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level. Claude…"
-    },
-    {
-      "title": "Amazon Quick Microsoft 365 extensions are now generally available",
-      "link": "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-13T18:00:00.000Z",
-      "snippet": "Today, Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environments, using AI to handle complex local tasks such…"
     },
     {
       "title": "Spot Placement Score now includes Local Zones",
@@ -135,13 +198,6 @@
       "snippet": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated approvers to review and approve share requests before…"
     },
     {
-      "title": "Amazon Quick now supports per-user resource limits",
-      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-12T22:17:00.000Z",
-      "snippet": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create limit profiles that cap per-user consumption, helping…"
-    },
-    {
       "title": "How AWS IAM role manager rethinks the starting point for IAM roles",
       "link": "https://aws.amazon.com/blogs/security/how-aws-iam-role-manager-rethinks-the-starting-point-for-iam-roles/",
       "source": "AWS Security Blog",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-12T22:00:00.000Z",
       "snippet": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure. Previously, customers had to scan through a list of AWS locations in AWS Global View.…"
-    },
-    {
-      "title": "AWS IAM now provides role manager to set up IAM roles automatically",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-12T18:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set up a supported service in the console, role manager creates a…"
-    },
-    {
-      "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-12T18:00:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune pod placement strategies to improve resource utilization,…"
-    },
-    {
-      "title": "Amazon Quick adds deny by default for custom permissions",
-      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-12T17:15:00.000Z",
-      "snippet": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were available to all users on release, requiring administrators to…"
-    },
-    {
-      "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-12T17:15:00.000Z",
-      "snippet": "Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate follow-up or for which they already have relevant context. For…"
-    },
-    {
-      "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
-      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-12T17:09:00.000Z",
-      "snippet": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside approved channels. With this integration, IT…"
-    },
-    {
-      "title": "Amazon Nova Multimodal Embeddings is now available in AWS GovCloud (US-West)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-nova-mme-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-12T14:34:00.000Z",
-      "snippet": "We are excited to announce the general availability of Amazon Nova Multimodal Embeddings, a state-of-the-art embedding model for agentic RAG and semantic search, in AWS GovCloud (US-West). It is the first unified embedding model that supports text, documents,…"
-    },
-    {
-      "title": "Amazon Quick agentic AI capabilities are now available in AWS GovCloud (US-West)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-aws-govcloud-us-west/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-11T23:00:00.000Z",
-      "snippet": "Today, AWS announces that Amazon Quick's agentic AI capabilities are now available in AWS GovCloud (US-West), bringing an agentic AI teammate to government and regulated-industry teams within an isolated, FedRAMP Class D (formerly High) authorized…"
-    },
-    {
-      "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-11T22:03:00.000Z",
-      "snippet": "Starting today, Amazon EC2 R8a instances are now available in Canada (Central) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19%…"
     }
   ]
 }
