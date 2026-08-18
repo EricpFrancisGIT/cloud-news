@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-18T07:37:50.236Z",
+  "lastUpdated": "2026-08-18T13:38:16.300Z",
   "items": [
+    {
+      "title": "Consistency is the new latency: AI at the data layer",
+      "link": "https://aws.amazon.com/blogs/architecture/consistency-is-the-new-latency-ai-at-the-data-layer/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-18T11:13:20.000Z",
+      "snippet": "As AI agents move from chatbots to taking action, their reliability depends on the consistency of the data layer beneath them. This post examines how replication lag poisons an agent's context and shows how to match Amazon Aurora, Amazon DynamoDB, and Amazon…"
+    },
     {
       "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/",
@@ -203,13 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-08-13T14:05:39.000Z",
       "snippet": "Learn three strategies for achieving disaster recovery while meeting data residency requirements. Ranging from encryption-based controls on multi-Region replication to fully in-country architectures, these patterns help you balance recovery objectives with…"
-    },
-    {
-      "title": "Amazon S3 adds additional policy details to access denied error messages",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-13T13:00:00.000Z",
-      "snippet": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-organization requests. This helps you quickly identify the…"
     }
   ]
 }
