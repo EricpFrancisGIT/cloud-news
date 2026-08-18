@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-08-17T19:37:05.956Z",
+  "lastUpdated": "2026-08-18T01:37:28.882Z",
   "items": [
+    {
+      "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T20:29:00.000Z",
+      "snippet": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Sol, Terra, and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs. It also adds support for cross-Region inference, allowing customers to use…"
+    },
+    {
+      "title": "Amazon ECR now supports 25 replication rules per registry",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T19:01:00.000Z",
+      "snippet": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum number of replication rules per registry from 10 to 25. Previously, customers with complex multi-region or multi-account architectures were constrained to 10 replication rules per…"
+    },
     {
       "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
       "source": "AWS What's New",
       "pubDate": "2026-08-17T18:11:00.000Z",
       "snippet": "Amazon EC2 Auto Scaling now supports batch instance termination in a single API call. You can now pass up to 100 instance IDs to the TerminateInstanceInAutoScalingGroup API to terminate them as a batch, reducing the number of API calls needed to scale down…"
+    },
+    {
+      "title": "Amazon MSK now supports configuring custom domain names for MSK Provisioned clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T18:01:00.000Z",
+      "snippet": "You can now easily configure custom domain names on Amazon MSK Provisioned clusters, on either ZooKeeper or KRaft mode for metadata management. This capability helps client applications maintain the same connection endpoints, simplifying cluster migrations,…"
     },
     {
       "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Canada West (Calgary) region",
@@ -16,11 +37,25 @@
       "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance…"
     },
     {
+      "title": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-routing-steps/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T17:23:00.000Z",
+      "snippet": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies enabling supervisors to monitor and optimize how contacts are matched to agents based on agent proficiencies. Managers can filter agents by their assigned…"
+    },
+    {
       "title": "Updates to your AWS Sign-In experience",
       "link": "https://aws.amazon.com/blogs/security/updates-to-your-aws-sign-in-experience/",
       "source": "AWS Security Blog",
       "pubDate": "2026-08-17T17:22:33.000Z",
       "snippet": "Amazon Web Services (AWS) is gradually introducing updates to the AWS Sign-In and sign-up experience to a limited number of customers. We’re sharing these changes so you will know what to expect as we gradually make the updated experience available to more…"
+    },
+    {
+      "title": "AWS Network Firewall Now Supports Stateful Rule Hit Counts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-stateful-rule-hit-counts/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T16:30:00.000Z",
+      "snippet": "AWS Network Firewall now provides rule hit counts for stateful rules, giving network administrators and security engineers visibility into how often each stateful rule in the firewall policy matches network traffic. AWS Network Firewall is a managed network…"
     },
     {
       "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
@@ -70,6 +105,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-14T21:00:00.000Z",
       "snippet": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated approvers to review and approve share requests before…"
+    },
+    {
+      "title": "Amazon Quick now supports customizable no data messages for visuals",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-quick-custom-no-data-message/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-14T15:00:00.000Z",
+      "snippet": "Amazon Quick announces support for no data message customization, enabling authors to replace the default \"No data to display\" message with a tailored message when a visual returns no data. Authors can configure a custom title, subtitle, and hyperlink that…"
     },
     {
       "title": "Amazon RDS for Oracle now supports Oracle APEX version 26.1",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-13T13:00:00.000Z",
       "snippet": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-organization requests. This helps you quickly identify the…"
-    },
-    {
-      "title": "AWS Clean Rooms supports minimum aggregation thresholds in custom analysis rules",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-13T12:00:00.000Z",
-      "snippet": "AWS Clean Rooms now supports minimum aggregation thresholds for the Custom analysis rule type. Minimum aggregation helps protect the privacy of individual data subjects by preventing queries from returning results about individuals or small groups. With this…"
-    },
-    {
-      "title": "Reducing Text2SQL latency with parameterized query templates",
-      "link": "https://aws.amazon.com/blogs/architecture/reducing-text2sql-latency-with-parameterized-query-templates/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-13T00:40:32.000Z",
-      "snippet": "Learn how parameterized query templates reduced Text2SQL latency by 80% and cut token consumption by over 50%. This post covers the architecture behind an intelligent caching layer that uses semantic similarity to match user questions to SQL templates,…"
-    },
-    {
-      "title": "Adobe Firefly: Simplified observability with Amazon Managed Prometheus",
-      "link": "https://aws.amazon.com/blogs/architecture/adobe-firefly-simplified-observability-with-amazon-managed-prometheus/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-13T00:14:19.000Z",
-      "snippet": "Learn how Adobe Firefly achieved 28x faster GPU metric queries by migrating from self-managed Prometheus to Amazon Managed Service for Prometheus, with improvements in query performance, infrastructure reliability, and operational efficiency."
-    },
-    {
-      "title": "Amazon Quick now supports approval policies for sharing",
-      "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-12T22:22:00.000Z",
-      "snippet": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated approvers to review and approve share requests before…"
-    },
-    {
-      "title": "How AWS IAM role manager rethinks the starting point for IAM roles",
-      "link": "https://aws.amazon.com/blogs/security/how-aws-iam-role-manager-rethinks-the-starting-point-for-iam-roles/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-12T22:16:55.000Z",
-      "snippet": "When you build a new application or capability on Amazon Web Services (AWS), you want to focus on what you’re building. Getting a service running almost always begins with AWS Identity and Access Management (IAM). Many AWS services that act on your behalf…"
-    },
-    {
-      "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-12T22:00:00.000Z",
-      "snippet": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure. Previously, customers had to scan through a list of AWS locations in AWS Global View.…"
     }
   ]
 }
