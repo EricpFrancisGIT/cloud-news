@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-08-18T13:38:16.300Z",
+  "lastUpdated": "2026-08-18T19:39:00.132Z",
   "items": [
+    {
+      "title": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T18:00:00.000Z",
+      "snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports running custom Python functions and shell scripts directly in the serverless runtime using PythonOperator and BashOperator. With this launch, data engineering teams can execute…"
+    },
+    {
+      "title": "IAM Policy Autopilot now supports Terraform plan files",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T17:19:00.000Z",
+      "snippet": "IAM Policy Autopilot can now generate baseline IAM policies directly from a Terraform plan file. IAM Policy Autopilot is an open source tool, launched at re:Invent 2025, that analyzes your code to deterministically create scoped-down IAM policies you can…"
+    },
+    {
+      "title": "Security Hub Extended adds Supply Chain Security as its tenth category",
+      "link": "https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-18T17:04:28.000Z",
+      "snippet": "Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners…"
+    },
+    {
+      "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
+      "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-08-18T13:58:41.000Z",
+      "snippet": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech professionals who want to walk through the…"
+    },
     {
       "title": "Consistency is the new latency: AI at the data layer",
       "link": "https://aws.amazon.com/blogs/architecture/consistency-is-the-new-latency-ai-at-the-data-layer/",
@@ -84,6 +112,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-17T15:39:00.000Z",
       "snippet": "Amazon OpenSearch Service now extends automatic semantic enrichment to VPC-enabled domains, allowing customers with private network configurations to leverage AI-powered semantic search without exposing their domains to the public internet. Automatic semantic…"
+    },
+    {
+      "title": "AWS Console-to-Code adds 26 services and cross-region recording​",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/console-to-code-adds-26-services",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-17T15:00:00.000Z",
+      "snippet": "AWS Console-to-Code now supports 26 additional AWS services and introduces cross-region and cross-browser-tab action recording. This expansion grows total service coverage from 6 to 32 supported services, helping developers, DevOps engineers, and cloud…"
     },
     {
       "title": "AWS CloudShell now includes a built-in visual file editor",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-13T18:23:00.000Z",
       "snippet": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level. Claude…"
-    },
-    {
-      "title": "Spot Placement Score now includes Local Zones",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-13T17:13:00.000Z",
-      "snippet": "Today, AWS announces support for AWS Local Zones in Spot placement score, helping you identify locations where your Spot capacity request is most likely to succeed. Spot placement score evaluates your target capacity and compute requirements and returns…"
-    },
-    {
-      "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-13T16:12:00.000Z",
-      "snippet": "Security teams can now access Daybreak Red and Daybreak Blue from OpenAI on Amazon Bedrock. Both are part of Daybreak, the cyber defense initiative from OpenAI that gives defenders governed access to frontier AI for cybersecurity work. Daybreak Blue is the…"
-    },
-    {
-      "title": "Track generative AI costs with Amazon Bedrock inference profiles",
-      "link": "https://aws.amazon.com/blogs/architecture/track-generative-ai-costs-with-amazon-bedrock-inference-profiles/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-13T15:59:39.000Z",
-      "snippet": "Learn how to track generative AI costs by department using Amazon Bedrock application inference profiles and AWS cost allocation tags. Create tagged profiles for each team and view per-department cost breakdowns in AWS Cost Explorer."
-    },
-    {
-      "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-13T15:00:00.000Z",
-      "snippet": "AWS Certificate Manager (ACM) now enables you to change the domain validation method on your existing ACM issued public TLS certificates from e-mail to DNS, without reissuing the certificate or changing its existing Amazon Resource Name (ARN). Due to the…"
-    },
-    {
-      "title": "Recovery strategies to meet data residency requirements",
-      "link": "https://aws.amazon.com/blogs/architecture/recovery-strategies-to-meet-data-residency-requirements/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-13T14:05:39.000Z",
-      "snippet": "Learn three strategies for achieving disaster recovery while meeting data residency requirements. Ranging from encryption-based controls on multi-Region replication to fully in-country architectures, these patterns help you balance recovery objectives with…"
     }
   ]
 }
