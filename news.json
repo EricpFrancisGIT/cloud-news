@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-19T07:39:39.528Z",
+  "lastUpdated": "2026-08-19T13:40:28.628Z",
   "items": [
+    {
+      "title": "AI-powered clinical trial eligibility and safety using Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/architecture/ai-agents-for-clinical-trial-screening/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-19T13:11:51.000Z",
+      "snippet": "AI agents built on Amazon Bedrock AgentCore help clinical trial teams make fast, accurate enrollment decisions while keeping clinicians in control. This post shows how to architect an eligibility and safety screening agent using AWS HealthLake, AgentCore, and…"
+    },
     {
       "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-17T13:00:00.000Z",
       "snippet": "AWS CloudShell now includes a built-in visual file editor that you can launch directly from your shell session using a single 'edit' command, no setup required. CloudShell provides a browser-based shell environment that uses your existing AWS Management…"
-    },
-    {
-      "title": "Amazon Quick now supports per-user resource limits",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-14T21:07:00.000Z",
-      "snippet": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create limit profiles that cap per-user consumption, helping…"
     }
   ]
 }
