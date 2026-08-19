@@ -1,12 +1,61 @@
 {
-  "lastUpdated": "2026-08-18T19:39:00.132Z",
+  "lastUpdated": "2026-08-19T01:39:20.180Z",
   "items": [
+    {
+      "title": "Amazon Bedrock now supports OpenAI models in India",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T23:30:00.000Z",
+      "snippet": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) in India, with India Geo cross-Region inference. Customers with regulatory requirements of in-country inferencing can now use OpenAI models at scale ensuring that inferencing is processed…"
+    },
+    {
+      "title": "AWS IAM identity federation to external services is now available in AWS European Sovereign Cloud Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T22:30:00.000Z",
+      "snippet": "AWS Identity and Access Management (IAM) now enables AWS workloads in the AWS European Sovereign Cloud (Germany) Region to securely authenticate with external services using short-lived JSON Web Tokens (JWTs). The AWS European Sovereign Cloud is an…"
+    },
+    {
+      "title": "Amazon Corretto August 2026 Critical Security Patch Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T21:48:00.000Z",
+      "snippet": "On Aug 18, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2.11.1, 25.0.4.8.1, 21.0.12.9.1, 17.0.20.10.1, 11.0.32.10.1, and 8u504 are now…"
+    },
+    {
+      "title": "Implement custom authentication for tools integration using request Lambda interceptor in AgentCore Gateway",
+      "link": "https://aws.amazon.com/blogs/security/implement-custom-authentication-for-tools-integration-using-request-lambda-interceptor-in-agentcore-gateway/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-18T20:46:26.000Z",
+      "snippet": "When deploying AI agents with Amazon Bedrock AgentCore, organizations benefit from built-in modern support for OAuth 2.0, AWS Identity and Access Management (IAM), and API key authentication through Amazon Bedrock AgentCore Gateway. However, some enterprise…"
+    },
+    {
+      "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T19:15:00.000Z",
+      "snippet": "Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs, and content with just a few lines of code. AgentCore…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-profiling",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T18:49:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection, powered by AWS Glue Data Quality. Data stewards, engineers and analysts can generate statistical profiles of their data to understand its shape and completeness, and track how…"
+    },
     {
       "title": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
       "source": "AWS What's New",
       "pubDate": "2026-08-18T18:00:00.000Z",
       "snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports running custom Python functions and shell scripts directly in the serverless runtime using PythonOperator and BashOperator. With this launch, data engineering teams can execute…"
+    },
+    {
+      "title": "Amazon EC2 R8i instances are now available in Israel (Tel Aviv) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-israel-tel-aviv/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T17:24:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i instances are available in the Israel (Tel Aviv) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory…"
     },
     {
       "title": "IAM Policy Autopilot now supports Terraform plan files",
@@ -23,6 +72,13 @@
       "snippet": "Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners…"
     },
     {
+      "title": "PostgreSQL 19 Beta 3 is now available in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T16:00:00.000Z",
+      "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Beta 3 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 3 adds new capabilities for query…"
+    },
+    {
       "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
       "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
       "source": "AWS News Blog",
@@ -35,6 +91,20 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-08-18T11:13:20.000Z",
       "snippet": "As AI agents move from chatbots to taking action, their reliability depends on the consistency of the data layer beneath them. This post examines how replication lag poisons an agent's context and shows how to match Amazon Aurora, Amazon DynamoDB, and Amazon…"
+    },
+    {
+      "title": "Amazon WorkSpaces now supports Nested Virtualization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/nested-virtualization-workspaces/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T08:00:00.000Z",
+      "snippet": "Amazon WorkSpaces now supports nested virtualization for Amazon WorkSpaces Personal and Amazon WorkSpaces Core Managed Bundles. With nested virtualization enabled, developers can run Docker Desktop, Windows Subsystem for Linux (WSL2), and other…"
+    },
+    {
+      "title": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-metadata-annotations-govcloud-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T04:00:00.000Z",
+      "snippet": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions, giving you the easiest and fastest way to discover, understand, and enrich your S3 data. S3 Metadata automatically captures system-defined…"
     },
     {
       "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
@@ -140,76 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-14T21:04:00.000Z",
       "snippet": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside approved channels. With this integration, IT…"
-    },
-    {
-      "title": "Amazon Quick now supports approval policies for sharing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-14T21:00:00.000Z",
-      "snippet": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated approvers to review and approve share requests before…"
-    },
-    {
-      "title": "Amazon Quick now supports customizable no data messages for visuals",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-quick-custom-no-data-message/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-14T15:00:00.000Z",
-      "snippet": "Amazon Quick announces support for no data message customization, enabling authors to replace the default \"No data to display\" message with a tailored message when a visual returns no data. Authors can configure a custom title, subtitle, and hyperlink that…"
-    },
-    {
-      "title": "Amazon RDS for Oracle now supports Oracle APEX version 26.1",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-14T15:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle APEX version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and scale Oracle Database deployments in the cloud. Oracle APEX is a…"
-    },
-    {
-      "title": "Serverless vehicle tracking at scale: Bosch L.OS on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/serverless-vehicle-tracking-at-scale-bosch-l-os-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-14T10:02:13.000Z",
-      "snippet": "Learn how Bosch Mobility Platform Solutions built L.OS, a serverless vehicle tracking platform on AWS that unifies India's fragmented spot logistics market into a single real-time visibility layer using Amazon ECS, AWS Lambda, and Amazon MSK."
-    },
-    {
-      "title": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-14T07:00:00.000Z",
-      "snippet": "Amazon Simple Email Service (SES) now makes it easier to support mobile deep linking with the new ses:custom-path HTML attribute. When you add this attribute to an tag, SES carries your path segment through to the tracking URL, so mobile operating systems can…"
-    },
-    {
-      "title": "AWS Billing and Cost Management introduces Managed Dashboards",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-14T02:00:00.000Z",
-      "snippet": "AWS Billing and Cost Management (BCM) Dashboards now include Managed Dashboards. These are a collection of preconfigured and read-only dashboards located in your dashboard list. They deliver actionable cost insights with your account data pre-populated…"
-    },
-    {
-      "title": "AWS Certificate Manager will discontinue email validation to prove domain validation for certificates",
-      "link": "https://aws.amazon.com/blogs/security/aws-certificate-manager-will-discontinue-email-validation-to-prove-domain-validation-for-certificates/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-13T21:23:00.000Z",
-      "snippet": "Today, we’re announcing that AWS Certificate Manager (ACM) will discontinue support for email-validated public certificates by September 30, 2027. If you use email validation for your ACM public certificates, you need to migrate to DNS validation before that…"
-    },
-    {
-      "title": "AWS Client VPN now supports CLI, administration controls, and faster connections",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-13T20:49:00.000Z",
-      "snippet": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment time, making it easier you to automate VPN connectivity and…"
-    },
-    {
-      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-13T19:34:00.000Z",
-      "snippet": "Amazon Redshift now offers rg.large and rg.12xlarge instance sizes for RG instances in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as…"
-    },
-    {
-      "title": "Claude Opus 5 is now available in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-13T18:23:00.000Z",
-      "snippet": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level. Claude…"
     }
   ]
 }
