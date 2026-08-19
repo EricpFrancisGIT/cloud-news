@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-08-19T13:40:28.628Z",
+  "lastUpdated": "2026-08-19T19:41:13.580Z",
   "items": [
+    {
+      "title": "Amazon OpenSearch Ingestion is now available in GovCloud Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T17:54:00.000Z",
+      "snippet": "Starting today, customers can use Amazon OpenSearch Ingestion in AWS GovCloud (US-East) and AWS GovCloud (US-West), for ingesting data into their Amazon OpenSearch Service managed clusters or serverless collections. Amazon OpenSearch Ingestion is a fully…"
+    },
+    {
+      "title": "Propagate user authorization context in AI agents with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/security/propagate-user-authorization-context-in-ai-agents-with-amazon-bedrock-agentcore/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-19T17:24:15.000Z",
+      "snippet": "Many teams now deploy AI agents that pull from Amazon DynamoDB tables, document repositories, software as a service (SaaS) platforms, and internal knowledge bases to answer questions and automate workflows. A key risk in these deployments is that the agent…"
+    },
+    {
+      "title": "AWS announces a new Availability Zone in the Europe (London) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-increased-quota/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T17:00:00.000Z",
+      "snippet": "AWS has added a fourth Availability Zone to the Europe (London) Region (eu-west-2), expanding infrastructure capacity to meet growing demand for cloud compute in the Region. The new Availability Zone delivers next-generation AI and ML capacity, including…"
+    },
+    {
+      "title": "Amazon Quick adds deny by default for custom permissions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-deny-by-default/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T15:36:00.000Z",
+      "snippet": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were available to all users on release, requiring administrators to…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications now offers in-console monitoring capabilities",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-console-monitoring",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T15:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Applications now offers a native monitoring experience embedded directly in the service console. Administrators can now access real-time session-level metrics, instance-level resource data, and network performance metrics without requiring…"
+    },
+    {
+      "title": "How Clario technology detects PHI/PII in DICOM images using Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/architecture/how-clario-automates-phi-pii-detection-in-dicom-images-using-amazon-bedrock/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-19T14:29:31.000Z",
+      "snippet": "Clario, part of Thermo Fisher Scientific, uses Amazon Bedrock and Amazon Textract to automatically detect protected health information (PHI) and personally identifiable information (PII) across thousands of DICOM image slices in clinical trials, covering both…"
+    },
     {
       "title": "AI-powered clinical trial eligibility and safety using Amazon Bedrock AgentCore",
       "link": "https://aws.amazon.com/blogs/architecture/ai-agents-for-clinical-trial-screening/",
@@ -93,6 +135,13 @@
       "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Beta 3 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 3 adds new capabilities for query…"
     },
     {
+      "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Zurich) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-aws-europe/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-18T15:00:00.000Z",
+      "snippet": "Amazon EC2 High Memory U7i-6TB instances (u7i-6tb.112xlarge) are now available in AWS Europe (Zurich) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids).…"
+    },
+    {
       "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
       "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
       "source": "AWS News Blog",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-17T17:23:00.000Z",
       "snippet": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies enabling supervisors to monitor and optimize how contacts are matched to agents based on agent proficiencies. Managers can filter agents by their assigned…"
-    },
-    {
-      "title": "Updates to your AWS Sign-In experience",
-      "link": "https://aws.amazon.com/blogs/security/updates-to-your-aws-sign-in-experience/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-17T17:22:33.000Z",
-      "snippet": "Amazon Web Services (AWS) is gradually introducing updates to the AWS Sign-In and sign-up experience to a limited number of customers. We’re sharing these changes so you will know what to expect as we gradually make the updated experience available to more…"
-    },
-    {
-      "title": "AWS Network Firewall Now Supports Stateful Rule Hit Counts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-stateful-rule-hit-counts/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T16:30:00.000Z",
-      "snippet": "AWS Network Firewall now provides rule hit counts for stateful rules, giving network administrators and security engineers visibility into how often each stateful rule in the firewall policy matches network traffic. AWS Network Firewall is a managed network…"
-    },
-    {
-      "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-08-17T16:02:36.000Z",
-      "snippet": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community leaders and users of these Linux…"
-    },
-    {
-      "title": "Amazon Quick Microsoft 365 extensions are now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-microsoft-365-extensions-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T15:41:00.000Z",
-      "snippet": "Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environments, using AI to handle complex local tasks such as…"
-    },
-    {
-      "title": "Amazon OpenSearch Service now supports automatic semantic enrichment for VPC domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T15:39:00.000Z",
-      "snippet": "Amazon OpenSearch Service now extends automatic semantic enrichment to VPC-enabled domains, allowing customers with private network configurations to leverage AI-powered semantic search without exposing their domains to the public internet. Automatic semantic…"
-    },
-    {
-      "title": "AWS Console-to-Code adds 26 services and cross-region recording​",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/console-to-code-adds-26-services",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T15:00:00.000Z",
-      "snippet": "AWS Console-to-Code now supports 26 additional AWS services and introduces cross-region and cross-browser-tab action recording. This expansion grows total service coverage from 6 to 32 supported services, helping developers, DevOps engineers, and cloud…"
-    },
-    {
-      "title": "AWS CloudShell now includes a built-in visual file editor",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cloudshell-visual-file-editor/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T13:00:00.000Z",
-      "snippet": "AWS CloudShell now includes a built-in visual file editor that you can launch directly from your shell session using a single 'edit' command, no setup required. CloudShell provides a browser-based shell environment that uses your existing AWS Management…"
     }
   ]
 }
