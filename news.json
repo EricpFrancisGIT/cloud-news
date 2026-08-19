@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-19T01:39:20.180Z",
+  "lastUpdated": "2026-08-19T07:39:39.528Z",
   "items": [
+    {
+      "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T05:18:00.000Z",
+      "snippet": "Amazon Bedrock now supports SpaceXAI Grok 4.6, SpaceXAI's latest flagship model built for long-running agents and ambitious interactive and visual work. Grok 4.6 offers a 500K context window and configurable reasoning efforts (low, medium, high, xhigh). Grok…"
+    },
     {
       "title": "Amazon Bedrock now supports OpenAI models in India",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-14T21:07:00.000Z",
       "snippet": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create limit profiles that cap per-user consumption, helping…"
-    },
-    {
-      "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-dlp-purview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-14T21:04:00.000Z",
-      "snippet": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside approved channels. With this integration, IT…"
     }
   ]
 }
