@@ -1,12 +1,40 @@
 {
-  "lastUpdated": "2026-08-20T13:42:31.526Z",
+  "lastUpdated": "2026-08-20T19:42:52.900Z",
   "items": [
+    {
+      "title": "AWS Network Firewall now supports rule hit count",
+      "link": "https://aws.amazon.com/blogs/security/aws-network-firewall-now-supports-rule-hit-count/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-20T18:40:20.000Z",
+      "snippet": "As firewall rule sets grow in complexity, security teams face a common challenge: manual log analysis is used to determine which rules are actively matching traffic and which are consuming capacity without being triggered. This lack of visibility creates…"
+    },
+    {
+      "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T17:25:00.000Z",
+      "snippet": "Amazon SageMaker AI now offers Generative AI Inference Recommendations in SageMaker AI Studio, giving customers a guided, low-code, no-code path to find the best inference configuration for their workload. This builds on the API-based launch in April 2026,…"
+    },
+    {
+      "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T15:00:00.000Z",
+      "snippet": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) based on your workload's needs. You can now allocate up to…"
+    },
     {
       "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 1",
       "link": "https://aws.amazon.com/blogs/architecture/how-agentflo-built-ai-sales-agents-with-amazon-bedrock-agentcore-part-1/",
       "source": "AWS Architecture Blog",
       "pubDate": "2026-08-20T00:32:52.000Z",
       "snippet": "Learn how AgentFlo built always-on AI sales agents on Amazon Bedrock AgentCore and the Strands Agents SDK. Part 1 covers three pillars of production-grade agents—velocity, standardization, and scalability—including recipe-based deployment, tool routing…"
+    },
+    {
+      "title": "AWS Marketplace now supports category-based notifications and multi-channel delivery for partners",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T00:06:00.000Z",
+      "snippet": "AWS partners can now configure category-based notifications and multi-channel delivery for AWS Marketplace notifications through AWS User Notifications. Previously, partners received their AWS Marketplace notifications through their AWS account’s root email…"
     },
     {
       "title": "Launching External Web Access for Web Search on Amazon Bedrock",
@@ -21,6 +49,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-19T22:55:00.000Z",
       "snippet": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock AgentCore provides the infrastructure to build, connect,…"
+    },
+    {
+      "title": "Amazon EC2 enables AMI creation with local snapshots from instances on Outposts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T21:30:00.000Z",
+      "snippet": "Amazon EC2 now supports creating Amazon Machine Images (AMIs) with local snapshots from instances running on AWS Outposts. This capability makes it easier for customers to create AMIs while storing snapshots directly on the Outpost to meet data residency…"
     },
     {
       "title": "Amazon CloudWatch log Centralization now supports log group tag propagation",
@@ -42,6 +77,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-19T20:13:00.000Z",
       "snippet": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipelines is a fully managed service that ingests, transforms,…"
+    },
+    {
+      "title": "AWS Elemental MediaConnect Router now supports configurable recovery latency modes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediaconnect-router-latency-modes/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T18:00:00.000Z",
+      "snippet": "AWS Elemental MediaConnect Router now enables customers to configure latency settings, providing control over the internal connection latency between inputs and outputs within the router. Previously, the protocol latency inside the router was set…"
     },
     {
       "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
@@ -168,48 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-08-18T20:46:26.000Z",
       "snippet": "When deploying AI agents with Amazon Bedrock AgentCore, organizations benefit from built-in modern support for OAuth 2.0, AWS Identity and Access Management (IAM), and API key authentication through Amazon Bedrock AgentCore Gateway. However, some enterprise…"
-    },
-    {
-      "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T19:15:00.000Z",
-      "snippet": "Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs, and content with just a few lines of code. AgentCore…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-profiling",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T18:49:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection, powered by AWS Glue Data Quality. Data stewards, engineers and analysts can generate statistical profiles of their data to understand its shape and completeness, and track how…"
-    },
-    {
-      "title": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T18:00:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports running custom Python functions and shell scripts directly in the serverless runtime using PythonOperator and BashOperator. With this launch, data engineering teams can execute…"
-    },
-    {
-      "title": "Amazon EC2 R8i instances are now available in Israel (Tel Aviv) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-israel-tel-aviv/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T17:24:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i instances are available in the Israel (Tel Aviv) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory…"
-    },
-    {
-      "title": "IAM Policy Autopilot now supports Terraform plan files",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T17:19:00.000Z",
-      "snippet": "IAM Policy Autopilot can now generate baseline IAM policies directly from a Terraform plan file. IAM Policy Autopilot is an open source tool, launched at re:Invent 2025, that analyzes your code to deterministically create scoped-down IAM policies you can…"
-    },
-    {
-      "title": "Security Hub Extended adds Supply Chain Security as its tenth category",
-      "link": "https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-18T17:04:28.000Z",
-      "snippet": "Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners…"
     }
   ]
 }
