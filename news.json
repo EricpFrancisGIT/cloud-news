@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-08-19T19:41:13.580Z",
+  "lastUpdated": "2026-08-20T01:41:32.216Z",
   "items": [
+    {
+      "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 1",
+      "link": "https://aws.amazon.com/blogs/architecture/how-agentflo-built-ai-sales-agents-with-amazon-bedrock-agentcore-part-1/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-20T00:32:52.000Z",
+      "snippet": "Learn how AgentFlo built always-on AI sales agents on Amazon Bedrock AgentCore and the Strands Agents SDK. Part 1 covers three pillars of production-grade agents—velocity, standardization, and scalability—including recipe-based deployment, tool routing…"
+    },
+    {
+      "title": "Launching External Web Access for Web Search on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T23:00:00.000Z",
+      "snippet": "Earlier this month, we announced Web Search on Amazon Bedrock, a built-in server-side tool that allows you to ground model responses with current web knowledge, while maintaining data within your secured AWS environment with zero data egress. Today, we are…"
+    },
+    {
+      "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T22:55:00.000Z",
+      "snippet": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock AgentCore provides the infrastructure to build, connect,…"
+    },
+    {
+      "title": "Amazon CloudWatch log Centralization now supports log group tag propagation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-centralization-tag-propogation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T21:06:00.000Z",
+      "snippet": "Amazon CloudWatch Centralization now copies log group tags from source accounts to the destination log groups created by centralization rules. CloudWatch Centralization aggregates log data from multiple accounts and Regions into one destination account. With…"
+    },
+    {
+      "title": "Amazon SageMaker notebooks now support trusted identity propagation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T20:25:00.000Z",
+      "snippet": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics. When connected to a TIP-enabled compute in a TIP-enabled Project,…"
+    },
+    {
+      "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T17:57:00.000Z",
+      "snippet": "AWS Cost Anomaly Detection now monitors spend on third-party foundation models running on Amazon Bedrock, such as Anthropic Claude and other provider-hosted models. Cost Anomaly Detection uses machine learning to detect and alert on unusual spend, and this…"
+    },
     {
       "title": "Amazon OpenSearch Ingestion is now available in GovCloud Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions",
@@ -16,11 +58,25 @@
       "snippet": "Many teams now deploy AI agents that pull from Amazon DynamoDB tables, document repositories, software as a service (SaaS) platforms, and internal knowledge bases to answer questions and automate workflows. A key risk in these deployments is that the agent…"
     },
     {
+      "title": "AWS Marketplace launches support for Amazon Lightsail",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-launch-ami-amazon-lightsail",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T17:04:00.000Z",
+      "snippet": "Today, AWS Marketplace announces support for launching select Amazon Machine Images (AMIs) on Amazon Lightsail. Customers who want simple, predictable pricing and a streamlined instance-creation experience can now easily deploy eligible AWS Marketplace AMIs…"
+    },
+    {
       "title": "AWS announces a new Availability Zone in the Europe (London) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-increased-quota/",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-new-availability-zone-europe/",
       "source": "AWS What's New",
       "pubDate": "2026-08-19T17:00:00.000Z",
       "snippet": "AWS has added a fourth Availability Zone to the Europe (London) Region (eu-west-2), expanding infrastructure capacity to meet growing demand for cloud compute in the Region. The new Availability Zone delivers next-generation AI and ML capacity, including…"
+    },
+    {
+      "title": "AWS Lambda MicroVMs is now available in 5 additional AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T16:14:00.000Z",
+      "snippet": "AWS Lambda MicroVMs is now available in 5 additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Europe (Frankfurt), and Europe (Stockholm). With this launch, you can use Lambda MicroVMs in a total of 10 AWS Regions.…"
     },
     {
       "title": "Amazon Quick adds deny by default for custom permissions",
@@ -37,6 +93,13 @@
       "snippet": "Amazon WorkSpaces Applications now offers a native monitoring experience embedded directly in the service console. Administrators can now access real-time session-level metrics, instance-level resource data, and network performance metrics without requiring…"
     },
     {
+      "title": "AWS IAM now supports 20 managed policies per role by default",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-quota-increase/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T15:00:00.000Z",
+      "snippet": "AWS Identity and Access Management (IAM) has increased the default quota for managed policies per role from 10 to 20. This higher default quota reduces the need to make Service Quota requests when following IAM best practices like separating permissions into…"
+    },
+    {
       "title": "How Clario technology detects PHI/PII in DICOM images using Amazon Bedrock",
       "link": "https://aws.amazon.com/blogs/architecture/how-clario-automates-phi-pii-detection-in-dicom-images-using-amazon-bedrock/",
       "source": "AWS Architecture Blog",
@@ -51,11 +114,25 @@
       "snippet": "AI agents built on Amazon Bedrock AgentCore help clinical trial teams make fast, accurate enrollment decisions while keeping clinicians in control. This post shows how to architect an eligibility and safety screening agent using AWS HealthLake, AgentCore, and…"
     },
     {
-      "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6",
+      "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Tape and Volume Gateway",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/storage-gateway-fips-privatelink/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T10:00:00.000Z",
+      "snippet": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Tape Gateway and Volume Gateway. Previously, FIPS endpoints were available only over the public internet. Now you can keep FIPS-compliant traffic on the private AWS…"
+    },
+    {
+      "title": "Amazon EC2 R8a instances are now available in Asia Pacific (Taipei) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-asia-pacific-taipei/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T07:51:00.000Z",
+      "snippet": "Starting today, Amazon EC2 R8a instances are now available in Asia Pacific (Taipei) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to…"
+    },
+    {
+      "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6 with Cross Region Inferencing",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
       "source": "AWS What's New",
       "pubDate": "2026-08-19T05:18:00.000Z",
-      "snippet": "Amazon Bedrock now supports SpaceXAI Grok 4.6, SpaceXAI's latest flagship model built for long-running agents and ambitious interactive and visual work. Grok 4.6 offers a 500K context window and configurable reasoning efforts (low, medium, high, xhigh). Grok…"
+      "snippet": "Amazon Bedrock now supports SpaceXAI Grok 4.6, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Customers can now access Grok 4.6 at scale with cross-Region inference routing requests across…"
     },
     {
       "title": "Amazon Bedrock now supports OpenAI models in India",
@@ -133,83 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-18T16:00:00.000Z",
       "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Beta 3 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 3 adds new capabilities for query…"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Zurich) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-aws-europe/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T15:00:00.000Z",
-      "snippet": "Amazon EC2 High Memory U7i-6TB instances (u7i-6tb.112xlarge) are now available in AWS Europe (Zurich) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids).…"
-    },
-    {
-      "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
-      "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-08-18T13:58:41.000Z",
-      "snippet": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech professionals who want to walk through the…"
-    },
-    {
-      "title": "Consistency is the new latency: AI at the data layer",
-      "link": "https://aws.amazon.com/blogs/architecture/consistency-is-the-new-latency-ai-at-the-data-layer/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-18T11:13:20.000Z",
-      "snippet": "As AI agents move from chatbots to taking action, their reliability depends on the consistency of the data layer beneath them. This post examines how replication lag poisons an agent's context and shows how to match Amazon Aurora, Amazon DynamoDB, and Amazon…"
-    },
-    {
-      "title": "Amazon WorkSpaces now supports Nested Virtualization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/nested-virtualization-workspaces/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T08:00:00.000Z",
-      "snippet": "Amazon WorkSpaces now supports nested virtualization for Amazon WorkSpaces Personal and Amazon WorkSpaces Core Managed Bundles. With nested virtualization enabled, developers can run Docker Desktop, Windows Subsystem for Linux (WSL2), and other…"
-    },
-    {
-      "title": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-metadata-annotations-govcloud-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T04:00:00.000Z",
-      "snippet": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions, giving you the easiest and fastest way to discover, understand, and enrich your S3 data. S3 Metadata automatically captures system-defined…"
-    },
-    {
-      "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T20:29:00.000Z",
-      "snippet": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Sol, Terra, and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs. It also adds support for cross-Region inference, allowing customers to use…"
-    },
-    {
-      "title": "Amazon ECR now supports 25 replication rules per registry",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T19:01:00.000Z",
-      "snippet": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum number of replication rules per registry from 10 to 25. Previously, customers with complex multi-region or multi-account architectures were constrained to 10 replication rules per…"
-    },
-    {
-      "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T18:11:00.000Z",
-      "snippet": "Amazon EC2 Auto Scaling now supports batch instance termination in a single API call. You can now pass up to 100 instance IDs to the TerminateInstanceInAutoScalingGroup API to terminate them as a batch, reducing the number of API calls needed to scale down…"
-    },
-    {
-      "title": "Amazon MSK now supports configuring custom domain names for MSK Provisioned clusters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T18:01:00.000Z",
-      "snippet": "You can now easily configure custom domain names on Amazon MSK Provisioned clusters, on either ZooKeeper or KRaft mode for metadata management. This capability helps client applications maintain the same connection endpoints, simplifying cluster migrations,…"
-    },
-    {
-      "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Canada West (Calgary) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex-calgary/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T17:28:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance…"
-    },
-    {
-      "title": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-routing-steps/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-17T17:23:00.000Z",
-      "snippet": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies enabling supervisors to monitor and optimize how contacts are matched to agents based on agent proficiencies. Managers can filter agents by their assigned…"
     }
   ]
 }
