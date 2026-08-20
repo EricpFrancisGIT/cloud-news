@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T07:41:53.215Z",
+  "lastUpdated": "2026-08-20T13:42:31.526Z",
   "items": [
     {
       "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 1",
@@ -35,6 +35,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-19T20:25:00.000Z",
       "snippet": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics. When connected to a TIP-enabled compute in a TIP-enabled Project,…"
+    },
+    {
+      "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T20:13:00.000Z",
+      "snippet": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipelines is a fully managed service that ingests, transforms,…"
     },
     {
       "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
@@ -203,13 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-08-18T17:04:28.000Z",
       "snippet": "Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners…"
-    },
-    {
-      "title": "PostgreSQL 19 Beta 3 is now available in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T16:00:00.000Z",
-      "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Beta 3 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 3 adds new capabilities for query…"
     }
   ]
 }
