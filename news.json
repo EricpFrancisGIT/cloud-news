@@ -1,12 +1,47 @@
 {
-  "lastUpdated": "2026-08-21T13:43:52.662Z",
+  "lastUpdated": "2026-08-21T19:44:14.676Z",
   "items": [
+    {
+      "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
+      "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-08-21T18:53:26.000Z",
+      "snippet": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions."
+    },
+    {
+      "title": "Build a unified AI agent architecture with DynamoDB and Bedrock",
+      "link": "https://aws.amazon.com/blogs/architecture/build-a-unified-ai-agent-architecture-with-dynamodb-and-bedrock/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-21T18:19:23.000Z",
+      "snippet": "With native vector search in Amazon DynamoDB, you can store vector embeddings alongside your operational data in a single table. This post shows how to build a unified AI agent architecture where an Amazon Bedrock agent uses one DynamoDB table for both…"
+    },
+    {
+      "title": "AWS Deadline Cloud now tracks automatic download status in the Deadline Cloud Monitor",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-21T18:00:00.000Z",
+      "snippet": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual…"
+    },
+    {
+      "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-21T16:42:00.000Z",
+      "snippet": "AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgrades…"
+    },
     {
       "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 2",
       "link": "https://aws.amazon.com/blogs/architecture/how-agentflo-built-ai-sales-agents-with-amazon-bedrock-agentcore-part-2/",
       "source": "AWS Architecture Blog",
       "pubDate": "2026-08-21T10:01:18.000Z",
       "snippet": "Part 2: how AgentFlo built trusted, reliable AI sales agents on Amazon Bedrock AgentCore and AWS serverless architecture. Learn the three-layer guardrails, grounded data foundation, and end-to-end observability behind a +12% net revenue uplift, plus what's…"
+    },
+    {
+      "title": "Amazon SES now supports open and click tracking override parameters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-21T07:00:00.000Z",
+      "snippet": "Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs. Senders can enable or disable open tracking and click tracking on an individual API call, rather than managing tracking…"
     },
     {
       "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
@@ -21,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-20T20:00:00.000Z",
       "snippet": "Amazon Timestream for InfluxDB now supports AWS Key Management Service (AWS KMS) customer managed keys for encrypting data at rest in InfluxDB 2 database instances, InfluxDB 2 Read Replicas, and InfluxDB 3 clusters. Customers select a symmetric AWS KMS key…"
+    },
+    {
+      "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T20:00:00.000Z",
+      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instances are…"
     },
     {
       "title": "AWS Network Firewall now supports rule hit count",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-19T17:57:00.000Z",
       "snippet": "AWS Cost Anomaly Detection now monitors spend on third-party foundation models running on Amazon Bedrock, such as Anthropic Claude and other provider-hosted models. Cost Anomaly Detection uses machine learning to detect and alert on unusual spend, and this…"
-    },
-    {
-      "title": "Amazon OpenSearch Ingestion is now available in GovCloud Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T17:54:00.000Z",
-      "snippet": "Starting today, customers can use Amazon OpenSearch Ingestion in AWS GovCloud (US-East) and AWS GovCloud (US-West), for ingesting data into their Amazon OpenSearch Service managed clusters or serverless collections. Amazon OpenSearch Ingestion is a fully…"
-    },
-    {
-      "title": "Propagate user authorization context in AI agents with Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/blogs/security/propagate-user-authorization-context-in-ai-agents-with-amazon-bedrock-agentcore/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-19T17:24:15.000Z",
-      "snippet": "Many teams now deploy AI agents that pull from Amazon DynamoDB tables, document repositories, software as a service (SaaS) platforms, and internal knowledge bases to answer questions and automate workflows. A key risk in these deployments is that the agent…"
-    },
-    {
-      "title": "AWS Marketplace launches support for Amazon Lightsail",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-launch-ami-amazon-lightsail",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T17:04:00.000Z",
-      "snippet": "Today, AWS Marketplace announces support for launching select Amazon Machine Images (AMIs) on Amazon Lightsail. Customers who want simple, predictable pricing and a streamlined instance-creation experience can now easily deploy eligible AWS Marketplace AMIs…"
-    },
-    {
-      "title": "AWS announces a new Availability Zone in the Europe (London) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-new-availability-zone-europe/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T17:00:00.000Z",
-      "snippet": "AWS has added a fourth Availability Zone to the Europe (London) Region (eu-west-2), expanding infrastructure capacity to meet growing demand for cloud compute in the Region. The new Availability Zone delivers next-generation AI and ML capacity, including…"
-    },
-    {
-      "title": "AWS Lambda MicroVMs is now available in 5 additional AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T16:14:00.000Z",
-      "snippet": "AWS Lambda MicroVMs is now available in 5 additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Europe (Frankfurt), and Europe (Stockholm). With this launch, you can use Lambda MicroVMs in a total of 10 AWS Regions.…"
-    },
-    {
-      "title": "Amazon Quick adds deny by default for custom permissions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-deny-by-default/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T15:36:00.000Z",
-      "snippet": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were available to all users on release, requiring administrators to…"
     }
   ]
 }
