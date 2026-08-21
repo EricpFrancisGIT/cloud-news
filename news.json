@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T01:43:14.056Z",
+  "lastUpdated": "2026-08-21T07:43:32.661Z",
   "items": [
     {
       "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
@@ -142,6 +142,13 @@
       "snippet": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipelines is a fully managed service that ingests, transforms,…"
     },
     {
+      "title": "AWS Security Agent (now part of AWS Continuum) now supports budget controls and finding revalidation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T18:27:00.000Z",
+      "snippet": "AWS Security Agent (now part of AWS Continuum) has a on-demand penetration testing service that uses an AI agent to autonomously test web applications for vulnerabilities, billing based on cumulative task hours consumed across parallel testing tasks. Security…"
+    },
+    {
       "title": "AWS Elemental MediaConnect Router now supports configurable recovery latency modes",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediaconnect-router-latency-modes/",
       "source": "AWS What's New",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-19T15:00:00.000Z",
       "snippet": "AWS Identity and Access Management (IAM) has increased the default quota for managed policies per role from 10 to 20. This higher default quota reduces the need to make Service Quota requests when following IAM best practices like separating permissions into…"
-    },
-    {
-      "title": "Amazon WorkSpaces Applications now offers in-console monitoring capabilities",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-console-monitoring",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T15:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now offers a native monitoring experience embedded directly in the service console. Administrators can now access real-time session-level metrics, instance-level resource data, and network performance metrics without requiring…"
     }
   ]
 }
