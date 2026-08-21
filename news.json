@@ -1,12 +1,61 @@
 {
-  "lastUpdated": "2026-08-20T19:42:52.900Z",
+  "lastUpdated": "2026-08-21T01:43:14.056Z",
   "items": [
+    {
+      "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T21:45:00.000Z",
+      "snippet": "AWS Local Zone in Las Vegas, Nevada is now generally available. The new AWS Local Zone supports Amazon Elastic Compute Cloud (Amazon EC2) C7i, M7i, R7i, and C8gn instances, Amazon Elastic Block Store (Amazon EBS) volume types gp3, gp2, io1, sc1, and st1,…"
+    },
+    {
+      "title": "Amazon Timestream for InfluxDB now supports customer managed keys",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T20:00:00.000Z",
+      "snippet": "Amazon Timestream for InfluxDB now supports AWS Key Management Service (AWS KMS) customer managed keys for encrypting data at rest in InfluxDB 2 database instances, InfluxDB 2 Read Replicas, and InfluxDB 3 clusters. Customers select a symmetric AWS KMS key…"
+    },
     {
       "title": "AWS Network Firewall now supports rule hit count",
       "link": "https://aws.amazon.com/blogs/security/aws-network-firewall-now-supports-rule-hit-count/",
       "source": "AWS Security Blog",
       "pubDate": "2026-08-20T18:40:20.000Z",
       "snippet": "As firewall rule sets grow in complexity, security teams face a common challenge: manual log analysis is used to determine which rules are actively matching traffic and which are consuming capacity without being triggered. This lack of visibility creates…"
+    },
+    {
+      "title": "Amazon EC2 P6-B300 instances are now available in the Asia Pacific (Seoul) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T18:31:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the Asia Pacific (Seoul) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps…"
+    },
+    {
+      "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T18:30:00.000Z",
+      "snippet": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguards. Each Amazon EKS cluster has its own CA that allows…"
+    },
+    {
+      "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T18:30:00.000Z",
+      "snippet": "Starting today, customers can protect their origins using Amazon S3 Multi-Region Access Points (MRAP) by using CloudFront Origin Access Control (OAC) to only allow access from designated CloudFront distributions. Customers use Amazon S3 MRAP with CloudFront…"
+    },
+    {
+      "title": "AWS Partner Central agents MCP Server now supports OAuth with AWS Sign-In",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/8/aws-partner-central-mcp/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T18:02:00.000Z",
+      "snippet": "AWS partners can now access AWS Partner Central agents from tools they already use, such as Amazon Quick and Kiro, using OAuth through AWS Sign-In. Partners can authorize agent access with their existing AWS identities, sign-in methods, IAM permissions, and…"
+    },
+    {
+      "title": "ARC Region switch adds Amazon RDS Switchover Read Replica execution block",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/region-switch-rds-switchover-execution-block/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T17:45:00.000Z",
+      "snippet": "Today, we are launching the Amazon RDS Switchover Read Replica execution block in ARC Region switch, which automates recovery orchestration for Amazon RDS databases running Oracle Data Guard in multi-Region workloads. Amazon Application Recovery Controller…"
     },
     {
       "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
@@ -21,6 +70,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-20T15:00:00.000Z",
       "snippet": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) based on your workload's needs. You can now allocate up to…"
+    },
+    {
+      "title": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T15:00:00.000Z",
+      "snippet": "Amazon Redshift now supports long-term retention for system table data through native integration with Amazon S3 Tables. With this feature, you can configure your Redshift system table data retention beyond the current 7-day limit to meet your compliance,…"
     },
     {
       "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 1",
@@ -63,6 +119,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-19T21:06:00.000Z",
       "snippet": "Amazon CloudWatch Centralization now copies log group tags from source accounts to the destination log groups created by centralization rules. CloudWatch Centralization aggregates log data from multiple accounts and Regions into one destination account. With…"
+    },
+    {
+      "title": "Amazon DynamoDB Streams now supports attribute-based access control",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-streams-abac/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-19T21:03:00.000Z",
+      "snippet": "Amazon DynamoDB Streams now supports attribute-based access control (ABAC), enabling you to use tag-based conditions in your Identity and Access Management (IAM) policies to control access to your data streams. ABAC is an authorization strategy that…"
     },
     {
       "title": "Amazon SageMaker notebooks now support trusted identity propagation",
@@ -135,13 +198,6 @@
       "snippet": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were available to all users on release, requiring administrators to…"
     },
     {
-      "title": "Amazon WorkSpaces Applications now offers in-console monitoring capabilities",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-console-monitoring",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T15:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now offers a native monitoring experience embedded directly in the service console. Administrators can now access real-time session-level metrics, instance-level resource data, and network performance metrics without requiring…"
-    },
-    {
       "title": "AWS IAM now supports 20 managed policies per role by default",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-quota-increase/",
       "source": "AWS What's New",
@@ -149,67 +205,11 @@
       "snippet": "AWS Identity and Access Management (IAM) has increased the default quota for managed policies per role from 10 to 20. This higher default quota reduces the need to make Service Quota requests when following IAM best practices like separating permissions into…"
     },
     {
-      "title": "How Clario technology detects PHI/PII in DICOM images using Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/architecture/how-clario-automates-phi-pii-detection-in-dicom-images-using-amazon-bedrock/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-19T14:29:31.000Z",
-      "snippet": "Clario, part of Thermo Fisher Scientific, uses Amazon Bedrock and Amazon Textract to automatically detect protected health information (PHI) and personally identifiable information (PII) across thousands of DICOM image slices in clinical trials, covering both…"
-    },
-    {
-      "title": "AI-powered clinical trial eligibility and safety using Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/blogs/architecture/ai-agents-for-clinical-trial-screening/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-19T13:11:51.000Z",
-      "snippet": "AI agents built on Amazon Bedrock AgentCore help clinical trial teams make fast, accurate enrollment decisions while keeping clinicians in control. This post shows how to architect an eligibility and safety screening agent using AWS HealthLake, AgentCore, and…"
-    },
-    {
-      "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Tape and Volume Gateway",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/storage-gateway-fips-privatelink/",
+      "title": "Amazon WorkSpaces Applications now offers in-console monitoring capabilities",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-console-monitoring",
       "source": "AWS What's New",
-      "pubDate": "2026-08-19T10:00:00.000Z",
-      "snippet": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Tape Gateway and Volume Gateway. Previously, FIPS endpoints were available only over the public internet. Now you can keep FIPS-compliant traffic on the private AWS…"
-    },
-    {
-      "title": "Amazon EC2 R8a instances are now available in Asia Pacific (Taipei) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-asia-pacific-taipei/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T07:51:00.000Z",
-      "snippet": "Starting today, Amazon EC2 R8a instances are now available in Asia Pacific (Taipei) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to…"
-    },
-    {
-      "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6 with Cross Region Inferencing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T05:18:00.000Z",
-      "snippet": "Amazon Bedrock now supports SpaceXAI Grok 4.6, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Customers can now access Grok 4.6 at scale with cross-Region inference routing requests across…"
-    },
-    {
-      "title": "Amazon Bedrock now supports OpenAI models in India",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T23:30:00.000Z",
-      "snippet": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) in India, with India Geo cross-Region inference. Customers with regulatory requirements of in-country inferencing can now use OpenAI models at scale ensuring that inferencing is processed…"
-    },
-    {
-      "title": "AWS IAM identity federation to external services is now available in AWS European Sovereign Cloud Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T22:30:00.000Z",
-      "snippet": "AWS Identity and Access Management (IAM) now enables AWS workloads in the AWS European Sovereign Cloud (Germany) Region to securely authenticate with external services using short-lived JSON Web Tokens (JWTs). The AWS European Sovereign Cloud is an…"
-    },
-    {
-      "title": "Amazon Corretto August 2026 Critical Security Patch Updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-18T21:48:00.000Z",
-      "snippet": "On Aug 18, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2.11.1, 25.0.4.8.1, 21.0.12.9.1, 17.0.20.10.1, 11.0.32.10.1, and 8u504 are now…"
-    },
-    {
-      "title": "Implement custom authentication for tools integration using request Lambda interceptor in AgentCore Gateway",
-      "link": "https://aws.amazon.com/blogs/security/implement-custom-authentication-for-tools-integration-using-request-lambda-interceptor-in-agentcore-gateway/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-18T20:46:26.000Z",
-      "snippet": "When deploying AI agents with Amazon Bedrock AgentCore, organizations benefit from built-in modern support for OAuth 2.0, AWS Identity and Access Management (IAM), and API key authentication through Amazon Bedrock AgentCore Gateway. However, some enterprise…"
+      "pubDate": "2026-08-19T15:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Applications now offers a native monitoring experience embedded directly in the service console. Administrators can now access real-time session-level metrics, instance-level resource data, and network performance metrics without requiring…"
     }
   ]
 }
