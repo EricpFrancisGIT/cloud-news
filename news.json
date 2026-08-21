@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-21T07:43:32.661Z",
+  "lastUpdated": "2026-08-21T13:43:52.662Z",
   "items": [
+    {
+      "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 2",
+      "link": "https://aws.amazon.com/blogs/architecture/how-agentflo-built-ai-sales-agents-with-amazon-bedrock-agentcore-part-2/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-21T10:01:18.000Z",
+      "snippet": "Part 2: how AgentFlo built trusted, reliable AI sales agents on Amazon Bedrock AgentCore and AWS serverless architecture. Learn the three-layer guardrails, grounded data foundation, and end-to-end observability behind a +12% net revenue uplift, plus what's…"
+    },
     {
       "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-19T15:36:00.000Z",
       "snippet": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were available to all users on release, requiring administrators to…"
-    },
-    {
-      "title": "AWS IAM now supports 20 managed policies per role by default",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-quota-increase/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T15:00:00.000Z",
-      "snippet": "AWS Identity and Access Management (IAM) has increased the default quota for managed policies per role from 10 to 20. This higher default quota reduces the need to make Service Quota requests when following IAM best practices like separating permissions into…"
     }
   ]
 }
