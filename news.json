@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-21T19:44:14.676Z",
+  "lastUpdated": "2026-08-22T01:44:33.818Z",
   "items": [
+    {
+      "title": "Amazon Connect Customer now lets managers chat with their data",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-21T20:00:00.000Z",
+      "snippet": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they haven’t had is the time to dig through dashboards, find…"
+    },
     {
       "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
       "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
@@ -21,6 +28,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-21T18:00:00.000Z",
       "snippet": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual…"
+    },
+    {
+      "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-21T17:00:00.000Z",
+      "snippet": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully managed GitOps continuous delivery experience, and you can…"
     },
     {
       "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
@@ -114,6 +128,13 @@
       "snippet": "Amazon SageMaker AI now offers Generative AI Inference Recommendations in SageMaker AI Studio, giving customers a guided, low-code, no-code path to find the best inference configuration for their workload. This builds on the API-based launch in April 2026,…"
     },
     {
+      "title": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T16:00:00.000Z",
+      "snippet": "Amazon Aurora DSQL now features a new Amazon CloudWatch Database Insights metric that delivers per-statement, cluster-level performance monitoring details. Aurora DSQL database insights captures sampled wait states and normalized SQL statements for all active…"
+    },
+    {
       "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
       "source": "AWS What's New",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-19T20:13:00.000Z",
       "snippet": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipelines is a fully managed service that ingests, transforms,…"
-    },
-    {
-      "title": "AWS Security Agent (now part of AWS Continuum) now supports budget controls and finding revalidation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T18:27:00.000Z",
-      "snippet": "AWS Security Agent (now part of AWS Continuum) has a on-demand penetration testing service that uses an AI agent to autonomously test web applications for vulnerabilities, billing based on cumulative task hours consumed across parallel testing tasks. Security…"
-    },
-    {
-      "title": "AWS Elemental MediaConnect Router now supports configurable recovery latency modes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediaconnect-router-latency-modes/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T18:00:00.000Z",
-      "snippet": "AWS Elemental MediaConnect Router now enables customers to configure latency settings, providing control over the internal connection latency between inputs and outputs within the router. Previously, the protocol latency inside the router was set…"
-    },
-    {
-      "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T17:57:00.000Z",
-      "snippet": "AWS Cost Anomaly Detection now monitors spend on third-party foundation models running on Amazon Bedrock, such as Anthropic Claude and other provider-hosted models. Cost Anomaly Detection uses machine learning to detect and alert on unusual spend, and this…"
     }
   ]
 }
