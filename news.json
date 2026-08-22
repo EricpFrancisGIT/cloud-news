@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-22T01:44:33.818Z",
+  "lastUpdated": "2026-08-22T07:44:55.816Z",
   "items": [
+    {
+      "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-21T20:11:00.000Z",
+      "snippet": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output tokens—20% lower input pricing and 33.3% lower output…"
+    },
     {
       "title": "Amazon Connect Customer now lets managers chat with their data",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-19T20:25:00.000Z",
       "snippet": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics. When connected to a TIP-enabled compute in a TIP-enabled Project,…"
-    },
-    {
-      "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T20:13:00.000Z",
-      "snippet": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipelines is a fully managed service that ingests, transforms,…"
     }
   ]
 }
