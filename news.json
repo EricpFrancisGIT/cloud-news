@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-08-24T13:48:00.344Z",
+  "lastUpdated": "2026-08-24T19:48:15.037Z",
   "items": [
+    {
+      "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-08-24T16:20:15.000Z",
+      "snippet": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why I do this work,…"
+    },
+    {
+      "title": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T16:00:00.000Z",
+      "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.4, 17.10, 16.14, 15.18, and 14.23 which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to…"
+    },
+    {
+      "title": "How a global payment processor preserved AWS RAM shares and Lake Formation permissions during an AWS Organizations migration",
+      "link": "https://aws.amazon.com/blogs/architecture/how-a-global-payment-processor-preserved-aws-ram-shares-and-lake-formation-permissions-during-an-aws-organizations-migration/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-24T15:23:21.000Z",
+      "snippet": "When AWS accounts move between organizations, organization-bound AWS RAM resource shares break and control-plane access is lost. Learn how a global payment processor used temporary bridge shares to preserve AWS Lake Formation permissions across a 382-account…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod enhances support for Ray",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-hyperpod-ray",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T15:00:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now enhances support for Ray with built-in observability, resilient training, accelerated inference and managed development environments. Ray is a popular open-source framework for scaling AI workloads on a unified compute layer,…"
+    },
+    {
+      "title": "AWS ParallelCluster 3.16 adds an on-node diagnostics tool",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-parallelcluster/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T14:00:00.000Z",
+      "snippet": "AWS ParallelCluster 3.16 is now generally available with a new on-node diagnostics tool, cluster stability improvements, and an updated HPC and AI/ML software stack. pcluster-diag is a diagnostics tool built into the ParallelCluster AMIs that lets you run…"
+    },
+    {
+      "title": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T13:00:00.000Z",
+      "snippet": "GPT-5.6 Terra and Luna are now generally available on Amazon Bedrock in AWS GovCloud (US-West) and AWS GovCloud (US-East), bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance,…"
+    },
+    {
+      "title": "Amazon RDS for MySQL now supports new minor version 8.4.11",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mysql-8411-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T08:41:00.000Z",
+      "snippet": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.11, the latest minor released by community MySQL. In addition to operational improvements, MySQL 8.4.11 introduces support for post-quantum TLS (PQ-TLS)…"
+    },
     {
       "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
@@ -34,7 +83,7 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
       "source": "AWS What's New",
       "pubDate": "2026-08-21T18:00:00.000Z",
-      "snippet": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual…"
+      "snippet": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downloads from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual…"
     },
     {
       "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
@@ -84,6 +133,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-20T20:00:00.000Z",
       "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instances are…"
+    },
+    {
+      "title": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T20:00:00.000Z",
+      "snippet": "Amazon Redshift, starting with patch P203, supports concurrency scaling for refreshes of Amazon Kinesis Data Streams (KDS)-connected streaming materialized views (MVs). Amazon Web Services (AWS) Redshift Streaming Ingestion enables low-latency, high-speed…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Memory now supports extracting memories from non-conversational JSON payloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-json-payloads",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T20:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore memory now accepts a JSON payload type on the CreateEvent API, so agents can extract and consolidate long-term memories from structured data as well as from multi-turn conversations. Developers can pass behavioral events, activity…"
     },
     {
       "title": "AWS Network Firewall now supports rule hit count",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-20T15:00:00.000Z",
       "snippet": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) based on your workload's needs. You can now allocate up to…"
-    },
-    {
-      "title": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-20T15:00:00.000Z",
-      "snippet": "Amazon Redshift now supports long-term retention for system table data through native integration with Amazon S3 Tables. With this feature, you can configure your Redshift system table data retention beyond the current 7-day limit to meet your compliance,…"
-    },
-    {
-      "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 1",
-      "link": "https://aws.amazon.com/blogs/architecture/how-agentflo-built-ai-sales-agents-with-amazon-bedrock-agentcore-part-1/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-20T00:32:52.000Z",
-      "snippet": "Learn how AgentFlo built always-on AI sales agents on Amazon Bedrock AgentCore and the Strands Agents SDK. Part 1 covers three pillars of production-grade agents—velocity, standardization, and scalability—including recipe-based deployment, tool routing…"
-    },
-    {
-      "title": "AWS Marketplace now supports category-based notifications and multi-channel delivery for partners",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-20T00:06:00.000Z",
-      "snippet": "AWS partners can now configure category-based notifications and multi-channel delivery for AWS Marketplace notifications through AWS User Notifications. Previously, partners received their AWS Marketplace notifications through their AWS account’s root email…"
-    },
-    {
-      "title": "Launching External Web Access for Web Search on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T23:00:00.000Z",
-      "snippet": "Earlier this month, we announced Web Search on Amazon Bedrock, a built-in server-side tool that allows you to ground model responses with current web knowledge, while maintaining data within your secured AWS environment with zero data egress. Today, we are…"
-    },
-    {
-      "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T22:55:00.000Z",
-      "snippet": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock AgentCore provides the infrastructure to build, connect,…"
-    },
-    {
-      "title": "Amazon EC2 enables AMI creation with local snapshots from instances on Outposts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T21:30:00.000Z",
-      "snippet": "Amazon EC2 now supports creating Amazon Machine Images (AMIs) with local snapshots from instances running on AWS Outposts. This capability makes it easier for customers to create AMIs while storing snapshots directly on the Outpost to meet data residency…"
-    },
-    {
-      "title": "Amazon CloudWatch log Centralization now supports log group tag propagation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-centralization-tag-propogation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T21:06:00.000Z",
-      "snippet": "Amazon CloudWatch Centralization now copies log group tags from source accounts to the destination log groups created by centralization rules. CloudWatch Centralization aggregates log data from multiple accounts and Regions into one destination account. With…"
-    },
-    {
-      "title": "Amazon DynamoDB Streams now supports attribute-based access control",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-streams-abac/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T21:03:00.000Z",
-      "snippet": "Amazon DynamoDB Streams now supports attribute-based access control (ABAC), enabling you to use tag-based conditions in your Identity and Access Management (IAM) policies to control access to your data streams. ABAC is an authorization strategy that…"
-    },
-    {
-      "title": "Amazon SageMaker notebooks now support trusted identity propagation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-19T20:25:00.000Z",
-      "snippet": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics. When connected to a TIP-enabled compute in a TIP-enabled Project,…"
     }
   ]
 }
