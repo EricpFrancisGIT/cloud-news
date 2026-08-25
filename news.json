@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-08-24T19:48:15.037Z",
+  "lastUpdated": "2026-08-25T01:48:36.180Z",
   "items": [
+    {
+      "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T22:42:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now automatically detects and repairs container instances, enabling customers to reduce undetected workload failures and improve application availability without manual intervention. With this launch, Amazon ECS…"
+    },
+    {
+      "title": "SageMaker MLflow now supports customer managed keys",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T19:26:00.000Z",
+      "snippet": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict security and compliance requirements to manage their own encryption…"
+    },
+    {
+      "title": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T18:29:00.000Z",
+      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports multiple external OpenID Connect (OIDC) identity providers per cluster. You can associate up to 10 OIDC identity providers with a single cluster, giving you more flexibility in how you authenticate…"
+    },
     {
       "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
@@ -30,6 +51,13 @@
       "snippet": "Amazon SageMaker HyperPod now enhances support for Ray with built-in observability, resilient training, accelerated inference and managed development environments. Ray is a popular open-source framework for scaling AI workloads on a unified compute layer,…"
     },
     {
+      "title": "Amazon Connect Customer now supports information extraction for agent voice and chat conversations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-information/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T14:46:00.000Z",
+      "snippet": "Amazon Connect Customer now supports information extraction, which automatically captures key data from voice and chat interactions, reducing manual data capture and improving agent and supervisor productivity. Information extraction captures verbatim values…"
+    },
+    {
       "title": "AWS ParallelCluster 3.16 adds an on-node diagnostics tool",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-parallelcluster/",
       "source": "AWS What's New",
@@ -49,6 +77,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-24T08:41:00.000Z",
       "snippet": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.11, the latest minor released by community MySQL. In addition to operational improvements, MySQL 8.4.11 introduces support for post-quantum TLS (PQ-TLS)…"
+    },
+    {
+      "title": "AWS Neuron 2.32 introduces expanded NKI programming, MXFP8 training kernels, and variable-size collectives for Trn2 and Trn",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announce-neuron-2-32-0",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-21T21:11:00.000Z",
+      "snippet": "AWS Neuron 2.32.0 is now available, introducing NKI 0.6.0 with an on-device top-K instruction, a variable-length `all-gather `for kernels whose ranks hold differently sized tensors, and new loop constructs for data-dependent iteration. This release also…"
     },
     {
       "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-20T18:30:00.000Z",
       "snippet": "Starting today, customers can protect their origins using Amazon S3 Multi-Region Access Points (MRAP) by using CloudFront Origin Access Control (OAC) to only allow access from designated CloudFront distributions. Customers use Amazon S3 MRAP with CloudFront…"
-    },
-    {
-      "title": "AWS Partner Central agents MCP Server now supports OAuth with AWS Sign-In",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/8/aws-partner-central-mcp/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-20T18:02:00.000Z",
-      "snippet": "AWS partners can now access AWS Partner Central agents from tools they already use, such as Amazon Quick and Kiro, using OAuth through AWS Sign-In. Partners can authorize agent access with their existing AWS identities, sign-in methods, IAM permissions, and…"
-    },
-    {
-      "title": "ARC Region switch adds Amazon RDS Switchover Read Replica execution block",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/region-switch-rds-switchover-execution-block/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-20T17:45:00.000Z",
-      "snippet": "Today, we are launching the Amazon RDS Switchover Read Replica execution block in ARC Region switch, which automates recovery orchestration for Amazon RDS databases running Oracle Data Guard in multi-Region workloads. Amazon Application Recovery Controller…"
-    },
-    {
-      "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-20T17:25:00.000Z",
-      "snippet": "Amazon SageMaker AI now offers Generative AI Inference Recommendations in SageMaker AI Studio, giving customers a guided, low-code, no-code path to find the best inference configuration for their workload. This builds on the API-based launch in April 2026,…"
-    },
-    {
-      "title": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-20T16:00:00.000Z",
-      "snippet": "Amazon Aurora DSQL now features a new Amazon CloudWatch Database Insights metric that delivers per-statement, cluster-level performance monitoring details. Aurora DSQL database insights captures sampled wait states and normalized SQL statements for all active…"
-    },
-    {
-      "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-20T15:00:00.000Z",
-      "snippet": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) based on your workload's needs. You can now allocate up to…"
     }
   ]
 }
