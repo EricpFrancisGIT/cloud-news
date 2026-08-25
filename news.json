@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-25T07:49:00.603Z",
+  "lastUpdated": "2026-08-25T13:49:34.199Z",
   "items": [
+    {
+      "title": "AWS Lambda functions now support full IAM resource-based policies",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T02:00:00.000Z",
+      "snippet": "AWS Lambda functions now support full Identity and Access Management (IAM) resource-based policies, enabling platform admins and security teams to define granular access permissions using the full capabilities of AWS IAM. With full IAM resource-based…"
+    },
     {
       "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
@@ -163,13 +170,6 @@
       "snippet": "Amazon Timestream for InfluxDB now supports AWS Key Management Service (AWS KMS) customer managed keys for encrypting data at rest in InfluxDB 2 database instances, InfluxDB 2 Read Replicas, and InfluxDB 3 clusters. Customers select a symmetric AWS KMS key…"
     },
     {
-      "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-20T20:00:00.000Z",
-      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instances are…"
-    },
-    {
       "title": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/",
       "source": "AWS What's New",
@@ -182,6 +182,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-20T20:00:00.000Z",
       "snippet": "Amazon Bedrock AgentCore memory now accepts a JSON payload type on the CreateEvent API, so agents can extract and consolidate long-term memories from structured data as well as from multi-turn conversations. Developers can pass behavioral events, activity…"
+    },
+    {
+      "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-20T20:00:00.000Z",
+      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instances are…"
     },
     {
       "title": "AWS Network Firewall now supports rule hit count",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-20T18:30:00.000Z",
       "snippet": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguards. Each Amazon EKS cluster has its own CA that allows…"
-    },
-    {
-      "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-20T18:30:00.000Z",
-      "snippet": "Starting today, customers can protect their origins using Amazon S3 Multi-Region Access Points (MRAP) by using CloudFront Origin Access Control (OAC) to only allow access from designated CloudFront distributions. Customers use Amazon S3 MRAP with CloudFront…"
     }
   ]
 }
