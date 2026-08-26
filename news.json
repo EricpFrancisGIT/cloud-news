@@ -1,12 +1,54 @@
 {
-  "lastUpdated": "2026-08-26T13:50:58.665Z",
+  "lastUpdated": "2026-08-26T19:51:25.604Z",
   "items": [
+    {
+      "title": "ICYMI: July 2026 @AWS Security",
+      "link": "https://aws.amazon.com/blogs/security/icymi-july-2026-aws-security/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-26T19:32:55.000Z",
+      "snippet": "If you found time for a bit of vacation this summer, you might be in catch-up mode. Here’s a list to help: all the expert blog posts, new service capabilities, code samples, and workshops, in case you missed it, from July 2026. AWS Security Blog post This…"
+    },
+    {
+      "title": "Detecting multi-stage attacks on AWS: A guide to cross-service signal correlation",
+      "link": "https://aws.amazon.com/blogs/security/detecting-multi-stage-attacks-on-aws-a-guide-to-cross-service-signal-correlation/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-26T17:39:19.000Z",
+      "snippet": "A single alert from one security service tells you something happened. Read that signal alongside activity from other services and your own business context, and you will know whether what happened is part of a multi-stage attack. Consider a short sequence.…"
+    },
+    {
+      "title": "Gallup scales real-time coaching for thousands with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/architecture/gallup-delivers-real-time-workplace-coaching-to-thousands-of-leaders-with-amazon-bedrock/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-26T17:36:23.000Z",
+      "snippet": "Gallup transformed 90 years of workplace science into Gallup AI, a generative AI assistant powered by Amazon Bedrock that delivers real-time, personalized coaching to leaders directly within the Gallup Access application."
+    },
+    {
+      "title": "Closing the AI agent trust gap with graduated autonomy",
+      "link": "https://aws.amazon.com/blogs/architecture/closing-the-ai-agent-trust-gap-with-graduated-autonomy/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-08-26T17:33:03.000Z",
+      "snippet": "Most teams give AI agents either full access or read-only, leaving value unused or risk unmanaged. This post describes graduated autonomy, an architectural pattern in which agents earn expanded permissions through sustained reliability and lose them when…"
+    },
     {
       "title": "Fast Track ISM-ready cloud environments and IRAP Assessments with Landing Zone Accelerator on AWS",
       "link": "https://aws.amazon.com/blogs/security/fast-track-ism-ready-cloud-environments-and-irap-assessments-with-landing-zone-accelerator-on-aws/",
       "source": "AWS Security Blog",
       "pubDate": "2026-08-25T21:53:49.000Z",
       "snippet": "This post announces the availability of a new independent assessment report available on AWS Artifact analyzing how Landing Zone Accelerator on AWS (LZA) can automatically deploy multi-account environments in Amazon Web Services (AWS) with Australian…"
+    },
+    {
+      "title": "Amazon EC2 R8id instances are now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T20:00:00.000Z",
+      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and Europe (Ireland, Stockholm). R8id instances feature up to…"
+    },
+    {
+      "title": "Amazon EC2 C8id and M8id instances are now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T20:00:00.000Z",
+      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) C8id and M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8id instances are now available in Asia Pacific (Sydney) and Canada (Central) and M8id…"
     },
     {
       "title": "AWS IoT Core now supports native InfluxDB routing for time-series data",
@@ -44,18 +86,18 @@
       "snippet": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our…"
     },
     {
-      "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-25T16:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior…"
-    },
-    {
       "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
       "source": "AWS What's New",
       "pubDate": "2026-08-25T16:00:00.000Z",
       "snippet": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later…"
+    },
+    {
+      "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T16:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior…"
     },
     {
       "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-24T15:00:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now enhances support for Ray with built-in observability, resilient training, accelerated inference and managed development environments. Ray is a popular open-source framework for scaling AI workloads on a unified compute layer,…"
-    },
-    {
-      "title": "Amazon Connect Customer now supports information extraction for agent voice and chat conversations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-information/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-24T14:46:00.000Z",
-      "snippet": "Amazon Connect Customer now supports information extraction, which automatically captures key data from voice and chat interactions, reducing manual data capture and improving agent and supervisor productivity. Information extraction captures verbatim values…"
-    },
-    {
-      "title": "AWS ParallelCluster 3.16 adds an on-node diagnostics tool",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-parallelcluster/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-24T14:00:00.000Z",
-      "snippet": "AWS ParallelCluster 3.16 is now generally available with a new on-node diagnostics tool, cluster stability improvements, and an updated HPC and AI/ML software stack. pcluster-diag is a diagnostics tool built into the ParallelCluster AMIs that lets you run…"
-    },
-    {
-      "title": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-24T13:00:00.000Z",
-      "snippet": "GPT-5.6 Terra and Luna are now generally available on Amazon Bedrock in AWS GovCloud (US-West) and AWS GovCloud (US-East), bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance,…"
-    },
-    {
-      "title": "Amazon RDS for MySQL now supports new minor version 8.4.11",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mysql-8411-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-24T08:41:00.000Z",
-      "snippet": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.11, the latest minor released by community MySQL. In addition to operational improvements, MySQL 8.4.11 introduces support for post-quantum TLS (PQ-TLS)…"
-    },
-    {
-      "title": "AWS Neuron 2.32 introduces expanded NKI programming, MXFP8 training kernels, and variable-size collectives for Trn2 and Trn",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announce-neuron-2-32-0",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-21T21:11:00.000Z",
-      "snippet": "AWS Neuron 2.32.0 is now available, introducing NKI 0.6.0 with an on-device top-K instruction, a variable-length `all-gather `for kernels whose ranks hold differently sized tensors, and new loop constructs for data-dependent iteration. This release also…"
-    },
-    {
-      "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-21T20:11:00.000Z",
-      "snippet": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output tokens—20% lower input pricing and 33.3% lower output…"
     }
   ]
 }
