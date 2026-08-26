@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T01:50:16.501Z",
+  "lastUpdated": "2026-08-26T07:50:34.275Z",
   "items": [
     {
       "title": "Fast Track ISM-ready cloud environments and IRAP Assessments with Landing Zone Accelerator on AWS",
@@ -44,18 +44,18 @@
       "snippet": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our…"
     },
     {
-      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-25T16:00:00.000Z",
-      "snippet": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later…"
-    },
-    {
       "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
       "source": "AWS What's New",
       "pubDate": "2026-08-25T16:00:00.000Z",
       "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior…"
+    },
+    {
+      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T16:00:00.000Z",
+      "snippet": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later…"
     },
     {
       "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
@@ -70,6 +70,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-25T13:00:00.000Z",
       "snippet": "Today, AWS Lambda introduces managed runtimes in public preview, starting with Node.js 26 and Python 3.15. This gives customers, partners and upstream language communities the opportunity to try upcoming managed runtimes before their general availability (GA)…"
+    },
+    {
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in Canada West (Calgary) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-m8i-m8i-flex-canada-west/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T13:00:00.000Z",
+      "snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth…"
     },
     {
       "title": "Amazon RDS now supports the latest CU for Microsoft SQL Server",
@@ -98,6 +105,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-25T02:00:00.000Z",
       "snippet": "AWS Lambda functions now support full Identity and Access Management (IAM) resource-based policies, enabling platform admins and security teams to define granular access permissions using the full capabilities of AWS IAM. With full IAM resource-based…"
+    },
+    {
+      "title": "Amazon GameLift Servers enhanced DDoS Protection now available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-servers-enhanced-ddos-protection",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T00:00:00.000Z",
+      "snippet": "Amazon GameLift Servers now offers Enhanced DDoS Protection, a new layer of protection that defends game servers from common network and transport layer DDoS attacks with no configuration required. Enhanced DDoS Protection is active from the moment you start…"
     },
     {
       "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-21T20:11:00.000Z",
       "snippet": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output tokens—20% lower input pricing and 33.3% lower output…"
-    },
-    {
-      "title": "Amazon Connect Customer now lets managers chat with their data",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-21T20:00:00.000Z",
-      "snippet": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they haven’t had is the time to dig through dashboards, find…"
-    },
-    {
-      "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
-      "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-08-21T18:53:26.000Z",
-      "snippet": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions."
     }
   ]
 }
