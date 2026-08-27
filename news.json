@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T09:15:20.841Z",
+  "lastUpdated": "2026-08-27T15:50:53.684Z",
   "items": [
     {
       "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
@@ -128,18 +128,18 @@
       "snippet": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our…"
     },
     {
-      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-25T16:00:00.000Z",
-      "snippet": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later…"
-    },
-    {
       "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
       "source": "AWS What's New",
       "pubDate": "2026-08-25T16:00:00.000Z",
       "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior…"
+    },
+    {
+      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T16:00:00.000Z",
+      "snippet": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later…"
     },
     {
       "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
