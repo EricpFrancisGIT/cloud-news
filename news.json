@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-08-26T19:51:25.604Z",
+  "lastUpdated": "2026-08-27T01:51:46.279Z",
   "items": [
+    {
+      "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-26T22:00:00.000Z",
+      "snippet": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP device, administrators can remove the device association,…"
+    },
+    {
+      "title": "Amazon Connect Customer now supports unplanned shrinkage in agent schedules",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-26T20:16:00.000Z",
+      "snippet": "Amazon Connect Customer now enables managers to input unplanned shrinkage in agent schedules, providing a more accurate picture of staffing due to unscheduled agent absences such as late logins or unplanned sick leave. Managers can upload unplanned shrinkage…"
+    },
     {
       "title": "ICYMI: July 2026 @AWS Security",
       "link": "https://aws.amazon.com/blogs/security/icymi-july-2026-aws-security/",
       "source": "AWS Security Blog",
       "pubDate": "2026-08-26T19:32:55.000Z",
       "snippet": "If you found time for a bit of vacation this summer, you might be in catch-up mode. Here’s a list to help: all the expert blog posts, new service capabilities, code samples, and workshops, in case you missed it, from July 2026. AWS Security Blog post This…"
+    },
+    {
+      "title": "Mountpoint for Amazon S3 adds memory usage controls",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-26T18:00:00.000Z",
+      "snippet": "Mountpoint for Amazon S3 can now limit memory usage, either automatically based on the environment it runs in or with a limit that you define. This lets you run Mountpoint alongside memory-intensive applications, for example, in machine learning training or…"
     },
     {
       "title": "Detecting multi-stage attacks on AWS: A guide to cross-service signal correlation",
@@ -28,6 +49,20 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-08-26T17:33:03.000Z",
       "snippet": "Most teams give AI agents either full access or read-only, leaving value unused or risk unmanaged. This post describes graduated autonomy, an architectural pattern in which agents earn expanded permissions through sustained reliability and lose them when…"
+    },
+    {
+      "title": "Amazon Connect Customer now supports points-based scoring in performance evaluations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-26T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring, managers assign points to each criterion based on its…"
+    },
+    {
+      "title": "AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-26T10:00:00.000Z",
+      "snippet": "AWS Backup now supports copying Amazon DocumentDB backups across AWS Regions and storing them in logically air-gapped vaults in nine additional AWS Regions: Asia Pacific (Hong Kong, Jakarta, Melbourne, Osaka), Europe (Spain, Stockholm, Zurich), Africa (Cape…"
     },
     {
       "title": "Fast Track ISM-ready cloud environments and IRAP Assessments with Landing Zone Accelerator on AWS",
@@ -86,18 +121,18 @@
       "snippet": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our…"
     },
     {
-      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-25T16:00:00.000Z",
-      "snippet": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later…"
-    },
-    {
       "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
       "source": "AWS What's New",
       "pubDate": "2026-08-25T16:00:00.000Z",
       "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior…"
+    },
+    {
+      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T16:00:00.000Z",
+      "snippet": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later…"
     },
     {
       "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
@@ -163,53 +198,18 @@
       "snippet": "Amazon Elastic Container Service (Amazon ECS) now automatically detects and repairs container instances, enabling customers to reduce undetected workload failures and improve application availability without manual intervention. With this launch, Amazon ECS…"
     },
     {
+      "title": "AWS Glue now supports catalog federation for remote Apache Iceberg catalogs in AWS GovCloud (US) regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-catalog-federation-iceberg-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-24T20:50:00.000Z",
+      "snippet": "AWS Glue now supports catalog federation for remote Iceberg REST catalogs in AWS GovCloud (US) Regions. This capability provides direct and secure access to Iceberg tables, stored in Amazon S3 and cataloged in remote catalogs, using AWS analytics engines.…"
+    },
+    {
       "title": "SageMaker MLflow now supports customer managed keys",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
       "source": "AWS What's New",
       "pubDate": "2026-08-24T19:26:00.000Z",
       "snippet": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict security and compliance requirements to manage their own encryption…"
-    },
-    {
-      "title": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-24T18:29:00.000Z",
-      "snippet": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports multiple external OpenID Connect (OIDC) identity providers per cluster. You can associate up to 10 OIDC identity providers with a single cluster, giving you more flexibility in how you authenticate…"
-    },
-    {
-      "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-08-24T16:20:15.000Z",
-      "snippet": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why I do this work,…"
-    },
-    {
-      "title": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-24T16:00:00.000Z",
-      "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.4, 17.10, 16.14, 15.18, and 14.23 which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to…"
-    },
-    {
-      "title": "How a global payment processor preserved AWS RAM shares and Lake Formation permissions during an AWS Organizations migration",
-      "link": "https://aws.amazon.com/blogs/architecture/how-a-global-payment-processor-preserved-aws-ram-shares-and-lake-formation-permissions-during-an-aws-organizations-migration/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-08-24T15:23:21.000Z",
-      "snippet": "When AWS accounts move between organizations, organization-bound AWS RAM resource shares break and control-plane access is lost. Learn how a global payment processor used temporary bridge shares to preserve AWS Lake Formation permissions across a 382-account…"
-    },
-    {
-      "title": "MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for replication from external Apache Kafka clusters to Amazon MSK",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-replicator-OAuth-support",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-24T15:00:00.000Z",
-      "snippet": "Amazon MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers - to Amazon MSK Provisioned clusters. With this…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod enhances support for Ray",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-hyperpod-ray",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-24T15:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now enhances support for Ray with built-in observability, resilient training, accelerated inference and managed development environments. Ray is a popular open-source framework for scaling AI workloads on a unified compute layer,…"
     }
   ]
 }
