@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T01:51:46.279Z",
+  "lastUpdated": "2026-08-27T09:15:20.841Z",
   "items": [
     {
       "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
@@ -56,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-26T17:00:00.000Z",
       "snippet": "Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring, managers assign points to each criterion based on its…"
+    },
+    {
+      "title": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-26T16:26:00.000Z",
+      "snippet": "AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region. AWS Glue is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating data from multiple sources. AWS Glue 5.1 upgrades core…"
     },
     {
       "title": "AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine additional AWS Regions",
@@ -121,18 +128,18 @@
       "snippet": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our…"
     },
     {
-      "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-25T16:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior…"
-    },
-    {
       "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
       "source": "AWS What's New",
       "pubDate": "2026-08-25T16:00:00.000Z",
       "snippet": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later…"
+    },
+    {
+      "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-25T16:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior…"
     },
     {
       "title": "IAM Roles Anywhere now provides a Java plugin for the AWS SDK",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-24T20:50:00.000Z",
       "snippet": "AWS Glue now supports catalog federation for remote Iceberg REST catalogs in AWS GovCloud (US) Regions. This capability provides direct and secure access to Iceberg tables, stored in Amazon S3 and cataloged in remote catalogs, using AWS analytics engines.…"
-    },
-    {
-      "title": "SageMaker MLflow now supports customer managed keys",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-24T19:26:00.000Z",
-      "snippet": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict security and compliance requirements to manage their own encryption…"
     }
   ]
 }
