@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-08-28T22:16:48.654Z",
+  "lastUpdated": "2026-08-29T04:17:12.018Z",
   "items": [
+    {
+      "title": "Amazon EC2 C8gn instances are now available in AWS Europe (Paris) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gn-europe-paris/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-28T22:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Europe (Paris) region. The C8gn instances provide up to 30% better compute performance than…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Memory now supports fine-grained access control",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-28T20:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Memory now supports fine-grained access control (FGAC), enabling you to enforce per-user and per-tenant memory isolation through AgentCore Gateway without building custom authorization logic. With FGAC, you can front your Memory…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Memory now supports flexible namespace variables",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-28T20:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Memory now lets developers define flexible namespace variables to scope long-term memories along any application-specific dimension - such as organization, tenant, team, or environment - without creating duplicate strategies or…"
+    },
     {
       "title": "AWS Transform now in scope for FedRAMP Class C",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-fedramp-class-c/",
@@ -23,18 +44,18 @@
       "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in Asia Pacific (Hyderabad) and South America (Sao Paulo) Regions. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4…"
     },
     {
-      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-28T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL…"
-    },
-    {
       "title": "Amazon CloudWatch agent adds support for journald logs",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
       "source": "AWS What's New",
       "pubDate": "2026-08-28T16:00:00.000Z",
       "snippet": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal on Linux instances and send them to Amazon CloudWatch Logs,…"
+    },
+    {
+      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-28T16:00:00.000Z",
+      "snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL…"
     },
     {
       "title": "SpaceXAI Grok 4.6 now available on Amazon Bedrock in AWS GovCloud (US)",
@@ -189,27 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-08-26T17:33:03.000Z",
       "snippet": "Most teams give AI agents either full access or read-only, leaving value unused or risk unmanaged. This post describes graduated autonomy, an architectural pattern in which agents earn expanded permissions through sustained reliability and lose them when…"
-    },
-    {
-      "title": "Amazon Connect Customer now supports points-based scoring in performance evaluations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-26T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring, managers assign points to each criterion based on its…"
-    },
-    {
-      "title": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-26T16:26:00.000Z",
-      "snippet": "AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region. AWS Glue is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating data from multiple sources. AWS Glue 5.1 upgrades core…"
-    },
-    {
-      "title": "AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-26T10:00:00.000Z",
-      "snippet": "AWS Backup now supports copying Amazon DocumentDB backups across AWS Regions and storing them in logically air-gapped vaults in nine additional AWS Regions: Asia Pacific (Hong Kong, Jakarta, Melbourne, Osaka), Europe (Spain, Stockholm, Zurich), Africa (Cape…"
     }
   ]
 }
