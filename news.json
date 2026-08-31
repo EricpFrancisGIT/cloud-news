@@ -1,6 +1,76 @@
 {
-  "lastUpdated": "2026-08-31T16:20:32.730Z",
+  "lastUpdated": "2026-08-31T22:20:51.700Z",
   "items": [
+    {
+      "title": "Amazon Redshift now supports AWS IAM Identity Center authentication with enhanced VPC routing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-idc-evr",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T21:02:00.000Z",
+      "snippet": "Amazon Redshift now supports AWS IAM Identity Center authentication for provisioned clusters and serverless workgroups configured with enhanced VPC routing (EVR). You can access Amazon Redshift with single sign-on with your corporate credentials, and the…"
+    },
+    {
+      "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-08-31T19:53:34.000Z",
+      "snippet": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics."
+    },
+    {
+      "title": "Amazon Timestream for InfluxDB is now available in 8 additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T19:48:00.000Z",
+      "snippet": "You can now use Amazon Timestream for InfluxDB in the Africa (Cape Town), Asia Pacific (Bangkok), Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Asia Pacific (Seoul), Europe (Zurich), and Israel (Tel Aviv) AWS Regions.…"
+    },
+    {
+      "title": "We invited a direct competitor into Security Hub Extended. Here’s why.",
+      "link": "https://aws.amazon.com/blogs/security/we-invited-a-direct-competitor-into-security-hub-extended-heres-why/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-31T19:00:07.000Z",
+      "snippet": "When customers keep pointing you to a solution that overlaps with parts of your own offering, you have a choice to make. This post is about the choice we made with Upwind, and why we’d make it again. AWS Security Hub Extended exists because customers told us…"
+    },
+    {
+      "title": "Amazon Redshift now supports Apache Iceberg v3 tables",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T18:10:00.000Z",
+      "snippet": "Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features. With this launch, Amazon Redshift introduces support for default column…"
+    },
+    {
+      "title": "Amazon EC2 R9g and R9gd memory optimized instances are now available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r9g-and-r9gd-memory-optimized-instances-are-now-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T18:08:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R9g and R9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed CPUs, delivering the best price performance…"
+    },
+    {
+      "title": "Amazon Cognito now supports machine-to-machine authorization without a user pool domain",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-get-client-token/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T18:00:00.000Z",
+      "snippet": "Amazon Cognito now supports the GetClientToken API operation, enabling app clients to obtain access tokens for machine-to-machine (M2M) authorization directly through the AWS SDK, CLI, or API — without configuring a user pool domain. This gives you an…"
+    },
+    {
+      "title": "AWS Lambda recursive loop detection is now available in all commercial AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-recursion-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T17:30:00.000Z",
+      "snippet": "AWS Lambda recursive loop detection has expanded support to all commercial AWS Regions. This feature, which is enabled by default, is a guardrail that automatically detects and stops recursive invocations between Lambda functions and other supported services,…"
+    },
+    {
+      "title": "Automate IAM Identity Center governance with continuous discovery and reporting",
+      "link": "https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-08-31T17:18:31.000Z",
+      "snippet": "AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a…"
+    },
+    {
+      "title": "Amazon Aurora serverless is now available with 30% better performance and smarter scaling in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-serverless-performance-improvement-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T16:46:00.000Z",
+      "snippet": "Amazon Aurora serverless now delivers up to 30% better performance and enhanced scaling in additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Africa (Cape Town), Europe (Milan), and Mexico (Central). These improvements are available…"
+    },
     {
       "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/",
@@ -9,11 +79,46 @@
       "snippet": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. These insights cover resource exhaustion scenarios…"
     },
     {
+      "title": "AWS Agent Registry for centralized agent discovery and governance is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T15:21:00.000Z",
+      "snippet": "AWS Agent Registry is now generally available. It provides a private, governed catalog and discovery layer for agents, tools, skills, MCP servers, and custom resources within your organization. Teams get complete visibility into their AI landscape, so they…"
+    },
+    {
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Microsoft Azure in preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announces-AWS-interconnect-multicloud-microsoft-azure-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T15:00:00.000Z",
+      "snippet": "AWS announces the public preview of AWS Interconnect — multicloud with Microsoft Azure. Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the…"
+    },
+    {
       "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
       "source": "AWS News Blog",
       "pubDate": "2026-08-31T14:45:25.000Z",
       "snippet": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes…"
+    },
+    {
+      "title": "AWS Workload Credentials Provider is now available as a one-click install for Linux and Windows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/workload-credentials-provider-install/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T07:00:00.000Z",
+      "snippet": "Today, AWS Secrets Manager announces one-click installation for the AWS Workload Credentials Provider (AWCP) on Amazon Linux and Windows, reducing setup from a multi-step build-from-source process to a single command. AWCP resolves secrets from AWS Secrets…"
+    },
+    {
+      "title": "Automated Security Response on AWS adds AI Toolkit for custom remediations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/automated-security-response-adds-AI-toolkit/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T06:00:00.000Z",
+      "snippet": "Today, AWS announced four new capabilities for Automated Security Response on AWS (ASR). Customers can now use an AI-driven Toolkit that generates custom remediations using any AI assistant with built-in safety guardrails. In addition, customers can…"
+    },
+    {
+      "title": "AWS Elastic Beanstalk now supports Active Directory domain join for Windows Server environments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-beanstalk-active-directory-domain-join/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T04:00:00.000Z",
+      "snippet": "AWS Elastic Beanstalk now automatically joins the Windows Server instances in your environment to an Active Directory domain that you manage with AWS Directory Service. Previously, running domain-joined Windows workloads on Elastic Beanstalk required custom…"
     },
     {
       "title": "Amazon EC2 C8gn instances are now available in AWS Europe (Paris) region",
@@ -41,7 +146,7 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-fedramp-class-c/",
       "source": "AWS What's New",
       "pubDate": "2026-08-28T19:45:00.000Z",
-      "snippet": "AWS Transform is now in scope for FedRAMP Class C (formerly Moderate baseline) in the US East (Ohio) Region. You can now use AWS Transform to build applications and run workloads that are subject to FedRAMP Class C compliance requirements. The Federal Risk…"
+      "snippet": "The AWS Transform service is now in scope for FedRAMP Class C (formerly Moderate baseline) in the US East (N. Virginia) Region. You can use AWS Transform from this region to migrate and modernize resources that are or will be located in any of the US East/US…"
     },
     {
       "title": "Extend your data perimeter to the AWS Management Console with Private Access",
@@ -58,11 +163,11 @@
       "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in Asia Pacific (Hyderabad) and South America (Sao Paulo) Regions. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4…"
     },
     {
-      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+      "title": "Amazon EMR on EKS now supports job run concurrency controls",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-eks/",
       "source": "AWS What's New",
-      "pubDate": "2026-08-28T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL…"
+      "pubDate": "2026-08-28T17:08:00.000Z",
+      "snippet": "Amazon EMR on EKS lets you run open-source big data frameworks such as Apache Spark and Flink on AWS EKS(Elastic Kubernetes Service) clusters. You submit jobs to a virtual cluster, which maps to a namespace on an EKS cluster, and EMR on EKS handles packaging,…"
     },
     {
       "title": "Amazon CloudWatch agent adds support for journald logs",
@@ -70,6 +175,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-28T16:00:00.000Z",
       "snippet": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal on Linux instances and send them to Amazon CloudWatch Logs,…"
+    },
+    {
+      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-28T16:00:00.000Z",
+      "snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL…"
     },
     {
       "title": "SpaceXAI Grok 4.6 now available on Amazon Bedrock in AWS GovCloud (US)",
@@ -98,118 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-27T21:41:00.000Z",
       "snippet": "Amazon Redshift now supports Amazon Kinesis Data Streams (KDS) record sizes up to 10 MiB—a 10x increase from the previous 1 MiB limit—fully matching the expanded maximum record size in Amazon KDS. This means you can stream significantly larger payloads…"
-    },
-    {
-      "title": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T20:07:00.000Z",
-      "snippet": "Amazon Redshift now integrates with the Agent Toolkit for AWS, enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and data lakes directly from AI agents such as Claude Code, Kiro, and Cursor. The integration pairs the…"
-    },
-    {
-      "title": "Amazon EC2 X8i instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-x8i-europe-milan-spain/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T18:40:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Europe (Milan) and Europe (Spain) regions. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and…"
-    },
-    {
-      "title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T18:00:00.000Z",
-      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore expands to two new regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-two-new-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T18:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore is now available in two additional AWS Regions: US West (N. California) and Asia Pacific (Hyderabad). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers ship agents fast with any…"
-    },
-    {
-      "title": "Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T18:00:00.000Z",
-      "snippet": "Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region, giving…"
-    },
-    {
-      "title": "Amazon Connect Customer now automatically refreshes scheduling metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-scheduling-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T17:59:00.000Z",
-      "snippet": "Amazon Connect Customer now automatically refreshes schedule metrics on the scheduling page, giving managers immediate visibility into the impact of schedule updates. For example, when a new team meeting is added for 10 agents from 10 AM – 11 AM, metrics such…"
-    },
-    {
-      "title": "Amazon FSx for NetApp ONTAP now supports copying backups across AWS Regions and accounts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/fsx-ontap-cross-region-backup-copy/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T17:37:00.000Z",
-      "snippet": "Amazon FSx for NetApp ONTAP, a fully managed shared storage service built on NetApp's popular ONTAP file system, now supports copying backups within and across AWS Regions, and across trusted accounts in your AWS organization. You can now provide an…"
-    },
-    {
-      "title": "AWS Backup adds cross-Region and cross-account backup support for Amazon FSx for NetApp ONTAP",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-fsx-netapp-cross-account-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T17:25:00.000Z",
-      "snippet": "AWS Backup now supports copying Amazon FSx for NetApp ONTAP backups across AWS Regions and accounts. You can copy your FSx for NetApp ONTAP backups to another AWS Region, another AWS account, or both, using policy-based backup plans or on-demand copy jobs.…"
-    },
-    {
-      "title": "Amazon EVS now supports i7i.metal-48xl Amazon EC2 instance type",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-evs-i7i-48xl",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T16:35:00.000Z",
-      "snippet": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the i7i.metal-48xl Amazon Elastic Cloud Compute (Amazon EC2) bare-metal instance type, offering a higher core-count option with a newer generation processor to help you…"
-    },
-    {
-      "title": "Extend Amazon Bedrock Guardrails to Tool Interactions Using the Strands Agents SDK",
-      "link": "https://aws.amazon.com/blogs/security/extend-amazon-bedrock-guardrails-to-tool-interactions-using-the-strands-agents-sdk/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-27T16:20:05.000Z",
-      "snippet": "If you’re running AI agents in production, Amazon Bedrock Guardrails protects the model boundary. But your agents also invoke tools, fetch external data, and communicate with other systems. That data flows outside the model boundary, where model-level…"
-    },
-    {
-      "title": "Amazon Aurora DSQL now supports foreign key constraints",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T07:00:00.000Z",
-      "snippet": "Amazon Aurora DSQL now lets you add foreign key constraints to new and existing tables. Aurora DSQL is a serverless, distributed SQL database with PostgreSQL compatibility and active-active multi-Region availability. You can now express your application's…"
-    },
-    {
-      "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-26T22:00:00.000Z",
-      "snippet": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP device, administrators can remove the device association,…"
-    },
-    {
-      "title": "Amazon Connect Customer now supports unplanned shrinkage in agent schedules",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-26T20:16:00.000Z",
-      "snippet": "Amazon Connect Customer now enables managers to input unplanned shrinkage in agent schedules, providing a more accurate picture of staffing due to unscheduled agent absences such as late logins or unplanned sick leave. Managers can upload unplanned shrinkage…"
-    },
-    {
-      "title": "ICYMI: July 2026 @AWS Security",
-      "link": "https://aws.amazon.com/blogs/security/icymi-july-2026-aws-security/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-26T19:32:55.000Z",
-      "snippet": "If you found time for a bit of vacation this summer, you might be in catch-up mode. Here’s a list to help: all the expert blog posts, new service capabilities, code samples, and workshops, in case you missed it, from July 2026. AWS Security Blog post This…"
-    },
-    {
-      "title": "Mountpoint for Amazon S3 adds memory usage controls",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-26T18:00:00.000Z",
-      "snippet": "Mountpoint for Amazon S3 can now limit memory usage, either automatically based on the environment it runs in or with a limit that you define. This lets you run Mountpoint alongside memory-intensive applications, for example, in machine learning training or…"
-    },
-    {
-      "title": "Detecting multi-stage attacks on AWS: A guide to cross-service signal correlation",
-      "link": "https://aws.amazon.com/blogs/security/detecting-multi-stage-attacks-on-aws-a-guide-to-cross-service-signal-correlation/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-26T17:39:19.000Z",
-      "snippet": "A single alert from one security service tells you something happened. Read that signal alongside activity from other services and your own business context, and you will know whether what happened is part of a multi-stage attack. Consider a short sequence.…"
     }
   ]
 }
