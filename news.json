@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T04:21:15.041Z",
+  "lastUpdated": "2026-09-01T10:21:35.854Z",
   "items": [
     {
       "title": "Amazon DocumentDB now supports direct major version upgrades to version 8.0",
@@ -42,6 +42,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-31T19:48:00.000Z",
       "snippet": "You can now use Amazon Timestream for InfluxDB in the Africa (Cape Town), Asia Pacific (Bangkok), Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Asia Pacific (Seoul), Europe (Zurich), and Israel (Tel Aviv) AWS Regions.…"
+    },
+    {
+      "title": "Amazon Connect Global Resiliency now supports cross-region routing of contacts across two active AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-global-resiliency-cross-region-routing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T19:25:00.000Z",
+      "snippet": "Amazon Connect Global Resiliency now supports cross-region routing of contacts to agents across two linked AWS regions. For example, a contact arriving in US East (N. Virginia) is offered to the longest-available matching agent whether that agent is in US…"
     },
     {
       "title": "We invited a direct competitor into Security Hub Extended. Here’s why.",
@@ -203,13 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-08-28T18:53:57.000Z",
       "snippet": "Organizations in regulated industries such as financial services, government, defense, and healthcare restrict their sensitive workloads to isolated network environments with no access to the public internet. Until now, customers could restrict AWS Management…"
-    },
-    {
-      "title": "Amazon EC2 P6-B300 instances are now available in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300-instances-available-additional-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-28T17:34:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in Asia Pacific (Hyderabad) and South America (Sao Paulo) Regions. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4…"
     }
   ]
 }
