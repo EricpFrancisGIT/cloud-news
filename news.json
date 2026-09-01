@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-08-31T22:20:51.700Z",
+  "lastUpdated": "2026-09-01T04:21:15.041Z",
   "items": [
+    {
+      "title": "Amazon DocumentDB now supports direct major version upgrades to version 8.0",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/documentdb-major-version-upgrade-8-0/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T22:30:00.000Z",
+      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place major version upgrades (MVU) directly from engine versions 3.6 and 4.0 to version 8.0. This upgrade capability removes the need for intermediate version upgrades and allows you to upgrade…"
+    },
+    {
+      "title": "Partner Revenue Measurement expands service coverage for User Agent string capability",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/partner-revenue-measurement-user-agent-expansion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T22:00:00.000Z",
+      "snippet": "Partner Revenue Measurement User Agent string now supports additional AWS services. Partner Revenue Measurement allows Partners to better understand their AWS revenue impact and product consumption patterns. Previously, the User Agent string capability…"
+    },
+    {
+      "title": "AWS Agent Registry agents and MCP servers now available in Amazon Quick",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-agents-mcp-servers-quick/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T21:05:00.000Z",
+      "snippet": "Today, Amazon Quick announces integration with AWS Agent Registry, enabling users to discover and use resources from their organization's AWS Agent Registry directly within Amazon Quick. AWS Agent Registry supports MCP servers and agents, which users can now…"
+    },
     {
       "title": "Amazon Redshift now supports AWS IAM Identity Center authentication with enhanced VPC routing",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-idc-evr",
@@ -93,6 +114,20 @@
       "snippet": "AWS announces the public preview of AWS Interconnect — multicloud with Microsoft Azure. Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the…"
     },
     {
+      "title": "Amazon MSK Connect now supports restarting connectors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-connect-restart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T15:00:00.000Z",
+      "snippet": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) supports restarting newly created connectors and their tasks, enabling fast recovery for streaming data pipelines. Amazon MSK Connect is a fully managed service that allows you to deploy,…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications is now available in three new AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-region-expansion",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-31T15:00:00.000Z",
+      "snippet": "Amazon Web Services (AWS) has expanded the regional availability for Amazon WorkSpaces Applications. Starting today, AWS customers can deploy their applications and desktops in the Europe (Zurich), Asia Pacific (Osaka), and Canada West (Calgary) Regions and…"
+    },
+    {
       "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
       "source": "AWS News Blog",
@@ -119,6 +154,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-31T04:00:00.000Z",
       "snippet": "AWS Elastic Beanstalk now automatically joins the Windows Server instances in your environment to an Active Directory domain that you manage with AWS Directory Service. Previously, running domain-joined Windows workloads on Elastic Beanstalk required custom…"
+    },
+    {
+      "title": "Amazon Kinesis Data Streams announces data delivery to general purpose Amazon S3 buckets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-general-purpose-s3-buckets",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-29T06:47:00.000Z",
+      "snippet": "Amazon Kinesis Data Streams now delivers streaming data directly to general purpose Amazon S3 buckets, providing the easiest way to ingest and deliver streaming data to S3 without building or managing delivery pipelines. S3 general purpose delivery reduces…"
+    },
+    {
+      "title": "Amazon Kinesis Data Streams announces streaming tables, delivering data to Apache Iceberg tables on Amazon S3 Tables",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-s3-tables",
+      "source": "AWS What's New",
+      "pubDate": "2026-08-28T23:34:00.000Z",
+      "snippet": "Amazon Kinesis Data Streams introduces streaming tables, a new fully serverless capability that continuously delivers data from Kinesis streams to Amazon S3 Tables in Apache Iceberg format. Streaming tables eliminate the need to build and operate self-managed…"
     },
     {
       "title": "Amazon EC2 C8gn instances are now available in AWS Europe (Paris) region",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-28T17:34:00.000Z",
       "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in Asia Pacific (Hyderabad) and South America (Sao Paulo) Regions. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4…"
-    },
-    {
-      "title": "Amazon EMR on EKS now supports job run concurrency controls",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-eks/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-28T17:08:00.000Z",
-      "snippet": "Amazon EMR on EKS lets you run open-source big data frameworks such as Apache Spark and Flink on AWS EKS(Elastic Kubernetes Service) clusters. You submit jobs to a virtual cluster, which maps to a namespace on an EKS cluster, and EMR on EKS handles packaging,…"
-    },
-    {
-      "title": "Amazon CloudWatch agent adds support for journald logs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-28T16:00:00.000Z",
-      "snippet": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal on Linux instances and send them to Amazon CloudWatch Logs,…"
-    },
-    {
-      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-28T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL…"
-    },
-    {
-      "title": "SpaceXAI Grok 4.6 now available on Amazon Bedrock in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spacexai-grok-4-6-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-28T13:17:00.000Z",
-      "snippet": "Amazon Bedrock in AWS GovCloud (US) now supports SpaceXAI Grok 4.6, a frontier model built for coding, agentic tasks, and knowledge work. Grok 4.6 is SpaceXAI’s latest flagship model, built for long-running agents and ambitious interactive and visual work. It…"
-    },
-    {
-      "title": "Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T22:41:00.000Z",
-      "snippet": "NVIDIA's Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models form the Cosmos 3 family of open, frontier omnimodal…"
-    },
-    {
-      "title": "Muse-Glimmer-30B and Qwen 3.8-27B models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-glimmer-30b-qwen-3.8-27b-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T22:39:00.000Z",
-      "snippet": "Meta's Muse-Glimmer-30B and Alibaba's Qwen 3.8-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning autonomous local…"
-    },
-    {
-      "title": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-27T21:41:00.000Z",
-      "snippet": "Amazon Redshift now supports Amazon Kinesis Data Streams (KDS) record sizes up to 10 MiB—a 10x increase from the previous 1 MiB limit—fully matching the expanded maximum record size in Amazon KDS. This means you can stream significantly larger payloads…"
     }
   ]
 }
