@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-02T10:23:34.109Z",
+  "lastUpdated": "2026-09-02T16:24:41.958Z",
   "items": [
+    {
+      "title": "AWS Lambda now supports SnapStart for container image functions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T09:00:00.000Z",
+      "snippet": "Starting today, AWS Lambda supports SnapStart for functions packaged as container images, reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly responsive and…"
+    },
     {
       "title": "Amazon Quick now lets you build custom apps with natural language -",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/",
@@ -63,6 +70,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-01T14:00:00.000Z",
       "snippet": "Claude Fable 5.1 is generally available on AWS and brings Anthropic's most capable frontier model to all customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. A clear improvement…"
+    },
+    {
+      "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-01T14:00:00.000Z",
+      "snippet": "Claude Fable 5.1 is generally available on Amazon Bedrock in AWS GovCloud (US) and brings Anthropic's most capable frontier model to regulated industry customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research,…"
     },
     {
       "title": "MCP went stateless: Is your AWS MCP server deployment well-architected?",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-31T15:41:00.000Z",
       "snippet": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. These insights cover resource exhaustion scenarios…"
-    },
-    {
-      "title": "AWS Agent Registry for centralized agent discovery and governance is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T15:21:00.000Z",
-      "snippet": "AWS Agent Registry is now generally available. It provides a private, governed catalog and discovery layer for agents, tools, skills, MCP servers, and custom resources within your organization. Teams get complete visibility into their AI landscape, so they…"
-    },
-    {
-      "title": "AWS announces AWS Interconnect - multicloud connectivity with Microsoft Azure in preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announces-AWS-interconnect-multicloud-microsoft-azure-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T15:00:00.000Z",
-      "snippet": "AWS announces the public preview of AWS Interconnect — multicloud with Microsoft Azure. Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the…"
     }
   ]
 }
