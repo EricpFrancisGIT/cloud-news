@@ -1,12 +1,82 @@
 {
-  "lastUpdated": "2026-09-02T16:24:41.958Z",
+  "lastUpdated": "2026-09-02T22:25:44.590Z",
   "items": [
+    {
+      "title": "Managing identity source transition for AWS IAM Identity Center",
+      "link": "https://aws.amazon.com/blogs/security/managing-identity-source-transition-for-aws-iam-identity-center/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-02T20:36:31.000Z",
+      "snippet": "September 2, 2026: This post was republished to include Active Directory migration strategies and automation for permission sets. AWS IAM Identity Center manages user access to Amazon Web Services (AWS) resources, including both AWS accounts and applications.…"
+    },
+    {
+      "title": "Agentic security: Detection and response at machine speed",
+      "link": "https://aws.amazon.com/blogs/security/agentic-security-detection-and-response-at-machine-speed/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-02T18:36:37.000Z",
+      "snippet": "After talking with enterprise security leaders over the past year, one thing has become clear: the rise of autonomous AI agents is the most significant shift in security posture since the move to cloud. Organizations across every industry are adopting AI…"
+    },
+    {
+      "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T17:52:00.000Z",
+      "snippet": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads. Web Search helps supported OpenAI GPT models ground…"
+    },
+    {
+      "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language.…"
+    },
+    {
+      "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T16:54:00.000Z",
+      "snippet": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and deep research. Today, Amazon Quick introduces new tool…"
+    },
+    {
+      "title": "Amazon Connect Customer announces general availability of agentic CX designer",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T16:00:00.000Z",
+      "snippet": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and…"
+    },
+    {
+      "title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T16:00:00.000Z",
+      "snippet": "Second-generation AWS Outposts racks are now supported in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a…"
+    },
+    {
+      "title": "AWS Config now supports 60 new resource types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T15:00:00.000Z",
+      "snippet": "AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock, Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage over your AWS environment, enabling you to more effectively…"
+    },
+    {
+      "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T13:00:00.000Z",
+      "snippet": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear in the AWS Management Console. Previously, UXC was available…"
+    },
     {
       "title": "AWS Lambda now supports SnapStart for container image functions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
       "source": "AWS What's New",
       "pubDate": "2026-09-02T09:00:00.000Z",
       "snippet": "Starting today, AWS Lambda supports SnapStart for functions packaged as container images, reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly responsive and…"
+    },
+    {
+      "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T07:00:00.000Z",
+      "snippet": "Amazon RDS for SQL Server supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine behavior — such as query optimizer cardinality estimation, lock…"
     },
     {
       "title": "Amazon Quick now lets you build custom apps with natural language -",
@@ -37,6 +107,13 @@
       "snippet": "Amazon Kinesis Data Streams now supports a dry run feature to check whether an API request would succeed without executing the operation. Customers can now set the new optional parameter ‘DryRun’ to true in their API requests to validate permissions before…"
     },
     {
+      "title": "AWS Marketplace reduces listing fee for professional services in multi-product solutions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-fee-professional-services/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-01T18:00:00.000Z",
+      "snippet": "AWS Marketplace now offers a 0% listing fee for professional services purchased as part of a qualifying multi-product solution. This builds on the recent reduction of professional services listing fee to 0.5%. It further lowers the cost for any Partner that…"
+    },
+    {
       "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
       "source": "AWS What's New",
@@ -56,6 +133,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-01T15:00:00.000Z",
       "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it…"
+    },
+    {
+      "title": "AWS Marketplace now supports auto-renewals for private offers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-auto-renewals-for-private-offers",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-01T15:00:00.000Z",
+      "snippet": "AWS Marketplace now supports auto-renewals for private offers. This capability helps sellers and buyers maintain active software and service subscriptions without re-negotiation or re-purchasing at the end of the term. Negotiated pricing and contract terms…"
     },
     {
       "title": "Hybrid cloud orchestration: Modernizing on-premises infrastructure management with AWS",
@@ -126,90 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-31T21:05:00.000Z",
       "snippet": "Today, Amazon Quick announces integration with AWS Agent Registry, enabling users to discover and use resources from their organization's AWS Agent Registry directly within Amazon Quick. AWS Agent Registry supports MCP servers and agents, which users can now…"
-    },
-    {
-      "title": "Amazon Redshift now supports AWS IAM Identity Center authentication with enhanced VPC routing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-idc-evr",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T21:02:00.000Z",
-      "snippet": "Amazon Redshift now supports AWS IAM Identity Center authentication for provisioned clusters and serverless workgroups configured with enhanced VPC routing (EVR). You can access Amazon Redshift with single sign-on with your corporate credentials, and the…"
-    },
-    {
-      "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-08-31T19:53:34.000Z",
-      "snippet": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics."
-    },
-    {
-      "title": "Amazon Timestream for InfluxDB is now available in 8 additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T19:48:00.000Z",
-      "snippet": "You can now use Amazon Timestream for InfluxDB in the Africa (Cape Town), Asia Pacific (Bangkok), Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Asia Pacific (Seoul), Europe (Zurich), and Israel (Tel Aviv) AWS Regions.…"
-    },
-    {
-      "title": "Amazon Connect Global Resiliency now supports cross-region routing of contacts across two active AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-global-resiliency-cross-region-routing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T19:25:00.000Z",
-      "snippet": "Amazon Connect Global Resiliency now supports cross-region routing of contacts to agents across two linked AWS regions. For example, a contact arriving in US East (N. Virginia) is offered to the longest-available matching agent whether that agent is in US…"
-    },
-    {
-      "title": "We invited a direct competitor into Security Hub Extended. Here’s why.",
-      "link": "https://aws.amazon.com/blogs/security/we-invited-a-direct-competitor-into-security-hub-extended-heres-why/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-31T19:00:07.000Z",
-      "snippet": "When customers keep pointing you to a solution that overlaps with parts of your own offering, you have a choice to make. This post is about the choice we made with Upwind, and why we’d make it again. AWS Security Hub Extended exists because customers told us…"
-    },
-    {
-      "title": "Amazon Redshift now supports Apache Iceberg v3 tables",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T18:10:00.000Z",
-      "snippet": "Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features. With this launch, Amazon Redshift introduces support for default column…"
-    },
-    {
-      "title": "Amazon EC2 R9g and R9gd memory optimized instances are now available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r9g-and-r9gd-memory-optimized-instances-are-now-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T18:08:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R9g and R9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed CPUs, delivering the best price performance…"
-    },
-    {
-      "title": "Amazon Cognito now supports machine-to-machine authorization without a user pool domain",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-get-client-token/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T18:00:00.000Z",
-      "snippet": "Amazon Cognito now supports the GetClientToken API operation, enabling app clients to obtain access tokens for machine-to-machine (M2M) authorization directly through the AWS SDK, CLI, or API — without configuring a user pool domain. This gives you an…"
-    },
-    {
-      "title": "AWS Lambda recursive loop detection is now available in all commercial AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-recursion-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T17:30:00.000Z",
-      "snippet": "AWS Lambda recursive loop detection has expanded support to all commercial AWS Regions. This feature, which is enabled by default, is a guardrail that automatically detects and stops recursive invocations between Lambda functions and other supported services,…"
-    },
-    {
-      "title": "Automate IAM Identity Center governance with continuous discovery and reporting",
-      "link": "https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-08-31T17:18:31.000Z",
-      "snippet": "AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a…"
-    },
-    {
-      "title": "Amazon Aurora serverless is now available with 30% better performance and smarter scaling in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-serverless-performance-improvement-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T16:46:00.000Z",
-      "snippet": "Amazon Aurora serverless now delivers up to 30% better performance and enhanced scaling in additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Africa (Cape Town), Europe (Milan), and Mexico (Central). These improvements are available…"
-    },
-    {
-      "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T15:41:00.000Z",
-      "snippet": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. These insights cover resource exhaustion scenarios…"
     }
   ]
 }
