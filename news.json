@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T22:22:52.043Z",
+  "lastUpdated": "2026-09-02T04:23:14.517Z",
   "items": [
     {
       "title": "Amazon Quick now lets you build custom apps with natural language -",
@@ -9,11 +9,25 @@
       "snippet": "Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes instead of months. Whether you're a product manager, finance…"
     },
     {
+      "title": "AWS Deadline Cloud now supports sharing job bundles",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/deadline-cloud/job-bundle-sharing",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-01T20:16:00.000Z",
+      "snippet": "AWS Deadline Cloud now supports sharing job bundles, giving teams a simple way to distribute and reuse render job templates without manual file distribution. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the…"
+    },
+    {
       "title": "Amazon CloudWatch Database Insights now supports self-managed PostgreSQL",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/",
       "source": "AWS What's New",
       "pubDate": "2026-09-01T19:00:00.000Z",
       "snippet": "Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instances running on Amazon EC2, alongside Amazon RDS and Amazon…"
+    },
+    {
+      "title": "Amazon Kinesis Data Streams now supports a dry run feature to validate API requests",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-01T19:00:00.000Z",
+      "snippet": "Amazon Kinesis Data Streams now supports a dry run feature to check whether an API request would succeed without executing the operation. Customers can now set the new optional parameter ‘DryRun’ to true in their API requests to validate permissions before…"
     },
     {
       "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-31T15:00:00.000Z",
       "snippet": "AWS announces the public preview of AWS Interconnect — multicloud with Microsoft Azure. Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the…"
-    },
-    {
-      "title": "Amazon MSK Connect now supports restarting connectors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-connect-restart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T15:00:00.000Z",
-      "snippet": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) supports restarting newly created connectors and their tasks, enabling fast recovery for streaming data pipelines. Amazon MSK Connect is a fully managed service that allows you to deploy,…"
-    },
-    {
-      "title": "Amazon WorkSpaces Applications is now available in three new AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-region-expansion",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T15:00:00.000Z",
-      "snippet": "Amazon Web Services (AWS) has expanded the regional availability for Amazon WorkSpaces Applications. Starting today, AWS customers can deploy their applications and desktops in the Europe (Zurich), Asia Pacific (Osaka), and Canada West (Calgary) Regions and…"
     }
   ]
 }
