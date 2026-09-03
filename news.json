@@ -1,6 +1,104 @@
 {
-  "lastUpdated": "2026-09-03T16:27:03.596Z",
+  "lastUpdated": "2026-09-03T22:31:24.858Z",
   "items": [
+    {
+      "title": "Incident response guide for AWS CloudTrail investigations – Part 2",
+      "link": "https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-03T21:15:53.000Z",
+      "snippet": "In Part 1 of this guide, we examined two common incident scenarios: cross-account Amazon Simple Storage Service (Amazon S3) data deletion with ransomware implications, and cryptocurrency mining deployed through AWS CloudFormation using exposed AWS Management…"
+    },
+    {
+      "title": "Incident response guide for AWS CloudTrail investigations – Part 1",
+      "link": "https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-1/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-03T21:15:39.000Z",
+      "snippet": "AWS CloudTrail logs contain the evidence you need when investigating suspicious activity in your AWS environment, but knowing which fields matter and how to interpret them can mean the difference between surface-level analysis and uncovering the full scope of…"
+    },
+    {
+      "title": "Amazon CloudFront announces API support for flat-rate pricing plans",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T18:00:00.000Z",
+      "snippet": "Starting today, customers can subscribe and manage flat-rate pricing plans programmatically using the AWS CLI, AWS SDKs, CloudFormation, CDK, or the PricingPlanManager API. CloudFront flat-rate plans give you one monthly price covering global content…"
+    },
+    {
+      "title": "Introducing Amazon Quick Max: 5x the usage for power users who want the most out of Quick",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-max-5x-usage-power-users/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T17:17:00.000Z",
+      "snippet": "Amazon Quick now offers Quick Max, a new plan for power users who want to get the absolute most out of Quick. With 5x the usage and 5x the storage of Plus, Max gives you the room to do more: more agents, more workflows, more of whatever makes Quick yours.…"
+    },
+    {
+      "title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T17:00:00.000Z",
+      "snippet": "AWS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions from minutes to seconds by enabling TCP…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications adds support for NVIDIA Blackwell GPU instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T17:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Applications now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon Scalable (6th Gen) processors. G7 instances deliver up to 2.1× better performance for graphics-intensive workloads…"
+    },
+    {
+      "title": "Amazon Redshift rg.large instances now support single-node clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T16:03:00.000Z",
+      "snippet": "Amazon Redshift rg.large instances, powered by AWS Graviton processors, now support single-node clusters. Single-node support for rg.large clusters is available on P204 or later patch versions. Customers can now create a single-node rg.large cluster for…"
+    },
+    {
+      "title": "Amazon Aurora MySQL 8.4.8 (compatible with MySQL 8.4.8) is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-848-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T16:01:00.000Z",
+      "snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 will support MySQL 8.4.8. In addition to several security enhancements and bug fixes, Aurora MySQL 8.4.8 includes several improvements, such as support for post-quantum TLS (PQ-TLS) key exchange,…"
+    },
+    {
+      "title": "Amazon Aurora MySQL now supports multi-source replication and delayed replication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-multisourcerep-delayedrep/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T16:00:00.000Z",
+      "snippet": "Starting today, Amazon Aurora MySQL supports two new replication capabilities: multi-source replication and delayed replication. Multi-source replication lets a single Aurora MySQL cluster replicate from multiple source databases at the same time, making it…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T15:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate compute resources. This eliminates the…"
+    },
+    {
+      "title": "Amazon MWAA adds built-in monitoring with Amazon CloudWatch",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T15:00:00.000Z",
+      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now includes a built-in monitoring experience on the environment detail page in the AWS Management Console. A new metrics dashboard displays key Amazon CloudWatch metrics for your environment in one place,…"
+    },
+    {
+      "title": "Amazon Linux 2027 is now available in public preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/announcing-amazon-linux-2027/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T08:00:00.000Z",
+      "snippet": "Today, AWS announces the public preview of Amazon Linux 2027 (AL2027), the next version of the Amazon Linux operating system, purpose-built for cloud-native workloads on AWS with performance, scale, and security in mind. Built on AL2023's baseline, AL2027 is…"
+    },
+    {
+      "title": "Amazon SES now supports S/MIME email signing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-supports-smime-signing",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T07:00:00.000Z",
+      "snippet": "Amazon Simple Email Service (SES) now supports Secure/Multipurpose Internet Mail Extensions (S/MIME) signing, giving you a way to help recipients verify your emails are authentic. An S/MIME signature lets recipients confirm that a message was sent by the…"
+    },
+    {
+      "title": "Amazon S3 now supports PrivateLink for FIPS endpoints",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-privatelink-fips-endpoints",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T04:00:00.000Z",
+      "snippet": "Amazon S3 now supports AWS PrivateLink for endpoints that have been validated under the Federal Information Processing Standard (FIPS) 140-3 program. Customers with security and compliance requirements can use FIPS-validated cryptographic modules when…"
+    },
     {
       "title": "AWS Transform announces general availability of Amazon FSx for NetApp ONTAP support",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-fsx-netapp-ontap-support/",
@@ -100,116 +198,18 @@
       "snippet": "Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes instead of months. Whether you're a product manager, finance…"
     },
     {
+      "title": "Amazon Bedrock AgentCore Identity now offers a managed consent portal",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-agentcore/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-01T21:29:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Identity now offers a managed consent portal that eliminates the need for custom OAuth callback infrastructure when connecting agents to third-party tools and services. Developers using AgentCore Gateway to connect agents with…"
+    },
+    {
       "title": "AWS Deadline Cloud now supports sharing job bundles",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/deadline-cloud/job-bundle-sharing",
       "source": "AWS What's New",
       "pubDate": "2026-09-01T20:16:00.000Z",
       "snippet": "AWS Deadline Cloud now supports sharing job bundles, giving teams a simple way to distribute and reuse render job templates without manual file distribution. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the…"
-    },
-    {
-      "title": "Amazon CloudWatch Database Insights now supports self-managed PostgreSQL",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T19:00:00.000Z",
-      "snippet": "Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instances running on Amazon EC2, alongside Amazon RDS and Amazon…"
-    },
-    {
-      "title": "Amazon Kinesis Data Streams now supports a dry run feature to validate API requests",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T19:00:00.000Z",
-      "snippet": "Amazon Kinesis Data Streams now supports a dry run feature to check whether an API request would succeed without executing the operation. Customers can now set the new optional parameter ‘DryRun’ to true in their API requests to validate permissions before…"
-    },
-    {
-      "title": "AWS Marketplace reduces listing fee for professional services in multi-product solutions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-fee-professional-services/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T18:00:00.000Z",
-      "snippet": "AWS Marketplace now offers a 0% listing fee for professional services purchased as part of a qualifying multi-product solution. This builds on the recent reduction of professional services listing fee to 0.5%. It further lowers the cost for any Partner that…"
-    },
-    {
-      "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T18:00:00.000Z",
-      "snippet": "AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account. Previously, AWS Backup for Amazon S3 supported up to 1,000 buckets per account. With this launch, AWS…"
-    },
-    {
-      "title": "Amazon Connect Customer dashboards now support compact mode",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-dashboards-compact-mode/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now offers compact mode on the analytics dashboards, increasing data density so supervisors can see more of their operational data without scrolling. Compact mode reduces widget size, font, and minimizes filters to maximize screen…"
-    },
-    {
-      "title": "Amazon MWAA supports Apache Airflow version 3.3.1",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T15:00:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it…"
-    },
-    {
-      "title": "AWS Marketplace now supports auto-renewals for private offers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-auto-renewals-for-private-offers",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T15:00:00.000Z",
-      "snippet": "AWS Marketplace now supports auto-renewals for private offers. This capability helps sellers and buyers maintain active software and service subscriptions without re-negotiation or re-purchasing at the end of the term. Negotiated pricing and contract terms…"
-    },
-    {
-      "title": "Hybrid cloud orchestration: Modernizing on-premises infrastructure management with AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/hybrid-cloud-orchestration-modernizing-on-premises-infrastructure-management-with-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-01T14:01:10.000Z",
-      "snippet": "Learn how to build a hybrid cloud orchestration solution that manages distributed on-premises infrastructure at scale using AWS serverless technologies and Amazon EKS Anywhere. Part 1 covers the core event-driven architecture patterns for automating server…"
-    },
-    {
-      "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T14:00:00.000Z",
-      "snippet": "Claude Fable 5.1 is generally available on AWS and brings Anthropic's most capable frontier model to all customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. A clear improvement…"
-    },
-    {
-      "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T14:00:00.000Z",
-      "snippet": "Claude Fable 5.1 is generally available on Amazon Bedrock in AWS GovCloud (US) and brings Anthropic's most capable frontier model to regulated industry customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research,…"
-    },
-    {
-      "title": "MCP went stateless: Is your AWS MCP server deployment well-architected?",
-      "link": "https://aws.amazon.com/blogs/architecture/mcp-went-stateless-is-your-aws-mcp-server-deployment-well-architected/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-01T13:09:19.000Z",
-      "snippet": "On July 28, 2026, MCP made its protocol core stateless, removing the initialize handshake and session header. This post maps the MCP 2026-07-28 specification to the AWS Well-Architected Agentic AI Lens, pillar by pillar, and shows why the stateless design…"
-    },
-    {
-      "title": "Amazon CloudWatch now supports warm-up periods for alarms",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T08:00:00.000Z",
-      "snippet": "Amazon CloudWatch now lets you configure a warm-up period for metric alarms and log alarms, delaying alarm evaluation for a set time after the alarm is created. This reduces noise from missing data while a new resource or service starts up and begins…"
-    },
-    {
-      "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T07:30:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR KB5102335…"
-    },
-    {
-      "title": "Amazon DocumentDB now supports direct major version upgrades to version 8.0",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/documentdb-major-version-upgrade-8-0/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T22:30:00.000Z",
-      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place major version upgrades (MVU) directly from engine versions 3.6 and 4.0 to version 8.0. This upgrade capability removes the need for intermediate version upgrades and allows you to upgrade…"
-    },
-    {
-      "title": "Partner Revenue Measurement expands service coverage for User Agent string capability",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/partner-revenue-measurement-user-agent-expansion/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T22:00:00.000Z",
-      "snippet": "Partner Revenue Measurement User Agent string now supports additional AWS services. Partner Revenue Measurement allows Partners to better understand their AWS revenue impact and product consumption patterns. Previously, the User Agent string capability…"
     }
   ]
 }
