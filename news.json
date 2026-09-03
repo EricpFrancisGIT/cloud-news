@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T22:25:44.590Z",
+  "lastUpdated": "2026-09-03T04:26:05.081Z",
   "items": [
     {
       "title": "Managing identity source transition for AWS IAM Identity Center",
@@ -70,6 +70,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-02T09:00:00.000Z",
       "snippet": "Starting today, AWS Lambda supports SnapStart for functions packaged as container images, reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly responsive and…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio CI/CD adds notebook promotion and AI-assisted manifest generation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-cicd-notebook-ai-manifest/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T08:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio CI/CD expands its open-source deployment toolkit with two new capabilities: (1) an AI agent skill that automates manifest authoring, and (2) native notebook promotion across environments. Together, they help data teams go from…"
     },
     {
       "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-31T21:35:00.000Z",
       "snippet": "AWS Elemental MediaTailor now includes an analytics dashboard built directly into the AWS Management Console, giving publishers a global and multi-region view of ad monetization and streaming performance — with the ability to compare across regions and drill…"
-    },
-    {
-      "title": "AWS Agent Registry agents and MCP servers now available in Amazon Quick",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-agents-mcp-servers-quick/",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T21:05:00.000Z",
-      "snippet": "Today, Amazon Quick announces integration with AWS Agent Registry, enabling users to discover and use resources from their organization's AWS Agent Registry directly within Amazon Quick. AWS Agent Registry supports MCP servers and agents, which users can now…"
     }
   ]
 }
