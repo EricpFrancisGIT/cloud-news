@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-03T10:26:33.108Z",
+  "lastUpdated": "2026-09-03T16:27:03.596Z",
   "items": [
+    {
+      "title": "AWS Transform announces general availability of Amazon FSx for NetApp ONTAP support",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-fsx-netapp-ontap-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T03:00:00.000Z",
+      "snippet": "AWS Transform for migrations adds Amazon FSx for NetApp ONTAP as a generally available storage target for block storage workloads, alongside Amazon EBS. With AWS Transform, you can now migrate block storage directly to FSx for ONTAP as part of the same…"
+    },
     {
       "title": "Managing identity source transition for AWS IAM Identity Center",
       "link": "https://aws.amazon.com/blogs/security/managing-identity-source-transition-for-aws-iam-identity-center/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-08-31T22:00:00.000Z",
       "snippet": "Partner Revenue Measurement User Agent string now supports additional AWS services. Partner Revenue Measurement allows Partners to better understand their AWS revenue impact and product consumption patterns. Previously, the User Agent string capability…"
-    },
-    {
-      "title": "AWS Elemental MediaTailor introduces in-console analytics dashboard for ad monetization and streaming performance",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediatailor-analytics-dashboard",
-      "source": "AWS What's New",
-      "pubDate": "2026-08-31T21:35:00.000Z",
-      "snippet": "AWS Elemental MediaTailor now includes an analytics dashboard built directly into the AWS Management Console, giving publishers a global and multi-region view of ad monetization and streaming performance — with the ability to compare across regions and drill…"
     }
   ]
 }
