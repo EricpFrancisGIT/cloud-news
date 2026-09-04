@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-03T22:31:24.858Z",
+  "lastUpdated": "2026-09-04T04:27:59.386Z",
   "items": [
+    {
+      "title": "Amazon ECS Managed Daemons now support non-critical daemons",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T22:01:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now support non-critical Managed Daemons for ECS Managed Instances. You can configure a daemon as non-critical so that your mission-critical application tasks continue running uninterrupted, even when a daemon…"
+    },
     {
       "title": "Incident response guide for AWS CloudTrail investigations – Part 2",
       "link": "https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/",
@@ -14,6 +21,20 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-09-03T21:15:39.000Z",
       "snippet": "AWS CloudTrail logs contain the evidence you need when investigating suspicious activity in your AWS environment, but knowing which fields matter and how to interpret them can mean the difference between surface-level analysis and uncovering the full scope of…"
+    },
+    {
+      "title": "Amazon EC2 P6-B200 instances are now available in the AWS Asia Pacific (Hyderabad) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b200-instances-available-asia-pacific-hyderabad",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T19:14:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in the AWS Asia Pacific (Hyderabad) Region. These instances offer up to 2x performance compared to P5en instances for AI training…"
+    },
+    {
+      "title": "Amazon EC2 P6-B300 instances are now available in the AWS Asia Pacific (Jakarta) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b300-instances-available-asia-pacific-jakarta",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T19:03:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS Asia Pacific (Jakarta) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300…"
     },
     {
       "title": "Amazon CloudFront announces API support for flat-rate pricing plans",
@@ -163,6 +184,13 @@
       "snippet": "AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock, Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage over your AWS environment, enabling you to more effectively…"
     },
     {
+      "title": "Amazon MemoryDB now supports AWS PrivateLink in the AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-memorydb-privatelink/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-02T14:06:00.000Z",
+      "snippet": "You can now use AWS PrivateLink to privately access Amazon MemoryDB from your Amazon Virtual Private Cloud (Amazon VPC) in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. AWS PrivateLink provides private connectivity between VPCs, AWS services,…"
+    },
+    {
       "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
       "source": "AWS What's New",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-02T08:00:00.000Z",
       "snippet": "Amazon SageMaker Unified Studio CI/CD expands its open-source deployment toolkit with two new capabilities: (1) an AI agent skill that automates manifest authoring, and (2) native notebook promotion across environments. Together, they help data teams go from…"
-    },
-    {
-      "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T07:00:00.000Z",
-      "snippet": "Amazon RDS for SQL Server supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine behavior — such as query optimizer cardinality estimation, lock…"
-    },
-    {
-      "title": "Amazon Quick now lets you build custom apps with natural language -",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T21:37:00.000Z",
-      "snippet": "Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes instead of months. Whether you're a product manager, finance…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Identity now offers a managed consent portal",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-agentcore/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T21:29:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Identity now offers a managed consent portal that eliminates the need for custom OAuth callback infrastructure when connecting agents to third-party tools and services. Developers using AgentCore Gateway to connect agents with…"
-    },
-    {
-      "title": "AWS Deadline Cloud now supports sharing job bundles",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/deadline-cloud/job-bundle-sharing",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-01T20:16:00.000Z",
-      "snippet": "AWS Deadline Cloud now supports sharing job bundles, giving teams a simple way to distribute and reuse render job templates without manual file distribution. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the…"
     }
   ]
 }
