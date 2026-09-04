@@ -1,12 +1,61 @@
 {
-  "lastUpdated": "2026-09-04T16:28:37.987Z",
+  "lastUpdated": "2026-09-04T22:29:00.431Z",
   "items": [
+    {
+      "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T19:26:00.000Z",
+      "snippet": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch attempt on a non-permitted instance type is automatically…"
+    },
+    {
+      "title": "OSPAR 2026 report now available with 167 services in scope",
+      "link": "https://aws.amazon.com/blogs/security/ospar-2026-report-now-available-with-167-services-in-scope/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-04T18:13:04.000Z",
+      "snippet": "We’re pleased to confirm the successful completion of our annual Amazon Web Services (AWS) Outsourced Service Provider’s Audit Report (OSPAR) assessment on July 29, 2026, in line with the OSPAR version 2.0 framework. The Association of Banks in Singapore…"
+    },
+    {
+      "title": "Amazon ECS introduces Early Success Criteria for service deployments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T17:00:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful based on your confidence level and the operational needs of your…"
+    },
+    {
+      "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T16:31:00.000Z",
+      "snippet": "Today, AWS Model Context Protocol Server (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions. The serverless capability helps you troubleshoot your…"
+    },
+    {
+      "title": "Amazon EC2 C8g instances now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T14:06:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Asia Pacific (Taipei, New Zealand), and AWS GovCloud (US-East) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better…"
+    },
     {
       "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
       "source": "AWS What's New",
       "pubDate": "2026-09-04T08:00:00.000Z",
       "snippet": "AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers. You no longer need to update the connector to point to a new secret version each time a credential rotates,…"
+    },
+    {
+      "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T08:00:00.000Z",
+      "snippet": "Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do not require a persistent inference endpoint. Amazon EC2 G6e…"
+    },
+    {
+      "title": "Amazon EC2 C9g and C9gd instances are now available in Asia Pacific (Tokyo) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T23:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances, powered by AWS Graviton5 processors, are available in the Asia Pacific (Tokyo) region. AWS Graviton5 processors are the fifth generation of custom-designed CPUs, delivering the…"
     },
     {
       "title": "Amazon ECS Managed Daemons now support non-critical daemons",
@@ -28,6 +77,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-09-03T21:15:39.000Z",
       "snippet": "AWS CloudTrail logs contain the evidence you need when investigating suspicious activity in your AWS environment, but knowing which fields matter and how to interpret them can mean the difference between surface-level analysis and uncovering the full scope of…"
+    },
+    {
+      "title": "Amazon EC2 M9g and M9gd instances are now available in four additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-m9g-m9gd-four-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-03T21:00:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances, powered by AWS Graviton5 processors, are available in Europe (Ireland) and Asia Pacific (Singapore, Sydney, Tokyo) regions. AWS Graviton5 processors are the fifth generation of…"
     },
     {
       "title": "Amazon EC2 P6-B200 instances are now available in the AWS Asia Pacific (Hyderabad) Region",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-02T17:52:00.000Z",
       "snippet": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads. Web Search helps supported OpenAI GPT models ground…"
-    },
-    {
-      "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language.…"
-    },
-    {
-      "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T16:54:00.000Z",
-      "snippet": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and deep research. Today, Amazon Quick introduces new tool…"
-    },
-    {
-      "title": "Amazon Connect Customer announces general availability of agentic CX designer",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T16:00:00.000Z",
-      "snippet": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and…"
-    },
-    {
-      "title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T16:00:00.000Z",
-      "snippet": "Second-generation AWS Outposts racks are now supported in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a…"
-    },
-    {
-      "title": "AWS Config now supports 60 new resource types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T15:00:00.000Z",
-      "snippet": "AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock, Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage over your AWS environment, enabling you to more effectively…"
-    },
-    {
-      "title": "Amazon MemoryDB now supports AWS PrivateLink in the AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-memorydb-privatelink/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T14:06:00.000Z",
-      "snippet": "You can now use AWS PrivateLink to privately access Amazon MemoryDB from your Amazon Virtual Private Cloud (Amazon VPC) in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. AWS PrivateLink provides private connectivity between VPCs, AWS services,…"
-    },
-    {
-      "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T13:00:00.000Z",
-      "snippet": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear in the AWS Management Console. Previously, UXC was available…"
-    },
-    {
-      "title": "AWS Lambda now supports SnapStart for container image functions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T09:00:00.000Z",
-      "snippet": "Starting today, AWS Lambda supports SnapStart for functions packaged as container images, reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly responsive and…"
     }
   ]
 }
