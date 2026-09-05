@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-09-04T22:29:00.431Z",
+  "lastUpdated": "2026-09-05T04:29:18.020Z",
   "items": [
+    {
+      "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T21:29:00.000Z",
+      "snippet": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating 2LO credentials on the third-party side, which could be…"
+    },
+    {
+      "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T21:14:00.000Z",
+      "snippet": "AWS announces the ServiceNow data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now connect their ServiceNow instance to crawl knowledge articles and service catalog…"
+    },
+    {
+      "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T21:01:00.000Z",
+      "snippet": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and advanced retrieval without requiring you to manage vector…"
+    },
     {
       "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-03T03:00:00.000Z",
       "snippet": "AWS Transform for migrations adds Amazon FSx for NetApp ONTAP as a generally available storage target for block storage workloads, alongside Amazon EBS. With AWS Transform, you can now migrate block storage directly to FSx for ONTAP as part of the same…"
-    },
-    {
-      "title": "Managing identity source transition for AWS IAM Identity Center",
-      "link": "https://aws.amazon.com/blogs/security/managing-identity-source-transition-for-aws-iam-identity-center/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-02T20:36:31.000Z",
-      "snippet": "September 2, 2026: This post was republished to include Active Directory migration strategies and automation for permission sets. AWS IAM Identity Center manages user access to Amazon Web Services (AWS) resources, including both AWS accounts and applications.…"
-    },
-    {
-      "title": "Agentic security: Detection and response at machine speed",
-      "link": "https://aws.amazon.com/blogs/security/agentic-security-detection-and-response-at-machine-speed/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-02T18:36:37.000Z",
-      "snippet": "After talking with enterprise security leaders over the past year, one thing has become clear: the rise of autonomous AI agents is the most significant shift in security posture since the move to cloud. Organizations across every industry are adopting AI…"
-    },
-    {
-      "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-02T17:52:00.000Z",
-      "snippet": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads. Web Search helps supported OpenAI GPT models ground…"
     }
   ]
 }
