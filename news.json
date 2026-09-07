@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-07T10:32:19.942Z",
+  "lastUpdated": "2026-09-07T16:32:40.058Z",
   "items": [
+    {
+      "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-07T14:24:08.000Z",
+      "snippet": "Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running,…"
+    },
     {
       "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-03T04:00:00.000Z",
       "snippet": "Amazon S3 now supports AWS PrivateLink for endpoints that have been validated under the Federal Information Processing Standard (FIPS) 140-3 program. Customers with security and compliance requirements can use FIPS-validated cryptographic modules when…"
-    },
-    {
-      "title": "AWS Transform announces general availability of Amazon FSx for NetApp ONTAP support",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-fsx-netapp-ontap-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T03:00:00.000Z",
-      "snippet": "AWS Transform for migrations adds Amazon FSx for NetApp ONTAP as a generally available storage target for block storage workloads, alongside Amazon EBS. With AWS Transform, you can now migrate block storage directly to FSx for ONTAP as part of the same…"
     }
   ]
 }
