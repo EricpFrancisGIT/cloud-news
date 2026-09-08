@@ -1,12 +1,68 @@
 {
-  "lastUpdated": "2026-09-08T16:34:29.768Z",
+  "lastUpdated": "2026-09-08T22:34:46.239Z",
   "items": [
+    {
+      "title": "AWS Transform is now available in AWS GovCloud (US-West)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T21:00:00.000Z",
+      "snippet": "AWS Transform is now available in the AWS GovCloud (US-West) Region, enabling government agencies and regulated organizations to plan and execute large-scale migrations to AWS. With this launch, customers operating in AWS GovCloud (US) can use the migration…"
+    },
+    {
+      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T16:00:00.000Z",
+      "snippet": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, these…"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T16:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Memory now lets developers submit content directly for long-term memory extraction without persisting it as a short-term memory event. The new IngestData API accepts content, fans it out to the memory's configured long-term memory…"
+    },
+    {
+      "title": "AWS HealthOmics introduces resource fallback order for WDL workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-resourcefallback-wdl/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T16:00:00.000Z",
+      "snippet": "Today, AWS HealthOmics introduces the resource fallback directive, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances, for tasks in your Workflow Description Language (WDL) workflows.…"
+    },
+    {
+      "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T14:32:00.000Z",
+      "snippet": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT). Customers can now use enhanced smart cropping with custom label detection and advanced composition controls that preserve products, text, logos, and custom…"
+    },
+    {
+      "title": "AWS Builder ID adds recovery options and multi-factor authentication for third-party logins",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-id-recovery-mfa-third-party/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T08:00:00.000Z",
+      "snippet": "AWS Builder ID, your personal profile for accessing AWS applications including AWS Builder Center, AWS Training and Certification, Amazon Quick and Kiro, now offers new ways to protect and recover your profile. You can add a recovery email and use new…"
+    },
+    {
+      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T07:30:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR…"
+    },
     {
       "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
       "source": "AWS News Blog",
       "pubDate": "2026-09-07T14:24:08.000Z",
       "snippet": "Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running,…"
+    },
+    {
+      "title": "Amazon MWAA Serverless is now available in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T22:00:00.000Z",
+      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon MWAA Serverless eliminates the operational overhead of managing Apache Airflow infrastructure by automatically…"
     },
     {
       "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-03T17:00:00.000Z",
       "snippet": "AWS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions from minutes to seconds by enabling TCP…"
-    },
-    {
-      "title": "Amazon WorkSpaces Applications adds support for NVIDIA Blackwell GPU instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T17:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Applications now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon Scalable (6th Gen) processors. G7 instances deliver up to 2.1× better performance for graphics-intensive workloads…"
-    },
-    {
-      "title": "Amazon Redshift rg.large instances now support single-node clusters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T16:03:00.000Z",
-      "snippet": "Amazon Redshift rg.large instances, powered by AWS Graviton processors, now support single-node clusters. Single-node support for rg.large clusters is available on P204 or later patch versions. Customers can now create a single-node rg.large cluster for…"
-    },
-    {
-      "title": "Amazon Aurora MySQL 8.4.8 (compatible with MySQL 8.4.8) is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-848-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T16:01:00.000Z",
-      "snippet": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 will support MySQL 8.4.8. In addition to several security enhancements and bug fixes, Aurora MySQL 8.4.8 includes several improvements, such as support for post-quantum TLS (PQ-TLS) key exchange,…"
-    },
-    {
-      "title": "Amazon Aurora MySQL now supports multi-source replication and delayed replication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-multisourcerep-delayedrep/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Aurora MySQL supports two new replication capabilities: multi-source replication and delayed replication. Multi-source replication lets a single Aurora MySQL cluster replicate from multiple source databases at the same time, making it…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T15:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate compute resources. This eliminates the…"
-    },
-    {
-      "title": "Amazon MWAA adds built-in monitoring with Amazon CloudWatch",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T15:00:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now includes a built-in monitoring experience on the environment detail page in the AWS Management Console. A new metrics dashboard displays key Amazon CloudWatch metrics for your environment in one place,…"
-    },
-    {
-      "title": "Amazon Linux 2027 is now available in public preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/announcing-amazon-linux-2027/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T08:00:00.000Z",
-      "snippet": "Today, AWS announces the public preview of Amazon Linux 2027 (AL2027), the next version of the Amazon Linux operating system, purpose-built for cloud-native workloads on AWS with performance, scale, and security in mind. Built on AL2023's baseline, AL2027 is…"
-    },
-    {
-      "title": "Amazon SES now supports S/MIME email signing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-supports-smime-signing",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T07:00:00.000Z",
-      "snippet": "Amazon Simple Email Service (SES) now supports Secure/Multipurpose Internet Mail Extensions (S/MIME) signing, giving you a way to help recipients verify your emails are authentic. An S/MIME signature lets recipients confirm that a message was sent by the…"
     }
   ]
 }
