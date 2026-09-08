@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T10:33:45.065Z",
+  "lastUpdated": "2026-09-08T16:34:29.768Z",
   "items": [
     {
       "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
@@ -42,6 +42,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-09-04T18:13:04.000Z",
       "snippet": "We’re pleased to confirm the successful completion of our annual Amazon Web Services (AWS) Outsourced Service Provider’s Audit Report (OSPAR) assessment on July 29, 2026, in line with the OSPAR version 2.0 framework. The Association of Banks in Singapore…"
+    },
+    {
+      "title": "Amazon GuardDuty adds optional threat detection rules",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/guardduty-optional-detection-rules/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-04T17:01:00.000Z",
+      "snippet": "Amazon GuardDuty now offers Custom Detection Rules, a library of 35 prebuilt, opt-in rules for CloudTrail management events that let you extend threat detection coverage to match your environment. Custom Detection Rules produces 26 unique finding types mapped…"
     },
     {
       "title": "Amazon ECS introduces Early Success Criteria for service deployments",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-03T07:00:00.000Z",
       "snippet": "Amazon Simple Email Service (SES) now supports Secure/Multipurpose Internet Mail Extensions (S/MIME) signing, giving you a way to help recipients verify your emails are authentic. An S/MIME signature lets recipients confirm that a message was sent by the…"
-    },
-    {
-      "title": "Amazon S3 now supports PrivateLink for FIPS endpoints",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-privatelink-fips-endpoints",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T04:00:00.000Z",
-      "snippet": "Amazon S3 now supports AWS PrivateLink for endpoints that have been validated under the Federal Information Processing Standard (FIPS) 140-3 program. Customers with security and compliance requirements can use FIPS-validated cryptographic modules when…"
     }
   ]
 }
