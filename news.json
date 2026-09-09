@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T10:35:26.254Z",
+  "lastUpdated": "2026-09-09T16:36:17.531Z",
   "items": [
     {
       "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
@@ -59,10 +59,10 @@
     },
     {
       "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transformation-adds-new-features/",
       "source": "AWS What's New",
       "pubDate": "2026-09-08T14:32:00.000Z",
-      "snippet": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT). Customers can now use enhanced smart cropping with custom label detection and advanced composition controls that preserve products, text, logos, and custom…"
+      "snippet": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT), an AWS supported solution that helps customers transform images in response to their needs. Customers can now use enhanced smart cropping with custom label…"
     },
     {
       "title": "AWS Builder ID adds recovery options and multi-factor authentication for third-party logins",
