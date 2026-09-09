@@ -1,12 +1,40 @@
 {
-  "lastUpdated": "2026-09-08T22:34:46.239Z",
+  "lastUpdated": "2026-09-09T04:35:05.846Z",
   "items": [
+    {
+      "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T22:49:00.000Z",
+      "snippet": "Today, AWS announces the general availability of GPT-6 Astra from OpenAI on Amazon Bedrock. The latest and most capable model from OpenAI to date, GPT-6 Astra brings deeper reasoning and judgment, professional-quality writing and design, and advanced computer…"
+    },
+    {
+      "title": "Amazon Timestream for InfluxDB 3 now supports custom plugins",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T21:58:00.000Z",
+      "snippet": "Amazon Timestream for InfluxDB now lets you run your own custom Python plugins on the managed versions of InfluxDB 3 Core and Enterprise editions. You host your plugin code in public or private repositories you control and the engine fetches and runs it in…"
+    },
+    {
+      "title": "Amazon SageMaker Feature Store now supports individual feature updates to lower write latency",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T21:19:00.000Z",
+      "snippet": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports feature-level writes, a new capability for updating individual…"
+    },
     {
       "title": "AWS Transform is now available in AWS GovCloud (US-West)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west/",
       "source": "AWS What's New",
       "pubDate": "2026-09-08T21:00:00.000Z",
       "snippet": "AWS Transform is now available in the AWS GovCloud (US-West) Region, enabling government agencies and regulated organizations to plan and execute large-scale migrations to AWS. With this launch, customers operating in AWS GovCloud (US) can use the migration…"
+    },
+    {
+      "title": "Amazon API Gateway now supports mutual TLS for backend integrations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T19:16:00.000Z",
+      "snippet": "You can now configure Amazon API Gateway REST APIs to present an AWS Certificate Manager (ACM) certificate to your backend during the TLS handshake, enabling mutual TLS (mTLS). Previously, API Gateway could present only a self-signed certificate that it…"
     },
     {
       "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
@@ -44,11 +72,25 @@
       "snippet": "AWS Builder ID, your personal profile for accessing AWS applications including AWS Builder Center, AWS Training and Certification, Amazon Quick and Kiro, now offers new ways to protect and recover your profile. You can add a recovery email and use new…"
     },
     {
+      "title": "AWS announces Nx Plugin for AWS for scaffolding full-stack applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/nx-plugin-for-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T08:00:00.000Z",
+      "snippet": "Version 1.0 of the Nx Plugin for AWS, an open source toolkit for scaffolding full-stack applications on AWS, is now available. AI assistants can stand up an application on AWS in minutes, but rarely get security, observability, and type-safety right in one…"
+    },
+    {
       "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server/",
       "source": "AWS What's New",
       "pubDate": "2026-09-08T07:30:00.000Z",
       "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR…"
+    },
+    {
+      "title": "Amazon S3 Object Lock now supports variable retention with event holds",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-object-lock-variable-retention/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T04:00:00.000Z",
+      "snippet": "Amazon S3 Object Lock now supports variable retention, allowing you to apply write-once-read-many (WORM) protection to objects whose required retention period starts with a future event, such as a contract closing or an audit completing. You place an event…"
     },
     {
       "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
@@ -168,48 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-09-03T21:15:39.000Z",
       "snippet": "AWS CloudTrail logs contain the evidence you need when investigating suspicious activity in your AWS environment, but knowing which fields matter and how to interpret them can mean the difference between surface-level analysis and uncovering the full scope of…"
-    },
-    {
-      "title": "Amazon EC2 M9g and M9gd instances are now available in four additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-m9g-m9gd-four-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T21:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances, powered by AWS Graviton5 processors, are available in Europe (Ireland) and Asia Pacific (Singapore, Sydney, Tokyo) regions. AWS Graviton5 processors are the fifth generation of…"
-    },
-    {
-      "title": "Amazon EC2 P6-B200 instances are now available in the AWS Asia Pacific (Hyderabad) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b200-instances-available-asia-pacific-hyderabad",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T19:14:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in the AWS Asia Pacific (Hyderabad) Region. These instances offer up to 2x performance compared to P5en instances for AI training…"
-    },
-    {
-      "title": "Amazon EC2 P6-B300 instances are now available in the AWS Asia Pacific (Jakarta) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b300-instances-available-asia-pacific-jakarta",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T19:03:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS Asia Pacific (Jakarta) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300…"
-    },
-    {
-      "title": "Amazon CloudFront announces API support for flat-rate pricing plans",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T18:00:00.000Z",
-      "snippet": "Starting today, customers can subscribe and manage flat-rate pricing plans programmatically using the AWS CLI, AWS SDKs, CloudFormation, CDK, or the PricingPlanManager API. CloudFront flat-rate plans give you one monthly price covering global content…"
-    },
-    {
-      "title": "Introducing Amazon Quick Max: 5x the usage for power users who want the most out of Quick",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-max-5x-usage-power-users/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T17:17:00.000Z",
-      "snippet": "Amazon Quick now offers Quick Max, a new plan for power users who want to get the absolute most out of Quick. With 5x the usage and 5x the storage of Plus, Max gives you the room to do more: more agents, more workflows, more of whatever makes Quick yours.…"
-    },
-    {
-      "title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T17:00:00.000Z",
-      "snippet": "AWS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions from minutes to seconds by enabling TCP…"
     }
   ]
 }
