@@ -1,6 +1,76 @@
 {
-  "lastUpdated": "2026-09-09T16:36:17.531Z",
+  "lastUpdated": "2026-09-09T22:36:36.819Z",
   "items": [
+    {
+      "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service",
+      "link": "https://aws.amazon.com/blogs/architecture/testing-application-resilience-with-amazon-sqs-and-aws-fault-injection-service/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-09T21:33:59.000Z",
+      "snippet": "Learn how to use AWS Fault Injection Service and AWS Systems Manager Automation to run progressive chaos experiments against Amazon SQS queues. Validate that your retry logic, circuit breakers, and dead-letter queues actually work under failure before a real…"
+    },
+    {
+      "title": "Validating multi-Region DR for Terraform Enterprise with AWS FIS",
+      "link": "https://aws.amazon.com/blogs/architecture/validating-multi-region-dr-for-terraform-enterprise-with-aws-fis/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-09T21:05:02.000Z",
+      "snippet": "Learn how AWS, HashiCorp, and Athenahealth designed and chaos-tested a multi-Region disaster recovery strategy for Terraform Enterprise on AWS. This post walks through three-phase AWS Fault Injection Service experiments across Amazon EC2, Aurora, and Amazon…"
+    },
+    {
+      "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T21:00:00.000Z",
+      "snippet": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so all contacts within a channel were treated the same…"
+    },
+    {
+      "title": "AWS Transform for .NET modernization is now generally available via CLI",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T20:00:00.000Z",
+      "snippet": "Today, AWS announced the general availability of an AWS-managed transformation for .NET modernization in AWS Transform custom that you can trigger with a single one-line CLI command. You can run this transformation interactively, or script it into any…"
+    },
+    {
+      "title": "The state of AI for security: Measuring what matters most for building trust",
+      "link": "https://aws.amazon.com/blogs/security/the-state-of-ai-for-security-measuring-what-matters-most-for-building-trust/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-09T19:09:14.000Z",
+      "snippet": "Security teams are starting to actively use AI for security work, including vulnerability triage, penetration testing, threat modeling, incident response, and code review. The promise is speed, but a security tool that moves fast and raises too many false…"
+    },
+    {
+      "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T18:00:00.000Z",
+      "snippet": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on Lambda Managed Instances. You can now run your Lambda functions on the latest generation of Graviton processors, delivering up to 25% better compute performance compared to…"
+    },
+    {
+      "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T18:00:00.000Z",
+      "snippet": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI), a 6x increase from the previous 15-minute limit. You can now run data processing, media transcoding, financial…"
+    },
+    {
+      "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T16:03:00.000Z",
+      "snippet": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit document-level permissions. When a user doesn't see an expected…"
+    },
+    {
+      "title": "Amazon Bedrock Managed Knowledge Base now supports Confluence Data Center as a native data source connector",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-confluence-data-center-native-data-source-connector/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T14:19:00.000Z",
+      "snippet": "AWS announces the Confluence Data Center data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers running self-hosted Confluence Data Center instances can now crawl blogs and…"
+    },
+    {
+      "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T08:00:00.000Z",
+      "snippet": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by Systems Manager. An instance must be managed by Systems…"
+    },
     {
       "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
@@ -72,6 +142,13 @@
       "snippet": "AWS Builder ID, your personal profile for accessing AWS applications including AWS Builder Center, AWS Training and Certification, Amazon Quick and Kiro, now offers new ways to protect and recover your profile. You can add a recovery email and use new…"
     },
     {
+      "title": "Amazon EMR extends support at no additional cost for customers migrating off older releases",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-extended-support-migration/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-08T08:00:00.000Z",
+      "snippet": "Amazon EMR now gives you more time, at no additional cost, to migrate off older releases before they reach end of support. If you are actively migrating, your workloads on eligible releases keep receiving support while you move to a current release, with no…"
+    },
+    {
       "title": "AWS announces Nx Plugin for AWS for scaffolding full-stack applications",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/nx-plugin-for-aws/",
       "source": "AWS What's New",
@@ -133,83 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-04T19:26:00.000Z",
       "snippet": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch attempt on a non-permitted instance type is automatically…"
-    },
-    {
-      "title": "OSPAR 2026 report now available with 167 services in scope",
-      "link": "https://aws.amazon.com/blogs/security/ospar-2026-report-now-available-with-167-services-in-scope/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-04T18:13:04.000Z",
-      "snippet": "We’re pleased to confirm the successful completion of our annual Amazon Web Services (AWS) Outsourced Service Provider’s Audit Report (OSPAR) assessment on July 29, 2026, in line with the OSPAR version 2.0 framework. The Association of Banks in Singapore…"
-    },
-    {
-      "title": "Amazon GuardDuty adds optional threat detection rules",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/guardduty-optional-detection-rules/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T17:01:00.000Z",
-      "snippet": "Amazon GuardDuty now offers Custom Detection Rules, a library of 35 prebuilt, opt-in rules for CloudTrail management events that let you extend threat detection coverage to match your environment. Custom Detection Rules produces 26 unique finding types mapped…"
-    },
-    {
-      "title": "Amazon ECS introduces Early Success Criteria for service deployments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T17:00:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful based on your confidence level and the operational needs of your…"
-    },
-    {
-      "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T16:31:00.000Z",
-      "snippet": "Today, AWS Model Context Protocol Server (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions. The serverless capability helps you troubleshoot your…"
-    },
-    {
-      "title": "Amazon EC2 C8g instances now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T14:06:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Asia Pacific (Taipei, New Zealand), and AWS GovCloud (US-East) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better…"
-    },
-    {
-      "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T08:00:00.000Z",
-      "snippet": "AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers. You no longer need to update the connector to point to a new secret version each time a credential rotates,…"
-    },
-    {
-      "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T08:00:00.000Z",
-      "snippet": "Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do not require a persistent inference endpoint. Amazon EC2 G6e…"
-    },
-    {
-      "title": "Amazon EC2 C9g and C9gd instances are now available in Asia Pacific (Tokyo) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T23:00:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances, powered by AWS Graviton5 processors, are available in the Asia Pacific (Tokyo) region. AWS Graviton5 processors are the fifth generation of custom-designed CPUs, delivering the…"
-    },
-    {
-      "title": "Amazon ECS Managed Daemons now support non-critical daemons",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-03T22:01:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now support non-critical Managed Daemons for ECS Managed Instances. You can configure a daemon as non-critical so that your mission-critical application tasks continue running uninterrupted, even when a daemon…"
-    },
-    {
-      "title": "Incident response guide for AWS CloudTrail investigations – Part 2",
-      "link": "https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-03T21:15:53.000Z",
-      "snippet": "In Part 1 of this guide, we examined two common incident scenarios: cross-account Amazon Simple Storage Service (Amazon S3) data deletion with ransomware implications, and cryptocurrency mining deployed through AWS CloudFormation using exposed AWS Management…"
-    },
-    {
-      "title": "Incident response guide for AWS CloudTrail investigations – Part 1",
-      "link": "https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-1/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-03T21:15:39.000Z",
-      "snippet": "AWS CloudTrail logs contain the evidence you need when investigating suspicious activity in your AWS environment, but knowing which fields matter and how to interpret them can mean the difference between surface-level analysis and uncovering the full scope of…"
     }
   ]
 }
