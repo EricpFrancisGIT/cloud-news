@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T04:36:55.369Z",
+  "lastUpdated": "2026-09-10T10:37:13.586Z",
   "items": [
     {
       "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service",
@@ -84,6 +84,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-09T08:00:00.000Z",
       "snippet": "AWS Private Certificate Authority (AWS Private CA) announces the availability of the AWS Private CA Connector for Kubernetes as a managed Amazon EKS add-on and the AWS Private CA Connector for Active Directory in AWS GovCloud (US-East) and AWS GovCloud…"
+    },
+    {
+      "title": "AWS Entity Resolution adds record-level confidence scores for ML matching",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/entity-resolution-record-confidence/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T08:00:00.000Z",
+      "snippet": "AWS Entity Resolution now provides record-level confidence scores for Machine Learning (ML) based matching workflows, giving you a per-record signal of how confident the model is in each individual identity match. Previously, all records within a match group…"
     },
     {
       "title": "Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-04T22:00:00.000Z",
       "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon MWAA Serverless eliminates the operational overhead of managing Apache Airflow infrastructure by automatically…"
-    },
-    {
-      "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T21:29:00.000Z",
-      "snippet": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating 2LO credentials on the third-party side, which could be…"
     }
   ]
 }
