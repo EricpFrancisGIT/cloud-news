@@ -1,6 +1,62 @@
 {
-  "lastUpdated": "2026-09-10T16:38:34.271Z",
+  "lastUpdated": "2026-09-10T22:38:55.014Z",
   "items": [
+    {
+      "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T20:00:00.000Z",
+      "snippet": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda functions and other supported services, preventing unexpected…"
+    },
+    {
+      "title": "AWS Transform for .NET now generates unit tests for modernized code",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T20:00:00.000Z",
+      "snippet": "Today, AWS announced that AWS Transform for .NET can automatically generate unit tests for the code it modernizes. When enabled, AWS Transform generates unit tests that target the testable classes in your transformed .NET application, such as business logic…"
+    },
+    {
+      "title": "Amazon API Gateway now supports 1 MB execution logs with configurable delivery destinations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T20:00:00.000Z",
+      "snippet": "Amazon API Gateway now supports configurable delivery destinations and larger log events for REST API execution logs. Previously, execution logs were delivered to a single API Gateway-managed CloudWatch Logs log group with log events truncated at 1 KB,…"
+    },
+    {
+      "title": "AWS Lambda durable functions integrates with Pydantic AI",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T18:45:00.000Z",
+      "snippet": "Today, AWS Lambda durable functions announces an integration with Pydantic AI, an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's progress as it runs, so after an interruption like a timeout,…"
+    },
+    {
+      "title": "Amazon MQ now supports RabbitMQ 4.3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T18:08:00.000Z",
+      "snippet": "Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer timeouts. RabbitMQ 4.3 also includes various bug fixes and performance…"
+    },
+    {
+      "title": "Announcing second-generation single-rack AWS Outposts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T17:58:00.000Z",
+      "snippet": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpose-built for workloads requiring low latency, local data…"
+    },
+    {
+      "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T17:00:00.000Z",
+      "snippet": "You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web applications. OpenSearch Serverless eliminates infrastructure…"
+    },
+    {
+      "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T16:52:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce consistent CPU and memory limits across all methods of launching ECS…"
+    },
     {
       "title": "Building resilient real-time streaming workers with Amazon DynamoDB leases",
       "link": "https://aws.amazon.com/blogs/architecture/building-resilient-real-time-streaming-workers-with-amazon-dynamodb-leases/",
@@ -9,25 +65,18 @@
       "snippet": "Real-time streaming workers that hold hundreds of persistent WebSocket connections lose data when a worker fails. Learn how to build a WebSocket fleet management system on Amazon ECS and AWS Fargate that uses Amazon DynamoDB conditional writes as a…"
     },
     {
-      "title": "CloudWatch Network Monitor now provides NHI for Transit Gateway peering",
-      "link": "https://aws.amazon.com/amazon-cloudwatch-network-monitor-nhi-transit-gateway-peering",
+      "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
       "source": "AWS What's New",
-      "pubDate": "2026-09-10T10:28:00.000Z",
-      "snippet": "Today, AWS announces that Amazon CloudWatch Network Monitor synthetic monitoring now provides its network health indicator (NHI) for paths that reach a destination across an AWS Transit Gateway inter-Region peering connection. Amazon CloudWatch Network…"
+      "pubDate": "2026-09-10T16:00:00.000Z",
+      "snippet": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3…"
     },
     {
-      "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
+      "title": "Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
       "source": "AWS What's New",
-      "pubDate": "2026-09-10T08:00:00.000Z",
-      "snippet": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces two synchronized output variants, each carrying a distinct…"
-    },
-    {
-      "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T08:00:00.000Z",
-      "snippet": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams. Available exclusively to publishers in the Amazon…"
+      "pubDate": "2026-09-10T11:00:00.000Z",
+      "snippet": "With synthetic monitors in Amazon CloudWatch Network Monitoring, you can now determine whether a network performance issue on a path that crosses an AWS Transit Gateway inter-Region peering connection is caused by the AWS network. This helps network operators…"
     },
     {
       "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
@@ -37,11 +86,18 @@
       "snippet": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encoding to…"
     },
     {
-      "title": "AWS Elemental introduces Dynamic Multiview for live video",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
+      "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
       "source": "AWS What's New",
       "pubDate": "2026-09-10T08:00:00.000Z",
-      "snippet": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing…"
+      "snippet": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams. Available exclusively to publishers in the Amazon…"
+    },
+    {
+      "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T08:00:00.000Z",
+      "snippet": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces two synchronized output variants, each carrying a distinct…"
     },
     {
       "title": "AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
@@ -49,6 +105,27 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-10T08:00:00.000Z",
       "snippet": "AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video providers that monetizes live streams, linear channels, and…"
+    },
+    {
+      "title": "AWS Elemental introduces Dynamic Multiview for live video",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T08:00:00.000Z",
+      "snippet": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing…"
+    },
+    {
+      "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Amazon S3 File Gateway",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/storage-gateway-fips-privatelink-s3/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T08:00:00.000Z",
+      "snippet": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Amazon S3 File Gateway. Previously, FIPS endpoints for File Gateway were available only over the public internet. Now you can keep FIPS-compliant traffic on the private…"
+    },
+    {
+      "title": "Amazon EVS is now available in more regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-available-in-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T07:00:00.000Z",
+      "snippet": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Osaka), Asia Pacific (Taipei), Europe (Spain), and Israel (Tel Aviv) Regions. This expansion provides more options to leverage the scale and…"
     },
     {
       "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
@@ -114,102 +191,25 @@
       "snippet": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit document-level permissions. When a user doesn't see an expected…"
     },
     {
-      "title": "Amazon Bedrock Managed Knowledge Base now supports Confluence Data Center as a native data source connector",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-confluence-data-center-native-data-source-connector/",
+      "title": "Amazon Quick adds always-on agents, a sharper feed, and enterprise controls",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-always-on-agents-sharper-feed-enterprise-controls/",
       "source": "AWS What's New",
-      "pubDate": "2026-09-09T14:19:00.000Z",
-      "snippet": "AWS announces the Confluence Data Center data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers running self-hosted Confluence Data Center instances can now crawl blogs and…"
+      "pubDate": "2026-09-09T15:51:00.000Z",
+      "snippet": "Today, Amazon Quick offers new capabilities that make it easier to organize your work, govern it across an organization, and trust the answers it produces. These capabilities build on Amazon Quick across desktop and mobile, bringing enterprise-grade…"
     },
     {
-      "title": "Amazon EBS Volume Clones now supports copying volumes across accounts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ebs-volume-clones-cross-account-copy/",
+      "title": "Amazon Quick activity feed now available on iOS and Android mobile devices",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-activity-feed-available-ios-android-mobile-devices/",
       "source": "AWS What's New",
-      "pubDate": "2026-09-09T10:00:00.000Z",
-      "snippet": "Amazon Elastic Block Store (Amazon EBS) Volume Clones now supports copying EBS volumes across AWS accounts with re-encryption. You can copy EBS volumes to any AWS account, re-encrypting with an AWS Key Management Service (AWS KMS) key in the target account.…"
+      "pubDate": "2026-09-09T15:39:00.000Z",
+      "snippet": "The Amazon Quick activity feed is now available on the Amazon Quick mobile app for iOS and Android, keeping you connected to your most important work from anywhere. The activity feed is your single, prioritized view of everything that needs your attention…"
     },
     {
-      "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
+      "title": "Amazon Quick desktop app is now generally available on macOS and Windows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-desktop-app-generally-available-macos-windows/",
       "source": "AWS What's New",
-      "pubDate": "2026-09-09T08:00:00.000Z",
-      "snippet": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by Systems Manager. An instance must be managed by Systems…"
-    },
-    {
-      "title": "AWS Private CA EKS add-on and Connector for AD now available in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/private-ca-eks-addon-ad-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T08:00:00.000Z",
-      "snippet": "AWS Private Certificate Authority (AWS Private CA) announces the availability of the AWS Private CA Connector for Kubernetes as a managed Amazon EKS add-on and the AWS Private CA Connector for Active Directory in AWS GovCloud (US-East) and AWS GovCloud…"
-    },
-    {
-      "title": "AWS Entity Resolution adds record-level confidence scores for ML matching",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/entity-resolution-record-confidence/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T08:00:00.000Z",
-      "snippet": "AWS Entity Resolution now provides record-level confidence scores for Machine Learning (ML) based matching workflows, giving you a per-record signal of how confident the model is in each individual identity match. Previously, all records within a match group…"
-    },
-    {
-      "title": "Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-profiles-segment-events/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T08:00:00.000Z",
-      "snippet": "Amazon Connect Customer Profiles now sends segment membership events, providing the ability to receive real-time and scheduled notifications when customer profiles enter or exit a segment, such as high-value customers or low-satisfaction customers.…"
-    },
-    {
-      "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T22:49:00.000Z",
-      "snippet": "Today, AWS announces the general availability of GPT-6 Astra from OpenAI on Amazon Bedrock. The latest and most capable model from OpenAI to date, GPT-6 Astra brings deeper reasoning and judgment, professional-quality writing and design, and advanced computer…"
-    },
-    {
-      "title": "Amazon Timestream for InfluxDB 3 now supports custom plugins",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T21:58:00.000Z",
-      "snippet": "Amazon Timestream for InfluxDB now lets you run your own custom Python plugins on the managed versions of InfluxDB 3 Core and Enterprise editions. You host your plugin code in public or private repositories you control and the engine fetches and runs it in…"
-    },
-    {
-      "title": "Amazon SageMaker Feature Store now supports individual feature updates to lower write latency",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T21:19:00.000Z",
-      "snippet": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports feature-level writes, a new capability for updating individual…"
-    },
-    {
-      "title": "AWS Transform is now available in AWS GovCloud (US-West)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T21:00:00.000Z",
-      "snippet": "AWS Transform is now available in the AWS GovCloud (US-West) Region, enabling government agencies and regulated organizations to plan and execute large-scale migrations to AWS. With this launch, customers operating in AWS GovCloud (US) can use the migration…"
-    },
-    {
-      "title": "Amazon API Gateway now supports mutual TLS for backend integrations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T19:16:00.000Z",
-      "snippet": "You can now configure Amazon API Gateway REST APIs to present an AWS Certificate Manager (ACM) certificate to your backend during the TLS handshake, enabling mutual TLS (mTLS). Previously, API Gateway could present only a self-signed certificate that it…"
-    },
-    {
-      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T16:00:00.000Z",
-      "snippet": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, these…"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T16:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Memory now lets developers submit content directly for long-term memory extraction without persisting it as a short-term memory event. The new IngestData API accepts content, fans it out to the memory's configured long-term memory…"
-    },
-    {
-      "title": "AWS HealthOmics introduces resource fallback order for WDL workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-resourcefallback-wdl/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T16:00:00.000Z",
-      "snippet": "Today, AWS HealthOmics introduces the resource fallback directive, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances, for tasks in your Workflow Description Language (WDL) workflows.…"
+      "pubDate": "2026-09-09T15:23:00.000Z",
+      "snippet": "The Amazon Quick desktop app is now generally available on macOS and Windows. The desktop app brings the full power of Amazon Quick to your computer, working directly with your local files and staying connected to your calendar, email, and business apps in…"
     }
   ]
 }
