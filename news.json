@@ -1,6 +1,62 @@
 {
-  "lastUpdated": "2026-09-10T10:37:13.586Z",
+  "lastUpdated": "2026-09-10T16:38:34.271Z",
   "items": [
+    {
+      "title": "Building resilient real-time streaming workers with Amazon DynamoDB leases",
+      "link": "https://aws.amazon.com/blogs/architecture/building-resilient-real-time-streaming-workers-with-amazon-dynamodb-leases/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-10T16:14:22.000Z",
+      "snippet": "Real-time streaming workers that hold hundreds of persistent WebSocket connections lose data when a worker fails. Learn how to build a WebSocket fleet management system on Amazon ECS and AWS Fargate that uses Amazon DynamoDB conditional writes as a…"
+    },
+    {
+      "title": "CloudWatch Network Monitor now provides NHI for Transit Gateway peering",
+      "link": "https://aws.amazon.com/amazon-cloudwatch-network-monitor-nhi-transit-gateway-peering",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T10:28:00.000Z",
+      "snippet": "Today, AWS announces that Amazon CloudWatch Network Monitor synthetic monitoring now provides its network health indicator (NHI) for paths that reach a destination across an AWS Transit Gateway inter-Region peering connection. Amazon CloudWatch Network…"
+    },
+    {
+      "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T08:00:00.000Z",
+      "snippet": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces two synchronized output variants, each carrying a distinct…"
+    },
+    {
+      "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T08:00:00.000Z",
+      "snippet": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams. Available exclusively to publishers in the Amazon…"
+    },
+    {
+      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T08:00:00.000Z",
+      "snippet": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encoding to…"
+    },
+    {
+      "title": "AWS Elemental introduces Dynamic Multiview for live video",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T08:00:00.000Z",
+      "snippet": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing…"
+    },
+    {
+      "title": "AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T08:00:00.000Z",
+      "snippet": "AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video providers that monetizes live streams, linear channels, and…"
+    },
+    {
+      "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-09T22:01:47.000Z",
+      "snippet": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account."
+    },
     {
       "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service",
       "link": "https://aws.amazon.com/blogs/architecture/testing-application-resilience-with-amazon-sqs-and-aws-fault-injection-service/",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-08T16:00:00.000Z",
       "snippet": "Today, AWS HealthOmics introduces the resource fallback directive, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances, for tasks in your Workflow Description Language (WDL) workflows.…"
-    },
-    {
-      "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transformation-adds-new-features/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T14:32:00.000Z",
-      "snippet": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT), an AWS supported solution that helps customers transform images in response to their needs. Customers can now use enhanced smart cropping with custom label…"
-    },
-    {
-      "title": "AWS Builder ID adds recovery options and multi-factor authentication for third-party logins",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-id-recovery-mfa-third-party/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T08:00:00.000Z",
-      "snippet": "AWS Builder ID, your personal profile for accessing AWS applications including AWS Builder Center, AWS Training and Certification, Amazon Quick and Kiro, now offers new ways to protect and recover your profile. You can add a recovery email and use new…"
-    },
-    {
-      "title": "Amazon EMR extends support at no additional cost for customers migrating off older releases",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-extended-support-migration/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T08:00:00.000Z",
-      "snippet": "Amazon EMR now gives you more time, at no additional cost, to migrate off older releases before they reach end of support. If you are actively migrating, your workloads on eligible releases keep receiving support while you move to a current release, with no…"
-    },
-    {
-      "title": "AWS announces Nx Plugin for AWS for scaffolding full-stack applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/nx-plugin-for-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T08:00:00.000Z",
-      "snippet": "Version 1.0 of the Nx Plugin for AWS, an open source toolkit for scaffolding full-stack applications on AWS, is now available. AI assistants can stand up an application on AWS in minutes, but rarely get security, observability, and type-safety right in one…"
-    },
-    {
-      "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T07:30:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR…"
-    },
-    {
-      "title": "Amazon S3 Object Lock now supports variable retention with event holds",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-object-lock-variable-retention/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-08T04:00:00.000Z",
-      "snippet": "Amazon S3 Object Lock now supports variable retention, allowing you to apply write-once-read-many (WORM) protection to objects whose required retention period starts with a future event, such as a contract closing or an audit completing. You place an event…"
-    },
-    {
-      "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-07T14:24:08.000Z",
-      "snippet": "Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running,…"
-    },
-    {
-      "title": "Amazon MWAA Serverless is now available in AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T22:00:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon MWAA Serverless eliminates the operational overhead of managing Apache Airflow infrastructure by automatically…"
     }
   ]
 }
