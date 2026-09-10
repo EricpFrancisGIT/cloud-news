@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T22:36:36.819Z",
+  "lastUpdated": "2026-09-10T04:36:55.369Z",
   "items": [
     {
       "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service",
@@ -37,18 +37,18 @@
       "snippet": "Security teams are starting to actively use AI for security work, including vulnerability triage, penetration testing, threat modeling, incident response, and code review. The promise is speed, but a security tool that moves fast and raises too many false…"
     },
     {
-      "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T18:00:00.000Z",
-      "snippet": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on Lambda Managed Instances. You can now run your Lambda functions on the latest generation of Graviton processors, delivering up to 25% better compute performance compared to…"
-    },
-    {
       "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
       "source": "AWS What's New",
       "pubDate": "2026-09-09T18:00:00.000Z",
       "snippet": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI), a 6x increase from the previous 15-minute limit. You can now run data processing, media transcoding, financial…"
+    },
+    {
+      "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T18:00:00.000Z",
+      "snippet": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on Lambda Managed Instances. You can now run your Lambda functions on the latest generation of Graviton processors, delivering up to 25% better compute performance compared to…"
     },
     {
       "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
@@ -65,11 +65,32 @@
       "snippet": "AWS announces the Confluence Data Center data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers running self-hosted Confluence Data Center instances can now crawl blogs and…"
     },
     {
+      "title": "Amazon EBS Volume Clones now supports copying volumes across accounts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ebs-volume-clones-cross-account-copy/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T10:00:00.000Z",
+      "snippet": "Amazon Elastic Block Store (Amazon EBS) Volume Clones now supports copying EBS volumes across AWS accounts with re-encryption. You can copy EBS volumes to any AWS account, re-encrypting with an AWS Key Management Service (AWS KMS) key in the target account.…"
+    },
+    {
       "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
       "source": "AWS What's New",
       "pubDate": "2026-09-09T08:00:00.000Z",
       "snippet": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by Systems Manager. An instance must be managed by Systems…"
+    },
+    {
+      "title": "AWS Private CA EKS add-on and Connector for AD now available in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/private-ca-eks-addon-ad-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T08:00:00.000Z",
+      "snippet": "AWS Private Certificate Authority (AWS Private CA) announces the availability of the AWS Private CA Connector for Kubernetes as a managed Amazon EKS add-on and the AWS Private CA Connector for Active Directory in AWS GovCloud (US-East) and AWS GovCloud…"
+    },
+    {
+      "title": "Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-profiles-segment-events/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T08:00:00.000Z",
+      "snippet": "Amazon Connect Customer Profiles now sends segment membership events, providing the ability to receive real-time and scheduled notifications when customer profiles enter or exit a segment, such as high-value customers or low-satisfaction customers.…"
     },
     {
       "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-04T21:29:00.000Z",
       "snippet": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating 2LO credentials on the third-party side, which could be…"
-    },
-    {
-      "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T21:14:00.000Z",
-      "snippet": "AWS announces the ServiceNow data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now connect their ServiceNow instance to crawl knowledge articles and service catalog…"
-    },
-    {
-      "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T21:01:00.000Z",
-      "snippet": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and advanced retrieval without requiring you to manage vector…"
-    },
-    {
-      "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-04T19:26:00.000Z",
-      "snippet": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch attempt on a non-permitted instance type is automatically…"
     }
   ]
 }
