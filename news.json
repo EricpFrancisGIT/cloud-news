@@ -1,12 +1,54 @@
 {
-  "lastUpdated": "2026-09-11T16:40:22.710Z",
+  "lastUpdated": "2026-09-11T22:40:43.042Z",
   "items": [
+    {
+      "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-11T18:35:00.000Z",
+      "snippet": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with AWS Nitro System, are designed for…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-11T18:25:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. When running LLM inference at scale for workloads like chat…"
+    },
+    {
+      "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-11T15:13:00.000Z",
+      "snippet": "AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image content. Amazon Bedrock Managed Knowledge Base already…"
+    },
+    {
+      "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-11T15:00:00.000Z",
+      "snippet": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memory usage, file system usage and I/O metrics, network…"
+    },
+    {
+      "title": "AWS DevOps Agent adds support for bidirectional Slack communication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-11T15:00:00.000Z",
+      "snippet": "AWS DevOps Agent now enables engineers to manage production operations across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack. Previously, on-call engineers and DevOps teams faced fragmented…"
+    },
     {
       "title": "From zero-shot forecast to purchase order with Amazon Bedrock AgentCore",
       "link": "https://aws.amazon.com/blogs/architecture/from-zero-shot-forecast-to-purchase-order-with-amazon-bedrock-agentcore/",
       "source": "AWS Architecture Blog",
       "pubDate": "2026-09-11T14:08:01.000Z",
       "snippet": "Combine zero-shot forecasting with Amazon Chronos2 and multi-agent orchestration on Amazon Bedrock AgentCore to turn demand forecasts into validated purchase orders. No per-product model training, with business rules, auditability, and cost that scales to…"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-11T07:12:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai. Starting with April 2026 releases, the Oracle Spatial Patch Bundle has…"
     },
     {
       "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
@@ -156,60 +198,18 @@
       "snippet": "Learn how AWS, HashiCorp, and Athenahealth designed and chaos-tested a multi-Region disaster recovery strategy for Terraform Enterprise on AWS. This post walks through three-phase AWS Fault Injection Service experiments across Amazon EC2, Aurora, and Amazon…"
     },
     {
+      "title": "AWS Marketplace sellers now receive qualified demo and private offer requests in minutes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-demo-private-offer-requests-qualification",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-09T21:04:00.000Z",
+      "snippet": "AWS Marketplace sellers that activated the request demo or request private offer call-to-action buttons on their listings can now act on customer requests within minutes of submission, while customers are still actively evaluating their products. This happens…"
+    },
+    {
       "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
       "source": "AWS What's New",
       "pubDate": "2026-09-09T21:00:00.000Z",
       "snippet": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so all contacts within a channel were treated the same…"
-    },
-    {
-      "title": "AWS Transform for .NET modernization is now generally available via CLI",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T20:00:00.000Z",
-      "snippet": "Today, AWS announced the general availability of an AWS-managed transformation for .NET modernization in AWS Transform custom that you can trigger with a single one-line CLI command. You can run this transformation interactively, or script it into any…"
-    },
-    {
-      "title": "The state of AI for security: Measuring what matters most for building trust",
-      "link": "https://aws.amazon.com/blogs/security/the-state-of-ai-for-security-measuring-what-matters-most-for-building-trust/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-09T19:09:14.000Z",
-      "snippet": "Security teams are starting to actively use AI for security work, including vulnerability triage, penetration testing, threat modeling, incident response, and code review. The promise is speed, but a security tool that moves fast and raises too many false…"
-    },
-    {
-      "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T18:00:00.000Z",
-      "snippet": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI), a 6x increase from the previous 15-minute limit. You can now run data processing, media transcoding, financial…"
-    },
-    {
-      "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T18:00:00.000Z",
-      "snippet": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on Lambda Managed Instances. You can now run your Lambda functions on the latest generation of Graviton processors, delivering up to 25% better compute performance compared to…"
-    },
-    {
-      "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T16:03:00.000Z",
-      "snippet": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit document-level permissions. When a user doesn't see an expected…"
-    },
-    {
-      "title": "Amazon Quick adds always-on agents, a sharper feed, and enterprise controls",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-always-on-agents-sharper-feed-enterprise-controls/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T15:51:00.000Z",
-      "snippet": "Today, Amazon Quick offers new capabilities that make it easier to organize your work, govern it across an organization, and trust the answers it produces. These capabilities build on Amazon Quick across desktop and mobile, bringing enterprise-grade…"
-    },
-    {
-      "title": "Amazon Quick activity feed now available on iOS and Android mobile devices",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-activity-feed-available-ios-android-mobile-devices/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T15:39:00.000Z",
-      "snippet": "The Amazon Quick activity feed is now available on the Amazon Quick mobile app for iOS and Android, keeping you connected to your most important work from anywhere. The activity feed is your single, prioritized view of everything that needs your attention…"
     }
   ]
 }
