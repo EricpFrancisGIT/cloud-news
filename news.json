@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-11T10:39:37.616Z",
+  "lastUpdated": "2026-09-11T16:40:22.710Z",
   "items": [
+    {
+      "title": "From zero-shot forecast to purchase order with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/architecture/from-zero-shot-forecast-to-purchase-order-with-amazon-bedrock-agentcore/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-11T14:08:01.000Z",
+      "snippet": "Combine zero-shot forecasting with Amazon Chronos2 and multi-agent orchestration on Amazon Bedrock AgentCore to turn demand forecasts into validated purchase orders. No per-product model training, with business rules, auditability, and cost that scales to…"
+    },
     {
       "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-09T15:39:00.000Z",
       "snippet": "The Amazon Quick activity feed is now available on the Amazon Quick mobile app for iOS and Android, keeping you connected to your most important work from anywhere. The activity feed is your single, prioritized view of everything that needs your attention…"
-    },
-    {
-      "title": "Amazon Quick desktop app is now generally available on macOS and Windows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-desktop-app-generally-available-macos-windows/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T15:23:00.000Z",
-      "snippet": "The Amazon Quick desktop app is now generally available on macOS and Windows. The desktop app brings the full power of Amazon Quick to your computer, working directly with your local files and staying connected to your calendar, email, and business apps in…"
     }
   ]
 }
