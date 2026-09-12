@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T10:41:20.872Z",
+  "lastUpdated": "2026-09-12T16:41:40.748Z",
   "items": [
     {
       "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
@@ -163,18 +163,18 @@
       "snippet": "AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video providers that monetizes live streams, linear channels, and…"
     },
     {
-      "title": "AWS Elemental introduces Dynamic Multiview for live video",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T08:00:00.000Z",
-      "snippet": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing…"
-    },
-    {
       "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Amazon S3 File Gateway",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/storage-gateway-fips-privatelink-s3/",
       "source": "AWS What's New",
       "pubDate": "2026-09-10T08:00:00.000Z",
       "snippet": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Amazon S3 File Gateway. Previously, FIPS endpoints for File Gateway were available only over the public internet. Now you can keep FIPS-compliant traffic on the private…"
+    },
+    {
+      "title": "AWS Elemental introduces Dynamic Multiview for live video",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-10T08:00:00.000Z",
+      "snippet": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing…"
     },
     {
       "title": "Amazon EVS is now available in more regions",
