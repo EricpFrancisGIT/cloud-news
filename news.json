@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T22:40:43.042Z",
+  "lastUpdated": "2026-09-12T04:41:01.190Z",
   "items": [
     {
       "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
@@ -14,6 +14,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-11T18:25:00.000Z",
       "snippet": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. When running LLM inference at scale for workloads like chat…"
+    },
+    {
+      "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-11T17:00:00.000Z",
+      "snippet": "AWS Lambda now supports direct read configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With this launch, you can optimize the throughput and latency of file…"
     },
     {
       "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-09T21:04:00.000Z",
       "snippet": "AWS Marketplace sellers that activated the request demo or request private offer call-to-action buttons on their listings can now act on customer requests within minutes of submission, while customers are still actively evaluating their products. This happens…"
-    },
-    {
-      "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-09T21:00:00.000Z",
-      "snippet": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so all contacts within a channel were treated the same…"
     }
   ]
 }
