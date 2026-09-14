@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-14T10:44:21.883Z",
+  "lastUpdated": "2026-09-14T16:44:50.197Z",
   "items": [
+    {
+      "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-14T15:56:33.000Z",
+      "snippet": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy showed up in a new…"
+    },
     {
       "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/",
@@ -203,13 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-09-09T21:33:59.000Z",
       "snippet": "Learn how to use AWS Fault Injection Service and AWS Systems Manager Automation to run progressive chaos experiments against Amazon SQS queues. Validate that your retry logic, circuit breakers, and dead-letter queues actually work under failure before a real…"
-    },
-    {
-      "title": "Validating multi-Region DR for Terraform Enterprise with AWS FIS",
-      "link": "https://aws.amazon.com/blogs/architecture/validating-multi-region-dr-for-terraform-enterprise-with-aws-fis/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-09T21:05:02.000Z",
-      "snippet": "Learn how AWS, HashiCorp, and Athenahealth designed and chaos-tested a multi-Region disaster recovery strategy for Terraform Enterprise on AWS. This post walks through three-phase AWS Fault Injection Service experiments across Amazon EC2, Aurora, and Amazon…"
     }
   ]
 }
