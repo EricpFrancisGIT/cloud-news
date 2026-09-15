@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-15T10:45:57.222Z",
+  "lastUpdated": "2026-09-15T16:47:28.827Z",
   "items": [
+    {
+      "title": "Operationalizing least privilege: Automate IAM remediation through your CI/CD pipeline",
+      "link": "https://aws.amazon.com/blogs/security/operationalizing-least-privilege-automate-iam-remediation-through-your-ci-cd-pipeline/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-15T15:53:51.000Z",
+      "snippet": "The principle of least privilege is straightforward to articulate but challenging to maintain at scale. When teams first deploy applications to AWS, they often grant broader permissions than strictly necessary; it’s faster to get things working, and the plan…"
+    },
     {
       "title": "AWS Security Reference Architecture: A deep dive into PCI DSS compliance",
       "link": "https://aws.amazon.com/blogs/security/aws-security-reference-architecture-a-deep-dive-into-pci-dss-compliance/",
@@ -121,6 +128,13 @@
       "snippet": "Combine zero-shot forecasting with Amazon Chronos2 and multi-agent orchestration on Amazon Bedrock AgentCore to turn demand forecasts into validated purchase orders. No per-product model training, with business rules, auditability, and cost that scales to…"
     },
     {
+      "title": "Amazon SageMaker Unified Studio now supports ODBC connections for Microsoft Power BI and other analytics tools",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-unified-studio-odbc-power-bi/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-11T08:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports ODBC connections, so data users can connect Microsoft Power BI and other ODBC-compatible tools directly to governed data in SageMaker Unified Studio projects using the Amazon Athena ODBC driver. This adds a native…"
+    },
+    {
       "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
       "source": "AWS What's New",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-10T16:00:00.000Z",
       "snippet": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3…"
-    },
-    {
-      "title": "Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T11:00:00.000Z",
-      "snippet": "With synthetic monitors in Amazon CloudWatch Network Monitoring, you can now determine whether a network performance issue on a path that crosses an AWS Transit Gateway inter-Region peering connection is caused by the AWS network. This helps network operators…"
-    },
-    {
-      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T08:00:00.000Z",
-      "snippet": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encoding to…"
     }
   ]
 }
