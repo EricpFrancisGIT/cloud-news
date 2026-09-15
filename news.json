@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T22:45:12.128Z",
+  "lastUpdated": "2026-09-15T04:45:32.381Z",
   "items": [
     {
       "title": "AWS Security Reference Architecture: A deep dive into PCI DSS compliance",
@@ -42,6 +42,13 @@
       "source": "AWS News Blog",
       "pubDate": "2026-09-14T15:56:33.000Z",
       "snippet": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy showed up in a new…"
+    },
+    {
+      "title": "AWS Glue zero-ETL adds target table property ownership and conflict detection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-14T08:00:00.000Z",
+      "snippet": "AWS Glue zero-ETL integrations now detect table property conflicts and track integration ownership. When you configure a source table and target catalog, Glue associates the resulting table properties with the owning integration, so two integrations can no…"
     },
     {
       "title": "AWS End User Messaging now supports Dynamic Flows in WhatsApp",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-10T08:00:00.000Z",
       "snippet": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encoding to…"
-    },
-    {
-      "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T08:00:00.000Z",
-      "snippet": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams. Available exclusively to publishers in the Amazon…"
     }
   ]
 }
