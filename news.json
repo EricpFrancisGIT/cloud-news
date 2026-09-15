@@ -1,12 +1,61 @@
 {
-  "lastUpdated": "2026-09-15T16:47:28.827Z",
+  "lastUpdated": "2026-09-15T22:47:47.933Z",
   "items": [
+    {
+      "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
+      "link": "https://aws.amazon.com/blogs/security/aws-sts-simplifies-session-token-size-limits-and-adds-session-token-size-monitoring/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-15T22:21:59.000Z",
+      "snippet": "AWS Security Token Service (AWS STS) has simplified session token size limits, giving you more room for your session policies and session tags. STS has replaced the packed policy size and the overall session token size limits with a single token size limit of…"
+    },
+    {
+      "title": "Architecting resilient authentication with Amazon Cognito multi-Region replication",
+      "link": "https://aws.amazon.com/blogs/security/architecting-resilient-authentication-with-amazon-cognito-multi-region-replication/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-15T19:00:52.000Z",
+      "snippet": "Your consumer identity and access management (CIAM) system is the foundation of your customer experience. It’s how users sign in, access services, and engage with your applications. As your business scales across geographies, ensuring authentication is always…"
+    },
+    {
+      "title": "AWS Billing Conductor now supports custom rates and usage tier pricing configurations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-15T18:58:00.000Z",
+      "snippet": "AWS Billing Conductor now lets you define custom rate pricing for AWS services, including defining custom usage tiers to configure rates by the desired usage volume. Customers and Partners using AWS Billing Conductor to model commercial agreements with…"
+    },
+    {
+      "title": "Amazon SageMaker AI now supports instance preference lists for training and processing jobs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-training-processing-instance-pref-lists/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-15T18:30:00.000Z",
+      "snippet": "Today, Amazon SageMaker AI announces instance preference lists for training and processing jobs, making it easier and faster to find compute capacity for your workloads. Many AI training, fine-tuning, and data processing workloads run comparably well on any…"
+    },
+    {
+      "title": "Analyze your CloudTrail events using natural language in Amazon Q Console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudtrail-amazon-q-console/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-15T16:54:00.000Z",
+      "snippet": "AWS CloudTrail, a service that records API activity across your AWS account for security auditing, compliance, and operational troubleshooting, now integrates with Amazon Q Console to help you investigate your AWS account activity using natural language. You…"
+    },
+    {
+      "title": "Amazon Connect Customer now enables agents to bid on preferred shifts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-15T16:00:00.000Z",
+      "snippet": "Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or generating a randomized ranking. Connect Customer then uses…"
+    },
     {
       "title": "Operationalizing least privilege: Automate IAM remediation through your CI/CD pipeline",
       "link": "https://aws.amazon.com/blogs/security/operationalizing-least-privilege-automate-iam-remediation-through-your-ci-cd-pipeline/",
       "source": "AWS Security Blog",
       "pubDate": "2026-09-15T15:53:51.000Z",
       "snippet": "The principle of least privilege is straightforward to articulate but challenging to maintain at scale. When teams first deploy applications to AWS, they often grant broader permissions than strictly necessary; it’s faster to get things working, and the plan…"
+    },
+    {
+      "title": "AWS improves regional resiliency for root user sign-in",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/root-user-regional-resiliency/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-14T19:30:00.000Z",
+      "snippet": "AWS root user sign-in is now served across US East (N. Virginia), US East (Ohio), and US West (Oregon), with sign-in traffic distributed across all three Regions. This change reduces reliance on US East (N. Virginia) and improves resiliency during service…"
     },
     {
       "title": "AWS Security Reference Architecture: A deep dive into PCI DSS compliance",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-10T20:00:00.000Z",
       "snippet": "Amazon API Gateway now supports configurable delivery destinations and larger log events for REST API execution logs. Previously, execution logs were delivered to a single API Gateway-managed CloudWatch Logs log group with log events truncated at 1 KB,…"
-    },
-    {
-      "title": "AWS Lambda durable functions integrates with Pydantic AI",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T18:45:00.000Z",
-      "snippet": "Today, AWS Lambda durable functions announces an integration with Pydantic AI, an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's progress as it runs, so after an interruption like a timeout,…"
-    },
-    {
-      "title": "Amazon MQ now supports RabbitMQ 4.3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T18:08:00.000Z",
-      "snippet": "Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer timeouts. RabbitMQ 4.3 also includes various bug fixes and performance…"
-    },
-    {
-      "title": "Announcing second-generation single-rack AWS Outposts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T17:58:00.000Z",
-      "snippet": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpose-built for workloads requiring low latency, local data…"
-    },
-    {
-      "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T17:00:00.000Z",
-      "snippet": "You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web applications. OpenSearch Serverless eliminates infrastructure…"
-    },
-    {
-      "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T16:52:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce consistent CPU and memory limits across all methods of launching ECS…"
-    },
-    {
-      "title": "Building resilient real-time streaming workers with Amazon DynamoDB leases",
-      "link": "https://aws.amazon.com/blogs/architecture/building-resilient-real-time-streaming-workers-with-amazon-dynamodb-leases/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-10T16:14:22.000Z",
-      "snippet": "Real-time streaming workers that hold hundreds of persistent WebSocket connections lose data when a worker fails. Learn how to build a WebSocket fleet management system on Amazon ECS and AWS Fargate that uses Amazon DynamoDB conditional writes as a…"
-    },
-    {
-      "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T16:00:00.000Z",
-      "snippet": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3…"
     }
   ]
 }
