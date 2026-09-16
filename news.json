@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T10:48:27.904Z",
+  "lastUpdated": "2026-09-16T16:49:18.571Z",
   "items": [
     {
       "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
@@ -35,6 +35,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-15T18:58:00.000Z",
       "snippet": "AWS Billing Conductor now lets you define custom rate pricing for AWS services, including defining custom usage tiers to configure rates by the desired usage volume. Customers and Partners using AWS Billing Conductor to model commercial agreements with…"
+    },
+    {
+      "title": "AWS Step Functions adds new AWS service integrations automatically, starting with AWS Lambda MicroVMs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-15T18:54:00.000Z",
+      "snippet": "AWS Step Functions now automatically adds AWS SDK integrations for new AWS services and capabilities within weeks of their release, starting with AWS Lambda MicroVMs, AWS Lambda Core and others. Now, you can orchestrate the latest AWS services from your…"
     },
     {
       "title": "Amazon SageMaker AI now supports instance preference lists for training and processing jobs",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-11T08:00:00.000Z",
       "snippet": "Amazon SageMaker Unified Studio now supports ODBC connections, so data users can connect Microsoft Power BI and other ODBC-compatible tools directly to governed data in SageMaker Unified Studio projects using the Amazon Athena ODBC driver. This adds a native…"
-    },
-    {
-      "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-11T07:12:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai. Starting with April 2026 releases, the Oracle Spatial Patch Bundle has…"
     }
   ]
 }
