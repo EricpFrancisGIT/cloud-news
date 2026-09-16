@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T22:47:47.933Z",
+  "lastUpdated": "2026-09-16T04:48:10.243Z",
   "items": [
     {
       "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
@@ -9,11 +9,25 @@
       "snippet": "AWS Security Token Service (AWS STS) has simplified session token size limits, giving you more room for your session policies and session tags. STS has replaced the packed policy size and the overall session token size limits with a single token size limit of…"
     },
     {
+      "title": "Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-15T22:00:00.000Z",
+      "snippet": "Today, AWS Billing and Cost Management (BCM) announces support for the Detected Anomalies widget in BCM Dashboards. You can now review cost anomalies alongside cost and usage, budgets, cost efficiency, and reports for Savings Plans and Reserved Instance…"
+    },
+    {
       "title": "Architecting resilient authentication with Amazon Cognito multi-Region replication",
       "link": "https://aws.amazon.com/blogs/security/architecting-resilient-authentication-with-amazon-cognito-multi-region-replication/",
       "source": "AWS Security Blog",
       "pubDate": "2026-09-15T19:00:52.000Z",
       "snippet": "Your consumer identity and access management (CIAM) system is the foundation of your customer experience. It’s how users sign in, access services, and engage with your applications. As your business scales across geographies, ensuring authentication is always…"
+    },
+    {
+      "title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-15T19:00:00.000Z",
+      "snippet": "AWS Direct Connect announces flat-rate pricing for 10G and 100G dedicated connections AWS Direct Connect provides dedicated network connectivity from on-premises environments to AWS. Customers value the flexibility of AWS Direct Connect's pay-as-you-go…"
     },
     {
       "title": "AWS Billing Conductor now supports custom rates and usage tier pricing configurations",
@@ -49,6 +63,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-09-15T15:53:51.000Z",
       "snippet": "The principle of least privilege is straightforward to articulate but challenging to maintain at scale. When teams first deploy applications to AWS, they often grant broader permissions than strictly necessary; it’s faster to get things working, and the plan…"
+    },
+    {
+      "title": "AWS Glue zero-ETL now captures archived Salesforce records",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-archived-salesforce/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-15T08:00:00.000Z",
+      "snippet": "AWS Glue zero-ETL integrations for Salesforce now capture archived records in your target tables, giving you a complete replica of your Salesforce data for analytics and reporting. Archived records are identified and reflected accurately through the…"
     },
     {
       "title": "AWS improves regional resiliency for root user sign-in",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-11T07:12:00.000Z",
       "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai. Starting with April 2026 releases, the Oracle Spatial Patch Bundle has…"
-    },
-    {
-      "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T20:00:00.000Z",
-      "snippet": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda functions and other supported services, preventing unexpected…"
-    },
-    {
-      "title": "AWS Transform for .NET now generates unit tests for modernized code",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T20:00:00.000Z",
-      "snippet": "Today, AWS announced that AWS Transform for .NET can automatically generate unit tests for the code it modernizes. When enabled, AWS Transform generates unit tests that target the testable classes in your transformed .NET application, such as business logic…"
-    },
-    {
-      "title": "Amazon API Gateway now supports 1 MB execution logs with configurable delivery destinations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-10T20:00:00.000Z",
-      "snippet": "Amazon API Gateway now supports configurable delivery destinations and larger log events for REST API execution logs. Previously, execution logs were delivered to a single API Gateway-managed CloudWatch Logs log group with log events truncated at 1 KB,…"
     }
   ]
 }
