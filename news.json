@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-09-16T16:49:18.571Z",
+  "lastUpdated": "2026-09-16T22:49:38.374Z",
   "items": [
+    {
+      "title": "Architecting a secure landing zone in the AWS European Sovereign Cloud",
+      "link": "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-16T21:20:48.000Z",
+      "snippet": "The AWS European Sovereign Cloud is a new, independent cloud for Europe, physically and logically separate from existing AWS Regions and operated within the European Union (EU). It provides the same services, features, and APIs as AWS commercial Regions, but…"
+    },
+    {
+      "title": "AWS Client VPN is now supporting MacOS 27 Golden Gate",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T17:56:00.000Z",
+      "snippet": "AWS Client VPN now supports MacOS 27 Golden Gate client with versions 6.0+ You can now run the AWS supplied VPN client on the latest MacOS versions. AWS Client VPN desktop clients are available free of charge, and can be downloaded here. AWS Client VPN is a…"
+    },
+    {
+      "title": "AWS reimagines the getting started experience",
+      "link": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-16T17:50:14.000Z",
+      "snippet": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100 in Free Tier credits, managed project…"
+    },
+    {
+      "title": "New AWS experience helps builders get started and ship faster",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T17:45:00.000Z",
+      "snippet": "Builders can now sign up for a new simplified experience that makes it faster to turn ideas into running code on AWS. AWS services provide an array of configuration options so that the largest enterprises can customize settings for their distinct needs. Until…"
+    },
+    {
+      "title": "Amazon WorkSpaces adds support for NVIDIA Blackwell GPU instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T17:00:00.000Z",
+      "snippet": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core now support Graphics G7 bundles, built on NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. Graphics G7 delivers up to 2.1x better performance for graphics-intensive workloads…"
+    },
+    {
+      "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric. As more teams across your organization adopt custom metrics, they end up editing the same…"
+    },
+    {
+      "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to migrate an existing quality program into Connect. Instead…"
+    },
+    {
+      "title": "AWS Elemental MediaTailor Monetization Functions adds ad response hooks",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-functions-ad-response-hooks",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T16:30:00.000Z",
+      "snippet": "AWS Elemental MediaTailor now supports two additional lifecycle hooks for monetization functions: post ad decision server (ADS) response, and pre manifest insertion. MediaTailor is a video service that personalizes and inserts ads into live and on-demand…"
+    },
+    {
+      "title": "Amazon ECS extends Amazon S3 Files support to the Amazon EC2 compute type",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T16:25:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports Amazon S3 Files for tasks running on the Amazon EC2 launch type, enabling customers to connect their containerized applications directly to data in Amazon S3 as a shared file system. With this launch,…"
+    },
+    {
+      "title": "Amazon Connect Customer now lets you create, manage, and search custom metrics through APIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-apis/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T16:00:00.000Z",
+      "snippet": "Amazon Connect Customer provides a library of standard metrics. Custom metrics let you go further; defining the measurements unique to your business. But managing them across various instances manually means definitions slowly drift until the numbers no…"
+    },
+    {
+      "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-15T22:42:00.000Z",
+      "snippet": "AWS Security Token Service (STS) now enforces a single 4,096-byte size limit on session tokens. Previously, STS enforced separate limits on session token size and passed-in parameters (i.e., inline policies, managed policies, and session tags). STS has…"
+    },
     {
       "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
       "link": "https://aws.amazon.com/blogs/security/aws-sts-simplifies-session-token-size-limits-and-adds-session-token-size-monitoring/",
@@ -133,83 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-14T08:00:00.000Z",
       "snippet": "AWS Glue zero-ETL integrations now detect table property conflicts and track integration ownership. When you configure a source table and target catalog, Glue associates the resulting table properties with the owning integration, so two integrations can no…"
-    },
-    {
-      "title": "AWS End User Messaging now supports Dynamic Flows in WhatsApp",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-whatsapp-dynamic-flows",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-14T07:00:00.000Z",
-      "snippet": "AWS End User Messaging now supports dynamic WhatsApp flows so you can turn WhatsApp conversations into rich, interactive experiences that end-users complete directly in WhatsApp. Instead of pushing end-users to a website or a separate form to complete an…"
-    },
-    {
-      "title": "AWS End User Messaging strengthens SMS deliverability with automatic failover",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-improves-deliverability",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-14T07:00:00.000Z",
-      "snippet": "AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best performing number in the pool when SMS delivery is impacted from…"
-    },
-    {
-      "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-12T08:00:00.000Z",
-      "snippet": "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking across video outputs required investing in specialized hardware…"
-    },
-    {
-      "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-11T18:35:00.000Z",
-      "snippet": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with AWS Nitro System, are designed for…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-11T18:25:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. When running LLM inference at scale for workloads like chat…"
-    },
-    {
-      "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-11T17:00:00.000Z",
-      "snippet": "AWS Lambda now supports direct read configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With this launch, you can optimize the throughput and latency of file…"
-    },
-    {
-      "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-11T15:13:00.000Z",
-      "snippet": "AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image content. Amazon Bedrock Managed Knowledge Base already…"
-    },
-    {
-      "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-11T15:00:00.000Z",
-      "snippet": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memory usage, file system usage and I/O metrics, network…"
-    },
-    {
-      "title": "AWS DevOps Agent adds support for bidirectional Slack communication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-11T15:00:00.000Z",
-      "snippet": "AWS DevOps Agent now enables engineers to manage production operations across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack. Previously, on-call engineers and DevOps teams faced fragmented…"
-    },
-    {
-      "title": "From zero-shot forecast to purchase order with Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/blogs/architecture/from-zero-shot-forecast-to-purchase-order-with-amazon-bedrock-agentcore/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-11T14:08:01.000Z",
-      "snippet": "Combine zero-shot forecasting with Amazon Chronos2 and multi-agent orchestration on Amazon Bedrock AgentCore to turn demand forecasts into validated purchase orders. No per-product model training, with business rules, auditability, and cost that scales to…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports ODBC connections for Microsoft Power BI and other analytics tools",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-unified-studio-odbc-power-bi/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-11T08:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports ODBC connections, so data users can connect Microsoft Power BI and other ODBC-compatible tools directly to governed data in SageMaker Unified Studio projects using the Amazon Athena ODBC driver. This adds a native…"
     }
   ]
 }
