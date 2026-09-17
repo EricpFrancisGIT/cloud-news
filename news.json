@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-17T10:50:19.627Z",
+  "lastUpdated": "2026-09-17T16:51:53.072Z",
   "items": [
+    {
+      "title": "Building cloud-native PACS on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/building-cloud-native-pacs-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-17T15:21:06.000Z",
+      "snippet": "A hybrid cloud architecture pattern for modernizing medical imaging on AWS. Learn how multi-hospital networks can centralize PACS archives, enable cross-facility interoperability, and use Amazon S3 storage tiers to manage cost and retention at scale."
+    },
+    {
+      "title": "How DHI Group accelerates generative AI workloads from idea to production using hackathons",
+      "link": "https://aws.amazon.com/blogs/architecture/how-dhi-group-accelerates-generative-ai-workloads-from-idea-to-production-using-hackathons/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-17T15:13:42.000Z",
+      "snippet": "Learn how DHI Group partnered with AWS to move generative AI workloads from idea to production using a structured hackathon. This post covers the Hackathon Acceleration Package, the winning ClearanceJobs and AgileATS agentic architecture on Amazon Bedrock…"
+    },
     {
       "title": "Amazon Corretto 27 is now generally available",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/",
@@ -14,6 +28,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-16T22:29:00.000Z",
       "snippet": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement fine-tuning (RFT). This is one of the latest open-weight…"
+    },
+    {
+      "title": "Amazon ECS deployment observability for Amazon ECS Managed Daemons in AWS Management Console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T22:01:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now provides a consolidated deployment view for Amazon ECS Managed Daemons, giving you a single place to see how far a deployment has progressed, what is failing, and what could stop it. This helps you monitor…"
     },
     {
       "title": "Architecting a secure landing zone in the AWS European Sovereign Cloud",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-14T17:39:00.000Z",
       "snippet": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning…"
-    },
-    {
-      "title": "Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-14T17:35:00.000Z",
-      "snippet": "Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models from the Ministral 3 family bring…"
-    },
-    {
-      "title": "Gemma-4-31B-it-assistant and Gemma-4-31B-IT-NVFP4 models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-14T17:32:00.000Z",
-      "snippet": "Google DeepMind's Gemma-4-31B-it-assistant and NVIDIA's Gemma-4-31B-IT-NVFP4 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring the flagship Gemma 4 31B dense…"
-    },
-    {
-      "title": "granite-speech-4.1-2b, kanana-2-30b-a3b-instruct, and OpenFold3 models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-14T17:30:00.000Z",
-      "snippet": "BM's granite-speech-4.1-2b, Kakao's kanana-2-30b-a3b-instruct, and the OpenFold Consortium's OpenFold3 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring…"
     }
   ]
 }
