@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-09-17T16:51:53.072Z",
+  "lastUpdated": "2026-09-17T22:52:10.700Z",
   "items": [
+    {
+      "title": "Run open weight models on Amazon Bedrock in AWS European Sovereign Cloud",
+      "link": "https://aws.amazon.com/blogs/security/run-open-weight-models-on-aws-bedrock-in-aws-european-sovereign-cloud/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-17T21:19:20.000Z",
+      "snippet": "European organizations can run AI workloads on Amazon Web Services (AWS) while keeping data within the European Union (EU) and meeting regulatory requirements. You can now run generative AI workloads on open weight models on Amazon Bedrock in the AWS European…"
+    },
+    {
+      "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
+      "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-17T21:11:48.000Z",
+      "snippet": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price…"
+    },
+    {
+      "title": "AWS Elastic Beanstalk introduces Cluster Mode",
+      "link": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-17T19:20:21.000Z",
+      "snippet": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the environment that runs…"
+    },
+    {
+      "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-17T19:00:00.000Z",
+      "snippet": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted endpoint. You can now retain visibility of the client's source IP…"
+    },
+    {
+      "title": "AWS HealthOmics now supports IAM session policies",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-17T18:32:00.000Z",
+      "snippet": "AWS HealthOmics now supports IAM session policies, enabling you to restrict permissions for individual runs without creating and managing multiple IAM roles. Until now, there was no way to dynamically scope down permissions for a single run, requiring you to…"
+    },
+    {
+      "title": "How Equinix cut operational overhead with a shared services architecture on Amazon EKS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-equinix-cut-operational-overhead-with-a-shared-services-architecture-on-amazon-eks/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-17T18:00:56.000Z",
+      "snippet": "Equinix, the world's digital infrastructure company, built a shared services architecture on Amazon EKS to eliminate the operational sprawl of its self-managed Kubernetes environment. Learn how a multi-account North Star architecture centralized governance…"
+    },
+    {
+      "title": "AWS Batch now supports bulk job cancellation and termination",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-17T17:23:00.000Z",
+      "snippet": "AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call. The new CancelJobs, TerminateJobs, and TerminateServiceJobs APIs reduce the operational complexity of managing large-scale…"
+    },
     {
       "title": "Building cloud-native PACS on AWS",
       "link": "https://aws.amazon.com/blogs/architecture/building-cloud-native-pacs-on-aws/",
@@ -14,6 +63,34 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-09-17T15:13:42.000Z",
       "snippet": "Learn how DHI Group partnered with AWS to move generative AI workloads from idea to production using a structured hackathon. This post covers the Hackathon Acceleration Package, the winning ClearanceJobs and AgileATS agentic architecture on Amazon Bedrock…"
+    },
+    {
+      "title": "Introducing Amazon EC2 T8i instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-17T15:00:00.000Z",
+      "snippet": "AWS is announcing the general availability of new low-cost burstable Amazon EC2 T8i instances. These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on AWS, and built on the latest sixth generation AWS Nitro…"
+    },
+    {
+      "title": "AWS Elastic Beanstalk introduces Cluster Mode to run multiple applications on shared infrastructure",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-17T08:00:00.000Z",
+      "snippet": "AWS Elastic Beanstalk introduces Cluster Mode, a new deployment mode that lets you run and manage multiple applications on shared infrastructure in your account. Provide your source code, a Dockerfile, or a container image in Amazon ECR, and Elastic Beanstalk…"
+    },
+    {
+      "title": "AWS Builder Center now available as mobile app on iOS and Android",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-center-now-available-as-mobile-app/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-17T07:09:00.000Z",
+      "snippet": "AWS Builder Center is a platform that brings together the global builder community, offering articles, workshops, sandbox environments, events, and learning resources in one place. Previously limited to desktop and web access, the experience is now available…"
+    },
+    {
+      "title": "Amazon Quick now generates individual sheets and builds analyses from an image",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/generate-sheet-and-generate-analysis-from-an-image/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-17T02:37:00.000Z",
+      "snippet": "Amazon Quick now expands Generate Analysis with two new ways to create dashboards faster. You can generate a single sheet inside an existing analysis by describing it in natural language, and you can generate a new analysis from an image of an existing…"
     },
     {
       "title": "Amazon Corretto 27 is now generally available",
@@ -72,18 +149,18 @@
       "snippet": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core now support Graphics G7 bundles, built on NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. Graphics G7 delivers up to 2.1x better performance for graphics-intensive workloads…"
     },
     {
-      "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric. As more teams across your organization adopt custom metrics, they end up editing the same…"
-    },
-    {
       "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
       "source": "AWS What's New",
       "pubDate": "2026-09-16T17:00:00.000Z",
       "snippet": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to migrate an existing quality program into Connect. Instead…"
+    },
+    {
+      "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric. As more teams across your organization adopt custom metrics, they end up editing the same…"
     },
     {
       "title": "AWS Elemental MediaTailor Monetization Functions adds ad response hooks",
@@ -107,6 +184,20 @@
       "snippet": "Amazon Connect Customer provides a library of standard metrics. Custom metrics let you go further; defining the measurements unique to your business. But managing them across various instances manually means definitions slowly drift until the numbers no…"
     },
     {
+      "title": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-keyspaces/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T16:00:00.000Z",
+      "snippet": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions, allowing customers in those Regions to build Cassandra-compatible applications with lower latency while keeping their data within the Region to meet data residency…"
+    },
+    {
+      "title": "Amazon Connect Talent is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-talent/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-16T12:22:00.000Z",
+      "snippet": "Amazon Connect Talent is now generally available, giving talent acquisition leaders an AI-powered hiring solution that accelerates candidate selection at scale. Informed by decades of Amazon's hiring science, Amazon Connect Talent uses AI agents to conduct…"
+    },
+    {
       "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts/",
       "source": "AWS What's New",
@@ -119,97 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-09-15T22:21:59.000Z",
       "snippet": "AWS Security Token Service (AWS STS) has simplified session token size limits, giving you more room for your session policies and session tags. STS has replaced the packed policy size and the overall session token size limits with a single token size limit of…"
-    },
-    {
-      "title": "Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-15T22:00:00.000Z",
-      "snippet": "Today, AWS Billing and Cost Management (BCM) announces support for the Detected Anomalies widget in BCM Dashboards. You can now review cost anomalies alongside cost and usage, budgets, cost efficiency, and reports for Savings Plans and Reserved Instance…"
-    },
-    {
-      "title": "Architecting resilient authentication with Amazon Cognito multi-Region replication",
-      "link": "https://aws.amazon.com/blogs/security/architecting-resilient-authentication-with-amazon-cognito-multi-region-replication/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-15T19:00:52.000Z",
-      "snippet": "Your consumer identity and access management (CIAM) system is the foundation of your customer experience. It’s how users sign in, access services, and engage with your applications. As your business scales across geographies, ensuring authentication is always…"
-    },
-    {
-      "title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-15T19:00:00.000Z",
-      "snippet": "AWS Direct Connect announces flat-rate pricing for 10G and 100G dedicated connections AWS Direct Connect provides dedicated network connectivity from on-premises environments to AWS. Customers value the flexibility of AWS Direct Connect's pay-as-you-go…"
-    },
-    {
-      "title": "AWS Billing Conductor now supports custom rates and usage tier pricing configurations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-15T18:58:00.000Z",
-      "snippet": "AWS Billing Conductor now lets you define custom rate pricing for AWS services, including defining custom usage tiers to configure rates by the desired usage volume. Customers and Partners using AWS Billing Conductor to model commercial agreements with…"
-    },
-    {
-      "title": "AWS Step Functions adds new AWS service integrations automatically, starting with AWS Lambda MicroVMs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-15T18:54:00.000Z",
-      "snippet": "AWS Step Functions now automatically adds AWS SDK integrations for new AWS services and capabilities within weeks of their release, starting with AWS Lambda MicroVMs, AWS Lambda Core and others. Now, you can orchestrate the latest AWS services from your…"
-    },
-    {
-      "title": "Amazon SageMaker AI now supports instance preference lists for training and processing jobs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-training-processing-instance-pref-lists/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-15T18:30:00.000Z",
-      "snippet": "Today, Amazon SageMaker AI announces instance preference lists for training and processing jobs, making it easier and faster to find compute capacity for your workloads. Many AI training, fine-tuning, and data processing workloads run comparably well on any…"
-    },
-    {
-      "title": "Analyze your CloudTrail events using natural language in Amazon Q Console",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudtrail-amazon-q-console/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-15T16:54:00.000Z",
-      "snippet": "AWS CloudTrail, a service that records API activity across your AWS account for security auditing, compliance, and operational troubleshooting, now integrates with Amazon Q Console to help you investigate your AWS account activity using natural language. You…"
-    },
-    {
-      "title": "Amazon Connect Customer now enables agents to bid on preferred shifts",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-15T16:00:00.000Z",
-      "snippet": "Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or generating a randomized ranking. Connect Customer then uses…"
-    },
-    {
-      "title": "Operationalizing least privilege: Automate IAM remediation through your CI/CD pipeline",
-      "link": "https://aws.amazon.com/blogs/security/operationalizing-least-privilege-automate-iam-remediation-through-your-ci-cd-pipeline/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-15T15:53:51.000Z",
-      "snippet": "The principle of least privilege is straightforward to articulate but challenging to maintain at scale. When teams first deploy applications to AWS, they often grant broader permissions than strictly necessary; it’s faster to get things working, and the plan…"
-    },
-    {
-      "title": "AWS Glue zero-ETL now captures archived Salesforce records",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-archived-salesforce/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-15T08:00:00.000Z",
-      "snippet": "AWS Glue zero-ETL integrations for Salesforce now capture archived records in your target tables, giving you a complete replica of your Salesforce data for analytics and reporting. Archived records are identified and reflected accurately through the…"
-    },
-    {
-      "title": "AWS improves regional resiliency for root user sign-in",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/root-user-regional-resiliency/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-14T19:30:00.000Z",
-      "snippet": "AWS root user sign-in is now served across US East (N. Virginia), US East (Ohio), and US West (Oregon), with sign-in traffic distributed across all three Regions. This change reduces reliance on US East (N. Virginia) and improves resiliency during service…"
-    },
-    {
-      "title": "AWS Security Reference Architecture: A deep dive into PCI DSS compliance",
-      "link": "https://aws.amazon.com/blogs/security/aws-security-reference-architecture-a-deep-dive-into-pci-dss-compliance/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-14T17:46:56.000Z",
-      "snippet": "Amazon Web Services (AWS) is excited to announce the publication of the AWS Security Reference Architecture (AWS SRA) Payment Card Industry (PCI) Data Security Standard (DSS) Deep Dive. This new guide extends the core AWS SRA to provide prescriptive,…"
-    },
-    {
-      "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-14T17:39:00.000Z",
-      "snippet": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning…"
     }
   ]
 }
