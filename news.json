@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T22:52:10.700Z",
+  "lastUpdated": "2026-09-18T04:52:30.929Z",
   "items": [
     {
       "title": "Run open weight models on Amazon Bedrock in AWS European Sovereign Cloud",
@@ -77,6 +77,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-17T08:00:00.000Z",
       "snippet": "AWS Elastic Beanstalk introduces Cluster Mode, a new deployment mode that lets you run and manage multiple applications on shared infrastructure in your account. Provide your source code, a Dockerfile, or a container image in Amazon ECR, and Elastic Beanstalk…"
+    },
+    {
+      "title": "Amazon S3 Express One Zone is now available in 7 additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-express-one-zone-7-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-17T08:00:00.000Z",
+      "snippet": "The Amazon S3 Express One Zone storage class is now available in 7 additional AWS Regions: Asia Pacific (Singapore), South America (Sao Paulo), US West (N. California), Canada (Central), Europe (Paris), Asia Pacific (Sydney), and Asia Pacific (Seoul). Amazon…"
     },
     {
       "title": "AWS Builder Center now available as mobile app on iOS and Android",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-15T22:42:00.000Z",
       "snippet": "AWS Security Token Service (STS) now enforces a single 4,096-byte size limit on session tokens. Previously, STS enforced separate limits on session token size and passed-in parameters (i.e., inline policies, managed policies, and session tags). STS has…"
-    },
-    {
-      "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
-      "link": "https://aws.amazon.com/blogs/security/aws-sts-simplifies-session-token-size-limits-and-adds-session-token-size-monitoring/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-15T22:21:59.000Z",
-      "snippet": "AWS Security Token Service (AWS STS) has simplified session token size limits, giving you more room for your session policies and session tags. STS has replaced the packed policy size and the overall session token size limits with a single token size limit of…"
     }
   ]
 }
