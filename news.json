@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-18T10:52:48.796Z",
+  "lastUpdated": "2026-09-18T16:53:22.405Z",
   "items": [
+    {
+      "title": "How CSIRO built scalable, cost-optimized genomic variant querying on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-18T14:35:42.000Z",
+      "snippet": "Learn how researchers at CSIRO, Australia's national science agency, built Serverless Beacon (sBeacon), a scalable serverless solution for securely querying genomic variant data on AWS. sBeacon implements the GA4GH Beacon standard using Amazon S3, AWS Lambda,…"
+    },
+    {
+      "title": "The new AgentCore Runtime is now available in Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T13:25:00.000Z",
+      "snippet": "Today, AWS announces the availability of the next generation of AgentCore Runtime, the serverless microVM compute within Amazon Bedrock AgentCore. The new Runtime delivers elastic memory management that reclaims unused memory throughout the session so you pay…"
+    },
     {
       "title": "Run open weight models on Amazon Bedrock in AWS European Sovereign Cloud",
       "link": "https://aws.amazon.com/blogs/security/run-open-weight-models-on-aws-bedrock-in-aws-european-sovereign-cloud/",
@@ -91,6 +105,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-17T07:09:00.000Z",
       "snippet": "AWS Builder Center is a platform that brings together the global builder community, offering articles, workshops, sandbox environments, events, and learning resources in one place. Previously limited to desktop and web access, the experience is now available…"
+    },
+    {
+      "title": "Amazon SES now supports tenant-level deliverability insights",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-vdm-tenants/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-17T07:00:00.000Z",
+      "snippet": "Amazon Simple Email Service (SES) now supports tenant-level deliverability insights in Virtual Deliverability Manager (VDM). Tenant management allows email senders to isolate email sending across customers, business units, or applications. Previously, VDM…"
     },
     {
       "title": "Amazon Quick now generates individual sheets and builds analyses from an image",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-16T16:00:00.000Z",
       "snippet": "Amazon Connect Customer provides a library of standard metrics. Custom metrics let you go further; defining the measurements unique to your business. But managing them across various instances manually means definitions slowly drift until the numbers no…"
-    },
-    {
-      "title": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-keyspaces/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T16:00:00.000Z",
-      "snippet": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions, allowing customers in those Regions to build Cassandra-compatible applications with lower latency while keeping their data within the Region to meet data residency…"
-    },
-    {
-      "title": "Amazon Connect Talent is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-talent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T12:22:00.000Z",
-      "snippet": "Amazon Connect Talent is now generally available, giving talent acquisition leaders an AI-powered hiring solution that accelerates candidate selection at scale. Informed by decades of Amazon's hiring science, Amazon Connect Talent uses AI agents to conduct…"
-    },
-    {
-      "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-15T22:42:00.000Z",
-      "snippet": "AWS Security Token Service (STS) now enforces a single 4,096-byte size limit on session tokens. Previously, STS enforced separate limits on session token size and passed-in parameters (i.e., inline policies, managed policies, and session tags). STS has…"
     }
   ]
 }
