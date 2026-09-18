@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-09-18T16:53:22.405Z",
+  "lastUpdated": "2026-09-18T22:54:09.320Z",
   "items": [
+    {
+      "title": "ReadyOn’s Four Walls of tenant isolation on Amazon EKS",
+      "link": "https://aws.amazon.com/blogs/architecture/readyons-four-walls-of-tenant-isolation-on-amazon-eks/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-18T21:33:13.000Z",
+      "snippet": "ReadyOn runs a multi-tenant platform on Amazon EKS that handles highly sensitive enterprise data. This post describes their Four Walls model: four independent layers of tenant isolation combining Kubernetes namespaces, Karpenter node pools, Amazon VPC…"
+    },
+    {
+      "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T18:34:00.000Z",
+      "snippet": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real exploitability testing. Developers and security teams can now…"
+    },
+    {
+      "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T17:27:00.000Z",
+      "snippet": "Amazon Elastic Container Service Express Mode now supports specifying ARM64 as the CPU architecture for your service, making it easy to deploy ARM-based container images on AWS Graviton-powered compute and benefit from up to 40% better price-performance…"
+    },
+    {
+      "title": "AWS Resilience Hub adds three new capabilities",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T16:49:00.000Z",
+      "snippet": "The next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running on AWS. It provides automated dependency discovery,…"
+    },
+    {
+      "title": "AWS RTB Fabric now supports configurable Availability Zone affinity",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T15:30:00.000Z",
+      "snippet": "AWS RTB Fabric now supports configurable Availability Zone (AZ) affinity for responder gateways. With this capability, you can configure how your partners connect to your responder gateway: either in their own Availability Zone or to any Availability Zone…"
+    },
+    {
+      "title": "Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T15:15:00.000Z",
+      "snippet": "Amazon Bedrock continues to expand its open weight model portfolio with the same security and governance that customers rely on. Today, Kimi K3 from Moonshot AI is generally available on Amazon Bedrock, giving you a powerful new option for coding and…"
+    },
+    {
+      "title": "Amazon SNS now supports message payloads up to 1 MiB",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T15:00:00.000Z",
+      "snippet": "Amazon Simple Notification Service (Amazon SNS) now supports message payloads up to 1 MiB, a 4x increase from the previous 256 KiB limit, so you can publish larger messages to your SNS topics. Amazon SNS is a fully managed pub/sub messaging service that…"
+    },
     {
       "title": "How CSIRO built scalable, cost-optimized genomic variant querying on AWS",
       "link": "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws/",
@@ -14,6 +63,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-18T13:25:00.000Z",
       "snippet": "Today, AWS announces the availability of the next generation of AgentCore Runtime, the serverless microVM compute within Amazon Bedrock AgentCore. The new Runtime delivers elastic memory management that reclaims unused memory throughout the session so you pay…"
+    },
+    {
+      "title": "AWS PrivateLink announces Tunnel Endpoints to access network segments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T07:00:00.000Z",
+      "snippet": "AWS PrivateLink customers can now use VPC endpoint to privately and securely access network segments in another VPC/account. They can use a ‘tunnel’ endpoint, a new type of VPC endpoint, to tunnel into the network segment and access resources located within…"
     },
     {
       "title": "Run open weight models on Amazon Bedrock in AWS European Sovereign Cloud",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-16T17:56:00.000Z",
       "snippet": "AWS Client VPN now supports MacOS 27 Golden Gate client with versions 6.0+ You can now run the AWS supplied VPN client on the latest MacOS versions. AWS Client VPN desktop clients are available free of charge, and can be downloaded here. AWS Client VPN is a…"
-    },
-    {
-      "title": "AWS reimagines the getting started experience",
-      "link": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-16T17:50:14.000Z",
-      "snippet": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100 in Free Tier credits, managed project…"
-    },
-    {
-      "title": "New AWS experience helps builders get started and ship faster",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T17:45:00.000Z",
-      "snippet": "Builders can now sign up for a new simplified experience that makes it faster to turn ideas into running code on AWS. AWS services provide an array of configuration options so that the largest enterprises can customize settings for their distinct needs. Until…"
-    },
-    {
-      "title": "Amazon WorkSpaces adds support for NVIDIA Blackwell GPU instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T17:00:00.000Z",
-      "snippet": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core now support Graphics G7 bundles, built on NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. Graphics G7 delivers up to 2.1x better performance for graphics-intensive workloads…"
-    },
-    {
-      "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to migrate an existing quality program into Connect. Instead…"
-    },
-    {
-      "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric. As more teams across your organization adopt custom metrics, they end up editing the same…"
-    },
-    {
-      "title": "AWS Elemental MediaTailor Monetization Functions adds ad response hooks",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-functions-ad-response-hooks",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T16:30:00.000Z",
-      "snippet": "AWS Elemental MediaTailor now supports two additional lifecycle hooks for monetization functions: post ad decision server (ADS) response, and pre manifest insertion. MediaTailor is a video service that personalizes and inserts ads into live and on-demand…"
-    },
-    {
-      "title": "Amazon ECS extends Amazon S3 Files support to the Amazon EC2 compute type",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T16:25:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports Amazon S3 Files for tasks running on the Amazon EC2 launch type, enabling customers to connect their containerized applications directly to data in Amazon S3 as a shared file system. With this launch,…"
-    },
-    {
-      "title": "Amazon Connect Customer now lets you create, manage, and search custom metrics through APIs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-apis/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T16:00:00.000Z",
-      "snippet": "Amazon Connect Customer provides a library of standard metrics. Custom metrics let you go further; defining the measurements unique to your business. But managing them across various instances manually means definitions slowly drift until the numbers no…"
     }
   ]
 }
