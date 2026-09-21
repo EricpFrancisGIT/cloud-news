@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-21T04:57:13.662Z",
+  "lastUpdated": "2026-09-21T10:57:31.750Z",
   "items": [
+    {
+      "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T22:16:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the South America (São Paulo) region. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the…"
+    },
     {
       "title": "ReadyOn’s Four Walls of tenant isolation on Amazon EKS",
       "link": "https://aws.amazon.com/blogs/architecture/readyons-four-walls-of-tenant-isolation-on-amazon-eks/",
@@ -203,13 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-09-16T21:20:48.000Z",
       "snippet": "The AWS European Sovereign Cloud is a new, independent cloud for Europe, physically and logically separate from existing AWS Regions and operated within the European Union (EU). It provides the same services, features, and APIs as AWS commercial Regions, but…"
-    },
-    {
-      "title": "AWS Client VPN is now supporting MacOS 27 Golden Gate",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T17:56:00.000Z",
-      "snippet": "AWS Client VPN now supports MacOS 27 Golden Gate client with versions 6.0+ You can now run the AWS supplied VPN client on the latest MacOS versions. AWS Client VPN desktop clients are available free of charge, and can be downloaded here. AWS Client VPN is a…"
     }
   ]
 }
