@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-21T10:57:31.750Z",
+  "lastUpdated": "2026-09-21T16:58:20.491Z",
   "items": [
+    {
+      "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-21T16:11:24.000Z",
+      "snippet": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found myself…"
+    },
+    {
+      "title": "Transforming Bedrock Guardrails events into OCSF with CloudWatch",
+      "link": "https://aws.amazon.com/blogs/security/transforming-bedrock-guardrails-events-into-ocsf-with-cloudwatch/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-21T15:33:25.000Z",
+      "snippet": "Security teams investigating possible AI-related security events need guardrail intervention data alongside their existing security telemetry. When a guardrail identifies or blocks a prompt injection attempt or redacts sensitive data, that intervention…"
+    },
     {
       "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-16T22:29:00.000Z",
       "snippet": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement fine-tuning (RFT). This is one of the latest open-weight…"
-    },
-    {
-      "title": "Amazon ECS deployment observability for Amazon ECS Managed Daemons in AWS Management Console",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T22:01:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now provides a consolidated deployment view for Amazon ECS Managed Daemons, giving you a single place to see how far a deployment has progressed, what is failing, and what could stop it. This helps you monitor…"
-    },
-    {
-      "title": "Architecting a secure landing zone in the AWS European Sovereign Cloud",
-      "link": "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-16T21:20:48.000Z",
-      "snippet": "The AWS European Sovereign Cloud is a new, independent cloud for Europe, physically and logically separate from existing AWS Regions and operated within the European Union (EU). It provides the same services, features, and APIs as AWS commercial Regions, but…"
     }
   ]
 }
