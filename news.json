@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T16:58:20.491Z",
+  "lastUpdated": "2026-09-21T22:58:48.957Z",
   "items": [
     {
       "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
@@ -49,6 +49,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-18T16:49:00.000Z",
       "snippet": "The next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running on AWS. It provides automated dependency discovery,…"
+    },
+    {
+      "title": "Amazon EC2 I7ie instances now available in AWS Israel region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-i7ie-instances-israel-telaviv-region/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-18T16:00:00.000Z",
+      "snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Israel (Tel Aviv) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of…"
     },
     {
       "title": "AWS RTB Fabric now supports configurable Availability Zone affinity",
@@ -181,7 +188,7 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-center-now-available-as-mobile-app/",
       "source": "AWS What's New",
       "pubDate": "2026-09-17T07:09:00.000Z",
-      "snippet": "AWS Builder Center is a platform that brings together the global builder community, offering articles, workshops, sandbox environments, events, and learning resources in one place. Previously limited to desktop and web access, the experience is now available…"
+      "snippet": "AWS Builder Center is now available as a mobile app on iOS and Android. Builder Center brings together the global builder community with articles on trending topics, hands-on workshops with free sandbox environments, community spaces, events at Builder Lofts,…"
     },
     {
       "title": "Amazon SES now supports tenant-level deliverability insights",
@@ -191,7 +198,7 @@
       "snippet": "Amazon Simple Email Service (SES) now supports tenant-level deliverability insights in Virtual Deliverability Manager (VDM). Tenant management allows email senders to isolate email sending across customers, business units, or applications. Previously, VDM…"
     },
     {
-      "title": "Amazon Quick now generates individual sheets and builds analyses from an image",
+      "title": "Amazon Quick adds Generate Sheet and image-based analysis creation",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/generate-sheet-and-generate-analysis-from-an-image/",
       "source": "AWS What's New",
       "pubDate": "2026-09-17T02:37:00.000Z",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-17T00:00:31.000Z",
       "snippet": "Amazon Corretto 27, a Feature Release (FR) version, is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. You can download Corretto 27 for Linux, Windows, and macOS from our downloads page.…"
-    },
-    {
-      "title": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-16T22:29:00.000Z",
-      "snippet": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement fine-tuning (RFT). This is one of the latest open-weight…"
     }
   ]
 }
