@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-21T22:58:48.957Z",
+  "lastUpdated": "2026-09-22T04:59:10.942Z",
   "items": [
+    {
+      "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-21T20:05:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now provides real-time service deployment observability in the Amazon ECS Console for native Linear, Canary, and Blue/Green deployment strategies. With this launch, deployment monitoring and troubleshooting come…"
+    },
+    {
+      "title": "Amazon EVS now in scope for FedRAMP Class C",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-21T19:08:00.000Z",
+      "snippet": "The Amazon Elastic VMware Service (EVS) service is now in scope for FedRAMP Class C (formerly Moderate baseline) in all United States Regions. Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard…"
+    },
     {
       "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-17T07:00:00.000Z",
       "snippet": "Amazon Simple Email Service (SES) now supports tenant-level deliverability insights in Virtual Deliverability Manager (VDM). Tenant management allows email senders to isolate email sending across customers, business units, or applications. Previously, VDM…"
-    },
-    {
-      "title": "Amazon Quick adds Generate Sheet and image-based analysis creation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/generate-sheet-and-generate-analysis-from-an-image/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-17T02:37:00.000Z",
-      "snippet": "Amazon Quick now expands Generate Analysis with two new ways to create dashboards faster. You can generate a single sheet inside an existing analysis by describing it in natural language, and you can generate a new analysis from an image of an existing…"
-    },
-    {
-      "title": "Amazon Corretto 27 is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-17T00:00:31.000Z",
-      "snippet": "Amazon Corretto 27, a Feature Release (FR) version, is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. You can download Corretto 27 for Linux, Windows, and macOS from our downloads page.…"
     }
   ]
 }
