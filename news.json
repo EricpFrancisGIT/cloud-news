@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-23T17:02:02.297Z",
+  "lastUpdated": "2026-09-23T23:02:23.802Z",
   "items": [
+    {
+      "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-23T17:41:00.000Z",
+      "snippet": "AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce knowledge articles and Zendesk articles and community posts…"
+    },
+    {
+      "title": "Amazon Connect Customer now provides routing step data in the analytics data lake",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-23T16:00:00.000Z",
+      "snippet": "Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can leverage Amazon Athena and Amazon Quick to analyze trends, such…"
+    },
     {
       "title": "Supporting ASD’s multi-factor authentication campaign: Why MFA matters more than ever",
       "link": "https://aws.amazon.com/blogs/security/supporting-asds-multi-factor-authentication-campaign-why-mfa-matters-more-than-ever/",
@@ -79,13 +93,6 @@
       "snippet": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted discovery capabilities beyond AWS, enabling central security teams…"
     },
     {
-      "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T08:00:00.000Z",
-      "snippet": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules with full coverage across every column, with no manual…"
-    },
-    {
       "title": "Amazon EMR 7.14 is now available",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
       "source": "AWS What's New",
@@ -93,11 +100,25 @@
       "snippet": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also upgrades Apache Spark to 3.5.8 and Apache Iceberg to 1.10.1.…"
     },
     {
+      "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-22T08:00:00.000Z",
+      "snippet": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules with full coverage across every column, with no manual…"
+    },
+    {
       "title": "Amazon RDS Custom now supports the latest CU for Microsoft SQL Server",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
       "source": "AWS What's New",
       "pubDate": "2026-09-22T07:30:00.000Z",
       "snippet": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for SQL Server 2022 CU26 KB5093420 (RDS version 16.00.4265.3.v1). Amazon RDS Custom…"
+    },
+    {
+      "title": "Amazon Connect Customer launches agent-to-agent collaboration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/Amazon-Connect-Customer-A2A",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-22T04:00:00.000Z",
+      "snippet": "Amazon Connect Customer now supports agent-to-agent collaboration, giving customers the choice to bring in specialized AI agents during a live interaction to resolve a customer request. With this launch, Connect Customer AI agents can collaborate with each…"
     },
     {
       "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-18T15:00:00.000Z",
       "snippet": "Amazon Simple Notification Service (Amazon SNS) now supports message payloads up to 1 MiB, a 4x increase from the previous 256 KiB limit, so you can publish larger messages to your SNS topics. Amazon SNS is a fully managed pub/sub messaging service that…"
-    },
-    {
-      "title": "How CSIRO built scalable, cost-optimized genomic variant querying on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-18T14:35:42.000Z",
-      "snippet": "Learn how researchers at CSIRO, Australia's national science agency, built Serverless Beacon (sBeacon), a scalable serverless solution for securely querying genomic variant data on AWS. sBeacon implements the GA4GH Beacon standard using Amazon S3, AWS Lambda,…"
-    },
-    {
-      "title": "The new AgentCore Runtime is now available in Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T13:25:00.000Z",
-      "snippet": "Today, AWS announces the availability of the next generation of AgentCore Runtime, the serverless microVM compute within Amazon Bedrock AgentCore. The new Runtime delivers elastic memory management that reclaims unused memory throughout the session so you pay…"
-    },
-    {
-      "title": "AWS PrivateLink announces Tunnel Endpoints to access network segments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T07:00:00.000Z",
-      "snippet": "AWS PrivateLink customers can now use VPC endpoint to privately and securely access network segments in another VPC/account. They can use a ‘tunnel’ endpoint, a new type of VPC endpoint, to tunnel into the network segment and access resources located within…"
     }
   ]
 }
