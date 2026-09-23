@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-23T11:01:40.572Z",
+  "lastUpdated": "2026-09-23T17:02:02.297Z",
   "items": [
+    {
+      "title": "Supporting ASD’s multi-factor authentication campaign: Why MFA matters more than ever",
+      "link": "https://aws.amazon.com/blogs/security/supporting-asds-multi-factor-authentication-campaign-why-mfa-matters-more-than-ever/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-23T14:45:44.000Z",
+      "snippet": "The Australian Signals Directorate (ASD) has this month issued a clear call to action through its Multi-factor authentication: Switch it on campaign, urging businesses, organisations, and individuals to enable multi-factor authentication (MFA) across their…"
+    },
     {
       "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-18T07:00:00.000Z",
       "snippet": "AWS PrivateLink customers can now use VPC endpoint to privately and securely access network segments in another VPC/account. They can use a ‘tunnel’ endpoint, a new type of VPC endpoint, to tunnel into the network segment and access resources located within…"
-    },
-    {
-      "title": "Run open weight models on Amazon Bedrock in AWS European Sovereign Cloud",
-      "link": "https://aws.amazon.com/blogs/security/run-open-weight-models-on-aws-bedrock-in-aws-european-sovereign-cloud/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-17T21:19:20.000Z",
-      "snippet": "European organizations can run AI workloads on Amazon Web Services (AWS) while keeping data within the European Union (EU) and meeting regulatory requirements. You can now run generative AI workloads on open weight models on Amazon Bedrock in the AWS European…"
     }
   ]
 }
