@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-22T23:01:00.832Z",
+  "lastUpdated": "2026-09-23T05:01:19.590Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-23T00:06:00.000Z",
+      "snippet": "AWS announces the general availability of Amazon CloudWatch Omni, an evolution of Amazon CloudWatch. Omni is an AI-powered observability experience organized around your teams and the applications they run, so that you can observe and troubleshoot your…"
+    },
     {
       "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
       "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
@@ -58,11 +65,25 @@
       "snippet": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts, providing local, managed recursive DNS resolution directly on your Outpost. DNS queries from workloads running on your Outpost are resolved locally, reducing latency and…"
     },
     {
+      "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-22T08:00:00.000Z",
+      "snippet": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of support. Amazon EMR provides LTS releases with fixes for…"
+    },
+    {
       "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
       "source": "AWS What's New",
       "pubDate": "2026-09-22T08:00:00.000Z",
       "snippet": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules with full coverage across every column, with no manual…"
+    },
+    {
+      "title": "Amazon EMR 7.14 is now available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-22T08:00:00.000Z",
+      "snippet": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also upgrades Apache Spark to 3.5.8 and Apache Iceberg to 1.10.1.…"
     },
     {
       "title": "Amazon RDS Custom now supports the latest CU for Microsoft SQL Server",
@@ -189,27 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-09-17T21:19:20.000Z",
       "snippet": "European organizations can run AI workloads on Amazon Web Services (AWS) while keeping data within the European Union (EU) and meeting regulatory requirements. You can now run generative AI workloads on open weight models on Amazon Bedrock in the AWS European…"
-    },
-    {
-      "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
-      "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-17T21:11:48.000Z",
-      "snippet": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price…"
-    },
-    {
-      "title": "AWS Elastic Beanstalk introduces Cluster Mode",
-      "link": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-17T19:20:21.000Z",
-      "snippet": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the environment that runs…"
-    },
-    {
-      "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-17T19:00:00.000Z",
-      "snippet": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted endpoint. You can now retain visibility of the client's source IP…"
     }
   ]
 }
