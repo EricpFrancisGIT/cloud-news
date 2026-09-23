@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T05:01:19.590Z",
+  "lastUpdated": "2026-09-23T11:01:40.572Z",
   "items": [
     {
       "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
@@ -51,11 +51,11 @@
       "snippet": "AWS now offers Claude Opus 5.5, Anthropic’s most capable Opus model yet and, the first of the Claude 5.5 model family, a better collaborator that handles long-running coding and knowledge work, reporting back clearly on what it did, what it found, and what it…"
     },
     {
-      "title": "AWS Security Hub AI Inventory adds Azure self-hosted instance support",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
+      "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
       "source": "AWS What's New",
       "pubDate": "2026-09-22T08:00:00.000Z",
-      "snippet": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted discovery capabilities beyond AWS, enabling central security teams…"
+      "snippet": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of support. Amazon EMR provides LTS releases with fixes for…"
     },
     {
       "title": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts racks",
@@ -65,11 +65,11 @@
       "snippet": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts, providing local, managed recursive DNS resolution directly on your Outpost. DNS queries from workloads running on your Outpost are resolved locally, reducing latency and…"
     },
     {
-      "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
+      "title": "AWS Security Hub AI Inventory adds Azure self-hosted instance support",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
       "source": "AWS What's New",
       "pubDate": "2026-09-22T08:00:00.000Z",
-      "snippet": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of support. Amazon EMR provides LTS releases with fixes for…"
+      "snippet": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted discovery capabilities beyond AWS, enabling central security teams…"
     },
     {
       "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
