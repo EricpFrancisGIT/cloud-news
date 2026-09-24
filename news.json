@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-23T23:02:23.802Z",
+  "lastUpdated": "2026-09-24T05:02:44.681Z",
   "items": [
+    {
+      "title": "ICYMI: August 2026 @AWS Security",
+      "link": "https://aws.amazon.com/blogs/security/icymi-august-2026-aws-security/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-23T23:07:36.000Z",
+      "snippet": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts August brought 20 AWS…"
+    },
+    {
+      "title": "Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-23T22:51:00.000Z",
+      "snippet": "Amazon Kinesis Data Streams now supports service-managed partition keys for On-Demand Standard and On-Demand Advantage streams, automatically distributing records across shards without requiring customers to specify partition keys to publish data. This…"
+    },
     {
       "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
@@ -16,11 +30,25 @@
       "snippet": "Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can leverage Amazon Athena and Amazon Quick to analyze trends, such…"
     },
     {
+      "title": "Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-23T15:00:00.000Z",
+      "snippet": "Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams to run open-source big data frameworks such as Apache Spark…"
+    },
+    {
       "title": "Supporting ASD’s multi-factor authentication campaign: Why MFA matters more than ever",
       "link": "https://aws.amazon.com/blogs/security/supporting-asds-multi-factor-authentication-campaign-why-mfa-matters-more-than-ever/",
       "source": "AWS Security Blog",
       "pubDate": "2026-09-23T14:45:44.000Z",
       "snippet": "The Australian Signals Directorate (ASD) has this month issued a clear call to action through its Multi-factor authentication: Switch it on campaign, urging businesses, organisations, and individuals to enable multi-factor authentication (MFA) across their…"
+    },
+    {
+      "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports additional AWS Regions and cross-continent configurations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-23T08:00:00.000Z",
+      "snippet": "Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore), bringing the…"
     },
     {
       "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
@@ -93,18 +121,18 @@
       "snippet": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted discovery capabilities beyond AWS, enabling central security teams…"
     },
     {
-      "title": "Amazon EMR 7.14 is now available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T08:00:00.000Z",
-      "snippet": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also upgrades Apache Spark to 3.5.8 and Apache Iceberg to 1.10.1.…"
-    },
-    {
       "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
       "source": "AWS What's New",
       "pubDate": "2026-09-22T08:00:00.000Z",
       "snippet": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules with full coverage across every column, with no manual…"
+    },
+    {
+      "title": "Amazon EMR 7.14 is now available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-22T08:00:00.000Z",
+      "snippet": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also upgrades Apache Spark to 3.5.8 and Apache Iceberg to 1.10.1.…"
     },
     {
       "title": "Amazon RDS Custom now supports the latest CU for Microsoft SQL Server",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-18T16:49:00.000Z",
       "snippet": "The next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running on AWS. It provides automated dependency discovery,…"
-    },
-    {
-      "title": "Amazon EC2 I7ie instances now available in AWS Israel region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-i7ie-instances-israel-telaviv-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T16:00:00.000Z",
-      "snippet": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Israel (Tel Aviv) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of…"
-    },
-    {
-      "title": "AWS RTB Fabric now supports configurable Availability Zone affinity",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T15:30:00.000Z",
-      "snippet": "AWS RTB Fabric now supports configurable Availability Zone (AZ) affinity for responder gateways. With this capability, you can configure how your partners connect to your responder gateway: either in their own Availability Zone or to any Availability Zone…"
-    },
-    {
-      "title": "Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T15:15:00.000Z",
-      "snippet": "Amazon Bedrock continues to expand its open weight model portfolio with the same security and governance that customers rely on. Today, Kimi K3 from Moonshot AI is generally available on Amazon Bedrock, giving you a powerful new option for coding and…"
-    },
-    {
-      "title": "Amazon SNS now supports message payloads up to 1 MiB",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T15:00:00.000Z",
-      "snippet": "Amazon Simple Notification Service (Amazon SNS) now supports message payloads up to 1 MiB, a 4x increase from the previous 256 KiB limit, so you can publish larger messages to your SNS topics. Amazon SNS is a fully managed pub/sub messaging service that…"
     }
   ]
 }
