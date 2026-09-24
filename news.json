@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-09-24T17:03:26.095Z",
+  "lastUpdated": "2026-09-24T23:03:54.771Z",
   "items": [
+    {
+      "title": "Amazon EventBridge relaunches event buses for enterprise scale",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T21:00:00.000Z",
+      "snippet": "Amazon EventBridge relaunches event buses with a new enhanced Custom event bus that lets you build event-driven applications that decouple teams and can scale with your organization. Create a custom event bus, share it across accounts, and now teams can…"
+    },
+    {
+      "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-24T20:58:46.000Z",
+      "snippet": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees, a simplified…"
+    },
+    {
+      "title": "AWS Lambda durable functions are now available in AWS European Sovereign Cloud region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T18:29:00.000Z",
+      "snippet": "AWS Lambda durable functions are now available in the AWS European Sovereign Cloud. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lambda developer experience. Lambda durable functions extend…"
+    },
     {
       "title": "Amazon RDS for MySQL announces Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
@@ -9,11 +30,60 @@
       "snippet": "Amazon Relational Database Service (RDS) for MySQL announces Amazon RDS Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908. Amazon RDS Extended Support provides up to three additional years of fixes for critical Common Vulnerabilities…"
     },
     {
+      "title": "Amazon RDS for PostgreSQL now supports PostgreSQL 19 Beta 4 in the Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T16:00:00.000Z",
+      "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Beta 4 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 4 refines the query performance and…"
+    },
+    {
       "title": "Amazon RDS for PostgreSQL now supports post-quantum TLS key exchange",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
       "source": "AWS What's New",
       "pubDate": "2026-09-24T16:00:00.000Z",
       "snippet": "Starting today, Amazon RDS for PostgreSQL introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. RDS for PostgreSQL versions 18 and higher support modification…"
+    },
+    {
+      "title": "AWS Network Security Manager is now generally available in US East (N. Virginia) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T15:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS…"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod Inference Gateway for scalable LLM inference",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T08:00:00.000Z",
+      "snippet": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing system that deploys as a single EKS managed add-on on existing SageMaker HyperPod infrastructure with zero application changes. By replacing unintelligent round-robin load…"
+    },
+    {
+      "title": "Run interactive workloads on Amazon EMR on EKS with Spark Connect",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-eks-spark-connect-interactive/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T08:00:00.000Z",
+      "snippet": "Amazon EMR on EKS now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed notebooks in Amazon SageMaker Unified Studio and their own IDEs,…"
+    },
+    {
+      "title": "Amazon GameLift Servers now available in 5 new regions and 8 Local Zones",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-gamelift-servers-region-expansion-2026",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T08:00:00.000Z",
+      "snippet": "Amazon GameLift Servers is a fully managed service for deploying, operating, and scaling dedicated game servers for multiplayer games. High latency caused by geographic distance between players and servers remains one of the most common challenges in…"
+    },
+    {
+      "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone…"
+    },
+    {
+      "title": "Amazon ElastiCache Global Datastore now supports tagging and tag-based access control",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T07:00:00.000Z",
+      "snippet": "Amazon ElastiCache now supports resource tagging and tag-based access control (TBAC) for Global Datastore. Previously, ElastiCache supported tagging on all resources except Global Datastore, which prevented customers from applying a single, consistent…"
     },
     {
       "title": "ICYMI: August 2026 @AWS Security",
@@ -135,81 +205,11 @@
       "snippet": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted discovery capabilities beyond AWS, enabling central security teams…"
     },
     {
-      "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T08:00:00.000Z",
-      "snippet": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules with full coverage across every column, with no manual…"
-    },
-    {
       "title": "Amazon EMR 7.14 is now available",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
       "source": "AWS What's New",
       "pubDate": "2026-09-22T08:00:00.000Z",
       "snippet": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also upgrades Apache Spark to 3.5.8 and Apache Iceberg to 1.10.1.…"
-    },
-    {
-      "title": "Amazon RDS Custom now supports the latest CU for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T07:30:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for SQL Server 2022 CU26 KB5093420 (RDS version 16.00.4265.3.v1). Amazon RDS Custom…"
-    },
-    {
-      "title": "Amazon Connect Customer launches agent-to-agent collaboration",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/Amazon-Connect-Customer-A2A",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T04:00:00.000Z",
-      "snippet": "Amazon Connect Customer now supports agent-to-agent collaboration, giving customers the choice to bring in specialized AI agents during a live interaction to resolve a customer request. With this launch, Connect Customer AI agents can collaborate with each…"
-    },
-    {
-      "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-21T20:05:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now provides real-time service deployment observability in the Amazon ECS Console for native Linear, Canary, and Blue/Green deployment strategies. With this launch, deployment monitoring and troubleshooting come…"
-    },
-    {
-      "title": "Amazon EVS now in scope for FedRAMP Class C",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-21T19:08:00.000Z",
-      "snippet": "The Amazon Elastic VMware Service (EVS) service is now in scope for FedRAMP Class C (formerly Moderate baseline) in all United States Regions. Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard…"
-    },
-    {
-      "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-21T16:11:24.000Z",
-      "snippet": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found myself…"
-    },
-    {
-      "title": "Transforming Bedrock Guardrails events into OCSF with CloudWatch",
-      "link": "https://aws.amazon.com/blogs/security/transforming-bedrock-guardrails-events-into-ocsf-with-cloudwatch/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-21T15:33:25.000Z",
-      "snippet": "Security teams investigating possible AI-related security events need guardrail intervention data alongside their existing security telemetry. When a guardrail identifies or blocks a prompt injection attempt or redacts sensitive data, that intervention…"
-    },
-    {
-      "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T22:16:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the South America (São Paulo) region. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the…"
-    },
-    {
-      "title": "ReadyOn’s Four Walls of tenant isolation on Amazon EKS",
-      "link": "https://aws.amazon.com/blogs/architecture/readyons-four-walls-of-tenant-isolation-on-amazon-eks/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-18T21:33:13.000Z",
-      "snippet": "ReadyOn runs a multi-tenant platform on Amazon EKS that handles highly sensitive enterprise data. This post describes their Four Walls model: four independent layers of tenant isolation combining Kubernetes namespaces, Karpenter node pools, Amazon VPC…"
-    },
-    {
-      "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T18:34:00.000Z",
-      "snippet": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real exploitability testing. Developers and security teams can now…"
     }
   ]
 }
