@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-24T11:03:13.380Z",
+  "lastUpdated": "2026-09-24T17:03:26.095Z",
   "items": [
+    {
+      "title": "Amazon RDS for MySQL announces Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T16:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (RDS) for MySQL announces Amazon RDS Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908. Amazon RDS Extended Support provides up to three additional years of fixes for critical Common Vulnerabilities…"
+    },
+    {
+      "title": "Amazon RDS for PostgreSQL now supports post-quantum TLS key exchange",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T16:00:00.000Z",
+      "snippet": "Starting today, Amazon RDS for PostgreSQL introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. RDS for PostgreSQL versions 18 and higher support modification…"
+    },
     {
       "title": "ICYMI: August 2026 @AWS Security",
       "link": "https://aws.amazon.com/blogs/security/icymi-august-2026-aws-security/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-18T18:34:00.000Z",
       "snippet": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real exploitability testing. Developers and security teams can now…"
-    },
-    {
-      "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T17:27:00.000Z",
-      "snippet": "Amazon Elastic Container Service Express Mode now supports specifying ARM64 as the CPU architecture for your service, making it easy to deploy ARM-based container images on AWS Graviton-powered compute and benefit from up to 40% better price-performance…"
-    },
-    {
-      "title": "AWS Resilience Hub adds three new capabilities",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-18T16:49:00.000Z",
-      "snippet": "The next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running on AWS. It provides automated dependency discovery,…"
     }
   ]
 }
