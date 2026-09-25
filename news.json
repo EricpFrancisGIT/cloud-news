@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-24T23:03:54.771Z",
+  "lastUpdated": "2026-09-25T05:04:15.964Z",
   "items": [
+    {
+      "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T00:58:00.000Z",
+      "snippet": "AWS Billing and Cost Management now offers the ListBillingViewSegments API, which returns the billing context of your account over a time period you specify. You can use the API to retrieve information about how your accounts are positioned in the billing…"
+    },
     {
       "title": "Amazon EventBridge relaunches event buses for enterprise scale",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
@@ -72,18 +79,18 @@
       "snippet": "Amazon GameLift Servers is a fully managed service for deploying, operating, and scaling dedicated game servers for multiplayer games. High latency caused by geographic distance between players and servers remains one of the most common challenges in…"
     },
     {
-      "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone…"
-    },
-    {
       "title": "Amazon ElastiCache Global Datastore now supports tagging and tag-based access control",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging/",
       "source": "AWS What's New",
       "pubDate": "2026-09-24T07:00:00.000Z",
       "snippet": "Amazon ElastiCache now supports resource tagging and tag-based access control (TBAC) for Global Datastore. Previously, ElastiCache supported tagging on all resources except Global Datastore, which prevented customers from applying a single, consistent…"
+    },
+    {
+      "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone…"
     },
     {
       "title": "ICYMI: August 2026 @AWS Security",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-22T08:00:00.000Z",
       "snippet": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted discovery capabilities beyond AWS, enabling central security teams…"
-    },
-    {
-      "title": "Amazon EMR 7.14 is now available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T08:00:00.000Z",
-      "snippet": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also upgrades Apache Spark to 3.5.8 and Apache Iceberg to 1.10.1.…"
     }
   ]
 }
