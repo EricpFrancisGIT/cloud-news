@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-25T11:04:36.811Z",
+  "lastUpdated": "2026-09-25T17:05:40.884Z",
   "items": [
+    {
+      "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T15:24:00.000Z",
+      "snippet": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and…"
+    },
+    {
+      "title": "AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T08:00:00.000Z",
+      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reliable DRS experience you already use for x86 workloads. As…"
+    },
     {
       "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-22T08:00:00.000Z",
       "snippet": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of support. Amazon EMR provides LTS releases with fixes for…"
-    },
-    {
-      "title": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts racks",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/route-53-resolver-gen2-outposts/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T08:00:00.000Z",
-      "snippet": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts, providing local, managed recursive DNS resolution directly on your Outpost. DNS queries from workloads running on your Outpost are resolved locally, reducing latency and…"
-    },
-    {
-      "title": "AWS Security Hub AI Inventory adds Azure self-hosted instance support",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T08:00:00.000Z",
-      "snippet": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted discovery capabilities beyond AWS, enabling central security teams…"
     }
   ]
 }
