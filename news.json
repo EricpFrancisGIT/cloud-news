@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-25T17:05:40.884Z",
+  "lastUpdated": "2026-09-25T23:05:58.134Z",
   "items": [
+    {
+      "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T19:19:00.000Z",
+      "snippet": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control. Previously, these custom resources were always encrypted with an AWS…"
+    },
+    {
+      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T17:54:00.000Z",
+      "snippet": "AWS Identity and Access Management (IAM) outbound identity federation now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OIDC discovery metadata and JSON Web Key Set (JWKS)…"
+    },
     {
       "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
@@ -14,6 +28,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-25T08:00:00.000Z",
       "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reliable DRS experience you already use for x86 workloads. As…"
+    },
+    {
+      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T07:00:00.000Z",
+      "snippet": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With WhatsApp voice calling, a conversation can move seamlessly…"
     },
     {
       "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-22T18:09:00.000Z",
       "snippet": "Today, AWS announces the general availability of GPT-6 Sol and GPT-6 Luna from OpenAI on Amazon Bedrock. Expanding the GPT-6 family alongside Astra, these two models give teams more ways to balance intelligence, speed, and cost across every workload. Sol is…"
-    },
-    {
-      "title": "Claude Opus 5.5 is now available on AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-opus-5-5-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T15:00:00.000Z",
-      "snippet": "AWS GovCloud (US) now offers Claude Opus 5.5, Anthropic’s most capable Opus model yet and, the first of the Claude 5.5 model family, a better collaborator that handles long-running coding and knowledge work, reporting back clearly on what it did, what it…"
-    },
-    {
-      "title": "Claude Opus 5.5 is now available on AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-opus-5-5-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T15:00:00.000Z",
-      "snippet": "AWS now offers Claude Opus 5.5, Anthropic’s most capable Opus model yet and, the first of the Claude 5.5 model family, a better collaborator that handles long-running coding and knowledge work, reporting back clearly on what it did, what it found, and what it…"
-    },
-    {
-      "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T08:00:00.000Z",
-      "snippet": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of support. Amazon EMR provides LTS releases with fixes for…"
     }
   ]
 }
