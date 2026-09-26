@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T17:06:56.819Z",
+  "lastUpdated": "2026-09-26T23:07:15.962Z",
   "items": [
     {
       "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
@@ -51,18 +51,18 @@
       "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reliable DRS experience you already use for x86 workloads. As…"
     },
     {
-      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T07:00:00.000Z",
-      "snippet": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With WhatsApp voice calling, a conversation can move seamlessly…"
-    },
-    {
       "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
       "source": "AWS What's New",
       "pubDate": "2026-09-25T07:00:00.000Z",
       "snippet": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, developers had to navigate multiple documentation pages and…"
+    },
+    {
+      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T07:00:00.000Z",
+      "snippet": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With WhatsApp voice calling, a conversation can move seamlessly…"
     },
     {
       "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
