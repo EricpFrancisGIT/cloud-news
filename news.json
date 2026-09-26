@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T23:05:58.134Z",
+  "lastUpdated": "2026-09-26T05:06:16.636Z",
   "items": [
     {
       "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
@@ -7,6 +7,27 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-25T19:19:00.000Z",
       "snippet": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control. Previously, these custom resources were always encrypted with an AWS…"
+    },
+    {
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T18:40:00.000Z",
+      "snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest…"
+    },
+    {
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T18:37:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the…"
+    },
+    {
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T18:09:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the…"
     },
     {
       "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
@@ -35,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-25T07:00:00.000Z",
       "snippet": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With WhatsApp voice calling, a conversation can move seamlessly…"
+    },
+    {
+      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-25T07:00:00.000Z",
+      "snippet": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, developers had to navigate multiple documentation pages and…"
     },
     {
       "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
@@ -182,34 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-23T00:06:00.000Z",
       "snippet": "AWS announces the general availability of Amazon CloudWatch Omni, an evolution of Amazon CloudWatch. Omni is an AI-powered observability experience organized around your teams and the applications they run, so that you can observe and troubleshoot your…"
-    },
-    {
-      "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
-      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-22T22:23:14.000Z",
-      "snippet": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and AI-guided investigation powered by AWS…"
-    },
-    {
-      "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
-      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-22T22:21:13.000Z",
-      "snippet": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly from your IDE or a standalone web experience—using open…"
-    },
-    {
-      "title": "Billing Transfer now supports automatic billing group creation for two-level transfers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T20:08:00.000Z",
-      "snippet": "AWS Billing Transfer users can now enable the Auto-Billing Transfer Billing Group Creation, a new AWS Billing Conductor preference that eliminates the manual billing group configuration in two-level billing transfer arrangements. Designed for AWS Distributors…"
-    },
-    {
-      "title": "OpenAI GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-22T18:09:00.000Z",
-      "snippet": "Today, AWS announces the general availability of GPT-6 Sol and GPT-6 Luna from OpenAI on Amazon Bedrock. Expanding the GPT-6 family alongside Astra, these two models give teams more ways to balance intelligence, speed, and cost across every workload. Sol is…"
     }
   ]
 }
