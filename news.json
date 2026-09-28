@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-28T11:09:21.353Z",
+  "lastUpdated": "2026-09-28T17:11:21.800Z",
   "items": [
+    {
+      "title": "AWS European Sovereign Cloud: Demonstrating an independent operation",
+      "link": "https://aws.amazon.com/blogs/security/aws-european-sovereign-cloud-demonstrating-an-independent-operation/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-09-28T17:05:12.000Z",
+      "snippet": "On Saturday, October 24, 2026 we will conduct an exercise, demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside of the European Union (EU). For several hours, the AWS European Sovereign Cloud will…"
+    },
+    {
+      "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-28T16:14:54.000Z",
+      "snippet": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latency?” That’s exactly what landed on…"
+    },
     {
       "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
@@ -142,18 +156,18 @@
       "snippet": "Amazon GameLift Servers is a fully managed service for deploying, operating, and scaling dedicated game servers for multiplayer games. High latency caused by geographic distance between players and servers remains one of the most common challenges in…"
     },
     {
-      "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone…"
-    },
-    {
       "title": "Amazon ElastiCache Global Datastore now supports tagging and tag-based access control",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging/",
       "source": "AWS What's New",
       "pubDate": "2026-09-24T07:00:00.000Z",
       "snippet": "Amazon ElastiCache now supports resource tagging and tag-based access control (TBAC) for Global Datastore. Previously, ElastiCache supported tagging on all resources except Global Datastore, which prevented customers from applying a single, consistent…"
+    },
+    {
+      "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-24T07:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone…"
     },
     {
       "title": "ICYMI: August 2026 @AWS Security",
@@ -196,20 +210,6 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-09-23T14:45:44.000Z",
       "snippet": "The Australian Signals Directorate (ASD) has this month issued a clear call to action through its Multi-factor authentication: Switch it on campaign, urging businesses, organisations, and individuals to enable multi-factor authentication (MFA) across their…"
-    },
-    {
-      "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports additional AWS Regions and cross-continent configurations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-23T08:00:00.000Z",
-      "snippet": "Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore), bringing the…"
-    },
-    {
-      "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-23T00:06:00.000Z",
-      "snippet": "AWS announces the general availability of Amazon CloudWatch Omni, an evolution of Amazon CloudWatch. Omni is an AI-powered observability experience organized around your teams and the applications they run, so that you can observe and troubleshoot your…"
     }
   ]
 }
