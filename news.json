@@ -1,12 +1,33 @@
 {
-  "lastUpdated": "2026-09-28T17:11:21.800Z",
+  "lastUpdated": "2026-09-28T23:11:09.255Z",
   "items": [
+    {
+      "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T21:17:00.000Z",
+      "snippet": "Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change before delivery, you can now postpone your start date to match…"
+    },
+    {
+      "title": "Amazon Rekognition Face Liveness now returns Feedback Codes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T20:41:00.000Z",
+      "snippet": "Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check received a low score and how users could retry successfully. The codes are returned in the GetFaceLivenessSessionResults API response, and they…"
+    },
+    {
+      "title": "Grok 4.7 is now available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T18:29:00.000Z",
+      "snippet": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale…"
+    },
     {
       "title": "AWS European Sovereign Cloud: Demonstrating an independent operation",
       "link": "https://aws.amazon.com/blogs/security/aws-european-sovereign-cloud-demonstrating-an-independent-operation/",
       "source": "AWS Security Blog",
       "pubDate": "2026-09-28T17:05:12.000Z",
-      "snippet": "On Saturday, October 24, 2026 we will conduct an exercise, demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside of the European Union (EU). For several hours, the AWS European Sovereign Cloud will…"
+      "snippet": "On Saturday, October 24, 2026, we will conduct an exercise demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside of the European Union (EU). For several hours, the AWS European Sovereign Cloud will…"
     },
     {
       "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
@@ -14,6 +35,34 @@
       "source": "AWS News Blog",
       "pubDate": "2026-09-28T16:14:54.000Z",
       "snippet": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latency?” That’s exactly what landed on…"
+    },
+    {
+      "title": "Claude Sonnet 5.5 now available on AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T15:00:00.000Z",
+      "snippet": "AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed. Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step…"
+    },
+    {
+      "title": "Claude Sonnet 5.5 now available on AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T15:00:00.000Z",
+      "snippet": "AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag faster speed. Claude Sonnet 5.5 is a smarter, more efficient…"
+    },
+    {
+      "title": "Amazon Corretto September 2026 Patch Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-sept-2026-updates/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T14:00:00.000Z",
+      "snippet": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0.20.12.1, and 11.0.32.12.1 are now available for download.…"
+    },
+    {
+      "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T08:00:00.000Z",
+      "snippet": "AWS Backup logically air-gapped vault now supports Amazon FSx for NetApp ONTAP. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce…"
     },
     {
       "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
@@ -156,60 +205,11 @@
       "snippet": "Amazon GameLift Servers is a fully managed service for deploying, operating, and scaling dedicated game servers for multiplayer games. High latency caused by geographic distance between players and servers remains one of the most common challenges in…"
     },
     {
-      "title": "Amazon ElastiCache Global Datastore now supports tagging and tag-based access control",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T07:00:00.000Z",
-      "snippet": "Amazon ElastiCache now supports resource tagging and tag-based access control (TBAC) for Global Datastore. Previously, ElastiCache supported tagging on all resources except Global Datastore, which prevented customers from applying a single, consistent…"
-    },
-    {
       "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
       "source": "AWS What's New",
       "pubDate": "2026-09-24T07:00:00.000Z",
       "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone…"
-    },
-    {
-      "title": "ICYMI: August 2026 @AWS Security",
-      "link": "https://aws.amazon.com/blogs/security/icymi-august-2026-aws-security/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-23T23:07:36.000Z",
-      "snippet": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts August brought 20 AWS…"
-    },
-    {
-      "title": "Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-23T22:51:00.000Z",
-      "snippet": "Amazon Kinesis Data Streams now supports service-managed partition keys for On-Demand Standard and On-Demand Advantage streams, automatically distributing records across shards without requiring customers to specify partition keys to publish data. This…"
-    },
-    {
-      "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-23T17:41:00.000Z",
-      "snippet": "AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce knowledge articles and Zendesk articles and community posts…"
-    },
-    {
-      "title": "Amazon Connect Customer now provides routing step data in the analytics data lake",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-23T16:00:00.000Z",
-      "snippet": "Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can leverage Amazon Athena and Amazon Quick to analyze trends, such…"
-    },
-    {
-      "title": "Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-23T15:00:00.000Z",
-      "snippet": "Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams to run open-source big data frameworks such as Apache Spark…"
-    },
-    {
-      "title": "Supporting ASD’s multi-factor authentication campaign: Why MFA matters more than ever",
-      "link": "https://aws.amazon.com/blogs/security/supporting-asds-multi-factor-authentication-campaign-why-mfa-matters-more-than-ever/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-23T14:45:44.000Z",
-      "snippet": "The Australian Signals Directorate (ASD) has this month issued a clear call to action through its Multi-factor authentication: Switch it on campaign, urging businesses, organisations, and individuals to enable multi-factor authentication (MFA) across their…"
     }
   ]
 }
