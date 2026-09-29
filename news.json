@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T23:11:09.255Z",
+  "lastUpdated": "2026-09-29T05:11:30.403Z",
   "items": [
     {
       "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
@@ -56,6 +56,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-28T14:00:00.000Z",
       "snippet": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0.20.12.1, and 11.0.32.12.1 are now available for download.…"
+    },
+    {
+      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T08:00:00.000Z",
+      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes, 5 new aggregation stages, and change stream enhancements starting from minor version 8.0.2. This release expands MongoDB API compatibility and improves query performance, making it…"
+    },
+    {
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T08:00:00.000Z",
+      "snippet": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes…"
     },
     {
       "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-24T08:00:00.000Z",
       "snippet": "Amazon EMR on EKS now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed notebooks in Amazon SageMaker Unified Studio and their own IDEs,…"
-    },
-    {
-      "title": "Amazon GameLift Servers now available in 5 new regions and 8 Local Zones",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-gamelift-servers-region-expansion-2026",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T08:00:00.000Z",
-      "snippet": "Amazon GameLift Servers is a fully managed service for deploying, operating, and scaling dedicated game servers for multiplayer games. High latency caused by geographic distance between players and servers remains one of the most common challenges in…"
-    },
-    {
-      "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T07:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone…"
     }
   ]
 }
