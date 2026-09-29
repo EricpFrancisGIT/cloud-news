@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-29T11:11:48.728Z",
+  "lastUpdated": "2026-09-29T17:12:50.776Z",
   "items": [
+    {
+      "title": "Build adaptive AI interfaces with the AG-UI protocol, agent swarms, and Nova Act on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/build-adaptive-ai-interfaces-with-the-ag-ui-protocol-agent-swarms-and-nova-act-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-29T13:44:23.000Z",
+      "snippet": "Learn how to build AI interfaces that automatically adapt to your agents' variable outputs, using the AG-UI protocol for dynamic UI generation, the Strands Agents SDK swarm pattern for explainable multi-agent collaboration, and Amazon Nova Act to integrate…"
+    },
+    {
+      "title": "AWS Systems Manager now supports sharing documents through AWS Resource Access Manager",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-sharing-documents-ram/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T08:00:00.000Z",
+      "snippet": "AWS Systems Manager now lets you share your Systems Manager Documents (SSM Documents) with an entire AWS organization or with specific organizational units (OUs) using AWS Resource Access Manager (AWS RAM). Previously, you could only share a document publicly…"
+    },
     {
       "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-24T15:00:00.000Z",
       "snippet": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS…"
-    },
-    {
-      "title": "Amazon SageMaker HyperPod Inference Gateway for scalable LLM inference",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T08:00:00.000Z",
-      "snippet": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing system that deploys as a single EKS managed add-on on existing SageMaker HyperPod infrastructure with zero application changes. By replacing unintelligent round-robin load…"
-    },
-    {
-      "title": "Run interactive workloads on Amazon EMR on EKS with Spark Connect",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-eks-spark-connect-interactive/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T08:00:00.000Z",
-      "snippet": "Amazon EMR on EKS now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed notebooks in Amazon SageMaker Unified Studio and their own IDEs,…"
     }
   ]
 }
