@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-09-29T17:12:50.776Z",
+  "lastUpdated": "2026-09-29T23:13:14.106Z",
   "items": [
+    {
+      "title": "Amazon RDS now adds full snapshot size information to the Console and API",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T21:00:23.000Z",
+      "snippet": "Amazon RDS now displays the full snapshot size for RDS Snapshots. With this enhancement, customers can now retrieve full snapshot sizes programmatically through the DescribeDBSnapshots API using the new field, ‘FullSnapshotSizeInBytes’. They can also view…"
+    },
+    {
+      "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T20:17:00.000Z",
+      "snippet": "Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer use, and professional work. According to OpenAI, it…"
+    },
+    {
+      "title": "Amazon Connect Customer now lets business users manage more reference data to adjust contact center configurations in real time",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-manage-data-tables/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now lets administrators store more of the reference data that drives their contact center configurations. Administrators can now use data tables to hold up to 20,000 values per table for defining configurations such as operating hours,…"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications introduces unified graphics images",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T17:00:00.000Z",
+      "snippet": "Today, Amazon WorkSpaces Applications announces unified graphics images, a single image type that works across all supported graphics instance families, including G4dn, G5, G6, and G7. Previously, each graphics generation required its own dedicated image. Now…"
+    },
+    {
+      "title": "AWS Service Availability Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T16:21:00.000Z",
+      "snippet": "We're announcing availability changes to the following AWS services and features. Services moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting October 29, 2026. Customers already using these services and…"
+    },
+    {
+      "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514 and 11.22-rds.20260514",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-postgresql-extended-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T16:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514, and 11.22-rds.20260514. Amazon RDS Extended Support provides up to three additional years of fixes for…"
+    },
+    {
+      "title": "Amazon Aurora now supports PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-postgresql-18-6-17-11-16-15-15-19-14-24/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T16:00:00.000Z",
+      "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.6, 17.11, 16.15, 15.19, and 14.24, which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to…"
+    },
     {
       "title": "Build adaptive AI interfaces with the AG-UI protocol, agent swarms, and Nova Act on AWS",
       "link": "https://aws.amazon.com/blogs/architecture/build-adaptive-ai-interfaces-with-the-ag-ui-protocol-agent-swarms-and-nova-act-on-aws/",
@@ -14,6 +63,34 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-29T08:00:00.000Z",
       "snippet": "AWS Systems Manager now lets you share your Systems Manager Documents (SSM Documents) with an entire AWS organization or with specific organizational units (OUs) using AWS Resource Access Manager (AWS RAM). Previously, you could only share a document publicly…"
+    },
+    {
+      "title": "AWS DataSync now supports shared VPCs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-datasync-shared-vpcs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T08:00:00.000Z",
+      "snippet": "AWS DataSync now supports shared Virtual Private Clouds (VPCs). You can create DataSync agents and run transfer tasks using subnets shared across AWS accounts with AWS Resource Access Manager (RAM). It allows you to transfer data privately over a shared…"
+    },
+    {
+      "title": "AWS Transfer Family now supports downloading multiple files and folders in web apps",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-web-apps-download-multiple-files-folders",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T08:00:00.000Z",
+      "snippet": "AWS Transfer Family now lets web app users download multiple files and folders at once. End users can select any combination of files and folders and download them together in a single action. The download is delivered as a zip archive that preserves the…"
+    },
+    {
+      "title": "Amazon ElastiCache Serverless for Valkey now supports public endpoints",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-serverless-public-endpoints/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T07:00:00.000Z",
+      "snippet": "Amazon ElastiCache Serverless for Valkey now supports public endpoints, letting you connect to your cache directly from a laptop, a serverless function, or any application running outside AWS, without setting up a VPN, a bastion host, or an SSH tunnel. With a…"
+    },
+    {
+      "title": "Amazon Route 53 Resolver DNS Firewall support for Palo Alto Networks Advanced DNS Security is now Generally Available (GA)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/route-53-dns-firewall-panw-dns-security-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T01:03:00.000Z",
+      "snippet": "​​Amazon Route 53 Resolver DNS Firewall support for Palo Alto Networks (PANW) Advanced DNS Security is now generally available across 32 AWS Regions, allowing security teams to detect and block malicious DNS traffic directly from their VPCs using PANW…"
     },
     {
       "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
@@ -86,6 +163,13 @@
       "snippet": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes…"
     },
     {
+      "title": "Amazon SageMaker Unified Studio now supports two new connection capabilities: Iceberg REST Catalog connections and IAM authentication for Amazon DocumentDB",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-iceberg-rest-iam-documentdb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T08:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports two new connection capabilities: (1) Iceberg REST Catalog (IRC) connections for external Apache Iceberg catalogs, and (2) IAM authentication for Amazon DocumentDB. Together, they let data teams connect to a broader…"
+    },
+    {
       "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
       "source": "AWS What's New",
@@ -126,90 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-25T17:54:00.000Z",
       "snippet": "AWS Identity and Access Management (IAM) outbound identity federation now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OIDC discovery metadata and JSON Web Key Set (JWKS)…"
-    },
-    {
-      "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T15:24:00.000Z",
-      "snippet": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and…"
-    },
-    {
-      "title": "AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T08:00:00.000Z",
-      "snippet": "AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reliable DRS experience you already use for x86 workloads. As…"
-    },
-    {
-      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T07:00:00.000Z",
-      "snippet": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, developers had to navigate multiple documentation pages and…"
-    },
-    {
-      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T07:00:00.000Z",
-      "snippet": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With WhatsApp voice calling, a conversation can move seamlessly…"
-    },
-    {
-      "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T00:58:00.000Z",
-      "snippet": "AWS Billing and Cost Management now offers the ListBillingViewSegments API, which returns the billing context of your account over a time period you specify. You can use the API to retrieve information about how your accounts are positioned in the billing…"
-    },
-    {
-      "title": "Amazon EventBridge relaunches event buses for enterprise scale",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T21:00:00.000Z",
-      "snippet": "Amazon EventBridge relaunches event buses with a new enhanced Custom event bus that lets you build event-driven applications that decouple teams and can scale with your organization. Create a custom event bus, share it across accounts, and now teams can…"
-    },
-    {
-      "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
-      "link": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-24T20:58:46.000Z",
-      "snippet": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees, a simplified…"
-    },
-    {
-      "title": "AWS Lambda durable functions are now available in AWS European Sovereign Cloud region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T18:29:00.000Z",
-      "snippet": "AWS Lambda durable functions are now available in the AWS European Sovereign Cloud. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lambda developer experience. Lambda durable functions extend…"
-    },
-    {
-      "title": "Amazon RDS for MySQL announces Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T16:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (RDS) for MySQL announces Amazon RDS Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908. Amazon RDS Extended Support provides up to three additional years of fixes for critical Common Vulnerabilities…"
-    },
-    {
-      "title": "Amazon RDS for PostgreSQL now supports PostgreSQL 19 Beta 4 in the Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T16:00:00.000Z",
-      "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Beta 4 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 4 refines the query performance and…"
-    },
-    {
-      "title": "Amazon RDS for PostgreSQL now supports post-quantum TLS key exchange",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T16:00:00.000Z",
-      "snippet": "Starting today, Amazon RDS for PostgreSQL introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. RDS for PostgreSQL versions 18 and higher support modification…"
-    },
-    {
-      "title": "AWS Network Security Manager is now generally available in US East (N. Virginia) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-24T15:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS…"
     }
   ]
 }
