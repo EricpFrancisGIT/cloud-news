@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-09-29T23:13:14.106Z",
+  "lastUpdated": "2026-09-30T05:13:35.316Z",
   "items": [
+    {
+      "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T21:10:00.000Z",
+      "snippet": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely…"
+    },
     {
       "title": "Amazon RDS now adds full snapshot size information to the Console and API",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/",
@@ -49,6 +56,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-29T16:00:00.000Z",
       "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.6, 17.11, 16.15, 15.19, and 14.24, which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to…"
+    },
+    {
+      "title": "Amazon Bedrock expands Claude model availability to India, South Korea, and Singapore",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-in-sk/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T15:41:00.000Z",
+      "snippet": "We're excited to announce the availability of Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 on Amazon Bedrock in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, as well as Claude Sonnet 5 in Singapore. Customers who need to process…"
+    },
+    {
+      "title": "AWS Transform now supports Apache Kafka migration assessments for Amazon MSK",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-msk-migration-assessment-with-aws-transform",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T15:00:00.000Z",
+      "snippet": "You can now use AWS Transform agentic migration assessments to evaluate the migration of on-premises Apache Kafka clusters to Amazon Managed Streaming for Apache Kafka (Amazon MSK). AWS Transform migration assessments use agentic AI to analyze your workloads,…"
     },
     {
       "title": "Build adaptive AI interfaces with the AG-UI protocol, agent swarms, and Nova Act on AWS",
@@ -149,6 +170,13 @@
       "snippet": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0.20.12.1, and 11.0.32.12.1 are now available for download.…"
     },
     {
+      "title": "Amazon SageMaker Unified Studio now supports two new connection capabilities: Iceberg REST Catalog connections and IAM authentication for Amazon DocumentDB",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-iceberg-rest-iam-documentdb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T08:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports two new connection capabilities: (1) Iceberg REST Catalog (IRC) connections for external Apache Iceberg catalogs, and (2) IAM authentication for Amazon DocumentDB. Together, they let data teams connect to a broader…"
+    },
+    {
       "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
       "source": "AWS What's New",
@@ -161,13 +189,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-28T08:00:00.000Z",
       "snippet": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports two new connection capabilities: Iceberg REST Catalog connections and IAM authentication for Amazon DocumentDB",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-iceberg-rest-iam-documentdb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T08:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports two new connection capabilities: (1) Iceberg REST Catalog (IRC) connections for external Apache Iceberg catalogs, and (2) IAM authentication for Amazon DocumentDB. Together, they let data teams connect to a broader…"
     },
     {
       "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-25T18:40:00.000Z",
       "snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest…"
-    },
-    {
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T18:37:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the…"
-    },
-    {
-      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T18:09:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the…"
-    },
-    {
-      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T17:54:00.000Z",
-      "snippet": "AWS Identity and Access Management (IAM) outbound identity federation now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OIDC discovery metadata and JSON Web Key Set (JWKS)…"
     }
   ]
 }
