@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T05:13:35.316Z",
+  "lastUpdated": "2026-09-30T11:14:28.312Z",
   "items": [
     {
       "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
@@ -170,13 +170,6 @@
       "snippet": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0.20.12.1, and 11.0.32.12.1 are now available for download.…"
     },
     {
-      "title": "Amazon SageMaker Unified Studio now supports two new connection capabilities: Iceberg REST Catalog connections and IAM authentication for Amazon DocumentDB",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-iceberg-rest-iam-documentdb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T08:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports two new connection capabilities: (1) Iceberg REST Catalog (IRC) connections for external Apache Iceberg catalogs, and (2) IAM authentication for Amazon DocumentDB. Together, they let data teams connect to a broader…"
-    },
-    {
       "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
       "source": "AWS What's New",
@@ -189,6 +182,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-28T08:00:00.000Z",
       "snippet": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio now supports two new connection capabilities: Iceberg REST Catalog connections and IAM authentication for Amazon DocumentDB",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-iceberg-rest-iam-documentdb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T08:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports two new connection capabilities: (1) Iceberg REST Catalog (IRC) connections for external Apache Iceberg catalogs, and (2) IAM authentication for Amazon DocumentDB. Together, they let data teams connect to a broader…"
     },
     {
       "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
