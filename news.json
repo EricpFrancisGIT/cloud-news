@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-09-30T17:15:10.905Z",
+  "lastUpdated": "2026-09-30T23:15:34.085Z",
   "items": [
+    {
+      "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-30T22:10:00.000Z",
+      "snippet": "Amazon S3 Tables now offer complete support for the Apache Iceberg V3 spec. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility."
+    },
+    {
+      "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T20:16:00.000Z",
+      "snippet": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run aws agent-toolkit check-skill-updates to compare all installed…"
+    },
+    {
+      "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-30T20:03:34.000Z",
+      "snippet": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search."
+    },
+    {
+      "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T20:00:00.000Z",
+      "snippet": "Amazon S3 Vectors now supports pre-filtering, which evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for…"
+    },
+    {
+      "title": "Amazon Managed Grafana now supports creating Grafana 13.2 workspaces",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T19:30:00.000Z",
+      "snippet": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 13.2. This release brings features from open-source Grafana versions 13.0 to 13.2, including Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon…"
+    },
+    {
+      "title": "Running multi-day AZ evacuation drills with ARC Zonal Shift",
+      "link": "https://aws.amazon.com/blogs/architecture/running-multi-day-az-evacuation-drills-with-arc-zonal-shift/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-30T19:01:57.000Z",
+      "snippet": "Prove your multi-AZ architecture can sustain a real impairment. This post shows how to run a multi-day (48-72 hour) Availability Zone evacuation drill with ARC Zonal Shift across Amazon ECS, Amazon EKS, Amazon RDS for PostgreSQL, and Amazon Aurora PostgreSQL,…"
+    },
+    {
+      "title": "OpenAI GPT-6 Astra now supports UltraFast mode on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-ultrafast-on-amazon-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T19:00:00.000Z",
+      "snippet": "Today, AWS announces the availability of UltraFast mode for GPT-6 Astra from OpenAI on Amazon Bedrock. Ultrafast is a premium speed tier for GPT-6 Astra built for workloads where speed matters most. According to OpenAI, Ultrafast delivers up to 6x faster…"
+    },
+    {
+      "title": "AWS Parallel Computing Service now supports scaling logs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T19:00:00.000Z",
+      "snippet": "AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one compute node—for example, an instance launch, a node registration,…"
+    },
+    {
+      "title": "How MHK built a HIPAA-eligible agentic AI solution on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/architecture/how-mhk-built-a-hipaa-eligible-agentic-ai-solution-on-amazon-bedrock/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-09-30T18:30:24.000Z",
+      "snippet": "MHK built the SmartProminence AI Orchestrator, a HIPAA-eligible agentic workflow framework on AWS using Amazon Bedrock, Amazon ECS, and event-driven patterns. It reduced manual medical review effort by 90% and cut new AI feature deployment from months to…"
+    },
+    {
+      "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-16-acu-scaling/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T17:50:00.000Z",
+      "snippet": "Amazon Aurora serverless now scales in even larger steps, adding up to 16 ACUs to its current capacity within a second and continuing to scale up to 256 ACUs as your workload grows. With this launch, your workload will scale faster and reach capacity that it…"
+    },
+    {
+      "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-30T17:22:31.000Z",
+      "snippet": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables single queries that join…"
+    },
     {
       "title": "Celebrating Our Newest AWS Heroes – September 2026",
       "link": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
@@ -9,11 +86,88 @@
       "snippet": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real…"
     },
     {
+      "title": "Amazon Aurora and RDS now support AMD-based R8a instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-r8a/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T17:00:00.000Z",
+      "snippet": "Amazon Aurora and Amazon RDS now support R8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in R8a database instances corresponds to a physical CPU core, which delivers…"
+    },
+    {
+      "title": "Amazon RDS now supports AMD-based M8a instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-m8a/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T17:00:00.000Z",
+      "snippet": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in M8a database instances corresponds to a physical CPU core,…"
+    },
+    {
+      "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-postgresql-query-apache-iceberg-and-parquet/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T16:00:00.000Z",
+      "snippet": "Starting today, you can directly query operational data together with data stored in data lakes in Apache Iceberg and Parquet formats using your existing PostgreSQL applications and tools, without extract, transform, and load (ETL) pipelines or data…"
+    },
+    {
+      "title": "Amazon RDS for MySQL supports MySQL 26.7 in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-mysql-26-7-preview-environment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T16:00:00.000Z",
+      "snippet": "Starting today, Amazon RDS for MySQL 26.7 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of MySQL 26.7 on Amazon RDS for MySQL. MySQL 26.7 is the first Innovation release to adopt the new YY.M…"
+    },
+    {
       "title": "Uncover blind spots in AWS data plane operations with CloudTrail Event Coverage",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudtrail-event-coverage/",
       "source": "AWS What's New",
       "pubDate": "2026-09-30T16:00:00.000Z",
       "snippet": "AWS CloudTrail introduces Event Coverage, a new console experience that gives customers visibility into their data plane operations coverage at the account and organization level. You can now see which AWS services and resource types in your environment have…"
+    },
+    {
+      "title": "Partner Revenue Measurement adds Multi-Partner support to Resource Tagging",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/partner-revenue-measurement-multi-partner-resource-tagging",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T12:00:00.000Z",
+      "snippet": "Partner Revenue Measurement (PRM) provides measurement of AWS consumption driven by Partner solutions. Today, PRM adds multi-Partner support to Resource Tagging, so that multiple AWS Partners can receive revenue attribution for the same AWS resource.…"
+    },
+    {
+      "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T08:00:00.000Z",
+      "snippet": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file transfer needs grow without waiting for manual approval. The…"
+    },
+    {
+      "title": "AWS accounts now support phone number verification",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T08:00:00.000Z",
+      "snippet": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through an out-of-band mechanism. Now, customers can verify their…"
+    },
+    {
+      "title": "AWS IAM Identity Center Identity Store APIs now accept resource ARNs in addition to resource IDs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/iam-identity-center-apis-arns/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T08:00:00.000Z",
+      "snippet": "AWS IAM Identity Center's Identity Store APIs now accept the Amazon Resource Name (ARN) for a user, group, group membership, or identity store anywhere the APIs previously accepted the resource ID. ARN support is additive and existing integrations continue to…"
+    },
+    {
+      "title": "AWS Marketplace launches an AI agent skill for usage-based metering integration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/marketplace-ai-agent-metering/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T05:00:00.000Z",
+      "snippet": "AWS announces the general availability of the AWS Marketplace metering agent skill, an AI-guided experience that helps sellers build, deploy, and validate a usage-based (pay-as-you-go) SaaS metering integration from within their AI coding assistant. The skill…"
+    },
+    {
+      "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-tables-iceberg-v3-data-types",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T04:00:00.000Z",
+      "snippet": "Amazon S3 Tables add support for geometry, geography, unknown, and nanosecond timestamp data types, along with column default values, as defined in the Apache Iceberg Version 3 (V3) specification. You can now store geospatial coordinates and…"
+    },
+    {
+      "title": "AWS Deadline Cloud now supports expressions in job templates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-expressions-job-templates/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T21:55:00.000Z",
+      "snippet": "AWS Deadline Cloud now supports flexible expressions and rich parameter types in job templates, giving customers a cleaner, more powerful way to fit the service to existing production pipelines. Deadline Cloud is a fully managed service that helps teams run…"
     },
     {
       "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
@@ -28,6 +182,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-29T21:00:23.000Z",
       "snippet": "Amazon RDS now displays the full snapshot size for RDS Snapshots. With this enhancement, customers can now retrieve full snapshot sizes programmatically through the DescribeDBSnapshots API using the new field, ‘FullSnapshotSizeInBytes’. They can also view…"
+    },
+    {
+      "title": "AWS Deadline Cloud now supports ECS containers on Linux Service-Managed Fleets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-ecs-containers-linux-smf/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-29T20:18:00.000Z",
+      "snippet": "AWS Deadline Cloud now supports running jobs using Docker containers from Amazon Elastic Container Service (ECS) on Linux-based service-managed fleets. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for…"
     },
     {
       "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
@@ -49,167 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-29T17:00:00.000Z",
       "snippet": "Today, Amazon WorkSpaces Applications announces unified graphics images, a single image type that works across all supported graphics instance families, including G4dn, G5, G6, and G7. Previously, each graphics generation required its own dedicated image. Now…"
-    },
-    {
-      "title": "AWS Service Availability Updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T16:21:00.000Z",
-      "snippet": "We're announcing availability changes to the following AWS services and features. Services moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting October 29, 2026. Customers already using these services and…"
-    },
-    {
-      "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514 and 11.22-rds.20260514",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-postgresql-extended-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T16:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514, and 11.22-rds.20260514. Amazon RDS Extended Support provides up to three additional years of fixes for…"
-    },
-    {
-      "title": "Amazon Aurora now supports PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-postgresql-18-6-17-11-16-15-15-19-14-24/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T16:00:00.000Z",
-      "snippet": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.6, 17.11, 16.15, 15.19, and 14.24, which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to…"
-    },
-    {
-      "title": "Amazon Bedrock expands Claude model availability to India, South Korea, and Singapore",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-in-sk/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T15:41:00.000Z",
-      "snippet": "We're excited to announce the availability of Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 on Amazon Bedrock in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, as well as Claude Sonnet 5 in Singapore. Customers who need to process…"
-    },
-    {
-      "title": "AWS Transform now supports Apache Kafka migration assessments for Amazon MSK",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-msk-migration-assessment-with-aws-transform",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T15:00:00.000Z",
-      "snippet": "You can now use AWS Transform agentic migration assessments to evaluate the migration of on-premises Apache Kafka clusters to Amazon Managed Streaming for Apache Kafka (Amazon MSK). AWS Transform migration assessments use agentic AI to analyze your workloads,…"
-    },
-    {
-      "title": "Build adaptive AI interfaces with the AG-UI protocol, agent swarms, and Nova Act on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/build-adaptive-ai-interfaces-with-the-ag-ui-protocol-agent-swarms-and-nova-act-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-29T13:44:23.000Z",
-      "snippet": "Learn how to build AI interfaces that automatically adapt to your agents' variable outputs, using the AG-UI protocol for dynamic UI generation, the Strands Agents SDK swarm pattern for explainable multi-agent collaboration, and Amazon Nova Act to integrate…"
-    },
-    {
-      "title": "AWS Systems Manager now supports sharing documents through AWS Resource Access Manager",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-sharing-documents-ram/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T08:00:00.000Z",
-      "snippet": "AWS Systems Manager now lets you share your Systems Manager Documents (SSM Documents) with an entire AWS organization or with specific organizational units (OUs) using AWS Resource Access Manager (AWS RAM). Previously, you could only share a document publicly…"
-    },
-    {
-      "title": "AWS DataSync now supports shared VPCs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-datasync-shared-vpcs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T08:00:00.000Z",
-      "snippet": "AWS DataSync now supports shared Virtual Private Clouds (VPCs). You can create DataSync agents and run transfer tasks using subnets shared across AWS accounts with AWS Resource Access Manager (RAM). It allows you to transfer data privately over a shared…"
-    },
-    {
-      "title": "AWS Transfer Family now supports downloading multiple files and folders in web apps",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-web-apps-download-multiple-files-folders",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T08:00:00.000Z",
-      "snippet": "AWS Transfer Family now lets web app users download multiple files and folders at once. End users can select any combination of files and folders and download them together in a single action. The download is delivered as a zip archive that preserves the…"
-    },
-    {
-      "title": "Amazon ElastiCache Serverless for Valkey now supports public endpoints",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-serverless-public-endpoints/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T07:00:00.000Z",
-      "snippet": "Amazon ElastiCache Serverless for Valkey now supports public endpoints, letting you connect to your cache directly from a laptop, a serverless function, or any application running outside AWS, without setting up a VPN, a bastion host, or an SSH tunnel. With a…"
-    },
-    {
-      "title": "Amazon Route 53 Resolver DNS Firewall support for Palo Alto Networks Advanced DNS Security is now Generally Available (GA)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/route-53-dns-firewall-panw-dns-security-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T01:03:00.000Z",
-      "snippet": "​​Amazon Route 53 Resolver DNS Firewall support for Palo Alto Networks (PANW) Advanced DNS Security is now generally available across 32 AWS Regions, allowing security teams to detect and block malicious DNS traffic directly from their VPCs using PANW…"
-    },
-    {
-      "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T21:17:00.000Z",
-      "snippet": "Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change before delivery, you can now postpone your start date to match…"
-    },
-    {
-      "title": "Amazon Rekognition Face Liveness now returns Feedback Codes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T20:41:00.000Z",
-      "snippet": "Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check received a low score and how users could retry successfully. The codes are returned in the GetFaceLivenessSessionResults API response, and they…"
-    },
-    {
-      "title": "Grok 4.7 is now available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T18:29:00.000Z",
-      "snippet": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale…"
-    },
-    {
-      "title": "AWS European Sovereign Cloud: Demonstrating an independent operation",
-      "link": "https://aws.amazon.com/blogs/security/aws-european-sovereign-cloud-demonstrating-an-independent-operation/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-09-28T17:05:12.000Z",
-      "snippet": "On Saturday, October 24, 2026, we will conduct an exercise demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside of the European Union (EU). For several hours, the AWS European Sovereign Cloud will…"
-    },
-    {
-      "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-28T16:14:54.000Z",
-      "snippet": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latency?” That’s exactly what landed on…"
-    },
-    {
-      "title": "Claude Sonnet 5.5 now available on AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T15:00:00.000Z",
-      "snippet": "AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed. Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step…"
-    },
-    {
-      "title": "Claude Sonnet 5.5 now available on AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws-govcloud-us/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T15:00:00.000Z",
-      "snippet": "AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag faster speed. Claude Sonnet 5.5 is a smarter, more efficient…"
-    },
-    {
-      "title": "Amazon Corretto September 2026 Patch Updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-sept-2026-updates/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T14:00:00.000Z",
-      "snippet": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0.20.12.1, and 11.0.32.12.1 are now available for download.…"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio now supports two new connection capabilities: Iceberg REST Catalog connections and IAM authentication for Amazon DocumentDB",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-iceberg-rest-iam-documentdb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T08:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports two new connection capabilities: (1) Iceberg REST Catalog (IRC) connections for external Apache Iceberg catalogs, and (2) IAM authentication for Amazon DocumentDB. Together, they let data teams connect to a broader…"
-    },
-    {
-      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T08:00:00.000Z",
-      "snippet": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes, 5 new aggregation stages, and change stream enhancements starting from minor version 8.0.2. This release expands MongoDB API compatibility and improves query performance, making it…"
-    },
-    {
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T08:00:00.000Z",
-      "snippet": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes…"
-    },
-    {
-      "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T08:00:00.000Z",
-      "snippet": "AWS Backup logically air-gapped vault now supports Amazon FSx for NetApp ONTAP. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce…"
     }
   ]
 }
