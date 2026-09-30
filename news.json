@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-09-30T11:14:28.312Z",
+  "lastUpdated": "2026-09-30T17:15:10.905Z",
   "items": [
+    {
+      "title": "Celebrating Our Newest AWS Heroes – September 2026",
+      "link": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-09-30T17:04:05.000Z",
+      "snippet": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real…"
+    },
+    {
+      "title": "Uncover blind spots in AWS data plane operations with CloudTrail Event Coverage",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudtrail-event-coverage/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T16:00:00.000Z",
+      "snippet": "AWS CloudTrail introduces Event Coverage, a new console experience that gives customers visibility into their data plane operations coverage at the account and organization level. You can now see which AWS services and resource types in your environment have…"
+    },
     {
       "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
@@ -170,6 +184,13 @@
       "snippet": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0.20.12.1, and 11.0.32.12.1 are now available for download.…"
     },
     {
+      "title": "Amazon SageMaker Unified Studio now supports two new connection capabilities: Iceberg REST Catalog connections and IAM authentication for Amazon DocumentDB",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-iceberg-rest-iam-documentdb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-28T08:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports two new connection capabilities: (1) Iceberg REST Catalog (IRC) connections for external Apache Iceberg catalogs, and (2) IAM authentication for Amazon DocumentDB. Together, they let data teams connect to a broader…"
+    },
+    {
       "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
       "source": "AWS What's New",
@@ -184,32 +205,11 @@
       "snippet": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes…"
     },
     {
-      "title": "Amazon SageMaker Unified Studio now supports two new connection capabilities: Iceberg REST Catalog connections and IAM authentication for Amazon DocumentDB",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-iceberg-rest-iam-documentdb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-28T08:00:00.000Z",
-      "snippet": "Amazon SageMaker Unified Studio now supports two new connection capabilities: (1) Iceberg REST Catalog (IRC) connections for external Apache Iceberg catalogs, and (2) IAM authentication for Amazon DocumentDB. Together, they let data teams connect to a broader…"
-    },
-    {
       "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
       "source": "AWS What's New",
       "pubDate": "2026-09-28T08:00:00.000Z",
       "snippet": "AWS Backup logically air-gapped vault now supports Amazon FSx for NetApp ONTAP. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce…"
-    },
-    {
-      "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T19:19:00.000Z",
-      "snippet": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control. Previously, these custom resources were always encrypted with an AWS…"
-    },
-    {
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-25T18:40:00.000Z",
-      "snippet": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest…"
     }
   ]
 }
