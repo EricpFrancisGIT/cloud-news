@@ -1,12 +1,19 @@
 {
-  "lastUpdated": "2026-09-30T23:15:34.085Z",
+  "lastUpdated": "2026-10-01T06:32:31.037Z",
   "items": [
+    {
+      "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T23:59:00.000Z",
+      "snippet": "Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X better performance for graphics-intensive workloads compared…"
+    },
     {
       "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
       "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
       "source": "AWS News Blog",
       "pubDate": "2026-09-30T22:10:00.000Z",
-      "snippet": "Amazon S3 Tables now offer complete support for the Apache Iceberg V3 spec. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility."
+      "snippet": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility."
     },
     {
       "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
@@ -98,6 +105,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-30T17:00:00.000Z",
       "snippet": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in M8a database instances corresponds to a physical CPU core,…"
+    },
+    {
+      "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T17:00:00.000Z",
+      "snippet": "We're excited to announce in-region support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United Kingdom, including those in financial services, healthcare, and…"
     },
     {
       "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-29T20:17:00.000Z",
       "snippet": "Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer use, and professional work. According to OpenAI, it…"
-    },
-    {
-      "title": "Amazon Connect Customer now lets business users manage more reference data to adjust contact center configurations in real time",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-manage-data-tables/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer now lets administrators store more of the reference data that drives their contact center configurations. Administrators can now use data tables to hold up to 20,000 values per table for defining configurations such as operating hours,…"
-    },
-    {
-      "title": "Amazon WorkSpaces Applications introduces unified graphics images",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T17:00:00.000Z",
-      "snippet": "Today, Amazon WorkSpaces Applications announces unified graphics images, a single image type that works across all supported graphics instance families, including G4dn, G5, G6, and G7. Previously, each graphics generation required its own dedicated image. Now…"
     }
   ]
 }
