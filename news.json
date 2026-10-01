@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T06:32:31.037Z",
+  "lastUpdated": "2026-10-01T12:33:35.027Z",
   "items": [
     {
       "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
@@ -142,18 +142,18 @@
       "snippet": "Partner Revenue Measurement (PRM) provides measurement of AWS consumption driven by Partner solutions. Today, PRM adds multi-Partner support to Resource Tagging, so that multiple AWS Partners can receive revenue attribution for the same AWS resource.…"
     },
     {
-      "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T08:00:00.000Z",
-      "snippet": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file transfer needs grow without waiting for manual approval. The…"
-    },
-    {
       "title": "AWS accounts now support phone number verification",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
       "source": "AWS What's New",
       "pubDate": "2026-09-30T08:00:00.000Z",
       "snippet": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through an out-of-band mechanism. Now, customers can verify their…"
+    },
+    {
+      "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T08:00:00.000Z",
+      "snippet": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file transfer needs grow without waiting for manual approval. The…"
     },
     {
       "title": "AWS IAM Identity Center Identity Store APIs now accept resource ARNs in addition to resource IDs",
