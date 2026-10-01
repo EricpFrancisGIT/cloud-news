@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-10-01T12:33:35.027Z",
+  "lastUpdated": "2026-10-01T18:34:24.701Z",
   "items": [
+    {
+      "title": "Accelerating airline retailing innovation: how Datalex modernized with AWS Experience-Based Acceleration and agentic AI",
+      "link": "https://aws.amazon.com/blogs/architecture/accelerating-airline-retailing-innovation-how-datalex-modernized-with-aws-experience-based-acceleration-and-agentic-ai/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-01T15:37:06.000Z",
+      "snippet": "Datalex, a leader in airline ecommerce, partnered with AWS on a three-day Experience-Based Acceleration (EBA) workshop to prove modernization feasibility. Learn how they migrated a core reservation component from EJB/Java 8 to Spring Boot/Java 21, built a…"
+    },
+    {
+      "title": "Amazon Corretto 8 September 2026 Patch Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-8-sept-2026-updates/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T14:00:00.000Z",
+      "snippet": "On September 30, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) version of OpenJDK: Corretto 8u504 is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of…"
+    },
+    {
+      "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T08:00:00.000Z",
+      "snippet": "Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it simple for data engineers and data scientists to run open-source…"
+    },
+    {
+      "title": "Improve your secrets security posture with actionable recommendations in the AWS Secrets Manager console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-secrets-manager-security-posture-recommendations",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T07:00:00.000Z",
+      "snippet": "​​​AWS Secrets Manager now integrates with the AWS Recommended Actions framework to surface contextual, actionable suggestions for your secrets directly in the Secrets Manager console. ​​ ​​With this launch, you can view tailored recommendations alongside…"
+    },
+    {
+      "title": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-tables-table-bucket-increase",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T04:00:00.000Z",
+      "snippet": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account, increased from 10. This allows you to create up to 1 million tables per AWS Region in an AWS account. With a higher table bucket allowance, you can create a separate table…"
+    },
     {
       "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
@@ -135,6 +170,13 @@
       "snippet": "AWS CloudTrail introduces Event Coverage, a new console experience that gives customers visibility into their data plane operations coverage at the account and organization level. You can now see which AWS services and resource types in your environment have…"
     },
     {
+      "title": "Amazon Quick adds Hierarchy Filter for guided dashboard drill-down",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/quick-hierarchy-filter",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T15:00:00.000Z",
+      "snippet": "Amazon Quick now supports the hierarchy filter, a single control that lets readers drill through related dimensions such as Region, Country, and City. It replaces several stacked filter controls with one, cutting clutter and guiding readers to their data in…"
+    },
+    {
       "title": "Partner Revenue Measurement adds Multi-Partner support to Resource Tagging",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/partner-revenue-measurement-multi-partner-resource-tagging",
       "source": "AWS What's New",
@@ -163,53 +205,11 @@
       "snippet": "AWS IAM Identity Center's Identity Store APIs now accept the Amazon Resource Name (ARN) for a user, group, group membership, or identity store anywhere the APIs previously accepted the resource ID. ARN support is additive and existing integrations continue to…"
     },
     {
-      "title": "AWS Marketplace launches an AI agent skill for usage-based metering integration",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/marketplace-ai-agent-metering/",
+      "title": "Amazon Redshift simplifies access to secure logging with federated permissions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-secure-logging-permissions/",
       "source": "AWS What's New",
-      "pubDate": "2026-09-30T05:00:00.000Z",
-      "snippet": "AWS announces the general availability of the AWS Marketplace metering agent skill, an AI-guided experience that helps sellers build, deploy, and validate a usage-based (pay-as-you-go) SaaS metering integration from within their AI coding assistant. The skill…"
-    },
-    {
-      "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-tables-iceberg-v3-data-types",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T04:00:00.000Z",
-      "snippet": "Amazon S3 Tables add support for geometry, geography, unknown, and nanosecond timestamp data types, along with column default values, as defined in the Apache Iceberg Version 3 (V3) specification. You can now store geospatial coordinates and…"
-    },
-    {
-      "title": "AWS Deadline Cloud now supports expressions in job templates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-expressions-job-templates/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T21:55:00.000Z",
-      "snippet": "AWS Deadline Cloud now supports flexible expressions and rich parameter types in job templates, giving customers a cleaner, more powerful way to fit the service to existing production pipelines. Deadline Cloud is a fully managed service that helps teams run…"
-    },
-    {
-      "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T21:10:00.000Z",
-      "snippet": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely…"
-    },
-    {
-      "title": "Amazon RDS now adds full snapshot size information to the Console and API",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T21:00:23.000Z",
-      "snippet": "Amazon RDS now displays the full snapshot size for RDS Snapshots. With this enhancement, customers can now retrieve full snapshot sizes programmatically through the DescribeDBSnapshots API using the new field, ‘FullSnapshotSizeInBytes’. They can also view…"
-    },
-    {
-      "title": "AWS Deadline Cloud now supports ECS containers on Linux Service-Managed Fleets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-ecs-containers-linux-smf/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T20:18:00.000Z",
-      "snippet": "AWS Deadline Cloud now supports running jobs using Docker containers from Amazon Elastic Container Service (ECS) on Linux-based service-managed fleets. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for…"
-    },
-    {
-      "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-29T20:17:00.000Z",
-      "snippet": "Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer use, and professional work. According to OpenAI, it…"
+      "pubDate": "2026-09-30T08:00:00.000Z",
+      "snippet": "Amazon Redshift now makes it easier to troubleshoot and audit queries on data protected by federated permissions with fine-grained access control (FGAC). Using the new DEBUG permission, data owners can let specific identities see unredacted secure logging…"
     }
   ]
 }
