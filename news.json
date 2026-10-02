@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-10-01T18:34:24.701Z",
+  "lastUpdated": "2026-10-02T00:49:31.452Z",
   "items": [
+    {
+      "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-10-01T20:04:04.000Z",
+      "snippet": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with…"
+    },
+    {
+      "title": "AWS Well-Architected Agent is now available in preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T20:00:00.000Z",
+      "snippet": "AWS announces the preview of AWS Well-Architected Agent, a AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performance, and…"
+    },
+    {
+      "title": "Amazon Redshift now supports cross-Region queries for your data lake",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T18:41:00.000Z",
+      "snippet": "Amazon Redshift now supports querying Amazon S3 data lake tables located in a different AWS Region. With enhanced VPC routing, data lake query traffic between Amazon S3 and Amazon Redshift stays within your own VPC. Both capabilities are powered by the…"
+    },
+    {
+      "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T17:00:00.000Z",
+      "snippet": "Amazon DynamoDB now supports filtered export for tables. Export to Amazon S3 allows you to export your table data for analytics, data sharing, and other offline uses, as either a full export or an incremental export over a time window. Filtered export enables…"
+    },
+    {
+      "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T16:44:00.000Z",
+      "snippet": "Today, AWS announces the availability of Amazon DynamoDB Accelerator (DAX) in 17 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New Zealand),…"
+    },
+    {
+      "title": "Amazon GuardDuty now supports centralized management using AWS Organizations declarative policies",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-org-enablement-policies/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T16:01:00.000Z",
+      "snippet": "Amazon GuardDuty now supports AWS Organizations declarative policies, enabling you to centrally enable GuardDuty threat detection across every account and Region in your AWS organization. Using an organization policy, you can now apply a centrally managed…"
+    },
     {
       "title": "Accelerating airline retailing innovation: how Datalex modernized with AWS Experience-Based Acceleration and agentic AI",
       "link": "https://aws.amazon.com/blogs/architecture/accelerating-airline-retailing-innovation-how-datalex-modernized-with-aws-experience-based-acceleration-and-agentic-ai/",
@@ -16,11 +58,60 @@
       "snippet": "On September 30, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) version of OpenJDK: Corretto 8u504 is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of…"
     },
     {
+      "title": "Amazon S3 Object Lock variable retention with event holds is now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-object-lock-variable-retention-event-holds-aws-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T13:00:00.000Z",
+      "snippet": "Amazon S3 Object Lock support for variable retention with event holds is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon S3 Object Lock variable retention allows you to apply write-once-read-many (WORM) protection to objects whose…"
+    },
+    {
+      "title": "AWS Security Hub introduces remediation plans to prioritize and fix security exposures",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T10:00:00.000Z",
+      "snippet": "AWS Security Hub now offers remediation plans that group related exposure findings sharing a root cause. Instead of addressing each exposure individually, you can now fix a single underlying resource, such as a misconfigured setting or overly permissive…"
+    },
+    {
+      "title": "AWS Transfer Family now supports custom CloudWatch log groups for managed workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-cloudwatch-log-groups/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T10:00:00.000Z",
+      "snippet": "AWS Transfer Family now lets you choose a custom log group in Amazon CloudWatch Logs for managed workflow execution logs. You can organize workflow logs to monitor individual workflows separately or bring logs from related workflows together. Previously,…"
+    },
+    {
+      "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T08:00:00.000Z",
+      "snippet": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in Amazon…"
+    },
+    {
+      "title": "AWS Budgets now supports email verification for notification subscribers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T08:00:00.000Z",
+      "snippet": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget alerts. When you add an email address to a budget…"
+    },
+    {
       "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/",
       "source": "AWS What's New",
       "pubDate": "2026-10-01T08:00:00.000Z",
       "snippet": "Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it simple for data engineers and data scientists to run open-source…"
+    },
+    {
+      "title": "Announcing DNS analytics and insights for Route 53 Global Resolver and DNS Firewall",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-dns-analytics-insights/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T08:00:00.000Z",
+      "snippet": "Route 53 Global Resolver and DNS Firewall now provide DNS analytics and insights through native Amazon CloudWatch integration. These new capabilities enable network administrators and security teams to gain full observability into DNS query patterns, monitor…"
+    },
+    {
+      "title": "AWS IAM Identity Center extends multi-Region support to more AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-extends-multi-region-support-to-more-aws-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T07:00:00.000Z",
+      "snippet": "IAM Identity Center helps you connect your workforce identities to AWS once and streamline access management to AWS accounts and applications. You can now replicate IAM Identity Center to opt-in AWS Regions, and between Regions within the AWS GovCloud (US)…"
     },
     {
       "title": "Improve your secrets security posture with actionable recommendations in the AWS Secrets Manager console",
@@ -49,6 +140,13 @@
       "source": "AWS News Blog",
       "pubDate": "2026-09-30T22:10:00.000Z",
       "snippet": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility."
+    },
+    {
+      "title": "Apache Iceberg materialized views now support system-managed write protection",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/system-managed-iceberg-materialized-views",
+      "source": "AWS What's New",
+      "pubDate": "2026-09-30T21:19:00.000Z",
+      "snippet": "Today, AWS announces system-managed materialized views for Apache Iceberg. Materialized views let you precompute an expensive query once and reuse the result across engines. Because this result is an open Iceberg table in your data lake, anyone with write…"
     },
     {
       "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
@@ -112,104 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-09-30T17:50:00.000Z",
       "snippet": "Amazon Aurora serverless now scales in even larger steps, adding up to 16 ACUs to its current capacity within a second and continuing to scale up to 256 ACUs as your workload grows. With this launch, your workload will scale faster and reach capacity that it…"
-    },
-    {
-      "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-30T17:22:31.000Z",
-      "snippet": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables single queries that join…"
-    },
-    {
-      "title": "Celebrating Our Newest AWS Heroes – September 2026",
-      "link": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-30T17:04:05.000Z",
-      "snippet": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real…"
-    },
-    {
-      "title": "Amazon Aurora and RDS now support AMD-based R8a instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-r8a/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T17:00:00.000Z",
-      "snippet": "Amazon Aurora and Amazon RDS now support R8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in R8a database instances corresponds to a physical CPU core, which delivers…"
-    },
-    {
-      "title": "Amazon RDS now supports AMD-based M8a instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-m8a/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T17:00:00.000Z",
-      "snippet": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in M8a database instances corresponds to a physical CPU core,…"
-    },
-    {
-      "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T17:00:00.000Z",
-      "snippet": "We're excited to announce in-region support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United Kingdom, including those in financial services, healthcare, and…"
-    },
-    {
-      "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-postgresql-query-apache-iceberg-and-parquet/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T16:00:00.000Z",
-      "snippet": "Starting today, you can directly query operational data together with data stored in data lakes in Apache Iceberg and Parquet formats using your existing PostgreSQL applications and tools, without extract, transform, and load (ETL) pipelines or data…"
-    },
-    {
-      "title": "Amazon RDS for MySQL supports MySQL 26.7 in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-mysql-26-7-preview-environment/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T16:00:00.000Z",
-      "snippet": "Starting today, Amazon RDS for MySQL 26.7 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of MySQL 26.7 on Amazon RDS for MySQL. MySQL 26.7 is the first Innovation release to adopt the new YY.M…"
-    },
-    {
-      "title": "Uncover blind spots in AWS data plane operations with CloudTrail Event Coverage",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudtrail-event-coverage/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T16:00:00.000Z",
-      "snippet": "AWS CloudTrail introduces Event Coverage, a new console experience that gives customers visibility into their data plane operations coverage at the account and organization level. You can now see which AWS services and resource types in your environment have…"
-    },
-    {
-      "title": "Amazon Quick adds Hierarchy Filter for guided dashboard drill-down",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/quick-hierarchy-filter",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T15:00:00.000Z",
-      "snippet": "Amazon Quick now supports the hierarchy filter, a single control that lets readers drill through related dimensions such as Region, Country, and City. It replaces several stacked filter controls with one, cutting clutter and guiding readers to their data in…"
-    },
-    {
-      "title": "Partner Revenue Measurement adds Multi-Partner support to Resource Tagging",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/partner-revenue-measurement-multi-partner-resource-tagging",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T12:00:00.000Z",
-      "snippet": "Partner Revenue Measurement (PRM) provides measurement of AWS consumption driven by Partner solutions. Today, PRM adds multi-Partner support to Resource Tagging, so that multiple AWS Partners can receive revenue attribution for the same AWS resource.…"
-    },
-    {
-      "title": "AWS accounts now support phone number verification",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T08:00:00.000Z",
-      "snippet": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through an out-of-band mechanism. Now, customers can verify their…"
-    },
-    {
-      "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T08:00:00.000Z",
-      "snippet": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file transfer needs grow without waiting for manual approval. The…"
-    },
-    {
-      "title": "AWS IAM Identity Center Identity Store APIs now accept resource ARNs in addition to resource IDs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/iam-identity-center-apis-arns/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T08:00:00.000Z",
-      "snippet": "AWS IAM Identity Center's Identity Store APIs now accept the Amazon Resource Name (ARN) for a user, group, group membership, or identity store anywhere the APIs previously accepted the resource ID. ARN support is additive and existing integrations continue to…"
-    },
-    {
-      "title": "Amazon Redshift simplifies access to secure logging with federated permissions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-secure-logging-permissions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T08:00:00.000Z",
-      "snippet": "Amazon Redshift now makes it easier to troubleshoot and audit queries on data protected by federated permissions with fine-grained access control (FGAC). Using the new DEBUG permission, data owners can let specific identities see unredacted secure logging…"
     }
   ]
 }
