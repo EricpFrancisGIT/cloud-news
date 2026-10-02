@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-10-02T12:50:27.816Z",
+  "lastUpdated": "2026-10-02T18:50:57.326Z",
   "items": [
+    {
+      "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP",
+      "link": "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-02T17:57:15.000Z",
+      "snippet": "This post provides step-by-step procedures to deploy Oracle Database on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP as NFS datastore storage. You provision storage volumes, mount NFS datastores, install Oracle, and configure…"
+    },
+    {
+      "title": "Architect highly available Oracle Database on Amazon EVS and FSx for ONTAP",
+      "link": "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-02T17:57:01.000Z",
+      "snippet": "Learn how to architect a highly available Oracle Database environment on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP. This post covers EC2 bare metal instance selection, vSAN and FSx storage tiering, NSX networking, and…"
+    },
+    {
+      "title": "Deploy open source Regional availability tools in your VPC",
+      "link": "https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-02T17:50:56.000Z",
+      "snippet": "Deploy AWS Regional availability data as infrastructure you own. Capability Insights for AWS runs a self-hosted dashboard in your VPC that auto-refreshes daily, and Workload Analysis narrows the catalog to the services your account actually runs, so your…"
+    },
+    {
+      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T17:30:00.000Z",
+      "snippet": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.37. Starting today, you can create new EKS…"
+    },
+    {
+      "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T16:30:00.000Z",
+      "snippet": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program that enables eligible non-Brazilian independent software vendors (ISVs) to distribute their Software-as-a-Service (SaaS) product licenses to customers in…"
+    },
+    {
+      "title": "The AWS MCP Server is now available in six additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-mcp-server-six-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T08:00:00.000Z",
+      "snippet": "The AWS MCP Server is now available in six additional AWS Regions: Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Ireland), Europe (London), and US West (Oregon). The AWS MCP Server, part of the Agent Toolkit for AWS, is a…"
+    },
     {
       "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
@@ -168,48 +210,6 @@
       "source": "AWS News Blog",
       "pubDate": "2026-09-30T20:03:34.000Z",
       "snippet": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search."
-    },
-    {
-      "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T20:00:00.000Z",
-      "snippet": "Amazon S3 Vectors now supports pre-filtering, which evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for…"
-    },
-    {
-      "title": "Amazon Managed Grafana now supports creating Grafana 13.2 workspaces",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T19:30:00.000Z",
-      "snippet": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 13.2. This release brings features from open-source Grafana versions 13.0 to 13.2, including Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon…"
-    },
-    {
-      "title": "Running multi-day AZ evacuation drills with ARC Zonal Shift",
-      "link": "https://aws.amazon.com/blogs/architecture/running-multi-day-az-evacuation-drills-with-arc-zonal-shift/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-30T19:01:57.000Z",
-      "snippet": "Prove your multi-AZ architecture can sustain a real impairment. This post shows how to run a multi-day (48-72 hour) Availability Zone evacuation drill with ARC Zonal Shift across Amazon ECS, Amazon EKS, Amazon RDS for PostgreSQL, and Amazon Aurora PostgreSQL,…"
-    },
-    {
-      "title": "OpenAI GPT-6 Astra now supports UltraFast mode on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-ultrafast-on-amazon-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T19:00:00.000Z",
-      "snippet": "Today, AWS announces the availability of UltraFast mode for GPT-6 Astra from OpenAI on Amazon Bedrock. Ultrafast is a premium speed tier for GPT-6 Astra built for workloads where speed matters most. According to OpenAI, Ultrafast delivers up to 6x faster…"
-    },
-    {
-      "title": "AWS Parallel Computing Service now supports scaling logs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T19:00:00.000Z",
-      "snippet": "AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one compute node—for example, an instance launch, a node registration,…"
-    },
-    {
-      "title": "How MHK built a HIPAA-eligible agentic AI solution on Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/architecture/how-mhk-built-a-hipaa-eligible-agentic-ai-solution-on-amazon-bedrock/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-09-30T18:30:24.000Z",
-      "snippet": "MHK built the SmartProminence AI Orchestrator, a HIPAA-eligible agentic workflow framework on AWS using Amazon Bedrock, Amazon ECS, and event-driven patterns. It reduced manual medical review effort by 90% and cut new AI feature deployment from months to…"
     }
   ]
 }
