@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-10-02T18:50:57.326Z",
+  "lastUpdated": "2026-10-03T00:51:19.898Z",
   "items": [
+    {
+      "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T20:18:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice. Applications that use VPC Lattice for service-to-service communication across VPCs and AWS…"
+    },
+    {
+      "title": "AWS Health introduces the version catalog for software lifecycle management",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T18:09:00.000Z",
+      "snippet": "Today, AWS Health introduces the version catalog which provides a centralized source of lifecycle information for software versions across AWS services. The version catalog helps customers move from reactive to proactive management of version upgrades and…"
+    },
     {
       "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP",
       "link": "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/",
@@ -23,6 +37,13 @@
       "snippet": "Deploy AWS Regional availability data as infrastructure you own. Capability Insights for AWS runs a self-hosted dashboard in your VPC that auto-refreshes daily, and Workload Analysis narrows the catalog to the services your account actually runs, so your…"
     },
     {
+      "title": "Amazon Aurora DSQL now supports partial indexes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T17:30:00.000Z",
+      "snippet": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost. Many tables hold a small working set…"
+    },
+    {
       "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
       "source": "AWS What's New",
@@ -34,7 +55,7 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
       "source": "AWS What's New",
       "pubDate": "2026-10-02T16:30:00.000Z",
-      "snippet": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program that enables eligible non-Brazilian independent software vendors (ISVs) to distribute their Software-as-a-Service (SaaS) product licenses to customers in…"
+      "snippet": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to distribute their Software-as-a-Service (SaaS) product licenses,…"
     },
     {
       "title": "The AWS MCP Server is now available in six additional AWS Regions",
@@ -42,6 +63,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-02T08:00:00.000Z",
       "snippet": "The AWS MCP Server is now available in six additional AWS Regions: Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Ireland), Europe (London), and US West (Oregon). The AWS MCP Server, part of the Agent Toolkit for AWS, is a…"
+    },
+    {
+      "title": "AgentCore Gateway supports private TLS certificates for VPC endpoints",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T08:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Gateway now supports TLS certificates signed by private certificate authorities (CAs) on MCP, OpenAPI, and HTTP proxy targets. This feature enables you to connect securely to gateway targets that use TLS certificates issued by your…"
+    },
+    {
+      "title": "Amazon ElastiCache for Valkey now supports OpenTelemetry metrics and detailed monitoring",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T07:00:00.000Z",
+      "snippet": "Amazon ElastiCache for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus Query Language (PromQL) expressions. ElastiCache now offers…"
     },
     {
       "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-01T04:00:00.000Z",
       "snippet": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account, increased from 10. This allows you to create up to 1 million tables per AWS Region in an AWS account. With a higher table bucket allowance, you can create a separate table…"
-    },
-    {
-      "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T23:59:00.000Z",
-      "snippet": "Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X better performance for graphics-intensive workloads compared…"
-    },
-    {
-      "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-30T22:10:00.000Z",
-      "snippet": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility."
-    },
-    {
-      "title": "Apache Iceberg materialized views now support system-managed write protection",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/system-managed-iceberg-materialized-views",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T21:19:00.000Z",
-      "snippet": "Today, AWS announces system-managed materialized views for Apache Iceberg. Materialized views let you precompute an expensive query once and reuse the result across engines. Because this result is an open Iceberg table in your data lake, anyone with write…"
-    },
-    {
-      "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
-      "source": "AWS What's New",
-      "pubDate": "2026-09-30T20:16:00.000Z",
-      "snippet": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run aws agent-toolkit check-skill-updates to compare all installed…"
-    },
-    {
-      "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-09-30T20:03:34.000Z",
-      "snippet": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search."
     }
   ]
 }
