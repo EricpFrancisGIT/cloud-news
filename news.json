@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T00:51:19.898Z",
+  "lastUpdated": "2026-10-03T06:51:37.810Z",
   "items": [
     {
       "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
@@ -163,18 +163,18 @@
       "snippet": "AWS Transfer Family now lets you choose a custom log group in Amazon CloudWatch Logs for managed workflow execution logs. You can organize workflow logs to monitor individual workflows separately or bring logs from related workflows together. Previously,…"
     },
     {
-      "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T08:00:00.000Z",
-      "snippet": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in Amazon…"
-    },
-    {
       "title": "AWS Budgets now supports email verification for notification subscribers",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
       "source": "AWS What's New",
       "pubDate": "2026-10-01T08:00:00.000Z",
       "snippet": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget alerts. When you add an email address to a budget…"
+    },
+    {
+      "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T08:00:00.000Z",
+      "snippet": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in Amazon…"
     },
     {
       "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
