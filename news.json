@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T19:49:09.663Z",
+  "lastUpdated": "2026-10-04T01:49:27.529Z",
   "items": [
     {
       "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
@@ -37,18 +37,18 @@
       "snippet": "Deploy AWS Regional availability data as infrastructure you own. Capability Insights for AWS runs a self-hosted dashboard in your VPC that auto-refreshes daily, and Workload Analysis narrows the catalog to the services your account actually runs, so your…"
     },
     {
-      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T17:30:00.000Z",
-      "snippet": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.37. Starting today, you can create new EKS…"
-    },
-    {
       "title": "Amazon Aurora DSQL now supports partial indexes",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
       "source": "AWS What's New",
       "pubDate": "2026-10-02T17:30:00.000Z",
       "snippet": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost. Many tables hold a small working set…"
+    },
+    {
+      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T17:30:00.000Z",
+      "snippet": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.37. Starting today, you can create new EKS…"
     },
     {
       "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
@@ -163,18 +163,18 @@
       "snippet": "AWS Transfer Family now lets you choose a custom log group in Amazon CloudWatch Logs for managed workflow execution logs. You can organize workflow logs to monitor individual workflows separately or bring logs from related workflows together. Previously,…"
     },
     {
-      "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T08:00:00.000Z",
-      "snippet": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in Amazon…"
-    },
-    {
       "title": "AWS Budgets now supports email verification for notification subscribers",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
       "source": "AWS What's New",
       "pubDate": "2026-10-01T08:00:00.000Z",
       "snippet": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget alerts. When you add an email address to a budget…"
+    },
+    {
+      "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T08:00:00.000Z",
+      "snippet": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in Amazon…"
     },
     {
       "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
