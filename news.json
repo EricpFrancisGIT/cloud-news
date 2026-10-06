@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-10-06T12:50:37.657Z",
+  "lastUpdated": "2026-10-06T18:51:22.823Z",
   "items": [
+    {
+      "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+      "link": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-10-06T16:09:36.000Z",
+      "snippet": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, and…"
+    },
+    {
+      "title": "Identity-aware AI data agents with AWS Lake Formation and Trusted Identity Propagation",
+      "link": "https://aws.amazon.com/blogs/security/identity-aware-ai-data-agents-with-aws-lake-formation-and-trusted-identity-propagation/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-06T16:07:06.000Z",
+      "snippet": "You’re building a data agent that lets business users ask questions about lakehouse data in natural language. You’ve already built governance policies that control who can access which datasets. The challenge is making the agent respect those rules without…"
+    },
+    {
+      "title": "AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-06T14:01:00.000Z",
+      "snippet": "AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays within the AWS network. You can now create a VPC interface…"
+    },
     {
       "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
@@ -30,6 +51,13 @@
       "snippet": "AWS IAM Identity Center helps you configure the single sign-on experience for your workforce to AWS accounts and applications. IAM Identity Center now supports network access controls for Identity Store, which stores your users and groups. You can restrict…"
     },
     {
+      "title": "AWS Control Tower AFT now supports plan-only customization runs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T19:31:00.000Z",
+      "snippet": "AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their managed accounts. This feature is available in all AWS Regions…"
+    },
+    {
       "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
       "source": "AWS What's New",
@@ -42,6 +70,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-10-05T17:54:56.000Z",
       "snippet": "October 2026: This post was reviewed and updated for accuracy. Today we’re launching the AWS Digital Sovereignty Lens, a new Well-Architected lens providing customers with extended guidance for designing, building, and operating sovereign workloads on AWS.…"
+    },
+    {
+      "title": "Amazon EC2 introduces shared tags for Amazon Machine Images",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T17:28:00.000Z",
+      "snippet": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an organization, or made public, a shared tag is automatically…"
     },
     {
       "title": "AWS Advanced Ruby Driver Wrapper is generally available",
@@ -121,18 +156,18 @@
       "snippet": "Deploy AWS Regional availability data as infrastructure you own. Capability Insights for AWS runs a self-hosted dashboard in your VPC that auto-refreshes daily, and Workload Analysis narrows the catalog to the services your account actually runs, so your…"
     },
     {
-      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T17:30:00.000Z",
-      "snippet": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.37. Starting today, you can create new EKS…"
-    },
-    {
       "title": "Amazon Aurora DSQL now supports partial indexes",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
       "source": "AWS What's New",
       "pubDate": "2026-10-02T17:30:00.000Z",
       "snippet": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost. Many tables hold a small working set…"
+    },
+    {
+      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-02T17:30:00.000Z",
+      "snippet": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.37. Starting today, you can create new EKS…"
     },
     {
       "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
@@ -175,41 +210,6 @@
       "source": "AWS News Blog",
       "pubDate": "2026-10-01T20:04:04.000Z",
       "snippet": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with…"
-    },
-    {
-      "title": "AWS Well-Architected Agent is now available in preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T20:00:00.000Z",
-      "snippet": "AWS announces the preview of AWS Well-Architected Agent, an AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performance, and…"
-    },
-    {
-      "title": "Amazon Redshift now supports cross-Region queries for your data lake",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T18:41:00.000Z",
-      "snippet": "Amazon Redshift now supports querying Amazon S3 data lake tables located in a different AWS Region. With enhanced VPC routing, data lake query traffic between Amazon S3 and Amazon Redshift stays within your own VPC. Both capabilities are powered by the…"
-    },
-    {
-      "title": "Amazon Q Developer now delivers enhanced visualizations in the AWS Management Console",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-q-developer-enhanced-visualizations-aws-management-console",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T17:43:00.000Z",
-      "snippet": "Today, AWS announces enhanced visualization for Amazon Q Developer in the AWS Management Console. Amazon Q now reasons across hundreds of AWS APIs to answer complex questions and deliver complete answers about your entire account—across all regions and…"
-    },
-    {
-      "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T17:00:00.000Z",
-      "snippet": "Amazon DynamoDB now supports filtered export for tables. Export to Amazon S3 allows you to export your table data for analytics, data sharing, and other offline uses, as either a full export or an incremental export over a time window. Filtered export enables…"
-    },
-    {
-      "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T16:44:00.000Z",
-      "snippet": "Today, AWS announces the availability of Amazon DynamoDB Accelerator (DAX) in 17 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New Zealand),…"
     }
   ]
 }
