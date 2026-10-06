@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T00:49:56.250Z",
+  "lastUpdated": "2026-10-06T06:50:14.994Z",
   "items": [
     {
       "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
@@ -7,6 +7,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-05T21:57:18.000Z",
       "snippet": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache Iceberg table in Amazon S3 or Amazon S3 table buckets,…"
+    },
+    {
+      "title": "GLM 5.3 by Z.ai is now generally available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T21:42:00.000Z",
+      "snippet": "Amazon Bedrock now supports GLM 5.3 from Z.ai, giving you a powerful new option for agentic coding and long-horizon software engineering work. Customers using GLM 5.3 on Amazon Bedrock have access to the latest open weight model with the AWS security and…"
     },
     {
       "title": "AWS Continuum sets a new standard in autonomous code security",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-01T16:44:00.000Z",
       "snippet": "Today, AWS announces the availability of Amazon DynamoDB Accelerator (DAX) in 17 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New Zealand),…"
-    },
-    {
-      "title": "Amazon GuardDuty now supports centralized management using AWS Organizations declarative policies",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-org-enablement-policies/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T16:01:00.000Z",
-      "snippet": "Amazon GuardDuty now supports AWS Organizations declarative policies, enabling you to centrally enable GuardDuty threat detection across every account and Region in your AWS organization. Using an organization policy, you can now apply a centrally managed…"
     }
   ]
 }
