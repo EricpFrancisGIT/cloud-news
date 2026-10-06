@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-10-05T14:11:29.476Z",
+  "lastUpdated": "2026-10-06T00:49:56.250Z",
   "items": [
+    {
+      "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T21:57:18.000Z",
+      "snippet": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache Iceberg table in Amazon S3 or Amazon S3 table buckets,…"
+    },
+    {
+      "title": "AWS Continuum sets a new standard in autonomous code security",
+      "link": "https://aws.amazon.com/blogs/security/aws-continuum-sets-a-new-standard-in-autonomous-code-security/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-05T21:41:01.000Z",
+      "snippet": "As AI models become more capable, they uncover more security vulnerabilities and identify increasingly sophisticated paths to exploit them, raising the bar for how quickly defenders must respond. Security teams now face more potential vulnerabilities than…"
+    },
+    {
+      "title": "AWS IAM Identity Center now supports network access controls for Identity Store",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T21:00:00.000Z",
+      "snippet": "AWS IAM Identity Center helps you configure the single sign-on experience for your workforce to AWS accounts and applications. IAM Identity Center now supports network access controls for Identity Store, which stores your users and groups. You can restrict…"
+    },
+    {
+      "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T18:32:00.000Z",
+      "snippet": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview) AWS Continuum for Penetration Testing (formerly AWS Security Agent) already provides continuous, on-demand penetration…"
+    },
+    {
+      "title": "Announcing the AWS Digital Sovereignty Lens for the Well-Architected Framework",
+      "link": "https://aws.amazon.com/blogs/architecture/announcing-the-aws-digital-sovereignty-well-architected-lens/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-05T17:54:56.000Z",
+      "snippet": "October 2026: This post was reviewed and updated for accuracy. Today we’re launching the AWS Digital Sovereignty Lens, a new Well-Architected lens providing customers with extended guidance for designing, building, and operating sovereign workloads on AWS.…"
+    },
+    {
+      "title": "AWS Advanced Ruby Driver Wrapper is generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T17:00:00.000Z",
+      "snippet": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database driver reduces RDS Blue/Green switchover, Aurora Global database…"
+    },
+    {
+      "title": "AWS Client VPN now supports device posture assessment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T17:00:00.000Z",
+      "snippet": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature integrates with your existing device posture providers, so…"
+    },
+    {
+      "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-10-05T15:41:19.000Z",
+      "snippet": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI…"
+    },
+    {
+      "title": "AWS Batch now supports Amazon EKS access entry authentication",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T15:31:00.000Z",
+      "snippet": "AWS Batch now supports Amazon EKS access entry authentication for compute environments. EKS access entries provide an API-driven approach to granting IAM principals access to Kubernetes clusters, complementing the existing aws-auth ConfigMap. AWS Batch can…"
+    },
+    {
+      "title": "AWS Private CA now provides detailed certificate issuance logs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T09:00:00.000Z",
+      "snippet": "AWS Private CA announces detailed certificate issuance logs, a new AWS CloudTrail service event that records the complete certificate content, issuing CA information, requester identity, and signing status for every issuance. You can use these events for…"
+    },
+    {
+      "title": "Announcing Amazon Nova 2.5 Sonic with improved reasoning for voice agents",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-sonic/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T08:10:00.000Z",
+      "snippet": "Today, we announce the general availability of Amazon Nova 2.5 Sonic, our latest speech-to-speech model for natural, real-time voice agents. This release brings improved reasoning, instruction following, and tool-calling accuracy to real-time voice…"
+    },
     {
       "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
@@ -97,7 +174,7 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
       "source": "AWS What's New",
       "pubDate": "2026-10-01T20:00:00.000Z",
-      "snippet": "AWS announces the preview of AWS Well-Architected Agent, a AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performance, and…"
+      "snippet": "AWS announces the preview of AWS Well-Architected Agent, an AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performance, and…"
     },
     {
       "title": "Amazon Redshift now supports cross-Region queries for your data lake",
@@ -105,6 +182,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-01T18:41:00.000Z",
       "snippet": "Amazon Redshift now supports querying Amazon S3 data lake tables located in a different AWS Region. With enhanced VPC routing, data lake query traffic between Amazon S3 and Amazon Redshift stays within your own VPC. Both capabilities are powered by the…"
+    },
+    {
+      "title": "Amazon Q Developer now delivers enhanced visualizations in the AWS Management Console",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-q-developer-enhanced-visualizations-aws-management-console",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-01T17:43:00.000Z",
+      "snippet": "Today, AWS announces enhanced visualization for Amazon Q Developer in the AWS Management Console. Amazon Q now reasons across hundreds of AWS APIs to answer complex questions and deliver complete answers about your entire account—across all regions and…"
     },
     {
       "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
@@ -126,90 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-01T16:01:00.000Z",
       "snippet": "Amazon GuardDuty now supports AWS Organizations declarative policies, enabling you to centrally enable GuardDuty threat detection across every account and Region in your AWS organization. Using an organization policy, you can now apply a centrally managed…"
-    },
-    {
-      "title": "Accelerating airline retailing innovation: how Datalex modernized with AWS Experience-Based Acceleration and agentic AI",
-      "link": "https://aws.amazon.com/blogs/architecture/accelerating-airline-retailing-innovation-how-datalex-modernized-with-aws-experience-based-acceleration-and-agentic-ai/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-01T15:37:06.000Z",
-      "snippet": "Datalex, a leader in airline ecommerce, partnered with AWS on a three-day Experience-Based Acceleration (EBA) workshop to prove modernization feasibility. Learn how they migrated a core reservation component from EJB/Java 8 to Spring Boot/Java 21, built a…"
-    },
-    {
-      "title": "Amazon Corretto 8 September 2026 Patch Updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-8-sept-2026-updates/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T14:00:00.000Z",
-      "snippet": "On September 30, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) version of OpenJDK: Corretto 8u504 is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of…"
-    },
-    {
-      "title": "Amazon S3 Object Lock variable retention with event holds is now available in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-object-lock-variable-retention-event-holds-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T13:00:00.000Z",
-      "snippet": "Amazon S3 Object Lock support for variable retention with event holds is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon S3 Object Lock variable retention allows you to apply write-once-read-many (WORM) protection to objects whose…"
-    },
-    {
-      "title": "AWS Security Hub introduces remediation plans to prioritize and fix security exposures",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T10:00:00.000Z",
-      "snippet": "AWS Security Hub now offers remediation plans that group related exposure findings sharing a root cause. Instead of addressing each exposure individually, you can now fix a single underlying resource, such as a misconfigured setting or overly permissive…"
-    },
-    {
-      "title": "AWS Transfer Family now supports custom CloudWatch log groups for managed workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-cloudwatch-log-groups/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T10:00:00.000Z",
-      "snippet": "AWS Transfer Family now lets you choose a custom log group in Amazon CloudWatch Logs for managed workflow execution logs. You can organize workflow logs to monitor individual workflows separately or bring logs from related workflows together. Previously,…"
-    },
-    {
-      "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T08:00:00.000Z",
-      "snippet": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in Amazon…"
-    },
-    {
-      "title": "AWS Budgets now supports email verification for notification subscribers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T08:00:00.000Z",
-      "snippet": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget alerts. When you add an email address to a budget…"
-    },
-    {
-      "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T08:00:00.000Z",
-      "snippet": "Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it simple for data engineers and data scientists to run open-source…"
-    },
-    {
-      "title": "Announcing DNS analytics and insights for Route 53 Global Resolver and DNS Firewall",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-dns-analytics-insights/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T08:00:00.000Z",
-      "snippet": "Route 53 Global Resolver and DNS Firewall now provide DNS analytics and insights through native Amazon CloudWatch integration. These new capabilities enable network administrators and security teams to gain full observability into DNS query patterns, monitor…"
-    },
-    {
-      "title": "AWS IAM Identity Center extends multi-Region support to more AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-extends-multi-region-support-to-more-aws-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T07:00:00.000Z",
-      "snippet": "IAM Identity Center helps you connect your workforce identities to AWS once and streamline access management to AWS accounts and applications. You can now replicate IAM Identity Center to opt-in AWS Regions, and between Regions within the AWS GovCloud (US)…"
-    },
-    {
-      "title": "Improve your secrets security posture with actionable recommendations in the AWS Secrets Manager console",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-secrets-manager-security-posture-recommendations",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T07:00:00.000Z",
-      "snippet": "​​​AWS Secrets Manager now integrates with the AWS Recommended Actions framework to surface contextual, actionable suggestions for your secrets directly in the Secrets Manager console. ​​ ​​With this launch, you can view tailored recommendations alongside…"
-    },
-    {
-      "title": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-tables-table-bucket-increase",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-01T04:00:00.000Z",
-      "snippet": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account, increased from 10. This allows you to create up to 1 million tables per AWS Region in an AWS account. With a higher table bucket allowance, you can create a separate table…"
     }
   ]
 }
