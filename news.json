@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-10-06T18:51:22.823Z",
+  "lastUpdated": "2026-10-07T00:52:25.444Z",
   "items": [
+    {
+      "title": "Improving SPIRE security and resiliency with AWS managed services",
+      "link": "https://aws.amazon.com/blogs/security/improving-spire-security-and-resiliency-with-aws-managed-services/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-06T18:52:25.000Z",
+      "snippet": "In cloud-centered environments, establishing trust between workloads is fundamental to securing machine-to-machine communication. Traditional approaches such as API keys, shared secrets, and static service account credentials weren’t designed for the scale…"
+    },
+    {
+      "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-06T17:30:00.000Z",
+      "snippet": "AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job queue health, failure rates, and job durations. AWS Batch…"
+    },
     {
       "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
       "link": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-02T07:00:00.000Z",
       "snippet": "Amazon ElastiCache for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus Query Language (PromQL) expressions. ElastiCache now offers…"
-    },
-    {
-      "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T03:35:00.000Z",
-      "snippet": "Today, AWS announces that Amazon GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan. Runtime Monitoring inspects operating system, network, and file activity to surface threats such as container escapes, privilege…"
-    },
-    {
-      "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
-      "link": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-10-01T20:04:04.000Z",
-      "snippet": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with…"
     }
   ]
 }
