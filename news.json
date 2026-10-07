@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-10-07T12:54:20.546Z",
+  "lastUpdated": "2026-10-07T18:55:08.533Z",
   "items": [
+    {
+      "title": "Part 1 – Cybersecurity journeys: I didn’t plan this",
+      "link": "https://aws.amazon.com/blogs/security/part-1-cybersecurity-journeys-i-didnt-plan-this/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-07T16:21:19.000Z",
+      "snippet": "If you’ve ever wondered whether your background qualifies you for a career in cybersecurity, you’re not alone — and you’re probably more prepared than you think. My name is Shannon Brazil, and I work in security communications at Amazon Web Services (AWS). I…"
+    },
+    {
+      "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-07T15:00:00.000Z",
+      "snippet": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. You can now set availability notifications for AWS service, or to an individual feature of an AWS service, in the AWS…"
+    },
+    {
+      "title": "Claude Haiku 5.5 is now available on AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-07T14:00:00.000Z",
+      "snippet": "AWS GovCloud (US) now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most tasks.…"
+    },
     {
       "title": "Improving SPIRE security and resiliency with AWS managed services",
       "link": "https://aws.amazon.com/blogs/security/improving-spire-security-and-resiliency-with-aws-managed-services/",
@@ -189,27 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-02T17:30:00.000Z",
       "snippet": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost. Many tables hold a small working set…"
-    },
-    {
-      "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T16:30:00.000Z",
-      "snippet": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to distribute their Software-as-a-Service (SaaS) product licenses,…"
-    },
-    {
-      "title": "The AWS MCP Server is now available in six additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-mcp-server-six-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T08:00:00.000Z",
-      "snippet": "The AWS MCP Server is now available in six additional AWS Regions: Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Ireland), Europe (London), and US West (Oregon). The AWS MCP Server, part of the Agent Toolkit for AWS, is a…"
-    },
-    {
-      "title": "AgentCore Gateway supports private TLS certificates for VPC endpoints",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T08:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Gateway now supports TLS certificates signed by private certificate authorities (CAs) on MCP, OpenAPI, and HTTP proxy targets. This feature enables you to connect securely to gateway targets that use TLS certificates issued by your…"
     }
   ]
 }
