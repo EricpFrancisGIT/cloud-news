@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-10-07T18:55:08.533Z",
+  "lastUpdated": "2026-10-08T00:56:03.460Z",
   "items": [
+    {
+      "title": "Configuring your AI vulnerability harness, Part 2: The steering file",
+      "link": "https://aws.amazon.com/blogs/security/configuring-your-ai-vulnerability-harness-part-2-the-steering-file/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-07T21:49:50.000Z",
+      "snippet": "This post shows you how to configure an AI model to perform structured, evidence-based vulnerability triage with the consistency of a seasoned security analyst. You’ll learn the design decisions behind five configuration sections that enforce structural…"
+    },
+    {
+      "title": "Building your AI vulnerability harness, Part 1",
+      "link": "https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-07T21:49:43.000Z",
+      "snippet": "Vulnerability scanners produce findings faster than manual triage can process them. Your developers ship more code with more dependencies, and the volume of candidate findings grows with it. Many findings a scanner produces are unlikely to be exploited. The…"
+    },
     {
       "title": "Part 1 – Cybersecurity journeys: I didn’t plan this",
       "link": "https://aws.amazon.com/blogs/security/part-1-cybersecurity-journeys-i-didnt-plan-this/",
@@ -14,6 +28,20 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-07T15:00:00.000Z",
       "snippet": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. You can now set availability notifications for AWS service, or to an individual feature of an AWS service, in the AWS…"
+    },
+    {
+      "title": "AWS Config now supports 77 new resource types",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-07T15:00:00.000Z",
+      "snippet": "AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess,…"
+    },
+    {
+      "title": "Claude Haiku 5.5 is now available on AWS",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-07T14:00:00.000Z",
+      "snippet": "AWS now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most tasks. Claude Haiku 5.5…"
     },
     {
       "title": "Claude Haiku 5.5 is now available on AWS GovCloud (US)",
@@ -121,18 +149,18 @@
       "snippet": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an organization, or made public, a shared tag is automatically…"
     },
     {
-      "title": "AWS Advanced Ruby Driver Wrapper is generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T17:00:00.000Z",
-      "snippet": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database driver reduces RDS Blue/Green switchover, Aurora Global database…"
-    },
-    {
       "title": "AWS Client VPN now supports device posture assessment",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
       "source": "AWS What's New",
       "pubDate": "2026-10-05T17:00:00.000Z",
       "snippet": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature integrates with your existing device posture providers, so…"
+    },
+    {
+      "title": "AWS Advanced Ruby Driver Wrapper is generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T17:00:00.000Z",
+      "snippet": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database driver reduces RDS Blue/Green switchover, Aurora Global database…"
     },
     {
       "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
@@ -182,34 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-10-02T17:57:15.000Z",
       "snippet": "This post provides step-by-step procedures to deploy Oracle Database on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP as NFS datastore storage. You provision storage volumes, mount NFS datastores, install Oracle, and configure…"
-    },
-    {
-      "title": "Architect highly available Oracle Database on Amazon EVS and FSx for ONTAP",
-      "link": "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-02T17:57:01.000Z",
-      "snippet": "Learn how to architect a highly available Oracle Database environment on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP. This post covers EC2 bare metal instance selection, vSAN and FSx storage tiering, NSX networking, and…"
-    },
-    {
-      "title": "Deploy open source Regional availability tools in your VPC",
-      "link": "https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-02T17:50:56.000Z",
-      "snippet": "Deploy AWS Regional availability data as infrastructure you own. Capability Insights for AWS runs a self-hosted dashboard in your VPC that auto-refreshes daily, and Workload Analysis narrows the catalog to the services your account actually runs, so your…"
-    },
-    {
-      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T17:30:00.000Z",
-      "snippet": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.37. Starting today, you can create new EKS…"
-    },
-    {
-      "title": "Amazon Aurora DSQL now supports partial indexes",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T17:30:00.000Z",
-      "snippet": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost. Many tables hold a small working set…"
     }
   ]
 }
