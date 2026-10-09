@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-10-08T18:59:03.885Z",
+  "lastUpdated": "2026-10-09T00:59:22.994Z",
   "items": [
+    {
+      "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-08T19:41:00.000Z",
+      "snippet": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock. Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedrock inference engine delivers the performance, security, and…"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-08T18:00:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window. RDS for Oracle now also emits a new event during patching that…"
+    },
+    {
+      "title": "AWS Network Firewall adds wildcard support for container attribute filters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-08T16:00:00.000Z",
+      "snippet": "AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS). This enhancement allows you to define attribute filters…"
+    },
+    {
+      "title": "Amazon GameLift Servers adds CPU burstability for container fleets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-gamelift-servers-cpu-burstability",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-08T08:00:00.000Z",
+      "snippet": "Amazon GameLift Servers now supports CPU burstability for container fleets, giving game developers greater flexibility in how compute resources are allocated and consumed at runtime. Previously, container fleets relied on a fixed CPU value that simultaneously…"
+    },
     {
       "title": "Configuring your AI vulnerability harness, Part 2: The steering file",
       "link": "https://aws.amazon.com/blogs/security/configuring-your-ai-vulnerability-harness-part-2-the-steering-file/",
@@ -14,6 +42,13 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-10-07T21:49:43.000Z",
       "snippet": "Vulnerability scanners produce findings faster than manual triage can process them. Your developers ship more code with more dependencies, and the volume of candidate findings grows with it. Many findings a scanner produces are unlikely to be exploited. The…"
+    },
+    {
+      "title": "Amazon EC2 C8gb instances now generally available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-c8gb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-07T18:26:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gb instances, powered by the latest-generation AWS Graviton4 processors, are available in the US East (Ohio), US West (N. California), EU (Frankfurt, Ireland, Paris, Stockholm), and Africa (Cape…"
     },
     {
       "title": "Part 1 – Cybersecurity journeys: I didn’t plan this",
@@ -175,41 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-05T15:31:00.000Z",
       "snippet": "AWS Batch now supports Amazon EKS access entry authentication for compute environments. EKS access entries provide an API-driven approach to granting IAM principals access to Kubernetes clusters, complementing the existing aws-auth ConfigMap. AWS Batch can…"
-    },
-    {
-      "title": "AWS Private CA now provides detailed certificate issuance logs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T09:00:00.000Z",
-      "snippet": "AWS Private CA announces detailed certificate issuance logs, a new AWS CloudTrail service event that records the complete certificate content, issuing CA information, requester identity, and signing status for every issuance. You can use these events for…"
-    },
-    {
-      "title": "Announcing Amazon Nova 2.5 Sonic with improved reasoning for voice agents",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-sonic/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T08:10:00.000Z",
-      "snippet": "Today, we announce the general availability of Amazon Nova 2.5 Sonic, our latest speech-to-speech model for natural, real-time voice agents. This release brings improved reasoning, instruction following, and tool-calling accuracy to real-time voice…"
-    },
-    {
-      "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T20:18:00.000Z",
-      "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice. Applications that use VPC Lattice for service-to-service communication across VPCs and AWS…"
-    },
-    {
-      "title": "AWS Health introduces the version catalog for software lifecycle management",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-02T18:09:00.000Z",
-      "snippet": "Today, AWS Health introduces the version catalog which provides a centralized source of lifecycle information for software versions across AWS services. The version catalog helps customers move from reactive to proactive management of version upgrades and…"
-    },
-    {
-      "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP",
-      "link": "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-02T17:57:15.000Z",
-      "snippet": "This post provides step-by-step procedures to deploy Oracle Database on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP as NFS datastore storage. You provision storage volumes, mount NFS datastores, install Oracle, and configure…"
     }
   ]
 }
