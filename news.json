@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T00:59:22.994Z",
+  "lastUpdated": "2026-10-09T06:59:43.288Z",
   "items": [
     {
       "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
@@ -7,6 +7,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-08T19:41:00.000Z",
       "snippet": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock. Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedrock inference engine delivers the performance, security, and…"
+    },
+    {
+      "title": "AWS Cost Explorer, Budgets, and Dashboards now support Amazon Bedrock product attributes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-08T18:51:00.000Z",
+      "snippet": "AWS Cost Explorer, AWS Budgets, and AWS Cost Management Dashboards now let you analyze Amazon Bedrock costs by product attributes, a new dimension that breaks down Bedrock cost by model, model provider, inference type, and feature. In Cost Explorer and…"
     },
     {
       "title": "Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
@@ -184,13 +191,6 @@
       "snippet": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an organization, or made public, a shared tag is automatically…"
     },
     {
-      "title": "AWS Client VPN now supports device posture assessment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T17:00:00.000Z",
-      "snippet": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature integrates with your existing device posture providers, so…"
-    },
-    {
       "title": "AWS Advanced Ruby Driver Wrapper is generally available",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
       "source": "AWS What's New",
@@ -198,18 +198,18 @@
       "snippet": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database driver reduces RDS Blue/Green switchover, Aurora Global database…"
     },
     {
+      "title": "AWS Client VPN now supports device posture assessment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-05T17:00:00.000Z",
+      "snippet": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature integrates with your existing device posture providers, so…"
+    },
+    {
       "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
       "source": "AWS News Blog",
       "pubDate": "2026-10-05T15:41:19.000Z",
       "snippet": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI…"
-    },
-    {
-      "title": "AWS Batch now supports Amazon EKS access entry authentication",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T15:31:00.000Z",
-      "snippet": "AWS Batch now supports Amazon EKS access entry authentication for compute environments. EKS access entries provide an API-driven approach to granting IAM principals access to Kubernetes clusters, complementing the existing aws-auth ConfigMap. AWS Batch can…"
     }
   ]
 }
