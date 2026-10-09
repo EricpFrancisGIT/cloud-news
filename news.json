@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-10-09T13:00:03.909Z",
+  "lastUpdated": "2026-10-09T19:00:22.457Z",
   "items": [
+    {
+      "title": "Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T17:13:00.000Z",
+      "snippet": "Two new Anthropic models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 5.5 is Anthropic's most capable Opus model yet and a step up from Opus 5 on long-running agentic coding work. Opus 5.5 thinks adaptively on every…"
+    },
+    {
+      "title": "Amazon Connect Customer now provides automated checks to improve performance evaluation forms",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-customer-automated-checks-evaluation-forms/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T17:00:00.000Z",
+      "snippet": "Amazon Connect Customer now suggests changes to performance evaluation forms that improve the accuracy of evaluations automatically filled by AI. While setting up an evaluation form, managers can run an automated check that compares the form against best…"
+    },
+    {
+      "title": "Amazon S3 Vectors metadata pre-filtering is now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T17:00:00.000Z",
+      "snippet": "Amazon S3 Vectors metadata pre-filtering is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Pre-filtering evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your…"
+    },
     {
       "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
@@ -35,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-08T08:00:00.000Z",
       "snippet": "Amazon GameLift Servers now supports CPU burstability for container fleets, giving game developers greater flexibility in how compute resources are allocated and consumed at runtime. Previously, container fleets relied on a fixed CPU value that simultaneously…"
+    },
+    {
+      "title": "Amazon GuardDuty RDS Protection now detects data exfiltration and destruction in Aurora and RDS databases",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-08T08:00:00.000Z",
+      "snippet": "Amazon GuardDuty announces an expansion of RDS Protection that extends threat detection beyond login anomalies to identify data exfiltration and data destruction attacks targeting Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL databases. Available as…"
     },
     {
       "title": "Configuring your AI vulnerability harness, Part 2: The steering file",
@@ -182,34 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-10-05T17:54:56.000Z",
       "snippet": "October 2026: This post was reviewed and updated for accuracy. Today we’re launching the AWS Digital Sovereignty Lens, a new Well-Architected lens providing customers with extended guidance for designing, building, and operating sovereign workloads on AWS.…"
-    },
-    {
-      "title": "Amazon EC2 introduces shared tags for Amazon Machine Images",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T17:28:00.000Z",
-      "snippet": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an organization, or made public, a shared tag is automatically…"
-    },
-    {
-      "title": "AWS Advanced Ruby Driver Wrapper is generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T17:00:00.000Z",
-      "snippet": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database driver reduces RDS Blue/Green switchover, Aurora Global database…"
-    },
-    {
-      "title": "AWS Client VPN now supports device posture assessment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T17:00:00.000Z",
-      "snippet": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature integrates with your existing device posture providers, so…"
-    },
-    {
-      "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-10-05T15:41:19.000Z",
-      "snippet": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI…"
     }
   ]
 }
