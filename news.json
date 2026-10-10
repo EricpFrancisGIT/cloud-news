@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-10-09T19:00:22.457Z",
+  "lastUpdated": "2026-10-10T01:00:43.550Z",
   "items": [
+    {
+      "title": "AWS Security Hub now exports findings to S3 in CSV or JSON format",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T22:00:00.000Z",
+      "snippet": "Today, AWS Security Hub announces support for exporting findings to Amazon S3 in CSV or JSON (OCSF) format. Security teams that need findings outside the console for use cases such as compliance reporting and audit evidence can now export findings from every…"
+    },
+    {
+      "title": "Amazon EC2 R8gd instances are now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T19:29:00.000Z",
+      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) R8gd instances are available in AWS European Sovereign Cloud (Germany) region. These instances feature up to 11.4 TB of local NVMe-based SSD block-level storage and are powered by AWS Graviton4 processors, delivering…"
+    },
+    {
+      "title": "Amazon EC2 R8g instances now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T19:19:00.000Z",
+      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS…"
+    },
+    {
+      "title": "Amazon Bedrock now supports reasoning summaries for OpenAI models",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T17:44:00.000Z",
+      "snippet": "Amazon Bedrock now supports the reasoning.summary parameter for OpenAI models through the Responses API. This capability lets you request a human-readable summary of a model’s reasoning alongside its response, helping you understand its approach to complex…"
+    },
     {
       "title": "Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us/",
@@ -21,6 +49,34 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-09T17:00:00.000Z",
       "snippet": "Amazon S3 Vectors metadata pre-filtering is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Pre-filtering evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your…"
+    },
+    {
+      "title": "AWS Lambda supports OAuth authentication for self-managed Apache Kafka event sources",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T16:30:00.000Z",
+      "snippet": "AWS Lambda now supports OAuth authentication for self-managed Apache Kafka event source mappings (ESM), including Kafka clusters that customers run themselves and managed offerings such as Confluent Cloud, Aiven, and Redpanda. With this launch, customers can…"
+    },
+    {
+      "title": "Amazon Quick now supports brand templates for on-brand presentations and documents",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-brand-templates-on-brand-presentations-documents/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T15:00:00.000Z",
+      "snippet": "Starting today, you can upload brand templates in Amazon Quick, allowing you to create presentations and documents that match your approved visual identity. Brand managers set up a template once and everyone gets on-brand output, without hunting for the right…"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T08:00:00.000Z",
+      "snippet": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints, giving domain administrators the ability to define the foundation of every project by using their own AWS CloudFormation templates. Administrators can tailor project environments to meet…"
+    },
+    {
+      "title": "TwelveLabs Pegasus 1.5 model now available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-09T05:32:00.000Z",
+      "snippet": "Amazon Bedrock now supports TwelveLabs Pegasus 1.5, a video-to-text model that generates structured, time-coded metadata from video. Until now, finding a moment in a large video library meant knowing where to look before you could ask about it. Pegasus 1.5…"
     },
     {
       "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-06T14:01:00.000Z",
       "snippet": "AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays within the AWS network. You can now create a VPC interface…"
-    },
-    {
-      "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T21:57:18.000Z",
-      "snippet": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache Iceberg table in Amazon S3 or Amazon S3 table buckets,…"
-    },
-    {
-      "title": "GLM 5.3 by Z.ai is now generally available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T21:42:00.000Z",
-      "snippet": "Amazon Bedrock now supports GLM 5.3 from Z.ai, giving you a powerful new option for agentic coding and long-horizon software engineering work. Customers using GLM 5.3 on Amazon Bedrock have access to the latest open weight model with the AWS security and…"
-    },
-    {
-      "title": "AWS Continuum sets a new standard in autonomous code security",
-      "link": "https://aws.amazon.com/blogs/security/aws-continuum-sets-a-new-standard-in-autonomous-code-security/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-05T21:41:01.000Z",
-      "snippet": "As AI models become more capable, they uncover more security vulnerabilities and identify increasingly sophisticated paths to exploit them, raising the bar for how quickly defenders must respond. Security teams now face more potential vulnerabilities than…"
-    },
-    {
-      "title": "AWS IAM Identity Center now supports network access controls for Identity Store",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T21:00:00.000Z",
-      "snippet": "AWS IAM Identity Center helps you configure the single sign-on experience for your workforce to AWS accounts and applications. IAM Identity Center now supports network access controls for Identity Store, which stores your users and groups. You can restrict…"
-    },
-    {
-      "title": "Amazon EC2 Hpc8a instances are now available in Asia Pacific (Singapore)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-hpc8a-asia-pacific/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T20:33:00.000Z",
-      "snippet": "Starting today, Amazon EC2 Hpc8a instances are available in Asia Pacific (Singapore) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). With a maximum frequency of 4.5GHz, Hpc8a instances deliver up to 40% higher…"
-    },
-    {
-      "title": "AWS Control Tower AFT now supports plan-only customization runs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T19:31:00.000Z",
-      "snippet": "AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their managed accounts. This feature is available in all AWS Regions…"
-    },
-    {
-      "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-05T18:32:00.000Z",
-      "snippet": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview) AWS Continuum for Penetration Testing (formerly AWS Security Agent) already provides continuous, on-demand penetration…"
-    },
-    {
-      "title": "Announcing the AWS Digital Sovereignty Lens for the Well-Architected Framework",
-      "link": "https://aws.amazon.com/blogs/architecture/announcing-the-aws-digital-sovereignty-well-architected-lens/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-05T17:54:56.000Z",
-      "snippet": "October 2026: This post was reviewed and updated for accuracy. Today we’re launching the AWS Digital Sovereignty Lens, a new Well-Architected lens providing customers with extended guidance for designing, building, and operating sovereign workloads on AWS.…"
     }
   ]
 }
