@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-10-12T19:05:06.293Z",
+  "lastUpdated": "2026-10-13T01:05:50.156Z",
   "items": [
+    {
+      "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-12T23:10:00.000Z",
+      "snippet": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network. With CloudFront in front of a Lambda Web Function, you get TLS termination at the edge for lower latency and faster connections,…"
+    },
+    {
+      "title": "Announcing AWS Lambda Web Functions",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-10-12T22:34:47.000Z",
+      "snippet": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution."
+    },
+    {
+      "title": "Amazon EC2 G7 instances now available in Europe (Frankfurt) and Europe (Stockholm) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-g7-european-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-12T22:30:00.000Z",
+      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Frankfurt) and Europe (Stockholm) Regions. G7 instances deliver up to 4.6x AI inference performance and up to 2.1…"
+    },
+    {
+      "title": "Amazon Connect Customer now prefills step-by-step guides for after contact work",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-prefills-guides-acw",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-12T22:28:00.000Z",
+      "snippet": "Amazon Connect Customer can now fill in the step-by-step guides that agents complete after a contact, using information extracted from customer conversations, such as booking identifiers, claim numbers, and conversation summaries. Managers can set which…"
+    },
+    {
+      "title": "GuardDuty Extended Threat Detection has added five new indicators to surface attack sequences",
+      "link": "https://aws.amazon.com/blogs/security/guardduty-extended-threat-detection-has-added-five-new-indicators-to-surface-attack-sequences/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-12T21:58:44.000Z",
+      "snippet": "Amazon GuardDuty Extended Threat Detection correlates weak GuardDuty signals into a single, critical-severity attack sequence finding when their composition crosses a threshold of credibility. On May 20, 2026, the service started attaching five new indicator…"
+    },
+    {
+      "title": "Quantum-resistant signing on AWS, Part 2: Enforce your ML-DSA algorithm policy with SCPs and IAM",
+      "link": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-2-enforce-your-ml-dsa-algorithm-policy-with-scps-and-iam/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-12T20:13:06.000Z",
+      "snippet": "You want to set a cryptographic algorithm policy and stop non-compliant choices from being made in your Amazon Web Services (AWS) environment. This post shows you how. As you adopt post-quantum cryptography, one of the first decisions you face is which…"
+    },
+    {
+      "title": "Quantum-resistant signing on AWS, Part 1: Build a software supply chain with ML-DSA",
+      "link": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-1-build-a-software-supply-chain-with-ml-dsa/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-12T20:12:53.000Z",
+      "snippet": "Software supply chain attacks have grown in both frequency and sophistication. Recent high-profile compromises of build systems and open source dependencies demonstrate that attackers increasingly target the trust mechanisms that verify software integrity.…"
+    },
+    {
+      "title": "AWS Lambda announces Lambda Web Functions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-12T19:30:00.000Z",
+      "snippet": "AWS Lambda announces Lambda Web Functions, a new serverless compute primitive where your code handles HTTP requests directly. Your code listens on a port and handles requests as it would on any HTTP server. You use frameworks you already know, such as Express…"
+    },
+    {
+      "title": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-12T16:00:00.000Z",
+      "snippet": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore Amazon Bedrock AgentCore memory now prices short-term memory (STM) based on the data your agents ingest, retrieve, and store, replacing the previous flat rate per event.…"
+    },
     {
       "title": "Agentic antimicrobial resistance surveillance with AWS HealthOmics and Amazon Bedrock AgentCore",
       "link": "https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore/",
@@ -16,6 +79,20 @@
       "snippet": "AWS Transfer Family now lets you configure custom ports on public SFTP servers and choose a communication mode for each port. You can support clients that require different ports or start SFTP connections differently on a single server. Previously, public…"
     },
     {
+      "title": "Amazon S3 Express One Zone is now available in 4 additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-express-one-zone-4-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-12T08:00:00.000Z",
+      "snippet": "The Amazon S3 Express One Zone storage class is now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Jakarta), Asia Pacific (Hong Kong), and Africa (Cape Town). Amazon S3 Express One Zone is a high-performance, single-Availability Zone…"
+    },
+    {
+      "title": "AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-12T07:00:00.000Z",
+      "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Databricks and Twilio, enabling you to automatically rotate the credentials that your data pipelines and messaging applications use to call these services. You set up rotation…"
+    },
+    {
       "title": "Amazon ElastiCache for Valkey introduces ElastiCache Insights",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-elasticache-insights/",
       "source": "AWS What's New",
@@ -23,11 +100,25 @@
       "snippet": "Amazon ElastiCache for Valkey now features ElastiCache Insights, a pre-built dashboard in Amazon CloudWatch for your node-based clusters. ElastiCache Insights brings cluster health, memory, compute, network, command throughput, latency, keyspace, and errors…"
     },
     {
+      "title": "Amazon EMR now supports native data quality checks in Apache Spark jobs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-data-quality-spark/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-12T07:00:00.000Z",
+      "snippet": "Amazon EMR now validates data quality natively within Apache Spark jobs. Data engineering teams can catch quality issues inline before bad data reaches downstream systems, without building or maintaining separate validation infrastructure. Amazon EMR Data…"
+    },
+    {
       "title": "Amazon OpenSearch Service now supports index-level encryption",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-index-level-encryption",
       "source": "AWS What's New",
       "pubDate": "2026-10-12T02:30:00.000Z",
       "snippet": "Amazon OpenSearch Service now supports index-level encryption, letting you encrypt each index at rest with its own AWS Key Management Service (AWS KMS) customer managed key. This helps you protect data with different ownership or sensitivity under separate…"
+    },
+    {
+      "title": "AWS now lets customers sign up for AWS and pay invoices using ACH direct debit",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-sign-up-invoices-ach-direct-debit/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-11T08:00:00.000Z",
+      "snippet": "Starting today, AWS customers in the United States can use a US bank account to sign up for AWS and pay for their AWS services through ACH direct debit. This feature provides a convenient and secure way to manage AWS payments directly from a USD bank account.…"
     },
     {
       "title": "AWS Security Hub now exports findings to S3 in CSV or JSON format",
@@ -119,97 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-08T18:51:00.000Z",
       "snippet": "AWS Cost Explorer, AWS Budgets, and AWS Cost Management Dashboards now let you analyze Amazon Bedrock costs by product attributes, a new dimension that breaks down Bedrock cost by model, model provider, inference type, and feature. In Cost Explorer and…"
-    },
-    {
-      "title": "Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-08T18:00:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window. RDS for Oracle now also emits a new event during patching that…"
-    },
-    {
-      "title": "AWS Network Firewall adds wildcard support for container attribute filters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-08T16:00:00.000Z",
-      "snippet": "AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS). This enhancement allows you to define attribute filters…"
-    },
-    {
-      "title": "Amazon GameLift Servers adds CPU burstability for container fleets",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-gamelift-servers-cpu-burstability",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-08T08:00:00.000Z",
-      "snippet": "Amazon GameLift Servers now supports CPU burstability for container fleets, giving game developers greater flexibility in how compute resources are allocated and consumed at runtime. Previously, container fleets relied on a fixed CPU value that simultaneously…"
-    },
-    {
-      "title": "Amazon GuardDuty RDS Protection now detects data exfiltration and destruction in Aurora and RDS databases",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-08T08:00:00.000Z",
-      "snippet": "Amazon GuardDuty announces an expansion of RDS Protection that extends threat detection beyond login anomalies to identify data exfiltration and data destruction attacks targeting Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL databases. Available as…"
-    },
-    {
-      "title": "Configuring your AI vulnerability harness, Part 2: The steering file",
-      "link": "https://aws.amazon.com/blogs/security/configuring-your-ai-vulnerability-harness-part-2-the-steering-file/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-07T21:49:50.000Z",
-      "snippet": "This post shows you how to configure an AI model to perform structured, evidence-based vulnerability triage with the consistency of a seasoned security analyst. You’ll learn the design decisions behind five configuration sections that enforce structural…"
-    },
-    {
-      "title": "Building your AI vulnerability harness, Part 1",
-      "link": "https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-07T21:49:43.000Z",
-      "snippet": "Vulnerability scanners produce findings faster than manual triage can process them. Your developers ship more code with more dependencies, and the volume of candidate findings grows with it. Many findings a scanner produces are unlikely to be exploited. The…"
-    },
-    {
-      "title": "Amazon EC2 C8gb instances now generally available in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-c8gb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-07T18:26:00.000Z",
-      "snippet": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gb instances, powered by the latest-generation AWS Graviton4 processors, are available in the US East (Ohio), US West (N. California), EU (Frankfurt, Ireland, Paris, Stockholm), and Africa (Cape…"
-    },
-    {
-      "title": "Part 1 – Cybersecurity journeys: I didn’t plan this",
-      "link": "https://aws.amazon.com/blogs/security/part-1-cybersecurity-journeys-i-didnt-plan-this/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-07T16:21:19.000Z",
-      "snippet": "If you’ve ever wondered whether your background qualifies you for a career in cybersecurity, you’re not alone — and you’re probably more prepared than you think. My name is Shannon Brazil, and I work in security communications at Amazon Web Services (AWS). I…"
-    },
-    {
-      "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-07T15:00:00.000Z",
-      "snippet": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. You can now set availability notifications for AWS service, or to an individual feature of an AWS service, in the AWS…"
-    },
-    {
-      "title": "AWS Config now supports 77 new resource types",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-07T15:00:00.000Z",
-      "snippet": "AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess,…"
-    },
-    {
-      "title": "Claude Haiku 5.5 is now available on AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-07T14:00:00.000Z",
-      "snippet": "AWS now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most tasks. Claude Haiku 5.5…"
-    },
-    {
-      "title": "Claude Haiku 5.5 is now available on AWS GovCloud (US)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws-govcloud/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-07T14:00:00.000Z",
-      "snippet": "AWS GovCloud (US) now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most tasks.…"
-    },
-    {
-      "title": "Improving SPIRE security and resiliency with AWS managed services",
-      "link": "https://aws.amazon.com/blogs/security/improving-spire-security-and-resiliency-with-aws-managed-services/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-06T18:52:25.000Z",
-      "snippet": "In cloud-centered environments, establishing trust between workloads is fundamental to securing machine-to-machine communication. Traditional approaches such as API keys, shared secrets, and static service account credentials weren’t designed for the scale…"
     }
   ]
 }
