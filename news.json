@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-10-14T13:09:46.319Z",
+  "lastUpdated": "2026-10-14T19:10:20.567Z",
   "items": [
+    {
+      "title": "AWS License Manager now supports license type conversions for Ubuntu Pro purchased through AWS Marketplace",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-license-manager-conversions-ubuntu-pro-marketplace/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T17:04:00.000Z",
+      "snippet": "AWS License Manager now supports in-place upgrades for EC2 Ubuntu LTS (Long Term Support) instances to Ubuntu Pro available on AWS Marketplace. This allows customers to strengthen their security posture and meet compliance requirements without rebuilding…"
+    },
+    {
+      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T17:00:00.000Z",
+      "snippet": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required. Previously,…"
+    },
+    {
+      "title": "AWS HealthOmics introduces resource fallback order for Nextflow workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T16:00:00.000Z",
+      "snippet": "Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances. Researchers and bioinformaticians…"
+    },
+    {
+      "title": "Multi-region disaster recovery for Amazon API Gateway WebSocket APIs",
+      "link": "https://aws.amazon.com/blogs/architecture/multi-region-disaster-recovery-for-amazon-api-gateway-websocket-apis/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-14T14:31:55.000Z",
+      "snippet": "Learn how to build multi-region disaster recovery for Amazon API Gateway WebSocket APIs. This design pattern combines Amazon Route 53 DNS failover, Amazon DynamoDB Global Tables, a canary health probe, and client-side reconnection logic to reconnect clients…"
+    },
+    {
+      "title": "How UTS established a modern curriculum data services foundation on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-uts-established-a-modern-curriculum-data-services-foundation-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-14T14:29:10.000Z",
+      "snippet": "The University of Technology Sydney built a modern curriculum data services foundation on AWS that treats curriculum data as a governed, reusable product, available through APIs, graph traversal, semantic search, and event delivery, while leaving the source…"
+    },
+    {
+      "title": "AWS Backup now supports Amazon FSx file systems in the Asia Pacific (New Zealand) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-fsx-asia-pacific-new-zealand/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T08:00:00.000Z",
+      "snippet": "AWS Backup now supports Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, and Amazon FSx for Windows File Server in the Asia Pacific (New Zealand) Region. With this launch, you can use AWS Backup to centrally automate and manage data…"
+    },
     {
       "title": "AWS Security Hub now supports resource criticality for prioritization",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
@@ -14,6 +56,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-13T22:00:00.000Z",
       "snippet": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge. Additionally, the existing…"
+    },
+    {
+      "title": "AWS Lambda durable functions increases durable operation and checkpoint payload limits",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-gen-limit-increase/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-13T22:00:00.000Z",
+      "snippet": "Starting today, AWS Lambda durable functions increases the maximum number of durable operations per execution from 3,000 to 30,000, and the maximum checkpoint payload size from 256 KB to 1 MB. Higher operation limits let you safely do more work in a single…"
     },
     {
       "title": "Scope workloads and share resilience policies with AWS Resilience Hub",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-12T19:30:00.000Z",
       "snippet": "AWS Lambda announces Lambda Web Functions, a new serverless compute primitive where your code handles HTTP requests directly. Your code listens on a port and handles requests as it would on any HTTP server. You use frameworks you already know, such as Express…"
-    },
-    {
-      "title": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T16:00:00.000Z",
-      "snippet": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore Amazon Bedrock AgentCore memory now prices short-term memory (STM) based on the data your agents ingest, retrieve, and store, replacing the previous flat rate per event.…"
-    },
-    {
-      "title": "Agentic antimicrobial resistance surveillance with AWS HealthOmics and Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-12T14:34:57.000Z",
-      "snippet": "This post presents a reference architecture that turns public sequencing data into plain-language answers about antimicrobial resistance (AMR) genes. It pairs AWS HealthOmics for managed genomics processing with a grounded Amazon Bedrock AgentCore agent, so…"
-    },
-    {
-      "title": "AWS Transfer Family supports custom ports for public SFTP servers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-ports-sftp/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T08:00:00.000Z",
-      "snippet": "AWS Transfer Family now lets you configure custom ports on public SFTP servers and choose a communication mode for each port. You can support clients that require different ports or start SFTP connections differently on a single server. Previously, public…"
-    },
-    {
-      "title": "Amazon S3 Express One Zone is now available in 4 additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-express-one-zone-4-additional-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T08:00:00.000Z",
-      "snippet": "The Amazon S3 Express One Zone storage class is now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Jakarta), Asia Pacific (Hong Kong), and Africa (Cape Town). Amazon S3 Express One Zone is a high-performance, single-Availability Zone…"
-    },
-    {
-      "title": "AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T07:00:00.000Z",
-      "snippet": "AWS Secrets Manager now extends its managed external secrets capability to include Databricks and Twilio, enabling you to automatically rotate the credentials that your data pipelines and messaging applications use to call these services. You set up rotation…"
-    },
-    {
-      "title": "Amazon ElastiCache for Valkey introduces ElastiCache Insights",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-elasticache-insights/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T07:00:00.000Z",
-      "snippet": "Amazon ElastiCache for Valkey now features ElastiCache Insights, a pre-built dashboard in Amazon CloudWatch for your node-based clusters. ElastiCache Insights brings cluster health, memory, compute, network, command throughput, latency, keyspace, and errors…"
-    },
-    {
-      "title": "Amazon EMR now supports native data quality checks in Apache Spark jobs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-data-quality-spark/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T07:00:00.000Z",
-      "snippet": "Amazon EMR now validates data quality natively within Apache Spark jobs. Data engineering teams can catch quality issues inline before bad data reaches downstream systems, without building or maintaining separate validation infrastructure. Amazon EMR Data…"
     }
   ]
 }
