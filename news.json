@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-10-14T01:08:27.126Z",
+  "lastUpdated": "2026-10-14T07:09:03.389Z",
   "items": [
+    {
+      "title": "AWS Security Hub now supports resource criticality for prioritization",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T01:00:00.000Z",
+      "snippet": "Today, AWS Security Hub adds resource criticality to exposure prioritization, helping central security teams focus on the exposures that threaten their most business-critical resources. You can set criticality with an automation rule, for example marking…"
+    },
     {
       "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-12T07:00:00.000Z",
       "snippet": "Amazon EMR now validates data quality natively within Apache Spark jobs. Data engineering teams can catch quality issues inline before bad data reaches downstream systems, without building or maintaining separate validation infrastructure. Amazon EMR Data…"
-    },
-    {
-      "title": "Amazon OpenSearch Service now supports index-level encryption",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-index-level-encryption",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T02:30:00.000Z",
-      "snippet": "Amazon OpenSearch Service now supports index-level encryption, letting you encrypt each index at rest with its own AWS Key Management Service (AWS KMS) customer managed key. This helps you protect data with different ownership or sensitivity under separate…"
     }
   ]
 }
