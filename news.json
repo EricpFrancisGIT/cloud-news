@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T01:11:06.069Z",
+  "lastUpdated": "2026-10-15T07:11:36.852Z",
   "items": [
     {
       "title": "Amazon CloudWatch announces log routing and chained log parsers",
@@ -27,7 +27,7 @@
       "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
       "source": "AWS News Blog",
       "pubDate": "2026-10-14T19:30:48.000Z",
-      "snippet": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running."
+      "snippet": "Amazon Simple Storage Service (Amazon S3), including Amazon S3 Tables and Amazon S3 Vectors, is natively available on the Vercel Marketplace and v0 by Vercel."
     },
     {
       "title": "ARC Region switch adds four new capabilities",
