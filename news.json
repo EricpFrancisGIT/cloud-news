@@ -1,6 +1,90 @@
 {
-  "lastUpdated": "2026-10-15T13:12:05.603Z",
+  "lastUpdated": "2026-10-15T19:13:30.273Z",
   "items": [
+    {
+      "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
+      "link": "https://aws.amazon.com/amazon-dynamodb-streams-timestamp-processing",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T18:30:00.000Z",
+      "snippet": "Amazon DynamoDB Streams now supports timestamp-based stream processing, enabling you to begin reading stream records from a specific point in time. Previously, you could only start from the oldest retained record (up to 24 hours old) or from new records…"
+    },
+    {
+      "title": "Muse Spark Open model now available on Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-spark-open-on-sagemaker-jumpstart/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T18:00:00.000Z",
+      "snippet": "Meta's Muse Spark Open is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This coding-optimized open-weight model from Meta is purpose-built for agentic coding workflows, bringing…"
+    },
+    {
+      "title": "AWS HealthOmics now supports shared VPCs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T17:42:00.000Z",
+      "snippet": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access Manager (RAM). AWS HealthOmics is a HIPAA-eligible service…"
+    },
+    {
+      "title": "AWS Transform for full-stack Windows modernization now supports Aurora PostgreSQL cross-region deployment in 7 more Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-full-stack-aurora-cross-region",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T17:00:00.000Z",
+      "snippet": "Today, AWS Transform for full-stack Windows modernization adds support for cross-region deployment of converted Amazon Aurora PostgreSQL databases and is available in seven additional AWS Regions. Together these changes give customers more control over where…"
+    },
+    {
+      "title": "AWS Security Agent (now part of AWS Continuum) exploited 33 of 37 new real-world CVEs",
+      "link": "https://aws.amazon.com/blogs/security/aws-security-agent-now-part-of-aws-continuum-exploited-33-of-37-new-real-world-cves/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-15T16:10:14.000Z",
+      "snippet": "We applied AWS Security Agent (now part of AWS Continuum), our autonomous penetration-testing agent, to 37 real, recently disclosed Common Vulnerabilities and Exposures (CVEs), each packaged as a live, containerized target with a flag hidden at the…"
+    },
+    {
+      "title": "PostgreSQL 19 RC1 is now available in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T16:00:00.000Z",
+      "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Release Candidate 1 (RC1) is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 RC1 focuses on stability,…"
+    },
+    {
+      "title": "Amazon CloudFront announces dual-stack support for VPC origins",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T16:00:00.000Z",
+      "snippet": "Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their Application Load Balancers (ALB), Network Load Balancers…"
+    },
+    {
+      "title": "How Dynata scaled AI across the development lifecycle with AI-DLC and Kiro IDE",
+      "link": "https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-15T15:50:31.000Z",
+      "snippet": "Dynata reimagined its development lifecycle with AI, moving from AI-assisted coding to the AI-Driven Development Lifecycle (AI-DLC) methodology with Kiro IDE. Learn how the company reduced the development phase of full-stack features from three to four…"
+    },
+    {
+      "title": "Amazon Redshift long-term system table retention with Amazon S3 Tables is now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-long-term-system-table-retention-expansion/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T15:00:00.000Z",
+      "snippet": "Amazon Redshift long-term retention for system table data through native integration with Amazon S3 Tables is now available in additional AWS Regions. With this feature, you can configure your Redshift system table data retention beyond the current 7-day…"
+    },
+    {
+      "title": "AWS Security Hub CSPM now supports the Cyber Risk Institute profile version 2.2",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-cspm-cri-profile-v22/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T08:00:00.000Z",
+      "snippet": "AWS Security Hub CSPM now supports automated security checks that align with the Cyber Risk Institute (CRI) profile. The CRI Profile is a cybersecurity framework developed by the Cyber Risk Institute, a non-profit coalition of financial institutions and trade…"
+    },
+    {
+      "title": "Amazon Managed Service for Prometheus Collector now available in Asia Pacific (New Zealand) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ams-prometheus-collector-apac-nz/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T08:00:00.000Z",
+      "snippet": "Amazon Managed Service for Prometheus collector, a fully-managed agentless collector for Prometheus metrics, is now available in Asia Pacific (New Zealand). Customers in New Zealand can now run their Prometheus-compatible monitoring workloads in-region, with…"
+    },
+    {
+      "title": "Amazon Managed Workflows for Apache Airflow now offers AI agent skills",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-ai-agent-skills/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T08:00:00.000Z",
+      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now integrates with the Agent Toolkit for AWS to provide built-in AI agent skills that let you author, debug, and test MWAA workflows and upgrade MWAA environments using any AI coding assistant that supports…"
+    },
     {
       "title": "Amazon CloudWatch announces log routing and chained log parsers",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
@@ -14,6 +98,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-14T22:00:00.000Z",
       "snippet": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required. Previously,…"
+    },
+    {
+      "title": "AWS HealthOmics expands container registry support for private workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-expanded-container-registry-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T21:55:00.000Z",
+      "snippet": "You can now use container images from registries such as Seqera (Wave), NVIDIA NGC, and Google Artifact Registry with AWS HealthOmics expanded support for third-party container registries. You can use the containerized tools your workflows already rely on,…"
     },
     {
       "title": "Penetration testing every deployment with AWS Continuum",
@@ -119,97 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-13T22:00:00.000Z",
       "snippet": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge. Additionally, the existing…"
-    },
-    {
-      "title": "AWS Lambda durable functions increases durable operation and checkpoint payload limits",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-gen-limit-increase/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T22:00:00.000Z",
-      "snippet": "Starting today, AWS Lambda durable functions increases the maximum number of durable operations per execution from 3,000 to 30,000, and the maximum checkpoint payload size from 256 KB to 1 MB. Higher operation limits let you safely do more work in a single…"
-    },
-    {
-      "title": "Scope workloads and share resilience policies with AWS Resilience Hub",
-      "link": "https://aws.amazon.com/blogs/architecture/scope-workloads-and-share-resilience-policies-with-aws-resilience-hub/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-13T21:30:10.000Z",
-      "snippet": "The next generation of AWS Resilience Hub adds three capabilities to keep workload scope and resilience requirements aligned with your running environment: Amazon EKS label support for service input sources, generative AI-powered Dependency Insights, and…"
-    },
-    {
-      "title": "AWS Agent Registry now supports custom metadata for registry records",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-custom-metadata-registry-records",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T21:00:00.000Z",
-      "snippet": "AWS Agent Registry is the centralized, governed catalog for agents, MCP servers, agent skills, gateways, and custom resources within your organization. As organizations scale to hundreds of such resources, a name and description alone are insufficient for…"
-    },
-    {
-      "title": "Part 2 – Cybersecurity journeys: What even is this job?",
-      "link": "https://aws.amazon.com/blogs/security/part-2-cybersecurity-journeys-what-even-is-this-job/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-13T20:58:01.000Z",
-      "snippet": "If you’ve ever looked at a list of cybersecurity jobs and felt like none of them fit you, you might just be looking at a short list. Most career guides cover the same few roles, like the analyst watching alerts or the pen tester (penetration tester, someone…"
-    },
-    {
-      "title": "Amazon DCV releases version 2026.0 with RHEL 10 support and new clients",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dcv-2026-0/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T19:35:00.000Z",
-      "snippet": "Amazon DCV 2026.0 is now available, adding support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04 along with a new macOS client and updated Windows and Linux clients. Amazon DCV is a high-performance remote display protocol that enables customers to…"
-    },
-    {
-      "title": "AWS Deadline Cloud now helps users find their accessible resources in the Deadline Cloud monitor",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/deadline-cloud/resources",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T18:54:00.000Z",
-      "snippet": "AWS Deadline Cloud now lets users who have access to specific queues, fleets, or jobs, rather than an entire farm, find the resources they can reach directly from the Deadline Cloud monitor. Deadline Cloud is a fully managed service that helps teams run…"
-    },
-    {
-      "title": "Amazon Location Service launches an interactive API Playground featuring Places, Routes and Maps APIs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-location-service-api-playground",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T18:46:00.000Z",
-      "snippet": "Amazon Location Service now offers a complete, interactive API Playground that lets developers explore and test every Places, Routes, and Maps API visually without writing code. With this release, all 14 Amazon Location Service Places, Maps and Routes APIs…"
-    },
-    {
-      "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-10-13T15:59:06.000Z",
-      "snippet": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back…"
-    },
-    {
-      "title": "Stopping business email compromise with AI-driven email security: How VIPRE protects modern enterprises on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/stopping-business-email-compromise-with-ai-driven-email-security-how-vipre-protects-modern-enterprises-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-13T14:32:42.000Z",
-      "snippet": "Learn how VIPRE Security built an AI-powered email security solution on AWS to stop business email compromise. VIPRE Integrated Email Security uses machine learning and a serverless architecture on Amazon ECS, Amazon SQS, and Amazon S3 to detect and block…"
-    },
-    {
-      "title": "Bulk Executor for Amazon DynamoDB, Part 2: Lessons we learned the hard way",
-      "link": "https://aws.amazon.com/blogs/architecture/bulk-executor-for-amazon-dynamodb-part-2-lessons-we-learned-the-hard-way/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-13T14:23:33.000Z",
-      "snippet": "In Part 2 of our Bulk Executor for Amazon DynamoDB series, we share how we built the tool: the design tradeoffs, surprises, and workarounds we hit while working with DynamoDB and AWS Glue. Consider it a travel guide for anyone building their own bulk tooling…"
-    },
-    {
-      "title": "Bring deep SageMaker AI expertise to your coding agent with the AWS AI/ML skill in the Agent Toolkit for AWS",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T14:00:00.000Z",
-      "snippet": "Your coding agent can select, train, optimize and deploy models on Amazon SageMaker AI while working across the rest of your AWS environment in a single natural-language workflow. The AWS AI/ML skill is now a core skill in the Agent Toolkit for AWS, so it…"
-    },
-    {
-      "title": "AWS DataSync Enhanced mode now supports FSx for OpenZFS, NFS 4.2, and object metadata controls",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-openzfs-nfs42-metadata/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T08:00:00.000Z",
-      "snippet": "AWS DataSync Enhanced mode now supports Amazon FSx for OpenZFS as a source or destination location, NFS version 4.2 for on-premises NFS servers and FSx for OpenZFS file systems, and a new ObjectMetadata option for object storage transfers. Previously,…"
-    },
-    {
-      "title": "Amazon Route 53 now supports registrations, transfers, and renewals for Premium Domains",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-premium-domains/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T08:00:00.000Z",
-      "snippet": "Amazon Route 53 Domains now supports Premium Domain Names. Customers can now search for, register, transfer, renew, and restore registry premium names directly through Route 53. Most domain registries set aside a selection of \"premium\" domains - names that…"
     }
   ]
 }
