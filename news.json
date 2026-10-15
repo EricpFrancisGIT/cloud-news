@@ -1,19 +1,47 @@
 {
-  "lastUpdated": "2026-10-14T19:10:20.567Z",
+  "lastUpdated": "2026-10-15T01:11:06.069Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch announces log routing and chained log parsers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T22:14:00.000Z",
+      "snippet": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWatch pipelines is a fully managed service that ingests,…"
+    },
+    {
+      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T22:00:00.000Z",
+      "snippet": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required. Previously,…"
+    },
+    {
+      "title": "Penetration testing every deployment with AWS Continuum",
+      "link": "https://aws.amazon.com/blogs/security/penetration-testing-every-deployment-with-aws-continuum/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-14T20:21:52.000Z",
+      "snippet": "Most security tooling that fits into a CI/CD pipeline—static analysis (SAST), software composition analysis (SCA), and dynamic scanners (DAST)—flags potential issues from patterns and signatures. A flagged pattern shows you where to look; penetration testing…"
+    },
+    {
+      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-10-14T19:30:48.000Z",
+      "snippet": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running."
+    },
+    {
+      "title": "ARC Region switch adds four new capabilities",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T17:38:00.000Z",
+      "snippet": "Amazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Region switch adds four new capabilities: AWS Systems Manager…"
+    },
     {
       "title": "AWS License Manager now supports license type conversions for Ubuntu Pro purchased through AWS Marketplace",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-license-manager-conversions-ubuntu-pro-marketplace/",
       "source": "AWS What's New",
       "pubDate": "2026-10-14T17:04:00.000Z",
       "snippet": "AWS License Manager now supports in-place upgrades for EC2 Ubuntu LTS (Long Term Support) instances to Ubuntu Pro available on AWS Marketplace. This allows customers to strengthen their security posture and meet compliance requirements without rebuilding…"
-    },
-    {
-      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T17:00:00.000Z",
-      "snippet": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required. Previously,…"
     },
     {
       "title": "AWS HealthOmics introduces resource fallback order for Nextflow workflows",
@@ -42,6 +70,41 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-14T08:00:00.000Z",
       "snippet": "AWS Backup now supports Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, and Amazon FSx for Windows File Server in the Asia Pacific (New Zealand) Region. With this launch, you can use AWS Backup to centrally automate and manage data…"
+    },
+    {
+      "title": "Announcing Blockchain Snapshots on AWS for node bootstrapping",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/blockchain-snapshots-node-bootstrapping/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T08:00:00.000Z",
+      "snippet": "For blockchain node operators running Ethereum or Solana, AWS is announcing Blockchain Snapshots on AWS, an initiative that publishes pre-synced public blockchain node chain data in Amazon Simple Storage Service (Amazon S3) so you can bootstrap a node from a…"
+    },
+    {
+      "title": "AWS Transfer Family console supports SVG logos and ICO favicons for web apps",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-svg-ico-favicons/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T08:00:00.000Z",
+      "snippet": "The AWS Transfer Family console now supports SVG files for logos and ICO files for favicons in web apps, with upload limits increased to 2 MB. This gives you more flexibility to use existing branding assets when customizing your web app. Previously, the…"
+    },
+    {
+      "title": "AWS Transfer Family now supports AWS Secrets Manager storage for SFTP server host keys",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-secrets-host-keys/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T08:00:00.000Z",
+      "snippet": "AWS Transfer Family now lets you store SFTP server host keys in AWS Secrets Manager in your own AWS account. This gives you greater control over your server identity and helps simplify server migrations and failover. Previously, Transfer Family stored host…"
+    },
+    {
+      "title": "Amazon RDS Proxy now supports SQL Server 2022",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-proxy-supports-sqlserver-2022",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T07:00:00.000Z",
+      "snippet": "Amazon RDS Proxy, a fully managed, highly available database proxy for Amazon Relational Database Service (RDS), now supports Amazon RDS for SQL Server instances running major version 2022. documentation."
+    },
+    {
+      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-vercel-marketplace-v0",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T04:00:00.000Z",
+      "snippet": "Amazon S3, including S3 Tables and S3 Vectors, is now available on the Vercel Marketplace and v0 by Vercel. Developers can create and connect S3 resources in seconds without leaving their development environment, getting the durability, scalability, and…"
     },
     {
       "title": "AWS Security Hub now supports resource criticality for prioritization",
@@ -147,69 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-13T08:00:00.000Z",
       "snippet": "Amazon Route 53 Domains now supports Premium Domain Names. Customers can now search for, register, transfer, renew, and restore registry premium names directly through Route 53. Most domain registries set aside a selection of \"premium\" domains - names that…"
-    },
-    {
-      "title": "Amazon RDS now supports the latest CU for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-supports-latest-cu-microsoft-sql-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T07:30:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2025 CU8 KB5104822 (RDS version 17.00.4075.5.v1). Amazon RDS SQL…"
-    },
-    {
-      "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T23:10:00.000Z",
-      "snippet": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network. With CloudFront in front of a Lambda Web Function, you get TLS termination at the edge for lower latency and faster connections,…"
-    },
-    {
-      "title": "Announcing AWS Lambda Web Functions",
-      "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-10-12T22:34:47.000Z",
-      "snippet": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution."
-    },
-    {
-      "title": "Amazon EC2 G7 instances now available in Europe (Frankfurt) and Europe (Stockholm) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-g7-european-regions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T22:30:00.000Z",
-      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Frankfurt) and Europe (Stockholm) Regions. G7 instances deliver up to 4.6x AI inference performance and up to 2.1…"
-    },
-    {
-      "title": "Amazon Connect Customer now prefills step-by-step guides for after contact work",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-prefills-guides-acw",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T22:28:00.000Z",
-      "snippet": "Amazon Connect Customer can now fill in the step-by-step guides that agents complete after a contact, using information extracted from customer conversations, such as booking identifiers, claim numbers, and conversation summaries. Managers can set which…"
-    },
-    {
-      "title": "GuardDuty Extended Threat Detection has added five new indicators to surface attack sequences",
-      "link": "https://aws.amazon.com/blogs/security/guardduty-extended-threat-detection-has-added-five-new-indicators-to-surface-attack-sequences/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-12T21:58:44.000Z",
-      "snippet": "Amazon GuardDuty Extended Threat Detection correlates weak GuardDuty signals into a single, critical-severity attack sequence finding when their composition crosses a threshold of credibility. On May 20, 2026, the service started attaching five new indicator…"
-    },
-    {
-      "title": "Quantum-resistant signing on AWS, Part 2: Enforce your ML-DSA algorithm policy with SCPs and IAM",
-      "link": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-2-enforce-your-ml-dsa-algorithm-policy-with-scps-and-iam/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-12T20:13:06.000Z",
-      "snippet": "You want to set a cryptographic algorithm policy and stop non-compliant choices from being made in your Amazon Web Services (AWS) environment. This post shows you how. As you adopt post-quantum cryptography, one of the first decisions you face is which…"
-    },
-    {
-      "title": "Quantum-resistant signing on AWS, Part 1: Build a software supply chain with ML-DSA",
-      "link": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-1-build-a-software-supply-chain-with-ml-dsa/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-12T20:12:53.000Z",
-      "snippet": "Software supply chain attacks have grown in both frequency and sophistication. Recent high-profile compromises of build systems and open source dependencies demonstrate that attackers increasingly target the trust mechanisms that verify software integrity.…"
-    },
-    {
-      "title": "AWS Lambda announces Lambda Web Functions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-12T19:30:00.000Z",
-      "snippet": "AWS Lambda announces Lambda Web Functions, a new serverless compute primitive where your code handles HTTP requests directly. Your code listens on a port and handles requests as it would on any HTTP server. You use frameworks you already know, such as Express…"
     }
   ]
 }
