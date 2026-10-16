@@ -1,12 +1,40 @@
 {
-  "lastUpdated": "2026-10-15T19:13:30.273Z",
+  "lastUpdated": "2026-10-16T01:14:10.984Z",
   "items": [
     {
+      "title": "Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T20:40:00.000Z",
+      "snippet": "Web Search on Amazon Bedrock AgentCore is now available in four additional AWS Regions: US East (Ohio), US West (Oregon), Asia Pacific (Sydney), and AWS GovCloud (US-West). Web Search is a fully managed tool that provides AI agents with current grounding from…"
+    },
+    {
+      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-new-sign-in-options/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T20:10:00.000Z",
+      "snippet": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup and no console navigation required. Previously, new customers who…"
+    },
+    {
+      "title": "Amazon EC2 T8i instances are now available in South America (São Paulo)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T20:00:00.000Z",
+      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) T8i instances are now available in South America (São Paulo). These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on AWS, and built on the latest sixth generation AWS…"
+    },
+    {
       "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
-      "link": "https://aws.amazon.com/amazon-dynamodb-streams-timestamp-processing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
       "source": "AWS What's New",
       "pubDate": "2026-10-15T18:30:00.000Z",
       "snippet": "Amazon DynamoDB Streams now supports timestamp-based stream processing, enabling you to begin reading stream records from a specific point in time. Previously, you could only start from the oldest retained record (up to 24 hours old) or from new records…"
+    },
+    {
+      "title": "AWS Lambda Durable Execution SDK for Go is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T18:23:00.000Z",
+      "snippet": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for Go, enabling Go developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applications like…"
     },
     {
       "title": "Muse Spark Open model now available on Amazon SageMaker JumpStart",
@@ -23,11 +51,25 @@
       "snippet": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access Manager (RAM). AWS HealthOmics is a HIPAA-eligible service…"
     },
     {
+      "title": "Amazon Time Sync Service adds support for microsecond-accurate time on 135 additional EC2 instance types in all commercial regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T17:34:00.000Z",
+      "snippet": "Amazon Time Sync Service introduces support for microsecond-accurate time on 135 additional EC2 instance types—spanning 12 instance families—in all commercial regions. Built on Amazon's proven network infrastructure and the AWS Nitro System,…"
+    },
+    {
       "title": "AWS Transform for full-stack Windows modernization now supports Aurora PostgreSQL cross-region deployment in 7 more Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-full-stack-aurora-cross-region",
       "source": "AWS What's New",
       "pubDate": "2026-10-15T17:00:00.000Z",
       "snippet": "Today, AWS Transform for full-stack Windows modernization adds support for cross-region deployment of converted Amazon Aurora PostgreSQL databases and is available in seven additional AWS Regions. Together these changes give customers more control over where…"
+    },
+    {
+      "title": "Amazon MSK Connect and AWS Glue Schema Registry are now available in the AWS European Sovereign Cloud (Germany) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-aws-gsr-additional-aws-regions",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T16:40:00.000Z",
+      "snippet": "Starting today, Amazon MSK Connect and the AWS Glue Schema Registry are available in the AWS European Sovereign Cloud (Germany) region. Together with Amazon MSK Standard brokers, already available in the region, these launches give customers running streaming…"
     },
     {
       "title": "AWS Security Agent (now part of AWS Continuum) exploited 33 of 37 new real-world CVEs",
@@ -37,18 +79,18 @@
       "snippet": "We applied AWS Security Agent (now part of AWS Continuum), our autonomous penetration-testing agent, to 37 real, recently disclosed Common Vulnerabilities and Exposures (CVEs), each packaged as a live, containerized target with a flag hidden at the…"
     },
     {
-      "title": "PostgreSQL 19 RC1 is now available in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T16:00:00.000Z",
-      "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Release Candidate 1 (RC1) is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 RC1 focuses on stability,…"
-    },
-    {
       "title": "Amazon CloudFront announces dual-stack support for VPC origins",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
       "source": "AWS What's New",
       "pubDate": "2026-10-15T16:00:00.000Z",
       "snippet": "Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their Application Load Balancers (ALB), Network Load Balancers…"
+    },
+    {
+      "title": "PostgreSQL 19 RC1 is now available in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T16:00:00.000Z",
+      "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Release Candidate 1 (RC1) is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 RC1 focuses on stability,…"
     },
     {
       "title": "How Dynata scaled AI across the development lifecycle with AI-DLC and Kiro IDE",
@@ -63,6 +105,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-15T15:00:00.000Z",
       "snippet": "Amazon Redshift long-term retention for system table data through native integration with Amazon S3 Tables is now available in additional AWS Regions. With this feature, you can configure your Redshift system table data retention beyond the current 7-day…"
+    },
+    {
+      "title": "Amazon S3 Metadata now available in six additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-metadata-six-additional-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T13:00:00.000Z",
+      "snippet": "Amazon S3 Metadata is now available in six additional AWS Regions: Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and Mexico (Central). S3 Metadata is a fast and easy way to…"
     },
     {
       "title": "AWS Security Hub CSPM now supports the Cyber Risk Institute profile version 2.2",
@@ -86,18 +135,18 @@
       "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now integrates with the Agent Toolkit for AWS to provide built-in AI agent skills that let you author, debug, and test MWAA workflows and upgrade MWAA environments using any AI coding assistant that supports…"
     },
     {
+      "title": "Launch AWS DevOps Agent to review findings and test results from AWS Resilience Hub",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-devops-agent-test-results-aws-resilience-hub/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T07:00:00.000Z",
+      "snippet": "The next generation of AWS Resilience Hub now integrates with AWS DevOps agent allowing you to review failure mode assessment findings and implement mitigations to resolve findings and review resilience test results. AWS Resilience Hub is a central location…"
+    },
+    {
       "title": "Amazon CloudWatch announces log routing and chained log parsers",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
       "source": "AWS What's New",
       "pubDate": "2026-10-14T22:14:00.000Z",
       "snippet": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWatch pipelines is a fully managed service that ingests,…"
-    },
-    {
-      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T22:00:00.000Z",
-      "snippet": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required. Previously,…"
     },
     {
       "title": "AWS HealthOmics expands container registry support for private workflows",
@@ -119,6 +168,13 @@
       "source": "AWS News Blog",
       "pubDate": "2026-10-14T19:30:48.000Z",
       "snippet": "Amazon Simple Storage Service (Amazon S3), including Amazon S3 Tables and Amazon S3 Vectors, is natively available on the Vercel Marketplace and v0 by Vercel."
+    },
+    {
+      "title": "AWS Lambda recursive loop detection now supports Amazon EventBridge Custom event buses",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-recursive-loops-eventbridge-custom",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-14T18:00:00.000Z",
+      "snippet": "AWS Lambda recursive loop detection now automatically detects and stops recursive loops between Lambda Event Functions and Amazon EventBridge Custom event buses, helping protect you against unintended usage and unexpected charges from runaway workloads.…"
     },
     {
       "title": "ARC Region switch adds four new capabilities",
@@ -154,62 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-10-14T14:29:10.000Z",
       "snippet": "The University of Technology Sydney built a modern curriculum data services foundation on AWS that treats curriculum data as a governed, reusable product, available through APIs, graph traversal, semantic search, and event delivery, while leaving the source…"
-    },
-    {
-      "title": "AWS Backup now supports Amazon FSx file systems in the Asia Pacific (New Zealand) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-fsx-asia-pacific-new-zealand/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T08:00:00.000Z",
-      "snippet": "AWS Backup now supports Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, and Amazon FSx for Windows File Server in the Asia Pacific (New Zealand) Region. With this launch, you can use AWS Backup to centrally automate and manage data…"
-    },
-    {
-      "title": "Announcing Blockchain Snapshots on AWS for node bootstrapping",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/blockchain-snapshots-node-bootstrapping/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T08:00:00.000Z",
-      "snippet": "For blockchain node operators running Ethereum or Solana, AWS is announcing Blockchain Snapshots on AWS, an initiative that publishes pre-synced public blockchain node chain data in Amazon Simple Storage Service (Amazon S3) so you can bootstrap a node from a…"
-    },
-    {
-      "title": "AWS Transfer Family console supports SVG logos and ICO favicons for web apps",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-svg-ico-favicons/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T08:00:00.000Z",
-      "snippet": "The AWS Transfer Family console now supports SVG files for logos and ICO files for favicons in web apps, with upload limits increased to 2 MB. This gives you more flexibility to use existing branding assets when customizing your web app. Previously, the…"
-    },
-    {
-      "title": "AWS Transfer Family now supports AWS Secrets Manager storage for SFTP server host keys",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-secrets-host-keys/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T08:00:00.000Z",
-      "snippet": "AWS Transfer Family now lets you store SFTP server host keys in AWS Secrets Manager in your own AWS account. This gives you greater control over your server identity and helps simplify server migrations and failover. Previously, Transfer Family stored host…"
-    },
-    {
-      "title": "Amazon RDS Proxy now supports SQL Server 2022",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-proxy-supports-sqlserver-2022",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T07:00:00.000Z",
-      "snippet": "Amazon RDS Proxy, a fully managed, highly available database proxy for Amazon Relational Database Service (RDS), now supports Amazon RDS for SQL Server instances running major version 2022. documentation."
-    },
-    {
-      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-vercel-marketplace-v0",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T04:00:00.000Z",
-      "snippet": "Amazon S3, including S3 Tables and S3 Vectors, is now available on the Vercel Marketplace and v0 by Vercel. Developers can create and connect S3 resources in seconds without leaving their development environment, getting the durability, scalability, and…"
-    },
-    {
-      "title": "AWS Security Hub now supports resource criticality for prioritization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T01:00:00.000Z",
-      "snippet": "Today, AWS Security Hub adds resource criticality to exposure prioritization, helping central security teams focus on the exposures that threaten their most business-critical resources. You can set criticality with an automation rule, for example marking…"
-    },
-    {
-      "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-13T22:00:00.000Z",
-      "snippet": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge. Additionally, the existing…"
     }
   ]
 }
