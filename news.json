@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T01:14:10.984Z",
+  "lastUpdated": "2026-10-16T07:14:34.643Z",
   "items": [
     {
       "title": "Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions",
@@ -135,6 +135,13 @@
       "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now integrates with the Agent Toolkit for AWS to provide built-in AI agent skills that let you author, debug, and test MWAA workflows and upgrade MWAA environments using any AI coding assistant that supports…"
     },
     {
+      "title": "Oracle Database@AWS supports aggregate and default routes for ODB peering",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-database-aws-aggregate-routes-odb/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T08:00:00.000Z",
+      "snippet": "Oracle Database@AWS (ODB) now supports advertising aggregate routes and a default route (0.0.0.0/0) when configuring ODB peering between applications in an Amazon VPC and databases in an ODB network. This simplifies network operations as customers extend new…"
+    },
+    {
       "title": "Launch AWS DevOps Agent to review findings and test results from AWS Resilience Hub",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-devops-agent-test-results-aws-resilience-hub/",
       "source": "AWS What's New",
@@ -203,13 +210,6 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-10-14T14:31:55.000Z",
       "snippet": "Learn how to build multi-region disaster recovery for Amazon API Gateway WebSocket APIs. This design pattern combines Amazon Route 53 DNS failover, Amazon DynamoDB Global Tables, a canary health probe, and client-side reconnection logic to reconnect clients…"
-    },
-    {
-      "title": "How UTS established a modern curriculum data services foundation on AWS",
-      "link": "https://aws.amazon.com/blogs/architecture/how-uts-established-a-modern-curriculum-data-services-foundation-on-aws/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-14T14:29:10.000Z",
-      "snippet": "The University of Technology Sydney built a modern curriculum data services foundation on AWS that treats curriculum data as a governed, reusable product, available through APIs, graph traversal, semantic search, and event delivery, while leaving the source…"
     }
   ]
 }
