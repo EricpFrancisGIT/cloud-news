@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-10-16T19:15:57.016Z",
+  "lastUpdated": "2026-10-17T01:16:19.038Z",
   "items": [
+    {
+      "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-16T20:04:00.000Z",
+      "snippet": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions into a single destination account, integrating with AWS…"
+    },
     {
       "title": "AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
@@ -30,6 +37,41 @@
       "snippet": "Today, AWS announced the general availability of application code conversion from Azure SDK to AWS SDK in AWS Transform, giving you an accelerated path to migrate Microsoft Azure cloud-native .NET applications to AWS. The AWS Transform .NET modernization…"
     },
     {
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Mexico (Central) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-16T08:00:00.000Z",
+      "snippet": "Second-generation AWS Outposts racks are now supported in the AWS Mexico (Central) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid…"
+    },
+    {
+      "title": "AWS End User Messaging adds registration improvements for faster, higher-quality submissions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-registration-improvements-for-faster-higher-quality-submissions",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-16T07:00:00.000Z",
+      "snippet": "AWS End User Messaging now makes it easier to complete messaging registrations correctly the first time, with clearer guidance, explicit field requirements, and help avoiding the most common rejection reasons. Registrations ask for compliance evidence such as…"
+    },
+    {
+      "title": "AWS End User Messaging now supports Brand Profiles",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-now-supports-brand-profiles",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-16T07:00:00.000Z",
+      "snippet": "Today, AWS End User Messaging announces Brand Profiles, which let you store your brand and company information once and reuse it across your messaging registrations. To send messages on SMS, RCS, and WhatsApp, you register your brand with carriers and…"
+    },
+    {
+      "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-16T07:00:00.000Z",
+      "snippet": "Today, AWS End User Messaging adds a wizard that orchestrates the entire video capture for your RCS agent registration. RCS registrations in multiple countries, including the United States, require a screen recording that demonstrates your messaging…"
+    },
+    {
+      "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-16T07:00:00.000Z",
+      "snippet": "Today, AWS End User Messaging announces end-to-end managed one-time passcode (OTP) verification in Notify. You get a working OTP solution in under five minutes, including AWS phone numbers and code verification, without setting up a phone number, registering…"
+    },
+    {
       "title": "Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
       "source": "AWS What's New",
@@ -49,6 +91,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-15T20:00:00.000Z",
       "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) T8i instances are now available in South America (São Paulo). These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on AWS, and built on the latest sixth generation AWS…"
+    },
+    {
+      "title": "AWS Transform for migrations is now available in Asia Pacific (Singapore)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-singapore",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-15T19:24:00.000Z",
+      "snippet": "AWS Transform for migrations is now available in the Asia Pacific (Singapore) Region, giving customers data residency within the region and lower latency to local source infrastructure as they migrate. AWS Transform is a collaborative enterprise IT…"
     },
     {
       "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
@@ -161,55 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-15T08:00:00.000Z",
       "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now integrates with the Agent Toolkit for AWS to provide built-in AI agent skills that let you author, debug, and test MWAA workflows and upgrade MWAA environments using any AI coding assistant that supports…"
-    },
-    {
-      "title": "Oracle Database@AWS supports aggregate and default routes for ODB peering",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-database-aws-aggregate-routes-odb/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T08:00:00.000Z",
-      "snippet": "Oracle Database@AWS (ODB) now supports advertising aggregate routes and a default route (0.0.0.0/0) when configuring ODB peering between applications in an Amazon VPC and databases in an ODB network. This simplifies network operations as customers extend new…"
-    },
-    {
-      "title": "Launch AWS DevOps Agent to review findings and test results from AWS Resilience Hub",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-devops-agent-test-results-aws-resilience-hub/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T07:00:00.000Z",
-      "snippet": "The next generation of AWS Resilience Hub now integrates with AWS DevOps agent allowing you to review failure mode assessment findings and implement mitigations to resolve findings and review resilience test results. AWS Resilience Hub is a central location…"
-    },
-    {
-      "title": "Amazon CloudWatch announces log routing and chained log parsers",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T22:14:00.000Z",
-      "snippet": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWatch pipelines is a fully managed service that ingests,…"
-    },
-    {
-      "title": "AWS HealthOmics expands container registry support for private workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-expanded-container-registry-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T21:55:00.000Z",
-      "snippet": "You can now use container images from registries such as Seqera (Wave), NVIDIA NGC, and Google Artifact Registry with AWS HealthOmics expanded support for third-party container registries. You can use the containerized tools your workflows already rely on,…"
-    },
-    {
-      "title": "Penetration testing every deployment with AWS Continuum",
-      "link": "https://aws.amazon.com/blogs/security/penetration-testing-every-deployment-with-aws-continuum/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-14T20:21:52.000Z",
-      "snippet": "Most security tooling that fits into a CI/CD pipeline—static analysis (SAST), software composition analysis (SCA), and dynamic scanners (DAST)—flags potential issues from patterns and signatures. A flagged pattern shows you where to look; penetration testing…"
-    },
-    {
-      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-10-14T19:30:48.000Z",
-      "snippet": "Amazon Simple Storage Service (Amazon S3), including Amazon S3 Tables and Amazon S3 Vectors, is natively available on the Vercel Marketplace and v0 by Vercel."
-    },
-    {
-      "title": "AWS Lambda recursive loop detection now supports Amazon EventBridge Custom event buses",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-recursive-loops-eventbridge-custom",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-14T18:00:00.000Z",
-      "snippet": "AWS Lambda recursive loop detection now automatically detects and stops recursive loops between Lambda Event Functions and Amazon EventBridge Custom event buses, helping protect you against unintended usage and unexpected charges from runaway workloads.…"
     }
   ]
 }
