@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T07:16:37.527Z",
+  "lastUpdated": "2026-10-17T13:16:57.662Z",
   "items": [
     {
       "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
@@ -205,11 +205,11 @@
       "snippet": "Amazon Managed Service for Prometheus collector, a fully-managed agentless collector for Prometheus metrics, is now available in Asia Pacific (New Zealand). Customers in New Zealand can now run their Prometheus-compatible monitoring workloads in-region, with…"
     },
     {
-      "title": "Amazon Managed Workflows for Apache Airflow now offers AI agent skills",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-ai-agent-skills/",
+      "title": "Oracle Database@AWS supports aggregate and default routes for ODB peering",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-database-aws-aggregate-routes-odb/",
       "source": "AWS What's New",
       "pubDate": "2026-10-15T08:00:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (MWAA) now integrates with the Agent Toolkit for AWS to provide built-in AI agent skills that let you author, debug, and test MWAA workflows and upgrade MWAA environments using any AI coding assistant that supports…"
+      "snippet": "Oracle Database@AWS (ODB) now supports advertising aggregate routes and a default route (0.0.0.0/0) when configuring ODB peering between applications in an Amazon VPC and databases in an ODB network. This simplifies network operations as customers extend new…"
     }
   ]
 }
