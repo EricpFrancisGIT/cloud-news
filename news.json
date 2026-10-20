@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-10-19T19:21:08.273Z",
+  "lastUpdated": "2026-10-20T01:21:26.645Z",
   "items": [
+    {
+      "title": "Amazon Connect Customer Global Resiliency now provides business users visibility into resiliency readiness across linked Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-readiness-overview",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-19T21:45:00.000Z",
+      "snippet": "Amazon Connect Customer Global Resiliency now provides a Global Resiliency page in the admin website, giving administrators a single place to review their Region switch readiness. The page shows an overall readiness status and lists the resources that Global…"
+    },
+    {
+      "title": "Amazon CloudWatch Omni is now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-omni-8-regions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-19T19:10:00.000Z",
+      "snippet": "AWS announces that Amazon CloudWatch Omni is now available in eight additional AWS Regions. CloudWatch Omni is an AI-powered observability experience, organized around your teams and the applications they run, that helps you observe and troubleshoot your…"
+    },
     {
       "title": "EC2 Image Builder now integrates with ASG for faster image builds",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-image-builder-asg-faster-builds/",
@@ -23,6 +37,41 @@
       "snippet": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server with no adapter in front of it, and Amazon S3 became…"
     },
     {
+      "title": "Grok 4.7 is now available on Amazon Bedrock in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-19T13:00:00.000Z",
+      "snippet": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work in AWS GovCloud (US). Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale coding with planning and…"
+    },
+    {
+      "title": "AWS IAM Identity Center now supports optimistic locking for users and groups in its identity store",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-store-optimistic-locking/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-19T08:00:00.000Z",
+      "snippet": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now use optimistic locking for users and groups in the identity store, so that update and delete requests succeed only if the…"
+    },
+    {
+      "title": "AWS Elemental MediaConnect Router now supports high bitrate mode",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-router-high-bitrate/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-19T08:00:00.000Z",
+      "snippet": "AWS Elemental MediaConnect Router now supports high bitrate modes with two new tiers: 250 Mbps and 500 Mbps. This allows professional broadcasters that need higher bitrates to transport high-value content without compromising quality or reliability. This…"
+    },
+    {
+      "title": "Amazon RDS Custom now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-19T07:30:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR…"
+    },
+    {
+      "title": "Amazon RDS for SQL Server now supports snapshots on read replicas",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-sqlserver-supports-snapshots-on-read-replicas",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-19T07:01:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports creating DB snapshots directly on read replica instances. Previously, you could create snapshots only on standalone and primary DB instances. You can now snapshot a read replica…"
+    },
+    {
       "title": "AWS Partner Central adds Solution Matching Engine performance insights",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/solution-matching-engine-performance",
       "source": "AWS What's New",
@@ -35,6 +84,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-16T20:04:00.000Z",
       "snippet": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions into a single destination account, integrating with AWS…"
+    },
+    {
+      "title": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-serverless/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-16T19:20:00.000Z",
+      "snippet": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity, expanding beyond the IPv4-only connectivity that was previously available. You can now run your Apache Spark and Apache Hive jobs over IPv6 in your Amazon Virtual Private Cloud (VPC) by…"
     },
     {
       "title": "AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-15T18:00:00.000Z",
       "snippet": "Meta's Muse Spark Open is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This coding-optimized open-weight model from Meta is purpose-built for agentic coding workflows, bringing…"
-    },
-    {
-      "title": "AWS HealthOmics now supports shared VPCs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T17:42:00.000Z",
-      "snippet": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access Manager (RAM). AWS HealthOmics is a HIPAA-eligible service…"
-    },
-    {
-      "title": "Amazon Time Sync Service adds support for microsecond-accurate time on 135 additional EC2 instance types in all commercial regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T17:34:00.000Z",
-      "snippet": "Amazon Time Sync Service introduces support for microsecond-accurate time on 135 additional EC2 instance types—spanning 12 instance families—in all commercial regions. Built on Amazon's proven network infrastructure and the AWS Nitro System,…"
-    },
-    {
-      "title": "AWS Transform for full-stack Windows modernization now supports Aurora PostgreSQL cross-region deployment in 7 more Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-full-stack-aurora-cross-region",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T17:00:00.000Z",
-      "snippet": "Today, AWS Transform for full-stack Windows modernization adds support for cross-region deployment of converted Amazon Aurora PostgreSQL databases and is available in seven additional AWS Regions. Together these changes give customers more control over where…"
-    },
-    {
-      "title": "Amazon MSK Connect and AWS Glue Schema Registry are now available in the AWS European Sovereign Cloud (Germany) region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-aws-gsr-additional-aws-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T16:40:00.000Z",
-      "snippet": "Starting today, Amazon MSK Connect and the AWS Glue Schema Registry are available in the AWS European Sovereign Cloud (Germany) region. Together with Amazon MSK Standard brokers, already available in the region, these launches give customers running streaming…"
-    },
-    {
-      "title": "AWS Security Agent (now part of AWS Continuum) exploited 33 of 37 new real-world CVEs",
-      "link": "https://aws.amazon.com/blogs/security/aws-security-agent-now-part-of-aws-continuum-exploited-33-of-37-new-real-world-cves/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-15T16:10:14.000Z",
-      "snippet": "We applied AWS Security Agent (now part of AWS Continuum), our autonomous penetration-testing agent, to 37 real, recently disclosed Common Vulnerabilities and Exposures (CVEs), each packaged as a live, containerized target with a flag hidden at the…"
-    },
-    {
-      "title": "Amazon CloudFront announces dual-stack support for VPC origins",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T16:00:00.000Z",
-      "snippet": "Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their Application Load Balancers (ALB), Network Load Balancers…"
-    },
-    {
-      "title": "PostgreSQL 19 RC1 is now available in Amazon RDS Database Preview Environment",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T16:00:00.000Z",
-      "snippet": "Starting today, Amazon RDS for PostgreSQL 19 Release Candidate 1 (RC1) is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 RC1 focuses on stability,…"
-    },
-    {
-      "title": "How Dynata scaled AI across the development lifecycle with AI-DLC and Kiro IDE",
-      "link": "https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide/",
-      "source": "AWS Architecture Blog",
-      "pubDate": "2026-10-15T15:50:31.000Z",
-      "snippet": "Dynata reimagined its development lifecycle with AI, moving from AI-assisted coding to the AI-Driven Development Lifecycle (AI-DLC) methodology with Kiro IDE. Learn how the company reduced the development phase of full-stack features from three to four…"
     }
   ]
 }
