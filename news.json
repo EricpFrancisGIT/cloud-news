@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-10-20T13:22:05.482Z",
+  "lastUpdated": "2026-10-20T19:23:32.966Z",
   "items": [
+    {
+      "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-10-20T17:03:38.000Z",
+      "snippet": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in your account."
+    },
+    {
+      "title": "Managing identity source transition for AWS IAM Identity Center",
+      "link": "https://aws.amazon.com/blogs/security/managing-identity-source-transition-for-aws-iam-identity-center/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-20T16:47:02.000Z",
+      "snippet": "October 20, 2026: This post was republished to reflect the new migration capability from Active Directory to an external identity provider (IdP) or the Identity Center directory, now available in IAM Identity Center. September 2, 2026: This post was…"
+    },
+    {
+      "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T15:32:00.000Z",
+      "snippet": "Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an enhanced voice portfolio with higher overall quality, 14 new…"
+    },
+    {
+      "title": "AWS announces TorchNeuron: Native PyTorch Support for AWS Trainium (Public Beta)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T15:00:00.000Z",
+      "snippet": "Today, AWS launched the public beta of TorchNeuron, an open source native PyTorch backend for AWS Trainium. Trainium is a portfolio of AI chips designed to deliver high performance and cost efficiency for deep learning AI training and inference workloads.…"
+    },
+    {
+      "title": "Structured outputs for Claude models available on Amazon Bedrock",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T14:00:00.000Z",
+      "snippet": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models across both the bedrock-runtime and the bedrock-mantle endpoint. Whether you call Claude through boto3 and the bedrock-runtime APIs or through the Messages API and the…"
+    },
+    {
+      "title": "AWS IAM Identity Center simplifies identity source changes from Active Directory",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T08:00:00.000Z",
+      "snippet": "AWS IAM Identity Center now retains your workforce identities and their assignments when you change your identity source from Active Directory to an external identity provider (IdP), such as Okta or Microsoft Entra ID, or to the Identity Center directory.…"
+    },
     {
       "title": "Amazon Connect Customer Global Resiliency now provides business users visibility into resiliency readiness across linked Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-readiness-overview",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-15T20:40:00.000Z",
       "snippet": "Web Search on Amazon Bedrock AgentCore is now available in four additional AWS Regions: US East (Ohio), US West (Oregon), Asia Pacific (Sydney), and AWS GovCloud (US-West). Web Search is a fully managed tool that provides AI agents with current grounding from…"
-    },
-    {
-      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-new-sign-in-options/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T20:10:00.000Z",
-      "snippet": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup and no console navigation required. Previously, new customers who…"
-    },
-    {
-      "title": "Amazon EC2 T8i instances are now available in South America (São Paulo)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T20:00:00.000Z",
-      "snippet": "Amazon Elastic Compute Cloud (Amazon EC2) T8i instances are now available in South America (São Paulo). These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on AWS, and built on the latest sixth generation AWS…"
-    },
-    {
-      "title": "AWS Transform for migrations is now available in Asia Pacific (Singapore)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-singapore",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T19:24:00.000Z",
-      "snippet": "AWS Transform for migrations is now available in the Asia Pacific (Singapore) Region, giving customers data residency within the region and lower latency to local source infrastructure as they migrate. AWS Transform is a collaborative enterprise IT…"
-    },
-    {
-      "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T18:30:00.000Z",
-      "snippet": "Amazon DynamoDB Streams now supports timestamp-based stream processing, enabling you to begin reading stream records from a specific point in time. Previously, you could only start from the oldest retained record (up to 24 hours old) or from new records…"
-    },
-    {
-      "title": "AWS Lambda Durable Execution SDK for Go is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T18:23:00.000Z",
-      "snippet": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for Go, enabling Go developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applications like…"
-    },
-    {
-      "title": "Muse Spark Open model now available on Amazon SageMaker JumpStart",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-spark-open-on-sagemaker-jumpstart/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T18:00:00.000Z",
-      "snippet": "Meta's Muse Spark Open is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This coding-optimized open-weight model from Meta is purpose-built for agentic coding workflows, bringing…"
     }
   ]
 }
