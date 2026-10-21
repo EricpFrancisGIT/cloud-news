@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T07:24:35.633Z",
+  "lastUpdated": "2026-10-21T13:25:21.970Z",
   "items": [
     {
       "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
@@ -65,18 +65,18 @@
       "snippet": "AWS IAM Identity Center now retains your workforce identities and their assignments when you change your identity source from Active Directory to an external identity provider (IdP), such as Okta or Microsoft Entra ID, or to the Identity Center directory.…"
     },
     {
-      "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-20T08:00:00.000Z",
-      "snippet": "Amazon Bedrock Guardrails now offers a Standard tier for contextual grounding checks, which detect and filter hallucinations by checking whether a model response is grounded in your reference source and relevant to the user's query. The Standard tier is more…"
-    },
-    {
       "title": "AWS Partner Central launches Program Navigator, Case Study Generator, and streamlined specialization review",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
       "source": "AWS What's New",
       "pubDate": "2026-10-20T08:00:00.000Z",
       "snippet": "AWS Partner Central now features Program Navigator, a unified experience that lets partners discover, apply for, and track AWS Specialization program applications in one place. Partners can browse specialization designations, view requirements and benefits,…"
+    },
+    {
+      "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T08:00:00.000Z",
+      "snippet": "Amazon Bedrock Guardrails now offers a Standard tier for contextual grounding checks, which detect and filter hallucinations by checking whether a model response is grounded in your reference source and relevant to the user's query. The Standard tier is more…"
     },
     {
       "title": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening",
