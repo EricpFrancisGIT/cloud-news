@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-10-20T19:23:32.966Z",
+  "lastUpdated": "2026-10-21T01:23:54.308Z",
   "items": [
+    {
+      "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T23:26:00.000Z",
+      "snippet": "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning and managing Application Load Balancers (ALBs) and their supporting resources…"
+    },
+    {
+      "title": "Amazon DynamoDB global tables now support disassociating replicas",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T23:00:00.000Z",
+      "snippet": "Amazon DynamoDB global tables now support disassociating a replica without deleting its table or data. Global tables provide fully managed, multi-Region, multi-active replication. You can now stop replication to and from a replica and continue using the same…"
+    },
     {
       "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
       "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
@@ -37,11 +51,53 @@
       "snippet": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models across both the bedrock-runtime and the bedrock-mantle endpoint. Whether you call Claude through boto3 and the bedrock-runtime APIs or through the Messages API and the…"
     },
     {
+      "title": "AWS Clean Rooms now supports Databricks as a data source",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-clean-rooms-supports-databricks",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T12:23:00.000Z",
+      "snippet": "AWS Clean Rooms now supports Databricks as a data source, so collaboration members and their partners can securely analyze data managed in Databricks without moving or revealing the source data. Members query a Databricks table shared through Delta Sharing…"
+    },
+    {
       "title": "AWS IAM Identity Center simplifies identity source changes from Active Directory",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
       "source": "AWS What's New",
       "pubDate": "2026-10-20T08:00:00.000Z",
       "snippet": "AWS IAM Identity Center now retains your workforce identities and their assignments when you change your identity source from Active Directory to an external identity provider (IdP), such as Okta or Microsoft Entra ID, or to the Identity Center directory.…"
+    },
+    {
+      "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T08:00:00.000Z",
+      "snippet": "Amazon Bedrock Guardrails now offers a Standard tier for contextual grounding checks, which detect and filter hallucinations by checking whether a model response is grounded in your reference source and relevant to the user's query. The Standard tier is more…"
+    },
+    {
+      "title": "AWS Partner Central launches Program Navigator, Case Study Generator, and streamlined specialization review",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T08:00:00.000Z",
+      "snippet": "AWS Partner Central now features Program Navigator, a unified experience that lets partners discover, apply for, and track AWS Specialization program applications in one place. Partners can browse specialization designations, view requirements and benefits,…"
+    },
+    {
+      "title": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T08:00:00.000Z",
+      "snippet": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening, an optional setting that reduces the length of your prompt while maintaining or improving your evaluation scores. Advanced Prompt Optimization optimizes prompts for any model on…"
+    },
+    {
+      "title": "AWS Transform for migrations expands support for existing landing zones",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-migrations-landing-zones/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T08:00:00.000Z",
+      "snippet": "AWS Transform now supports more types of existing AWS environments when building landing zones for your migration, including AWS Control Tower landing zones and landing zones built with AWS Organizations. AWS Transform runs a foundation gap analysis of your…"
+    },
+    {
+      "title": "Amazon ElastiCache Serverless for Valkey now supports online migration with zero downtime",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-valkey-online-migration/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T07:00:00.000Z",
+      "snippet": "Amazon ElastiCache Serverless for Valkey now supports online migration from self-managed Valkey and Redis OSS on Amazon EC2 with zero downtime. Zero downtime means zero Errors returned to the client during migration, measured the same way the ElastiCache SLA…"
     },
     {
       "title": "Amazon Connect Customer Global Resiliency now provides business users visibility into resiliency readiness across linked Regions",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-16T16:00:00.000Z",
       "snippet": "Beam, the first open weight model offered by US-based Reflection, is now available in Amazon SageMaker JumpStart, the model hub in Amazon SageMaker AI. According to Beam, they operate at the frontier of open weight models in its class, with strong performance…"
-    },
-    {
-      "title": "AWS Transform announces Azure-to-AWS cloud-native code conversion",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-azure-to-aws-code-conversion/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-16T13:50:00.000Z",
-      "snippet": "Today, AWS announced the general availability of application code conversion from Azure SDK to AWS SDK in AWS Transform, giving you an accelerated path to migrate Microsoft Azure cloud-native .NET applications to AWS. The AWS Transform .NET modernization…"
-    },
-    {
-      "title": "Amazon Braket now in scope for FedRAMP Class C",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/braket-fedramp-class-c/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-16T08:00:00.000Z",
-      "snippet": "Amazon Braket is now in scope for FedRAMP Class C in AWS US Regions where Braket is available. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment,…"
-    },
-    {
-      "title": "Second-generation AWS Outposts racks now supported in the AWS Mexico (Central) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-16T08:00:00.000Z",
-      "snippet": "Second-generation AWS Outposts racks are now supported in the AWS Mexico (Central) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid…"
-    },
-    {
-      "title": "AWS End User Messaging adds registration improvements for faster, higher-quality submissions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-registration-improvements-for-faster-higher-quality-submissions",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-16T07:00:00.000Z",
-      "snippet": "AWS End User Messaging now makes it easier to complete messaging registrations correctly the first time, with clearer guidance, explicit field requirements, and help avoiding the most common rejection reasons. Registrations ask for compliance evidence such as…"
-    },
-    {
-      "title": "AWS End User Messaging now supports Brand Profiles",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-now-supports-brand-profiles",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-16T07:00:00.000Z",
-      "snippet": "Today, AWS End User Messaging announces Brand Profiles, which let you store your brand and company information once and reuse it across your messaging registrations. To send messages on SMS, RCS, and WhatsApp, you register your brand with carriers and…"
-    },
-    {
-      "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-16T07:00:00.000Z",
-      "snippet": "Today, AWS End User Messaging adds a wizard that orchestrates the entire video capture for your RCS agent registration. RCS registrations in multiple countries, including the United States, require a screen recording that demonstrates your messaging…"
-    },
-    {
-      "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-16T07:00:00.000Z",
-      "snippet": "Today, AWS End User Messaging announces end-to-end managed one-time passcode (OTP) verification in Notify. You get a working OTP solution in under five minutes, including AWS phone numbers and code verification, without setting up a phone number, registering…"
-    },
-    {
-      "title": "Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-15T20:40:00.000Z",
-      "snippet": "Web Search on Amazon Bedrock AgentCore is now available in four additional AWS Regions: US East (Ohio), US West (Oregon), Asia Pacific (Sydney), and AWS GovCloud (US-West). Web Search is a fully managed tool that provides AI agents with current grounding from…"
     }
   ]
 }
