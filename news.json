@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T07:27:34.837Z",
+  "lastUpdated": "2026-10-22T13:28:10.798Z",
   "items": [
     {
       "title": "Using AWS WAF to apply mitigations for PHP2Shell RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619)",
@@ -100,6 +100,13 @@
       "snippet": "AWS Network Firewall now supports IP validation, extending domain-based filtering beyond HTTP/HTTPS to protocols such as SFTP and SSH. This new capability validates that a connection's destination IP address was resolved through your VPC's Amazon Route 53 VPC…"
     },
     {
+      "title": "AWS Transform now builds new networks and modernizes security groups",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-new-networks/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-21T08:00:00.000Z",
+      "snippet": "AWS Transform for migrations now gives you three ways to bring your network to AWS. In addition to migrating and modernizing your existing network, you can build a new network from scratch or convert your on-premises access rules into optimized security…"
+    },
+    {
       "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
       "source": "AWS What's New",
@@ -184,6 +191,13 @@
       "snippet": "AWS Partner Central now features Program Navigator, a unified experience that lets partners discover, apply for, and track AWS Specialization program applications in one place. Partners can browse specialization designations, view requirements and benefits,…"
     },
     {
+      "title": "Amazon CloudWatch Alarms now supports tags in alarm actions payload",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-tags-on-alarm-actions-payload",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-20T08:00:00.000Z",
+      "snippet": "Today, Amazon CloudWatch announces support for including alarm tags in action payloads and Amazon EventBridge events, enabling customers to route and filter alarm notifications by tag without additional lookups. When enabled on an alarm, CloudWatch adds the…"
+    },
+    {
       "title": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/",
       "source": "AWS What's New",
@@ -196,20 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-20T08:00:00.000Z",
       "snippet": "AWS Transform now supports more types of existing AWS environments when building landing zones for your migration, including AWS Control Tower landing zones and landing zones built with AWS Organizations. AWS Transform runs a foundation gap analysis of your…"
-    },
-    {
-      "title": "Amazon CloudWatch Alarms now supports tags in alarm actions payload",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-tags-on-alarm-actions-payload",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-20T08:00:00.000Z",
-      "snippet": "Today, Amazon CloudWatch announces support for including alarm tags in action payloads and Amazon EventBridge events, enabling customers to route and filter alarm notifications by tag without additional lookups. When enabled on an alarm, CloudWatch adds the…"
-    },
-    {
-      "title": "Amazon ElastiCache Serverless for Valkey now supports online migration with zero downtime",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-valkey-online-migration/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-20T07:00:00.000Z",
-      "snippet": "Amazon ElastiCache Serverless for Valkey now supports online migration from self-managed Valkey and Redis OSS on Amazon EC2 with zero downtime. Zero downtime means zero Errors returned to the client during migration, measured the same way the ElastiCache SLA…"
     }
   ]
 }
