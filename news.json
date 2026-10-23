@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-10-22T19:29:36.357Z",
+  "lastUpdated": "2026-10-23T01:30:25.269Z",
   "items": [
+    {
+      "title": "Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-customize-cp",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-22T21:10:00.000Z",
+      "snippet": "Amazon Connect Customer Profiles now allows administrators to customize which customer data that agents see in the agent workspace, and how it is displayed, using layouts they build in Profile Explorer. Customer Profiles provides agents with a real-time,…"
+    },
+    {
+      "title": "AWS Continuum for code vulnerabilities is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-22T21:00:00.000Z",
+      "snippet": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities discovers, validates, prioritizes, and remediates code vulnerabilities at machine speed. Continuum for code vulnerabilities builds a…"
+    },
+    {
+      "title": "AWS Continuum for code vulnerabilities is now generally available",
+      "link": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
+      "source": "AWS News Blog",
+      "pubDate": "2026-10-22T20:33:10.000Z",
+      "snippet": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what previously took hours…"
+    },
+    {
+      "title": "Amazon OpenSearch Serverless now supports a 5-second default refresh interval",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-22T18:34:00.000Z",
+      "snippet": "Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested documents become available for search. By lowering the default from…"
+    },
     {
       "title": "AWS CloudFormation now simplifies stack update rollback operations",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-cloudformation-cdk/",
@@ -16,6 +44,13 @@
       "snippet": "Amazon SageMaker AI serverless model customization now supports training session APIs, giving customers full control over their post-training algorithm without provisioning or managing GPU infrastructure. Managed techniques, including SFT, DPO, and other…"
     },
     {
+      "title": "AWS Direct Connect announces 100G expansion in Bangalore, India",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-22T16:00:00.000Z",
+      "snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, direct network access to all public AWS Regions (except…"
+    },
+    {
       "title": "AWS announces AWS Interconnect - last mile preview with Megaport",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announces-AWS-interconnect-last-mile-megaport-preview/",
       "source": "AWS What's New",
@@ -28,6 +63,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-22T08:00:00.000Z",
       "snippet": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen3.8 27B, and Ministral 3 3B, 8B, and 14B models. In addition to deploying these models on SageMaker AI, you can now adapt them to your specific domains and workflows, using…"
+    },
+    {
+      "title": "AgentCore Gateway now supports Bedrock InvokeModel APIs and model fallback",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-22T08:00:00.000Z",
+      "snippet": "Amazon Bedrock AgentCore Gateway now supports the Amazon Bedrock InvokeModel and InvokeModelWithResponseStream APIs on its inference endpoint, along with model fallback routing for inference traffic. With InvokeModel support, you can point your existing…"
     },
     {
       "title": "AWS Lambda MicroVMs is now available in 4 additional AWS regions",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-20T23:00:00.000Z",
       "snippet": "Amazon DynamoDB global tables now support disassociating a replica without deleting its table or data. Global tables provide fully managed, multi-Region, multi-active replication. You can now stop replication to and from a replica and continue using the same…"
-    },
-    {
-      "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
-      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-10-20T17:03:38.000Z",
-      "snippet": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in your account."
-    },
-    {
-      "title": "Amazon WorkSpaces simplifies secure AI agent access to enterprise cloud desktops with less infrastructure to operate and manage",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/workspaces-ai-agents-oauth-connection-management",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-20T17:00:00.000Z",
-      "snippet": "WorkSpaces for AI agents now handles authentication and desktop connections as part of the managed Model Context Protocol (MCP) service, so you can connect agents to governed cloud desktops, removing the need to write custom code. This makes it easy to use…"
-    },
-    {
-      "title": "Managing identity source transition for AWS IAM Identity Center",
-      "link": "https://aws.amazon.com/blogs/security/managing-identity-source-transition-for-aws-iam-identity-center/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-20T16:47:02.000Z",
-      "snippet": "October 20, 2026: This post was republished to reflect the new migration capability from Active Directory to an external identity provider (IdP) or the Identity Center directory, now available in IAM Identity Center. September 2, 2026: This post was…"
-    },
-    {
-      "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-20T15:32:00.000Z",
-      "snippet": "Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an enhanced voice portfolio with higher overall quality, 14 new…"
-    },
-    {
-      "title": "AWS announces TorchNeuron: Native PyTorch Support for AWS Trainium (Public Beta)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-20T15:00:00.000Z",
-      "snippet": "Today, AWS launched the public beta of TorchNeuron, an open source native PyTorch backend for AWS Trainium. Trainium is a portfolio of AI chips designed to deliver high performance and cost efficiency for deep learning AI training and inference workloads.…"
-    },
-    {
-      "title": "Structured outputs for Claude models available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-20T14:00:00.000Z",
-      "snippet": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models across both the bedrock-runtime and the bedrock-mantle endpoint. Whether you call Claude through boto3 and the bedrock-runtime APIs or through the Messages API and the…"
     }
   ]
 }
