@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T01:30:25.269Z",
+  "lastUpdated": "2026-10-23T07:31:01.927Z",
   "items": [
     {
       "title": "Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace",
@@ -177,6 +177,13 @@
       "snippet": "Amazon S3 server access log delivery to Amazon CloudWatch Logs is now available in the AWS GovCloud (US) Regions, AWS European Sovereign Cloud, and AWS China Regions. With your access logs in CloudWatch Logs, you can query them as they arrive, set alarms, and…"
     },
     {
+      "title": "AWS Network Firewall now supports Route 53 Resolved IP Validation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-21T08:00:00.000Z",
+      "snippet": "AWS Network Firewall now supports IP validation, extending domain-based filtering beyond HTTP/HTTPS to protocols such as SFTP and SSH. This new capability validates that a connection's destination IP address was resolved through your VPC's Amazon Route 53 VPC…"
+    },
+    {
       "title": "Amazon SageMaker AI now supports custom sequence lengths for serverless model customization jobs",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-sequence-lengths/",
       "source": "AWS What's New",
@@ -189,13 +196,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-21T08:00:00.000Z",
       "snippet": "AWS Transform for migrations now gives you three ways to bring your network to AWS. In addition to migrating and modernizing your existing network, you can build a new network from scratch or convert your on-premises access rules into optimized security…"
-    },
-    {
-      "title": "AWS Network Firewall now supports Route 53 Resolved IP Validation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-21T08:00:00.000Z",
-      "snippet": "AWS Network Firewall now supports IP validation, extending domain-based filtering beyond HTTP/HTTPS to protocols such as SFTP and SSH. This new capability validates that a connection's destination IP address was resolved through your VPC's Amazon Route 53 VPC…"
     },
     {
       "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
