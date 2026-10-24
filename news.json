@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-24T13:34:29.242Z",
+  "lastUpdated": "2026-10-24T19:35:17.971Z",
   "items": [
     {
-      "title": "Web Search on AWS Bedrock now supports domain filtering and user location controls",
+      "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
       "source": "AWS What's New",
       "pubDate": "2026-10-23T21:04:00.000Z",
-      "snippet": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API…"
+      "snippet": "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses…"
     },
     {
       "title": "Amazon Connect Customer Global Resiliency now supports persistent chat across linked AWS Regions",
