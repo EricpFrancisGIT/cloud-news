@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-10-27T13:54:38.318Z",
+  "lastUpdated": "2026-10-27T19:55:14.767Z",
   "items": [
+    {
+      "title": "AWS becomes first CSP to complete the Cloud High profile assessment with 172 services and features in scope",
+      "link": "https://aws.amazon.com/blogs/security/aws-becomes-first-csp-to-complete-the-cloud-high-profile-assessment-with-172-services-and-features-in-scope/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-27T17:50:05.000Z",
+      "snippet": "We continue to expand the scope of our assurance programs at Amazon Web Services (AWS) and are pleased to announce the successful completion of our first ever Cloud High (PBHH) security assessment with 172 assessed services and features. Completion of this…"
+    },
+    {
+      "title": "Publishing LMS courses with a Kiro SCORM pipeline",
+      "link": "https://aws.amazon.com/blogs/architecture/publishing-lms-courses-with-a-kiro-scorm-pipeline/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-27T17:23:23.000Z",
+      "snippet": "See how to use Kiro, an agentic AI, to automate converting raw training material into compliant SCORM packages that are ready to upload to a learning management system (LMS)."
+    },
+    {
+      "title": "Vessel-specific voyage optimization with machine learning: Manta on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/vessel-specific-voyage-optimization-with-machine-learning-manta-on-aws/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-27T17:14:32.000Z",
+      "snippet": "Manta Marine Technologies closes the gap between seemingly identical ships by training machine learning models on each vessel's own operational history. Learn how Manta delivers vessel-specific voyage optimization on AWS to help shipowners reduce fuel…"
+    },
+    {
+      "title": "How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves",
+      "link": "https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-27T17:10:35.000Z",
+      "snippet": "Anchorage Digital and Turnkey built verifiable infrastructure on AWS Nitro Enclaves so crypto wallets can cryptographically verify which code parsed a transaction. This post covers the architecture, the attestation-gated access pattern, and how it extends to…"
+    },
+    {
+      "title": "Part 3 – Cybersecurity journeys: The work behind the work",
+      "link": "https://aws.amazon.com/blogs/security/part-3-cybersecurity-journeys-the-work-behind-the-work/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-27T17:00:07.000Z",
+      "snippet": "The most important work I’ve done in cybersecurity would make for terrible television. There were no countdown clocks and no frantic typing, just a lot of careful reading, a lot of hard conversations, and the occasional quiet moment where everything finally…"
+    },
+    {
+      "title": "Amazon ECR now supports replication backfill for existing container images",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T20:24:00.000Z",
+      "snippet": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed…"
+    },
     {
       "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
@@ -28,6 +70,13 @@
       "source": "AWS Architecture Blog",
       "pubDate": "2026-10-26T17:35:01.000Z",
       "snippet": "The next generation of AWS Resilience Hub introduces recommended resilience testing: four pre-configured, AWS FIS-powered tests that validate how your service detects and recovers from failures across Availability Zones, dependencies, and Regions, turning…"
+    },
+    {
+      "title": "Amazon IVS Low-Latency Streaming now provides a failover slate",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ivs-low-latency-streaming-failover-slate",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T15:40:00.000Z",
+      "snippet": "Amazon Interactive Video Service (Amazon IVS) Low-Latency Streaming now provides a failover slate, an animated image that IVS displays to viewers when a broadcaster's stream is unexpectedly interrupted. Instead of a buffering wheel or frozen frame, viewers…"
     },
     {
       "title": "Amazon SageMaker Unified Studio adds light mode support for IDC-based domains",
@@ -84,6 +133,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-26T08:00:00.000Z",
       "snippet": "AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement instance and waits for it to pass health checks before…"
+    },
+    {
+      "title": "AWS Elemental MediaConnect Router now supports endpoint connection management",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T08:00:00.000Z",
+      "snippet": "AWS Elemental MediaConnect Router now supports managing external connections through a new endpoint registry. The registry provides a centralized interface to register and manage both standard endpoints—devices or software outside the service, such as…"
     },
     {
       "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
@@ -154,62 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-22T21:00:00.000Z",
       "snippet": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities discovers, validates, prioritizes, and remediates code vulnerabilities at machine speed. Continuum for code vulnerabilities builds a…"
-    },
-    {
-      "title": "Amazon OpenSearch Service introduces intelligent ingestion for logs and documents in Amazon S3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-intelligent-ingestion-logs-documents-s3",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T20:54:00.000Z",
-      "snippet": "Amazon OpenSearch Serverless now offers intelligent ingestion, a fully managed feature that turns logs and documents stored in Amazon S3 into searchable content in Amazon OpenSearch Serverless (NextGen) collections . With intelligent ingestion, you can set up…"
-    },
-    {
-      "title": "AWS Continuum for code vulnerabilities is now generally available",
-      "link": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
-      "source": "AWS News Blog",
-      "pubDate": "2026-10-22T20:33:10.000Z",
-      "snippet": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what previously took hours…"
-    },
-    {
-      "title": "Amazon OpenSearch Serverless now supports a 5-second default refresh interval",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T18:34:00.000Z",
-      "snippet": "Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested documents become available for search. By lowering the default from…"
-    },
-    {
-      "title": "AWS CloudFormation now simplifies stack update rollback operations",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-cloudformation-cdk/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T17:30:00.000Z",
-      "snippet": "AWS CloudFormation now makes it simpler to complete an update rollback and get back to deploying. An update rollback returns your stack to a known good state. Starting today, if some resources cannot roll back automatically, force rollback enables you to…"
-    },
-    {
-      "title": "Amazon SageMaker AI announces training session APIs for serverless model customization",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T16:30:00.000Z",
-      "snippet": "Amazon SageMaker AI serverless model customization now supports training session APIs, giving customers full control over their post-training algorithm without provisioning or managing GPU infrastructure. Managed techniques, including SFT, DPO, and other…"
-    },
-    {
-      "title": "AWS Direct Connect announces 100G expansion in Bangalore, India",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T16:00:00.000Z",
-      "snippet": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, direct network access to all public AWS Regions (except…"
-    },
-    {
-      "title": "Amazon MSK Connect now supports pausing and resuming connectors",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-pause-resume",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T15:00:00.000Z",
-      "snippet": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) now supports pausing and resuming connectors, letting you temporarily pause a connector from processing records and resume it later. This is useful when you need to stop data flow during…"
-    },
-    {
-      "title": "AWS announces AWS Interconnect - last mile preview with Megaport",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announces-AWS-interconnect-last-mile-megaport-preview/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T12:00:00.000Z",
-      "snippet": "AWS launches AWS Interconnect - last mile preview with Megaport, a fully managed connectivity offering that allows customers to connect their branch offices, data centers, and remote locations to AWS with just a few clicks, eliminating the friction and…"
     }
   ]
 }
