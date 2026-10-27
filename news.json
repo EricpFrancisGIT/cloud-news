@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T19:51:14.207Z",
+  "lastUpdated": "2026-10-27T01:52:24.533Z",
   "items": [
     {
       "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
@@ -30,11 +30,25 @@
       "snippet": "The next generation of AWS Resilience Hub introduces recommended resilience testing: four pre-configured, AWS FIS-powered tests that validate how your service detects and recovers from failures across Availability Zones, dependencies, and Regions, turning…"
     },
     {
+      "title": "Amazon SageMaker Unified Studio adds light mode support for IDC-based domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/smus-light-mode",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T15:32:00.000Z",
+      "snippet": "Today, AWS announces light mode support in Amazon SageMaker Unified Studio for Identity Center (IDC) based domains. Customers can now configure the visual interface mode to match their preference, choosing between dark and light themes. With this launch,…"
+    },
+    {
       "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
       "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
       "source": "AWS News Blog",
       "pubDate": "2026-10-26T15:02:24.000Z",
       "snippet": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point…"
+    },
+    {
+      "title": "Amazon Connect Customer expands testing and simulation to validate flow action outcomes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-validate-flow-actions/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T15:00:00.000Z",
+      "snippet": "Amazon Connect Customer now enables you to validate the outcomes of your customer experience flow actions during testing and simulation. In addition to confirming that an action started, you can now verify the data it returns when it completes, such as a…"
     },
     {
       "title": "Amazon Connect Customer now lets you view metrics by customer lifetime value and repeat-caller status",
@@ -56,6 +70,34 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-26T08:00:00.000Z",
       "snippet": "Trusted identity propagation carries a user's identity with their request, so AWS services can grant permissions based on who the user is and their underlying group associations, and log that user's access for auditing. With cross-Region support, this…"
+    },
+    {
+      "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T08:00:00.000Z",
+      "snippet": "AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under NIST FIPS 203, which enables two parties to establish a shared secret. NIST designed ML-KEM to replace the…"
+    },
+    {
+      "title": "AWS EC2 Auto Scaling now supports Launch Before Terminate at account-level to replace instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-auto-scaling-launch-before-terminate/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T08:00:00.000Z",
+      "snippet": "AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement instance and waits for it to pass health checks before…"
+    },
+    {
+      "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T07:30:00.000Z",
+      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2017 CU31+GDR…"
+    },
+    {
+      "title": "AWS Glue Data Catalog now supports OAuth for Apache Iceberg REST Catalog APIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-catalog-oauth-iceberg-rest/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T04:00:00.000Z",
+      "snippet": "AWS Glue Data Catalog now supports OAuth 2.0 bearer token authentication for Apache Iceberg REST Catalog (IRC) APIs using AWS Sign-In. The Apache Iceberg REST Catalog specification defines OAuth 2.0 as its standard authentication mechanism, and query engines…"
     },
     {
       "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-22T12:00:00.000Z",
       "snippet": "AWS launches AWS Interconnect - last mile preview with Megaport, a fully managed connectivity offering that allows customers to connect their branch offices, data centers, and remote locations to AWS with just a few clicks, eliminating the friction and…"
-    },
-    {
-      "title": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen 3.8 and Ministral 3 models",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-sagemaker-muse-qwen-ministral/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T08:00:00.000Z",
-      "snippet": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen3.8 27B, and Ministral 3 3B, 8B, and 14B models. In addition to deploying these models on SageMaker AI, you can now adapt them to your specific domains and workflows, using…"
-    },
-    {
-      "title": "AgentCore Gateway now supports Bedrock InvokeModel APIs and model fallback",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T08:00:00.000Z",
-      "snippet": "Amazon Bedrock AgentCore Gateway now supports the Amazon Bedrock InvokeModel and InvokeModelWithResponseStream APIs on its inference endpoint, along with model fallback routing for inference traffic. With InvokeModel support, you can point your existing…"
-    },
-    {
-      "title": "AWS Lambda MicroVMs is now available in 4 additional AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-microvms-4-additional-regions",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T07:06:00.000Z",
-      "snippet": "AWS Lambda MicroVMs is now available in 4 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Malaysia), Asia Pacific (Thailand), and Europe (Spain). With this launch, you can use Lambda MicroVMs in a total of 14 AWS Regions. Lambda MicroVMs is a…"
-    },
-    {
-      "title": "Amazon Quick Now Available in the AWS Singapore Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-now-available-in-the-aws-singapore-region/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T07:00:00.000Z",
-      "snippet": "Amazon Quick is now available in the AWS Asia Pacific (Singapore) region (ap-southeast-1). This launch allows customers in Singapore to access the full power of Amazon Quick while meeting local requirements for data sovereignty. Amazon Quick provides business…"
-    },
-    {
-      "title": "Using AWS WAF to apply mitigations for PHP2Shell RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619)",
-      "link": "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-22T00:50:04.000Z",
-      "snippet": "October 23, 2026-2: The PHP project disclosed CVE-2026-115560, a separate remote code execution issue that the October 21 releases don’t fix. It affects only applications with an uncommon configuration that keeps session upload progress enabled. The…"
-    },
-    {
-      "title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
-      "link": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-      "source": "AWS Security Blog",
-      "pubDate": "2026-10-21T22:36:26.000Z",
-      "snippet": "Amazon Threat Intelligence identified a PHP2Shell exploitation attempt dating to Oct. 17, 2026, in MadPot telemetry, four days before public disclosure of CVE-2026-109618 and CVE-2026-109619. The exploit attempt originated from an IP address associated with a…"
     }
   ]
 }
