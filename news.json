@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-10-27T19:55:14.767Z",
+  "lastUpdated": "2026-10-28T01:55:52.182Z",
   "items": [
+    {
+      "title": "Introducing Route 53 Resolved IP Validation for AWS Network Firewall",
+      "link": "https://aws.amazon.com/blogs/security/introducing-route-53-resolved-ip-validation-for-aws-network-firewall/",
+      "source": "AWS Security Blog",
+      "pubDate": "2026-10-27T23:46:13.000Z",
+      "snippet": "Your workloads reach most destinations by domain name, but a firewall can only act on what it sees in the traffic. For HTTP and HTTPS, AWS Network Firewall domain rules match the name that the client puts in the request, and the client chooses that name. The…"
+    },
+    {
+      "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-27T23:31:00.000Z",
+      "snippet": "Amazon Elastic Container Service (Amazon ECS) now supports GPU sharing with NVIDIA Multi-Process Service (MPS), enabling you to run multiple Amazon ECS tasks concurrently on a single NVIDIA GPU. GPU sharing helps you increase GPU utilization and reduce…"
+    },
+    {
+      "title": "SageMaker MLflow Apps now support MLflow 3.16",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-27T20:40:00.000Z",
+      "snippet": "Amazon SageMaker AI MLflow Apps now support MLflow 3.16, bringing a redesigned tracing experience and faster experiment tracking to your generative AI and machine learning workflows. MLflow 3.16 improves debugging and analysis of generative AI applications…"
+    },
     {
       "title": "AWS becomes first CSP to complete the Cloud High profile assessment with 172 services and features in scope",
       "link": "https://aws.amazon.com/blogs/security/aws-becomes-first-csp-to-complete-the-cloud-high-profile-assessment-with-172-services-and-features-in-scope/",
@@ -35,6 +56,27 @@
       "source": "AWS Security Blog",
       "pubDate": "2026-10-27T17:00:07.000Z",
       "snippet": "The most important work I’ve done in cybersecurity would make for terrible television. There were no countdown clocks and no frantic typing, just a lot of careful reading, a lot of hard conversations, and the occasional quiet moment where everything finally…"
+    },
+    {
+      "title": "Amazon Aurora serverless now supports up to 384 ACUs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-27T16:00:00.000Z",
+      "snippet": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora PostgreSQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each ACU provides approximately 2 gibibytes (GiB) of memory with…"
+    },
+    {
+      "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-27T15:21:00.000Z",
+      "snippet": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters without creating a new cluster. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to…"
+    },
+    {
+      "title": "Amazon Corretto October 2026 Patch Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-27T14:00:00.000Z",
+      "snippet": "On October 26, 2026 Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10, and 8u512 are now…"
     },
     {
       "title": "Amazon ECR now supports replication backfill for existing container images",
@@ -168,48 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-23T17:00:00.000Z",
       "snippet": "Amazon Connect Customer Global Resiliency now provides customers a mechanism to deliver long, persistent chat experiences across linked AWS Regions. With this capability, end users can resume previous conversations with full context, metadata, and transcripts…"
-    },
-    {
-      "title": "AWS Transit Gateway and AWS Cloud WAN now support 1:1 NAT",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transit-gateway-cloud-wan-1-1-nat/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-23T15:43:00.000Z",
-      "snippet": "AWS Transit Gateway and AWS Cloud WAN now provide managed one-to-one network address translation (NAT) directly on their attachments, through integration with Regional Private NAT Gateway. This enables customers to connect private networks that share the same…"
-    },
-    {
-      "title": "Amazon Corretto October 2026 Quarterly Updates",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-october-2026-quarterly-updates",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-23T14:00:00.000Z",
-      "snippet": "On October 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 27.0.1.0.10, 25.0.5.0.9, 21.0.13.0.10, 17.0.21.0.10, 11.0.33.0.9, and 8u512 are now available for…"
-    },
-    {
-      "title": "Amazon MWAA now available in Mexico (Central) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-mexico-central/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-23T08:00:00.000Z",
-      "snippet": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Provisioned environments are now available in the Mexico (Central) Region (mx-central-1). Amazon MWAA Serverless was already available in this Region, and customers can now also use Amazon MWAA…"
-    },
-    {
-      "title": "Amazon EMR on EKS reduces EMR charge by 30 percent",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-eks-reduces-emr-charge-30-percent/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-23T08:00:00.000Z",
-      "snippet": "Amazon EMR announces a reduction of 30 percent in the EMR charge added to EKS when running EMR on EKS. This price decrease applies to both the per-vCPU-hour charge and the per-GB-hour charge, while the underlying Amazon EKS charges remain unchanged. All EMR…"
-    },
-    {
-      "title": "Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-customize-cp",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T21:10:00.000Z",
-      "snippet": "Amazon Connect Customer Profiles now allows administrators to customize which customer data that agents see in the agent workspace, and how it is displayed, using layouts they build in Profile Explorer. Customer Profiles provides agents with a real-time,…"
-    },
-    {
-      "title": "AWS Continuum for code vulnerabilities is now generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-22T21:00:00.000Z",
-      "snippet": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities discovers, validates, prioritizes, and remediates code vulnerabilities at machine speed. Continuum for code vulnerabilities builds a…"
     }
   ]
 }
