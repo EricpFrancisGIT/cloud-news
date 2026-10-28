@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T01:55:52.182Z",
+  "lastUpdated": "2026-10-28T07:56:24.419Z",
   "items": [
     {
       "title": "Introducing Route 53 Resolved IP Validation for AWS Network Firewall",
@@ -77,6 +77,13 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-27T14:00:00.000Z",
       "snippet": "On October 26, 2026 Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10, and 8u512 are now…"
+    },
+    {
+      "title": "Amazon Neptune now supports online index rebuild to reclaim storage",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-27T08:00:00.000Z",
+      "snippet": "Amazon Neptune Database now supports online index rebuild, a new capability that helps database administrators and application teams defragment Neptune indexes and reclaim unused storage space without taking their database offline. Over time, insert, update,…"
     },
     {
       "title": "Amazon ECR now supports replication backfill for existing container images",
@@ -203,13 +210,6 @@
       "source": "AWS What's New",
       "pubDate": "2026-10-23T21:04:00.000Z",
       "snippet": "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses…"
-    },
-    {
-      "title": "Amazon Connect Customer Global Resiliency now supports persistent chat across linked AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-persistent-chat",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-23T17:00:00.000Z",
-      "snippet": "Amazon Connect Customer Global Resiliency now provides customers a mechanism to deliver long, persistent chat experiences across linked AWS Regions. With this capability, end users can resume previous conversations with full context, metadata, and transcripts…"
     }
   ]
 }
