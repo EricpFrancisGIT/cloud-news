@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-10-28T13:57:03.798Z",
+  "lastUpdated": "2026-10-28T19:57:51.108Z",
   "items": [
+    {
+      "title": "How Revinate accelerated API adoption with Amazon API Gateway",
+      "link": "https://aws.amazon.com/blogs/architecture/how-revinate-accelerated-api-adoption-with-amazon-api-gateway/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-28T18:32:34.000Z",
+      "snippet": "Accelerating API adoption while reducing operational overhead is a challenge that every growing organization faces. For Revinate, a hospitality provider serving over 12,500 hotels worldwide and powering more than 1.25 billion guest profiles, Amazon API…"
+    },
+    {
+      "title": "Automating agentic AI Well-Architected reviews with the AWS Agentic AI Lens",
+      "link": "https://aws.amazon.com/blogs/architecture/automating-agentic-ai-well-architected-reviews-with-the-aws-agentic-ai-lens/",
+      "source": "AWS Architecture Blog",
+      "pubDate": "2026-10-28T18:25:50.000Z",
+      "snippet": "Smarsh used the AWS Well-Architected Framework's Agentic AI Lens to review its first agentic workload. Because the lens is not yet selectable in the console, the team encoded it as a Claude skill that assessed all 150 best practices against the workload's…"
+    },
+    {
+      "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-28T17:33:00.000Z",
+      "snippet": "Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load balancing using Gateway and HTTPRoute resources, and EKS Auto…"
+    },
     {
       "title": "Introducing Route 53 Resolved IP Validation for AWS Network Firewall",
       "link": "https://aws.amazon.com/blogs/security/introducing-route-53-resolved-ip-validation-for-aws-network-firewall/",
@@ -170,13 +191,6 @@
       "snippet": "Trusted identity propagation carries a user's identity with their request, so AWS services can grant permissions based on who the user is and their underlying group associations, and log that user's access for auditing. With cross-Region support, this…"
     },
     {
-      "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-26T08:00:00.000Z",
-      "snippet": "AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under NIST FIPS 203, which enables two parties to establish a shared secret. NIST designed ML-KEM to replace the…"
-    },
-    {
       "title": "AWS EC2 Auto Scaling now supports Launch Before Terminate at account-level to replace instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-auto-scaling-launch-before-terminate/",
       "source": "AWS What's New",
@@ -184,32 +198,18 @@
       "snippet": "AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement instance and waits for it to pass health checks before…"
     },
     {
+      "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
+      "source": "AWS What's New",
+      "pubDate": "2026-10-26T08:00:00.000Z",
+      "snippet": "AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under NIST FIPS 203, which enables two parties to establish a shared secret. NIST designed ML-KEM to replace the…"
+    },
+    {
       "title": "AWS Elemental MediaConnect Router now supports endpoint connection management",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
       "source": "AWS What's New",
       "pubDate": "2026-10-26T08:00:00.000Z",
-      "snippet": "AWS Elemental MediaConnect Router now supports managing external connections through a new endpoint registry. The registry provides a centralized interface to register and manage both standard endpoints—devices or software outside the service, such as…"
-    },
-    {
-      "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-26T07:30:00.000Z",
-      "snippet": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2017 CU31+GDR…"
-    },
-    {
-      "title": "AWS Glue Data Catalog now supports OAuth for Apache Iceberg REST Catalog APIs",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-catalog-oauth-iceberg-rest/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-26T04:00:00.000Z",
-      "snippet": "AWS Glue Data Catalog now supports OAuth 2.0 bearer token authentication for Apache Iceberg REST Catalog (IRC) APIs using AWS Sign-In. The Apache Iceberg REST Catalog specification defines OAuth 2.0 as its standard authentication mechanism, and query engines…"
-    },
-    {
-      "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
-      "source": "AWS What's New",
-      "pubDate": "2026-10-23T21:04:00.000Z",
-      "snippet": "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses…"
+      "snippet": "AWS Elemental MediaConnect Router now supports managing connections through a new endpoint registry, which allows you to register devices or software external to MediaConnect and connect those endpoints to your router inputs and outputs. You can share…"
     }
   ]
 }
